@@ -1,0 +1,5 @@
+# Local reproduction dependencies and optional upstream downloads.
+.venv/
+**/__pycache__/
+assets/
+broad-study/source/allie-test.jsonl

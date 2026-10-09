@@ -1,0 +1,2 @@
+studies/**/*.json -diff linguist-generated=true
+studies/**/*.jsonl -diff linguist-generated=true
