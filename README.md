@@ -6,6 +6,14 @@ Research reports, datasets and reproduction tools live in this repository, separ
 
 ## Studies
 
+### Temperature and Top-P sampling
+
+[Read the report](studies/maia3-sampling/REPORT.md) · [Evidence and reproduction guide](studies/maia3-sampling/README.md)
+
+Lower sampling settings made Maia stronger in the tested matches but reduced opening variety. The report covers the original 1.0/1.0, 0.5/0.9 and greedy comparisons, plus the 1.0/0.95 follow-up. Recorded games, human opening references, diagnostics, figures and reproduction tools are included. Results describe these experiments, rather than a universal Elo guarantee or an upstream recommendation.
+
+The original app-repository publication remains available for older app versions.
+
 ### Move-history input — 9 October 2026
 
 [Read the report](studies/move-history-2026-10-09/REPORT.md) · [Evidence and reproduction guide](studies/move-history-2026-10-09/README.md)
