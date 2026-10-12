@@ -1,0 +1,20 @@
+{
+  "source_repository": "https://github.com/Dash1971/maia-chess-android",
+  "source_commit": "20f92636c23217154095e2e9ebe0556b2facc887",
+  "source_directory": "docs/research/maia3-sampling",
+  "destination_directory": "studies/maia3-sampling",
+  "source_files": 299,
+  "source_bytes": 134788387,
+  "byte_identical_source_files": 296,
+  "editorial_changes": [
+    "README.md",
+    "followup/README.md",
+    "SHA256SUMS"
+  ],
+  "measurement_manifest_sha256": "57c887b04bb4fde98dd1e6301c11608e3109a060b0668ae4314032dd280b1437",
+  "followup_raw_manifest_sha256": "23ab79fc83f7594cd280a9974903e00e64886d76defaf3f72a94f4a9f4ecdea4",
+  "broken_relative_markdown_links": [],
+  "original_app_publication": "Retained unchanged; older app versions continue to use it.",
+  "historical_scripts": "Preserved byte for byte; documented portable and offline reproduction commands remain valid.",
+  "models": "No model binaries copied. Historical immutable model-download links retained."
+}
