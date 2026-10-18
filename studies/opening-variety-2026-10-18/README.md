@@ -23,6 +23,10 @@ match-result analysis, without changing the match/opening comparisons.
 - `verify_dart_games.dart`: independent replay in the app's chess library.
 - `verify_cached.py`: independent cached W/D/L, probability, diagnostic and
   opening-count checks, without neural-network inference.
+- `inspect_ties.py`: replay shards with equal-weight nucleus-boundary moves
+  and compare every encountered boundary against the pinned Dart sampler.
+- `verify_seeded.py`: re-infer one complete reverse-color pair per rating and
+  contrast from the recorded seeds, checking every sampled move.
 - `source/`: public app code and lockfile pinned to Preview
   `3702f6f197135dbac9ae38a9aa9720e15c603e5c`.
 - `environment.json`: frozen Python dependencies and Stockfish identity/hash.
@@ -104,6 +108,17 @@ The generated sampler helper includes the pinned Dart encoder, legal-move
 sampler and opening-phase class. It uses a fixed uniform draw to compare
 distributions and selections; Python's seeded RNG algorithm does not pretend
 to reproduce Dart's seeded random-number generator.
+
+```sh
+python inspect_ties.py --model /path/to/maia3-79m.onnx --dart /path/to/dart --packages /path/to/app/.dart_tool/package_config.json
+python verify_seeded.py --model /path/to/maia3-79m.onnx
+```
+
+The tie diagnostic reuses a prior scan only when its recorded shard checksum
+and number of observed boundary ties still match, then reruns the Dart
+comparison on the saved logits. The final cached audit requires coverage of
+every observed boundary tie and matching retained probability distributions.
+These checks do not replace games or alter the sampling policy.
 
 ## Attribution and scope
 

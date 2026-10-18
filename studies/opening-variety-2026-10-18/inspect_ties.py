@@ -23,7 +23,11 @@ def main():
     ap.add_argument('--packages', required=True)
     args = ap.parse_args()
     policy = Policy(args.model)
-    cases, scans = [], []
+    inputs = HERE / 'verification/tie-inputs.json'
+    previous = HERE / 'verification/tie-investigation.json'
+    cases = json.loads(inputs.read_text()) if inputs.exists() else []
+    old_scans = {r['file']: r for r in json.loads(previous.read_text())['scans']} if previous.exists() else {}
+    scans = []
     for file in sorted((HERE / 'data').glob('*.receipt.json')):
         receipt = json.loads(file.read_text())
         count = receipt['boundary_ties_this_run']
@@ -31,6 +35,14 @@ def main():
             continue
         raw = file.with_name(file.name.replace('.receipt.json', '.jsonl'))
         rows = [json.loads(l) for l in raw.read_text().splitlines()]
+        ids = {r['id'] for r in rows}
+        old = old_scans.get(raw.name)
+        cached_cases = [c for c in cases if c['game'] in ids]
+        if old and old['sha256'] == sha256(raw) and old['ties'] == count and len(cached_cases) == count:
+            scans.append(old)
+            print('reused verified scan', raw.name, flush=True)
+            continue
+        cases = [c for c in cases if c['game'] not in ids]
         initial = len(cases)
         for row in rows:
             board = chess.Board()
@@ -61,7 +73,6 @@ def main():
         scans.append({'file': raw.name, 'sha256': sha256(raw),
                       'games_replayed': len(rows), 'ties': count})
         print('scanned', raw.name, flush=True)
-    inputs = HERE / 'verification/tie-inputs.json'
     inputs.write_text(json.dumps(cases, separators=(',', ':')) + '\n')
     if cases:
         completed = subprocess.run([args.dart, '--packages=' + args.packages,

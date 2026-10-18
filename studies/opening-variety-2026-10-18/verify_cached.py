@@ -98,11 +98,21 @@ def main():
                 assert len(count) == published['unique']
                 assert abs(effective - published['effective']) < 1e-10
     checks.append('All opening-family counts/entropies and matched first-five-move sequences')
+    tied = {}
     for path in (HERE / 'data').glob('*.receipt.json'):
         receipt = json.loads(path.read_text())
         raw = path.with_name(path.name.replace('.receipt.json', '.jsonl'))
         assert digest(raw) == receipt['sha256']
-        assert receipt['boundary_ties_this_run'] == 0, ('cutoff ties need investigation', path.name)
+        if receipt['boundary_ties_this_run']:
+            tied[raw.name] = (digest(raw), receipt['boundary_ties_this_run'])
+    investigation = json.loads((HERE / 'verification/tie-investigation.json').read_text())
+    assert {r['file']: (r['sha256'], r['ties']) for r in investigation['scans']} == tied
+    assert investigation['investigated_boundary_ties'] == sum(v[1] for v in tied.values())
+    assert len(investigation['findings']) == investigation['investigated_boundary_ties']
+    assert investigation['all_probability_parity']
+    assert all(r['same_retained_set'] and r['maximum_probability_difference'] < 1e-12
+               for r in investigation['findings'])
+    checks.append('All observed tied nucleus boundaries investigated against pinned Dart; probability parity')
     out = {'passed': True, 'model_inference_calls': 0, 'checks': checks,
            'results_sha256': digest(HERE / 'results.json'),
            'quality_results_sha256': digest(HERE / 'quality-results.json'),
