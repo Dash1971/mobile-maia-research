@@ -1,8 +1,7 @@
 # Opening variety and Top-P 0.95
 
-**Study in progress.** The fixed primary contrast is complete; control matches,
-lower/higher-rating comparisons, opening rollouts and quality diagnostics are
-still running. No default recommendation is finalized and no app settings have
+**Study in progress.** All 3,000 full games are complete; opening rollouts and
+the remaining quality diagnostics are still running. No default recommendation is finalized and no app settings have
 changed. This draft will be replaced by the full report after the fixed design
 and independent checks finish.
 
@@ -30,10 +29,31 @@ chess library, with matching legal moves, final positions, natural results and
 termination reasons. See [the replay receipt](verification/fixed-primary-dart-replay.json)
 and [the primary statistics](verification/fixed-primary-preview.json).
 
-This establishes a strength gain in this fixed comparison. It does not yet
-establish preservation of opening variety, a benefit at other conditioning
-ratings, or that this is a better overall default for the intended human-like
-playing experience. The remaining prespecified comparisons continue unchanged.
+This supports a strength gain in this fixed comparison. It does not establish
+preservation of opening variety or that this is a better overall default for
+the intended human-like playing experience.
+
+## Completed controls and cross-rating matches
+
+B uses Temperature 1.0 / Top-P 0.95 throughout, with no opening override.
+Each cell reports the first arm's score and paired-cluster 95% interval.
+
+| Rating input | C against A | B against A | C against B | Games per comparison |
+| --- | ---: | ---: | ---: | ---: |
+| 600 | 55.00% (48.00–61.75%) | 63.75% (57.25–70.25%) | 48.50% (41.75–55.25%) | 200 |
+| 1600 | 60.67% (56.75–64.58%) | 58.75% (54.92–62.50%) | 51.67% (47.92–55.42%) | 600 |
+| 2400 | 64.00% (58.00–70.00%) | 61.50% (55.25–67.75%) | 48.00% (41.75–54.25%) | 200 |
+
+The candidate's lower-rating interval includes 50%; that comparison is
+inconclusive. The higher-rating comparison supports the primary direction.
+The C–B intervals do not establish a strength advantage for the opening
+override itself, nor do they establish equivalence between C and B.
+
+All 3,000 games passed independent replay in the app's chess library, and none
+reached the artificial 400-ply cap. The one observed tied nucleus boundary
+passed [direct comparison against the pinned Dart sampler](verification/tie-investigation.json).
+The [18-game seed-reproduction audit](verification/seeded-replay.json) also
+reproduced every sampled move across all ratings and contrasts.
 
 ## Completed 1600 quality diagnostic
 
