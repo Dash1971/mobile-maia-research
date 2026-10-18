@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "model_inference_calls": 0,
+  "checks": [
+    "600/C-A: WDL, score and color balance",
+    "600/B-A: WDL, score and color balance",
+    "600/C-B: WDL, score and color balance",
+    "1600/C-A: WDL, score and color balance",
+    "1600/B-A: WDL, score and color balance",
+    "1600/C-B: WDL, score and color balance",
+    "2400/C-A: WDL, score and color balance",
+    "2400/B-A: WDL, score and color balance",
+    "2400/C-B: WDL, score and color balance",
+    "180 cached quality positions: legal coverage, normalized probabilities, expected losses and thresholds",
+    "All opening-family counts/entropies and matched first-five-move sequences",
+    "All observed tied nucleus boundaries investigated against pinned Dart; probability parity"
+  ],
+  "results_sha256": "541b6ec970a536aa8cd6dfc4fad092a71f46ae872a5816e3b626e5189a485387",
+  "quality_results_sha256": "98011aeeb1bc2fe891be2dad51bbad6038091592bc363667514d106764fbbb11",
+  "auditor_sha256": "b29740ef8322fb1e18e44f87293cca44fa06feb8048f81498850339fa863d040"
+}

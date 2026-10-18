@@ -6,6 +6,17 @@ Research reports, datasets and reproduction tools live in this repository, separ
 
 ## Studies
 
+### Opening variety and Top-P 0.95 — 18 October 2026
+
+[Read the report](studies/opening-variety-2026-10-18/REPORT.md) · [Evidence and reproduction guide](studies/opening-variety-2026-10-18/README.md)
+
+The 79M comparison covers 3,000 full games, 5,400 opening rollouts and 180
+quality positions at rating inputs 600, 1600 and 2400. Top-P 0.95 with full
+sampling through the first five moves improves the primary match score and
+preserves the measured broad opening mix. It is recommended as a balanced
+default candidate in a separate app change; finer opening variation and
+human-move fidelity remain unresolved. Application defaults are unchanged.
+
 ### Temperature and Top-P sampling
 
 [Read the report](studies/maia3-sampling/REPORT.md) · [Evidence and reproduction guide](studies/maia3-sampling/README.md)

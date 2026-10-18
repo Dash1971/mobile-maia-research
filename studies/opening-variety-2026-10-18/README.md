@@ -1,5 +1,8 @@
 # Opening variety and Top-P 0.95
 
+[Read the completed report](REPORT.md). The published collection contains
+3,000 full games, 5,400 opening rollouts and 180 diagnostic positions.
+
 This study compares the current 1.0/1.0 policy with 1.0/0.95, with and without
 the first-five-moves opening override. It tracks
 [Preview issue #155](https://github.com/Dash1971/maia-chess-android-preview/issues/155).
@@ -45,6 +48,10 @@ Weights are not duplicated in this repository. Obtain them from the pinned
 using Git LFS. `core.py` rejects a different model hash.
 
 ## Recompute from recorded data
+
+Verify the published study files against [SHA256SUMS](SHA256SUMS), for example
+with `shasum -a 256 -c SHA256SUMS` from this directory. The checksum file covers
+the study's recorded files and scripts, excluding itself and ignored caches.
 
 Use a disposable checkout or copy, keeping the original recorded files intact.
 With Python 3.12.13:

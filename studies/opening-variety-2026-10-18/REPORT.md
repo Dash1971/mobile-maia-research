@@ -1,10 +1,19 @@
 # Opening variety and Top-P 0.95
 
-**Study in progress.** All 3,000 full games and the 180-position quality
-diagnostic are complete; opening rollouts are still running. No default
-recommendation is finalized and no app settings have
-changed. This draft will be replaced by the full report after the fixed design
-and independent checks finish.
+Completed 18 October 2026: **3,000 full games, 5,400 opening rollouts and 180
+quality positions**, using the pinned Maia-3 79M model. All 8,400 game/rollout
+records and 404,780 plies passed independent replay in the app's chess library.
+
+**Recommendation: propose Temperature 1.0 / Top-P 0.95 with Max variety in
+opening enabled as a balanced default in a separate Preview change.** It
+improves the primary match score, has no contrary cross-rating point estimate,
+and preserves the measured broad opening mix. Keep 1.0/1.0 available for people
+who want Maia's full, untrimmed probability distribution.
+
+This is a choice about the desired playing experience, not proof of better
+human-move fidelity. Opening-label resolution is limited, the 600 match is
+inconclusive, and the five-move cutoff has not been optimized. No application
+defaults, saved preferences or releases were changed by this research.
 
 ## Completed primary comparison
 
@@ -56,6 +65,69 @@ passed [direct comparison against the pinned Dart sampler](verification/tie-inve
 The [18-game seed-reproduction audit](verification/seeded-replay.json) also
 reproduced every sampled move across all ratings and contrasts.
 
+Using earlier prospective-claim draw endpoints changes 69 results across the
+3,000 games. C–A scores become 55.00%, 60.42% and 63.00% at 600/1600/2400;
+the direction is unchanged. The primary results use the app's actual draw
+rules, not prospective claims. See [the sensitivity data](verification/claim-sensitivity.json).
+
+## Opening mix and later divergence
+
+These are equal-sized samples through 24 plies, carrying the last recognized
+opening family forward after a line leaves the pinned Lichess table or ends
+early. Each arm uses the same number of rollouts within its rating.
+An effective family count is the exponential of Shannon entropy: it accounts
+for concentration as well as the number of distinct labels.
+
+| Rating | Rollouts per arm | A: distinct / effective families | B: distinct / effective families | C: distinct / effective families | C/A effective ratio (95% interval) |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 600 | 400 | 64 / 34.87 | 53 / 30.59 | 64 / 34.87 | 1.000 (1.000–1.000) |
+| 1600 | 1,000 | 70 / 32.36 | 59 / 25.92 | 70 / 32.36 | 1.000 (1.000–1.000) |
+| 2400 | 400 | 61 / 30.98 | 56 / 27.51 | 62 / 31.37 | 1.013 (1.000–1.027) |
+
+The observed family ratios clear the prespecified 0.90 practical reference.
+However, A and C have identical final family labels in 400/400, 1,000/1,000
+and 398/400 paired rollouts. At the first two ratings, every paired bootstrap
+resample therefore gives ratio 1. **Those degenerate intervals reflect coarse,
+mostly early labels; they do not establish certainty about later variations
+or population repertoire equivalence.**
+
+All 1,800 A/C pairs match through the first ten plies, or an earlier common
+termination, as required by the identical opening policy and matched random
+streams. Agreement then falls. At 1600, 653/1,000 pairs agree through ply 12,
+304 through ply 16, and only 71 through ply 24. At 600 and 2400, complete
+24-ply/early-ended sequence agreement is 15/400 and 66/400. Divergence shows a
+policy change; it does not itself measure population diversity loss.
+
+At 1600, distinct exact prefixes are:
+
+| Plies | A | B | C |
+| --- | ---: | ---: | ---: |
+| 8 | 975 | 948 | 975 |
+| 10 | 997 | 991 | 997 |
+| 12 | 1,000 | 999 | 1,000 |
+| 16 | 1,000 | 1,000 | 1,000 |
+| 24 | 1,000 | 1,000 | 1,000 |
+
+Earlier terminal prefixes are marked and included. Repeated-prefix fractions
+are 2.5%/5.2%/2.5% at ply 8 and 0.3%/0.9%/0.3% at ply 10 for A/B/C. Later
+counts saturate the sample size, so they cannot resolve rare-variation loss.
+Early terminations before ply 24 are 26/30/29 at 600, 9/13/10 at 1600 and
+0/2/0 at 2400. Survivor-only counts and sample sizes are retained separately
+in [the full results](results.json); the table above does not discard them.
+
+The **post hoc** [ECO-resolution and coverage check](ANALYSIS_NOTE.md) gives
+C/A effective-ECO ratios 1.000 (1.000–1.000), 1.000 (1.000–1.000), and 1.015
+(0.989–1.030). This is also mostly insensitive at the lower two ratings. At
+1600, B actually has 119 distinct ECO codes versus 117 for A and C, despite
+having fewer broad families: no single label count captures every kind of
+variety.
+
+After ply 10, an exact table position is encountered in only 0/0/0 rollouts
+at 600, 13/23/18 at 1600 and 47/73/52 at 2400 (A/B/C). None is an exact
+table position at ply 24. No carried family is unclassified, but that does
+**not** mean the games remain in known theory. The 3,810-row table includes
+lines up to 36 plies; coverage and the carry rule limit the inference.
+
 ## Completed quality diagnostic
 
 There are 60 positions per rating, 30 with each color to move and 20 each at
@@ -90,7 +162,8 @@ quality metric improves. No new human-move reference comparison was run.
 See the [full diagnostic summary](quality-results.json),
 [coverage](verification/quality-coverage.json) and
 [per-position/move data](data/quality.jsonl): 5,824 legal child moves and about
-115 million Stockfish nodes. The final independent cached audit remains pending.
+115 million Stockfish nodes. The [independent cached audit](verification/cached-audit.json)
+passed all recorded probability, loss and coverage checks.
 
 ## Method and limits
 
@@ -108,7 +181,7 @@ the same selected positions and do not represent all game positions.
 
 This study generates new matches and opening samples; it does not pool them
 with the earlier sampling study. The earlier work included other temperatures
-and a 5M-model check, used 2,000 opening samples through eight full moves, and
+and a 5M-model check, used 2,000 openings per sampled setting through eight full moves, and
 had a 1,200-game 1.0/0.95 follow-up. Here the opening horizon is 12 full moves,
 sample sizes vary by rating, and uncertainty respects reverse-color pairs.
 The runner also consumes a random draw for a sole retained move, matching
@@ -122,9 +195,30 @@ human-move fidelity, effects with history on, a universal Elo gain, or behavior
 at untested rating inputs. The quality evaluator is Stockfish **18**, with
 20,000 nodes per child; it is not the app's bundled engine. These diagnostics
 do not model every repetition history or replace a deep tactical benchmark.
+No temperature grid, alternative Top-P cutoff or opening boundary was
+optimized in this experiment.
+
+## Verification and compute
+
+The [Dart replay receipt](verification/dart-game-replay.json) covers all 8,400
+records and 404,780 legal plies, matching natural results and termination
+reasons. The [cached audit](verification/cached-audit.json) independently
+checks W/D/L, colors, all 180 diagnostic distributions, opening-table labels,
+counts/entropies, matched prefixes and every observed tied nucleus boundary.
+The [policy checks](verification/policy-parity.json) compare the pinned Dart
+encoder and sampler with fixed draws and official-reference model logits.
+
+[Collection receipts](verification/collection-summary.json) record 369,705
+main model inference calls across six single-thread CPU workers. Shard elapsed
+times sum to 9.90 worker-hours, including contention and overhead; this is not
+CPU accounting or end-to-end wall time. Additional work includes the 180
+quality-position inferences, 115,361,629 Stockfish nodes, seed reproduction,
+parity checks and the tied-cutoff investigation. The run took roughly two
+hours including setup and verification. Model weights are not republished.
 
 ## Protocol and reproduction
 
 See the [frozen protocol](PROTOCOL.md), [pre-diagnostic addendum](DIAGNOSTIC_ADDENDUM.md)
-and [reproduction guide](README.md). Research is tracked in
+[supplementary analysis note](ANALYSIS_NOTE.md), [reproduction guide](README.md)
+and [file checksums](SHA256SUMS). Research is tracked in
 [Preview issue #155](https://github.com/Dash1971/maia-chess-android-preview/issues/155).
