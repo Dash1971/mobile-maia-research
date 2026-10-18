@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-10-18T09:49:10.091213+00:00",
+  "stockfish_id": {
+    "name": "Stockfish 18",
+    "author": "the Stockfish developers (see AUTHORS file)"
+  },
+  "stockfish_sha256": "ae4c93fa9676ca7750d0714342fd8a5b1d018000fc6e0f6cedf112067b5ef374",
+  "stockfish_node_budget_per_child": 20000,
+  "stockfish_threads": 1,
+  "stockfish_hash_mib": 32,
+  "packages": {
+    "onnxruntime": "1.30.0",
+    "numpy": "2.5.3",
+    "python-chess": "1.999",
+    "chess": "1.11.2",
+    "scipy": "1.18.1"
+  },
+  "python": "3.12.13"
+}

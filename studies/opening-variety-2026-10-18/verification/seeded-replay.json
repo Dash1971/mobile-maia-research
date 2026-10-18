@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "games": [
+    {
+      "id": "matches-1600-0-0000-0000",
+      "plies": 51,
+      "passed": true
+    },
+    {
+      "id": "matches-1600-0-0000-0001",
+      "plies": 109,
+      "passed": true
+    },
+    {
+      "id": "matches-1600-1-0000-0000",
+      "plies": 187,
+      "passed": true
+    },
+    {
+      "id": "matches-1600-1-0000-0001",
+      "plies": 108,
+      "passed": true
+    },
+    {
+      "id": "matches-1600-2-0000-0000",
+      "plies": 89,
+      "passed": true
+    },
+    {
+      "id": "matches-1600-2-0000-0001",
+      "plies": 138,
+      "passed": true
+    },
+    {
+      "id": "matches-2400-0-0000-0000",
+      "plies": 153,
+      "passed": true
+    },
+    {
+      "id": "matches-2400-0-0000-0001",
+      "plies": 117,
+      "passed": true
+    },
+    {
+      "id": "matches-2400-1-0000-0000",
+      "plies": 55,
+      "passed": true
+    },
+    {
+      "id": "matches-2400-1-0000-0001",
+      "plies": 185,
+      "passed": true
+    },
+    {
+      "id": "matches-2400-2-0000-0000",
+      "plies": 162,
+      "passed": true
+    },
+    {
+      "id": "matches-2400-2-0000-0001",
+      "plies": 84,
+      "passed": true
+    },
+    {
+      "id": "matches-600-0-0000-0000",
+      "plies": 18,
+      "passed": true
+    },
+    {
+      "id": "matches-600-0-0000-0001",
+      "plies": 69,
+      "passed": true
+    },
+    {
+      "id": "matches-600-1-0000-0000",
+      "plies": 83,
+      "passed": true
+    },
+    {
+      "id": "matches-600-1-0000-0001",
+      "plies": 56,
+      "passed": true
+    },
+    {
+      "id": "matches-600-2-0000-0000",
+      "plies": 75,
+      "passed": true
+    },
+    {
+      "id": "matches-600-2-0000-0001",
+      "plies": 7,
+      "passed": true
+    }
+  ],
+  "inferences": 1690,
+  "cutoff_ties": 0,
+  "verifier_sha256": "eba8bedb9a6c6a7ffc291651b5fafb3d7661c2fa8845ae11cded4abfbe5ab49a"
+}

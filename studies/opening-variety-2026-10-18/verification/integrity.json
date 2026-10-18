@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "matches": 3000,
+  "opening_rollouts": 5400,
+  "legal_plies_replayed": 404780,
+  "unique_ids": 8400,
+  "full_game_pgn_sha256": "8cfc8868bbca784ea55f10f4a13bf58f8cb88b1b23ccf27d179e3ec119da21a3",
+  "actual_vs_prospective_claim_changed_results": 69
+}

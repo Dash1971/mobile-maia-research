@@ -1,0 +1,2676 @@
+{
+  "integrity": {
+    "passed": true,
+    "matches": 3000,
+    "opening_rollouts": 5400,
+    "legal_plies_replayed": 404780,
+    "unique_ids": 8400,
+    "full_game_pgn_sha256": "8cfc8868bbca784ea55f10f4a13bf58f8cb88b1b23ccf27d179e3ec119da21a3",
+    "actual_vs_prospective_claim_changed_results": 69
+  },
+  "matches": {
+    "600": {
+      "C-A": {
+        "games": 200,
+        "wins": 93,
+        "draws": 34,
+        "losses": 73,
+        "score": 0.55,
+        "relative_match_elo": 34.86007028756011,
+        "first": "C",
+        "second": "A",
+        "score_95_ci": [
+          0.48,
+          0.6175
+        ],
+        "relative_match_elo_95_ci": [
+          -13.904842503684788,
+          83.2022089768268
+        ],
+        "bootstrap_seed": 38000000600,
+        "bootstrap_replicates": 100000,
+        "bootstrap_unit": "reverse-color pair, not independent game",
+        "by_first_color": {
+          "white": {
+            "games": 100,
+            "wins": 43,
+            "draws": 15,
+            "losses": 42,
+            "score": 0.505,
+            "relative_match_elo": 3.4744716740370483
+          },
+          "black": {
+            "games": 100,
+            "wins": 50,
+            "draws": 19,
+            "losses": 31,
+            "score": 0.595,
+            "relative_match_elo": 66.82477700555238
+          }
+        },
+        "terminations": {
+          "checkmate": 166,
+          "stalemate": 25,
+          "insufficient_material": 7,
+          "threefold_repetition_actual": 2
+        },
+        "mean_plies": 77.315,
+        "max_plies_caps": 0,
+        "score_excluding_caps": 0.55,
+        "score_caps_all_loss": 0.55,
+        "score_caps_all_win": 0.55,
+        "unique_full_games": 200
+      },
+      "B-A": {
+        "games": 200,
+        "wins": 109,
+        "draws": 37,
+        "losses": 54,
+        "score": 0.6375,
+        "relative_match_elo": 98.06887127959209,
+        "first": "B",
+        "second": "A",
+        "score_95_ci": [
+          0.5725,
+          0.7025
+        ],
+        "relative_match_elo_95_ci": [
+          50.73574877909367,
+          149.26374340501965
+        ],
+        "bootstrap_seed": 38000000601,
+        "bootstrap_replicates": 100000,
+        "bootstrap_unit": "reverse-color pair, not independent game",
+        "by_first_color": {
+          "white": {
+            "games": 100,
+            "wins": 59,
+            "draws": 21,
+            "losses": 20,
+            "score": 0.695,
+            "relative_match_elo": 143.0739860973312
+          },
+          "black": {
+            "games": 100,
+            "wins": 50,
+            "draws": 16,
+            "losses": 34,
+            "score": 0.58,
+            "relative_match_elo": 56.0714812660147
+          }
+        },
+        "terminations": {
+          "stalemate": 30,
+          "checkmate": 163,
+          "insufficient_material": 7
+        },
+        "mean_plies": 72.45,
+        "max_plies_caps": 0,
+        "score_excluding_caps": 0.6375,
+        "score_caps_all_loss": 0.6375,
+        "score_caps_all_win": 0.6375,
+        "unique_full_games": 200
+      },
+      "C-B": {
+        "games": 200,
+        "wins": 81,
+        "draws": 32,
+        "losses": 87,
+        "score": 0.485,
+        "relative_match_elo": -10.426196175570956,
+        "first": "C",
+        "second": "B",
+        "score_95_ci": [
+          0.4175,
+          0.5525
+        ],
+        "relative_match_elo_95_ci": [
+          -57.85577995137429,
+          36.61569708208699
+        ],
+        "bootstrap_seed": 38000000602,
+        "bootstrap_replicates": 100000,
+        "bootstrap_unit": "reverse-color pair, not independent game",
+        "by_first_color": {
+          "white": {
+            "games": 100,
+            "wins": 47,
+            "draws": 16,
+            "losses": 37,
+            "score": 0.55,
+            "relative_match_elo": 34.86007028756011
+          },
+          "black": {
+            "games": 100,
+            "wins": 34,
+            "draws": 16,
+            "losses": 50,
+            "score": 0.42,
+            "relative_match_elo": -56.07148126601476
+          }
+        },
+        "terminations": {
+          "checkmate": 168,
+          "stalemate": 27,
+          "insufficient_material": 3,
+          "threefold_repetition_actual": 2
+        },
+        "mean_plies": 77.2,
+        "max_plies_caps": 0,
+        "score_excluding_caps": 0.485,
+        "score_caps_all_loss": 0.485,
+        "score_caps_all_win": 0.485,
+        "unique_full_games": 200
+      }
+    },
+    "1600": {
+      "C-A": {
+        "games": 600,
+        "wins": 345,
+        "draws": 38,
+        "losses": 217,
+        "score": 0.6066666666666667,
+        "relative_match_elo": 75.27575227157978,
+        "first": "C",
+        "second": "A",
+        "score_95_ci": [
+          0.5675,
+          0.6458333333333334
+        ],
+        "relative_match_elo_95_ci": [
+          47.191901625730914,
+          104.36510898239955
+        ],
+        "bootstrap_seed": 38000001600,
+        "bootstrap_replicates": 100000,
+        "bootstrap_unit": "reverse-color pair, not independent game",
+        "by_first_color": {
+          "white": {
+            "games": 300,
+            "wins": 172,
+            "draws": 14,
+            "losses": 114,
+            "score": 0.5966666666666667,
+            "relative_match_elo": 68.02706426537726
+          },
+          "black": {
+            "games": 300,
+            "wins": 173,
+            "draws": 24,
+            "losses": 103,
+            "score": 0.6166666666666667,
+            "relative_match_elo": 82.58955521976088
+          }
+        },
+        "terminations": {
+          "checkmate": 562,
+          "insufficient_material": 6,
+          "threefold_repetition_actual": 15,
+          "stalemate": 17
+        },
+        "mean_plies": 92.50333333333333,
+        "max_plies_caps": 0,
+        "score_excluding_caps": 0.6066666666666667,
+        "score_caps_all_loss": 0.6066666666666667,
+        "score_caps_all_win": 0.6066666666666667,
+        "unique_full_games": 600
+      },
+      "B-A": {
+        "games": 600,
+        "wins": 322,
+        "draws": 61,
+        "losses": 217,
+        "score": 0.5875,
+        "relative_match_elo": 61.433567223132,
+        "first": "B",
+        "second": "A",
+        "score_95_ci": [
+          0.5491666666666667,
+          0.625
+        ],
+        "relative_match_elo_95_ci": [
+          34.27525979497618,
+          88.73949984654256
+        ],
+        "bootstrap_seed": 38000001601,
+        "bootstrap_replicates": 100000,
+        "bootstrap_unit": "reverse-color pair, not independent game",
+        "by_first_color": {
+          "white": {
+            "games": 300,
+            "wins": 171,
+            "draws": 25,
+            "losses": 104,
+            "score": 0.6116666666666667,
+            "relative_match_elo": 78.92405729042815
+          },
+          "black": {
+            "games": 300,
+            "wins": 151,
+            "draws": 36,
+            "losses": 113,
+            "score": 0.5633333333333334,
+            "relative_match_elo": 44.246163583163714
+          }
+        },
+        "terminations": {
+          "checkmate": 539,
+          "stalemate": 29,
+          "threefold_repetition_actual": 22,
+          "insufficient_material": 10
+        },
+        "mean_plies": 92.09333333333333,
+        "max_plies_caps": 0,
+        "score_excluding_caps": 0.5875,
+        "score_caps_all_loss": 0.5875,
+        "score_caps_all_win": 0.5875,
+        "unique_full_games": 600
+      },
+      "C-B": {
+        "games": 600,
+        "wins": 271,
+        "draws": 78,
+        "losses": 251,
+        "score": 0.5166666666666667,
+        "relative_match_elo": 11.585478374126659,
+        "first": "C",
+        "second": "B",
+        "score_95_ci": [
+          0.4791666666666667,
+          0.5541666666666667
+        ],
+        "relative_match_elo_95_ci": [
+          -14.484869061777864,
+          37.787145312750496
+        ],
+        "bootstrap_seed": 38000001602,
+        "bootstrap_replicates": 100000,
+        "bootstrap_unit": "reverse-color pair, not independent game",
+        "by_first_color": {
+          "white": {
+            "games": 300,
+            "wins": 149,
+            "draws": 37,
+            "losses": 114,
+            "score": 0.5583333333333333,
+            "relative_match_elo": 40.71957324001498
+          },
+          "black": {
+            "games": 300,
+            "wins": 122,
+            "draws": 41,
+            "losses": 137,
+            "score": 0.475,
+            "relative_match_elo": -17.386277512436145
+          }
+        },
+        "terminations": {
+          "checkmate": 522,
+          "stalemate": 28,
+          "threefold_repetition_actual": 40,
+          "insufficient_material": 10
+        },
+        "mean_plies": 92.11833333333334,
+        "max_plies_caps": 0,
+        "score_excluding_caps": 0.5166666666666667,
+        "score_caps_all_loss": 0.5166666666666667,
+        "score_caps_all_win": 0.5166666666666667,
+        "unique_full_games": 600
+      }
+    },
+    "2400": {
+      "C-A": {
+        "games": 200,
+        "wins": 111,
+        "draws": 34,
+        "losses": 55,
+        "score": 0.64,
+        "relative_match_elo": 99.95098928663998,
+        "first": "C",
+        "second": "A",
+        "score_95_ci": [
+          0.58,
+          0.7
+        ],
+        "relative_match_elo_95_ci": [
+          56.0714812660147,
+          147.19071411783773
+        ],
+        "bootstrap_seed": 38000002400,
+        "bootstrap_replicates": 100000,
+        "bootstrap_unit": "reverse-color pair, not independent game",
+        "by_first_color": {
+          "white": {
+            "games": 100,
+            "wins": 62,
+            "draws": 12,
+            "losses": 26,
+            "score": 0.68,
+            "relative_match_elo": 130.9435737545322
+          },
+          "black": {
+            "games": 100,
+            "wins": 49,
+            "draws": 22,
+            "losses": 29,
+            "score": 0.6,
+            "relative_match_elo": 70.43650362227247
+          }
+        },
+        "terminations": {
+          "threefold_repetition_actual": 20,
+          "checkmate": 166,
+          "insufficient_material": 5,
+          "stalemate": 9
+        },
+        "mean_plies": 106.805,
+        "max_plies_caps": 0,
+        "score_excluding_caps": 0.64,
+        "score_caps_all_loss": 0.64,
+        "score_caps_all_win": 0.64,
+        "unique_full_games": 200
+      },
+      "B-A": {
+        "games": 200,
+        "wins": 108,
+        "draws": 30,
+        "losses": 62,
+        "score": 0.615,
+        "relative_match_elo": 81.36575450676642,
+        "first": "B",
+        "second": "A",
+        "score_95_ci": [
+          0.5525,
+          0.6775
+        ],
+        "relative_match_elo_95_ci": [
+          36.61569708208699,
+          128.95183223006268
+        ],
+        "bootstrap_seed": 38000002401,
+        "bootstrap_replicates": 100000,
+        "bootstrap_unit": "reverse-color pair, not independent game",
+        "by_first_color": {
+          "white": {
+            "games": 100,
+            "wins": 60,
+            "draws": 14,
+            "losses": 26,
+            "score": 0.67,
+            "relative_match_elo": 123.02434512917561
+          },
+          "black": {
+            "games": 100,
+            "wins": 48,
+            "draws": 16,
+            "losses": 36,
+            "score": 0.56,
+            "relative_match_elo": 41.89414020800522
+          }
+        },
+        "terminations": {
+          "checkmate": 170,
+          "stalemate": 13,
+          "insufficient_material": 2,
+          "threefold_repetition_actual": 14,
+          "fifty_moves_actual": 1
+        },
+        "mean_plies": 107.45,
+        "max_plies_caps": 0,
+        "score_excluding_caps": 0.615,
+        "score_caps_all_loss": 0.615,
+        "score_caps_all_win": 0.615,
+        "unique_full_games": 200
+      },
+      "C-B": {
+        "games": 200,
+        "wins": 78,
+        "draws": 36,
+        "losses": 86,
+        "score": 0.48,
+        "relative_match_elo": -13.904842503684788,
+        "first": "C",
+        "second": "B",
+        "score_95_ci": [
+          0.4175,
+          0.5425
+        ],
+        "relative_match_elo_95_ci": [
+          -57.85577995137429,
+          29.60345764724001
+        ],
+        "bootstrap_seed": 38000002402,
+        "bootstrap_replicates": 100000,
+        "bootstrap_unit": "reverse-color pair, not independent game",
+        "by_first_color": {
+          "white": {
+            "games": 100,
+            "wins": 42,
+            "draws": 21,
+            "losses": 37,
+            "score": 0.525,
+            "relative_match_elo": 17.386277512436138
+          },
+          "black": {
+            "games": 100,
+            "wins": 36,
+            "draws": 15,
+            "losses": 49,
+            "score": 0.435,
+            "relative_match_elo": -45.42367634592046
+          }
+        },
+        "terminations": {
+          "threefold_repetition_actual": 15,
+          "checkmate": 164,
+          "stalemate": 13,
+          "fifty_moves_actual": 2,
+          "insufficient_material": 6
+        },
+        "mean_plies": 109.445,
+        "max_plies_caps": 0,
+        "score_excluding_caps": 0.48,
+        "score_caps_all_loss": 0.48,
+        "score_caps_all_win": 0.48,
+        "unique_full_games": 200
+      }
+    }
+  },
+  "claim_sensitivity": {
+    "600": {
+      "C-A": {
+        "games": 200,
+        "wins": 92,
+        "draws": 36,
+        "losses": 72,
+        "score": 0.55,
+        "relative_match_elo": 34.86007028756011
+      },
+      "B-A": {
+        "games": 200,
+        "wins": 109,
+        "draws": 38,
+        "losses": 53,
+        "score": 0.64,
+        "relative_match_elo": 99.95098928663998
+      },
+      "C-B": {
+        "games": 200,
+        "wins": 79,
+        "draws": 37,
+        "losses": 84,
+        "score": 0.4875,
+        "relative_match_elo": -8.687699877294502
+      }
+    },
+    "1600": {
+      "C-A": {
+        "games": 600,
+        "wins": 336,
+        "draws": 53,
+        "losses": 211,
+        "score": 0.6041666666666666,
+        "relative_match_elo": 73.45775877845084
+      },
+      "B-A": {
+        "games": 600,
+        "wins": 315,
+        "draws": 76,
+        "losses": 209,
+        "score": 0.5883333333333334,
+        "relative_match_elo": 62.031100851262764
+      },
+      "C-B": {
+        "games": 600,
+        "wins": 263,
+        "draws": 92,
+        "losses": 245,
+        "score": 0.515,
+        "relative_match_elo": 10.426196175570942
+      }
+    },
+    "2400": {
+      "C-A": {
+        "games": 200,
+        "wins": 105,
+        "draws": 42,
+        "losses": 53,
+        "score": 0.63,
+        "relative_match_elo": 92.45553015463469
+      },
+      "B-A": {
+        "games": 200,
+        "wins": 107,
+        "draws": 32,
+        "losses": 61,
+        "score": 0.615,
+        "relative_match_elo": 81.36575450676642
+      },
+      "C-B": {
+        "games": 200,
+        "wins": 77,
+        "draws": 43,
+        "losses": 80,
+        "score": 0.4925,
+        "relative_match_elo": -5.21192470064803
+      }
+    }
+  },
+  "openings": {
+    "opening_table_sha256": "a91978578a76fc52e2aab69f333608a9195eefc70ca5c8fc66a8bd999a4f73c1",
+    "by_rating": {
+      "600": {
+        "arms": {
+          "A": {
+            "8": {
+              "families": {
+                "samples": 395,
+                "unique": 64,
+                "effective": 34.88268743933814,
+                "top_fraction": 0.15949367088607594,
+                "repeat_fraction": 0.8379746835443038
+              },
+              "exact_lines": {
+                "samples": 395,
+                "unique": 394,
+                "effective": 393.6161354689552,
+                "top_fraction": 0.005063291139240506,
+                "repeat_fraction": 0.0025316455696202667
+              },
+              "early_terminations": 5,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 64,
+                  "effective": 34.8707465706077,
+                  "top_fraction": 0.16,
+                  "repeat_fraction": 0.84
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 57,
+                  "effective": 24.149302876473037,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8575
+                },
+                "book_match_at_depth_fraction": 0.005,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 399,
+                  "effective": 398.6161051311471,
+                  "top_fraction": 0.005,
+                  "repeat_fraction": 0.0024999999999999467
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "10": {
+              "families": {
+                "samples": 392,
+                "unique": 64,
+                "effective": 34.80145201853778,
+                "top_fraction": 0.16071428571428573,
+                "repeat_fraction": 0.8367346938775511
+              },
+              "exact_lines": {
+                "samples": 392,
+                "unique": 392,
+                "effective": 391.9999999999998,
+                "top_fraction": 0.002551020408163265,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 8,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 64,
+                  "effective": 34.8707465706077,
+                  "top_fraction": 0.16,
+                  "repeat_fraction": 0.84
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 57,
+                  "effective": 24.149302876473037,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8575
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "12": {
+              "families": {
+                "samples": 389,
+                "unique": 64,
+                "effective": 34.75844476585331,
+                "top_fraction": 0.15938303341902313,
+                "repeat_fraction": 0.8354755784061697
+              },
+              "exact_lines": {
+                "samples": 389,
+                "unique": 389,
+                "effective": 389.0000000000002,
+                "top_fraction": 0.002570694087403599,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 11,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 64,
+                  "effective": 34.8707465706077,
+                  "top_fraction": 0.16,
+                  "repeat_fraction": 0.84
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 57,
+                  "effective": 24.149302876473037,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8575
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "16": {
+              "families": {
+                "samples": 384,
+                "unique": 64,
+                "effective": 34.99460324043964,
+                "top_fraction": 0.15885416666666666,
+                "repeat_fraction": 0.8333333333333334
+              },
+              "exact_lines": {
+                "samples": 384,
+                "unique": 384,
+                "effective": 384.0,
+                "top_fraction": 0.0026041666666666665,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 16,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 64,
+                  "effective": 34.8707465706077,
+                  "top_fraction": 0.16,
+                  "repeat_fraction": 0.84
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 57,
+                  "effective": 24.149302876473037,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8575
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "24": {
+              "families": {
+                "samples": 374,
+                "unique": 62,
+                "effective": 34.78472210842364,
+                "top_fraction": 0.15508021390374332,
+                "repeat_fraction": 0.8342245989304813
+              },
+              "exact_lines": {
+                "samples": 374,
+                "unique": 374,
+                "effective": 374.00000000000017,
+                "top_fraction": 0.00267379679144385,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 26,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 64,
+                  "effective": 34.8707465706077,
+                  "top_fraction": 0.16,
+                  "repeat_fraction": 0.84
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 57,
+                  "effective": 24.149302876473037,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8575
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            }
+          },
+          "B": {
+            "8": {
+              "families": {
+                "samples": 394,
+                "unique": 52,
+                "effective": 30.248809105438088,
+                "top_fraction": 0.15736040609137056,
+                "repeat_fraction": 0.868020304568528
+              },
+              "exact_lines": {
+                "samples": 394,
+                "unique": 392,
+                "effective": 391.2371438261216,
+                "top_fraction": 0.005076142131979695,
+                "repeat_fraction": 0.005076142131979711
+              },
+              "early_terminations": 6,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 53,
+                  "effective": 30.59373728162952,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8674999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 56,
+                  "effective": 24.424172083640446,
+                  "top_fraction": 0.1525,
+                  "repeat_fraction": 0.86
+                },
+                "book_match_at_depth_fraction": 0.005,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 398,
+                  "effective": 397.2369981748146,
+                  "top_fraction": 0.005,
+                  "repeat_fraction": 0.0050000000000000044
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "10": {
+              "families": {
+                "samples": 392,
+                "unique": 52,
+                "effective": 30.359539392846838,
+                "top_fraction": 0.1556122448979592,
+                "repeat_fraction": 0.8673469387755102
+              },
+              "exact_lines": {
+                "samples": 392,
+                "unique": 391,
+                "effective": 390.6161540426851,
+                "top_fraction": 0.00510204081632653,
+                "repeat_fraction": 0.0025510204081632404
+              },
+              "early_terminations": 8,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 53,
+                  "effective": 30.59373728162952,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8674999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 56,
+                  "effective": 24.424172083640446,
+                  "top_fraction": 0.1525,
+                  "repeat_fraction": 0.86
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 399,
+                  "effective": 398.6161051311471,
+                  "top_fraction": 0.005,
+                  "repeat_fraction": 0.0024999999999999467
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "12": {
+              "families": {
+                "samples": 390,
+                "unique": 52,
+                "effective": 30.317084484797917,
+                "top_fraction": 0.1564102564102564,
+                "repeat_fraction": 0.8666666666666667
+              },
+              "exact_lines": {
+                "samples": 390,
+                "unique": 390,
+                "effective": 389.99999999999994,
+                "top_fraction": 0.002564102564102564,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 10,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 53,
+                  "effective": 30.59373728162952,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8674999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 56,
+                  "effective": 24.424172083640446,
+                  "top_fraction": 0.1525,
+                  "repeat_fraction": 0.86
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "16": {
+              "families": {
+                "samples": 383,
+                "unique": 52,
+                "effective": 30.32053438400566,
+                "top_fraction": 0.1566579634464752,
+                "repeat_fraction": 0.8642297650130548
+              },
+              "exact_lines": {
+                "samples": 383,
+                "unique": 383,
+                "effective": 383.0,
+                "top_fraction": 0.0026109660574412533,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 17,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 53,
+                  "effective": 30.59373728162952,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8674999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 56,
+                  "effective": 24.424172083640446,
+                  "top_fraction": 0.1525,
+                  "repeat_fraction": 0.86
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "24": {
+              "families": {
+                "samples": 370,
+                "unique": 51,
+                "effective": 30.32430602097876,
+                "top_fraction": 0.15405405405405406,
+                "repeat_fraction": 0.8621621621621621
+              },
+              "exact_lines": {
+                "samples": 370,
+                "unique": 370,
+                "effective": 370.00000000000017,
+                "top_fraction": 0.002702702702702703,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 30,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 53,
+                  "effective": 30.59373728162952,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8674999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 56,
+                  "effective": 24.424172083640446,
+                  "top_fraction": 0.1525,
+                  "repeat_fraction": 0.86
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            }
+          },
+          "C": {
+            "8": {
+              "families": {
+                "samples": 395,
+                "unique": 64,
+                "effective": 34.88268743933814,
+                "top_fraction": 0.15949367088607594,
+                "repeat_fraction": 0.8379746835443038
+              },
+              "exact_lines": {
+                "samples": 395,
+                "unique": 394,
+                "effective": 393.6161354689552,
+                "top_fraction": 0.005063291139240506,
+                "repeat_fraction": 0.0025316455696202667
+              },
+              "early_terminations": 5,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 64,
+                  "effective": 34.8707465706077,
+                  "top_fraction": 0.16,
+                  "repeat_fraction": 0.84
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 57,
+                  "effective": 24.149302876473037,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8575
+                },
+                "book_match_at_depth_fraction": 0.005,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 399,
+                  "effective": 398.6161051311471,
+                  "top_fraction": 0.005,
+                  "repeat_fraction": 0.0024999999999999467
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "10": {
+              "families": {
+                "samples": 392,
+                "unique": 64,
+                "effective": 34.80145201853778,
+                "top_fraction": 0.16071428571428573,
+                "repeat_fraction": 0.8367346938775511
+              },
+              "exact_lines": {
+                "samples": 392,
+                "unique": 392,
+                "effective": 391.9999999999998,
+                "top_fraction": 0.002551020408163265,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 8,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 64,
+                  "effective": 34.8707465706077,
+                  "top_fraction": 0.16,
+                  "repeat_fraction": 0.84
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 57,
+                  "effective": 24.149302876473037,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8575
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "12": {
+              "families": {
+                "samples": 389,
+                "unique": 64,
+                "effective": 34.75844476585331,
+                "top_fraction": 0.15938303341902313,
+                "repeat_fraction": 0.8354755784061697
+              },
+              "exact_lines": {
+                "samples": 389,
+                "unique": 389,
+                "effective": 389.0000000000002,
+                "top_fraction": 0.002570694087403599,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 11,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 64,
+                  "effective": 34.8707465706077,
+                  "top_fraction": 0.16,
+                  "repeat_fraction": 0.84
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 57,
+                  "effective": 24.149302876473037,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8575
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "16": {
+              "families": {
+                "samples": 386,
+                "unique": 64,
+                "effective": 35.041192746297085,
+                "top_fraction": 0.15544041450777202,
+                "repeat_fraction": 0.8341968911917098
+              },
+              "exact_lines": {
+                "samples": 386,
+                "unique": 386,
+                "effective": 385.99999999999983,
+                "top_fraction": 0.0025906735751295338,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 14,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 64,
+                  "effective": 34.8707465706077,
+                  "top_fraction": 0.16,
+                  "repeat_fraction": 0.84
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 57,
+                  "effective": 24.149302876473037,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8575
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "24": {
+              "families": {
+                "samples": 371,
+                "unique": 63,
+                "effective": 35.0935529908166,
+                "top_fraction": 0.15902964959568733,
+                "repeat_fraction": 0.8301886792452831
+              },
+              "exact_lines": {
+                "samples": 371,
+                "unique": 371,
+                "effective": 371.0000000000002,
+                "top_fraction": 0.0026954177897574125,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 29,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 64,
+                  "effective": 34.8707465706077,
+                  "top_fraction": 0.16,
+                  "repeat_fraction": 0.84
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 57,
+                  "effective": 24.149302876473037,
+                  "top_fraction": 0.1575,
+                  "repeat_fraction": 0.8575
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            }
+          }
+        },
+        "all_final_labels_CA_ratio": 1.0,
+        "all_final_labels_CA_ratio_95_ci": [
+          1.0,
+          1.0
+        ],
+        "bootstrap_seed": 48000000600,
+        "bootstrap_replicates": 2000,
+        "CA_same_final_family": 400,
+        "supplementary_book_matches_after_ply10": {
+          "A": 0,
+          "B": 0,
+          "C": 0
+        },
+        "supplementary_posthoc_ECO": {
+          "CA_ratio": 1.0,
+          "CA_ratio_95_ci": [
+            1.0,
+            1.0
+          ],
+          "CA_same_final_ECO": 400,
+          "bootstrap_seed": 48000100600,
+          "bootstrap_replicates": 2000
+        },
+        "CA_prefix_agreement": {
+          "8": 400,
+          "10": 400,
+          "12": 188,
+          "16": 57,
+          "24": 15
+        },
+        "CA_first_divergence_ply": {
+          "13": 61,
+          "11": 128,
+          "12": 84,
+          "14": 30,
+          "same_through_end": 15,
+          "16": 18,
+          "15": 22,
+          "23": 2,
+          "17": 15,
+          "20": 3,
+          "18": 11,
+          "19": 5,
+          "22": 2,
+          "21": 4
+        },
+        "AC_identical_first_10_plies": 400,
+        "CA_same_24_ply_line": 15
+      },
+      "1600": {
+        "arms": {
+          "A": {
+            "8": {
+              "families": {
+                "samples": 999,
+                "unique": 69,
+                "effective": 32.226405297741,
+                "top_fraction": 0.12012012012012012,
+                "repeat_fraction": 0.9309309309309309
+              },
+              "exact_lines": {
+                "samples": 999,
+                "unique": 974,
+                "effective": 962.9174052108169,
+                "top_fraction": 0.003003003003003003,
+                "repeat_fraction": 0.025025025025025016
+              },
+              "early_terminations": 1,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 69,
+                  "effective": 32.2202879420302,
+                  "top_fraction": 0.12,
+                  "repeat_fraction": 0.931
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 111,
+                  "effective": 48.67454056982888,
+                  "top_fraction": 0.085,
+                  "repeat_fraction": 0.889
+                },
+                "book_match_at_depth_fraction": 0.054,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 975,
+                  "effective": 963.9167455841479,
+                  "top_fraction": 0.003,
+                  "repeat_fraction": 0.025000000000000022
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "10": {
+              "families": {
+                "samples": 999,
+                "unique": 70,
+                "effective": 32.32975769558694,
+                "top_fraction": 0.12012012012012012,
+                "repeat_fraction": 0.92992992992993
+              },
+              "exact_lines": {
+                "samples": 999,
+                "unique": 996,
+                "effective": 994.8497617272925,
+                "top_fraction": 0.002002002002002002,
+                "repeat_fraction": 0.0030030030030030463
+              },
+              "early_terminations": 1,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 70,
+                  "effective": 32.32439094971165,
+                  "top_fraction": 0.12,
+                  "repeat_fraction": 0.9299999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 117,
+                  "effective": 49.41992862399405,
+                  "top_fraction": 0.084,
+                  "repeat_fraction": 0.883
+                },
+                "book_match_at_depth_fraction": 0.011,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 997,
+                  "effective": 995.8497530944579,
+                  "top_fraction": 0.002,
+                  "repeat_fraction": 0.0030000000000000027
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "12": {
+              "families": {
+                "samples": 999,
+                "unique": 70,
+                "effective": 32.365134822035124,
+                "top_fraction": 0.12012012012012012,
+                "repeat_fraction": 0.92992992992993
+              },
+              "exact_lines": {
+                "samples": 999,
+                "unique": 999,
+                "effective": 998.9999999999994,
+                "top_fraction": 0.001001001001001001,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 1,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 70,
+                  "effective": 32.360625822390794,
+                  "top_fraction": 0.12,
+                  "repeat_fraction": 0.9299999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 117,
+                  "effective": 49.495917902316,
+                  "top_fraction": 0.084,
+                  "repeat_fraction": 0.883
+                },
+                "book_match_at_depth_fraction": 0.001,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 1000,
+                  "effective": 1000.0,
+                  "top_fraction": 0.001,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "16": {
+              "families": {
+                "samples": 999,
+                "unique": 70,
+                "effective": 32.365134822035124,
+                "top_fraction": 0.12012012012012012,
+                "repeat_fraction": 0.92992992992993
+              },
+              "exact_lines": {
+                "samples": 999,
+                "unique": 999,
+                "effective": 998.9999999999994,
+                "top_fraction": 0.001001001001001001,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 1,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 70,
+                  "effective": 32.360625822390794,
+                  "top_fraction": 0.12,
+                  "repeat_fraction": 0.9299999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 117,
+                  "effective": 49.495917902316,
+                  "top_fraction": 0.084,
+                  "repeat_fraction": 0.883
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 1000,
+                  "effective": 1000.0,
+                  "top_fraction": 0.001,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "24": {
+              "families": {
+                "samples": 991,
+                "unique": 70,
+                "effective": 32.43550506607997,
+                "top_fraction": 0.12008072653884964,
+                "repeat_fraction": 0.929364278506559
+              },
+              "exact_lines": {
+                "samples": 991,
+                "unique": 991,
+                "effective": 990.9999999999998,
+                "top_fraction": 0.0010090817356205853,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 9,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 70,
+                  "effective": 32.360625822390794,
+                  "top_fraction": 0.12,
+                  "repeat_fraction": 0.9299999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 117,
+                  "effective": 49.495917902316,
+                  "top_fraction": 0.084,
+                  "repeat_fraction": 0.883
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 1000,
+                  "effective": 1000.0,
+                  "top_fraction": 0.001,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            }
+          },
+          "B": {
+            "8": {
+              "families": {
+                "samples": 1000,
+                "unique": 59,
+                "effective": 25.709909316044843,
+                "top_fraction": 0.139,
+                "repeat_fraction": 0.9410000000000001
+              },
+              "exact_lines": {
+                "samples": 1000,
+                "unique": 948,
+                "effective": 927.533102008078,
+                "top_fraction": 0.003,
+                "repeat_fraction": 0.052000000000000046
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 59,
+                  "effective": 25.709909316044843,
+                  "top_fraction": 0.139,
+                  "repeat_fraction": 0.9410000000000001
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 110,
+                  "effective": 48.153308927906714,
+                  "top_fraction": 0.092,
+                  "repeat_fraction": 0.89
+                },
+                "book_match_at_depth_fraction": 0.07,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 948,
+                  "effective": 927.533102008078,
+                  "top_fraction": 0.003,
+                  "repeat_fraction": 0.052000000000000046
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "10": {
+              "families": {
+                "samples": 1000,
+                "unique": 59,
+                "effective": 25.870486442923898,
+                "top_fraction": 0.138,
+                "repeat_fraction": 0.9410000000000001
+              },
+              "exact_lines": {
+                "samples": 1000,
+                "unique": 991,
+                "effective": 987.6008614453732,
+                "top_fraction": 0.002,
+                "repeat_fraction": 0.009000000000000008
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 59,
+                  "effective": 25.870486442923898,
+                  "top_fraction": 0.138,
+                  "repeat_fraction": 0.9410000000000001
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 115,
+                  "effective": 49.45001781082429,
+                  "top_fraction": 0.092,
+                  "repeat_fraction": 0.885
+                },
+                "book_match_at_depth_fraction": 0.012,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 991,
+                  "effective": 987.6008614453732,
+                  "top_fraction": 0.002,
+                  "repeat_fraction": 0.009000000000000008
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "12": {
+              "families": {
+                "samples": 999,
+                "unique": 59,
+                "effective": 25.94773386334819,
+                "top_fraction": 0.13813813813813813,
+                "repeat_fraction": 0.9409409409409409
+              },
+              "exact_lines": {
+                "samples": 999,
+                "unique": 998,
+                "effective": 997.6146670620078,
+                "top_fraction": 0.002002002002002002,
+                "repeat_fraction": 0.0010010010010009784
+              },
+              "early_terminations": 1,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 59,
+                  "effective": 25.948430816688457,
+                  "top_fraction": 0.138,
+                  "repeat_fraction": 0.9410000000000001
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 118,
+                  "effective": 49.6609509193046,
+                  "top_fraction": 0.092,
+                  "repeat_fraction": 0.882
+                },
+                "book_match_at_depth_fraction": 0.004,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 999,
+                  "effective": 998.6146661010297,
+                  "top_fraction": 0.002,
+                  "repeat_fraction": 0.0010000000000000009
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "16": {
+              "families": {
+                "samples": 999,
+                "unique": 59,
+                "effective": 25.919849981414366,
+                "top_fraction": 0.13813813813813813,
+                "repeat_fraction": 0.9409409409409409
+              },
+              "exact_lines": {
+                "samples": 999,
+                "unique": 999,
+                "effective": 998.9999999999994,
+                "top_fraction": 0.001001001001001001,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 1,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 59,
+                  "effective": 25.920574055454424,
+                  "top_fraction": 0.138,
+                  "repeat_fraction": 0.9410000000000001
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 119,
+                  "effective": 49.87565756561141,
+                  "top_fraction": 0.092,
+                  "repeat_fraction": 0.881
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 1000,
+                  "effective": 1000.0,
+                  "top_fraction": 0.001,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "24": {
+              "families": {
+                "samples": 987,
+                "unique": 59,
+                "effective": 25.96247800532005,
+                "top_fraction": 0.13779128672745694,
+                "repeat_fraction": 0.9402228976697062
+              },
+              "exact_lines": {
+                "samples": 987,
+                "unique": 987,
+                "effective": 986.9999999999999,
+                "top_fraction": 0.0010131712259371835,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 13,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 59,
+                  "effective": 25.920574055454424,
+                  "top_fraction": 0.138,
+                  "repeat_fraction": 0.9410000000000001
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 119,
+                  "effective": 49.87565756561141,
+                  "top_fraction": 0.092,
+                  "repeat_fraction": 0.881
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 1000,
+                  "effective": 1000.0,
+                  "top_fraction": 0.001,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            }
+          },
+          "C": {
+            "8": {
+              "families": {
+                "samples": 999,
+                "unique": 69,
+                "effective": 32.226405297741,
+                "top_fraction": 0.12012012012012012,
+                "repeat_fraction": 0.9309309309309309
+              },
+              "exact_lines": {
+                "samples": 999,
+                "unique": 974,
+                "effective": 962.9174052108169,
+                "top_fraction": 0.003003003003003003,
+                "repeat_fraction": 0.025025025025025016
+              },
+              "early_terminations": 1,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 69,
+                  "effective": 32.2202879420302,
+                  "top_fraction": 0.12,
+                  "repeat_fraction": 0.931
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 111,
+                  "effective": 48.67454056982888,
+                  "top_fraction": 0.085,
+                  "repeat_fraction": 0.889
+                },
+                "book_match_at_depth_fraction": 0.054,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 975,
+                  "effective": 963.9167455841479,
+                  "top_fraction": 0.003,
+                  "repeat_fraction": 0.025000000000000022
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "10": {
+              "families": {
+                "samples": 999,
+                "unique": 70,
+                "effective": 32.32975769558694,
+                "top_fraction": 0.12012012012012012,
+                "repeat_fraction": 0.92992992992993
+              },
+              "exact_lines": {
+                "samples": 999,
+                "unique": 996,
+                "effective": 994.8497617272925,
+                "top_fraction": 0.002002002002002002,
+                "repeat_fraction": 0.0030030030030030463
+              },
+              "early_terminations": 1,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 70,
+                  "effective": 32.32439094971165,
+                  "top_fraction": 0.12,
+                  "repeat_fraction": 0.9299999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 117,
+                  "effective": 49.41992862399405,
+                  "top_fraction": 0.084,
+                  "repeat_fraction": 0.883
+                },
+                "book_match_at_depth_fraction": 0.011,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 997,
+                  "effective": 995.8497530944579,
+                  "top_fraction": 0.002,
+                  "repeat_fraction": 0.0030000000000000027
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "12": {
+              "families": {
+                "samples": 999,
+                "unique": 70,
+                "effective": 32.365134822035124,
+                "top_fraction": 0.12012012012012012,
+                "repeat_fraction": 0.92992992992993
+              },
+              "exact_lines": {
+                "samples": 999,
+                "unique": 999,
+                "effective": 998.9999999999994,
+                "top_fraction": 0.001001001001001001,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 1,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 70,
+                  "effective": 32.360625822390794,
+                  "top_fraction": 0.12,
+                  "repeat_fraction": 0.9299999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 117,
+                  "effective": 49.495917902316,
+                  "top_fraction": 0.084,
+                  "repeat_fraction": 0.883
+                },
+                "book_match_at_depth_fraction": 0.002,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 1000,
+                  "effective": 1000.0,
+                  "top_fraction": 0.001,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "16": {
+              "families": {
+                "samples": 998,
+                "unique": 70,
+                "effective": 32.40907941736369,
+                "top_fraction": 0.11923847695390781,
+                "repeat_fraction": 0.9298597194388778
+              },
+              "exact_lines": {
+                "samples": 998,
+                "unique": 998,
+                "effective": 997.9999999999985,
+                "top_fraction": 0.001002004008016032,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 2,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 70,
+                  "effective": 32.360625822390794,
+                  "top_fraction": 0.12,
+                  "repeat_fraction": 0.9299999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 117,
+                  "effective": 49.495917902316,
+                  "top_fraction": 0.084,
+                  "repeat_fraction": 0.883
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 1000,
+                  "effective": 1000.0,
+                  "top_fraction": 0.001,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "24": {
+              "families": {
+                "samples": 990,
+                "unique": 70,
+                "effective": 32.497263220113666,
+                "top_fraction": 0.1191919191919192,
+                "repeat_fraction": 0.9292929292929293
+              },
+              "exact_lines": {
+                "samples": 990,
+                "unique": 990,
+                "effective": 990.0000000000001,
+                "top_fraction": 0.00101010101010101,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 10,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 1000,
+                  "unique": 70,
+                  "effective": 32.360625822390794,
+                  "top_fraction": 0.12,
+                  "repeat_fraction": 0.9299999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 1000,
+                  "unique": 117,
+                  "effective": 49.495917902316,
+                  "top_fraction": 0.084,
+                  "repeat_fraction": 0.883
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 1000,
+                  "unique": 1000,
+                  "effective": 1000.0,
+                  "top_fraction": 0.001,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            }
+          }
+        },
+        "all_final_labels_CA_ratio": 1.0,
+        "all_final_labels_CA_ratio_95_ci": [
+          1.0,
+          1.0
+        ],
+        "bootstrap_seed": 48000001600,
+        "bootstrap_replicates": 2000,
+        "CA_same_final_family": 1000,
+        "supplementary_book_matches_after_ply10": {
+          "A": 13,
+          "B": 23,
+          "C": 18
+        },
+        "supplementary_posthoc_ECO": {
+          "CA_ratio": 1.0,
+          "CA_ratio_95_ci": [
+            1.0,
+            1.0
+          ],
+          "CA_same_final_ECO": 999,
+          "bootstrap_seed": 48000101600,
+          "bootstrap_replicates": 2000
+        },
+        "CA_prefix_agreement": {
+          "8": 1000,
+          "10": 1000,
+          "12": 653,
+          "16": 304,
+          "24": 71
+        },
+        "CA_first_divergence_ply": {
+          "12": 157,
+          "15": 75,
+          "19": 48,
+          "17": 41,
+          "11": 190,
+          "13": 116,
+          "14": 104,
+          "same_through_end": 71,
+          "21": 28,
+          "18": 49,
+          "16": 54,
+          "23": 16,
+          "24": 18,
+          "22": 11,
+          "20": 22
+        },
+        "AC_identical_first_10_plies": 1000,
+        "CA_same_24_ply_line": 71
+      },
+      "2400": {
+        "arms": {
+          "A": {
+            "8": {
+              "families": {
+                "samples": 400,
+                "unique": 61,
+                "effective": 30.374215192461023,
+                "top_fraction": 0.17,
+                "repeat_fraction": 0.8475
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 378,
+                "effective": 368.38787108781327,
+                "top_fraction": 0.01,
+                "repeat_fraction": 0.05500000000000005
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 61,
+                  "effective": 30.374215192461023,
+                  "top_fraction": 0.17,
+                  "repeat_fraction": 0.8475
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 127,
+                  "effective": 90.53947454597065,
+                  "top_fraction": 0.0375,
+                  "repeat_fraction": 0.6825
+                },
+                "book_match_at_depth_fraction": 0.1625,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 378,
+                  "effective": 368.38787108781327,
+                  "top_fraction": 0.01,
+                  "repeat_fraction": 0.05500000000000005
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "10": {
+              "families": {
+                "samples": 400,
+                "unique": 61,
+                "effective": 30.825294338336235,
+                "top_fraction": 0.17,
+                "repeat_fraction": 0.8475
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 392,
+                "effective": 388.55337180137656,
+                "top_fraction": 0.0075,
+                "repeat_fraction": 0.020000000000000018
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 61,
+                  "effective": 30.825294338336235,
+                  "top_fraction": 0.17,
+                  "repeat_fraction": 0.8475
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 142,
+                  "effective": 100.29103887343923,
+                  "top_fraction": 0.0375,
+                  "repeat_fraction": 0.645
+                },
+                "book_match_at_depth_fraction": 0.0675,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 392,
+                  "effective": 388.55337180137656,
+                  "top_fraction": 0.0075,
+                  "repeat_fraction": 0.020000000000000018
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "12": {
+              "families": {
+                "samples": 400,
+                "unique": 61,
+                "effective": 30.848236649453153,
+                "top_fraction": 0.17,
+                "repeat_fraction": 0.8475
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 397,
+                "effective": 395.86266256608275,
+                "top_fraction": 0.005,
+                "repeat_fraction": 0.007499999999999951
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 61,
+                  "effective": 30.848236649453153,
+                  "top_fraction": 0.17,
+                  "repeat_fraction": 0.8475
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 151,
+                  "effective": 105.00611451388994,
+                  "top_fraction": 0.035,
+                  "repeat_fraction": 0.6225
+                },
+                "book_match_at_depth_fraction": 0.0475,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 397,
+                  "effective": 395.86266256608275,
+                  "top_fraction": 0.005,
+                  "repeat_fraction": 0.007499999999999951
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "16": {
+              "families": {
+                "samples": 400,
+                "unique": 61,
+                "effective": 30.98097189220766,
+                "top_fraction": 0.17,
+                "repeat_fraction": 0.8475
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 399,
+                "effective": 398.6161051311471,
+                "top_fraction": 0.005,
+                "repeat_fraction": 0.0024999999999999467
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 61,
+                  "effective": 30.98097189220766,
+                  "top_fraction": 0.17,
+                  "repeat_fraction": 0.8475
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 155,
+                  "effective": 107.99993056783853,
+                  "top_fraction": 0.035,
+                  "repeat_fraction": 0.6125
+                },
+                "book_match_at_depth_fraction": 0.0125,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 399,
+                  "effective": 398.6161051311471,
+                  "top_fraction": 0.005,
+                  "repeat_fraction": 0.0024999999999999467
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "24": {
+              "families": {
+                "samples": 400,
+                "unique": 61,
+                "effective": 30.98097189220766,
+                "top_fraction": 0.17,
+                "repeat_fraction": 0.8475
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 400,
+                "effective": 400.00000000000017,
+                "top_fraction": 0.0025,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 61,
+                  "effective": 30.98097189220766,
+                  "top_fraction": 0.17,
+                  "repeat_fraction": 0.8475
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 155,
+                  "effective": 107.99993056783853,
+                  "top_fraction": 0.035,
+                  "repeat_fraction": 0.6125
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            }
+          },
+          "B": {
+            "8": {
+              "families": {
+                "samples": 400,
+                "unique": 53,
+                "effective": 26.6574816352718,
+                "top_fraction": 0.185,
+                "repeat_fraction": 0.8674999999999999
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 362,
+                "effective": 343.051939687171,
+                "top_fraction": 0.015,
+                "repeat_fraction": 0.09499999999999997
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 53,
+                  "effective": 26.6574816352718,
+                  "top_fraction": 0.185,
+                  "repeat_fraction": 0.8674999999999999
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 122,
+                  "effective": 88.41858525581502,
+                  "top_fraction": 0.04,
+                  "repeat_fraction": 0.6950000000000001
+                },
+                "book_match_at_depth_fraction": 0.2025,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 362,
+                  "effective": 343.051939687171,
+                  "top_fraction": 0.015,
+                  "repeat_fraction": 0.09499999999999997
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "10": {
+              "families": {
+                "samples": 400,
+                "unique": 56,
+                "effective": 27.326219918128057,
+                "top_fraction": 0.19,
+                "repeat_fraction": 0.86
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 383,
+                "effective": 376.1284833441156,
+                "top_fraction": 0.0075,
+                "repeat_fraction": 0.04249999999999998
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 56,
+                  "effective": 27.326219918128057,
+                  "top_fraction": 0.19,
+                  "repeat_fraction": 0.86
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 139,
+                  "effective": 99.16647906494603,
+                  "top_fraction": 0.04,
+                  "repeat_fraction": 0.6525000000000001
+                },
+                "book_match_at_depth_fraction": 0.09,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 383,
+                  "effective": 376.1284833441156,
+                  "top_fraction": 0.0075,
+                  "repeat_fraction": 0.04249999999999998
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "12": {
+              "families": {
+                "samples": 400,
+                "unique": 55,
+                "effective": 27.272291529472252,
+                "top_fraction": 0.19,
+                "repeat_fraction": 0.8625
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 395,
+                "effective": 393.12823941810046,
+                "top_fraction": 0.005,
+                "repeat_fraction": 0.012499999999999956
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 55,
+                  "effective": 27.272291529472252,
+                  "top_fraction": 0.19,
+                  "repeat_fraction": 0.8625
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 143,
+                  "effective": 103.05692517033485,
+                  "top_fraction": 0.04,
+                  "repeat_fraction": 0.6425000000000001
+                },
+                "book_match_at_depth_fraction": 0.08,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 395,
+                  "effective": 393.12823941810046,
+                  "top_fraction": 0.005,
+                  "repeat_fraction": 0.012499999999999956
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "16": {
+              "families": {
+                "samples": 400,
+                "unique": 56,
+                "effective": 27.505120494039947,
+                "top_fraction": 0.19,
+                "repeat_fraction": 0.86
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 399,
+                "effective": 398.6161051311471,
+                "top_fraction": 0.005,
+                "repeat_fraction": 0.0024999999999999467
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 56,
+                  "effective": 27.505120494039947,
+                  "top_fraction": 0.19,
+                  "repeat_fraction": 0.86
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 151,
+                  "effective": 107.05035203546718,
+                  "top_fraction": 0.04,
+                  "repeat_fraction": 0.6225
+                },
+                "book_match_at_depth_fraction": 0.0125,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 399,
+                  "effective": 398.6161051311471,
+                  "top_fraction": 0.005,
+                  "repeat_fraction": 0.0024999999999999467
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "24": {
+              "families": {
+                "samples": 398,
+                "unique": 56,
+                "effective": 27.51481587315511,
+                "top_fraction": 0.19095477386934673,
+                "repeat_fraction": 0.8592964824120604
+              },
+              "exact_lines": {
+                "samples": 398,
+                "unique": 398,
+                "effective": 398.0000000000002,
+                "top_fraction": 0.002512562814070352,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 2,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 56,
+                  "effective": 27.505120494039947,
+                  "top_fraction": 0.19,
+                  "repeat_fraction": 0.86
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 151,
+                  "effective": 107.05035203546718,
+                  "top_fraction": 0.04,
+                  "repeat_fraction": 0.6225
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            }
+          },
+          "C": {
+            "8": {
+              "families": {
+                "samples": 400,
+                "unique": 61,
+                "effective": 30.374215192461023,
+                "top_fraction": 0.17,
+                "repeat_fraction": 0.8475
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 378,
+                "effective": 368.38787108781327,
+                "top_fraction": 0.01,
+                "repeat_fraction": 0.05500000000000005
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 61,
+                  "effective": 30.374215192461023,
+                  "top_fraction": 0.17,
+                  "repeat_fraction": 0.8475
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 127,
+                  "effective": 90.53947454597065,
+                  "top_fraction": 0.0375,
+                  "repeat_fraction": 0.6825
+                },
+                "book_match_at_depth_fraction": 0.1625,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 378,
+                  "effective": 368.38787108781327,
+                  "top_fraction": 0.01,
+                  "repeat_fraction": 0.05500000000000005
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "10": {
+              "families": {
+                "samples": 400,
+                "unique": 61,
+                "effective": 30.825294338336235,
+                "top_fraction": 0.17,
+                "repeat_fraction": 0.8475
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 392,
+                "effective": 388.55337180137656,
+                "top_fraction": 0.0075,
+                "repeat_fraction": 0.020000000000000018
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 61,
+                  "effective": 30.825294338336235,
+                  "top_fraction": 0.17,
+                  "repeat_fraction": 0.8475
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 142,
+                  "effective": 100.29103887343923,
+                  "top_fraction": 0.0375,
+                  "repeat_fraction": 0.645
+                },
+                "book_match_at_depth_fraction": 0.0675,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 392,
+                  "effective": 388.55337180137656,
+                  "top_fraction": 0.0075,
+                  "repeat_fraction": 0.020000000000000018
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "12": {
+              "families": {
+                "samples": 400,
+                "unique": 61,
+                "effective": 30.848236649453153,
+                "top_fraction": 0.17,
+                "repeat_fraction": 0.8475
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 397,
+                "effective": 395.86266256608275,
+                "top_fraction": 0.005,
+                "repeat_fraction": 0.007499999999999951
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 61,
+                  "effective": 30.848236649453153,
+                  "top_fraction": 0.17,
+                  "repeat_fraction": 0.8475
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 151,
+                  "effective": 104.73488057198007,
+                  "top_fraction": 0.035,
+                  "repeat_fraction": 0.6225
+                },
+                "book_match_at_depth_fraction": 0.055,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 397,
+                  "effective": 395.86266256608275,
+                  "top_fraction": 0.005,
+                  "repeat_fraction": 0.007499999999999951
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "16": {
+              "families": {
+                "samples": 400,
+                "unique": 62,
+                "effective": 31.3732087404986,
+                "top_fraction": 0.17,
+                "repeat_fraction": 0.845
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 399,
+                "effective": 398.6161051311471,
+                "top_fraction": 0.005,
+                "repeat_fraction": 0.0024999999999999467
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 62,
+                  "effective": 31.3732087404986,
+                  "top_fraction": 0.17,
+                  "repeat_fraction": 0.845
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 157,
+                  "effective": 108.84680339492579,
+                  "top_fraction": 0.035,
+                  "repeat_fraction": 0.6074999999999999
+                },
+                "book_match_at_depth_fraction": 0.0175,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 399,
+                  "effective": 398.6161051311471,
+                  "top_fraction": 0.005,
+                  "repeat_fraction": 0.0024999999999999467
+                },
+                "unclassified_fraction": 0.0
+              }
+            },
+            "24": {
+              "families": {
+                "samples": 400,
+                "unique": 62,
+                "effective": 31.3732087404986,
+                "top_fraction": 0.17,
+                "repeat_fraction": 0.845
+              },
+              "exact_lines": {
+                "samples": 400,
+                "unique": 400,
+                "effective": 400.00000000000017,
+                "top_fraction": 0.0025,
+                "repeat_fraction": 0.0
+              },
+              "early_terminations": 0,
+              "unclassified_fraction": 0.0,
+              "all_rollouts": {
+                "families_carried": {
+                  "samples": 400,
+                  "unique": 62,
+                  "effective": 31.3732087404986,
+                  "top_fraction": 0.17,
+                  "repeat_fraction": 0.845
+                },
+                "eco_codes_carried": {
+                  "samples": 400,
+                  "unique": 159,
+                  "effective": 109.603892784453,
+                  "top_fraction": 0.035,
+                  "repeat_fraction": 0.6025
+                },
+                "book_match_at_depth_fraction": 0.0,
+                "exact_prefixes_with_terminal_marker": {
+                  "samples": 400,
+                  "unique": 400,
+                  "effective": 400.00000000000017,
+                  "top_fraction": 0.0025,
+                  "repeat_fraction": 0.0
+                },
+                "unclassified_fraction": 0.0
+              }
+            }
+          }
+        },
+        "all_final_labels_CA_ratio": 1.012660572743026,
+        "all_final_labels_CA_ratio_95_ci": [
+          1.0,
+          1.0271975787130534
+        ],
+        "bootstrap_seed": 48000002400,
+        "bootstrap_replicates": 2000,
+        "CA_same_final_family": 398,
+        "supplementary_book_matches_after_ply10": {
+          "A": 47,
+          "B": 73,
+          "C": 52
+        },
+        "supplementary_posthoc_ECO": {
+          "CA_ratio": 1.0148515115535834,
+          "CA_ratio_95_ci": [
+            0.9893070175375033,
+            1.0304102388292746
+          ],
+          "CA_same_final_ECO": 388,
+          "bootstrap_seed": 48000102400,
+          "bootstrap_replicates": 2000
+        },
+        "CA_prefix_agreement": {
+          "8": 400,
+          "10": 400,
+          "12": 312,
+          "16": 184,
+          "24": 66
+        },
+        "CA_first_divergence_ply": {
+          "same_through_end": 66,
+          "15": 37,
+          "17": 23,
+          "11": 45,
+          "20": 16,
+          "12": 43,
+          "16": 24,
+          "13": 41,
+          "14": 26,
+          "18": 23,
+          "24": 6,
+          "19": 21,
+          "21": 9,
+          "22": 9,
+          "23": 11
+        },
+        "AC_identical_first_10_plies": 400,
+        "CA_same_24_ply_line": 66
+      }
+    }
+  },
+  "analysis_sha256": "c7b163eb510285f770ab1d321ce551855ede8d4b29478f8fa1c7f691f5f6829e"
+}

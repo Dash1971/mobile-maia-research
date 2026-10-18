@@ -1,0 +1,52 @@
+{
+  "investigated_boundary_ties": 1,
+  "scans": [
+    {
+      "file": "matches-1600-1-0200.jsonl",
+      "sha256": "8cadcb6cebeb77c5f4ff15f88d153a01692b5901d701fe34c5418948dd2038ab",
+      "games_replayed": 100,
+      "ties": 1
+    }
+  ],
+  "findings": [
+    {
+      "id": "matches-1600-1-0200-0269-ply15",
+      "game": "matches-1600-1-0200-0269",
+      "elo": 1600,
+      "mode": "matches",
+      "arm": "B",
+      "fen": "rn2kbnr/pp2pppp/2p5/8/6q1/2N5/PPPPNPPP/R1BQ1RK1 b kq - 1 8",
+      "draw": 0.2434486001399243,
+      "python_selected": "e7e6",
+      "dart_selected": "e7e6",
+      "same_retained_set": true,
+      "maximum_probability_difference": 0.0,
+      "total_variation_distance": 0.0,
+      "python_probabilities": {
+        "e7e6": 0.4017291698242737,
+        "g8f6": 0.307229029170422,
+        "b8d7": 0.09195001127001204,
+        "h7h5": 0.07247338625527353,
+        "e7e5": 0.040192133699964015,
+        "g4c8": 0.031143019300410534,
+        "g4d7": 0.026300941941087598,
+        "g4g6": 0.014672530218585264,
+        "b8a6": 0.014309778319971381
+      },
+      "dart_probabilities": {
+        "e7e6": 0.4017291698242737,
+        "g8f6": 0.307229029170422,
+        "b8d7": 0.09195001127001204,
+        "h7h5": 0.07247338625527353,
+        "e7e5": 0.040192133699964015,
+        "g4c8": 0.031143019300410534,
+        "g4d7": 0.026300941941087598,
+        "g4g6": 0.014672530218585264,
+        "b8a6": 0.014309778319971381
+      }
+    }
+  ],
+  "all_probability_parity": true,
+  "all_fixed_draw_selections_match": true,
+  "verifier_sha256": "149900ef6c6bc2f677526068dce1a6f2f6dfcaa4f98c6bb0d6a7c03d7a05273e"
+}

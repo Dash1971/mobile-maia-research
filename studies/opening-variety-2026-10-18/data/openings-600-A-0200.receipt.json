@@ -1,0 +1,14 @@
+{
+  "job": {
+    "mode": "openings",
+    "elo": 600,
+    "arm": "A",
+    "offset": 200,
+    "count": 100
+  },
+  "rows": 100,
+  "sha256": "21a001988de80db263cae06125125af8ccb811aa967679c437e015226429c1c7",
+  "seconds_this_run": 224.85153699992225,
+  "inferences_this_run": 2053,
+  "boundary_ties_this_run": 0
+}

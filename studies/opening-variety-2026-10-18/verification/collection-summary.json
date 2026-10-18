@@ -1,0 +1,14 @@
+{
+  "collection_shards": 84,
+  "matches": 3000,
+  "opening_rollouts": 5400,
+  "inferences": 369705,
+  "summed_shard_elapsed_seconds": 35647.24430258479,
+  "inference_workers": 6,
+  "threads_per_worker": 1,
+  "boundary_ties": 1,
+  "quality_positions": 180,
+  "engine_child_moves": 5824,
+  "stockfish_nodes": 115361629,
+  "elapsed_note": "Summed per-shard elapsed time across workers; not CPU accounting or end-to-end wall time."
+}

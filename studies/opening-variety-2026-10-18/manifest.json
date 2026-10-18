@@ -1,0 +1,44 @@
+{
+  "study": "opening-variety-2026-10-18",
+  "app_sha": "3702f6f197135dbac9ae38a9aa9720e15c603e5c",
+  "model_sha256": "3454b03ae78baa64a87b345fdb1a457265d912caec531039b074f07eda0d8010",
+  "model_bytes": 316034244,
+  "arms": {
+    "A": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "opening_variety": false
+    },
+    "B": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "opening_variety": false
+    },
+    "C": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "opening_variety": true
+    }
+  },
+  "match_games_per_pair": {
+    "600": 200,
+    "1600": 600,
+    "2400": 200
+  },
+  "opening_rollouts_per_arm": {
+    "600": 400,
+    "1600": 1000,
+    "2400": 400
+  },
+  "history": false,
+  "provider": "CPUExecutionProvider",
+  "inference_threads": 1,
+  "python": "3.12.13",
+  "chess": "1.11.2",
+  "numpy": "2.5.3",
+  "onnxruntime": "1.30.0",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "protocol_sha256": "2bfbc5dd52a29ca74fa713597a92e92268bf9b330d636f5f7ab877ba6608bf48",
+  "core_sha256": "ea0fec3286ebe3eeb13e07e78552f12c7f70b012a860d97bb1d98d074518e11f",
+  "runner_sha256": "98fd81c84194c158e522418769cd56ce51cdf1cc5d2e7266fbed00e50e754648"
+}

@@ -1,0 +1,261 @@
+{
+  "passed": true,
+  "official_pytorch_cases": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "self_elo": 1500,
+      "opponent_elo": 1500,
+      "moves": 20,
+      "max_absolute_error": 2.09575195313505e-05
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "self_elo": 1600,
+      "opponent_elo": 2100,
+      "moves": 20,
+      "max_absolute_error": 1.9065795896722193e-05
+    },
+    {
+      "fen": "r1bq1rk1/1pp1bppp/p1np1n2/4p3/B3P3/2P2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10",
+      "self_elo": 1800,
+      "opponent_elo": 1800,
+      "moves": 28,
+      "max_absolute_error": 2.2845190429165996e-05
+    },
+    {
+      "fen": "7k/8/8/8/8/8/1p6/7K b - - 0 1",
+      "self_elo": 1200,
+      "opponent_elo": 1200,
+      "moves": 7,
+      "max_absolute_error": 3.796240235942605e-06
+    }
+  ],
+  "dart_cases": [
+    {
+      "id": "0-A",
+      "selected": "e2e4",
+      "retained": 20
+    },
+    {
+      "id": "0-B",
+      "selected": "e2e4",
+      "retained": 5
+    },
+    {
+      "id": "0-C",
+      "selected": "e2e4",
+      "retained": 20
+    },
+    {
+      "id": "1-A",
+      "selected": "e7e5",
+      "retained": 20
+    },
+    {
+      "id": "1-B",
+      "selected": "e7e5",
+      "retained": 9
+    },
+    {
+      "id": "1-C",
+      "selected": "e7e5",
+      "retained": 20
+    },
+    {
+      "id": "2-A",
+      "selected": "g1f3",
+      "retained": 37
+    },
+    {
+      "id": "2-B",
+      "selected": "g1f3",
+      "retained": 25
+    },
+    {
+      "id": "2-C",
+      "selected": "g1f3",
+      "retained": 37
+    },
+    {
+      "id": "3-A",
+      "selected": "e7e6",
+      "retained": 4
+    },
+    {
+      "id": "3-B",
+      "selected": "e7e6",
+      "retained": 3
+    },
+    {
+      "id": "3-C",
+      "selected": "e7e6",
+      "retained": 4
+    },
+    {
+      "id": "4-A",
+      "selected": "g1f3",
+      "retained": 29
+    },
+    {
+      "id": "4-B",
+      "selected": "g1f3",
+      "retained": 17
+    },
+    {
+      "id": "4-C",
+      "selected": "g1f3",
+      "retained": 17
+    },
+    {
+      "id": "5-A",
+      "selected": "f7g7",
+      "retained": 27
+    },
+    {
+      "id": "5-B",
+      "selected": "f7g7",
+      "retained": 16
+    },
+    {
+      "id": "5-C",
+      "selected": "f7g7",
+      "retained": 16
+    },
+    {
+      "id": "6-A",
+      "selected": "c3d4",
+      "retained": 23
+    },
+    {
+      "id": "6-B",
+      "selected": "c3d4",
+      "retained": 17
+    },
+    {
+      "id": "6-C",
+      "selected": "c3d4",
+      "retained": 17
+    },
+    {
+      "id": "7-A",
+      "selected": "a4a5",
+      "retained": 36
+    },
+    {
+      "id": "7-B",
+      "selected": "a4a5",
+      "retained": 6
+    },
+    {
+      "id": "7-C",
+      "selected": "a4a5",
+      "retained": 6
+    },
+    {
+      "id": "8-A",
+      "selected": "h3f5",
+      "retained": 35
+    },
+    {
+      "id": "8-B",
+      "selected": "h3f5",
+      "retained": 20
+    },
+    {
+      "id": "8-C",
+      "selected": "h3f5",
+      "retained": 20
+    },
+    {
+      "id": "9-A",
+      "selected": "a7a8q",
+      "retained": 9
+    },
+    {
+      "id": "9-B",
+      "selected": "a7a8q",
+      "retained": 1
+    },
+    {
+      "id": "9-C",
+      "selected": "a7a8q",
+      "retained": 9
+    },
+    {
+      "id": "10-A",
+      "selected": "h2h1q",
+      "retained": 9
+    },
+    {
+      "id": "10-B",
+      "selected": "h2h1q",
+      "retained": 1
+    },
+    {
+      "id": "10-C",
+      "selected": "h2h1q",
+      "retained": 1
+    },
+    {
+      "id": "11-A",
+      "selected": "h1h8",
+      "retained": 26
+    },
+    {
+      "id": "11-B",
+      "selected": "h1h8",
+      "retained": 14
+    },
+    {
+      "id": "11-C",
+      "selected": "h1h8",
+      "retained": 14
+    },
+    {
+      "id": "12-A",
+      "selected": "e1e2",
+      "retained": 7
+    },
+    {
+      "id": "12-B",
+      "selected": "e1e2",
+      "retained": 4
+    },
+    {
+      "id": "12-C",
+      "selected": "e1e2",
+      "retained": 4
+    },
+    {
+      "id": "boundary-0",
+      "selected": "g1f3",
+      "retained": 2
+    },
+    {
+      "id": "boundary-1",
+      "selected": "g1h3",
+      "retained": 1
+    },
+    {
+      "id": "boundary-2",
+      "selected": "g1h3",
+      "retained": 1
+    },
+    {
+      "id": "boundary-3",
+      "selected": "g1f3",
+      "retained": 2
+    }
+  ],
+  "maximum_probability_error": 2.220446049250313e-16,
+  "checks": [
+    "all encoder tokens",
+    "effective phase for both colors",
+    "retained sets/probabilities",
+    "fixed-draw selections",
+    "promotion/castling/en-passant mapping",
+    "crossing and zero boundaries"
+  ],
+  "dart_helper_sha256": "3df3ffaaa512a281b3ecbebbc9a2af7d07896859cec5387c45c589bbf6adf724",
+  "input_sha256": "0f75b03456cc8b4504f26876fcff70b725dadb4e7661fa9fee8d01581d3299ca"
+}
