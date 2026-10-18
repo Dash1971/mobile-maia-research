@@ -1,0 +1,26 @@
+{
+  "600": {
+    "lower": 50,
+    "higher": 6,
+    "same": 4,
+    "mate_positions": 12,
+    "legal_child_moves": 1725,
+    "stockfish_nodes": 34008283
+  },
+  "1600": {
+    "lower": 57,
+    "higher": 2,
+    "same": 1,
+    "mate_positions": 6,
+    "legal_child_moves": 2011,
+    "stockfish_nodes": 39954535
+  },
+  "2400": {
+    "lower": 56,
+    "higher": 4,
+    "same": 0,
+    "mate_positions": 2,
+    "legal_child_moves": 2088,
+    "stockfish_nodes": 41398811
+  }
+}

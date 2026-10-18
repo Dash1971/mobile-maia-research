@@ -75,12 +75,24 @@ def main():
                 mass = sum(p for m, p in probs.items() if peak - scores[m] >= threshold)
                 assert abs(mass - row['measures'][arm][f'probability_loss_ge{threshold}cp']) < 1e-12
         assert row['probabilities']['B'] == row['probabilities']['C']
+    coverage = {}
     for rating in (600, 1600, 2400):
         subset = [r for r in values if r['elo'] == rating]
+        changes = [r['measures']['C']['expected_cp_loss'] - r['measures']['A']['expected_cp_loss']
+                   for r in subset]
+        coverage[str(rating)] = {
+            'lower': sum(x < -1e-12 for x in changes),
+            'higher': sum(x > 1e-12 for x in changes),
+            'same': sum(abs(x) <= 1e-12 for x in changes),
+            'mate_positions': sum(any(v['mate'] is not None for v in r['values']) for r in subset),
+            'legal_child_moves': sum(len(r['values']) for r in subset),
+            'stockfish_nodes': sum(v['nodes'] for r in subset for v in r['values']),
+        }
         for metric, published in quality[str(rating)]['metrics'].items():
             for arm in ('A', 'C'):
                 mean = sum(r['measures'][arm][metric] for r in subset) / len(subset)
                 assert abs(mean - published[arm + '_mean']) < 1e-9
+    assert coverage == json.loads((HERE / 'verification/quality-coverage.json').read_text())
     checks.append('180 cached quality positions: legal coverage, normalized probabilities, expected losses and thresholds')
     labels = json.loads((HERE / 'data/opening-labels.json').read_text())
     assert len(labels) == 5400
