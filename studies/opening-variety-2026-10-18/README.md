@@ -5,6 +5,9 @@ the first-five-moves opening override. It tracks
 [Preview issue #155](https://github.com/Dash1971/maia-chess-android-preview/issues/155).
 The [protocol](PROTOCOL.md) was committed before the main runs in
 [`5b0133f`](https://github.com/Dash1971/mobile-maia-research/commit/5b0133f).
+The [pre-diagnostic addendum](DIAGNOSTIC_ADDENDUM.md) spreads the quality
+positions across moves 7, 13 and 21; it was committed before diagnostic runs or
+match-result analysis, without changing the match/opening comparisons.
 
 ## Evidence and code
 

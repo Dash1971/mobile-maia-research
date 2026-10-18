@@ -80,7 +80,7 @@ def select():
         for row in games:
             if row['cluster'] in used or len(used) == 60:
                 continue
-            for ply in (12, 24, 40):
+            for ply in ((12, 24, 40)[row['cluster'] % 3],):
                 if len(row['moves_uci']) <= ply:
                     continue
                 board = chess.Board()
@@ -95,6 +95,12 @@ def select():
                 break
         assert len(used) == 60, (rating, len(used))
     (HERE / 'data/quality-inputs.json').write_text(json.dumps(cases, indent=2) + '\n')
+    (HERE / 'data/quality-input-manifest.json').write_text(json.dumps({
+        'selection_addendum_sha256': sha256(HERE / 'DIAGNOSTIC_ADDENDUM.md'),
+        'selection_script_sha256': sha256(__file__),
+        'input_sha256': sha256(HERE / 'data/quality-inputs.json'),
+        'positions': len(cases),
+    }, indent=2) + '\n')
     return cases
 
 
