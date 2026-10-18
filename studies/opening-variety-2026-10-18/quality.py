@@ -4,6 +4,7 @@ import argparse
 import concurrent.futures
 import json
 import time
+from multiprocessing.util import Finalize
 from pathlib import Path
 
 import chess
@@ -20,6 +21,7 @@ def initialize(model, engine):
     POLICY = Policy(model, cache_limit=0)
     ENGINE = chess.engine.SimpleEngine.popen_uci(engine)
     ENGINE.configure({'Threads': 1, 'Hash': 32})
+    Finalize(None, ENGINE.quit, exitpriority=10)
 
 
 def evaluate(case):
@@ -57,7 +59,13 @@ def evaluate(case):
         measures[arm] = {'expected_cp_loss': sum(probs.get(m, 0.) * loss for m, loss in losses.items()),
                          'probability_loss_ge100cp': sum(probs.get(m, 0.) for m, loss in losses.items() if loss >= 100),
                          'probability_loss_ge200cp': sum(probs.get(m, 0.) for m, loss in losses.items() if loss >= 200)}
+    raw = distributions['A']
+    retained = distributions['C']
+    fidelity = {'legal_moves': len(raw), 'retained_moves': len(retained),
+                'removed_raw_probability': sum(p for m, p in raw.items() if m not in retained)}
+    assert fidelity['removed_raw_probability'] <= .05 + 1e-12
     return {**case, 'values': values, 'probabilities': distributions, 'measures': measures,
+            'conditional_fidelity': fidelity,
             'seconds': time.monotonic() - started}
 
 
@@ -107,6 +115,8 @@ def summarize(rows):
                                'C_minus_A_95_ci': np.quantile(samples, [.025, .975]).tolist()}
         output[str(rating)] = {'positions': len(subset),
                                'plies': dict(__import__('collections').Counter(r['ply'] for r in subset)),
+                               'mean_raw_probability_removed': float(np.mean([
+                                   r['conditional_fidelity']['removed_raw_probability'] for r in subset])),
                                'metrics': metrics}
     (HERE / 'quality-results.json').write_text(json.dumps(output, indent=2) + '\n')
 

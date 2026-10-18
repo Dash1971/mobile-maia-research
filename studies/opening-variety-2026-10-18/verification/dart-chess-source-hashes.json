@@ -1,0 +1,7 @@
+{
+  "package": "chess",
+  "version": "0.8.1",
+  "files": {
+    "lib/chess.dart": "1299cf5dcbf21ddf975cb1cad3be98426f5ed11b5b643c8cd5db18f6f4b925d1"
+  }
+}
