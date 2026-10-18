@@ -84,6 +84,10 @@ The quality runner requires the exact Stockfish binary hash in
 `environment.json`. A rebuild on another platform is a new diagnostic
 replication, not a byte-identical rerun. It clears engine search state before
 each child position and records the actual nodes, depth and mate scores.
+Stockfish 18's [Clear Hash handler calls `search_clear`, clearing the hash and
+thread search state](https://github.com/official-stockfish/Stockfish/blob/sf_18/src/engine.cpp).
+Use `--rating 1600` to evaluate that completed rating subset while other matches
+continue; the full diagnostic command resumes the remaining fixed cases.
 
 ## Independent Dart checks
 

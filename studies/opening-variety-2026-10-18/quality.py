@@ -69,11 +69,11 @@ def evaluate(case):
             'seconds': time.monotonic() - started}
 
 
-def select():
+def select(ratings=(600, 1600, 2400)):
     from analyze import read
     all_matches = read('matches')
     cases = []
-    for rating in (600, 1600, 2400):
+    for rating in ratings:
         games = sorted([r for r in all_matches if r['elo'] == rating and r['pair_index'] == 0],
                        key=lambda r: r['index'])
         used = set()
@@ -134,10 +134,12 @@ def main():
     ap.add_argument('--model', required=True)
     ap.add_argument('--stockfish', required=True)
     ap.add_argument('--workers', type=int, default=2)
+    ap.add_argument('--rating', type=int, choices=[600, 1600, 2400], default=None,
+                    help='Evaluate a completed rating subset; full run resumes remaining cases')
     args = ap.parse_args()
     pinned = json.loads((HERE / 'environment.json').read_text())
     assert sha256(Path(args.stockfish).resolve()) == pinned['stockfish_sha256']
-    cases = select()
+    cases = select((args.rating,) if args.rating is not None else (600, 1600, 2400))
     dest = HERE / 'data/quality.jsonl'
     rows = [json.loads(l) for l in dest.read_text().splitlines()] if dest.exists() else []
     done = {r['id'] for r in rows}
@@ -152,8 +154,10 @@ def main():
                 rows.append(row)
                 if len(rows) % 10 == 0:
                     print(json.dumps({'quality_positions': len(rows), 'target': 180}), flush=True)
-    assert len(rows) == len(cases) == 180
-    summarize(sorted(rows, key=lambda r: r['id']))
+    assert {c['id'] for c in cases} <= {r['id'] for r in rows}
+    if args.rating is None:
+        assert len(rows) == len(cases) == 180
+        summarize(sorted(rows, key=lambda r: r['id']))
     print('COMPLETE', flush=True)
 
 
