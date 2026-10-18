@@ -35,6 +35,35 @@ establish preservation of opening variety, a benefit at other conditioning
 ratings, or that this is a better overall default for the intended human-like
 playing experience. The remaining prespecified comparisons continue unchanged.
 
+## Completed 1600 quality diagnostic
+
+The first rating's fixed diagnostic is complete: 60 positions, 30 with each
+color to move and 20 each at moves 7, 13 and 21. Each legal move's child position
+received a fresh 20,000-node Stockfish 18 search, with the terminal-position
+exceptions defined in the protocol.
+
+| Diagnostic | A: full sampling | C: Top-P 0.95 after opening |
+| --- | ---: | ---: |
+| Mean probability of a move >=100 cp below the best evaluated legal move | 23.85% | 22.48% |
+| Mean probability of a move >=200 cp below the best evaluated legal move | 8.89% | 7.99% |
+
+The paired difference in the >=200 cp measure is **−0.89 percentage points**,
+with 95% bootstrap interval **−1.19 to −0.61 points** across the selected
+positions. Expected evaluation loss is lower in 57 positions, higher in two,
+and unchanged in one. Lower Top-P does not improve every position.
+
+Six positions include mate-valued branches. Mapping these scores to roughly
+±32,000 cp greatly inflates the mean expected-loss values (597.75 to 571.52 cp);
+these are not typical game losses or a calibrated blunder rate. Fixed shallow
+search, selected positions and the research evaluator's version also limit
+generalization. B and C have the same distribution on these post-override
+positions, so this diagnostic isolates the later Top-P change, not the effect
+of the opening override itself.
+
+See the [cached diagnostic summary](verification/fixed-quality-1600-preview.json)
+and [per-position/move data](data/quality.jsonl). The full three-rating diagnostic
+and audit remain pending.
+
 ## Protocol and reproduction
 
 See the [frozen protocol](PROTOCOL.md), [pre-diagnostic addendum](DIAGNOSTIC_ADDENDUM.md)
