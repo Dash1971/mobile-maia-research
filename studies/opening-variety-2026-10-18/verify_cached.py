@@ -40,6 +40,7 @@ def main():
     by_id = {r['id']: r for r in rows}
     assert len({(r['elo'], r['pair_cluster']) for r in values}) == 180
     for row in values:
+        assert row['ply'] == (12, 24, 40)[row['pair_cluster'] % 3] + row['pair_cluster'] % 2
         original = by_id[row['game']]
         restored = chess.Board()
         for uci in original['moves_uci'][:row['ply']]:

@@ -80,7 +80,7 @@ def select():
         for row in games:
             if row['cluster'] in used or len(used) == 60:
                 continue
-            for ply in ((12, 24, 40)[row['cluster'] % 3],):
+            for ply in ((12, 24, 40)[row['cluster'] % 3] + row['cluster'] % 2,):
                 if len(row['moves_uci']) <= ply:
                     continue
                 board = chess.Board()
@@ -121,6 +121,8 @@ def summarize(rows):
                                'C_minus_A_95_ci': np.quantile(samples, [.025, .975]).tolist()}
         output[str(rating)] = {'positions': len(subset),
                                'plies': dict(__import__('collections').Counter(r['ply'] for r in subset)),
+                               'side_to_move': dict(__import__('collections').Counter(
+                                   'white' if chess.Board(r['fen']).turn else 'black' for r in subset)),
                                'mean_raw_probability_removed': float(np.mean([
                                    r['conditional_fidelity']['removed_raw_probability'] for r in subset])),
                                'metrics': metrics}
