@@ -136,7 +136,7 @@ def diversity(labels):
             'repeat_fraction': 1 - len(counts) / n}
 
 
-def opening_summary(rows):
+def opening_summary(rows, ratings=(600, 1600, 2400), write_labels=True):
     label_path = HERE.parent / 'maia3-sampling/openings/source/lichess_openings.tsv'
     labels = {}
     for r in csv.DictReader(label_path.open(), delimiter='\t'):
@@ -151,10 +151,10 @@ def opening_summary(rows):
             epd = ' '.join(board.fen().split()[:4])
             if epd in labels:
                 eco, family = labels[epd]
-            trace.append({'eco': eco, 'family': family})
+            trace.append({'eco': eco, 'family': family, 'book_match': epd in labels})
         enriched.append({**r, 'labels': trace})
     by_rating = {}
-    for rating in (600, 1600, 2400):
+    for rating in ratings:
         arms = {a: sorted([r for r in enriched if r['elo'] == rating and r['arm'] == a],
                           key=lambda r: r['index']) for a in ARMS}
         assert all(len(v) == OPENING_GAMES[rating] for v in arms.values())
@@ -168,6 +168,7 @@ def opening_summary(rows):
                 families = [r['labels'][depth - 1]['family'] for r in eligible]
                 lines = [' '.join(r['moves_uci'][:depth]) for r in eligible]
                 carried = [r['labels'][min(depth, len(r['labels'])) - 1]['family'] for r in subset]
+                eco = [r['labels'][min(depth, len(r['labels'])) - 1]['eco'] for r in subset]
                 prefixes = [' '.join(r['moves_uci'][:depth]) +
                             (f" [ended:{r['termination']}]" if len(r['moves_uci']) < depth else '')
                             for r in subset]
@@ -177,6 +178,10 @@ def opening_summary(rows):
                                           'unclassified_fraction': families.count('Unclassified') / len(families),
                                           'all_rollouts': {
                                               'families_carried': diversity(carried),
+                                              'eco_codes_carried': diversity(eco),
+                                              'book_match_at_depth_fraction': sum(
+                                                  len(r['labels']) >= depth and r['labels'][depth - 1]['book_match']
+                                                  for r in subset) / len(subset),
                                               'exact_prefixes_with_terminal_marker': diversity(prefixes),
                                               'unclassified_fraction': carried.count('Unclassified') / len(carried)}}
         # Pair-resample indices; early terminals carry their last label, explicitly
@@ -191,13 +196,42 @@ def opening_summary(rows):
             ratios.append(diversity(family_arrays['C'][idx])['effective'] /
                           diversity(family_arrays['A'][idx])['effective'])
         ratio = diversity(family_arrays['C'])['effective'] / diversity(family_arrays['A'])['effective']
+        eco_arrays = {a: np.array([r['labels'][-1]['eco'] for r in arms[a]]) for a in ('A', 'C')}
+        eco_seed = 48000100000 + rating
+        eco_rng = np.random.default_rng(eco_seed)
+        eco_ratios = []
+        for _ in range(2000):
+            idx = eco_rng.integers(0, n, n)
+            eco_ratios.append(diversity(eco_arrays['C'][idx])['effective'] /
+                              diversity(eco_arrays['A'][idx])['effective'])
+        first_divergence = collections.Counter()
+        for a, c in zip(arms['A'], arms['C']):
+            different = next((i + 1 for i, (x, y) in enumerate(zip(a['moves_uci'], c['moves_uci']))
+                              if x != y), None)
+            if different is None and len(a['moves_uci']) != len(c['moves_uci']):
+                different = min(len(a['moves_uci']), len(c['moves_uci'])) + 1
+            first_divergence[str(different) if different is not None else 'same_through_end'] += 1
         by_rating[str(rating)] = {'arms': report, 'all_final_labels_CA_ratio': ratio,
                                   'all_final_labels_CA_ratio_95_ci': np.quantile(ratios, [.025, .975]).tolist(),
                                   'bootstrap_seed': seed, 'bootstrap_replicates': 2000,
+                                  'CA_same_final_family': int(sum(family_arrays['A'] == family_arrays['C'])),
+                                  'supplementary_book_matches_after_ply10': {
+                                      a: sum(any(step['book_match'] for step in r['labels'][10:]) for r in arms[a])
+                                      for a in ARMS},
+                                  'supplementary_posthoc_ECO': {
+                                      'CA_ratio': diversity(eco_arrays['C'])['effective'] / diversity(eco_arrays['A'])['effective'],
+                                      'CA_ratio_95_ci': np.quantile(eco_ratios, [.025, .975]).tolist(),
+                                      'CA_same_final_ECO': int(sum(eco_arrays['A'] == eco_arrays['C'])),
+                                      'bootstrap_seed': eco_seed, 'bootstrap_replicates': 2000},
+                                  'CA_prefix_agreement': {str(d): sum(a['moves_uci'][:d] == c['moves_uci'][:d]
+                                                                     for a, c in zip(arms['A'], arms['C']))
+                                                          for d in (8, 10, 12, 16, 24)},
+                                  'CA_first_divergence_ply': dict(first_divergence),
                                   'AC_identical_first_10_plies': n,
                                   'CA_same_24_ply_line': sum(a['moves_uci'] == c['moves_uci']
                                                            for a, c in zip(arms['A'], arms['C']))}
-    (HERE / 'data/opening-labels.json').write_text(json.dumps(enriched, separators=(',', ':')) + '\n')
+    if write_labels:
+        (HERE / 'data/opening-labels.json').write_text(json.dumps(enriched, separators=(',', ':')) + '\n')
     return {'opening_table_sha256': sha256(label_path), 'by_rating': by_rating}
 
 

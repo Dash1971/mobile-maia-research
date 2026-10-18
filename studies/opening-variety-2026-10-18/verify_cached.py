@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Independent cached-data audit; needs numpy/chess but no model or inference."""
 import collections
+import csv
 import hashlib
 import json
 import math
@@ -96,6 +97,18 @@ def main():
     checks.append('180 cached quality positions: legal coverage, normalized probabilities, expected losses and thresholds')
     labels = json.loads((HERE / 'data/opening-labels.json').read_text())
     assert len(labels) == 5400
+    table = {r['epd']: (r['eco'], r['name'].partition(':')[0]) for r in csv.DictReader(
+        (HERE.parent / 'maia3-sampling/openings/source/lichess_openings.tsv').open(), delimiter='\t')}
+    for row in labels:
+        board = chess.Board()
+        remembered = ('none', 'Unclassified')
+        assert len(row['moves_uci']) == len(row['labels'])
+        for uci, label in zip(row['moves_uci'], row['labels']):
+            board.push_uci(uci)
+            key = ' '.join(board.fen().split()[:4])
+            assert label['book_match'] == (key in table)
+            remembered = table.get(key, remembered)
+            assert remembered == (label['eco'], label['family'])
     for elo in (600, 1600, 2400):
         arms = {a: sorted([r for r in labels if r['elo'] == elo and r['arm'] == a],
                           key=lambda r: r['index']) for a in ('A', 'B', 'C')}
@@ -117,10 +130,28 @@ def main():
                 assert equal_n['families_carried']['samples'] == total
                 assert equal_n['families_carried']['unique'] == len(tally)
                 assert abs(equal_n['families_carried']['effective'] - effective_all) < 1e-10
+                ecos = collections.Counter(r['labels'][min(depth, len(r['labels'])) - 1]['eco'] for r in subset)
+                eco_effective = math.exp(-sum((v/total) * math.log(v/total) for v in ecos.values()))
+                assert equal_n['eco_codes_carried']['samples'] == total
+                assert equal_n['eco_codes_carried']['unique'] == len(ecos)
+                assert abs(equal_n['eco_codes_carried']['effective'] - eco_effective) < 1e-10
+                assert equal_n['book_match_at_depth_fraction'] == sum(
+                    len(r['labels']) >= depth and r['labels'][depth - 1]['book_match'] for r in subset) / total
                 prefixes = [' '.join(r['moves_uci'][:depth]) +
                             (f" [ended:{r['termination']}]" if len(r['moves_uci']) < depth else '')
                             for r in subset]
                 assert equal_n['exact_prefixes_with_terminal_marker']['unique'] == len(set(prefixes))
+        published_rating = report['openings']['by_rating'][str(elo)]
+        for arm, subset in arms.items():
+            assert published_rating['supplementary_book_matches_after_ply10'][arm] == sum(
+                any(step['book_match'] for step in r['labels'][10:]) for r in subset)
+        for depth in (8, 10, 12, 16, 24):
+            assert published_rating['CA_prefix_agreement'][str(depth)] == sum(
+                a['moves_uci'][:depth] == c['moves_uci'][:depth] for a, c in zip(arms['A'], arms['C']))
+        for key, field in (('family', 'CA_same_final_family'), ('eco', 'CA_same_final_ECO')):
+            same = sum(a['labels'][-1][key] == c['labels'][-1][key] for a, c in zip(arms['A'], arms['C']))
+            target = published_rating if key == 'family' else published_rating['supplementary_posthoc_ECO']
+            assert target[field] == same
     checks.append('All opening-family counts/entropies and matched first-five-move sequences')
     tied = {}
     for path in (HERE / 'data').glob('*.receipt.json'):

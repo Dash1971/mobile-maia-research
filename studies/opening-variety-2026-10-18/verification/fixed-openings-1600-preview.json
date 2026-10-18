@@ -1,0 +1,689 @@
+{
+  "opening_table_sha256": "a91978578a76fc52e2aab69f333608a9195eefc70ca5c8fc66a8bd999a4f73c1",
+  "by_rating": {
+    "1600": {
+      "arms": {
+        "A": {
+          "8": {
+            "families": {
+              "samples": 999,
+              "unique": 69,
+              "effective": 32.226405297741,
+              "top_fraction": 0.12012012012012012,
+              "repeat_fraction": 0.9309309309309309
+            },
+            "exact_lines": {
+              "samples": 999,
+              "unique": 974,
+              "effective": 962.9174052108169,
+              "top_fraction": 0.003003003003003003,
+              "repeat_fraction": 0.025025025025025016
+            },
+            "early_terminations": 1,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 69,
+                "effective": 32.2202879420302,
+                "top_fraction": 0.12,
+                "repeat_fraction": 0.931
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 111,
+                "effective": 48.67454056982888,
+                "top_fraction": 0.085,
+                "repeat_fraction": 0.889
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 975,
+                "effective": 963.9167455841479,
+                "top_fraction": 0.003,
+                "repeat_fraction": 0.025000000000000022
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "10": {
+            "families": {
+              "samples": 999,
+              "unique": 70,
+              "effective": 32.32975769558694,
+              "top_fraction": 0.12012012012012012,
+              "repeat_fraction": 0.92992992992993
+            },
+            "exact_lines": {
+              "samples": 999,
+              "unique": 996,
+              "effective": 994.8497617272925,
+              "top_fraction": 0.002002002002002002,
+              "repeat_fraction": 0.0030030030030030463
+            },
+            "early_terminations": 1,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 70,
+                "effective": 32.32439094971165,
+                "top_fraction": 0.12,
+                "repeat_fraction": 0.9299999999999999
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 117,
+                "effective": 49.41992862399405,
+                "top_fraction": 0.084,
+                "repeat_fraction": 0.883
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 997,
+                "effective": 995.8497530944579,
+                "top_fraction": 0.002,
+                "repeat_fraction": 0.0030000000000000027
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "12": {
+            "families": {
+              "samples": 999,
+              "unique": 70,
+              "effective": 32.365134822035124,
+              "top_fraction": 0.12012012012012012,
+              "repeat_fraction": 0.92992992992993
+            },
+            "exact_lines": {
+              "samples": 999,
+              "unique": 999,
+              "effective": 998.9999999999994,
+              "top_fraction": 0.001001001001001001,
+              "repeat_fraction": 0.0
+            },
+            "early_terminations": 1,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 70,
+                "effective": 32.360625822390794,
+                "top_fraction": 0.12,
+                "repeat_fraction": 0.9299999999999999
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 117,
+                "effective": 49.495917902316,
+                "top_fraction": 0.084,
+                "repeat_fraction": 0.883
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 1000,
+                "effective": 1000.0,
+                "top_fraction": 0.001,
+                "repeat_fraction": 0.0
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "16": {
+            "families": {
+              "samples": 999,
+              "unique": 70,
+              "effective": 32.365134822035124,
+              "top_fraction": 0.12012012012012012,
+              "repeat_fraction": 0.92992992992993
+            },
+            "exact_lines": {
+              "samples": 999,
+              "unique": 999,
+              "effective": 998.9999999999994,
+              "top_fraction": 0.001001001001001001,
+              "repeat_fraction": 0.0
+            },
+            "early_terminations": 1,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 70,
+                "effective": 32.360625822390794,
+                "top_fraction": 0.12,
+                "repeat_fraction": 0.9299999999999999
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 117,
+                "effective": 49.495917902316,
+                "top_fraction": 0.084,
+                "repeat_fraction": 0.883
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 1000,
+                "effective": 1000.0,
+                "top_fraction": 0.001,
+                "repeat_fraction": 0.0
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "24": {
+            "families": {
+              "samples": 991,
+              "unique": 70,
+              "effective": 32.43550506607997,
+              "top_fraction": 0.12008072653884964,
+              "repeat_fraction": 0.929364278506559
+            },
+            "exact_lines": {
+              "samples": 991,
+              "unique": 991,
+              "effective": 990.9999999999998,
+              "top_fraction": 0.0010090817356205853,
+              "repeat_fraction": 0.0
+            },
+            "early_terminations": 9,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 70,
+                "effective": 32.360625822390794,
+                "top_fraction": 0.12,
+                "repeat_fraction": 0.9299999999999999
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 117,
+                "effective": 49.495917902316,
+                "top_fraction": 0.084,
+                "repeat_fraction": 0.883
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 1000,
+                "effective": 1000.0,
+                "top_fraction": 0.001,
+                "repeat_fraction": 0.0
+              },
+              "unclassified_fraction": 0.0
+            }
+          }
+        },
+        "B": {
+          "8": {
+            "families": {
+              "samples": 1000,
+              "unique": 59,
+              "effective": 25.709909316044843,
+              "top_fraction": 0.139,
+              "repeat_fraction": 0.9410000000000001
+            },
+            "exact_lines": {
+              "samples": 1000,
+              "unique": 948,
+              "effective": 927.533102008078,
+              "top_fraction": 0.003,
+              "repeat_fraction": 0.052000000000000046
+            },
+            "early_terminations": 0,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 59,
+                "effective": 25.709909316044843,
+                "top_fraction": 0.139,
+                "repeat_fraction": 0.9410000000000001
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 110,
+                "effective": 48.153308927906714,
+                "top_fraction": 0.092,
+                "repeat_fraction": 0.89
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 948,
+                "effective": 927.533102008078,
+                "top_fraction": 0.003,
+                "repeat_fraction": 0.052000000000000046
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "10": {
+            "families": {
+              "samples": 1000,
+              "unique": 59,
+              "effective": 25.870486442923898,
+              "top_fraction": 0.138,
+              "repeat_fraction": 0.9410000000000001
+            },
+            "exact_lines": {
+              "samples": 1000,
+              "unique": 991,
+              "effective": 987.6008614453732,
+              "top_fraction": 0.002,
+              "repeat_fraction": 0.009000000000000008
+            },
+            "early_terminations": 0,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 59,
+                "effective": 25.870486442923898,
+                "top_fraction": 0.138,
+                "repeat_fraction": 0.9410000000000001
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 115,
+                "effective": 49.45001781082429,
+                "top_fraction": 0.092,
+                "repeat_fraction": 0.885
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 991,
+                "effective": 987.6008614453732,
+                "top_fraction": 0.002,
+                "repeat_fraction": 0.009000000000000008
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "12": {
+            "families": {
+              "samples": 999,
+              "unique": 59,
+              "effective": 25.94773386334819,
+              "top_fraction": 0.13813813813813813,
+              "repeat_fraction": 0.9409409409409409
+            },
+            "exact_lines": {
+              "samples": 999,
+              "unique": 998,
+              "effective": 997.6146670620078,
+              "top_fraction": 0.002002002002002002,
+              "repeat_fraction": 0.0010010010010009784
+            },
+            "early_terminations": 1,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 59,
+                "effective": 25.948430816688457,
+                "top_fraction": 0.138,
+                "repeat_fraction": 0.9410000000000001
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 118,
+                "effective": 49.6609509193046,
+                "top_fraction": 0.092,
+                "repeat_fraction": 0.882
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 999,
+                "effective": 998.6146661010297,
+                "top_fraction": 0.002,
+                "repeat_fraction": 0.0010000000000000009
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "16": {
+            "families": {
+              "samples": 999,
+              "unique": 59,
+              "effective": 25.919849981414366,
+              "top_fraction": 0.13813813813813813,
+              "repeat_fraction": 0.9409409409409409
+            },
+            "exact_lines": {
+              "samples": 999,
+              "unique": 999,
+              "effective": 998.9999999999994,
+              "top_fraction": 0.001001001001001001,
+              "repeat_fraction": 0.0
+            },
+            "early_terminations": 1,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 59,
+                "effective": 25.920574055454424,
+                "top_fraction": 0.138,
+                "repeat_fraction": 0.9410000000000001
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 119,
+                "effective": 49.87565756561141,
+                "top_fraction": 0.092,
+                "repeat_fraction": 0.881
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 1000,
+                "effective": 1000.0,
+                "top_fraction": 0.001,
+                "repeat_fraction": 0.0
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "24": {
+            "families": {
+              "samples": 987,
+              "unique": 59,
+              "effective": 25.96247800532005,
+              "top_fraction": 0.13779128672745694,
+              "repeat_fraction": 0.9402228976697062
+            },
+            "exact_lines": {
+              "samples": 987,
+              "unique": 987,
+              "effective": 986.9999999999999,
+              "top_fraction": 0.0010131712259371835,
+              "repeat_fraction": 0.0
+            },
+            "early_terminations": 13,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 59,
+                "effective": 25.920574055454424,
+                "top_fraction": 0.138,
+                "repeat_fraction": 0.9410000000000001
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 119,
+                "effective": 49.87565756561141,
+                "top_fraction": 0.092,
+                "repeat_fraction": 0.881
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 1000,
+                "effective": 1000.0,
+                "top_fraction": 0.001,
+                "repeat_fraction": 0.0
+              },
+              "unclassified_fraction": 0.0
+            }
+          }
+        },
+        "C": {
+          "8": {
+            "families": {
+              "samples": 999,
+              "unique": 69,
+              "effective": 32.226405297741,
+              "top_fraction": 0.12012012012012012,
+              "repeat_fraction": 0.9309309309309309
+            },
+            "exact_lines": {
+              "samples": 999,
+              "unique": 974,
+              "effective": 962.9174052108169,
+              "top_fraction": 0.003003003003003003,
+              "repeat_fraction": 0.025025025025025016
+            },
+            "early_terminations": 1,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 69,
+                "effective": 32.2202879420302,
+                "top_fraction": 0.12,
+                "repeat_fraction": 0.931
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 111,
+                "effective": 48.67454056982888,
+                "top_fraction": 0.085,
+                "repeat_fraction": 0.889
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 975,
+                "effective": 963.9167455841479,
+                "top_fraction": 0.003,
+                "repeat_fraction": 0.025000000000000022
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "10": {
+            "families": {
+              "samples": 999,
+              "unique": 70,
+              "effective": 32.32975769558694,
+              "top_fraction": 0.12012012012012012,
+              "repeat_fraction": 0.92992992992993
+            },
+            "exact_lines": {
+              "samples": 999,
+              "unique": 996,
+              "effective": 994.8497617272925,
+              "top_fraction": 0.002002002002002002,
+              "repeat_fraction": 0.0030030030030030463
+            },
+            "early_terminations": 1,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 70,
+                "effective": 32.32439094971165,
+                "top_fraction": 0.12,
+                "repeat_fraction": 0.9299999999999999
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 117,
+                "effective": 49.41992862399405,
+                "top_fraction": 0.084,
+                "repeat_fraction": 0.883
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 997,
+                "effective": 995.8497530944579,
+                "top_fraction": 0.002,
+                "repeat_fraction": 0.0030000000000000027
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "12": {
+            "families": {
+              "samples": 999,
+              "unique": 70,
+              "effective": 32.365134822035124,
+              "top_fraction": 0.12012012012012012,
+              "repeat_fraction": 0.92992992992993
+            },
+            "exact_lines": {
+              "samples": 999,
+              "unique": 999,
+              "effective": 998.9999999999994,
+              "top_fraction": 0.001001001001001001,
+              "repeat_fraction": 0.0
+            },
+            "early_terminations": 1,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 70,
+                "effective": 32.360625822390794,
+                "top_fraction": 0.12,
+                "repeat_fraction": 0.9299999999999999
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 117,
+                "effective": 49.495917902316,
+                "top_fraction": 0.084,
+                "repeat_fraction": 0.883
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 1000,
+                "effective": 1000.0,
+                "top_fraction": 0.001,
+                "repeat_fraction": 0.0
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "16": {
+            "families": {
+              "samples": 998,
+              "unique": 70,
+              "effective": 32.40907941736369,
+              "top_fraction": 0.11923847695390781,
+              "repeat_fraction": 0.9298597194388778
+            },
+            "exact_lines": {
+              "samples": 998,
+              "unique": 998,
+              "effective": 997.9999999999985,
+              "top_fraction": 0.001002004008016032,
+              "repeat_fraction": 0.0
+            },
+            "early_terminations": 2,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 70,
+                "effective": 32.360625822390794,
+                "top_fraction": 0.12,
+                "repeat_fraction": 0.9299999999999999
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 117,
+                "effective": 49.495917902316,
+                "top_fraction": 0.084,
+                "repeat_fraction": 0.883
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 1000,
+                "effective": 1000.0,
+                "top_fraction": 0.001,
+                "repeat_fraction": 0.0
+              },
+              "unclassified_fraction": 0.0
+            }
+          },
+          "24": {
+            "families": {
+              "samples": 990,
+              "unique": 70,
+              "effective": 32.497263220113666,
+              "top_fraction": 0.1191919191919192,
+              "repeat_fraction": 0.9292929292929293
+            },
+            "exact_lines": {
+              "samples": 990,
+              "unique": 990,
+              "effective": 990.0000000000001,
+              "top_fraction": 0.00101010101010101,
+              "repeat_fraction": 0.0
+            },
+            "early_terminations": 10,
+            "unclassified_fraction": 0.0,
+            "all_rollouts": {
+              "families_carried": {
+                "samples": 1000,
+                "unique": 70,
+                "effective": 32.360625822390794,
+                "top_fraction": 0.12,
+                "repeat_fraction": 0.9299999999999999
+              },
+              "eco_codes_carried": {
+                "samples": 1000,
+                "unique": 117,
+                "effective": 49.495917902316,
+                "top_fraction": 0.084,
+                "repeat_fraction": 0.883
+              },
+              "exact_prefixes_with_terminal_marker": {
+                "samples": 1000,
+                "unique": 1000,
+                "effective": 1000.0,
+                "top_fraction": 0.001,
+                "repeat_fraction": 0.0
+              },
+              "unclassified_fraction": 0.0
+            }
+          }
+        }
+      },
+      "all_final_labels_CA_ratio": 1.0,
+      "all_final_labels_CA_ratio_95_ci": [
+        1.0,
+        1.0
+      ],
+      "bootstrap_seed": 48000001600,
+      "bootstrap_replicates": 2000,
+      "CA_same_final_family": 1000,
+      "supplementary_posthoc_ECO": {
+        "CA_ratio": 1.0,
+        "CA_ratio_95_ci": [
+          1.0,
+          1.0
+        ],
+        "CA_same_final_ECO": 999,
+        "bootstrap_seed": 48000101600,
+        "bootstrap_replicates": 2000
+      },
+      "CA_prefix_agreement": {
+        "8": 1000,
+        "10": 1000,
+        "12": 653,
+        "16": 304,
+        "24": 71
+      },
+      "CA_first_divergence_ply": {
+        "12": 157,
+        "15": 75,
+        "19": 48,
+        "17": 41,
+        "11": 190,
+        "13": 116,
+        "14": 104,
+        "same_through_end": 71,
+        "21": 28,
+        "18": 49,
+        "16": 54,
+        "23": 16,
+        "24": 18,
+        "22": 11,
+        "20": 22
+      },
+      "AC_identical_first_10_plies": 1000,
+      "CA_same_24_ply_line": 71
+    }
+  }
+}

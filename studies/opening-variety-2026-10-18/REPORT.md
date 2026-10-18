@@ -92,6 +92,37 @@ See the [full diagnostic summary](quality-results.json),
 [per-position/move data](data/quality.jsonl): 5,824 legal child moves and about
 115 million Stockfish nodes. The final independent cached audit remains pending.
 
+## Method and limits
+
+Both rating inputs equal the tested value. Matches start from the normal
+position with no opening book, engine search, resignation, draw agreement or
+time losses. A full-move number of 1–5 enables C's override for either color;
+move 6 uses 1.0/0.95. This boundary is a project design choice, not a tested
+optimum or an upstream recommendation.
+
+The primary comparison was fixed before the runs. Other ratings, controls and
+quality measures are secondary; their 95% intervals are nominal and do not
+adjust for multiple comparisons. Reverse-color match pairs, rather than
+individual games, are the bootstrap units. Quality comparisons are paired on
+the same selected positions and do not represent all game positions.
+
+This study generates new matches and opening samples; it does not pool them
+with the earlier sampling study. The earlier work included other temperatures
+and a 5M-model check, used 2,000 opening samples through eight full moves, and
+had a 1,200-game 1.0/0.95 follow-up. Here the opening horizon is 12 full moves,
+sample sizes vary by rating, and uncertainty respects reverse-color pairs.
+The runner also consumes a random draw for a sole retained move, matching
+the pinned app; earlier helper behavior could change subsequent seeded
+trajectories. Numerical differences from the old study are not evidence of
+a model change.
+
+The model is Maia-3 **79M**, with history off and the current board repeated
+in eight input slots. Results do not establish human rating calibration,
+human-move fidelity, effects with history on, a universal Elo gain, or behavior
+at untested rating inputs. The quality evaluator is Stockfish **18**, with
+20,000 nodes per child; it is not the app's bundled engine. These diagnostics
+do not model every repetition history or replace a deep tactical benchmark.
+
 ## Protocol and reproduction
 
 See the [frozen protocol](PROTOCOL.md), [pre-diagnostic addendum](DIAGNOSTIC_ADDENDUM.md)

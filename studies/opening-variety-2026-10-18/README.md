@@ -8,6 +8,9 @@ The [protocol](PROTOCOL.md) was committed before the main runs in
 The [pre-diagnostic addendum](DIAGNOSTIC_ADDENDUM.md) spreads the quality
 positions across moves 7, 13 and 21; it was committed before diagnostic runs or
 match-result analysis, without changing the match/opening comparisons.
+The [supplementary analysis note](ANALYSIS_NOTE.md) records a later ECO-code
+resolution check, added after the completed 1600 opening-family result exposed
+the broad labels' limits. Its post hoc status is retained in the results.
 
 ## Evidence and code
 
