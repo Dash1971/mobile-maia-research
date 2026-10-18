@@ -127,6 +127,12 @@ Encoder/indexing and app-outcome research code build on the earlier
 remain unmodified. Opening labels reuse that study's pinned Lichess CC0 opening
 table. The report records the table checksum and classification limits.
 
+Opening depth tables retain survivor-only counts and explicitly label their
+sample sizes. They also include equal-sized `all_rollouts` comparisons: carry
+the last family forward for an earlier termination and mark ended exact move
+prefixes. The prespecified C/A final-family ratio uses all matched rollouts,
+including early endings; it does not compare different survivor samples.
+
 This is independent Mobile Maia research, not an official Maia-team study or
 a calibrated estimate of human Elo. It does not change application defaults,
 model weights, saved games, or releases. Any default change requires a

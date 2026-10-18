@@ -167,10 +167,18 @@ def opening_summary(rows):
                 eligible = [r for r in subset if len(r['moves_uci']) >= depth]
                 families = [r['labels'][depth - 1]['family'] for r in eligible]
                 lines = [' '.join(r['moves_uci'][:depth]) for r in eligible]
+                carried = [r['labels'][min(depth, len(r['labels'])) - 1]['family'] for r in subset]
+                prefixes = [' '.join(r['moves_uci'][:depth]) +
+                            (f" [ended:{r['termination']}]" if len(r['moves_uci']) < depth else '')
+                            for r in subset]
                 report[arm][str(depth)] = {'families': diversity(families),
                                           'exact_lines': diversity(lines),
                                           'early_terminations': len(subset) - len(eligible),
-                                          'unclassified_fraction': families.count('Unclassified') / len(families)}
+                                          'unclassified_fraction': families.count('Unclassified') / len(families),
+                                          'all_rollouts': {
+                                              'families_carried': diversity(carried),
+                                              'exact_prefixes_with_terminal_marker': diversity(prefixes),
+                                              'unclassified_fraction': carried.count('Unclassified') / len(carried)}}
         # Pair-resample indices; early terminals carry their last label, explicitly
         # reported separately above. This avoids discarding different survivors.
         family_arrays = {a: np.array([r['labels'][-1]['family'] for r in arms[a]]) for a in ('A', 'C')}

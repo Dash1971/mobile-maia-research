@@ -109,6 +109,18 @@ def main():
                 published = report['openings']['by_rating'][str(elo)]['arms'][arm][str(depth)]['families']
                 assert len(count) == published['unique']
                 assert abs(effective - published['effective']) < 1e-10
+                carried = [r['labels'][min(depth, len(r['labels'])) - 1]['family'] for r in subset]
+                tally = collections.Counter(carried)
+                total = len(subset)
+                effective_all = math.exp(-sum((v/total) * math.log(v/total) for v in tally.values()))
+                equal_n = report['openings']['by_rating'][str(elo)]['arms'][arm][str(depth)]['all_rollouts']
+                assert equal_n['families_carried']['samples'] == total
+                assert equal_n['families_carried']['unique'] == len(tally)
+                assert abs(equal_n['families_carried']['effective'] - effective_all) < 1e-10
+                prefixes = [' '.join(r['moves_uci'][:depth]) +
+                            (f" [ended:{r['termination']}]" if len(r['moves_uci']) < depth else '')
+                            for r in subset]
+                assert equal_n['exact_prefixes_with_terminal_marker']['unique'] == len(set(prefixes))
     checks.append('All opening-family counts/entropies and matched first-five-move sequences')
     tied = {}
     for path in (HERE / 'data').glob('*.receipt.json'):
