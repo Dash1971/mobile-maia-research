@@ -1,0 +1,14 @@
+{
+  "job": {
+    "mode": "matches",
+    "elo": 1600,
+    "pair": 1,
+    "offset": 400,
+    "count": 100
+  },
+  "rows": 100,
+  "sha256": "d672bb8c2a7f27416aaa6e749165baef7eea1df38ba5ffebc9bf5b8b407adfb9",
+  "seconds_this_run": 973.8420172911137,
+  "inferences_this_run": 8991,
+  "boundary_ties_this_run": 0
+}
