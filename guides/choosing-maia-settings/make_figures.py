@@ -15,6 +15,7 @@ from matplotlib.patches import FancyBboxPatch
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 RESULTS = json.loads((ROOT / 'studies/opening-variety-2026-10-18/results.json').read_text())
+QUALITY = json.loads((ROOT / 'studies/opening-variety-2026-10-18/quality-results.json').read_text())
 BG, INK, GREEN, MUTED, PALE, GRAY = '#f5f7f3', '#20372c', '#287f61', '#53665d', '#dceadf', '#c4cdc6'
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 12,
     'figure.facecolor': BG, 'axes.facecolor': BG, 'text.color': INK,
@@ -24,26 +25,29 @@ OUT = HERE / 'figures'
 OUT.mkdir(exist_ok=True)
 def save(fig, name):
     for ext in ('png', 'svg'):
-        fig.savefig(OUT / f'{name}.{ext}', dpi=170, facecolor=BG)
+        path = OUT / f'{name}.{ext}'
+        fig.savefig(path, dpi=170, facecolor=BG)
+        if ext == 'svg':
+            path.write_text('\n'.join(line.rstrip() for line in path.read_text().splitlines()) + '\n')
     plt.close(fig)
 
 def panel(ax, x, y, w, h, color):
     ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=0.012,rounding_size=0.025',facecolor=color,edgecolor='none'))
 
 fig = plt.figure(figsize=(11, 5.9)); ax=fig.add_axes((0,0,1,1)); ax.axis('off')
-ax.text(.055,.91,'MOBILE MAIA  /  PROPOSED 2.5 DEFAULTS',fontsize=11,color=MUTED,weight='bold')
-ax.text(.055,.80,'A wide opening.',fontsize=32,weight='bold')
-ax.text(.055,.70,'A more selective middlegame.',fontsize=28,weight='bold')
+ax.text(.055,.91,'MOBILE MAIA  /  PLAYING-SETTINGS RESEARCH',fontsize=11,color=MUTED,weight='bold')
+ax.text(.055,.80,'Opening variety first.',fontsize=32,weight='bold')
+ax.text(.055,.70,'More selective play from move 6.',fontsize=28,weight='bold')
 panel(ax,.055,.22,.405,.35,PALE);panel(ax,.535,.22,.405,.35,INK)
 ax.text(.08,.51,'MOVES 1–5 · BOTH SIDES',fontsize=11,weight='bold',color=GREEN)
 ax.text(.08,.405,'1.0  /  1.0',fontsize=32,weight='bold')
-ax.text(.08,.29,'Temperature / Top-P\nKeep the full mix of human moves.',fontsize=12,linespacing=1.6)
+ax.text(.08,.29,"Temperature / Top-P\nKeep Maia's full opening choices.",fontsize=12,linespacing=1.6)
 ax.annotate('',xy=(.522,.395),xytext=(.475,.395),arrowprops={'arrowstyle':'->','color':GREEN,'lw':2})
 ax.text(.56,.51,'FROM MOVE 6',fontsize=11,weight='bold',color='#b5d8c4')
 ax.text(.56,.405,'1.0  /  0.95',fontsize=32,weight='bold',color='white')
 ax.text(.56,.29,'Temperature / Top-P\nTrim the least likely tail.',fontsize=12,color='white',linespacing=1.6)
 ax.text(.055,.12,'Max variety in opening: ON',fontsize=14,weight='bold')
-ax.text(.055,.065,'A Mobile Maia design choice, supported by our tests—not an official Maia-team recommendation.',fontsize=10,color=MUTED)
+ax.text(.055,.065,'From move 6, the app applies your settings. Here we test 1.0 / 0.95.',fontsize=11,color=MUTED)
 save(fig,'opening-switch')
 
 fig,ax=plt.subplots(figsize=(11,5.9));fig.subplots_adjust(left=.16,right=.72,top=.74,bottom=.22)
@@ -58,27 +62,41 @@ ax.set_yticks(range(3),labels=[f'Maia {r}' for r in ratings]);ax.set_xticks([40,
 ax.set_xlabel('Score against Temperature 1.0 / Top-P 1.0',labelpad=12)
 for spine in ('left','right','top'):ax.spines[spine].set_visible(False)
 ax.spines['bottom'].set_color(GRAY);ax.tick_params(axis='y',length=0,pad=15)
-fig.text(.055,.91,'A stronger opponent in the main comparison',fontsize=23,weight='bold')
+fig.text(.055,.91,'A useful gain in playing strength',fontsize=23,weight='bold')
 fig.text(.055,.83,'Opening variety ON + Top-P 0.95 · 79M model · history OFF',fontsize=12,color=MUTED)
 fig.text(.055,.09,'50% = even match. Draws count as half a point. Lines show paired 95% intervals.',fontsize=11,color=MUTED)
-fig.text(.055,.045,'The 600 result is inconclusive. These scores are not human Elo ratings.',fontsize=11,color=MUTED)
 save(fig,'match-scores')
 
 arms=RESULTS['openings']['by_rating']['1600']['arms']
 counts=[arms[a]['24']['all_rollouts']['families_carried']['unique'] for a in ('A','B','C')]
 assert counts==[70,59,70]
 fig,ax=plt.subplots(figsize=(11,5.9));fig.subplots_adjust(left=.34,right=.93,top=.72,bottom=.27)
-labels=['1.0 / 1.0 throughout','Top-P 0.95 throughout','Opening variety ON\nthen Top-P 0.95']
+labels=['Full sampling\n1.0 / 1.0','Top-P 0.95\nfrom move 1','Opening variety ON\nthen Top-P 0.95']
 ax.barh(range(3),counts,color=[GRAY,GRAY,GREEN],height=.55)
 for i,v in enumerate(counts):ax.text(v+1,i,str(v),va='center',fontsize=17,weight='bold')
-ax.set_yticks(range(3),labels=labels);ax.set_xlim(0,80);ax.set_ylim(2.65,-.65);ax.set_xticks([0,20,40,60,80]);ax.set_xlabel('Distinct broad opening families',labelpad=10)
+ax.set_yticks(range(3),labels=labels);ax.set_xlim(0,80);ax.set_ylim(2.65,-.65);ax.set_xticks([0,20,40,60,80]);ax.set_xlabel('Different opening types',labelpad=10)
 for spine in ('left','right','top'):ax.spines[spine].set_visible(False)
 ax.spines['bottom'].set_color(GRAY);ax.tick_params(axis='y',length=0,pad=18)
-fig.text(.055,.91,'Keep the measured broad opening mix',fontsize=23,weight='bold')
-fig.text(.055,.83,'1,000 rollouts per setting · rating 1600 · through 12 full moves',fontsize=12,color=MUTED)
-fig.text(.055,.12,'Opening labels are coarse and carried forward after leaving the table.',fontsize=11,color=MUTED)
-fig.text(.055,.07,'Matching family counts does not prove equal variety in every sideline.',fontsize=11,color=MUTED)
+fig.text(.055,.91,'Opening variety restores the broader mix',fontsize=23,weight='bold')
+fig.text(.055,.83,'1,000 opening samples per setting · rating 1600 · through 12 full moves',fontsize=12,color=MUTED)
+fig.text(.055,.09,'French, Sicilian and other named opening types; variations are grouped together.',fontsize=11,color=MUTED)
 save(fig,'opening-mix')
+
+quality = QUALITY['1600']['metrics']['probability_loss_ge200cp']
+quality_values = [quality['A_mean'] * 100, quality['C_mean'] * 100]
+fig,ax=plt.subplots(figsize=(11,5.9));fig.subplots_adjust(left=.15,right=.92,top=.72,bottom=.26)
+ax.bar([0,1],quality_values,color=[GRAY,GREEN],width=.52)
+for i,v in enumerate(quality_values):ax.text(i,v+.3,f'{v:.2f}%',ha='center',fontsize=20,weight='bold')
+ax.set_ylim(0,12);ax.set_yticks([0,3,6,9,12],labels=['0%','3%','6%','9%','12%'])
+ax.set_xticks([0,1],labels=['Full sampling\n1.0 / 1.0','After the opening\n1.0 / 0.95'])
+ax.set_ylabel('Mean probability',labelpad=12)
+for spine in ('left','right','top'):ax.spines[spine].set_visible(False)
+ax.spines['bottom'].set_color(GRAY);ax.tick_params(axis='both',length=0,pad=10)
+fig.text(.055,.91,'A smaller chance of a costly move',fontsize=23,weight='bold')
+fig.text(.055,.83,'60 selected positions · Maia 1600 · every legal move evaluated',fontsize=12,color=MUTED)
+fig.text(.055,.13,'Costly = at least two pawns below the best evaluated legal move.',fontsize=12)
+fig.text(.055,.065,'Stockfish 18 · 20,000 nodes per move · '+f'{quality_values[0]-quality_values[1]:.1f} percentage points lower',fontsize=11,color=MUTED)
+save(fig,'costly-moves')
 
 # Illustrative probabilities, explicitly not a measured chess position.
 probs=[60,25,8,4,2,1];cut=4;kept=sum(probs[:cut]);assert kept>=95 and sum(probs[:cut-1])<95
@@ -95,8 +113,10 @@ fig.text(.12,.10,'Add D → 97% kept. E + F → 3% excluded.',fontsize=13,weight
 fig.text(.12,.045,'D stays despite being below 5%. The kept moves are then rescaled to total 100%.',fontsize=11,color=MUTED)
 save(fig,'top-p-example')
 values={'source':'studies/opening-variety-2026-10-18/results.json',
+        'quality_source':'studies/opening-variety-2026-10-18/quality-results.json',
         'match_scores':{r:{k:RESULTS['matches'][r]['C-A'][k] for k in ('games','wins','draws','losses','score','score_95_ci')} for r in ratings},
         'opening_family_counts_1600':dict(zip(('A','B','C'),counts)),
+        'costly_move_probability_1600':{'positions':QUALITY['1600']['positions'],**quality},
         'illustration':{'probabilities_percent':probs,'kept_percent':kept,'excluded_percent':100-kept}}
 (HERE/'figure-values.json').write_text(json.dumps(values,indent=2)+'\n')
-print('Rendered four evidence-linked figures; original study evidence unchanged.')
+print('Rendered five evidence-linked figures; original study evidence unchanged.')

@@ -1,5 +1,6 @@
 {
   "source": "studies/opening-variety-2026-10-18/results.json",
+  "quality_source": "studies/opening-variety-2026-10-18/quality-results.json",
   "match_scores": {
     "600": {
       "games": 200,
@@ -39,6 +40,16 @@
     "A": 70,
     "B": 59,
     "C": 70
+  },
+  "costly_move_probability_1600": {
+    "positions": 60,
+    "A_mean": 0.08886793104811318,
+    "C_mean": 0.07992622134455402,
+    "C_minus_A_mean": -0.008941709703559135,
+    "C_minus_A_95_ci": [
+      -0.011867453089166397,
+      -0.006133011923069611
+    ]
   },
   "illustration": {
     "probabilities_percent": [
