@@ -6,12 +6,12 @@ Research reports, datasets and reproduction tools live in this repository, separ
 
 ## Visual guide
 
-[Choose the kind of Maia you want to play](guides/choosing-maia-settings/README.md)
+[Updated research into best playing settings for Mobile Maia](guides/choosing-maia-settings/README.md)
 
-A visual explanation of the proposed 2.5 defaults: opening variety on, then
-Temperature 1.0 / Top-P 0.95. Includes a worked probability example, measured
-match scores and opening comparisons, and the limits of the evidence. Earlier
-study conclusions remain available as historical reports.
+A visual argument for opening variety on, Temperature 1.0 and Top-P 0.95:
+keep the opening mix, reduce the chance of costly mistakes, and improve later
+play. Includes a worked Top-P example, opening comparisons, move-quality
+results and match scores, with links to the full study and recorded data.
 
 ## Studies
 
