@@ -4,6 +4,15 @@ Independent research supporting design decisions in [Mobile Maia](https://github
 
 Research reports, datasets and reproduction tools live in this repository, separate from application source and release distributions. App READMEs contain brief decision summaries and links here.
 
+## Visual guide
+
+[Choose the kind of Maia you want to play](guides/choosing-maia-settings/README.md)
+
+A visual explanation of the proposed 2.5 defaults: opening variety on, then
+Temperature 1.0 / Top-P 0.95. Includes a worked probability example, measured
+match scores and opening comparisons, and the limits of the evidence. Earlier
+study conclusions remain available as historical reports.
+
 ## Studies
 
 ### Opening variety and Top-P 0.95 — 18 October 2026
