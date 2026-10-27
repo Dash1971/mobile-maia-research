@@ -1,0 +1,55 @@
+{
+  "status": "pass",
+  "noInferencePerformed": true,
+  "summaryPointEstimatesAndBootstrapIntervals": "all checked against saved rows; agreement within 2e-12",
+  "bootstrapReplicates": 5000,
+  "cohorts": {
+    "1600": {
+      "n": 500,
+      "draws": 20
+    },
+    "2600": {
+      "n": 225,
+      "draws": 27
+    }
+  },
+  "predictions": 1450,
+  "consistencyRows": 200,
+  "legalChildEvaluations": 6606,
+  "terminalChildEvaluations": 2,
+  "blackToMoveChildEvaluations": 4020,
+  "largestPolicySumError": 8.881784197001252e-16,
+  "checks": [
+    "Run, sample, protocol, study script and recorded output checksums",
+    "Unique games and paired history rows",
+    "Normal endings, rating bands, move eligibility and recorded clocks",
+    "Full prefix and actual eight-position parent/child history token hashes",
+    "LDW normalization, logits softmax and White perspective",
+    "Every legal child, move index, child FEN, SAN and full legal softmax",
+    "Terminal outcomes from full game prefix and exact result override",
+    "Draw-aware baseline, MSE, White bias, fixed calibration bins and sparse flags",
+    "Paired history comparison and stratified consistency bootstrap"
+  ],
+  "externalByteVerification": {
+    "source": "actual bytes verified",
+    "model": "actual bytes verified"
+  },
+  "limits": [
+    "No model inference rerun; validates recorded model outputs, not their accuracy against fresh execution.",
+    "Upstream game selection and full clock reconstruction are not independently rerun by this audit; the saved prefix, recorded clocks and source checksum are checked.",
+    "Intervals describe game resampling; repeat-player dependence cannot be measured.",
+    "Source is a known benchmark, not established untouched holdout; normal-ending selected blitz sample limits generalization."
+  ],
+  "files": {
+    "PROTOCOL.md": "155f24e64398e72f07dab1640960f6598895aaa28e470d4b2f2911efafa7a036",
+    "study.py": "d7919752ef71f27c5cad2b44d4ef523fd476403416f7182d7e4c2453287676a3",
+    "summarize.py": "89bf6929aea8fb560463405821e1b93b36a17b8e6b3eae8c2e5ebc80706e5712",
+    "audit.py": "1b756bb6099bcf98a9e51239cc84ddfbe2f0273e8b9ca48e34fd5cb1c6684b5e",
+    "data/sample.jsonl": "f12fb7d79a37f12a43f11d95a789891172970cc0cf919ba4598193bb2f64f9df",
+    "data/selection.json": "4aba20dbbaae69f000ac30e07cc24cc858a07ef9aa353d0f67a3920de6f33a02",
+    "data/predictions.jsonl": "5c8658168abcb1faff736fe0fabe7a4e717b68a22ce301c90d100585402eb361",
+    "data/consistency.jsonl": "90ec8b883c5e118b6e1ea7e6781b9ed45d4a6b9d87019ca6d65708d1633040c9",
+    "data/run.json": "01898d5eeba18cb35a51df25cdd0c79d6f2db1d37fa475d066f15fe1fd4085a5",
+    "data/summary.json": "2325c1350b14e2b10b1fe625f1f48d6715df363a9e9f5a31dd88b6444078a439"
+  }
+}

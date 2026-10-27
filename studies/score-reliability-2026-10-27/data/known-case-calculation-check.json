@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "scope": "Recalculated probability weights and sums from retained earlier result; no new inference",
+  "checks": [
+    {
+      "elo": 1600,
+      "legalMoves": 26,
+      "weightedWhiteScore": 0.30498745909931624,
+      "parentWhiteScore": 0.46255200464518104,
+      "gapPercentagePoints": -15.75645455458648
+    },
+    {
+      "elo": 2600,
+      "legalMoves": 26,
+      "weightedWhiteScore": 0.387581845426379,
+      "parentWhiteScore": 0.4155341345243663,
+      "gapPercentagePoints": -2.7952289097987304
+    }
+  ]
+}

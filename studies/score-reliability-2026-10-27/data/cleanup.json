@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "removedTaskTemporaryItems": [
+    "venv",
+    "matplotlib",
+    "study __pycache__"
+  ],
+  "freeBytesBefore": 74603040768,
+  "freeBytesAfter": 74824581120,
+  "retained": "Compact research source, measurements and figures. Existing shared model and source dataset unchanged.",
+  "appChanges": false,
+  "apkBuilds": false,
+  "appCI": false
+}

@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "selectedGames": 725,
+  "scope": "Independent direct-source comparison of results, ratings, normal termination, game prefixes and every clock threshold through the sampled move. No inference.",
+  "sourceSha256": "a6014de8ef861b2ee23a84d7ce824e644390577a000350fad06bd995bcddab0d",
+  "sampleSha256": "f12fb7d79a37f12a43f11d95a789891172970cc0cf919ba4598193bb2f64f9df"
+}
