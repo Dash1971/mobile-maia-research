@@ -122,3 +122,44 @@ eligible near-2600 games if fewer than 250 remain. Conclusions apply to this
 normal-ending subset; conditioning on the eventual ending limits generalization
 to all blitz outcomes. No primary-sample model predictions had been run when this
 change was made. Rated blitz tournament events are included.
+
+## Expansion to 500 games at each rating (27 October 2026)
+
+After reviewing the initial results, the user requested 500 normal-ending games
+at 2600 as well. This is a disclosed second stage, not an untouched original
+preregistration. Before additional model inference, fix these expansion rules:
+
+- Preserve all 500 initial near-1600 games and all 225 initial near-2600 games,
+  with their original sampled positions and predictions.
+- Add all 121 new eligible near-2600 Normal-ending games from the twelve monthly
+  validation files at the same pinned ALLIE revision. Monthly test files duplicate
+  the original annotated source. Deduplicate against all original game IDs and
+  full move sequences, and against other supplementary files.
+- Obtain 154 further near-2600 games from official 2022 Lichess monthly archives.
+  Read an equal 8 MiB compressed prefix from each of January through December;
+  parse only complete games. If the eligible distinct pool contains fewer than
+  154 games, extend every prefix equally to 16 MiB, then 32 MiB if needed. Stop
+  after the first sufficient completed twelve-month stage, independent of scores.
+  Retain URL, range, response identity, prefix length/hash and processing counts.
+  Full-file archive checksums do not validate downloaded prefixes.
+- Keep both ratings [2500,2700], Rated Blitz (including tournaments), Normal
+  termination, standard start, valid clocks, legal replay and the original
+  pre-position clock/move-number rules. Use integer PGN clocks and the upstream
+  ALLIE move-seconds convention. Never include time forfeits to fill the count.
+- Select 154 games from the complete qualifying prefix pool by the original
+  deterministic game hash, and one eligible position by the original position
+  hash. No selection on Maia forecasts, outcomes, calibration bins or desired
+  conclusions. The added games are fixed before their first inference.
+- Run both history modes for the 275 added positions with the same pinned model
+  and 2600/2600 inputs. Recompute human-outcome summaries on 500+500 games.
+  Show the original225 and additional275 outcome metrics separately in the
+  appendix so source differences are visible.
+- Keep the original 100-position consistency diagnostic unchanged; its sample
+  remains 50 positions per original source cohort, tested at both model ratings.
+  The expansion addresses human-outcome evidence, not a new consistency sample.
+
+Monthly prefixes sample the beginnings of months, not a uniform annual archive
+sample. Report the resulting date coverage and possible repeat-player/time-of-day
+concentration. Do not call the supplemented cohort representative of all chess.
+Source stage and uncertainty belong in the detailed evidence; the main guide
+should explain the findings simply while retaining the actual game counts.
