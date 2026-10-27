@@ -25,9 +25,9 @@ Use the existing ALLIE 2022 annotated blitz file at Hugging Face dataset
 `a6014de8ef861b2ee23a84d7ce824e644390577a000350fad06bd995bcddab0d`.
 Do not download additional games or widen bands based on results.
 
-Targets: 500 independent games with both ratings in [1500,1700], and 250
+Targets: 500 distinct games with both ratings in [1500,1700], and 250
 with both in [2500,2700]. These are approximate online-blitz cohorts, not FIDE
-ratings or exact equal-rated samples. Include only rated blitz, normal
+ratings or exact equal-rated samples. Include only rated blitz, Normal or Time forfeit
 termination, standard-start games, known result, valid nonnegative per-move
 seconds, and replayable legal moves. Deduplicate by game ID and exact move
 sequence before selection. Reject contradictions between an automatic final
@@ -66,6 +66,8 @@ comparison, not an accuracy percentage. Do not label expected-score MSE as
 binary-win accuracy or multiclass WDL Brier score.
 
 Repeat the same games/positions with history off and report paired differences.
+Also report history-on MSE/bias/calibration for Normal-ending games only, as a
+secondary sensitivity; never substitute this for the primary all-outcome sample.
 Do not select a preferred setting solely from isolated significant-looking bins.
 No fitting, recalibration, Stockfish tournament or parameter sweep.
 
@@ -100,3 +102,14 @@ State training-period/source-overlap limits, approximate rating match, sample
 uncertainty and limited generalizability. Do not turn two diagnostics into an
 invented overall trust score. Clean task-owned environment/bulk files after
 verification, preserving compact results and shared models.
+
+## Pre-inference amendment (27 October 2026)
+
+An independent source review found only 228 Normal-ending games near 2600, versus
+305 when time forfeits are included, before position eligibility. Before selecting
+positions or running predictions, include both Normal and Time forfeit results.
+This also avoids conditioning the primary sample on a future ending: the clock
+filter applies at the sampled position, and later flag losses are human outcomes.
+Keep Normal-only results as a sensitivity. No band widening or additional games.
+Game bootstrap treats distinct games as sampling units; repeat-player dependence
+cannot be assessed because the source omits player identities.
