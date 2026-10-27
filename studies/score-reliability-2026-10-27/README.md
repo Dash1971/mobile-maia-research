@@ -15,6 +15,8 @@ winning probabilities.
   deduplication and selection of 275 additional high-rating games.
 - `expand.py`: inference on those additions, preserving the original outputs.
 - `summarize.py`: metrics, descriptive bootstrap intervals and original charts.
+- `build_example_board.py`: the exact recorded board before and after 26.Rd1,
+  rendered as SVG with the study’s pinned chess library; the PNG is a raster copy.
 - `build_visuals.py`: the simpler visual guide, drawn from the same recorded
   summary without changing any measurements.
 - `audit.py`, `audit.json`: independent numerical checks on recorded outputs.

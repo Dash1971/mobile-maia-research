@@ -61,10 +61,24 @@ compared its score for a position with the average of its scores after **every
 legal move**, giving likely moves more weight than unlikely ones. Those two
 forecasts should roughly agree.
 
-Here is a concrete example with **26 possible moves**, evaluated at 1600.
-Maia gives White **46.3%** before the move. Moving a rook to d1 raises its
-forecast to **73.3%**, but it expects players to choose that move only about
-**one time in ten**. Its forecasts after the other moves are much lower.
+### A rook retreat changes the forecast
+
+The boards below show a position from a Mobile Maia game, **before and after
+White’s 26th move**. White’s rook starts on **d7**. The blue arrow shows it
+retreating to **d1**—written **26.Rd1** in chess notation.
+
+![Actual game position before and after 26.Rd1: the white rook moves from d7 to d1, and Maia 1600’s White score rises from 46.3 to 73.3 percent](figures/example-board.png)
+
+With **Maia 1600 and move history on**, White’s forecast rises from **46.3%**
+on the left to **73.3%** on the right. Both numbers are White’s score, even
+though it is Black’s turn on the right. The jump itself is understandable:
+Maia gives White better prospects after this rook move.
+
+**Does the forecast before the move account for all White’s choices?** There
+are 26 legal moves in the position on the left. Maia predicts that a 1600-rated
+player would choose the rook retreat about **one time in ten**. It gives White
+much lower forecasts after most of the other choices. The diagram below combines
+those possibilities, weighting each by its predicted chance of being played.
 
 ![A 26-move example: Maia’s direct forecast is 46.3 percent, while averaging its forecasts after all possible moves gives 30.5 percent](figures/visual-worked-example.png)
 

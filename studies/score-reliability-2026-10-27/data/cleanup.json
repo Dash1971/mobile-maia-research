@@ -40,5 +40,16 @@
     "appChanges": false,
     "appTests": false,
     "apkBuilds": false
+  },
+  "boardExample": {
+    "status": "complete",
+    "removedTaskTemporaryItems": [
+      "temporary chess rendering environment"
+    ],
+    "freeBytesBefore": 74638528512,
+    "freeBytesAfter": 74654199808,
+    "retained": "Board rendering script, SVG and PNG; recorded measurements unchanged.",
+    "appChanges": false,
+    "appTests": false
   }
 }
