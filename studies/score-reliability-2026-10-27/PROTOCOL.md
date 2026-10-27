@@ -27,7 +27,7 @@ Do not download additional games or widen bands based on results.
 
 Targets: 500 distinct games with both ratings in [1500,1700], and 250
 with both in [2500,2700]. These are approximate online-blitz cohorts, not FIDE
-ratings or exact equal-rated samples. Include only rated blitz, Normal or Time forfeit
+ratings or exact equal-rated samples. Include only rated blitz (including tournaments), Normal
 termination, standard-start games, known result, valid nonnegative per-move
 seconds, and replayable legal moves. Deduplicate by game ID and exact move
 sequence before selection. Reject contradictions between an automatic final
@@ -66,8 +66,6 @@ comparison, not an accuracy percentage. Do not label expected-score MSE as
 binary-win accuracy or multiclass WDL Brier score.
 
 Repeat the same games/positions with history off and report paired differences.
-Also report history-on MSE/bias/calibration for Normal-ending games only, as a
-secondary sensitivity; never substitute this for the primary all-outcome sample.
 Do not select a preferred setting solely from isolated significant-looking bins.
 No fitting, recalibration, Stockfish tournament or parameter sweep.
 
@@ -113,3 +111,14 @@ filter applies at the sampled position, and later flag losses are human outcomes
 Keep Normal-only results as a sensitivity. No band widening or additional games.
 Game bootstrap treats distinct games as sampling units; repeat-player dependence
 cannot be assessed because the source omits player identities.
+
+## Final user-directed eligibility amendment (27 October 2026)
+
+Before study inference, the user explicitly requested exclusion of time forfeits.
+This supersedes the preceding amendment: the primary and history-off samples
+include **Normal-ending games only**, with no time-forfeit sensitivity. Retain
+the strict sampled-position clock filter and unchanged rating bands. Use all
+eligible near-2600 games if fewer than 250 remain. Conclusions apply to this
+normal-ending subset; conditioning on the eventual ending limits generalization
+to all blitz outcomes. No primary-sample model predictions had been run when this
+change was made. Rated blitz tournament events are included.
