@@ -14,6 +14,12 @@ import math
 import chess
 import numpy as np
 
+INITIAL_HASHES = {
+    'sample.jsonl': 'f12fb7d79a37f12a43f11d95a789891172970cc0cf919ba4598193bb2f64f9df',
+    'predictions.jsonl': '5c8658168abcb1faff736fe0fabe7a4e717b68a22ce301c90d100585402eb361',
+    'consistency.jsonl': '90ec8b883c5e118b6e1ea7e6781b9ed45d4a6b9d87019ca6d65708d1633040c9',
+}
+
 
 def digest(path):
     result = hashlib.sha256()
@@ -151,6 +157,35 @@ def main():
     assert run['protocolSha256'] == selection['protocolSha256'] == digest(root / 'PROTOCOL.md')
     assert run['scriptSha256'] == digest(root / 'study.py')
     assert run['sourceSha256'] == selection['sourceSha256']
+    expanded = 'expansionScriptSha256' in run
+    initial_sample = sample
+    if expanded:
+        assert run['expansionScriptSha256'] == digest(root / 'expand.py')
+        assert run['collectorScriptSha256'] == digest(root / 'collect_supplement.py')
+        initial_run = json.loads((data / 'initial-run.json').read_text())
+        for name, expected in INITIAL_HASHES.items():
+            assert initial_run['files'][name] == expected, 'Published initial checksum changed: ' + name
+        initial_sample = read_rows(data / 'initial-sample.jsonl')
+        assert collections.Counter(r['elo'] for r in initial_sample) == {1600: 500, 2600: 225}
+        assert collections.Counter(r['elo'] for r in sample) == {1600: 500, 2600: 500}
+        # Byte prefixes check preservation of every original row and its ordering.
+        for name in ('sample.jsonl', 'predictions.jsonl'):
+            original = (data / ('initial-' + name)).read_bytes()
+            assert hashlib.sha256(original).hexdigest() == initial_run['files'][name]
+            assert (data / name).read_bytes().startswith(original), 'Original bytes changed: ' + name
+        assert digest(data / 'consistency.jsonl') == initial_run['files']['consistency.jsonl']
+        assert initial_run['modelSha256'] == run['modelSha256']
+        assert initial_run['sourceSha256'] == run['sourceSha256']
+        assert initial_run['scriptSha256'] == run['scriptSha256']
+        supplement = read_rows(data / 'supplement-games.jsonl')
+        assert len(supplement) == 275
+        assert collections.Counter(g['sourceKind'] for g in supplement) == {'allie-validation': 121, 'lichess-archive-prefix': 154}
+        for observed, source in zip(sample[len(initial_sample):], supplement):
+            expected = dict(source['selectedPosition'], sourceKind=source['sourceKind'], sourceFile=source['sourceFile'], consistency=False)
+            assert observed == expected, 'Supplement sample/source mismatch'
+        source_manifest = json.loads((data / 'supplement-sources.json').read_text())
+        assert source_manifest['outputSha256'] == digest(data / 'supplement-games.jsonl')
+        assert source_manifest['collectorSha256'] == run['collectorScriptSha256']
     external = {}
     for kind, path in [('source', args.source), ('model', args.model)]:
         if path:
@@ -160,6 +195,7 @@ def main():
             external[kind] = 'recorded checksum only; optional input not supplied'
     by_game = {r['game']: r for r in sample}
     assert len(by_game) == len(sample)
+    assert len({tuple(r['prefixUci']) for r in sample}) == len(sample), 'Duplicate sampled prefixes'
     boards = {}
     for row in sample:
         assert row['termination'] == 'Normal'
@@ -189,10 +225,16 @@ def main():
     selected = [r for r in sample if r['consistency']]
     assert collections.Counter(r['elo'] for r in selected) == {1600: 50, 2600: 50}
     for rating in (1600, 2600):
-        cohort = [r for r in sample if r['elo'] == rating]
+        # The second stage explicitly retains the original consistency sample.
+        cohort = [r for r in initial_sample if r['elo'] == rating]
         priority = lambda r: hashlib.sha256(f"2026102703|consistency|{r['game']}".encode()).hexdigest()
         assert {r['game'] for r in sorted(cohort, key=priority)[:50]} == {r['game'] for r in selected if r['elo'] == rating}
-        assert selection['coverage'][str(rating)]['games'] == len(cohort)
+        current = [r for r in sample if r['elo'] == rating]
+        coverage = selection['coverage'][str(rating)]
+        expected_coverage = dict(games=len(current), termination=dict(collections.Counter(r['termination'] for r in current)), results=dict(collections.Counter(r['result'] for r in current)), timeControls=dict(collections.Counter(r['timeControl'] for r in current)), sideToMove=dict(collections.Counter(r['history'][-1].split()[1] for r in current)), stages=dict(collections.Counter('11-20' if r['ply']//2+1 <= 20 else '21-40' if r['ply']//2+1 <= 40 else '41+' for r in current)), whiteRatingRange=[min(r['whiteElo'] for r in current), max(r['whiteElo'] for r in current)], blackRatingRange=[min(r['blackElo'] for r in current), max(r['blackElo'] for r in current)], meanWhiteRating=float(np.mean([r['whiteElo'] for r in current])), meanBlackRating=float(np.mean([r['blackElo'] for r in current])))
+        if expanded and rating == 2600:
+            expected_coverage['sourceCounts'] = dict(collections.Counter(r.get('sourceKind', 'initial-allie-test') for r in current))
+        compare_tree(coverage, expected_coverage, 'coverage.' + str(rating))
     expected_consistency = {(r['game'], rating) for r in selected for rating in (1600, 2600)}
     assert {(r['game'], r['elo']) for r in consistency} == expected_consistency
     assert len(consistency) == len(expected_consistency)
@@ -236,7 +278,28 @@ def main():
         check_close(row['gap'], weighted - row['parent']['whiteScore'], 'signed residual')
     recalculated = independent_metrics(predictions, consistency)
     compare_tree(summary, recalculated)
+    if expanded:
+        original_summary = json.loads((data / 'initial-summary.json').read_text())
+        for mode in ('true', 'false'):
+            compare_tree(summary['calibration']['1600-history-' + mode], original_summary['calibration']['1600-history-' + mode], 'preserved1600')
+        compare_tree(summary['historyComparison']['1600'], original_summary['historyComparison']['1600'], 'preserved1600History')
+        compare_tree(summary['consistency'], original_summary['consistency'], 'preservedConsistency')
+        comparison = json.loads((data / 'expansion-comparison.json').read_text())
+        for label, group in [('original225', [r for r in initial_sample if r['elo'] == 2600]), ('additional275', sample[len(initial_sample):]), ('combined500', [r for r in sample if r['elo'] == 2600])]:
+            ids = {r['game'] for r in group}
+            paired = [r for r in predictions if r['elo'] == 2600 and r['history'] and r['game'] in ids]
+            assert len(paired) == len(group)
+            p = np.array([r['whiteScore'] for r in paired]); y = np.array([r['actualWhiteScore'] for r in paired])
+            compare_tree(comparison[label], dict(games=len(paired), meanPrediction=float(p.mean()), meanActualScore=float(y.mean()), mse=float(np.mean((p-y)**2)), baselineMse=float(np.mean((.5-y)**2)), whiteBias=float(np.mean(p-y))), 'expansionComparison.' + label)
     report = dict(status='pass', noInferencePerformed=True, summaryPointEstimatesAndBootstrapIntervals='all checked against saved rows; agreement within 2e-12', bootstrapReplicates=5000, cohorts={str(elo): dict(n=sum(r['elo'] == elo for r in sample), draws=sum(r['elo'] == elo and r['actualWhiteScore'] == .5 for r in sample)) for elo in (1600, 2600)}, predictions=len(predictions), consistencyRows=len(consistency), legalChildEvaluations=child_count, terminalChildEvaluations=terminal_count, blackToMoveChildEvaluations=black_child_count, largestPolicySumError=largest_policy_error, checks=['Run, sample, protocol, study script and recorded output checksums', 'Unique games and paired history rows', 'Normal endings, rating bands, move eligibility and recorded clocks', 'Full prefix and actual eight-position parent/child history token hashes', 'LDW normalization, logits softmax and White perspective', 'Every legal child, move index, child FEN, SAN and full legal softmax', 'Terminal outcomes from full game prefix and exact result override', 'Draw-aware baseline, MSE, White bias, fixed calibration bins and sparse flags', 'Paired history comparison and stratified consistency bootstrap'], externalByteVerification=external, limits=['No model inference rerun; validates recorded model outputs, not their accuracy against fresh execution.', 'Upstream game selection and full clock reconstruction are not independently rerun by this audit; the saved prefix, recorded clocks and source checksum are checked.', 'Intervals describe game resampling; repeat-player dependence cannot be measured.', 'Source is a known benchmark, not established untouched holdout; normal-ending selected blitz sample limits generalization.'], files={name: digest(root / name) for name in ['PROTOCOL.md', 'study.py', 'summarize.py', 'audit.py']} | {f'data/{name}': digest(data / name) for name in ['sample.jsonl', 'selection.json', 'predictions.jsonl', 'consistency.jsonl', 'run.json', 'summary.json']})
+    if expanded:
+        report['stage'] = '500 original near-1600; 225 original plus 275 added near-2600'
+        report['originalRowsPreserved'] = dict(sample=725, predictions=1450, consistency=200, verification='Original sample and prediction bytes are exact prefixes; consistency file has its original hash; original near-1600 and consistency summaries agree.')
+        report['checks'] += ['Expansion and collector hashes, supplement row mapping and all cohort coverage metadata', 'Original 725 sample rows, 1450 predictions and 200 consistency rows unchanged', 'Original225, additional275 and combined500 outcome metrics']
+        report['limits'][1] = 'Full source selection and clock reconstruction are checked separately in data/source-crosscheck.json.'
+        report['limits'][-1] = 'Original/validation data are established benchmarks; the supplemented Normal-ending prefix sample does not establish a representative untouched holdout.'
+        report['files'].update({name: digest(root / name) for name in ['expand.py', 'collect_supplement.py', 'audit_source.py']})
+        report['files'].update({f'data/{name}': digest(data / name) for name in ['initial-sample.jsonl', 'initial-predictions.jsonl', 'initial-run.json', 'initial-summary.json', 'supplement-games.jsonl', 'supplement-sources.json', 'expansion-comparison.json']})
     (root / 'audit.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps(report, indent=2))
 

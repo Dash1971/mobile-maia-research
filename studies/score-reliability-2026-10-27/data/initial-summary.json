@@ -1,0 +1,581 @@
+{
+  "bootstrapReplicates": 5000,
+  "calibration": {
+    "1600-history-true": {
+      "n": 500,
+      "meanPrediction": 0.5157700774155609,
+      "meanActualScore": 0.522,
+      "mse": 0.17032863142241894,
+      "mseCI": [
+        0.1566233082082468,
+        0.18496451840640676
+      ],
+      "baselineMse": 0.24,
+      "mseMinusBaseline": -0.06967136857758105,
+      "mseMinusBaselineCI": [
+        -0.08352915296567115,
+        -0.05504731791843574
+      ],
+      "mseReductionPercent": 29.029736907325443,
+      "whiteBias": -0.006229922584439084,
+      "whiteBiasCI": [
+        -0.04207138456560478,
+        0.03010852522721036
+      ],
+      "bins": [
+        {
+          "bin": 0,
+          "lower": 0.0,
+          "upper": 0.2,
+          "n": 65,
+          "meanPrediction": 0.11592956543491896,
+          "meanActualScore": 0.09230769230769231,
+          "actualScoreCI": [
+            0.03076923076923077,
+            0.16923076923076924
+          ],
+          "predictionMinusActual": 0.023621873127226658,
+          "gapCI": [
+            -0.054389253309769,
+            0.08615251252770759
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 1,
+          "lower": 0.2,
+          "upper": 0.4,
+          "n": 86,
+          "meanPrediction": 0.31022950698818164,
+          "meanActualScore": 0.26744186046511625,
+          "actualScoreCI": [
+            0.18023255813953487,
+            0.36046511627906974
+          ],
+          "predictionMinusActual": 0.04278764652306537,
+          "gapCI": [
+            -0.04661193135491983,
+            0.1285588925138114
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 2,
+          "lower": 0.4,
+          "upper": 0.6000000000000001,
+          "n": 168,
+          "meanPrediction": 0.5063561684240977,
+          "meanActualScore": 0.5208333333333334,
+          "actualScoreCI": [
+            0.44642857142857145,
+            0.5952380952380952
+          ],
+          "predictionMinusActual": -0.014477164909235578,
+          "gapCI": [
+            -0.08823852027078362,
+            0.05973067133357306
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 3,
+          "lower": 0.6000000000000001,
+          "upper": 0.8,
+          "n": 110,
+          "meanPrediction": 0.685595038181534,
+          "meanActualScore": 0.7227272727272728,
+          "actualScoreCI": [
+            0.6409090909090909,
+            0.8
+          ],
+          "predictionMinusActual": -0.0371322345457389,
+          "gapCI": [
+            -0.11515484650701016,
+            0.04213003719315977
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 4,
+          "lower": 0.8,
+          "upper": 1.0,
+          "n": 71,
+          "meanPrediction": 0.8899519557508444,
+          "meanActualScore": 0.9154929577464789,
+          "actualScoreCI": [
+            0.852112676056338,
+            0.971830985915493
+          ],
+          "predictionMinusActual": -0.02554100199563436,
+          "gapCI": [
+            -0.08233378834116752,
+            0.03930335894328833
+          ],
+          "sparse": false
+        }
+      ]
+    },
+    "1600-history-false": {
+      "n": 500,
+      "meanPrediction": 0.5141628953151307,
+      "meanActualScore": 0.522,
+      "mse": 0.17137594894609334,
+      "mseCI": [
+        0.15792976082598803,
+        0.18575079969865024
+      ],
+      "baselineMse": 0.24,
+      "mseMinusBaseline": -0.06862405105390666,
+      "mseMinusBaselineCI": [
+        -0.08220495526085142,
+        -0.054437342003669995
+      ],
+      "mseReductionPercent": 28.593354605794442,
+      "whiteBias": -0.007837104684869213,
+      "whiteBiasCI": [
+        -0.04402888276483161,
+        0.02863965955694262
+      ],
+      "bins": [
+        {
+          "bin": 0,
+          "lower": 0.0,
+          "upper": 0.2,
+          "n": 57,
+          "meanPrediction": 0.10594515208104897,
+          "meanActualScore": 0.07017543859649122,
+          "actualScoreCI": [
+            0.017543859649122806,
+            0.14035087719298245
+          ],
+          "predictionMinusActual": 0.03576971348455774,
+          "gapCI": [
+            -0.03203823648111983,
+            0.09259984952444673
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 1,
+          "lower": 0.2,
+          "upper": 0.4,
+          "n": 95,
+          "meanPrediction": 0.30405585799910817,
+          "meanActualScore": 0.29473684210526313,
+          "actualScoreCI": [
+            0.20526315789473684,
+            0.38421052631578945
+          ],
+          "predictionMinusActual": 0.009319015893844991,
+          "gapCI": [
+            -0.07590599638048466,
+            0.09374696116198848
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 2,
+          "lower": 0.4,
+          "upper": 0.6000000000000001,
+          "n": 179,
+          "meanPrediction": 0.5117538906296127,
+          "meanActualScore": 0.5111731843575419,
+          "actualScoreCI": [
+            0.43854748603351956,
+            0.5810055865921788
+          ],
+          "predictionMinusActual": 0.0005807062720708541,
+          "gapCI": [
+            -0.06992564869918082,
+            0.07288057556865125
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 3,
+          "lower": 0.6000000000000001,
+          "upper": 0.8,
+          "n": 101,
+          "meanPrediction": 0.6930099099515401,
+          "meanActualScore": 0.7475247524752475,
+          "actualScoreCI": [
+            0.6633663366336634,
+            0.8316831683168316
+          ],
+          "predictionMinusActual": -0.05451484252370741,
+          "gapCI": [
+            -0.13473707581354297,
+            0.029361264707966742
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 4,
+          "lower": 0.8,
+          "upper": 1.0,
+          "n": 68,
+          "meanPrediction": 0.8905782375180015,
+          "meanActualScore": 0.9117647058823529,
+          "actualScoreCI": [
+            0.8455882352941176,
+            0.9705882352941176
+          ],
+          "predictionMinusActual": -0.021186468364351542,
+          "gapCI": [
+            -0.08031793182308956,
+            0.04742980945657213
+          ],
+          "sparse": false
+        }
+      ]
+    },
+    "2600-history-true": {
+      "n": 225,
+      "meanPrediction": 0.5536680723621125,
+      "meanActualScore": 0.5488888888888889,
+      "mse": 0.17172858158566603,
+      "mseCI": [
+        0.15286465116814663,
+        0.19049060301642584
+      ],
+      "baselineMse": 0.22,
+      "mseMinusBaseline": -0.04827141841433399,
+      "mseMinusBaselineCI": [
+        -0.06558062580636076,
+        -0.030293317556088786
+      ],
+      "mseReductionPercent": 21.94155382469726,
+      "whiteBias": 0.004779183473223523,
+      "whiteBiasCI": [
+        -0.04845304277130546,
+        0.058618775458857415
+      ],
+      "bins": [
+        {
+          "bin": 0,
+          "lower": 0.0,
+          "upper": 0.2,
+          "n": 11,
+          "meanPrediction": 0.13102037938335254,
+          "meanActualScore": 0.09090909090909091,
+          "actualScoreCI": [
+            0.0,
+            0.2727272727272727
+          ],
+          "predictionMinusActual": 0.040111288474261625,
+          "gapCI": [
+            -0.14757831178463357,
+            0.15338370698258647
+          ],
+          "sparse": true
+        },
+        {
+          "bin": 1,
+          "lower": 0.2,
+          "upper": 0.4,
+          "n": 26,
+          "meanPrediction": 0.3189679708310443,
+          "meanActualScore": 0.17307692307692307,
+          "actualScoreCI": [
+            0.057692307692307696,
+            0.3076923076923077
+          ],
+          "predictionMinusActual": 0.1458910477541212,
+          "gapCI": [
+            0.0019394362525655747,
+            0.2680268754450092
+          ],
+          "sparse": true
+        },
+        {
+          "bin": 2,
+          "lower": 0.4,
+          "upper": 0.6000000000000001,
+          "n": 103,
+          "meanPrediction": 0.5136022837687543,
+          "meanActualScore": 0.5145631067961165,
+          "actualScoreCI": [
+            0.4223300970873786,
+            0.6019417475728155
+          ],
+          "predictionMinusActual": -0.0009608230273621725,
+          "gapCI": [
+            -0.08676041756392536,
+            0.09106297323256021
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 3,
+          "lower": 0.6000000000000001,
+          "upper": 0.8,
+          "n": 64,
+          "meanPrediction": 0.6802399820567102,
+          "meanActualScore": 0.7265625,
+          "actualScoreCI": [
+            0.625,
+            0.8203125
+          ],
+          "predictionMinusActual": -0.0463225179432898,
+          "gapCI": [
+            -0.14006543339640345,
+            0.05068703332659963
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 4,
+          "lower": 0.8,
+          "upper": 1.0,
+          "n": 21,
+          "meanPrediction": 0.8764062279447673,
+          "meanActualScore": 0.8809523809523809,
+          "actualScoreCI": [
+            0.7380952380952381,
+            1.0
+          ],
+          "predictionMinusActual": -0.004546153007613624,
+          "gapCI": [
+            -0.11753075306218635,
+            0.13881358899706817
+          ],
+          "sparse": true
+        }
+      ]
+    },
+    "2600-history-false": {
+      "n": 225,
+      "meanPrediction": 0.5521447080926533,
+      "meanActualScore": 0.5488888888888889,
+      "mse": 0.1709025909804105,
+      "mseCI": [
+        0.15265175794785416,
+        0.18939262663820328
+      ],
+      "baselineMse": 0.22,
+      "mseMinusBaseline": -0.049097409019589526,
+      "mseMinusBaselineCI": [
+        -0.0658676090773059,
+        -0.031811977888385294
+      ],
+      "mseReductionPercent": 22.31700409981341,
+      "whiteBias": 0.003255819203764349,
+      "whiteBiasCI": [
+        -0.05027859910644403,
+        0.05645069070894516
+      ],
+      "bins": [
+        {
+          "bin": 0,
+          "lower": 0.0,
+          "upper": 0.2,
+          "n": 10,
+          "meanPrediction": 0.13872126991036748,
+          "meanActualScore": 0.1,
+          "actualScoreCI": [
+            0.0,
+            0.3
+          ],
+          "predictionMinusActual": 0.03872126991036749,
+          "gapCI": [
+            -0.1797474389009947,
+            0.16716357571580942
+          ],
+          "sparse": true
+        },
+        {
+          "bin": 1,
+          "lower": 0.2,
+          "upper": 0.4,
+          "n": 28,
+          "meanPrediction": 0.32660540473037086,
+          "meanActualScore": 0.16071428571428573,
+          "actualScoreCI": [
+            0.05357142857142857,
+            0.2857142857142857
+          ],
+          "predictionMinusActual": 0.16589111901608508,
+          "gapCI": [
+            0.03466920499784498,
+            0.278870020448624
+          ],
+          "sparse": true
+        },
+        {
+          "bin": 2,
+          "lower": 0.4,
+          "upper": 0.6000000000000001,
+          "n": 103,
+          "meanPrediction": 0.514427878024616,
+          "meanActualScore": 0.5242718446601942,
+          "actualScoreCI": [
+            0.4320388349514563,
+            0.6116504854368932
+          ],
+          "predictionMinusActual": -0.009843966635578256,
+          "gapCI": [
+            -0.09599195248143039,
+            0.07921845212719175
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 3,
+          "lower": 0.6000000000000001,
+          "upper": 0.8,
+          "n": 66,
+          "meanPrediction": 0.6814100739319753,
+          "meanActualScore": 0.7121212121212122,
+          "actualScoreCI": [
+            0.6136363636363636,
+            0.8106060606060606
+          ],
+          "predictionMinusActual": -0.030711138189236854,
+          "gapCI": [
+            -0.12495629642677125,
+            0.06909485372423685
+          ],
+          "sparse": false
+        },
+        {
+          "bin": 4,
+          "lower": 0.8,
+          "upper": 1.0,
+          "n": 18,
+          "meanPrediction": 0.8745143874026174,
+          "meanActualScore": 0.9444444444444444,
+          "actualScoreCI": [
+            0.8333333333333334,
+            1.0
+          ],
+          "predictionMinusActual": -0.06993005704182702,
+          "gapCI": [
+            -0.14879243899706324,
+            0.05987480469745129
+          ],
+          "sparse": true
+        }
+      ]
+    }
+  },
+  "historyComparison": {
+    "1600": {
+      "onMinusOffMse": -0.0010473175236743865,
+      "pairedCI": [
+        -0.003368461286714902,
+        0.0013169844511937544
+      ]
+    },
+    "2600": {
+      "onMinusOffMse": 0.0008259906052555364,
+      "pairedCI": [
+        -0.0030830191305855565,
+        0.005081814272017772
+      ]
+    }
+  },
+  "consistency": {
+    "1600": {
+      "n": 100,
+      "meanSignedGapPP": -0.8784373261850733,
+      "medianAbsoluteGapPP": 3.6018050026197734,
+      "p90AbsoluteGapPP": 9.20602749724441,
+      "fractionAbove5": 0.39,
+      "fractionAbove10": 0.09,
+      "maxAbsoluteGapPP": 27.982444492367787,
+      "CI": {
+        "meanSignedGapPP": [
+          -2.2354148347413227,
+          0.4766591108799421
+        ],
+        "medianAbsoluteGapPP": [
+          3.0183254067221332,
+          4.732631928173248
+        ],
+        "p90AbsoluteGapPP": [
+          7.634897962666365,
+          12.97765995750808
+        ],
+        "fractionAbove5": [
+          0.29,
+          0.48
+        ],
+        "fractionAbove10": [
+          0.04,
+          0.15
+        ]
+      },
+      "bySourceCohort": {
+        "1600": {
+          "n": 50,
+          "meanSignedGapPP": -0.557958873856997,
+          "medianAbsoluteGapPP": 3.3986456783351935,
+          "p90AbsoluteGapPP": 9.122494445474167,
+          "fractionAbove5": 0.36,
+          "fractionAbove10": 0.08,
+          "maxAbsoluteGapPP": 24.07604915011651
+        },
+        "2600": {
+          "n": 50,
+          "meanSignedGapPP": -1.1989157785131497,
+          "medianAbsoluteGapPP": 4.3345512237568276,
+          "p90AbsoluteGapPP": 9.648213556353687,
+          "fractionAbove5": 0.42,
+          "fractionAbove10": 0.1,
+          "maxAbsoluteGapPP": 27.982444492367787
+        }
+      }
+    },
+    "2600": {
+      "n": 100,
+      "meanSignedGapPP": 0.5751159910032342,
+      "medianAbsoluteGapPP": 3.770561655834265,
+      "p90AbsoluteGapPP": 11.920479126798702,
+      "fractionAbove5": 0.41,
+      "fractionAbove10": 0.15,
+      "maxAbsoluteGapPP": 42.173974972997584,
+      "CI": {
+        "meanSignedGapPP": [
+          -1.2334722363400425,
+          2.2355821609298046
+        ],
+        "medianAbsoluteGapPP": [
+          2.611354841501489,
+          5.619089699533353
+        ],
+        "p90AbsoluteGapPP": [
+          9.808538844407128,
+          17.70579522493094
+        ],
+        "fractionAbove5": [
+          0.32,
+          0.51
+        ],
+        "fractionAbove10": [
+          0.08975000000000008,
+          0.22
+        ]
+      },
+      "bySourceCohort": {
+        "1600": {
+          "n": 50,
+          "meanSignedGapPP": 1.1270320855605078,
+          "medianAbsoluteGapPP": 3.8380228328153465,
+          "p90AbsoluteGapPP": 14.291886653334293,
+          "fractionAbove5": 0.42,
+          "fractionAbove10": 0.16,
+          "maxAbsoluteGapPP": 42.173974972997584
+        },
+        "2600": {
+          "n": 50,
+          "meanSignedGapPP": 0.023199896445960135,
+          "medianAbsoluteGapPP": 3.712280662509996,
+          "p90AbsoluteGapPP": 11.20545938614428,
+          "fractionAbove5": 0.4,
+          "fractionAbove10": 0.14,
+          "maxAbsoluteGapPP": 34.76747776847973
+        }
+      }
+    }
+  }
+}

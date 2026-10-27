@@ -1,0 +1,24 @@
+{
+  "modelSha256": "3454b03ae78baa64a87b345fdb1a457265d912caec531039b074f07eda0d8010",
+  "sourceSha256": "a6014de8ef861b2ee23a84d7ce824e644390577a000350fad06bd995bcddab0d",
+  "sampleSha256": "f12fb7d79a37f12a43f11d95a789891172970cc0cf919ba4598193bb2f64f9df",
+  "protocolSha256": "155f24e64398e72f07dab1640960f6598895aaa28e470d4b2f2911efafa7a036",
+  "scriptSha256": "d7919752ef71f27c5cad2b44d4ef523fd476403416f7182d7e4c2453287676a3",
+  "python": "3.14.7",
+  "numpy": "2.5.4",
+  "onnxruntime": "1.31.1",
+  "chess": "1.11.2",
+  "seconds": 123.70632087532431,
+  "backend": "local CPU; no phone execution",
+  "session": {
+    "intraThreads": 2,
+    "interThreads": 1,
+    "optimization": "BASIC",
+    "memoryPattern": false
+  },
+  "files": {
+    "sample.jsonl": "f12fb7d79a37f12a43f11d95a789891172970cc0cf919ba4598193bb2f64f9df",
+    "predictions.jsonl": "5c8658168abcb1faff736fe0fabe7a4e717b68a22ce301c90d100585402eb361",
+    "consistency.jsonl": "90ec8b883c5e118b6e1ea7e6781b9ed45d4a6b9d87019ca6d65708d1633040c9"
+  }
+}

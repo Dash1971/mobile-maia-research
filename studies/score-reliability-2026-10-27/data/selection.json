@@ -1,19 +1,4 @@
 {
-  "counts": {
-    "source_games": 18239,
-    "outside_bands": 16293,
-    "1600_rating_matches": 1641,
-    "2600_rating_matches": 305,
-    "1600_event_or_result_excluded": 375,
-    "2600_event_or_result_excluded": 77,
-    "1600_no_eligible_position": 53,
-    "1600_invalid_clocks": 9,
-    "2600_no_eligible_position": 3,
-    "1600_eligible_games": 1204,
-    "1600_selected_games": 500,
-    "2600_eligible_games": 225,
-    "2600_selected_games": 225
-  },
   "coverage": {
     "1600": {
       "games": 500,
@@ -57,44 +42,74 @@
       "meanBlackRating": 1598.656
     },
     "2600": {
-      "games": 225,
+      "games": 500,
       "termination": {
-        "Normal": 225
+        "Normal": 500
       },
       "results": {
-        "1-0": 110,
-        "0-1": 88,
-        "1/2-1/2": 27
+        "1-0": 229,
+        "0-1": 218,
+        "1/2-1/2": 53
       },
       "timeControls": {
-        "180+0": 186,
-        "300+0": 4,
-        "180+1": 2,
-        "180+2": 31,
-        "360+2": 2
+        "180+0": 418,
+        "300+0": 6,
+        "180+1": 6,
+        "180+2": 66,
+        "360+2": 2,
+        "90+3": 1,
+        "300+3": 1
       },
       "sideToMove": {
-        "w": 114,
-        "b": 111
+        "w": 252,
+        "b": 248
       },
       "stages": {
-        "11-20": 121,
-        "21-40": 94,
-        "41+": 10
+        "11-20": 264,
+        "21-40": 214,
+        "41+": 22
       },
       "whiteRatingRange": [
         2500,
-        2699
+        2700
       ],
       "blackRatingRange": [
         2500,
         2700
       ],
-      "meanWhiteRating": 2583.9244444444444,
-      "meanBlackRating": 2581.302222222222
+      "meanWhiteRating": 2582.154,
+      "meanBlackRating": 2584.488,
+      "sourceCounts": {
+        "initial-allie-test": 225,
+        "allie-validation": 121,
+        "lichess-archive-prefix": 154
+      }
     }
   },
   "sourceSha256": "a6014de8ef861b2ee23a84d7ce824e644390577a000350fad06bd995bcddab0d",
-  "sampleSha256": "f12fb7d79a37f12a43f11d95a789891172970cc0cf919ba4598193bb2f64f9df",
-  "protocolSha256": "155f24e64398e72f07dab1640960f6598895aaa28e470d4b2f2911efafa7a036"
+  "sampleSha256": "ece299a5090863cb1f80e422a2a86c0855cf0677eca313d5436a98aa0171f97d",
+  "protocolSha256": "d5409ac434f4b935d8b5d651ebcb79aff5e67a43b1f741a17fb6182d690fbc28",
+  "initialCounts": {
+    "source_games": 18239,
+    "outside_bands": 16293,
+    "1600_rating_matches": 1641,
+    "2600_rating_matches": 305,
+    "1600_event_or_result_excluded": 375,
+    "2600_event_or_result_excluded": 77,
+    "1600_no_eligible_position": 53,
+    "1600_invalid_clocks": 9,
+    "2600_no_eligible_position": 3,
+    "1600_eligible_games": 1204,
+    "1600_selected_games": 500,
+    "2600_eligible_games": 225,
+    "2600_selected_games": 225
+  },
+  "counts": {
+    "1600_selected_games": 500,
+    "2600_selected_games": 500,
+    "initial_2600": 225,
+    "supplement_2600": 275,
+    "timeForfeitGames": 0
+  },
+  "supplementSourceManifest": "supplement-sources.json"
 }

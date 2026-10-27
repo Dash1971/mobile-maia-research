@@ -1,0 +1,26 @@
+{
+  "original225": {
+    "games": 225,
+    "meanPrediction": 0.5536680723621124,
+    "meanActualScore": 0.5488888888888889,
+    "mse": 0.171728581585666,
+    "baselineMse": 0.22,
+    "whiteBias": 0.00477918347322352
+  },
+  "additional275": {
+    "games": 275,
+    "meanPrediction": 0.49977547196400596,
+    "meanActualScore": 0.48,
+    "mse": 0.1756856025886609,
+    "baselineMse": 0.22636363636363635,
+    "whiteBias": 0.019775471964005958
+  },
+  "combined500": {
+    "games": 500,
+    "meanPrediction": 0.5240271421431539,
+    "meanActualScore": 0.511,
+    "mse": 0.1739049431373132,
+    "baselineMse": 0.2235,
+    "whiteBias": 0.01302714214315387
+  }
+}

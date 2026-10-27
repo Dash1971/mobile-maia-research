@@ -1,4 +1,4 @@
-"""Draw the plain-language guide from the unchanged recorded summary."""
+"""Draw the plain-language guide from recorded study results."""
 from pathlib import Path
 import json
 import matplotlib
@@ -39,8 +39,8 @@ for elo in [1600,2600]:
   text(ax,.06,.125,'The broad picture lines up.',19,weight='bold')
   text(ax,.06,.091,'The five groups were within about 1–4 points of the forecast.',12,color=MUTED)
  else:
-  text(ax,.06,.125,'Promising overall. Some groups are too small.',18,weight='bold')
-  text(ax,.06,.091,'The 32-versus-17 gap is worth watching, but involves just 26 games.',12,color=MUTED)
+  text(ax,.06,.125,'One group stands out: 31 expected, 19 scored.',19,weight='bold')
+  text(ax,.06,.091,'That group contains 78 games. The other four groups are much closer.',12,color=MUTED)
  text(ax,.06,.046,'White’s scores • Draw = ½ point • History on • No time forfeits',11,color=MUTED)
  text(ax,.06,.024,'Rounded averages, not exact forecasts. Uncertainty intervals are in the appendix.',10,color=MUTED)
  save(fig,f'visual-results-{elo}')
@@ -64,3 +64,33 @@ text(ax,.06,.104,'The same 100 positions were used at both ratings, with history
 text(ax,.06,.073,'A disagreement does not tell us which estimate is closer to the truth.',11,color=MUTED)
 text(ax,.06,.042,'This sample does not establish that one rating is more reliable.',11,color=MUTED)
 save(fig,'visual-consistency')
+
+# Concrete explanation of the unchanged consistency test, using the isolated Rd1 case.
+case=json.loads((ROOT/'data/known-case-consistency.json').read_text())
+s=next(x for x in case['summary'] if x['elo']==1600)
+fig,ax=plt.subplots(figsize=(9,10.4));fig.subplots_adjust(0,0,1,1);ax.set(xlim=(0,1),ylim=(0,1));ax.axis('off');fig.patch.set_facecolor(BG)
+text(ax,.06,.944,'One position. Two different answers.',25,weight='bold')
+text(ax,.06,.902,'The Rd1 example, using Maia 1600. All scores are for White.',13,color=MUTED)
+box(ax,.06,.727,.88,.126,'#FFFFFF')
+text(ax,.085,.808,'1. Ask Maia about the position',18,weight='bold')
+text(ax,.085,.760,'“How many points would White score?”',14,color=MUTED)
+text(ax,.91,.760,f"{100*s['parentWhiteScore']:.1f}%",27,color=BLUE,weight='bold',ha='right')
+text(ax,.06,.667,'2. Ask Maia about every possible next move',18,weight='bold')
+box(ax,.06,.451,.42,.164,'#FFFFFF');box(ax,.52,.451,.42,.164,'#FFFFFF')
+text(ax,.085,.573,'If White plays Rd1…',16,weight='bold')
+text(ax,.085,.529,f"{100*s['rd1Probability']:.1f}% of predicted moves",12,color=MUTED)
+text(ax,.085,.481,f"White’s score: {100*s['rd1WhiteScore']:.1f}%",18,color=TEAL,weight='bold')
+text(ax,.545,.573,'The other 25 moves…',16,weight='bold')
+text(ax,.545,.529,f"{100*(1-s['rd1Probability']):.1f}% of predicted moves",12,color=MUTED)
+text(ax,.545,.481,f"Average score: {100*s['nonRd1ConditionalWhiteScore']:.1f}%",18,color=TEAL,weight='bold')
+for x in [.27,.73]:
+ ax.annotate('',xy=(.5,.356),xytext=(x,.438),arrowprops={'arrowstyle':'->','lw':1.6,'color':MUTED})
+box(ax,.19,.247,.62,.104,'#E3EFEB')
+text(ax,.5,.316,'Combine all 26 forecasts using their move chances',12,ha='center')
+text(ax,.5,.268,f"White’s average score: {100*s['weightedChildWhiteScore']:.1f}%",23,color=TEAL,weight='bold',ha='center')
+text(ax,.06,.180,f"That is a {abs(s['gapPercentagePoints']):.1f}-point mismatch.",22,color=RED,weight='bold')
+text(ax,.06,.135,'Both answers describe the same starting position. They should',13)
+text(ax,.06,.107,'roughly agree—but here, Maia’s own forecasts do not.',13)
+text(ax,.06,.059,'This is a disagreement between predictions, not a count of bad moves or lost games.',10,color=MUTED)
+text(ax,.06,.035,'This worked example is separate from the study’s 100-position consistency sample.',10,color=MUTED)
+save(fig,'visual-worked-example')

@@ -1,7 +1,117 @@
 {
   "status": "pass",
-  "selectedGames": 725,
-  "scope": "Independent direct-source comparison of results, ratings, normal termination, game prefixes and every clock threshold through the sampled move. No inference.",
+  "noInferencePerformed": true,
+  "noDownloadsPerformed": true,
+  "selectedGames": 1000,
   "sourceSha256": "a6014de8ef861b2ee23a84d7ce824e644390577a000350fad06bd995bcddab0d",
-  "sampleSha256": "f12fb7d79a37f12a43f11d95a789891172970cc0cf919ba4598193bb2f64f9df"
+  "sampleSha256": "ece299a5090863cb1f80e422a2a86c0855cf0677eca313d5436a98aa0171f97d",
+  "originalEligibleGames": {
+    "1600": 1204,
+    "2600": 225
+  },
+  "checks": [
+    "Original whole-source game and position hash selection independently replayed",
+    "Full legal games, normal termination, ratings, outcomes and eight-position history reconstructed",
+    "Every clock threshold through the sampled move checked; no earlier time pressure allowed",
+    "Sampled positions chosen before a legal recorded move, from full move 11",
+    "All twelve cached validation source hashes and counts; all 121 eligible additions",
+    "Equal official compressed prefixes, hashes, complete-game boundaries and processing counts",
+    "Integer PGN clock conversion, standard starts and all 304 eligible raw games",
+    "First sufficient twelve-month stage and 154 lowest game hashes independently selected",
+    "All supplement source fields, provenance and deterministic sampled positions match cached source",
+    "No duplicate IDs or full move sequences against the whole original source or among additions"
+  ],
+  "supplement": {
+    "validationGames": 121,
+    "rawGames": 154,
+    "rawEligiblePool": 304,
+    "validationFiles": 12,
+    "rawStages": 1,
+    "prefixes": [
+      {
+        "archive": "lichess_db_standard_rated_2022-01.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "adf90bc7fef0f2d9a59985345fab7afd6932c97575329498801f15ab78e8ff15",
+        "eligibleGames": 45
+      },
+      {
+        "archive": "lichess_db_standard_rated_2022-02.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "201976cea2c2d6a7792a56cdac08230706e4339a61f3c2fdd850418be9aec2f9",
+        "eligibleGames": 41
+      },
+      {
+        "archive": "lichess_db_standard_rated_2022-03.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "2d5f12ed55e425156a488464065f4b63c20f15beaa1c907eb801acd80dcf3306",
+        "eligibleGames": 35
+      },
+      {
+        "archive": "lichess_db_standard_rated_2022-04.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "bd068987e023aa733265ed7fb1e71e6a8daf2f156160955880fbf14c03fd6622",
+        "eligibleGames": 24
+      },
+      {
+        "archive": "lichess_db_standard_rated_2022-05.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "9de7da404dd540170bc24135f86f1f5ea757ece1c8bf8651d0edc90e391cc42b",
+        "eligibleGames": 23
+      },
+      {
+        "archive": "lichess_db_standard_rated_2022-06.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "6688b0285d411f5685033a55e366fa80df6299f8317fe73f2f30ebfd6cfcbd4e",
+        "eligibleGames": 15
+      },
+      {
+        "archive": "lichess_db_standard_rated_2022-07.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "bfb5769ad27ee3a96088be144634f46da3958ee066ea51966607b1f237950a33",
+        "eligibleGames": 18
+      },
+      {
+        "archive": "lichess_db_standard_rated_2022-08.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "728ccf7a478e67b707001768acbb95059d701450c0c05613aa42dff2728ae88f",
+        "eligibleGames": 30
+      },
+      {
+        "archive": "lichess_db_standard_rated_2022-09.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "7b102358d56c7d4f69857f163b6464db262c9f23b00fb05aea5ddb59596c69fd",
+        "eligibleGames": 18
+      },
+      {
+        "archive": "lichess_db_standard_rated_2022-10.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "5b2d27bebc81ec98030ed57da47efaa8a30a54dfaa3ef33e95a31beaed0e24aa",
+        "eligibleGames": 19
+      },
+      {
+        "archive": "lichess_db_standard_rated_2022-11.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "76947581c78c49c45889e98a324a68ac7049f01bdf69a940c2249d8e264ff0ba",
+        "eligibleGames": 19
+      },
+      {
+        "archive": "lichess_db_standard_rated_2022-12.pgn.zst",
+        "prefixBytes": 8388608,
+        "sha256": "d853f927fed17d54a4b301e0de6603a6720b48c4785fd8f0bdf59909ffea42ca",
+        "eligibleGames": 17
+      }
+    ],
+    "selectedRawDateRange": [
+      "2022.01.01",
+      "2022.12.01"
+    ]
+  },
+  "supplementManifestSha256": "d26dd791c7d8bcc972fbb0a20829e757213378a289ad55208dfcb2bbb038c59f",
+  "scope": "Independent direct-source replay and deterministic selection from cached source bytes. No model inference or downloads.",
+  "limits": [
+    "Cached bytes match recorded source hashes; HTTP identity is recorded evidence, not an independently refetched response.",
+    "Full-file official archive checksums do not validate the prefixes; actual cached prefix hashes are checked.",
+    "Game resampling cannot account for all repeat-player or source/time concentration."
+  ],
+  "auditSourceScriptSha256": "c3f6be2c340b0200bd0e3396068bfd559444126e755e538004a4b1e5a2f013d1"
 }

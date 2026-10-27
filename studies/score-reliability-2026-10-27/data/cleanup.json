@@ -10,5 +10,22 @@
   "retained": "Compact research source, measurements and figures. Existing shared model and source dataset unchanged.",
   "appChanges": false,
   "apkBuilds": false,
-  "appCI": false
+  "appCI": false,
+  "expansion": {
+    "status": "complete",
+    "removedTaskTemporaryItems": [
+      "expansion temporary environment",
+      "matplotlib cache",
+      "monthly source downloads",
+      "twelve compressed archive prefixes and HTTP sidecars",
+      "temporary initial-output copies",
+      "study __pycache__"
+    ],
+    "freeBytesBefore": 74322825216,
+    "freeBytesAfter": 74669060096,
+    "retained": "Published selected records, source hashes, range response metadata, audited outputs and original results. Pre-existing shared model and original source file unchanged.",
+    "appChanges": false,
+    "apkBuilds": false,
+    "appCI": false
+  }
 }

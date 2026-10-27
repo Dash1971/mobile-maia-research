@@ -2,7 +2,7 @@
 
 [Visual guide](REPORT.md) · [Detailed results and limitations](APPENDIX.md) · [Fixed protocol and pre-inference amendments](PROTOCOL.md)
 
-This small study tests the bundled Maia-3 79M expected-score output at fixed
+This study tests the bundled Maia-3 79M expected-score output at fixed
 1600/1600 and 2600/2600 inputs. It measures human-result prediction on one position
 per game and self-consistency across every legal move. It does not change the app,
 recalibrate the model, estimate playing Elo, or claim that model scores are exact
@@ -10,21 +10,28 @@ winning probabilities.
 
 ## What is included
 
-- `study.py`: deterministic game/position selection and CPU inference.
+- `study.py`: initial deterministic game/position selection and CPU inference.
+- `collect_supplement.py`: pinned validation files and equal archive prefixes,
+  deduplication and selection of 275 additional high-rating games.
+- `expand.py`: inference on those additions, preserving the original outputs.
 - `summarize.py`: metrics, descriptive bootstrap intervals and original charts.
 - `build_visuals.py`: the simpler visual guide, drawn from the same recorded
   summary without changing any measurements.
 - `audit.py`, `audit.json`: independent numerical checks on recorded outputs.
 - `audit_source.py`, `data/source-crosscheck.json`: direct-source checks of
   actual results, ratings, normal termination, prefixes and clock eligibility.
-- `data/sample.jsonl`: 725 selected positions, their prior moves/history, public
+- `data/sample.jsonl`: 1,000 selected positions, their prior moves/history, public
   game identities, rating/result and clock metadata. No player handles are used.
-- `data/predictions.jsonl`: all history-on/off expected scores and loss/draw/win
+- `data/predictions.jsonl`: 2,000 history-on/off expected scores and loss/draw/win
   model outputs, plus input tensor hashes.
 - `data/consistency.jsonl`: parent outcomes, every legal candidate's probability,
   child outcome, terminal override and the complete weighted calculation for
   100 positions at each rating.
 - `data/summary.json`: aggregate numbers and uncertainty intervals.
+- `data/initial-*`: archived initial sample, predictions, selection, run and summary.
+- `data/supplement-games.jsonl`, `data/supplement-sources.json`: selected source
+  records, selection provenance, archive ranges and pinned checksums.
+- `data/expansion-comparison.json`: original 225, added 275 and combined 500 results.
 - `data/calibration-bins.csv`, `data/outcome-metrics.csv`,
   `data/consistency-summary.csv`: spreadsheet-readable summaries.
 - `data/selection.json`: eligibility/attrition and actual cohort coverage.
@@ -37,11 +44,15 @@ winning probabilities.
 - `figures/`: static PNG and SVG charts.
 - `SHA256SUMS`: published file checksums, excluding this checksum file itself.
 
-The protocol was committed before study predictions. The first eligibility
-amendment proposed including future time forfeits; the user's explicit correction
-superseded it before inference. **All 725 selected games have Normal termination.**
-The requested 250-game high-rating target was reduced to all 225 eligible games;
-the rating band was not widened. Details remain in the protocol history.
+The original protocol was committed before initial predictions. The user's
+instruction to exclude time forfeits superseded an earlier proposed eligibility
+amendment before inference. **All 1,000 selected games have Normal termination.**
+
+After the initial 500/225 results were published, the user requested 500 games
+at each rating. The expansion rules were committed in `84eacd9` before predicting
+the added 275 positions. The original sample, predictions and 100-position
+consistency diagnostic were retained. Selection did not depend on the new model
+scores; the rating band and clock criteria stayed unchanged.
 
 ## Source provenance and attribution
 
@@ -52,6 +63,32 @@ revision `990f79105b1f08a8fd367fcb10c5e18c69436e30`, file
 - Download: [pinned annotated file](https://huggingface.co/datasets/yimingzhang/allie-data/resolve/990f79105b1f08a8fd367fcb10c5e18c69436e30/lichess-2022-blitz-test/2022-test-annotated.jsonl).
 - Size: 44,727,605 bytes; 18,239 source games.
 - SHA-256: `a6014de8ef861b2ee23a84d7ce824e644390577a000350fad06bd995bcddab0d`.
+
+The 2600 expansion adds:
+
+- **121 games** from all twelve monthly ALLIE validation files at the same
+  pinned revision, under `lichess-2022-blitz-sampled/2022-MM-val.jsonl`.
+  There were 8,985 rows; after deduplication and the same eligibility filters,
+  all 121 qualifying games were used. The monthly test files add no new games.
+- **154 games** selected by the original deterministic hash from **304 eligible
+  games** in the first 8 MiB of each of twelve official 2022 monthly compressed
+  Lichess archives. The full pool was collected before selection. This decoded
+  311,310 complete games; partial final games were discarded. No larger prefix
+  stage was needed. The downloaded compressed total was 96 MiB.
+
+The source manifest records each URL, revision/range, byte count and SHA-256.
+Published full-archive checksums identify the archives; separately pinned prefix
+hashes verify the actual downloaded bytes. Range-response metadata was recovered
+by explicitly labelled HEAD revalidation of cached prefixes after the initial
+GET headers were lost; it is not presented as retained original GET evidence.
+The collector preserves that metadata on cached reruns.
+
+Both game IDs and complete move sequences were checked for duplicates against
+the original source and validation pool. Each raw game's clocks were converted
+to integer seconds using the upstream ALLIE convention; legal replay, termination,
+ratings, move number and remaining-time filters were independently checked.
+The raw prefix sources concentrate the start of each month, rather than uniformly
+sampling the year. [Full supplement provenance](data/supplement-sources.json).
 
 Underlying [Lichess database exports](https://database.lichess.org/) are CC0. The
 pinned ALLIE repository supplies no license metadata for its annotations; we do
@@ -97,18 +134,29 @@ python3 -m venv /tmp/maia-score-reproduction
 /tmp/maia-score-reproduction/bin/python study.py select --source /path/to/2022-test-annotated.jsonl
 /tmp/maia-score-reproduction/bin/python study.py infer --model /path/to/maia3-79m.onnx
 /tmp/maia-score-reproduction/bin/python summarize.py
+/tmp/maia-score-reproduction/bin/python collect_supplement.py --original /path/to/2022-test-annotated.jsonl --scratch /tmp/maia-score-source
+/tmp/maia-score-reproduction/bin/python expand.py --model /path/to/maia3-79m.onnx
+/tmp/maia-score-reproduction/bin/python summarize.py
 /tmp/maia-score-reproduction/bin/python build_visuals.py
-/tmp/maia-score-reproduction/bin/python audit_source.py --source /path/to/2022-test-annotated.jsonl
+/tmp/maia-score-reproduction/bin/python audit_source.py --source /path/to/2022-test-annotated.jsonl --scratch /tmp/maia-score-source
 /tmp/maia-score-reproduction/bin/python audit.py --source /path/to/2022-test-annotated.jsonl --model /path/to/maia3-79m.onnx
 ```
 
-Selection and inference overwrite the corresponding data files. To inspect the
+Selection and inference overwrite the corresponding data files. `expand.py`
+expects the original 725-game outputs and refuses to apply the expansion twice.
+The first summary command creates the initial summary before it is archived.
+Keep the source cache until the independent source audit has finished, then
+remove task-owned downloads and the temporary environment. To inspect the
 published measurements without inference, run only `summarize.py` and `audit.py`. Omitting the audit source/model arguments
 checks recorded hashes and calculations; supplying them also verifies the actual
 source/model bytes, as done for the published audit.
 The source/model hashes are enforced. Minor floating-point differences across
 runtime/platform versions may change final digits; they do not justify changing
-the sample, thresholds, or interpretation.
+the sample, thresholds, or interpretation. The audit also checks exact original
+publication hashes: a fresh inference run that differs in floating-point digits
+will need a numerical comparison with the archived outputs rather than passing
+that byte-preservation check unchanged. Run the audit on the published data for
+the exact recorded-evidence check.
 
 5000 bootstrap repetitions operate at game level, with paired resampling for
 history and baseline comparisons. The consistency bootstrap preserves its
@@ -120,4 +168,4 @@ A game score is 1 for a win, 0.5 for a draw, and 0 for a loss. Squared-error
 reduction is a comparison against the same sample's always-50% forecast, not a
 percentage of correctly predicted winners. The weighted child forecast is another
 model-derived estimate, not ground truth. Histories and positions are fixed before
-inference; the known Rd1 example is never pooled into study results.
+each stage’s inference; the known Rd1 example is never pooled into study results.

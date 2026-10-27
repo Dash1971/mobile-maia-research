@@ -9,11 +9,11 @@
       "draws": 20
     },
     "2600": {
-      "n": 225,
-      "draws": 27
+      "n": 500,
+      "draws": 53
     }
   },
-  "predictions": 1450,
+  "predictions": 2000,
   "consistencyRows": 200,
   "legalChildEvaluations": 6606,
   "terminalChildEvaluations": 2,
@@ -28,7 +28,10 @@
     "Every legal child, move index, child FEN, SAN and full legal softmax",
     "Terminal outcomes from full game prefix and exact result override",
     "Draw-aware baseline, MSE, White bias, fixed calibration bins and sparse flags",
-    "Paired history comparison and stratified consistency bootstrap"
+    "Paired history comparison and stratified consistency bootstrap",
+    "Expansion and collector hashes, supplement row mapping and all cohort coverage metadata",
+    "Original 725 sample rows, 1450 predictions and 200 consistency rows unchanged",
+    "Original225, additional275 and combined500 outcome metrics"
   ],
   "externalByteVerification": {
     "source": "actual bytes verified",
@@ -36,20 +39,37 @@
   },
   "limits": [
     "No model inference rerun; validates recorded model outputs, not their accuracy against fresh execution.",
-    "Upstream game selection and full clock reconstruction are not independently rerun by this audit; the saved prefix, recorded clocks and source checksum are checked.",
+    "Full source selection and clock reconstruction are checked separately in data/source-crosscheck.json.",
     "Intervals describe game resampling; repeat-player dependence cannot be measured.",
-    "Source is a known benchmark, not established untouched holdout; normal-ending selected blitz sample limits generalization."
+    "Original/validation data are established benchmarks; the supplemented Normal-ending prefix sample does not establish a representative untouched holdout."
   ],
   "files": {
-    "PROTOCOL.md": "155f24e64398e72f07dab1640960f6598895aaa28e470d4b2f2911efafa7a036",
+    "PROTOCOL.md": "d5409ac434f4b935d8b5d651ebcb79aff5e67a43b1f741a17fb6182d690fbc28",
     "study.py": "d7919752ef71f27c5cad2b44d4ef523fd476403416f7182d7e4c2453287676a3",
     "summarize.py": "89bf6929aea8fb560463405821e1b93b36a17b8e6b3eae8c2e5ebc80706e5712",
-    "audit.py": "1b756bb6099bcf98a9e51239cc84ddfbe2f0273e8b9ca48e34fd5cb1c6684b5e",
-    "data/sample.jsonl": "f12fb7d79a37f12a43f11d95a789891172970cc0cf919ba4598193bb2f64f9df",
-    "data/selection.json": "4aba20dbbaae69f000ac30e07cc24cc858a07ef9aa353d0f67a3920de6f33a02",
-    "data/predictions.jsonl": "5c8658168abcb1faff736fe0fabe7a4e717b68a22ce301c90d100585402eb361",
+    "audit.py": "708db853b4aca0b73d6d64dc66ef45ecb8e634b44671cacfc0e27aee2aee77eb",
+    "data/sample.jsonl": "ece299a5090863cb1f80e422a2a86c0855cf0677eca313d5436a98aa0171f97d",
+    "data/selection.json": "f1d9309cb263a98aa6a096116cfea1a8dc1f8d9c96e52226fcef09f11541b48e",
+    "data/predictions.jsonl": "8079fdbf69abdc1f1be3d190790e72ead57b8c53b63c05c948855b2edbe543cb",
     "data/consistency.jsonl": "90ec8b883c5e118b6e1ea7e6781b9ed45d4a6b9d87019ca6d65708d1633040c9",
-    "data/run.json": "01898d5eeba18cb35a51df25cdd0c79d6f2db1d37fa475d066f15fe1fd4085a5",
-    "data/summary.json": "2325c1350b14e2b10b1fe625f1f48d6715df363a9e9f5a31dd88b6444078a439"
+    "data/run.json": "96ed885e8ea598a5498c20a18faaf107a39e5170cec689fc60db63c5bbc6ea6b",
+    "data/summary.json": "dd03638cc98d8c3db92a7911e193eaf985692f5c9c488cd557b0b8ac392ea807",
+    "expand.py": "fd829615aa1e31642529e205e7dafa3bc21d664e0370051ccae9ea45e106e10d",
+    "collect_supplement.py": "6312b730e977d29461cc7ae161409ade608359ce878cb19adc04aeffaf712a8c",
+    "audit_source.py": "c3f6be2c340b0200bd0e3396068bfd559444126e755e538004a4b1e5a2f013d1",
+    "data/initial-sample.jsonl": "f12fb7d79a37f12a43f11d95a789891172970cc0cf919ba4598193bb2f64f9df",
+    "data/initial-predictions.jsonl": "5c8658168abcb1faff736fe0fabe7a4e717b68a22ce301c90d100585402eb361",
+    "data/initial-run.json": "01898d5eeba18cb35a51df25cdd0c79d6f2db1d37fa475d066f15fe1fd4085a5",
+    "data/initial-summary.json": "2325c1350b14e2b10b1fe625f1f48d6715df363a9e9f5a31dd88b6444078a439",
+    "data/supplement-games.jsonl": "4f0a4932c77f6e9af10c0d315ab5b736b67285bf3be15abd3c4c367919234a8b",
+    "data/supplement-sources.json": "d26dd791c7d8bcc972fbb0a20829e757213378a289ad55208dfcb2bbb038c59f",
+    "data/expansion-comparison.json": "601fe153cbf5c659ff49c744a6f9cfb5a939419f6f65257245a98976efd9d0ac"
+  },
+  "stage": "500 original near-1600; 225 original plus 275 added near-2600",
+  "originalRowsPreserved": {
+    "sample": 725,
+    "predictions": 1450,
+    "consistency": 200,
+    "verification": "Original sample and prediction bytes are exact prefixes; consistency file has its original hash; original near-1600 and consistency summaries agree."
   }
 }
