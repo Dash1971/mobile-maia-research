@@ -27,5 +27,18 @@
     "appChanges": false,
     "apkBuilds": false,
     "appCI": false
+  },
+  "readerEdit": {
+    "status": "complete",
+    "removedTaskTemporaryItems": [
+      "figure-rendering temporary environment",
+      "matplotlib cache"
+    ],
+    "freeBytesBefore": 74534232064,
+    "freeBytesAfter": 74669162496,
+    "retained": "Published report and figure assets; study measurements unchanged.",
+    "appChanges": false,
+    "appTests": false,
+    "apkBuilds": false
   }
 }

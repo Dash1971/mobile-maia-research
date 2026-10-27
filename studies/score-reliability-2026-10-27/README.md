@@ -36,10 +36,11 @@ winning probabilities.
   `data/consistency-summary.csv`: spreadsheet-readable summaries.
 - `data/selection.json`: eligibility/attrition and actual cohort coverage.
 - `data/run.json`: model, source, input and executable hashes and runtime versions.
-- `data/known-case-sanity.json`: the earlier Rd1 example, isolated from the random
-  sample. Eight parent/child/rating/history scores match the earlier reproduction.
-- `data/known-case-consistency.json`: retained earlier all-26-move calculation
-  for the isolated Rd1 illustration; its weighted sums are checked in
+- `data/known-case-sanity.json`: the separate rook-to-d1 example used in the visual guide,
+  isolated from the random sample. Eight scores covering both positions, ratings
+  and history settings match its original reproduction.
+- `data/known-case-consistency.json`: the all-26-move calculation
+  for the isolated rook-to-d1 illustration; its weighted sums are checked in
   `data/known-case-calculation-check.json`.
 - `figures/`: static PNG and SVG charts.
 - `SHA256SUMS`: published file checksums, excluding this checksum file itself.
@@ -168,4 +169,4 @@ A game score is 1 for a win, 0.5 for a draw, and 0 for a loss. Squared-error
 reduction is a comparison against the same sample's always-50% forecast, not a
 percentage of correctly predicted winners. The weighted child forecast is another
 model-derived estimate, not ground truth. Histories and positions are fixed before
-each stage’s inference; the known Rd1 example is never pooled into study results.
+each stage’s inference; the illustrative rook-to-d1 example is never pooled into study results.

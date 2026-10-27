@@ -31,9 +31,9 @@ probability that Maia predicts a particular move will be played.
 Each stage’s selection rules were fixed before its predictions. The expansion
 was requested after the initial results were inspected; it was not a single
 untouched preregistered sample. Original predictions and the 100-position
-consistency sample were preserved unchanged. The earlier Rd1 example
-was kept separate. No app changes, strength tournament or Stockfish evaluation
-were involved. [Protocol](PROTOCOL.md) · [Evidence and reproduction](README.md)
+consistency sample were preserved unchanged. A separate illustrative position,
+where White can move a rook to d1 (Rd1 in chess notation), was kept outside the
+sample. No app changes, strength tournament or Stockfish evaluation were involved. [Protocol](PROTOCOL.md) · [Evidence and reproduction](README.md)
 
 ## 1. The scores contain useful information about human results
 
@@ -123,12 +123,12 @@ A large gap does not identify which forecast is wrong. The weighted continuation
 score is another model estimate, not the true human scoring chance. Conversely,
 a small gap would not prove accuracy.
 
-The motivating Rd1 example illustrates this distinction. Its original White
-score and weighted continuation score were **46.26% versus 30.50% at 1600**, but
+The separate rook-to-d1 example used in the visual guide illustrates this
+distinction. Its original White score and weighted continuation score were **46.26% versus 30.50% at 1600**, but
 **41.55% versus 38.76% at 2600**. That particular example made 1600 look much less
 consistent; the broader sample shows that large disagreements can occur at
 both ratings. The example is excluded from every headline statistic above; its
-[full earlier calculation](data/known-case-consistency.json) is retained separately.
+[full move-by-move calculation](data/known-case-consistency.json) is retained separately.
 
 ## 3. History did not clearly change outcome-prediction reliability here
 

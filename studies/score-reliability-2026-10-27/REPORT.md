@@ -1,68 +1,94 @@
-# Can you trust Maia’s score?
+# Understanding Maia’s score %
 
-**Yes, for the overall picture. Be cautious with the exact number.**
+**Maia’s score is a useful guide to who is favoured. Treat the exact percentage
+as an estimate, especially when it changes sharply after a move.**
 
-We checked **1,000 human games—500 near each rating—** and tested how consistently Maia evaluated
-**100 positions**. All time-forfeit games were excluded.
+In Mobile Maia, the score percentage forecasts how human players at a given
+rating would do from the position on the board. This guide looks at the
+**M1600 and M2600** estimates: predictions for players around 1600 and 2600.
 
-> **What does “White 60%” mean?**
-> Maia expects White to score about **60 points per 100 games**.
-> A win earns 1 point; a draw earns ½. It does **not** mean 60 wins.
+## What does the percentage mean?
 
-## Does the score match what happens in real games?
+Imagine many games continuing from the same position. A forecast of **White 60%**
+means Maia expects White to earn about **60 points per 100 games**, with a win
+worth 1 point and a draw worth ½. For example, 50 wins and 20 draws would earn
+60 points. Black would earn the remaining 40.
 
-**Broadly, yes.** In these games, higher scores generally went with better
-results for White. Both ratings were more useful than simply saying “50%”
-every time.
+This is different from a **move percentage**, which predicts how likely a player
+is to choose a particular move. It is also different from Stockfish’s evaluation:
+Maia is forecasting human results, including human mistakes.
 
-Read the bars in pairs: **blue is Maia’s forecast; green is what the players
-actually scored.** Close bars mean the forecast was close for that group.
+All the charts below show the score from **White’s perspective**.
 
-![Maia 1600: predicted and actual points, shown as paired bars for all five score ranges](figures/visual-results-1600.png)
+## How well does it match real games?
 
-The 2600 check now also uses **500 games**. Every row shows its game count;
-**One group stands out:** forecasts averaging **31%** were followed by just
-**19 points per 100 games**, across 78 games. Maia was too optimistic about
-White in that group. The other four groups were within about 1–4 points.
-Uncertainty intervals and source details are in the appendix.
+We checked **500 human games near 1600 and 500 near 2600**, taking one position
+from each game and comparing Maia’s forecast with the eventual result. All were
+online blitz games; games ending in a time forfeit were excluded.
 
-![Maia 2600: predicted and actual points across 500 games](figures/visual-results-2600.png)
+**Higher forecasts generally went with better results.** At both ratings, Maia
+was more informative than always predicting an even score.
 
-## What did we mean by “Maia disagrees with itself”?
+The charts group similar forecasts together. Read each pair of bars:
+**blue is what Maia expected; green is what the players actually scored.**
+Close bars mean the forecast matched the results for that group.
 
-**We asked about the same position in two ways.** Here is the position from
-the game that prompted this study:
+### Maia 1600: the groups line up well
 
-![Worked Rd1 example: Maia gives White 46.3 percent directly, but averaging its move-by-move forecasts gives 30.5 percent](figures/visual-worked-example.png)
+Across the five groups, forecasts and results were within about **1–4 points
+per 100 games** of each other.
 
-The **46.3% and 30.5% are both Maia’s predictions**. Neither is an observed game
-result. The gap tells us its answers do not fit together—not which answer is right.
+![Maia 1600: paired bars compare predicted and actual White scores across 500 games](figures/visual-results-1600.png)
 
-The calculation is simply **10.6% × 73.3 + 89.4% × 25.4 ≈ 30.5**.
-Rd1 raises White’s chances, but Maia expects White to choose it only about one
-time in ten at 1600. Averaging over the other moves is what matters here.
-At 2600, this same example was much closer: **41.6% directly versus 38.8%
-after averaging**. A jump after one move alone is not evidence of inconsistency.
+### Maia 2600: useful, but one group was too optimistic
 
-We repeated that check on **100 positions**. Gaps larger than 10 percentage points
-appeared in **9 positions at 1600** and **15 at 2600**. Those are counts of
-mismatched forecasts, **not bad moves, lost games, or how often Maia predicted
-the wrong winner**. The detailed check remains in the appendix.
+In the group where Maia’s forecasts averaged **31%**, White actually earned
+about **19 points per 100 games**. That group contained 78 games. The other
+four groups were within about 1–4 points.
 
-## How I’d use it
+So a higher Maia rating does not automatically make the score more trustworthy.
 
-- **Read the overall picture:** roughly equal, one side favoured, or a strong advantage.
-- **Treat small changes gently.** A change from 58% to 61% is not a precise measurement of improvement.
-- **Check the moves when the score jumps.** Finding a good move can genuinely improve human chances; the model can also be inconsistent.
-- **Choose history mode for how you want Maia to play.** Turning it on or off made no clear difference to score reliability in this study.
+![Maia 2600: paired bars show a noticeable gap in the 20–40 percent forecast group](figures/visual-results-2600.png)
 
-**Useful guidance, with room for doubt.** That’s the right level of confidence
-for this display—not a promise about how a particular game will finish.
+## Why can the score jump after a move?
+
+**Playing a good move can improve the forecast.** Before the move, Maia has to
+allow for the possibility that the player will choose something weaker. Once
+the good move is on the board, that uncertainty is gone.
+
+But the model’s predictions can also fail to fit together. To check this, we
+compared its score for a position with the average of its scores after **every
+legal move**, giving likely moves more weight than unlikely ones. Those two
+forecasts should roughly agree.
+
+Here is a concrete example with **26 possible moves**, evaluated at 1600.
+Maia gives White **46.3%** before the move. Moving a rook to d1 raises its
+forecast to **73.3%**, but it expects players to choose that move only about
+**one time in ten**. Its forecasts after the other moves are much lower.
+
+![A 26-move example: Maia’s direct forecast is 46.3 percent, while averaging its forecasts after all possible moves gives 30.5 percent](figures/visual-worked-example.png)
+
+Combining all 26 possibilities gives **30.5%**, well below the original
+**46.3%**. That **15.8-point gap** shows that Maia’s forecasts do not fully fit
+together here. Both numbers are predictions; the comparison cannot tell us
+which is closer to the true scoring chance.
+
+In a separate check of **100 positions**, gaps larger than 10 percentage points
+occurred in **9 positions at 1600** and **15 at 2600**. This measures consistency
+between predictions, rather than how often Maia gets the winner wrong.
+
+## How to use the score while playing
+
+- **Look at the broad picture:** roughly equal, one side favoured, or a strong advantage.
+- **Avoid reading too much into a few points.** A change from 58% to 61% is not a precise measure of improvement.
+- **Look at the moves when the score jumps.** It may reflect a good move being found, an inconsistent forecast, or both.
+- **Use move analysis alongside the percentage.** The score describes human prospects; the moves help explain what makes the position promising or difficult.
+
+The app’s optional move-history setting lets Maia consider the preceding
+positions. Turning it on or off made no clear difference to score reliability
+in this study.
 
 ---
 
-*Tested on normal-ending online blitz games near 1600 and 2600. The percentages
-remain approximate forecasts, not guarantees about individual games.*
-
-[Detailed results, original charts and limitations →](APPENDIX.md) ·
+[Detailed results and limitations →](APPENDIX.md) ·
 [Data, methods and reproduction →](README.md)

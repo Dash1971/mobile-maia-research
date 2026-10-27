@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-27T11:51:58.957847</dc:date>
+    <dc:date>2026-10-27T12:08:06.675037</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -40,7 +40,7 @@ Q 38.88 110.0736 38.88 125.0496
 L 38.88 189.4464 
 Q 38.88 204.4224 51.84 204.4224 
 z
-" clip-path="url(#p2b548e57d2)" style="fill: #ffffff"/>
+" clip-path="url(#p07b33e8e3f)" style="fill: #ffffff"/>
    </g>
    <g id="patch_3">
     <path d="M 51.84 411.0912 
@@ -53,7 +53,7 @@ Q 38.88 288.288 38.88 303.264
 L 38.88 396.1152 
 Q 38.88 411.0912 51.84 411.0912 
 z
-" clip-path="url(#p2b548e57d2)" style="fill: #ffffff"/>
+" clip-path="url(#p07b33e8e3f)" style="fill: #ffffff"/>
    </g>
    <g id="patch_4">
     <path d="M 349.92 411.0912 
@@ -66,7 +66,7 @@ Q 336.96 288.288 336.96 303.264
 L 336.96 396.1152 
 Q 336.96 411.0912 349.92 411.0912 
 z
-" clip-path="url(#p2b548e57d2)" style="fill: #ffffff"/>
+" clip-path="url(#p07b33e8e3f)" style="fill: #ffffff"/>
    </g>
    <g id="patch_5">
     <path d="M 136.08 563.8464 
@@ -79,13 +79,13 @@ Q 123.12 485.9712 123.12 500.9472
 L 123.12 548.8704 
 Q 123.12 563.8464 136.08 563.8464 
 z
-" clip-path="url(#p2b548e57d2)" style="fill: #e3efeb"/>
+" clip-path="url(#p07b33e8e3f)" style="fill: #e3efeb"/>
    </g>
    <g id="text_1">
     <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="38.88" y="41.9328" transform="rotate(-0 38.88 41.9328)">One position. Two different answers.</text>
    </g>
    <g id="text_2">
-    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="38.88" y="73.3824" transform="rotate(-0 38.88 73.3824)">The Rd1 example, using Maia 1600. All scores are for White.</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="38.88" y="73.3824" transform="rotate(-0 38.88 73.3824)">A position with 26 possible moves • Maia 1600 • White’s score</text>
    </g>
    <g id="text_3">
     <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="55.08" y="143.7696" transform="rotate(-0 55.08 143.7696)">1. Ask Maia about the position</text>
@@ -100,7 +100,7 @@ z
     <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="38.88" y="249.3504" transform="rotate(-0 38.88 249.3504)">2. Ask Maia about every possible next move</text>
    </g>
    <g id="text_7">
-    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="55.08" y="319.7376" transform="rotate(-0 55.08 319.7376)">If White plays Rd1…</text>
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="55.08" y="319.7376" transform="rotate(-0 55.08 319.7376)">Move the rook to d1…</text>
    </g>
    <g id="text_8">
     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="55.08" y="352.6848" transform="rotate(-0 55.08 352.6848)">10.6% of predicted moves</text>
@@ -159,7 +159,7 @@ L 330.436728 477.412313
   </g>
  </g>
  <defs>
-  <clipPath id="p2b548e57d2">
+  <clipPath id="p07b33e8e3f">
    <rect x="0" y="0" width="648" height="748.8"/>
   </clipPath>
  </defs>
