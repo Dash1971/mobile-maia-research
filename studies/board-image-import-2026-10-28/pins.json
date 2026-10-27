@@ -1,0 +1,23 @@
+{
+  "model": {
+    "url": "https://raw.githubusercontent.com/CrispStrobe/CrispChess/0d01798daf9661076675f8505b4cc6995a6529da/assets/models/board_squares.onnx",
+    "bytes": 835655,
+    "sha256": "2408717e2e0e2ed438e2f9f89f85c2e544326cef34a0c91b95168bd17336df47",
+    "license": "MIT",
+    "notice": "https://github.com/CrispStrobe/CrispChess/blob/0d01798daf9661076675f8505b4cc6995a6529da/NOTICE.md#board-scanning-model"
+  },
+  "recognizer": {
+    "url": "https://raw.githubusercontent.com/CrispStrobe/CrispChess/0d01798daf9661076675f8505b4cc6995a6529da/lib/vision/board_recognizer.dart",
+    "sha256": "6310b03cb7dcaf4ef132331a5b932b048cd1cf3acf7e0817ebf8f68426b1bdef",
+    "license": "MIT"
+  },
+  "environment": {
+    "platform": "macOS 26.6.2 arm64",
+    "python": "3.12.14",
+    "Pillow": "12.3.0",
+    "numpy": "2.3.5",
+    "dart": "3.13.7 stable",
+    "onnxruntime": "1.24.3 CPUExecutionProvider",
+    "dart_onnx_git_ref": "d9afbe2b694ab1fa26c959ab918b7bc8a9ed06a2"
+  }
+}

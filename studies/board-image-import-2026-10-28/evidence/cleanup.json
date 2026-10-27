@@ -1,0 +1,21 @@
+{
+  "recorded_at_utc": "2026-10-27T23:36:01.309648+00:00",
+  "removed": [
+    "task-owned scratch (models, images, RGBA buffers, Dart cache and runner, temporary Python environment)",
+    "contact-3.jpg",
+    "contact-2.jpg",
+    "contact-0.jpg",
+    "contact-1.jpg",
+    "contact-4.jpg",
+    "maia-contact.jpg"
+  ],
+  "removed_file_bytes": 537070634,
+  "volume_free_bytes_before": 70709665792,
+  "volume_free_bytes_after": 71194447872,
+  "free_reserve_bytes": 10737418240,
+  "reserve_preserved": true,
+  "task_owned_inference_processes": "All inference, dependency installation and reproduction commands completed before cleanup.",
+  "retained": "Compact input URLs/hashes/labels, model and source pins, results, native parity checks, report and reproduction scripts. No model binaries or source images in publication. Shared Flutter/Dart/Python installations and shared caches were preserved.",
+  "application_builds_or_APKs_created": false,
+  "task_scratch_exists_after": false
+}

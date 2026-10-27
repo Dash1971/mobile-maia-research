@@ -1,0 +1,167 @@
+{
+  "independent_screenshots": {
+    "n": 8,
+    "found": 8,
+    "exact_after_flip": 6,
+    "exact_without_flip": 6,
+    "correct_squares": 473,
+    "all_squares": 512,
+    "square_accuracy_found": 92.3828125,
+    "median_ms": 569.8435,
+    "errors_with_confidence_ge_90": 25
+  },
+  "negative": {
+    "n": 0,
+    "found": 0,
+    "exact_after_flip": 0,
+    "exact_without_flip": 0,
+    "correct_squares": 0,
+    "all_squares": 0,
+    "square_accuracy_found": 0,
+    "median_ms": 78.979,
+    "errors_with_confidence_ge_90": 0
+  },
+  "external_1001": {
+    "n": 7,
+    "found": 7,
+    "exact_after_flip": 5,
+    "exact_without_flip": 5,
+    "correct_squares": 446,
+    "all_squares": 448,
+    "square_accuracy_found": 99.55357142857143,
+    "median_ms": 511.338,
+    "errors_with_confidence_ge_90": 0
+  },
+  "external_b-and-w-pdf": {
+    "n": 15,
+    "found": 15,
+    "exact_after_flip": 5,
+    "exact_without_flip": 5,
+    "correct_squares": 949,
+    "all_squares": 960,
+    "square_accuracy_found": 98.85416666666667,
+    "median_ms": 495.541,
+    "errors_with_confidence_ge_90": 7
+  },
+  "external_chess-puzzle-book": {
+    "n": 28,
+    "found": 28,
+    "exact_after_flip": 9,
+    "exact_without_flip": 9,
+    "correct_squares": 1758,
+    "all_squares": 1792,
+    "square_accuracy_found": 98.10267857142857,
+    "median_ms": 434.847,
+    "errors_with_confidence_ge_90": 14
+  },
+  "external_combinations1a": {
+    "n": 36,
+    "found": 36,
+    "exact_after_flip": 17,
+    "exact_without_flip": 17,
+    "correct_squares": 2284,
+    "all_squares": 2304,
+    "square_accuracy_found": 99.13194444444444,
+    "median_ms": 465.4815,
+    "errors_with_confidence_ge_90": 0
+  },
+  "external_critical-moments": {
+    "n": 6,
+    "found": 6,
+    "exact_after_flip": 0,
+    "exact_without_flip": 0,
+    "correct_squares": 342,
+    "all_squares": 384,
+    "square_accuracy_found": 89.0625,
+    "median_ms": 526.2075,
+    "errors_with_confidence_ge_90": 6
+  },
+  "external_imagination": {
+    "n": 17,
+    "found": 17,
+    "exact_after_flip": 0,
+    "exact_without_flip": 0,
+    "correct_squares": 992,
+    "all_squares": 1088,
+    "square_accuracy_found": 91.17647058823529,
+    "median_ms": 531.816,
+    "errors_with_confidence_ge_90": 12
+  },
+  "external_lichess": {
+    "n": 17,
+    "found": 17,
+    "exact_after_flip": 10,
+    "exact_without_flip": 10,
+    "correct_squares": 956,
+    "all_squares": 1088,
+    "square_accuracy_found": 87.86764705882354,
+    "median_ms": 130.008,
+    "errors_with_confidence_ge_90": 0
+  },
+  "external_real_use_cases": {
+    "n": 41,
+    "found": 40,
+    "exact_after_flip": 15,
+    "exact_without_flip": 14,
+    "correct_squares": 2407,
+    "all_squares": 2624,
+    "square_accuracy_found": 94.0234375,
+    "median_ms": 113.783,
+    "errors_with_confidence_ge_90": 36
+  },
+  "upstream_sanity": {
+    "n": 7,
+    "found": 7,
+    "exact_after_flip": 7,
+    "exact_without_flip": 7,
+    "correct_squares": 448,
+    "all_squares": 448,
+    "square_accuracy_found": 100.0,
+    "median_ms": 98.173,
+    "errors_with_confidence_ge_90": 0
+  },
+  "mobile_maia_screenshots": {
+    "n": 5,
+    "found": 5,
+    "exact_after_flip": 1,
+    "exact_without_flip": 1,
+    "correct_squares": 316,
+    "all_squares": 320,
+    "square_accuracy_found": 98.75,
+    "median_ms": 135.742,
+    "errors_with_confidence_ge_90": 0
+  },
+  "negative_occluded": {
+    "n": 0,
+    "found": 0,
+    "exact_after_flip": 0,
+    "exact_without_flip": 0,
+    "correct_squares": 0,
+    "all_squares": 0,
+    "square_accuracy_found": 0,
+    "median_ms": 61.931,
+    "errors_with_confidence_ge_90": 0
+  },
+  "all_unique_external": {
+    "n": 166,
+    "found": 165,
+    "exact_after_flip": 66,
+    "exact_without_flip": 65,
+    "correct_squares": 10074,
+    "all_squares": 10624,
+    "square_accuracy_found": 95.39772727272727,
+    "median_ms": 445.154,
+    "errors_with_confidence_ge_90": 95
+  },
+  "unique_book_diagrams": {
+    "n": 109,
+    "found": 109,
+    "exact_after_flip": 36,
+    "exact_without_flip": 36,
+    "correct_squares": 6771,
+    "all_squares": 6976,
+    "square_accuracy_found": 97.06135321100918,
+    "median_ms": 472.261,
+    "errors_with_confidence_ge_90": 39
+  }
+}

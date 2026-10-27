@@ -15,6 +15,12 @@ results and match scores, with links to the full study and recorded data.
 
 ## Studies
 
+### Screenshot and diagram import — 28 October 2026
+
+[Read the report](studies/board-image-import-2026-10-28/REPORT.md) · [Evidence and reproduction guide](studies/board-image-import-2026-10-28/README.md)
+
+The pinned 0.84 MB MIT classifier recognized ordinary screenshots better than many book fonts. Whole-board results varied sharply despite high square accuracy, and analysis arrows could be mistaken for pieces. The study records 190 input files, deduplicated summaries, crop diagnostics and a native ONNX Runtime cross-check for Preview issue #179.
+
 ### Maia score reliability — 27 October 2026
 
 [Read the report](studies/score-reliability-2026-10-27/REPORT.md) · [Evidence and reproduction guide](studies/score-reliability-2026-10-27/README.md)
