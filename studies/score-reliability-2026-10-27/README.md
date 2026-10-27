@@ -1,6 +1,6 @@
 # Maia score reliability — evidence and reproduction
 
-[Plain-language report](REPORT.md) · [Fixed protocol and pre-inference amendments](PROTOCOL.md)
+[Visual guide](REPORT.md) · [Detailed results and limitations](APPENDIX.md) · [Fixed protocol and pre-inference amendments](PROTOCOL.md)
 
 This small study tests the bundled Maia-3 79M expected-score output at fixed
 1600/1600 and 2600/2600 inputs. It measures human-result prediction on one position
@@ -11,7 +11,9 @@ winning probabilities.
 ## What is included
 
 - `study.py`: deterministic game/position selection and CPU inference.
-- `summarize.py`: metrics, descriptive bootstrap intervals and charts.
+- `summarize.py`: metrics, descriptive bootstrap intervals and original charts.
+- `build_visuals.py`: the simpler visual guide, drawn from the same recorded
+  summary without changing any measurements.
 - `audit.py`, `audit.json`: independent numerical checks on recorded outputs.
 - `audit_source.py`, `data/source-crosscheck.json`: direct-source checks of
   actual results, ratings, normal termination, prefixes and clock eligibility.
@@ -95,6 +97,7 @@ python3 -m venv /tmp/maia-score-reproduction
 /tmp/maia-score-reproduction/bin/python study.py select --source /path/to/2022-test-annotated.jsonl
 /tmp/maia-score-reproduction/bin/python study.py infer --model /path/to/maia3-79m.onnx
 /tmp/maia-score-reproduction/bin/python summarize.py
+/tmp/maia-score-reproduction/bin/python build_visuals.py
 /tmp/maia-score-reproduction/bin/python audit_source.py --source /path/to/2022-test-annotated.jsonl
 /tmp/maia-score-reproduction/bin/python audit.py --source /path/to/2022-test-annotated.jsonl --model /path/to/maia3-79m.onnx
 ```
