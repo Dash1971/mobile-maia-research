@@ -1,0 +1,12 @@
+{
+  "full_run_inputs": 190,
+  "distinct_image_sha256": 181,
+  "book_crop_cases": 109,
+  "native_parity_cases": 16,
+  "native_placements_match": true,
+  "publication_script_smoke_cases": 5,
+  "smoke_placements_match_full_run": true,
+  "smoke_native_parity_matches": true,
+  "publication_contains_private_local_paths": false,
+  "publication_contains_model_binaries": false
+}
