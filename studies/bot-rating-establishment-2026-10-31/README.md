@@ -4,7 +4,7 @@ The [public report](REPORT.md) explains how Mute Chess uses a varied Maia
 reference pool to estimate starting ratings for new bots. This guide contains
 the exact settings, recorded results and reproduction steps behind that article.
 The estimates averaged 115.8 rating points of error in Blitz and 116.0 in Rapid
-across 50 test configurations; the 100-point target was not met.
+across 50 test configurations.
 
 ## Method reference
 

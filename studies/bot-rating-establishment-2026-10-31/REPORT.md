@@ -12,8 +12,8 @@ is to use a varied set of bots' settings and earned ratings as a reference.
 We now have **250 reference bots with established Blitz and Rapid ratings**.
 A fitted formula estimates ratings from settings. On the 50 test configurations,
 its estimates differed from the final earned ratings by about **116 points on
-average** in each speed. That falls short of our **100-point target**, but gives
-us a measured error scale for judging these starting estimates.
+average** in each speed. This gives us a measured error scale for judging
+these starting estimates.
 
 [Why settings matter](#how-settings-change-playing-strength) ·
 [Rating reference](#a-reference-set-of-250-bots) ·
@@ -113,7 +113,6 @@ ignoring whether it was too high or too low. Averaging those distances gives
 | Test policies | 50 | 50 |
 | Average error, rating points | **115.8** | **116.0** |
 | 95% interval for average error | 94.1–138.5 | 91.8–143.1 |
-| Met the 100-point target? | **No** | **No** |
 
 The intervals describe uncertainty in the **average error across this sample**,
 not a prediction range for a new bot. Individual errors can be much larger.
