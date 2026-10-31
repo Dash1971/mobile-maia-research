@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/KVF8xKiJ"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain153"]
+[Black "SignalTrain125"]
+[Result "1/2-1/2"]
+[GameId "KVF8xKiJ"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:22:11"]
+[WhiteElo "1393"]
+[BlackElo "1326"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+18"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... b6 { [%clk 0:05:00] } 2. d4 { [%clk 0:05:03] } 2... Bb7 { [%clk 0:05:01] } 3. Nc3 { [%clk 0:05:04] } 3... e6 { [%clk 0:05:02] } 4. Nf3 { [%clk 0:05:05] } 4... Nf6 { [%clk 0:05:02] } 5. e5 { [%clk 0:05:06] } 5... Nd5 { [%clk 0:05:03] } 6. Nxd5 { [%clk 0:05:06] } 6... Bxd5 { [%clk 0:05:04] } 7. c4 { [%clk 0:05:07] } 7... Bb7 { [%clk 0:05:05] } 8. Be2 { [%clk 0:05:08] } 8... Bb4+ { [%clk 0:05:05] } 9. Bd2 { [%clk 0:05:08] } 9... Bxd2+ { [%clk 0:05:06] } 10. Qxd2 { [%clk 0:05:10] } 10... d6 { [%clk 0:05:06] } 11. O-O { [%clk 0:05:10] } 11... O-O { [%clk 0:05:07] } 12. exd6 { [%clk 0:05:11] } 12... Qxd6 { [%clk 0:05:08] } 13. Rad1 { [%clk 0:05:12] } 13... Nd7 { [%clk 0:05:09] } 14. Rfe1 { [%clk 0:05:12] } 14... Nf6 { [%clk 0:05:10] } 15. Ne5 { [%clk 0:05:13] } 15... Ne4 { [%clk 0:05:10] } 16. Qe3 { [%clk 0:05:14] } 16... Qb4 { [%clk 0:05:11] } 17. b3 { [%clk 0:05:15] } 17... Nc3 { [%clk 0:05:12] } 18. Rd2 { [%clk 0:05:15] } 18... Nxe2+ { [%clk 0:05:13] } 19. Rexe2 { [%clk 0:05:16] } 19... f6 { [%clk 0:05:14] } 20. Nd7 { [%clk 0:05:16] } 20... Rfe8 { [%clk 0:05:15] } 21. Qg3 { [%clk 0:05:17] } 21... Rad8 { [%clk 0:05:15] } 22. Nxf6+ { [%clk 0:05:18] } 22... Kf7 { [%clk 0:05:16] } 23. Nxe8 { [%clk 0:05:19] } 23... Rxe8 { [%clk 0:05:17] } 24. Qxc7+ { [%clk 0:05:20] } 24... Re7 { [%clk 0:05:18] } 25. Qf4+ { [%clk 0:05:21] } 25... Kg8 { [%clk 0:05:18] } 26. Qb8+ { [%clk 0:05:22] } 26... Kf7 { [%clk 0:05:19] } 27. Qf4+ { [%clk 0:05:23] } 27... Kg8 { [%clk 0:05:19] } 28. Qb8+ { [%clk 0:05:23] } 28... Kf7 { [%clk 0:05:21] } 29. Qf4+ { [%clk 0:05:24] } 1/2-1/2
+
+

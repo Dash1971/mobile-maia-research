@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/ntZIIBcs"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain046"]
+[Black "SignalTrain024"]
+[Result "1-0"]
+[GameId "ntZIIBcs"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:26:16"]
+[WhiteElo "2056"]
+[BlackElo "2119"]
+[WhiteRatingDiff "+44"]
+[BlackRatingDiff "-54"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D05"]
+[Opening "Queen's Pawn Game: Colle System"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... Nf6 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... e6 { [%clk 0:10:05] } 3. e3 { [%clk 0:10:09] } 3... d5 { [%clk 0:10:07] } 4. Bd3 { [%clk 0:10:12] } 4... Be7 { [%clk 0:10:09] } 5. O-O { [%clk 0:10:15] } 5... O-O { [%clk 0:10:12] } 6. b3 { [%clk 0:10:17] } 6... b6 { [%clk 0:10:15] } 7. Bb2 { [%clk 0:10:20] } 7... Bb7 { [%clk 0:10:17] } 8. Nbd2 { [%clk 0:10:22] } 8... Nbd7 { [%clk 0:10:20] } 9. Ne5 { [%clk 0:10:24] } 9... c5 { [%clk 0:10:23] } 10. f4 { [%clk 0:10:27] } 10... Ne4 { [%clk 0:10:25] } 11. Rf3 { [%clk 0:10:29] } 11... f5 { [%clk 0:10:28] } 12. Rh3 { [%clk 0:10:32] } 12... Nxe5 { [%clk 0:10:31] } 13. dxe5 { [%clk 0:10:35] } 13... g6 { [%clk 0:10:33] } 14. Bxe4 { [%clk 0:10:37] } 14... fxe4 { [%clk 0:10:35] } 15. Qg4 { [%clk 0:10:40] } 15... Qd7 { [%clk 0:10:38] } 16. Rd1 { [%clk 0:10:43] } 16... Qc6 { [%clk 0:10:40] } 17. Nf1 { [%clk 0:10:45] } 17... Rad8 { [%clk 0:10:43] } 18. Ng3 { [%clk 0:10:48] } 18... Kh8 { [%clk 0:10:45] } 19. Qxg6 { [%clk 0:10:51] } 19... Rg8 { [%clk 0:10:48] } 20. Qxh7# { [%clk 0:10:48] } 1-0
+
+

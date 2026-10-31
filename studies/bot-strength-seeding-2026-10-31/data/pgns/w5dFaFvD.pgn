@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/w5dFaFvD"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain018"]
+[Black "SignalTrain097"]
+[Result "0-1"]
+[GameId "w5dFaFvD"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:31:54"]
+[WhiteElo "1651"]
+[BlackElo "1604"]
+[WhiteRatingDiff "-68"]
+[BlackRatingDiff "+59"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C50"]
+[Opening "Italian Game: Giuoco Pianissimo"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Bc4 { [%clk 0:10:07] } 2... Nc6 { [%clk 0:10:05] } 3. d3 { [%clk 0:10:10] } 3... Bc5 { [%clk 0:10:08] } 4. Nf3 { [%clk 0:10:12] } 4... d6 { [%clk 0:10:10] } 5. Qe2 { [%clk 0:10:15] } 5... Bg4 { [%clk 0:10:13] } 6. h3 { [%clk 0:10:18] } 6... Bxf3 { [%clk 0:10:15] } 7. Qxf3 { [%clk 0:10:20] } 7... Nf6 { [%clk 0:10:18] } 8. Bg5 { [%clk 0:10:23] } 8... O-O { [%clk 0:10:21] } 9. Bxf6 { [%clk 0:10:25] } 9... Qxf6 { [%clk 0:10:24] } 10. Qxf6 { [%clk 0:10:27] } 10... gxf6 { [%clk 0:10:26] } 11. Nc3 { [%clk 0:10:29] } 11... Nd4 { [%clk 0:10:29] } 12. O-O-O { [%clk 0:10:32] } 12... Bb4 { [%clk 0:10:32] } 13. Nd5 { [%clk 0:10:35] } 13... Ne2+ { [%clk 0:10:34] } 14. Kb1 { [%clk 0:10:37] } 14... Bc5 { [%clk 0:10:36] } 15. Nxf6+ { [%clk 0:10:39] } 15... Kg7 { [%clk 0:10:38] } 16. Nh5+ { [%clk 0:10:42] } 16... Kh8 { [%clk 0:10:41] } 17. f3 { [%clk 0:10:45] } 17... Rg8 { [%clk 0:10:44] } 18. g4 { [%clk 0:10:48] } 18... c6 { [%clk 0:10:46] } 19. Bxf7 { [%clk 0:10:50] } 19... Rgf8 { [%clk 0:10:49] } 20. Bb3 { [%clk 0:10:53] } 20... Rxf3 { [%clk 0:10:52] } 21. g5 { [%clk 0:10:56] } 21... Ng3 { [%clk 0:10:54] } 22. Nxg3 { [%clk 0:10:59] } 22... Rxg3 { [%clk 0:10:57] } 23. h4 { [%clk 0:11:01] } 23... Rf8 { [%clk 0:10:59] } 24. Be6 { [%clk 0:11:03] } 24... Rf2 { [%clk 0:11:02] } 25. Rdf1 { [%clk 0:11:05] } 25... Rxf1+ { [%clk 0:11:05] } 26. Rxf1 { [%clk 0:11:08] } 26... Kg7 { [%clk 0:11:08] } 27. Rf7+ { [%clk 0:11:11] } 27... Kg6 { [%clk 0:11:10] } 28. Rxb7 { [%clk 0:11:14] } 28... Rg1# { [%clk 0:11:08] } 0-1
+
+

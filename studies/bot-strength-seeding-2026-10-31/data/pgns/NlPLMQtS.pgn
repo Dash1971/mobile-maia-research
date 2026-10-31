@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/NlPLMQtS"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain038"]
+[Black "SignalTrain127"]
+[Result "0-1"]
+[GameId "NlPLMQtS"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:30:53"]
+[WhiteElo "1102"]
+[BlackElo "1298"]
+[WhiteRatingDiff "-25"]
+[BlackRatingDiff "+24"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Old Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:02] } 2. c4 { [%clk 0:10:07] } 2... dxc4 { [%clk 0:10:04] } 3. e3 { [%clk 0:10:08] } 3... Nc6 { [%clk 0:10:06] } 4. Bxc4 { [%clk 0:10:10] } 4... e5 { [%clk 0:10:08] } 5. Nc3 { [%clk 0:10:13] } 5... exd4 { [%clk 0:10:11] } 6. exd4 { [%clk 0:10:15] } 6... Nxd4 { [%clk 0:10:13] } 7. Nf3 { [%clk 0:10:18] } 7... Nxf3+ { [%clk 0:10:16] } 8. Qxf3 { [%clk 0:10:20] } 8... Nf6 { [%clk 0:10:19] } 9. O-O { [%clk 0:10:23] } 9... Bg4 { [%clk 0:10:22] } 10. Qxb7 { [%clk 0:10:26] } 10... Bc5 { [%clk 0:10:24] } 11. Bg5 { [%clk 0:10:29] } 11... O-O { [%clk 0:10:27] } 12. Rfd1 { [%clk 0:10:32] } 12... Qe7 { [%clk 0:10:30] } 13. Nd5 { [%clk 0:10:34] } 13... Qe5 { [%clk 0:10:32] } 14. Nxf6+ { [%clk 0:10:36] } 14... gxf6 { [%clk 0:10:34] } 15. Rd7 { [%clk 0:10:39] } 15... Qxg5 { [%clk 0:10:37] } 16. Rxf7 { [%clk 0:10:41] } 16... Rxf7 { [%clk 0:10:40] } 17. Bxf7+ { [%clk 0:10:44] } 17... Kxf7 { [%clk 0:10:42] } 18. Qxc7+ { [%clk 0:10:46] } 18... Kg6 { [%clk 0:10:45] } 19. Rc1 { [%clk 0:10:49] } 19... Qxc1# { [%clk 0:10:43] } 0-1
+
+

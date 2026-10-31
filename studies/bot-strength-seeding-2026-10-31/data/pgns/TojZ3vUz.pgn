@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/TojZ3vUz"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain113"]
+[Black "SignalTrain148"]
+[Result "1-0"]
+[GameId "TojZ3vUz"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:30:46"]
+[WhiteElo "2033"]
+[BlackElo "1910"]
+[WhiteRatingDiff "+31"]
+[BlackRatingDiff "-29"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... d6 { [%clk 0:10:04] } 3. Bc4 { [%clk 0:10:09] } 3... Be6 { [%clk 0:10:07] } 4. Qe2 { [%clk 0:10:11] } 4... Bxc4 { [%clk 0:10:08] } 5. Qxc4 { [%clk 0:10:13] } 5... Nf6 { [%clk 0:10:10] } 6. Ng5 { [%clk 0:10:16] } 6... Qd7 { [%clk 0:10:13] } 7. Nc3 { [%clk 0:10:19] } 7... h6 { [%clk 0:10:15] } 8. Nf3 { [%clk 0:10:21] } 8... Nc6 { [%clk 0:10:18] } 9. Nd5 { [%clk 0:10:23] } 9... Nxd5 { [%clk 0:10:20] } 10. exd5 { [%clk 0:10:26] } 10... Ne7 { [%clk 0:10:23] } 11. d4 { [%clk 0:10:29] } 11... e4 { [%clk 0:10:26] } 12. Nd2 { [%clk 0:10:32] } 12... f5 { [%clk 0:10:29] } 13. O-O { [%clk 0:10:35] } 13... O-O-O { [%clk 0:10:32] } 14. Nb3 { [%clk 0:10:37] } 14... g5 { [%clk 0:10:34] } 15. Na5 { [%clk 0:10:39] } 15... b6 { [%clk 0:10:36] } 16. Nc6 { [%clk 0:10:42] } 16... Nxc6 { [%clk 0:10:39] } 17. dxc6 { [%clk 0:10:44] } 17... Qe8 { [%clk 0:10:41] } 18. Qa6+ { [%clk 0:10:47] } 18... Kb8 { [%clk 0:10:44] } 19. Qb7# { [%clk 0:10:45] } 1-0
+
+

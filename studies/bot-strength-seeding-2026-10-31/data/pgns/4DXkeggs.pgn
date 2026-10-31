@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/4DXkeggs"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "CarbonKite"]
+[Black "ChromeCastle"]
+[Result "0-1"]
+[GameId "4DXkeggs"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:47:58"]
+[WhiteElo "1682"]
+[BlackElo "1807"]
+[WhiteRatingDiff "-17"]
+[BlackRatingDiff "+18"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... c5 { [%clk 0:10:03] } 2. Bc4 { [%clk 0:10:07] } 2... e6 { [%clk 0:10:06] } 3. Qf3 { [%clk 0:10:10] } 3... a6 { [%clk 0:10:09] } 4. Nh3 { [%clk 0:10:13] } 4... b5 { [%clk 0:10:12] } 5. Bb3 { [%clk 0:10:16] } 5... c4 { [%clk 0:10:14] } 6. Bxc4 { [%clk 0:10:19] } 6... bxc4 { [%clk 0:10:17] } 7. d3 { [%clk 0:10:22] } 7... cxd3 { [%clk 0:10:20] } 8. cxd3 { [%clk 0:10:24] } 8... Nf6 { [%clk 0:10:23] } 9. e5 { [%clk 0:10:27] } 9... Nd5 { [%clk 0:10:26] } 10. Ng5 { [%clk 0:10:30] } 10... f5 { [%clk 0:10:29] } 11. exf6 { [%clk 0:10:32] } 11... Qxf6 { [%clk 0:10:32] } 12. Qxf6 { [%clk 0:10:35] } 12... gxf6 { [%clk 0:10:34] } 13. Ne4 { [%clk 0:10:38] } 13... Bb7 { [%clk 0:10:37] } 14. O-O { [%clk 0:10:41] } 14... Be7 { [%clk 0:10:40] } 15. Nbc3 { [%clk 0:10:44] } 15... Rg8 { [%clk 0:10:43] } 16. Nxd5 { [%clk 0:10:46] } 16... Bxd5 { [%clk 0:10:46] } 17. f3 { [%clk 0:10:49] } 17... Nc6 { [%clk 0:10:48] } 18. Be3 { [%clk 0:10:52] } 18... Ne5 { [%clk 0:10:51] } 19. d4 { [%clk 0:10:55] } 19... Nc4 { [%clk 0:10:54] } 20. Bc1 { [%clk 0:10:58] } 20... Rb8 { [%clk 0:10:57] } 21. b3 { [%clk 0:11:01] } 21... Na3 { [%clk 0:11:00] } 22. Bxa3 { [%clk 0:11:03] } 22... Bxa3 { [%clk 0:11:03] } 23. Nxf6+ { [%clk 0:11:06] } 23... Kf7 { [%clk 0:11:05] } 24. Nxg8 { [%clk 0:11:09] } 24... Kxg8 { [%clk 0:11:08] } 25. f4 { [%clk 0:11:12] } 25... Bb2 { [%clk 0:11:11] } 26. Rab1 { [%clk 0:11:15] } 26... Bxd4+ { [%clk 0:11:14] } 27. Kh1 { [%clk 0:11:18] } 27... Rc8 { [%clk 0:11:17] } 28. f5 { [%clk 0:11:21] } 28... Rc2 { [%clk 0:11:20] } 29. fxe6 { [%clk 0:11:24] } 29... Bxg2# { [%clk 0:11:18] } 0-1
+
+

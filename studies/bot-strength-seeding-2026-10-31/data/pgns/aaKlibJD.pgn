@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/aaKlibJD"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain099"]
+[Black "SignalTrain017"]
+[Result "1-0"]
+[GameId "aaKlibJD"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:13:44"]
+[WhiteElo "1482"]
+[BlackElo "1315"]
+[WhiteRatingDiff "+34"]
+[BlackRatingDiff "-38"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B02"]
+[Opening "Alekhine Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... Nf6 { [%clk 0:10:03] } 2. Nc3 { [%clk 0:10:07] } 2... Nxe4 { [%clk 0:10:05] } 3. Bc4 { [%clk 0:10:10] } 3... Nxc3 { [%clk 0:10:08] } 4. Qh5 { [%clk 0:10:13] } 4... Ne4 { [%clk 0:10:10] } 5. Qxf7# { [%clk 0:10:10] } 1-0
+
+

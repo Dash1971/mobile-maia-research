@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/KUU4vuSG"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain112"]
+[Black "SignalTrain097"]
+[Result "0-1"]
+[GameId "KUU4vuSG"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:22:58"]
+[WhiteElo "1231"]
+[BlackElo "1285"]
+[WhiteRatingDiff "-127"]
+[BlackRatingDiff "+98"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A40"]
+[Opening "Englund Gambit"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. dxe5 { [%clk 0:10:07] } 2... Bc5 { [%clk 0:10:06] } 3. Nf3 { [%clk 0:10:10] } 3... d6 { [%clk 0:10:09] } 4. c3 { [%clk 0:10:13] } 4... Nc6 { [%clk 0:10:12] } 5. e4 { [%clk 0:10:16] } 5... Bg4 { [%clk 0:10:14] } 6. h3 { [%clk 0:10:18] } 6... Bxf3 { [%clk 0:10:17] } 7. gxf3 { [%clk 0:10:21] } 7... Qh4 { [%clk 0:10:19] } 8. exd6 { [%clk 0:10:23] } 8... Qxf2# { [%clk 0:10:17] } 0-1
+
+

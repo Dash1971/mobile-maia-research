@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/LSTbOf2Z"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest029"]
+[Black "SignalTrain120"]
+[Result "1/2-1/2"]
+[GameId "LSTbOf2Z"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:50:12"]
+[WhiteElo "1992"]
+[BlackElo "2053"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-4"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B40"]
+[Opening "Sicilian Defense: Smith-Morra Gambit Deferred"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... c5 { [%clk 0:05:00] } 2. Nf3 { [%clk 0:05:03] } 2... e6 { [%clk 0:05:01] } 3. d4 { [%clk 0:05:03] } 3... cxd4 { [%clk 0:05:01] } 4. c3 { [%clk 0:05:04] } 4... b6 { [%clk 0:05:02] } 5. cxd4 { [%clk 0:05:05] } 5... Bb7 { [%clk 0:05:02] } 6. Nc3 { [%clk 0:05:05] } 6... Bb4 { [%clk 0:05:02] } 7. Bd3 { [%clk 0:05:05] } 7... Ne7 { [%clk 0:05:03] } 8. O-O { [%clk 0:05:06] } 8... O-O { [%clk 0:05:03] } 9. a3 { [%clk 0:05:06] } 9... Bxc3 { [%clk 0:05:03] } 10. bxc3 { [%clk 0:05:07] } 10... f5 { [%clk 0:05:03] } 11. e5 { [%clk 0:05:07] } 11... h6 { [%clk 0:05:04] } 12. a4 { [%clk 0:05:08] } 12... Nbc6 { [%clk 0:05:04] } 13. Ba3 { [%clk 0:05:08] } 13... Rf7 { [%clk 0:05:05] } 14. Bd6 { [%clk 0:05:08] } 14... Nc8 { [%clk 0:05:06] } 15. Ba3 { [%clk 0:05:08] } 15... N8e7 { [%clk 0:05:06] } 16. Bd6 { [%clk 0:05:08] } 16... Nc8 { [%clk 0:05:05] } 17. Ba3 { [%clk 0:05:09] } 17... N8e7 { [%clk 0:05:06] } 1/2-1/2
+
+

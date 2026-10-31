@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/RWgkVIVo"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "DeepThought"]
+[Black "SignalTrain156"]
+[Result "1-0"]
+[GameId "RWgkVIVo"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:28:21"]
+[WhiteElo "2275"]
+[BlackElo "2167"]
+[WhiteRatingDiff "+106"]
+[BlackRatingDiff "-71"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[Termination "Normal"]
+
+1. d3 { [%clk 0:10:05] } 1... b6 { [%clk 0:10:03] } 2. e4 { [%clk 0:10:07] } 2... Bb7 { [%clk 0:10:05] } 3. Nf3 { [%clk 0:10:10] } 3... e6 { [%clk 0:10:08] } 4. g3 { [%clk 0:10:13] } 4... c5 { [%clk 0:10:11] } 5. Bg2 { [%clk 0:10:15] } 5... d5 { [%clk 0:10:14] } 6. exd5 { [%clk 0:10:19] } 6... exd5 { [%clk 0:10:16] } 7. O-O { [%clk 0:10:21] } 7... Nf6 { [%clk 0:10:19] } 8. Re1+ { [%clk 0:10:24] } 8... Be7 { [%clk 0:10:22] } 9. Qe2 { [%clk 0:10:27] } 9... Nc6 { [%clk 0:10:25] } 10. Ne5 { [%clk 0:10:30] } 10... Nxe5 { [%clk 0:10:28] } 11. Qxe5 { [%clk 0:10:32] } 11... Rc8 { [%clk 0:10:30] } 12. Bg5 { [%clk 0:10:35] } 12... Rc7 { [%clk 0:10:33] } 13. Bxf6 { [%clk 0:10:38] } 13... gxf6 { [%clk 0:10:36] } 14. Qxf6 { [%clk 0:10:41] } 14... Rg8 { [%clk 0:10:39] } 15. Nc3 { [%clk 0:10:44] } 15... Rg6 { [%clk 0:10:41] } 16. Qh8+ { [%clk 0:10:47] } 16... Kd7 { [%clk 0:10:44] } 17. Qxh7 { [%clk 0:10:49] } 17... Kc8 { [%clk 0:10:47] } 18. Nb5 { [%clk 0:10:52] } 18... Rd7 { [%clk 0:10:50] } 19. Qxf7 { [%clk 0:10:55] } 19... Rf6 { [%clk 0:10:54] } 20. Qh5 { [%clk 0:10:58] } 20... a6 { [%clk 0:10:57] } 21. Nc3 { [%clk 0:11:01] } 21... Qf8 { [%clk 0:11:00] } 22. Bh3 { [%clk 0:11:03] } 22... Rxf2 { [%clk 0:11:03] } 23. Nxd5 { [%clk 0:11:06] } 23... Bxd5 { [%clk 0:11:05] } 24. Qxd5 { [%clk 0:11:08] } 24... Bd6 { [%clk 0:11:08] } 25. Qa8+ { [%clk 0:11:11] } 25... Kc7 { [%clk 0:11:11] } 26. Qa7+ { [%clk 0:11:14] } 26... Kc6 { [%clk 0:11:14] } 27. Qxd7+ { [%clk 0:11:17] } 27... Kd5 { [%clk 0:11:17] } 28. Qb7+ { [%clk 0:11:20] } 28... Kd4 { [%clk 0:11:20] } 29. Qe4# { [%clk 0:11:18] } 1-0
+
+

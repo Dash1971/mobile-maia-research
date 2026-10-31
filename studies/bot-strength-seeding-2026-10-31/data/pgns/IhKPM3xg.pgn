@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/IhKPM3xg"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain113"]
+[Black "SignalTrain126"]
+[Result "1-0"]
+[GameId "IhKPM3xg"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:49:33"]
+[WhiteElo "2064"]
+[BlackElo "2025"]
+[WhiteRatingDiff "+36"]
+[BlackRatingDiff "-35"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Scandinavian Variation, Advance Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:04] } 1... d5 { [%clk 0:10:03] } 2. e5 { [%clk 0:10:07] } 2... Nc6 { [%clk 0:10:05] } 3. d4 { [%clk 0:10:10] } 3... f6 { [%clk 0:10:08] } 4. f4 { [%clk 0:10:12] } 4... h5 { [%clk 0:10:11] } 5. Nc3 { [%clk 0:10:15] } 5... Bg4 { [%clk 0:10:13] } 6. Be2 { [%clk 0:10:18] } 6... Bxe2 { [%clk 0:10:16] } 7. Ngxe2 { [%clk 0:10:20] } 7... fxe5 { [%clk 0:10:18] } 8. fxe5 { [%clk 0:10:23] } 8... e6 { [%clk 0:10:20] } 9. O-O { [%clk 0:10:26] } 9... Qe7 { [%clk 0:10:23] } 10. Nf4 { [%clk 0:10:28] } 10... O-O-O { [%clk 0:10:25] } 11. Ng6 { [%clk 0:10:30] } 11... Qb4 { [%clk 0:10:28] } 12. Nxh8 { [%clk 0:10:32] } 12... Nxd4 { [%clk 0:10:31] } 13. a3 { [%clk 0:10:35] } 13... Qb6 { [%clk 0:10:33] } 14. Be3 { [%clk 0:10:38] } 14... Bc5 { [%clk 0:10:36] } 15. Na4 { [%clk 0:10:40] } 15... Qb5 { [%clk 0:10:38] } 16. Nxc5 { [%clk 0:10:43] } 16... Ne2+ { [%clk 0:10:41] } 17. Kh1 { [%clk 0:10:45] } 17... d4 { [%clk 0:10:43] } 18. Nxe6 { [%clk 0:10:47] } 18... Re8 { [%clk 0:10:46] } 19. Nxd4 { [%clk 0:10:50] } 19... Nxd4 { [%clk 0:10:49] } 20. Bxd4 { [%clk 0:10:53] } 20... Nh6 { [%clk 0:10:51] } 21. Ng6 { [%clk 0:10:55] } 21... Ng4 { [%clk 0:10:54] } 22. h3 { [%clk 0:10:57] } 22... Nh6 { [%clk 0:10:56] } 23. Qxh5 { [%clk 0:11:00] } 23... Qd5 { [%clk 0:10:58] } 24. c3 { [%clk 0:11:02] } 24... c5 { [%clk 0:11:01] } 25. Nf4 { [%clk 0:11:05] } 25... Qe4 { [%clk 0:11:04] } 26. Qxe8+ { [%clk 0:11:08] } 26... Kc7 { [%clk 0:11:06] } 27. Ne6+ { [%clk 0:11:10] } 27... Kb6 { [%clk 0:11:09] } 28. Bxc5+ { [%clk 0:11:13] } 28... Ka6 { [%clk 0:11:11] } 29. Nc7+ { [%clk 0:11:15] } 29... Ka5 { [%clk 0:11:14] } 30. Qb5# { [%clk 0:11:13] } 1-0
+
+

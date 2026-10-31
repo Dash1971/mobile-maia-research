@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/YNCBN1Nq"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain070"]
+[Black "SignalTest005"]
+[Result "0-1"]
+[GameId "YNCBN1Nq"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:55:49"]
+[WhiteElo "2324"]
+[BlackElo "2253"]
+[WhiteRatingDiff "-35"]
+[BlackRatingDiff "+64"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B34"]
+[Opening "Sicilian Defense: Accelerated Dragon, Modern Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... c5 { [%clk 0:05:01] } 2. Nf3 { [%clk 0:05:03] } 2... g6 { [%clk 0:05:00] } 3. d4 { [%clk 0:05:03] } 3... cxd4 { [%clk 0:05:00] } 4. Nxd4 { [%clk 0:05:03] } 4... Nc6 { [%clk 0:05:01] } 5. Nc3 { [%clk 0:05:04] } 5... Bg7 { [%clk 0:05:01] } 6. Be3 { [%clk 0:05:05] } 6... Nf6 { [%clk 0:05:02] } 7. f3 { [%clk 0:05:05] } 7... O-O { [%clk 0:05:02] } 8. Qd2 { [%clk 0:05:05] } 8... d5 { [%clk 0:05:02] } 9. Nxc6 { [%clk 0:05:06] } 9... bxc6 { [%clk 0:05:02] } 10. O-O-O { [%clk 0:05:06] } 10... Rb8 { [%clk 0:05:03] } 11. exd5 { [%clk 0:05:06] } 11... Nxd5 { [%clk 0:05:03] } 12. Bd4 { [%clk 0:05:06] } 12... e5 { [%clk 0:05:04] } 13. Bc5 { [%clk 0:05:06] } 13... Be6 { [%clk 0:05:04] } 14. Bxf8 { [%clk 0:05:07] } 14... Qxf8 { [%clk 0:05:04] } 15. Nxd5 { [%clk 0:05:08] } 15... cxd5 { [%clk 0:05:05] } 16. b3 { [%clk 0:05:07] } 16... Qa3+ { [%clk 0:05:06] } 17. Kb1 { [%clk 0:05:08] } 17... e4 { [%clk 0:05:06] } 18. c3 { [%clk 0:05:08] } 18... d4 { [%clk 0:05:07] } 19. c4 { [%clk 0:05:08] } 19... d3 { [%clk 0:05:07] } 20. fxe4 { [%clk 0:05:08] } 20... Rxb3+ { [%clk 0:05:07] } 21. axb3 { [%clk 0:05:08] } 21... Qa1# { [%clk 0:05:04] } 0-1
+
+

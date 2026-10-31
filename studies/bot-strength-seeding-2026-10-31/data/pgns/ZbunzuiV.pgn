@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/ZbunzuiV"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain038"]
+[Black "SignalTrain139"]
+[Result "0-1"]
+[GameId "ZbunzuiV"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:47:52"]
+[WhiteElo "1218"]
+[BlackElo "1265"]
+[WhiteRatingDiff "-90"]
+[BlackRatingDiff "+80"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C46"]
+[Opening "Three Knights Opening"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Nf3 { [%clk 0:05:03] } 2... Nc6 { [%clk 0:05:02] } 3. Nc3 { [%clk 0:05:04] } 3... g5 { [%clk 0:05:02] } 4. Bc4 { [%clk 0:05:05] } 4... Nf6 { [%clk 0:05:03] } 5. O-O { [%clk 0:05:06] } 5... Nh5 { [%clk 0:05:04] } 6. Nxg5 { [%clk 0:05:06] } 6... Qxg5 { [%clk 0:05:05] } 7. d3 { [%clk 0:05:07] } 7... Nf4 { [%clk 0:05:06] } 8. Nd5 { [%clk 0:05:08] } 8... Qxg2# { [%clk 0:05:04] } 0-1
+
+

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/8uMmXhOj"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain087"]
+[Black "ChromeAlley"]
+[Result "1-0"]
+[GameId "8uMmXhOj"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:52:57"]
+[WhiteElo "1562"]
+[BlackElo "1507"]
+[WhiteRatingDiff "+35"]
+[BlackRatingDiff "-12"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C24"]
+[Opening "Bishop's Opening: Berlin Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Bc4 { [%clk 0:10:07] } 2... Nf6 { [%clk 0:10:05] } 3. d3 { [%clk 0:10:10] } 3... Nc6 { [%clk 0:10:08] } 4. a3 { [%clk 0:10:13] } 4... Nd4 { [%clk 0:10:11] } 5. Be3 { [%clk 0:10:16] } 5... b5 { [%clk 0:10:14] } 6. Ba2 { [%clk 0:10:19] } 6... c5 { [%clk 0:10:16] } 7. c3 { [%clk 0:10:21] } 7... Nc6 { [%clk 0:10:18] } 8. Qb3 { [%clk 0:10:23] } 8... c4 { [%clk 0:10:21] } 9. dxc4 { [%clk 0:10:25] } 9... bxc4 { [%clk 0:10:24] } 10. Qxc4 { [%clk 0:10:28] } 10... Na5 { [%clk 0:10:26] } 11. Qxf7# { [%clk 0:10:26] } 1-0
+
+

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/GkclDmYY"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "NullEcho"]
+[Black "CircuitSaint"]
+[Result "1-0"]
+[GameId "GkclDmYY"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:51:04"]
+[WhiteElo "2366"]
+[BlackElo "2463"]
+[WhiteRatingDiff "+38"]
+[BlackRatingDiff "-35"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C57"]
+[Opening "Italian Game: Two Knights Defense, Fritz Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:08] } 2... Nc6 { [%clk 0:10:05] } 3. Bc4 { [%clk 0:10:10] } 3... Nf6 { [%clk 0:10:08] } 4. Ng5 { [%clk 0:10:13] } 4... d5 { [%clk 0:10:11] } 5. exd5 { [%clk 0:10:16] } 5... Nd4 { [%clk 0:10:14] } 6. c3 { [%clk 0:10:19] } 6... Nf5 { [%clk 0:10:17] } 7. O-O { [%clk 0:10:22] } 7... Bd6 { [%clk 0:10:20] } 8. d4 { [%clk 0:10:25] } 8... O-O { [%clk 0:10:23] } 9. dxe5 { [%clk 0:10:28] } 9... Bxe5 { [%clk 0:10:25] } 10. Re1 { [%clk 0:10:31] } 10... Qd6 { [%clk 0:10:28] } 11. Nf3 { [%clk 0:10:34] } 11... Re8 { [%clk 0:10:31] } 12. Nxe5 { [%clk 0:10:37] } 12... Rxe5 { [%clk 0:10:34] } 13. Rxe5 { [%clk 0:10:40] } 13... Qxe5 { [%clk 0:10:36] } 14. Nd2 { [%clk 0:10:43] } 14... Nxd5 { [%clk 0:10:39] } 15. Nf3 { [%clk 0:10:45] } 15... Nxc3 { [%clk 0:10:42] } 16. Qd8+ { [%clk 0:10:48] } 16... Qe8 { [%clk 0:10:45] } 17. Qxe8# { [%clk 0:10:46] } 1-0
+
+

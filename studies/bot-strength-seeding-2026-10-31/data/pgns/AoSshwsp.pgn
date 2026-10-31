@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/AoSshwsp"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain140"]
+[Black "SignalTest017"]
+[Result "1-0"]
+[GameId "AoSshwsp"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:58:26"]
+[WhiteElo "1503"]
+[BlackElo "1305"]
+[WhiteRatingDiff "+19"]
+[BlackRatingDiff "-26"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C40"]
+[Opening "King's Pawn Game: Busch-Gass Gambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:00] } 2. Nf3 { [%clk 0:05:03] } 2... Bc5 { [%clk 0:05:01] } 3. Nxe5 { [%clk 0:05:03] } 3... Qh4 { [%clk 0:05:02] } 4. g3 { [%clk 0:05:04] } 4... Qxe4+ { [%clk 0:05:02] } 5. Be2 { [%clk 0:05:04] } 5... Qxh1+ { [%clk 0:05:03] } 6. Bf1 { [%clk 0:05:04] } 6... Qxh2 { [%clk 0:05:03] } 7. Qf3 { [%clk 0:05:05] } 7... d6 { [%clk 0:05:03] } 8. Qxf7+ { [%clk 0:05:05] } 8... Kd8 { [%clk 0:05:04] } 9. Qf8# { [%clk 0:05:03] } 1-0
+
+

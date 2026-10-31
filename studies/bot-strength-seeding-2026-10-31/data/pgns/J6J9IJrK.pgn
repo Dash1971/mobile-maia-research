@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/J6J9IJrK"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "MidnightSignal"]
+[Black "QuantumShade"]
+[Result "0-1"]
+[GameId "J6J9IJrK"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:36:48"]
+[WhiteElo "2000"]
+[BlackElo "2163"]
+[WhiteRatingDiff "-18"]
+[BlackRatingDiff "+18"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B19"]
+[Opening "Caro-Kann Defense: Classical Variation, Spassky Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... c6 { [%clk 0:10:03] } 2. d4 { [%clk 0:10:08] } 2... d5 { [%clk 0:10:07] } 3. Nc3 { [%clk 0:10:12] } 3... dxe4 { [%clk 0:10:10] } 4. Nxe4 { [%clk 0:10:15] } 4... Bf5 { [%clk 0:10:14] } 5. Ng3 { [%clk 0:10:19] } 5... Bg6 { [%clk 0:10:18] } 6. Nf3 { [%clk 0:10:23] } 6... Nd7 { [%clk 0:10:21] } 7. h4 { [%clk 0:10:26] } 7... h6 { [%clk 0:10:25] } 8. h5 { [%clk 0:10:30] } 8... Bh7 { [%clk 0:10:29] } 9. Bd3 { [%clk 0:10:33] } 9... Bxd3 { [%clk 0:10:33] } 10. Qxd3 { [%clk 0:10:37] } 10... e6 { [%clk 0:10:36] } 11. Bf4 { [%clk 0:10:41] } 11... Ngf6 { [%clk 0:10:40] } 12. O-O-O { [%clk 0:10:44] } 12... Be7 { [%clk 0:10:43] } 13. Kb1 { [%clk 0:10:48] } 13... O-O { [%clk 0:10:47] } 14. Ne4 { [%clk 0:10:51] } 14... Nxe4 { [%clk 0:10:50] } 15. Qxe4 { [%clk 0:10:55] } 15... Nf6 { [%clk 0:10:54] } 16. Qd3 { [%clk 0:10:58] } 16... c5 { [%clk 0:10:57] } 17. dxc5 { [%clk 0:11:02] } 17... Qxd3 { [%clk 0:11:01] } 18. Rxd3 { [%clk 0:11:06] } 18... Bxc5 { [%clk 0:11:04] } 19. Be3 { [%clk 0:11:09] } 19... Bxe3 { [%clk 0:11:08] } 20. Rxe3 { [%clk 0:11:13] } 20... Rfd8 { [%clk 0:11:11] } 21. Ne5 { [%clk 0:11:16] } 21... Rd5 { [%clk 0:11:15] } 22. Nd3 { [%clk 0:11:20] } 22... Rad8 { [%clk 0:11:19] } 23. f3 { [%clk 0:11:24] } 23... Rxh5 { [%clk 0:11:22] } 24. Rxh5 { [%clk 0:11:27] } 24... Nxh5 { [%clk 0:11:26] } 25. Nc5 { [%clk 0:11:31] } 25... Rd1# { [%clk 0:11:24] } 0-1
+
+

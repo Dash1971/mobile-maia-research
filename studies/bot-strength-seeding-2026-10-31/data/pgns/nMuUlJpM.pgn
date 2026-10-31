@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/nMuUlJpM"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain127"]
+[Black "SignalTrain038"]
+[Result "1-0"]
+[GameId "nMuUlJpM"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:34:28"]
+[WhiteElo "1217"]
+[BlackElo "1188"]
+[WhiteRatingDiff "+98"]
+[BlackRatingDiff "-96"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C50"]
+[Opening "Italian Game: Blackburne-Kostić Gambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:08] } 2... Nc6 { [%clk 0:10:05] } 3. Bc4 { [%clk 0:10:10] } 3... Nd4 { [%clk 0:10:08] } 4. c3 { [%clk 0:10:13] } 4... Nxf3+ { [%clk 0:10:11] } 5. Qxf3 { [%clk 0:10:16] } 5... Nf6 { [%clk 0:10:14] } 6. d4 { [%clk 0:10:19] } 6... d6 { [%clk 0:10:17] } 7. Bg5 { [%clk 0:10:21] } 7... Be7 { [%clk 0:10:20] } 8. Bxf6 { [%clk 0:10:24] } 8... Bxf6 { [%clk 0:10:22] } 9. dxe5 { [%clk 0:10:27] } 9... Bxe5 { [%clk 0:10:25] } 10. Qxf7# { [%clk 0:10:25] } 1-0
+
+

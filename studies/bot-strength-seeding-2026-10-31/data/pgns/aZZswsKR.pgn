@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/aZZswsKR"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest005"]
+[Black "SignalTrain011"]
+[Result "1/2-1/2"]
+[GameId "aZZswsKR"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:49:01"]
+[WhiteElo "2233"]
+[BlackElo "2236"]
+[WhiteRatingDiff "-1"]
+[BlackRatingDiff "+1"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C65"]
+[Opening "Ruy Lopez: Berlin Defense, Beverwijk Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:02] } 2. Nf3 { [%clk 0:10:07] } 2... Nc6 { [%clk 0:10:04] } 3. Bb5 { [%clk 0:10:10] } 3... Nf6 { [%clk 0:10:07] } 4. O-O { [%clk 0:10:12] } 4... Bc5 { [%clk 0:10:09] } 5. Bxc6 { [%clk 0:10:14] } 5... dxc6 { [%clk 0:10:11] } 6. Nxe5 { [%clk 0:10:17] } 6... O-O { [%clk 0:10:13] } 7. d3 { [%clk 0:10:19] } 7... Re8 { [%clk 0:10:15] } 8. Nc4 { [%clk 0:10:21] } 8... Bg4 { [%clk 0:10:18] } 9. Qe1 { [%clk 0:10:24] } 9... b5 { [%clk 0:10:20] } 10. Ne3 { [%clk 0:10:26] } 10... Bh5 { [%clk 0:10:22] } 11. Kh1 { [%clk 0:10:29] } 11... Ng4 { [%clk 0:10:24] } 12. Nxg4 { [%clk 0:10:30] } 12... Bxg4 { [%clk 0:10:26] } 13. f3 { [%clk 0:10:32] } 13... Bh5 { [%clk 0:10:29] } 14. Be3 { [%clk 0:10:34] } 14... Bd6 { [%clk 0:10:31] } 15. Nd2 { [%clk 0:10:37] } 15... Qf6 { [%clk 0:10:34] } 16. d4 { [%clk 0:10:39] } 16... Bf4 { [%clk 0:10:36] } 17. Bxf4 { [%clk 0:10:42] } 17... Qxf4 { [%clk 0:10:39] } 18. c3 { [%clk 0:10:45] } 18... Re6 { [%clk 0:10:41] } 19. Qg3 { [%clk 0:10:47] } 19... Qxd2 { [%clk 0:10:43] } 20. Rf2 { [%clk 0:10:49] } 20... Qe3 { [%clk 0:10:46] } 21. Raf1 { [%clk 0:10:52] } 21... Rg6 { [%clk 0:10:48] } 22. Qxc7 { [%clk 0:10:54] } 22... h6 { [%clk 0:10:50] } 23. Qb7 { [%clk 0:10:57] } 23... Rf8 { [%clk 0:10:53] } 24. g4 { [%clk 0:10:59] } 24... Bxg4 { [%clk 0:10:55] } 25. fxg4 { [%clk 0:11:02] } 25... Qxe4+ { [%clk 0:10:58] } 26. Rf3 { [%clk 0:11:04] } 26... Rxg4 { [%clk 0:11:01] } 27. Qxa7 { [%clk 0:11:07] } 27... Rf4 { [%clk 0:11:03] } 28. Kg2 { [%clk 0:11:09] } 28... Rg4+ { [%clk 0:11:05] } 29. Kh1 { [%clk 0:11:11] } 29... Rf4 { [%clk 0:11:07] } 30. Kg2 { [%clk 0:11:13] } 30... Rg4+ { [%clk 0:11:10] } 31. Kh1 { [%clk 0:11:15] } 1/2-1/2
+
+

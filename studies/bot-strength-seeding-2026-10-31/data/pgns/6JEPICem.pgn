@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/6JEPICem"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain113"]
+[Black "SignalTrain103"]
+[Result "0-1"]
+[GameId "6JEPICem"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:15:03"]
+[WhiteElo "1631"]
+[BlackElo "1697"]
+[WhiteRatingDiff "-121"]
+[BlackRatingDiff "+120"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C29"]
+[Opening "Vienna Game: Vienna Gambit, Main Line"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:00] } 2. f4 { [%clk 0:05:03] } 2... Nf6 { [%clk 0:05:01] } 3. Nc3 { [%clk 0:05:04] } 3... d5 { [%clk 0:05:02] } 4. exd5 { [%clk 0:05:05] } 4... Nxd5 { [%clk 0:05:03] } 5. fxe5 { [%clk 0:05:05] } 5... Nxc3 { [%clk 0:05:04] } 6. bxc3 { [%clk 0:05:06] } 6... Nc6 { [%clk 0:05:04] } 7. d4 { [%clk 0:05:08] } 7... Be7 { [%clk 0:05:05] } 8. Nf3 { [%clk 0:05:09] } 8... O-O { [%clk 0:05:06] } 9. Bd3 { [%clk 0:05:10] } 9... Bg4 { [%clk 0:05:07] } 10. O-O { [%clk 0:05:10] } 10... f6 { [%clk 0:05:08] } 11. h3 { [%clk 0:05:11] } 11... Bh5 { [%clk 0:05:09] } 12. g4 { [%clk 0:05:12] } 12... Bf7 { [%clk 0:05:10] } 13. exf6 { [%clk 0:05:13] } 13... Bxf6 { [%clk 0:05:11] } 14. g5 { [%clk 0:05:14] } 14... Be7 { [%clk 0:05:12] } 15. h4 { [%clk 0:05:15] } 15... Bh5 { [%clk 0:05:13] } 16. Be2 { [%clk 0:05:16] } 16... Qd5 { [%clk 0:05:13] } 17. c4 { [%clk 0:05:16] } 17... Qe4 { [%clk 0:05:14] } 18. d5 { [%clk 0:05:17] } 18... Ne5 { [%clk 0:05:15] } 19. Nxe5 { [%clk 0:05:18] } 19... Bxe2 { [%clk 0:05:16] } 20. Rxf8+ { [%clk 0:05:19] } 20... Rxf8 { [%clk 0:05:16] } 21. Qe1 { [%clk 0:05:20] } 21... Qxe5 { [%clk 0:05:17] } 22. Rb1 { [%clk 0:05:21] } 22... Bc5+ { [%clk 0:05:18] } 23. Kg2 { [%clk 0:05:22] } 23... Bf3+ { [%clk 0:05:19] } 24. Kf1 { [%clk 0:05:23] } 24... Bg4+ { [%clk 0:05:20] } 25. Kg2 { [%clk 0:05:24] } 25... Qxe1 { [%clk 0:05:21] } 26. Rxb7 { [%clk 0:05:25] } 26... Qf2+ { [%clk 0:05:22] } 27. Kh1 { [%clk 0:05:26] } 27... Bf3# { [%clk 0:05:20] } 0-1
+
+

@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/221YehDF"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain006"]
+[Black "Probe001"]
+[Result "1-0"]
+[GameId "221YehDF"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:59:51"]
+[WhiteElo "2469"]
+[BlackElo "2390"]
+[WhiteRatingDiff "+25"]
+[BlackRatingDiff "-41"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "D01"]
+[Opening "Richter-Veresov Attack"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:05:03] } 1... Nf6 { [%clk 0:05:00] } 2. Nc3 { [%clk 0:05:03] } 2... d5 { [%clk 0:05:00] } 3. Bg5 { [%clk 0:05:03] } 3... h6 { [%clk 0:05:01] } 4. Bxf6 { [%clk 0:05:03] } 4... gxf6 { [%clk 0:05:01] } 5. e4 { [%clk 0:05:03] } 5... c6 { [%clk 0:05:01] } 6. exd5 { [%clk 0:05:04] } 6... cxd5 { [%clk 0:05:02] } 7. Qh5 { [%clk 0:05:03] } 7... e6 { [%clk 0:05:01] } 8. O-O-O { [%clk 0:05:03] } 8... Nc6 { [%clk 0:05:02] } 9. f4 { [%clk 0:05:04] } 9... Bd7 { [%clk 0:05:02] } 10. f5 { [%clk 0:05:03] } 10... Qa5 { [%clk 0:05:03] } 11. fxe6 { [%clk 0:05:03] } 11... Bxe6 { [%clk 0:05:03] } 12. Bb5 { [%clk 0:05:03] } 12... O-O-O { [%clk 0:05:04] } 13. Bxc6 { [%clk 0:05:04] } 13... bxc6 { [%clk 0:05:05] } 14. Nge2 { [%clk 0:05:04] } 14... Bb4 { [%clk 0:05:05] } 15. Rhf1 { [%clk 0:05:05] } 15... Rhg8 { [%clk 0:05:06] } 16. Rxf6 { [%clk 0:05:05] } 16... Rxg2 { [%clk 0:05:06] } 17. Qxh6 { [%clk 0:05:05] } 17... Rdg8 { [%clk 0:05:06] } 18. Rxe6 { [%clk 0:05:06] } 18... fxe6 { [%clk 0:05:07] } 19. Qxe6+ { [%clk 0:05:05] } 19... Kb7 { [%clk 0:05:07] } 20. a3 { [%clk 0:05:06] } 20... Bxc3 { [%clk 0:05:07] } 21. Nxc3 { [%clk 0:05:06] } 21... Qc7 { [%clk 0:05:08] } 22. Na4 { [%clk 0:05:07] } 22... Qxh2 { [%clk 0:05:08] } 23. Nc5+ { [%clk 0:05:07] } 23... Kb6 { [%clk 0:05:09] } 24. Qf5 { [%clk 0:05:08] } 24... Rf2 { [%clk 0:05:09] } 25. Qd3 { [%clk 0:05:08] } 25... Rgg2 { [%clk 0:05:09] } 26. Qa6+ { [%clk 0:05:08] } 26... Kc7 { [%clk 0:05:09] } 27. Qb7+ { [%clk 0:05:09] } 27... Kd8 { [%clk 0:05:10] } 28. Qd7# { [%clk 0:05:07] } 1-0
+
+

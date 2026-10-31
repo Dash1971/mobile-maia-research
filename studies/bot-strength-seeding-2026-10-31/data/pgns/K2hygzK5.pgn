@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/K2hygzK5"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain041"]
+[Black "SignalTrain028"]
+[Result "1-0"]
+[GameId "K2hygzK5"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:35:29"]
+[WhiteElo "1309"]
+[BlackElo "1153"]
+[WhiteRatingDiff "+50"]
+[BlackRatingDiff "-39"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B00"]
+[Opening "Owen Defense: Smith Gambit"]
+[Termination "Normal"]
+
+1. Nf3 { [%clk 0:05:03] } 1... b6 { [%clk 0:05:01] } 2. d4 { [%clk 0:05:04] } 2... Bb7 { [%clk 0:05:02] } 3. e4 { [%clk 0:05:04] } 3... Bxe4 { [%clk 0:05:02] } 4. d5 { [%clk 0:05:05] } 4... b5 { [%clk 0:05:03] } 5. c4 { [%clk 0:05:05] } 5... bxc4 { [%clk 0:05:04] } 6. Bxc4 { [%clk 0:05:06] } 6... c6 { [%clk 0:05:04] } 7. dxc6 { [%clk 0:05:06] } 7... Nxc6 { [%clk 0:05:05] } 8. Ng5 { [%clk 0:05:07] } 8... Bxg2 { [%clk 0:05:06] } 9. Bxf7# { [%clk 0:05:04] } 1-0
+
+

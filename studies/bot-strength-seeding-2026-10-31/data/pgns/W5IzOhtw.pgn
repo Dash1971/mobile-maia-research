@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/W5IzOhtw"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "VioletMetro"]
+[Black "CipherFox"]
+[Result "0-1"]
+[GameId "W5IzOhtw"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:57:36"]
+[WhiteElo "1383"]
+[BlackElo "1455"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+16"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C45"]
+[Opening "Scotch Game: Classical Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:00] } 2. Nf3 { [%clk 0:05:03] } 2... Nc6 { [%clk 0:05:01] } 3. d4 { [%clk 0:05:04] } 3... exd4 { [%clk 0:05:02] } 4. Nxd4 { [%clk 0:05:04] } 4... Bc5 { [%clk 0:05:03] } 5. Be3 { [%clk 0:05:05] } 5... Bxd4 { [%clk 0:05:03] } 6. Bxd4 { [%clk 0:05:05] } 6... Nxd4 { [%clk 0:05:03] } 7. Qxd4 { [%clk 0:05:06] } 7... Nf6 { [%clk 0:05:03] } 8. Bd3 { [%clk 0:05:07] } 8... d6 { [%clk 0:05:04] } 9. O-O { [%clk 0:05:07] } 9... O-O { [%clk 0:05:04] } 10. e5 { [%clk 0:05:06] } 10... dxe5 { [%clk 0:05:05] } 11. Qxe5 { [%clk 0:05:07] } 11... Qd6 { [%clk 0:05:05] } 12. Qg5 { [%clk 0:05:08] } 12... Re8 { [%clk 0:05:06] } 13. Nc3 { [%clk 0:05:09] } 13... Ng4 { [%clk 0:05:06] } 14. Rae1 { [%clk 0:05:09] } 14... Qxh2# { [%clk 0:05:04] } 0-1
+
+

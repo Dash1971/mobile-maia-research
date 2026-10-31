@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/hi6pmzre"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "KernelGhost"]
+[Black "PrismWraith"]
+[Result "1-0"]
+[GameId "hi6pmzre"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:43:48"]
+[WhiteElo "2415"]
+[BlackElo "2264"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-19"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Old Sicilian"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... c5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... Nc6 { [%clk 0:10:05] } 3. Bc4 { [%clk 0:10:10] } 3... g6 { [%clk 0:10:08] } 4. c3 { [%clk 0:10:13] } 4... Bg7 { [%clk 0:10:11] } 5. d4 { [%clk 0:10:16] } 5... cxd4 { [%clk 0:10:14] } 6. cxd4 { [%clk 0:10:19] } 6... d6 { [%clk 0:10:17] } 7. Nc3 { [%clk 0:10:22] } 7... e6 { [%clk 0:10:19] } 8. O-O { [%clk 0:10:25] } 8... Nge7 { [%clk 0:10:22] } 9. d5 { [%clk 0:10:28] } 9... Ne5 { [%clk 0:10:25] } 10. Nxe5 { [%clk 0:10:30] } 10... dxe5 { [%clk 0:10:28] } 11. dxe6 { [%clk 0:10:33] } 11... Bxe6 { [%clk 0:10:31] } 12. Bxe6 { [%clk 0:10:36] } 12... fxe6 { [%clk 0:10:33] } 13. Qb3 { [%clk 0:10:39] } 13... Qd7 { [%clk 0:10:36] } 14. Rd1 { [%clk 0:10:42] } 14... Qc6 { [%clk 0:10:39] } 15. Bg5 { [%clk 0:10:45] } 15... h6 { [%clk 0:10:42] } 16. Bxe7 { [%clk 0:10:48] } 16... Kxe7 { [%clk 0:10:45] } 17. Rac1 { [%clk 0:10:50] } 17... Kf7 { [%clk 0:10:48] } 18. Nb5 { [%clk 0:10:53] } 18... Qb6 { [%clk 0:10:51] } 19. Rd7+ { [%clk 0:10:56] } 19... Kg8 { [%clk 0:10:53] } 20. Rcc7 { [%clk 0:10:59] } 20... Rh7 { [%clk 0:10:56] } 21. Rxb7 { [%clk 0:11:01] } 21... Rc8 { [%clk 0:10:59] } 22. g3 { [%clk 0:11:04] } 22... Qc6 { [%clk 0:11:02] } 23. Nd6 { [%clk 0:11:07] } 23... Qc1+ { [%clk 0:11:05] } 24. Kg2 { [%clk 0:11:10] } 24... Rc2 { [%clk 0:11:08] } 25. Qxe6+ { [%clk 0:11:13] } 25... Kh8 { [%clk 0:11:10] } 26. Qe8+ { [%clk 0:11:16] } 26... Bf8 { [%clk 0:11:13] } 27. Qxf8# { [%clk 0:11:13] } 1-0
+
+

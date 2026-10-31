@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/dLQmBY25"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "ChromeAlley"]
+[Black "RooftopEcho"]
+[Result "0-1"]
+[GameId "dLQmBY25"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:53:24"]
+[WhiteElo "1536"]
+[BlackElo "1593"]
+[WhiteRatingDiff "-18"]
+[BlackRatingDiff "+21"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Qh5 { [%clk 0:10:08] } 2... Nf6 { [%clk 0:10:06] } 3. Qxe5+ { [%clk 0:10:11] } 3... Be7 { [%clk 0:10:09] } 4. Qc3 { [%clk 0:10:14] } 4... Nc6 { [%clk 0:10:11] } 5. Bc4 { [%clk 0:10:16] } 5... d5 { [%clk 0:10:14] } 6. exd5 { [%clk 0:10:19] } 6... Nxd5 { [%clk 0:10:17] } 7. Bxd5 { [%clk 0:10:22] } 7... Qxd5 { [%clk 0:10:20] } 8. Qxg7 { [%clk 0:10:25] } 8... Rf8 { [%clk 0:10:23] } 9. Qxh7 { [%clk 0:10:28] } 9... Qxg2 { [%clk 0:10:26] } 10. d3 { [%clk 0:10:31] } 10... Qxh1 { [%clk 0:10:29] } 11. Bh6 { [%clk 0:10:34] } 11... Qxg1+ { [%clk 0:10:31] } 12. Ke2 { [%clk 0:10:37] } 12... Qg4+ { [%clk 0:10:34] } 13. f3 { [%clk 0:10:39] } 13... Qg2+ { [%clk 0:10:37] } 14. Ke3 { [%clk 0:10:42] } 14... Bc5+ { [%clk 0:10:40] } 15. d4 { [%clk 0:10:45] } 15... Bxd4+ { [%clk 0:10:43] } 16. Kd3 { [%clk 0:10:48] } 16... Qxf3+ { [%clk 0:10:46] } 17. Kc4 { [%clk 0:10:51] } 17... Be6+ { [%clk 0:10:49] } 18. Kb5 { [%clk 0:10:54] } 18... Qd5+ { [%clk 0:10:52] } 19. Ka4 { [%clk 0:10:56] } 19... Qa5# { [%clk 0:10:49] } 0-1
+
+

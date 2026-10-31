@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/69eGi0GK"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain118"]
+[Black "SignalTrain016"]
+[Result "1-0"]
+[GameId "69eGi0GK"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:14:20"]
+[WhiteElo "1276"]
+[BlackElo "1142"]
+[WhiteRatingDiff "+29"]
+[BlackRatingDiff "-27"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Napoleon Attack"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Qf3 { [%clk 0:05:03] } 2... Nc6 { [%clk 0:05:01] } 3. Bc4 { [%clk 0:05:04] } 3... Nf6 { [%clk 0:05:02] } 4. d3 { [%clk 0:05:05] } 4... d5 { [%clk 0:05:03] } 5. exd5 { [%clk 0:05:06] } 5... Nxd5 { [%clk 0:05:03] } 6. Bxd5 { [%clk 0:05:06] } 6... Nd4 { [%clk 0:05:03] } 7. Qxf7# { [%clk 0:05:04] } 1-0
+
+

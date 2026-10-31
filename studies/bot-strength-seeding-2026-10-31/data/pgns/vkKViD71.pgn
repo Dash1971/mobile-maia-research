@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/vkKViD71"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain013"]
+[Black "SignalTrain079"]
+[Result "1-0"]
+[GameId "vkKViD71"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:09:41"]
+[WhiteElo "1751"]
+[BlackElo "1632"]
+[WhiteRatingDiff "+29"]
+[BlackRatingDiff "-28"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Zukertort Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:04] } 1... d5 { [%clk 0:10:02] } 2. Nf3 { [%clk 0:10:07] } 2... e6 { [%clk 0:10:05] } 3. e3 { [%clk 0:10:09] } 3... c5 { [%clk 0:10:07] } 4. Bd2 { [%clk 0:10:12] } 4... Nf6 { [%clk 0:10:10] } 5. c4 { [%clk 0:10:15] } 5... cxd4 { [%clk 0:10:13] } 6. Nxd4 { [%clk 0:10:17] } 6... Nc6 { [%clk 0:10:16] } 7. cxd5 { [%clk 0:10:20] } 7... Nxd5 { [%clk 0:10:18] } 8. Bb5 { [%clk 0:10:23] } 8... Bd7 { [%clk 0:10:20] } 9. Nxc6 { [%clk 0:10:25] } 9... Bxc6 { [%clk 0:10:23] } 10. Bxc6+ { [%clk 0:10:28] } 10... bxc6 { [%clk 0:10:25] } 11. O-O { [%clk 0:10:31] } 11... Bd6 { [%clk 0:10:28] } 12. Nc3 { [%clk 0:10:34] } 12... O-O { [%clk 0:10:31] } 13. Nxd5 { [%clk 0:10:36] } 13... cxd5 { [%clk 0:10:33] } 14. Bc3 { [%clk 0:10:38] } 14... Qh4 { [%clk 0:10:36] } 15. g3 { [%clk 0:10:41] } 15... Qh3 { [%clk 0:10:39] } 16. Qd4 { [%clk 0:10:44] } 16... f6 { [%clk 0:10:41] } 17. Bb4 { [%clk 0:10:46] } 17... Bxb4 { [%clk 0:10:44] } 18. Qxb4 { [%clk 0:10:48] } 18... Rab8 { [%clk 0:10:47] } 19. Qd6 { [%clk 0:10:51] } 19... Rxb2 { [%clk 0:10:50] } 20. a4 { [%clk 0:10:53] } 20... Rb6 { [%clk 0:10:52] } 21. Qc7 { [%clk 0:10:56] } 21... Rfb8 { [%clk 0:10:54] } 22. Qxa7 { [%clk 0:10:59] } 22... R6b7 { [%clk 0:10:57] } 23. Qc5 { [%clk 0:11:01] } 23... Qf5 { [%clk 0:11:00] } 24. a5 { [%clk 0:11:02] } 24... Rb5 { [%clk 0:11:03] } 25. Qc7 { [%clk 0:11:05] } 25... R5b7 { [%clk 0:11:06] } 26. Qc6 { [%clk 0:11:08] } 26... Rb1 { [%clk 0:11:09] } 27. Raxb1 { [%clk 0:11:11] } 27... Rxb1 { [%clk 0:11:11] } 28. Qe8# { [%clk 0:11:08] } 1-0
+
+

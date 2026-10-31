@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/tCeBiUtO"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest012"]
+[Black "SignalTrain073"]
+[Result "1-0"]
+[GameId "tCeBiUtO"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:09:16"]
+[WhiteElo "1297"]
+[BlackElo "1233"]
+[WhiteRatingDiff "+60"]
+[BlackRatingDiff "-24"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C26"]
+[Opening "Vienna Game: Falkbeer Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:02] } 2. Nc3 { [%clk 0:10:07] } 2... Nf6 { [%clk 0:10:05] } 3. b3 { [%clk 0:10:10] } 3... Bc5 { [%clk 0:10:07] } 4. Nh3 { [%clk 0:10:12] } 4... Ng4 { [%clk 0:10:10] } 5. Bc4 { [%clk 0:10:14] } 5... Qf6 { [%clk 0:10:13] } 6. Qxg4 { [%clk 0:10:17] } 6... d6 { [%clk 0:10:15] } 7. Qxc8+ { [%clk 0:10:19] } 7... Qd8 { [%clk 0:10:18] } 8. Qxb7 { [%clk 0:10:22] } 8... Nd7 { [%clk 0:10:21] } 9. Qd5 { [%clk 0:10:24] } 9... Nf6 { [%clk 0:10:23] } 10. Qxf7# { [%clk 0:10:22] } 1-0
+
+

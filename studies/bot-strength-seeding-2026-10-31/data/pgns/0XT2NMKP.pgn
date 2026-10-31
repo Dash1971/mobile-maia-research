@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/0XT2NMKP"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "IndigoPulse"]
+[Black "Blackout"]
+[Result "0-1"]
+[GameId "0XT2NMKP"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:39:30"]
+[WhiteElo "2089"]
+[BlackElo "2214"]
+[WhiteRatingDiff "-25"]
+[BlackRatingDiff "+26"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A98"]
+[Opening "Dutch Defense: Classical Variation, Ilyin-Zhenevsky Variation, Alatortsev-Lisitsyn Line"]
+[Termination "Normal"]
+
+1. Nf3 { [%clk 0:10:05] } 1... f5 { [%clk 0:10:03] } 2. g3 { [%clk 0:10:07] } 2... Nf6 { [%clk 0:10:06] } 3. Bg2 { [%clk 0:10:10] } 3... e6 { [%clk 0:10:08] } 4. O-O { [%clk 0:10:13] } 4... d6 { [%clk 0:10:11] } 5. d4 { [%clk 0:10:16] } 5... Be7 { [%clk 0:10:14] } 6. c4 { [%clk 0:10:19] } 6... O-O { [%clk 0:10:17] } 7. Nc3 { [%clk 0:10:21] } 7... Qe8 { [%clk 0:10:20] } 8. Qc2 { [%clk 0:10:25] } 8... Qh5 { [%clk 0:10:23] } 9. e4 { [%clk 0:10:27] } 9... fxe4 { [%clk 0:10:25] } 10. Qxe4 { [%clk 0:10:30] } 10... Nxe4 { [%clk 0:10:28] } 11. Nxe4 { [%clk 0:10:33] } 11... Rxf3 { [%clk 0:10:31] } 12. Bxf3 { [%clk 0:10:36] } 12... Qxf3 { [%clk 0:10:34] } 13. Re1 { [%clk 0:10:38] } 13... Nc6 { [%clk 0:10:37] } 14. d5 { [%clk 0:10:41] } 14... exd5 { [%clk 0:10:39] } 15. cxd5 { [%clk 0:10:44] } 15... Bh3 { [%clk 0:10:42] } 16. Nd2 { [%clk 0:10:46] } 16... Qg2# { [%clk 0:10:40] } 0-1
+
+

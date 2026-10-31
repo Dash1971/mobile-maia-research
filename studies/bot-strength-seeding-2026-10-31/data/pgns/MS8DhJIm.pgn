@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/MS8DhJIm"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain139"]
+[Black "SignalTrain007"]
+[Result "1-0"]
+[GameId "MS8DhJIm"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:23:24"]
+[WhiteElo "1228"]
+[BlackElo "1166"]
+[WhiteRatingDiff "+117"]
+[BlackRatingDiff "-90"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Qh5 { [%clk 0:05:03] } 2... Nc6 { [%clk 0:05:01] } 3. Bc4 { [%clk 0:05:04] } 3... Bb4 { [%clk 0:05:02] } 4. Qxf7# { [%clk 0:05:01] } 1-0
+
+

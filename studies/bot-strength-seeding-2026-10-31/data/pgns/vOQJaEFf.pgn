@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/vOQJaEFf"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain075"]
+[Black "SignalTrain102"]
+[Result "1/2-1/2"]
+[GameId "vOQJaEFf"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:37:10"]
+[WhiteElo "1487"]
+[BlackElo "1613"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-12"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Qh5 { [%clk 0:05:04] } 2... g6 { [%clk 0:05:01] } 3. Qxe5+ { [%clk 0:05:04] } 3... Qe7 { [%clk 0:05:02] } 4. Qxh8 { [%clk 0:05:05] } 4... Qxe4+ { [%clk 0:05:03] } 5. Ne2 { [%clk 0:05:05] } 5... Qxc2 { [%clk 0:05:03] } 6. Qxg8 { [%clk 0:05:06] } 6... Nc6 { [%clk 0:05:03] } 7. Qxh7 { [%clk 0:05:06] } 7... Nd4 { [%clk 0:05:04] } 8. Nxd4 { [%clk 0:05:07] } 8... Qxc1+ { [%clk 0:05:05] } 9. Ke2 { [%clk 0:05:08] } 9... Qxb2 { [%clk 0:05:05] } 10. Nb3 { [%clk 0:05:09] } 10... Qe5+ { [%clk 0:05:06] } 11. Kd1 { [%clk 0:05:09] } 11... d6 { [%clk 0:05:07] } 12. Bc4 { [%clk 0:05:10] } 12... Bg4+ { [%clk 0:05:07] } 13. f3 { [%clk 0:05:10] } 13... Be6 { [%clk 0:05:08] } 14. Bxe6 { [%clk 0:05:11] } 14... Qxe6 { [%clk 0:05:08] } 15. Re1 { [%clk 0:05:11] } 15... Qxe1+ { [%clk 0:05:09] } 16. Kxe1 { [%clk 0:05:12] } 16... O-O-O { [%clk 0:05:09] } 17. Qxf7 { [%clk 0:05:12] } 17... Bh6 { [%clk 0:05:10] } 18. Qxg6 { [%clk 0:05:13] } 18... Bf4 { [%clk 0:05:10] } 19. Qf5+ { [%clk 0:05:14] } 19... Kb8 { [%clk 0:05:11] } 20. Qxf4 { [%clk 0:05:14] } 20... Re8+ { [%clk 0:05:11] } 21. Kf2 { [%clk 0:05:14] } 21... b6 { [%clk 0:05:12] } 22. Nc3 { [%clk 0:05:15] } 22... Kb7 { [%clk 0:05:13] } 23. Re1 { [%clk 0:05:15] } 23... Rh8 { [%clk 0:05:14] } 24. Qe4+ { [%clk 0:05:16] } 24... c6 { [%clk 0:05:14] } 25. Qe7+ { [%clk 0:05:17] } 25... Ka6 { [%clk 0:05:15] } 26. Qxd6 { [%clk 0:05:18] } 26... Rxh2 { [%clk 0:05:16] } 27. Qxc6 { [%clk 0:05:18] } 27... Rxg2+ { [%clk 0:05:16] } 28. Kxg2 { [%clk 0:05:16] } 1/2-1/2
+
+

@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/7lyqNGDl"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain051"]
+[Black "SignalTrain100"]
+[Result "1-0"]
+[GameId "7lyqNGDl"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:59:12"]
+[WhiteElo "1652"]
+[BlackElo "1643"]
+[WhiteRatingDiff "+44"]
+[BlackRatingDiff "-35"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B21"]
+[Opening "Sicilian Defense: McDonnell Attack"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... c5 { [%clk 0:05:00] } 2. f4 { [%clk 0:05:03] } 2... Nc6 { [%clk 0:05:01] } 3. Nf3 { [%clk 0:05:04] } 3... e6 { [%clk 0:05:01] } 4. Bd3 { [%clk 0:05:04] } 4... Nf6 { [%clk 0:05:02] } 5. O-O { [%clk 0:05:05] } 5... Bd6 { [%clk 0:05:03] } 6. e5 { [%clk 0:05:06] } 6... Bxe5 { [%clk 0:05:03] } 7. Nxe5 { [%clk 0:05:06] } 7... Nxe5 { [%clk 0:05:03] } 8. fxe5 { [%clk 0:05:07] } 8... Nd5 { [%clk 0:05:04] } 9. Qh5 { [%clk 0:05:08] } 9... O-O { [%clk 0:05:05] } 10. Qxh7# { [%clk 0:05:05] } 1-0
+
+

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/GYYBseq1"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain152"]
+[Black "SignalTrain135"]
+[Result "1-0"]
+[GameId "GYYBseq1"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:34:39"]
+[WhiteElo "1596"]
+[BlackElo "1438"]
+[WhiteRatingDiff "+28"]
+[BlackRatingDiff "-20"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A40"]
+[Opening "Englund Gambit: Soller Gambit"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. dxe5 { [%clk 0:10:07] } 2... f6 { [%clk 0:10:05] } 3. exf6 { [%clk 0:10:09] } 3... Nxf6 { [%clk 0:10:08] } 4. Bg5 { [%clk 0:10:12] } 4... d6 { [%clk 0:10:10] } 5. e4 { [%clk 0:10:14] } 5... h6 { [%clk 0:10:13] } 6. Bxf6 { [%clk 0:10:16] } 6... gxf6 { [%clk 0:10:16] } 7. Qh5+ { [%clk 0:10:19] } 7... Ke7 { [%clk 0:10:19] } 8. Bc4 { [%clk 0:10:21] } 8... Nc6 { [%clk 0:10:21] } 9. Qf7# { [%clk 0:10:19] } 1-0
+
+

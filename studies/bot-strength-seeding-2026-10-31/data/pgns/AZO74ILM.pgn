@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/AZO74ILM"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain088"]
+[Black "SignalTest008"]
+[Result "1/2-1/2"]
+[GameId "AZO74ILM"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:25:38"]
+[WhiteElo "1218"]
+[BlackElo "1081"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+60"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:05:03] } 1... d5 { [%clk 0:05:01] } 2. Nc3 { [%clk 0:05:04] } 2... Nc6 { [%clk 0:05:01] } 3. Nf3 { [%clk 0:05:05] } 3... e5 { [%clk 0:05:02] } 4. e4 { [%clk 0:05:05] } 4... f5 { [%clk 0:05:03] } 5. Bg5 { [%clk 0:05:06] } 5... Be7 { [%clk 0:05:04] } 6. Bb5 { [%clk 0:05:07] } 6... Bxg5 { [%clk 0:05:05] } 7. Nxg5 { [%clk 0:05:07] } 7... Qxg5 { [%clk 0:05:05] } 8. Nxd5 { [%clk 0:05:08] } 8... Qxg2 { [%clk 0:05:06] } 9. Nxc7+ { [%clk 0:05:09] } 9... Kd8 { [%clk 0:05:06] } 10. Nxa8 { [%clk 0:05:09] } 10... Qxh1+ { [%clk 0:05:07] } 11. Ke2 { [%clk 0:05:10] } 11... Qxh2 { [%clk 0:05:08] } 12. dxe5+ { [%clk 0:05:11] } 12... Ke7 { [%clk 0:05:08] } 13. exf5 { [%clk 0:05:12] } 13... Nxe5 { [%clk 0:05:09] } 14. Nc7 { [%clk 0:05:12] } 14... Ng4 { [%clk 0:05:09] } 15. Nd5+ { [%clk 0:05:13] } 15... Kf7 { [%clk 0:05:10] } 16. Qd4 { [%clk 0:05:13] } 16... Nxf2 { [%clk 0:05:10] } 17. Qxf2 { [%clk 0:05:14] } 17... Qe5+ { [%clk 0:05:11] } 18. Ne3 { [%clk 0:05:14] } 18... Qxb2 { [%clk 0:05:11] } 19. Rd1 { [%clk 0:05:15] } 19... Qxb5+ { [%clk 0:05:12] } 20. c4 { [%clk 0:05:16] } 20... Qb2+ { [%clk 0:05:12] } 21. Rd2 { [%clk 0:05:17] } 21... Qe5 { [%clk 0:05:13] } 22. Rd5 { [%clk 0:05:17] } 22... Qb2+ { [%clk 0:05:14] } 23. Rd2 { [%clk 0:05:18] } 23... Qe5 { [%clk 0:05:14] } 24. Rd5 { [%clk 0:05:19] } 24... Qb2+ { [%clk 0:05:15] } 25. Rd2 { [%clk 0:05:19] } 1/2-1/2
+
+

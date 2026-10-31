@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/aIRjhONJ"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "QuietProxy"]
+[Black "NeonRook"]
+[Result "1-0"]
+[GameId "aIRjhONJ"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:46:44"]
+[WhiteElo "1534"]
+[BlackElo "1381"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-17"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C25"]
+[Opening "Vienna Game: Anderssen Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nc3 { [%clk 0:10:07] } 2... Bc5 { [%clk 0:10:05] } 3. Nf3 { [%clk 0:10:10] } 3... d6 { [%clk 0:10:08] } 4. Bc4 { [%clk 0:10:13] } 4... Nc6 { [%clk 0:10:11] } 5. d3 { [%clk 0:10:16] } 5... Nge7 { [%clk 0:10:14] } 6. Be3 { [%clk 0:10:19] } 6... O-O { [%clk 0:10:17] } 7. Bxc5 { [%clk 0:10:22] } 7... dxc5 { [%clk 0:10:20] } 8. O-O { [%clk 0:10:25] } 8... Kh8 { [%clk 0:10:23] } 9. Nd5 { [%clk 0:10:28] } 9... f5 { [%clk 0:10:26] } 10. Nxe7 { [%clk 0:10:31] } 10... Qxe7 { [%clk 0:10:29] } 11. Qd2 { [%clk 0:10:34] } 11... f4 { [%clk 0:10:32] } 12. h3 { [%clk 0:10:37] } 12... Rf6 { [%clk 0:10:35] } 13. a3 { [%clk 0:10:39] } 13... Rg6 { [%clk 0:10:38] } 14. g4 { [%clk 0:10:42] } 14... fxg3 { [%clk 0:10:41] } 15. fxg3 { [%clk 0:10:45] } 15... Rxg3+ { [%clk 0:10:44] } 16. Kf2 { [%clk 0:10:48] } 16... Qh4 { [%clk 0:10:47] } 17. Ke3 { [%clk 0:10:50] } 17... Qf4+ { [%clk 0:10:50] } 18. Ke2 { [%clk 0:10:53] } 18... Rg2+ { [%clk 0:10:53] } 19. Rf2 { [%clk 0:10:56] } 19... Rxf2+ { [%clk 0:10:55] } 20. Kxf2 { [%clk 0:10:59] } 20... Qh6 { [%clk 0:10:58] } 21. Rg1 { [%clk 0:11:02] } 21... Qxh3 { [%clk 0:11:01] } 22. Qg5 { [%clk 0:11:05] } 22... g6 { [%clk 0:11:04] } 23. Qf6# { [%clk 0:11:03] } 1-0
+
+

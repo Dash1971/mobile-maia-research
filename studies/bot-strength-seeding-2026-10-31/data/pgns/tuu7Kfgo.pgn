@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/tuu7Kfgo"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain075"]
+[Black "SignalTrain097"]
+[Result "1-0"]
+[GameId "tuu7Kfgo"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:32:39"]
+[WhiteElo "1705"]
+[BlackElo "1696"]
+[WhiteRatingDiff "+45"]
+[BlackRatingDiff "-39"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D31"]
+[Opening "Queen's Gambit Declined: Queen's Knight Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:02] } 2. c4 { [%clk 0:10:07] } 2... e6 { [%clk 0:10:05] } 3. Nc3 { [%clk 0:10:10] } 3... Bb4 { [%clk 0:10:08] } 4. Bd2 { [%clk 0:10:13] } 4... dxc4 { [%clk 0:10:10] } 5. a3 { [%clk 0:10:16] } 5... Ba5 { [%clk 0:10:12] } 6. b4 { [%clk 0:10:18] } 6... Bb6 { [%clk 0:10:15] } 7. e3 { [%clk 0:10:21] } 7... Nf6 { [%clk 0:10:18] } 8. Bxc4 { [%clk 0:10:23] } 8... O-O { [%clk 0:10:20] } 9. Nf3 { [%clk 0:10:26] } 9... Nc6 { [%clk 0:10:23] } 10. O-O { [%clk 0:10:29] } 10... Re8 { [%clk 0:10:26] } 11. Re1 { [%clk 0:10:31] } 11... e5 { [%clk 0:10:28] } 12. dxe5 { [%clk 0:10:34] } 12... Nxe5 { [%clk 0:10:31] } 13. Nxe5 { [%clk 0:10:37] } 13... Rxe5 { [%clk 0:10:34] } 14. Qb3 { [%clk 0:10:39] } 14... Be6 { [%clk 0:10:36] } 15. Bxe6 { [%clk 0:10:42] } 15... Rxe6 { [%clk 0:10:39] } 16. Rad1 { [%clk 0:10:44] } 16... Qe7 { [%clk 0:10:42] } 17. Nd5 { [%clk 0:10:47] } 17... Nxd5 { [%clk 0:10:45] } 18. Qxd5 { [%clk 0:10:50] } 18... c6 { [%clk 0:10:47] } 19. Qf3 { [%clk 0:10:53] } 19... Rd8 { [%clk 0:10:49] } 20. Bc3 { [%clk 0:10:55] } 20... Rxd1 { [%clk 0:10:52] } 21. Rxd1 { [%clk 0:10:58] } 21... Rd6 { [%clk 0:10:54] } 22. Rxd6 { [%clk 0:11:00] } 22... Qxd6 { [%clk 0:10:57] } 23. h3 { [%clk 0:11:03] } 23... Bc7 { [%clk 0:10:59] } 24. g3 { [%clk 0:11:06] } 24... Qd3 { [%clk 0:11:01] } 25. Bd4 { [%clk 0:11:09] } 25... Qxa3 { [%clk 0:11:04] } 26. Qg4 { [%clk 0:11:11] } 26... g6 { [%clk 0:11:07] } 27. Qc8+ { [%clk 0:11:14] } 27... Bd8 { [%clk 0:11:09] } 28. Qxd8# { [%clk 0:11:11] } 1-0
+
+

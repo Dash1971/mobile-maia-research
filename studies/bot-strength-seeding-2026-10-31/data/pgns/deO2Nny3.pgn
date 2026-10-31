@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/deO2Nny3"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "NeonFinch"]
+[Black "CassetteKid"]
+[Result "1-0"]
+[GameId "deO2Nny3"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:53:47"]
+[WhiteElo "1147"]
+[BlackElo "1037"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-18"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C44"]
+[Opening "Scotch Game"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Nf3 { [%clk 0:05:04] } 2... Nc6 { [%clk 0:05:01] } 3. d4 { [%clk 0:05:05] } 3... f6 { [%clk 0:05:02] } 4. d5 { [%clk 0:05:05] } 4... Nb4 { [%clk 0:05:03] } 5. c3 { [%clk 0:05:06] } 5... Na6 { [%clk 0:05:04] } 6. c4 { [%clk 0:05:07] } 6... c6 { [%clk 0:05:05] } 7. Nc3 { [%clk 0:05:08] } 7... cxd5 { [%clk 0:05:06] } 8. Nxd5 { [%clk 0:05:09] } 8... Bb4+ { [%clk 0:05:06] } 9. Bd2 { [%clk 0:05:10] } 9... Bxd2+ { [%clk 0:05:07] } 10. Qxd2 { [%clk 0:05:11] } 10... Ne7 { [%clk 0:05:08] } 11. Nxe7 { [%clk 0:05:12] } 11... Qxe7 { [%clk 0:05:09] } 12. g4 { [%clk 0:05:13] } 12... O-O { [%clk 0:05:10] } 13. O-O-O { [%clk 0:05:14] } 13... d6 { [%clk 0:05:10] } 14. c5 { [%clk 0:05:15] } 14... dxc5 { [%clk 0:05:11] } 15. g5 { [%clk 0:05:15] } 15... fxg5 { [%clk 0:05:12] } 16. Qxg5 { [%clk 0:05:16] } 16... Qxg5+ { [%clk 0:05:13] } 17. Nxg5 { [%clk 0:05:17] } 17... Rxf2 { [%clk 0:05:14] } 18. Rd8+ { [%clk 0:05:17] } 18... Rf8 { [%clk 0:05:14] } 19. Rd5 { [%clk 0:05:19] } 19... Nb4 { [%clk 0:05:15] } 20. Rxe5 { [%clk 0:05:19] } 20... Nxa2+ { [%clk 0:05:16] } 21. Kb1 { [%clk 0:05:20] } 21... Nb4 { [%clk 0:05:17] } 22. Bc4+ { [%clk 0:05:21] } 22... Kh8 { [%clk 0:05:18] } 23. Nf7+ { [%clk 0:05:22] } 23... Rxf7 { [%clk 0:05:19] } 24. Re8+ { [%clk 0:05:23] } 24... Rf8 { [%clk 0:05:20] } 25. Rxf8# { [%clk 0:05:20] } 1-0
+
+

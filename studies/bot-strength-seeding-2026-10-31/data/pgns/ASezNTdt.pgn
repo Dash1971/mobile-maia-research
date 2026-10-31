@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/ASezNTdt"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "PixelMoth"]
+[Black "GlitchCat"]
+[Result "0-1"]
+[GameId "ASezNTdt"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:19:11"]
+[WhiteElo "743"]
+[BlackElo "815"]
+[WhiteRatingDiff "-34"]
+[BlackRatingDiff "+25"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C42"]
+[Opening "Petrov's Defense: Damiano Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Nf3 { [%clk 0:05:03] } 2... Nf6 { [%clk 0:05:02] } 3. Nxe5 { [%clk 0:05:04] } 3... Nxe4 { [%clk 0:05:03] } 4. Bd3 { [%clk 0:05:05] } 4... Bd6 { [%clk 0:05:04] } 5. Bxe4 { [%clk 0:05:06] } 5... Bxe5 { [%clk 0:05:05] } 6. Qh5 { [%clk 0:05:07] } 6... Qf6 { [%clk 0:05:06] } 7. Qd1 { [%clk 0:05:07] } 7... c6 { [%clk 0:05:07] } 8. O-O { [%clk 0:05:08] } 8... Qh6 { [%clk 0:05:07] } 9. Qe2 { [%clk 0:05:09] } 9... Qxh2# { [%clk 0:05:05] } 0-1
+
+

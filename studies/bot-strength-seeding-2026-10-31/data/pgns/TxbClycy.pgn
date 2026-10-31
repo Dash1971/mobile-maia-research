@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/TxbClycy"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "Patchwork"]
+[Black "VelvetCircuit"]
+[Result "1/2-1/2"]
+[GameId "TxbClycy"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:53:45"]
+[WhiteElo "1377"]
+[BlackElo "1360"]
+[WhiteRatingDiff "-1"]
+[BlackRatingDiff "+2"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... Nc6 { [%clk 0:10:06] } 3. e3 { [%clk 0:10:10] } 3... Nf6 { [%clk 0:10:08] } 4. Be2 { [%clk 0:10:13] } 4... Bf5 { [%clk 0:10:11] } 5. O-O { [%clk 0:10:16] } 5... e6 { [%clk 0:10:14] } 6. Nc3 { [%clk 0:10:19] } 6... Bd6 { [%clk 0:10:16] } 7. Bd2 { [%clk 0:10:22] } 7... O-O { [%clk 0:10:19] } 8. Bd3 { [%clk 0:10:25] } 8... Bxd3 { [%clk 0:10:22] } 9. cxd3 { [%clk 0:10:28] } 9... Ng4 { [%clk 0:10:25] } 10. e4 { [%clk 0:10:31] } 10... dxe4 { [%clk 0:10:28] } 11. dxe4 { [%clk 0:10:34] } 11... e5 { [%clk 0:10:31] } 12. dxe5 { [%clk 0:10:36] } 12... Bxe5 { [%clk 0:10:34] } 13. Nxe5 { [%clk 0:10:39] } 13... Ncxe5 { [%clk 0:10:36] } 14. f3 { [%clk 0:10:42] } 14... Nf6 { [%clk 0:10:39] } 15. Bg5 { [%clk 0:10:45] } 15... Qxd1 { [%clk 0:10:42] } 16. Rfxd1 { [%clk 0:10:48] } 16... Rad8 { [%clk 0:10:45] } 17. Rxd8 { [%clk 0:10:50] } 17... Rxd8 { [%clk 0:10:48] } 18. Nd5 { [%clk 0:10:53] } 18... c6 { [%clk 0:10:50] } 19. Ne7+ { [%clk 0:10:56] } 19... Kf8 { [%clk 0:10:53] } 20. Nf5 { [%clk 0:10:59] } 20... h6 { [%clk 0:10:56] } 21. Bxf6 { [%clk 0:11:02] } 21... gxf6 { [%clk 0:10:59] } 22. Nxh6 { [%clk 0:11:05] } 22... Nd3 { [%clk 0:11:01] } 23. Rd1 { [%clk 0:11:07] } 23... Kg7 { [%clk 0:11:05] } 24. Nf5+ { [%clk 0:11:10] } 24... Kg6 { [%clk 0:11:07] } 25. Kf1 { [%clk 0:11:13] } 25... c5 { [%clk 0:11:10] } 26. Ne7+ { [%clk 0:11:16] } 26... Kg7 { [%clk 0:11:13] } 27. Nf5+ { [%clk 0:11:19] } 27... Kg6 { [%clk 0:11:16] } 28. Ne7+ { [%clk 0:11:22] } 28... Kg7 { [%clk 0:11:19] } 29. Nf5+ { [%clk 0:11:25] } 29... Kg6 { [%clk 0:11:22] } 1/2-1/2
+
+

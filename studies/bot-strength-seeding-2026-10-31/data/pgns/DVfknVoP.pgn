@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/DVfknVoP"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "Patchwork"]
+[Black "SignalTrain118"]
+[Result "0-1"]
+[GameId "DVfknVoP"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:36:09"]
+[WhiteElo "1368"]
+[BlackElo "1509"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+80"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B00"]
+[Opening "Duras Gambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... f5 { [%clk 0:10:03] } 2. Nc3 { [%clk 0:10:07] } 2... fxe4 { [%clk 0:10:06] } 3. Nxe4 { [%clk 0:10:10] } 3... e5 { [%clk 0:10:09] } 4. Nf3 { [%clk 0:10:13] } 4... d5 { [%clk 0:10:11] } 5. Nc3 { [%clk 0:10:16] } 5... e4 { [%clk 0:10:14] } 6. Nd4 { [%clk 0:10:19] } 6... Nf6 { [%clk 0:10:17] } 7. d3 { [%clk 0:10:21] } 7... Bc5 { [%clk 0:10:20] } 8. dxe4 { [%clk 0:10:24] } 8... dxe4 { [%clk 0:10:23] } 9. Be3 { [%clk 0:10:27] } 9... Nc6 { [%clk 0:10:26] } 10. Nxc6 { [%clk 0:10:29] } 10... bxc6 { [%clk 0:10:29] } 11. Bxc5 { [%clk 0:10:32] } 11... Qxd1+ { [%clk 0:10:32] } 12. Rxd1 { [%clk 0:10:35] } 12... Bg4 { [%clk 0:10:35] } 13. f3 { [%clk 0:10:38] } 13... exf3 { [%clk 0:10:37] } 14. gxf3 { [%clk 0:10:41] } 14... Bxf3 { [%clk 0:10:40] } 15. Rg1 { [%clk 0:10:44] } 15... Bxd1 { [%clk 0:10:43] } 16. Kxd1 { [%clk 0:10:46] } 16... O-O-O+ { [%clk 0:10:45] } 17. Kc1 { [%clk 0:10:49] } 17... Rhe8 { [%clk 0:10:49] } 18. Ba6+ { [%clk 0:10:52] } 18... Kb8 { [%clk 0:10:51] } 19. Rxg7 { [%clk 0:10:54] } 19... Re1+ { [%clk 0:10:54] } 20. Nd1 { [%clk 0:10:57] } 20... Rdxd1# { [%clk 0:10:52] } 0-1
+
+

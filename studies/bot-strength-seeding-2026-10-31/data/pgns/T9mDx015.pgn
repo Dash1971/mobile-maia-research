@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/T9mDx015"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "Neuromancer"]
+[Black "EventHorizon"]
+[Result "1/2-1/2"]
+[GameId "T9mDx015"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:58:17"]
+[WhiteElo "2590"]
+[BlackElo "2597"]
+[WhiteRatingDiff "-1"]
+[BlackRatingDiff "+0"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Valencian Variation, Ilundain Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... d5 { [%clk 0:05:00] } 2. exd5 { [%clk 0:05:02] } 2... Qxd5 { [%clk 0:05:01] } 3. Nc3 { [%clk 0:05:03] } 3... Qd8 { [%clk 0:05:01] } 4. d4 { [%clk 0:05:04] } 4... c6 { [%clk 0:05:02] } 5. Nf3 { [%clk 0:05:05] } 5... Nf6 { [%clk 0:05:02] } 6. Bc4 { [%clk 0:05:05] } 6... Bf5 { [%clk 0:05:02] } 7. Ne5 { [%clk 0:05:06] } 7... e6 { [%clk 0:05:03] } 8. g4 { [%clk 0:05:06] } 8... Bg6 { [%clk 0:05:04] } 9. h4 { [%clk 0:05:07] } 9... Bb4 { [%clk 0:05:05] } 10. h5 { [%clk 0:05:08] } 10... Be4 { [%clk 0:05:05] } 11. O-O { [%clk 0:05:08] } 11... Bxc3 { [%clk 0:05:06] } 12. bxc3 { [%clk 0:05:09] } 12... Nbd7 { [%clk 0:05:06] } 13. f3 { [%clk 0:05:10] } 13... Bd5 { [%clk 0:05:07] } 14. Bd3 { [%clk 0:05:11] } 14... Nxe5 { [%clk 0:05:07] } 15. dxe5 { [%clk 0:05:11] } 15... Nd7 { [%clk 0:05:08] } 16. c4 { [%clk 0:05:12] } 16... Qh4 { [%clk 0:05:09] } 17. cxd5 { [%clk 0:05:12] } 17... Qg3+ { [%clk 0:05:09] } 18. Kh1 { [%clk 0:05:12] } 18... Qh3+ { [%clk 0:05:10] } 19. Kg1 { [%clk 0:05:13] } 19... Qg3+ { [%clk 0:05:11] } 20. Kh1 { [%clk 0:05:13] } 20... Qh3+ { [%clk 0:05:12] } 21. Kg1 { [%clk 0:05:14] } 21... Qg3+ { [%clk 0:05:12] } 1/2-1/2
+
+

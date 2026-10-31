@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/0Hr3qjRp"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest002"]
+[Black "CassetteKid"]
+[Result "0-1"]
+[GameId "0Hr3qjRp"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:30:21"]
+[WhiteElo "1172"]
+[BlackElo "1079"]
+[WhiteRatingDiff "-81"]
+[BlackRatingDiff "+20"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A00"]
+[Opening "Grob Opening"]
+[Termination "Normal"]
+
+1. g4 { [%clk 0:10:04] } 1... d5 { [%clk 0:10:02] } 2. Bh3 { [%clk 0:10:07] } 2... Nf6 { [%clk 0:10:05] } 3. g5 { [%clk 0:10:09] } 3... Ne4 { [%clk 0:10:07] } 4. Bxc8 { [%clk 0:10:12] } 4... e6 { [%clk 0:10:10] } 5. f3 { [%clk 0:10:14] } 5... Qxg5 { [%clk 0:10:12] } 6. fxe4 { [%clk 0:10:16] } 6... dxe4 { [%clk 0:10:15] } 7. Bxb7 { [%clk 0:10:19] } 7... Bc5 { [%clk 0:10:17] } 8. Bxa8 { [%clk 0:10:20] } 8... Bxg1 { [%clk 0:10:19] } 9. Bxe4 { [%clk 0:10:23] } 9... Qh4+ { [%clk 0:10:21] } 10. Kf1 { [%clk 0:10:24] } 10... Qf2# { [%clk 0:10:18] } 0-1
+
+

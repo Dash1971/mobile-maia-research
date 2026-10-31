@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/7LdXT75L"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "StaticRain"]
+[Black "CipherFox"]
+[Result "0-1"]
+[GameId "7LdXT75L"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:43:24"]
+[WhiteElo "1423"]
+[BlackElo "1462"]
+[WhiteRatingDiff "-25"]
+[BlackRatingDiff "+23"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Gubinsky-Melts Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... d5 { [%clk 0:05:01] } 2. exd5 { [%clk 0:05:03] } 2... Qxd5 { [%clk 0:05:02] } 3. Nc3 { [%clk 0:05:04] } 3... Qd6 { [%clk 0:05:02] } 4. Nf3 { [%clk 0:05:05] } 4... c6 { [%clk 0:05:03] } 5. d3 { [%clk 0:05:05] } 5... Bg4 { [%clk 0:05:04] } 6. Be2 { [%clk 0:05:06] } 6... e6 { [%clk 0:05:04] } 7. Ne4 { [%clk 0:05:07] } 7... Qc7 { [%clk 0:05:05] } 8. O-O { [%clk 0:05:07] } 8... Nd7 { [%clk 0:05:06] } 9. c3 { [%clk 0:05:08] } 9... Ngf6 { [%clk 0:05:06] } 10. Qa4 { [%clk 0:05:09] } 10... b5 { [%clk 0:05:07] } 11. Nxf6+ { [%clk 0:05:10] } 11... Nxf6 { [%clk 0:05:08] } 12. Qxg4 { [%clk 0:05:11] } 12... Nxg4 { [%clk 0:05:09] } 13. Nd4 { [%clk 0:05:12] } 13... Qxh2# { [%clk 0:05:07] } 0-1
+
+

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/LCTXFxNv"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest029"]
+[Black "SignalTrain115"]
+[Result "0-1"]
+[GameId "LCTXFxNv"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:54:53"]
+[WhiteElo "2211"]
+[BlackElo "2389"]
+[WhiteRatingDiff "-52"]
+[BlackRatingDiff "+21"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D00"]
+[Opening "Blackmar-Diemer Gambit: Lemberger Countergambit, Endgame Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. d4 { [%clk 0:10:07] } 2... d5 { [%clk 0:10:06] } 3. dxe5 { [%clk 0:10:10] } 3... dxe4 { [%clk 0:10:08] } 4. Nc3 { [%clk 0:10:13] } 4... Qxd1+ { [%clk 0:10:11] } 5. Nxd1 { [%clk 0:10:16] } 5... Nc6 { [%clk 0:10:14] } 6. Bf4 { [%clk 0:10:17] } 6... Nge7 { [%clk 0:10:16] } 7. Nc3 { [%clk 0:10:20] } 7... Ng6 { [%clk 0:10:19] } 8. Bg3 { [%clk 0:10:23] } 8... Bb4 { [%clk 0:10:21] } 9. Ne2 { [%clk 0:10:26] } 9... Ncxe5 { [%clk 0:10:23] } 10. O-O-O { [%clk 0:10:28] } 10... f5 { [%clk 0:10:26] } 11. Nd5 { [%clk 0:10:31] } 11... Bd6 { [%clk 0:10:28] } 12. Nd4 { [%clk 0:10:34] } 12... O-O { [%clk 0:10:31] } 13. Nb5 { [%clk 0:10:36] } 13... f4 { [%clk 0:10:34] } 14. Nxd6 { [%clk 0:10:38] } 14... cxd6 { [%clk 0:10:36] } 15. Nc7 { [%clk 0:10:40] } 15... Rb8 { [%clk 0:10:39] } 16. Rxd6 { [%clk 0:10:43] } 16... fxg3 { [%clk 0:10:41] } 17. hxg3 { [%clk 0:10:46] } 17... Rxf2 { [%clk 0:10:44] } 18. Rd8+ { [%clk 0:10:48] } 18... Rf8 { [%clk 0:10:47] } 19. Rxf8+ { [%clk 0:10:51] } 19... Nxf8 { [%clk 0:10:49] } 20. Rh5 { [%clk 0:10:54] } 20... Nfg6 { [%clk 0:10:52] } 21. Nd5 { [%clk 0:10:56] } 21... Be6 { [%clk 0:10:55] } 22. Nf4 { [%clk 0:10:59] } 22... Bg4 { [%clk 0:10:58] } 23. Rg5 { [%clk 0:11:02] } 23... Rd8 { [%clk 0:11:01] } 24. Nxg6 { [%clk 0:11:05] } 24... Rd1# { [%clk 0:10:59] } 0-1
+
+

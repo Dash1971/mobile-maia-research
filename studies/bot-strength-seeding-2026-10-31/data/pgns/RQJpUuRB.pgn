@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/RQJpUuRB"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest037"]
+[Black "SignalTrain083"]
+[Result "1-0"]
+[GameId "RQJpUuRB"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:11:10"]
+[WhiteElo "2311"]
+[BlackElo "2449"]
+[WhiteRatingDiff "+92"]
+[BlackRatingDiff "-44"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Williams Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... Nc6 { [%clk 0:10:02] } 2. Nf3 { [%clk 0:10:07] } 2... d6 { [%clk 0:10:05] } 3. Bc4 { [%clk 0:10:10] } 3... Bg4 { [%clk 0:10:07] } 4. Bxf7+ { [%clk 0:10:13] } 4... Kxf7 { [%clk 0:10:10] } 5. Ng5+ { [%clk 0:10:16] } 5... Kg6 { [%clk 0:10:13] } 6. Qxg4 { [%clk 0:10:19] } 6... Nf6 { [%clk 0:10:15] } 7. Qf5+ { [%clk 0:10:21] } 7... Kh6 { [%clk 0:10:18] } 8. Nf7# { [%clk 0:10:19] } 1-0
+
+

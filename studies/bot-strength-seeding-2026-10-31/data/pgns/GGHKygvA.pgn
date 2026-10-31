@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/GGHKygvA"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "GhostRelay"]
+[Black "AnalogGhost"]
+[Result "0-1"]
+[GameId "GGHKygvA"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:52:24"]
+[WhiteElo "1605"]
+[BlackElo "1626"]
+[WhiteRatingDiff "-24"]
+[BlackRatingDiff "+23"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. d3 { [%clk 0:10:07] } 2... d4 { [%clk 0:10:06] } 3. Nf3 { [%clk 0:10:11] } 3... Nc6 { [%clk 0:10:09] } 4. h3 { [%clk 0:10:13] } 4... e5 { [%clk 0:10:12] } 5. Be2 { [%clk 0:10:16] } 5... f5 { [%clk 0:10:15] } 6. Nh2 { [%clk 0:10:19] } 6... f4 { [%clk 0:10:18] } 7. Nd2 { [%clk 0:10:22] } 7... Nf6 { [%clk 0:10:21] } 8. O-O { [%clk 0:10:25] } 8... Bd7 { [%clk 0:10:24] } 9. Ng4 { [%clk 0:10:28] } 9... Qe7 { [%clk 0:10:27] } 10. Nxf6+ { [%clk 0:10:30] } 10... Qxf6 { [%clk 0:10:30] } 11. c3 { [%clk 0:10:33] } 11... h5 { [%clk 0:10:33] } 12. Nf3 { [%clk 0:10:36] } 12... g5 { [%clk 0:10:36] } 13. Qb3 { [%clk 0:10:38] } 13... g4 { [%clk 0:10:39] } 14. cxd4 { [%clk 0:10:41] } 14... gxf3 { [%clk 0:10:42] } 15. Qxb7 { [%clk 0:10:44] } 15... Rb8 { [%clk 0:10:45] } 16. dxe5 { [%clk 0:10:47] } 16... Qg5 { [%clk 0:10:48] } 17. Qa6 { [%clk 0:10:50] } 17... Qxg2# { [%clk 0:10:46] } 0-1
+
+

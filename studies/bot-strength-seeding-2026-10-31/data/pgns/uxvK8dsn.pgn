@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/uxvK8dsn"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain118"]
+[Black "SignalTest015"]
+[Result "1-0"]
+[GameId "uxvK8dsn"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:01:12"]
+[WhiteElo "1308"]
+[BlackElo "1442"]
+[WhiteRatingDiff "+37"]
+[BlackRatingDiff "-112"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C23"]
+[Opening "Bishop's Opening: Boi Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Bc4 { [%clk 0:05:03] } 2... Bc5 { [%clk 0:05:01] } 3. Qh5 { [%clk 0:05:04] } 3... Nf6 { [%clk 0:05:02] } 4. Qxf7# { [%clk 0:05:02] } 1-0
+
+

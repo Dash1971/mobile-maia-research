@@ -1,0 +1,99 @@
+{
+  "bootstrap": {
+    "method": "numpy-default_rng-configuration-bootstrap",
+    "numpyVersion": "2.3.5",
+    "replicates": 1000,
+    "seed": 137
+  },
+  "capacity": {
+    "elapsedHours": 6.549451111091508,
+    "games": 2623,
+    "recordedTotalCpuTimeWeightedLogicalCores": 4.277892187896335,
+    "recordedTotalSampledMemoryMaxGiB": 3.476837158203125,
+    "resourceSamples": 2246,
+    "workerCpuTimeWeightedLogicalCores": 3.604838280267436
+  },
+  "heldout": {
+    "Primary V1": {
+      "blitz": {
+        "configurationBootstrapMae95": [
+          108.01442056611826,
+          156.94925012107552
+        ],
+        "mae": 131.4013479187921
+      },
+      "rapid": {
+        "configurationBootstrapMae95": [
+          100.16318812888174,
+          157.86099000043532
+        ],
+        "mae": 127.33595922277317
+      }
+    },
+    "Recorded seed": {
+      "blitz": {
+        "configurationBootstrapMae95": [
+          99.28218881421509,
+          149.55398506846458
+        ],
+        "mae": 124.04174503357645
+      },
+      "rapid": {
+        "configurationBootstrapMae95": [
+          93.78139777410121,
+          150.45243475176443
+        ],
+        "mae": 119.52482463786322
+      }
+    },
+    "Secondary V2": {
+      "blitz": {
+        "configurationBootstrapMae95": [
+          104.0049005365318,
+          154.76535167564666
+        ],
+        "mae": 127.68108321305608
+      },
+      "rapid": {
+        "configurationBootstrapMae95": [
+          100.1631881288814,
+          157.86099000043515
+        ],
+        "mae": 127.33595922277289
+      }
+    }
+  },
+  "inputSha256": {
+    "data/design-manifest.json": "3d9c50657ae416fbf9d7fbf4a22465df840e593f5f014036b1d3346faaede00b",
+    "data/evaluation.json": "951377e2a6b3df1eec7905cda6e818467aa7f4ad4c0783acfe282663032f8d2f",
+    "data/execution-summary.json": "44dcdd38672a51f35c8f3e1e7429cc4806ceb5713ce9d86e9e5ce7d7216809f5",
+    "data/final-native-perfs.json": "54133a3d7328674ba085bb4c6b95203cd1602d6ee5e785f0f5d6e828fb885605",
+    "data/frozen-predictions-v1.csv": "5ff711d3c1ee4fe99c5c09b503338828eb44537a0cccbf972bafead1a32c1df7",
+    "data/frozen-predictions-v2.csv": "4736be0fa23cc75e7cafad52760326f5f7e707de069376fa45e18c42662f78c4",
+    "data/games.jsonl.gz": "a2025e44f7f0ab038c7cb8fcfaae145d50550e6ad282ed6bcdb5d6bd9ae3ccbd",
+    "data/initial-native-perfs.json": "01f06aaf4e42f0a404ff2e9f288c803b0505ad19dcd889aaa5694f67e079f336",
+    "data/ratings.csv": "b824b9a989a793869cd77544fd57c4f6f1ece46e3f15866843cc074b60056ca6",
+    "data/resources-projection.jsonl.gz": "3ee2560b894c1f6a808b1b49ee8c5ba5a2164d787372f639f3a9f99a6a29b3bc",
+    "data/seed-baseline.csv": "2bb1d6fc14b01dcd28d9be9c53a45c1114f77fef95b50322a70d36ee243e3734"
+  },
+  "original44": {
+    "blitz": {
+      "finalMedianRd": 79.70550030706463,
+      "finalNonprovisional": 43,
+      "initialMedianRd": 112.09765732800804,
+      "initialNonprovisional": 20,
+      "meanAbsoluteRatingChange": 75.08046820748353
+    },
+    "rapid": {
+      "finalMedianRd": 81.50067098463418,
+      "finalNonprovisional": 44,
+      "initialMedianRd": 111.95478140879331,
+      "initialNonprovisional": 19,
+      "meanAbsoluteRatingChange": 44.65197952455532
+    }
+  },
+  "versions": {
+    "matplotlib": "3.10.7",
+    "numpy": "2.3.5"
+  }
+}

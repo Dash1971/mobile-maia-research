@@ -1,0 +1,18 @@
+{
+  "schema": "strength137-original-public-projection-v1",
+  "rawPrimaryFitArtifactIncluded": false,
+  "rawSecondaryFitArtifactIncluded": false,
+  "rawSourceArtifacts": {
+    "checkpoint.json": "4256533652fa8e335a2cd173c32f69530c3228073c7c429022f3fc8d8dec13bb",
+    "events.jsonl": "7a793c3a7db75556d65ac706ae380e073c43e68dcdff344576bc584b0b6bd4c1",
+    "resources.jsonl": "e9ee95f5d20eb2f4c6b21da3f49276456925afef3df21a61eed78618dec57b8c",
+    "supervisor.json": "8765cd36184848eaca6ecbd7fbcf9f2f9b6bb373c8235a447e5e3529dde554f8",
+    "frozen-predictor.json": "822decace6b245b895304203a40611e9ad4787c4cbda9d4ffbb33b554eb3f186",
+    "training-ratings.json": "4a88c1dd54420b81237f4323b52f328330bd46494866bc890daf9581522fe436",
+    "final-ratings.json": "54133a3d7328674ba085bb4c6b95203cd1602d6ee5e785f0f5d6e828fb885605",
+    "final-records.json": "d605d2c13e131888c354dcedf17d833f787219d11d7c8909b14c758c62388068"
+  },
+  "frozenPredictionExtraction": "All250 identities, both speeds; exact Python repr of saved rating predictions; coefficients omitted.",
+  "seedBaselineDefinition": "Every identity uses configurations[].ratings[speed].initial_rating; unvalidated published starting prior, not a fitted model.",
+  "scope": "Original public BOT-only segment. No private qualification games or human identifiers."
+}

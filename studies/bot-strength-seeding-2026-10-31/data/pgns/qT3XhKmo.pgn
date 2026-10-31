@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/qT3XhKmo"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain050"]
+[Black "SignalTrain079"]
+[Result "0-1"]
+[GameId "qT3XhKmo"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:59:54"]
+[WhiteElo "1419"]
+[BlackElo "1516"]
+[WhiteRatingDiff "-53"]
+[BlackRatingDiff "+57"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[Termination "Normal"]
+
+1. e3 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. f4 { [%clk 0:05:03] } 2... Nf6 { [%clk 0:05:01] } 3. Nf3 { [%clk 0:05:03] } 3... exf4 { [%clk 0:05:02] } 4. b3 { [%clk 0:05:04] } 4... fxe3 { [%clk 0:05:02] } 5. dxe3 { [%clk 0:05:05] } 5... Bc5 { [%clk 0:05:03] } 6. Bb2 { [%clk 0:05:06] } 6... Bxe3 { [%clk 0:05:03] } 7. Qe2 { [%clk 0:05:06] } 7... Qe7 { [%clk 0:05:04] } 8. Bxf6 { [%clk 0:05:07] } 8... gxf6 { [%clk 0:05:05] } 9. Nc3 { [%clk 0:05:08] } 9... Nc6 { [%clk 0:05:06] } 10. Nd5 { [%clk 0:05:09] } 10... Qe4 { [%clk 0:05:07] } 11. Nxc7+ { [%clk 0:05:09] } 11... Kd8 { [%clk 0:05:07] } 12. Nxa8 { [%clk 0:05:10] } 12... Nd4 { [%clk 0:05:08] } 13. Nxd4 { [%clk 0:05:11] } 13... Qxd4 { [%clk 0:05:09] } 14. Rd1 { [%clk 0:05:12] } 14... Qc3+ { [%clk 0:05:10] } 15. Rd2 { [%clk 0:05:12] } 15... Bxd2+ { [%clk 0:05:10] } 16. Qxd2 { [%clk 0:05:13] } 16... Re8+ { [%clk 0:05:10] } 17. Kd1 { [%clk 0:05:14] } 17... Qa1+ { [%clk 0:05:11] } 18. Qc1 { [%clk 0:05:15] } 18... Qd4+ { [%clk 0:05:12] } 19. Bd3 { [%clk 0:05:15] } 19... Qg4+ { [%clk 0:05:13] } 20. Kd2 { [%clk 0:05:16] } 20... Qxg2+ { [%clk 0:05:14] } 21. Kc3 { [%clk 0:05:16] } 21... Qc6+ { [%clk 0:05:15] } 22. Kb2 { [%clk 0:05:17] } 22... b6 { [%clk 0:05:16] } 23. Nxb6 { [%clk 0:05:18] } 23... Qxb6 { [%clk 0:05:17] } 24. Bxh7 { [%clk 0:05:19] } 24... Qd4+ { [%clk 0:05:17] } 25. c3 { [%clk 0:05:19] } 25... Re2+ { [%clk 0:05:18] } 26. Ka3 { [%clk 0:05:20] } 26... Qc5+ { [%clk 0:05:19] } 27. b4 { [%clk 0:05:20] } 27... Qc4 { [%clk 0:05:20] } 28. Re1 { [%clk 0:05:21] } 28... Qxa2# { [%clk 0:05:18] } 0-1
+
+

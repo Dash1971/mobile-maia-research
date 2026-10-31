@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/IA2tD9uX"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain057"]
+[Black "SignalTrain024"]
+[Result "1-0"]
+[GameId "IA2tD9uX"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:25:35"]
+[WhiteElo "1964"]
+[BlackElo "2039"]
+[WhiteRatingDiff "+92"]
+[BlackRatingDiff "-88"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "E70"]
+[Opening "King's Indian Defense: Normal Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:05:03] } 1... Nf6 { [%clk 0:05:01] } 2. c4 { [%clk 0:05:03] } 2... g6 { [%clk 0:05:01] } 3. Nc3 { [%clk 0:05:04] } 3... Bg7 { [%clk 0:05:02] } 4. e4 { [%clk 0:05:05] } 4... O-O { [%clk 0:05:03] } 5. Nf3 { [%clk 0:05:05] } 5... c5 { [%clk 0:05:04] } 6. d5 { [%clk 0:05:06] } 6... d6 { [%clk 0:05:05] } 7. Bd3 { [%clk 0:05:07] } 7... e5 { [%clk 0:05:05] } 8. O-O { [%clk 0:05:08] } 8... Nh5 { [%clk 0:05:06] } 9. Bg5 { [%clk 0:05:09] } 9... Bf6 { [%clk 0:05:07] } 10. Bxf6 { [%clk 0:05:09] } 10... Qxf6 { [%clk 0:05:08] } 11. Nb5 { [%clk 0:05:10] } 11... a6 { [%clk 0:05:09] } 12. Nc7 { [%clk 0:05:11] } 12... Ra7 { [%clk 0:05:09] } 13. Qa4 { [%clk 0:05:12] } 13... Bg4 { [%clk 0:05:10] } 14. Be2 { [%clk 0:05:13] } 14... Qe7 { [%clk 0:05:11] } 15. Nb5 { [%clk 0:05:13] } 15... Nf4 { [%clk 0:05:12] } 16. Nxa7 { [%clk 0:05:14] } 16... Nxe2+ { [%clk 0:05:12] } 17. Kh1 { [%clk 0:05:15] } 17... Bxf3 { [%clk 0:05:13] } 18. gxf3 { [%clk 0:05:16] } 18... Nd4 { [%clk 0:05:14] } 19. Rg1 { [%clk 0:05:17] } 19... Nxf3 { [%clk 0:05:14] } 20. Rg3 { [%clk 0:05:17] } 20... Nd4 { [%clk 0:05:15] } 21. Rag1 { [%clk 0:05:18] } 21... f5 { [%clk 0:05:16] } 22. exf5 { [%clk 0:05:19] } 22... Rxf5 { [%clk 0:05:17] } 23. Nc8 { [%clk 0:05:21] } 23... Qf6 { [%clk 0:05:17] } 24. Qe8+ { [%clk 0:05:21] } 24... Kg7 { [%clk 0:05:18] } 25. Ne7 { [%clk 0:05:22] } 25... Rxf2 { [%clk 0:05:19] } 26. Qg8+ { [%clk 0:05:23] } 26... Kh6 { [%clk 0:05:19] } 27. Rh3+ { [%clk 0:05:24] } 27... Qh4 { [%clk 0:05:19] } 28. Rxh4# { [%clk 0:05:22] } 1-0
+
+

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/AWTV9F2U"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest049"]
+[Black "SignalTrain130"]
+[Result "0-1"]
+[GameId "AWTV9F2U"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:29:38"]
+[WhiteElo "2446"]
+[BlackElo "2335"]
+[WhiteRatingDiff "-202"]
+[BlackRatingDiff "+35"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D08"]
+[Opening "Queen's Gambit Declined: Albin Countergambit, Modern Line"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:02] } 2. c4 { [%clk 0:10:07] } 2... e5 { [%clk 0:10:05] } 3. dxe5 { [%clk 0:10:09] } 3... d4 { [%clk 0:10:08] } 4. Nf3 { [%clk 0:10:12] } 4... Nc6 { [%clk 0:10:11] } 5. Nbd2 { [%clk 0:10:15] } 5... Be6 { [%clk 0:10:14] } 6. a3 { [%clk 0:10:17] } 6... Qd7 { [%clk 0:10:17] } 7. b4 { [%clk 0:10:20] } 7... O-O-O { [%clk 0:10:18] } 8. Bb2 { [%clk 0:10:23] } 8... f6 { [%clk 0:10:20] } 9. exf6 { [%clk 0:10:25] } 9... Nxf6 { [%clk 0:10:22] } 10. g3 { [%clk 0:10:28] } 10... Bh3 { [%clk 0:10:25] } 11. Bxh3 { [%clk 0:10:31] } 11... Qxh3 { [%clk 0:10:28] } 12. b5 { [%clk 0:10:34] } 12... Na5 { [%clk 0:10:30] } 13. Qa4 { [%clk 0:10:36] } 13... b6 { [%clk 0:10:33] } 14. Bxd4 { [%clk 0:10:39] } 14... Ng4 { [%clk 0:10:35] } 15. Bc3 { [%clk 0:10:41] } 15... Bc5 { [%clk 0:10:38] } 16. Rf1 { [%clk 0:10:43] } 16... Rhe8 { [%clk 0:10:41] } 17. Bxa5 { [%clk 0:10:46] } 17... bxa5 { [%clk 0:10:44] } 18. Qxa5 { [%clk 0:10:48] } 18... Qg2 { [%clk 0:10:47] } 19. Qa6+ { [%clk 0:10:51] } 19... Kb8 { [%clk 0:10:49] } 20. O-O-O { [%clk 0:10:53] } 20... Nxf2 { [%clk 0:10:51] } 21. Nb3 { [%clk 0:10:56] } 21... Nxd1 { [%clk 0:10:53] } 22. Na5 { [%clk 0:10:59] } 22... Bxa3+ { [%clk 0:10:56] } 23. Kb1 { [%clk 0:11:01] } 23... Nc3+ { [%clk 0:10:59] } 24. Kc2 { [%clk 0:11:04] } 24... Qxe2+ { [%clk 0:11:01] } 25. Nd2 { [%clk 0:11:07] } 25... Qxd2+ { [%clk 0:11:04] } 26. Kb3 { [%clk 0:11:09] } 26... Qb2# { [%clk 0:11:01] } 0-1
+
+

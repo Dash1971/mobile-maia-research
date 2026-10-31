@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/GkNMsruB"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain073"]
+[Black "SignalTrain135"]
+[Result "0-1"]
+[GameId "GkNMsruB"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:07:11"]
+[WhiteElo "1318"]
+[BlackElo "1443"]
+[WhiteRatingDiff "-36"]
+[BlackRatingDiff "+30"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A00"]
+[Opening "Grob Opening"]
+[Termination "Normal"]
+
+1. g4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Bg2 { [%clk 0:10:07] } 2... Qf6 { [%clk 0:10:05] } 3. e4 { [%clk 0:10:10] } 3... Bc5 { [%clk 0:10:08] } 4. b3 { [%clk 0:10:12] } 4... Qxf2# { [%clk 0:10:06] } 0-1
+
+

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/c9R3ICHp"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain065"]
+[Black "PocketStatic"]
+[Result "0-1"]
+[GameId "c9R3ICHp"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:53:51"]
+[WhiteElo "1324"]
+[BlackElo "1132"]
+[WhiteRatingDiff "-75"]
+[BlackRatingDiff "+29"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:02] } 2. f3 { [%clk 0:10:07] } 2... e5 { [%clk 0:10:05] } 3. d3 { [%clk 0:10:10] } 3... dxe4 { [%clk 0:10:07] } 4. fxe4 { [%clk 0:10:12] } 4... Bb4+ { [%clk 0:10:10] } 5. c3 { [%clk 0:10:15] } 5... Bc5 { [%clk 0:10:13] } 6. b4 { [%clk 0:10:17] } 6... Bb6 { [%clk 0:10:15] } 7. a4 { [%clk 0:10:20] } 7... Qf6 { [%clk 0:10:18] } 8. a5 { [%clk 0:10:22] } 8... Qf2# { [%clk 0:10:15] } 0-1
+
+

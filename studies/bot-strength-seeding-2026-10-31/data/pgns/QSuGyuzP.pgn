@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/QSuGyuzP"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "Patchwork"]
+[Black "SignalTrain029"]
+[Result "1-0"]
+[GameId "QSuGyuzP"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:13:58"]
+[WhiteElo "1359"]
+[BlackElo "1180"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-53"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Qh5 { [%clk 0:10:08] } 2... Nf6 { [%clk 0:10:05] } 3. Qxe5+ { [%clk 0:10:10] } 3... Be7 { [%clk 0:10:08] } 4. Qg5 { [%clk 0:10:13] } 4... Nxe4 { [%clk 0:10:11] } 5. Qe5 { [%clk 0:10:16] } 5... Nf6 { [%clk 0:10:14] } 6. Qg5 { [%clk 0:10:19] } 6... Ne4 { [%clk 0:10:16] } 7. Qxg7 { [%clk 0:10:21] } 7... Rf8 { [%clk 0:10:19] } 8. Qxh7 { [%clk 0:10:24] } 8... Nf6 { [%clk 0:10:22] } 9. Qf5 { [%clk 0:10:27] } 9... Nc6 { [%clk 0:10:24] } 10. Bc4 { [%clk 0:10:30] } 10... Nd4 { [%clk 0:10:27] } 11. Qd3 { [%clk 0:10:33] } 11... c5 { [%clk 0:10:30] } 12. Nf3 { [%clk 0:10:36] } 12... Nxf3+ { [%clk 0:10:33] } 13. Qxf3 { [%clk 0:10:38] } 13... d5 { [%clk 0:10:35] } 14. Bb5+ { [%clk 0:10:41] } 14... Bd7 { [%clk 0:10:38] } 15. Bxd7+ { [%clk 0:10:43] } 15... Qxd7 { [%clk 0:10:41] } 16. Nc3 { [%clk 0:10:46] } 16... d4 { [%clk 0:10:44] } 17. Ne4 { [%clk 0:10:49] } 17... Nxe4 { [%clk 0:10:46] } 18. Qxe4 { [%clk 0:10:52] } 18... f5 { [%clk 0:10:49] } 19. Qf3 { [%clk 0:10:55] } 19... O-O-O { [%clk 0:10:52] } 20. O-O { [%clk 0:10:58] } 20... f4 { [%clk 0:10:55] } 21. d3 { [%clk 0:11:01] } 21... b5 { [%clk 0:10:58] } 22. Bxf4 { [%clk 0:11:04] } 22... c4 { [%clk 0:11:01] } 23. dxc4 { [%clk 0:11:07] } 23... bxc4 { [%clk 0:11:03] } 24. Qa8# { [%clk 0:11:04] } 1-0
+
+
