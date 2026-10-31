@@ -27,7 +27,8 @@ This bundle describes the completed `r20261031n163` follow-up. The earlier
 | `data/integrity-lineage.json` | Input commitments, extraction/verifier source hashes and the core public projection hashes |
 | `data/refit-verification.json` | Exact training-only numerical reproduction receipt; no outcome-based fitting |
 | `audit-report.json` | Public integrity verifier's recomputed completion, replay, count and freeze results |
-| `figures/figure-metrics.json` | Figure input hashes, resource arithmetic, exclusions and conditional capacity scenarios |
+| `figures/figure-metrics.json` | Technical figure input hashes, resource arithmetic, exclusions and conditional capacity scenarios |
+| `figures/reader-figure-metrics.json` | Input hashes and measured values used by the illustrated public report |
 | `SHA256SUMS` | All published study artifacts except this checksum file itself |
 
 The raw driver freeze includes all 250 native perf rows. Only the fixed 200

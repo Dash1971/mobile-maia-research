@@ -1,13 +1,34 @@
-# Established Maia bot ratings — evidence and reproduction
+# Bot rating estimates: data and reproduction
 
-[Read the report](REPORT.md). The same 250 Mute Chess bots completed 826 additional
-native rated games and finished nonprovisional in both Blitz and Rapid. Their
-Lichess-derived priors and earned histories were retained. A fixed V2 prediction
-freeze followed 349 training games and preceded 477 new test games. Frozen V2
-average error against final native test labels was about 116 points per speed;
-the 100-point target was not met. Native establishment and predictor accuracy
-are different results. The original
-[2,623-game report](../bot-strength-seeding-2026-10-31/REPORT.md) remains unchanged.
+The [public report](REPORT.md) explains how Mute Chess uses a varied Maia
+reference pool to estimate starting ratings for new bots. This guide contains
+the exact settings, recorded results and reproduction steps behind that article.
+The estimates averaged 115.8 rating points of error in Blitz and 116.0 in Rapid
+across 50 test configurations; the 100-point target was not met.
+
+## Method reference
+
+| Detail | Recorded method |
+| --- | --- |
+| Model and input range | Maia3-79M; both conditioning inputs equal the bot's fixed 600–2600 setting |
+| Varied controls | Persistent Temperature/Top-P in 0–1, fixed history on/off, and recorded opening rules |
+| Opening behavior | Preserve the original policies; generated configurations use full sampling for five full moves before their assigned settings |
+| Rating anchor | Historical Lichess Maia3-79M account evidence, with the earlier sampling-policy baseline correction already retained in earned ratings |
+| Earned ratings | Native Lichess Glicko-2; RD strictly below 110 is nonprovisional; no forced flags, copied counts or reseeding |
+| Fit and check groups | Fixed 200 training /50 test identities; equivalent effective policies share cross-validation groups |
+| Frozen procedure | `strength137-ridge-rbf-effective-cv-v2`; weighted ridge, fixed additive/interaction candidates and penalty grid; training-only selection |
+| Prediction freeze | Exact drained snapshot after all 400 training bot/speed ratings were established, before the 477 new test games |
+| Test interpretation | Previously observed configurations; inherited training histories include earlier test results; this is not a new blind validation |
+| Timing | Added human timing waits disabled for study games; native clocks retained; production timing personalities unchanged |
+
+The exact anchor and sampling-adjustment provenance, run chronology, source
+pins, native criterion and capacity observations remain in the
+[original technical record](https://github.com/Dash1971/mobile-maia-research/blob/896eeffe9af20531c688ec71e9e28e0c978bbe90/studies/bot-rating-establishment-2026-10-31/REPORT.md),
+[provenance](provenance.json) and recorded data below. The earlier
+[2,623-game dataset](../bot-strength-seeding-2026-10-31/README.md) is preserved
+separately; together with this guide's 826-game dataset it provides the 3,449
+published games cited in the article. The baseline retains older earned history
+as well. No new games, fitted procedure or rating writes accompany this rewrite.
 
 ## Evidence map
 
@@ -39,8 +60,9 @@ are different results. The original
 - `tools/predictor_v2.py`, `tools/check_evaluation.py`, `tools/check_refit.py` and
   `data/refit-verification.json`: exact pinned procedure, evaluator reproduction
   and separate frozen-training-only numerical refit check.
-- `figures/`, `tools/build_figures.py`, `requirements-figures.txt`: three PNG/SVG
-  figure pairs and their reproducible metrics/input hashes.
+- `figures/`, `tools/build_figures.py`, `tools/build_reader_figures.py` and
+  `requirements-figures.txt`: technical and reader-facing PNG/SVG figures with
+  reproducible metrics/input hashes.
 - `SHA256SUMS`: publication-file checksums, excluding the checksum file itself.
 
 ## Cached verification
@@ -91,6 +113,8 @@ copy to preserve the published reference files:
 cp -R . /tmp/mute-night163-figures
 PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/mute-night163-mpl \
   /tmp/mute-night163-verify/bin/python /tmp/mute-night163-figures/tools/build_figures.py
+PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/mute-night163-mpl \
+  /tmp/mute-night163-verify/bin/python /tmp/mute-night163-figures/tools/build_reader_figures.py
 ```
 
 The script uses saved public projections, performs no fit or inference, and
