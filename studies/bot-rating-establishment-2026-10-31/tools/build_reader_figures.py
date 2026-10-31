@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """Public explanation charts; saved measurements only, no neural inference.
 
-The catalog distribution is a proposed allocation. The sampling effects are
+The catalog distribution is the generated, not yet activated allocation. The sampling effects are
 controlled earlier match results; the native ratings are the unchanged pool
 snapshot. These distinct sources are never pooled into a causal effect.
 """
 import hashlib
 import json
 from pathlib import Path
+
+from audit_catalog_allocation import audit_catalog
 
 import matplotlib
 matplotlib.use('Agg')
@@ -71,15 +73,7 @@ def main():
     sources = read('reader-chart-sources.json')
     assert len(roster) == 250
     assert all(not perf[s]['provisional'] for perf in final.values() for s in ('blitz', 'rapid'))
-    bands = sources['roster']['bands']
-    # Independently reproduce largest-remainder allocation at 10-name resolution.
-    cumulative = list(sources['roster']['cumulativeBelowRatingPercent'].values()) + [100]
-    shares = [b - a for a, b in zip(cumulative, cumulative[1:])]
-    units = [1000 * s / sum(shares) for s in shares]
-    allocation = [int(n) for n in units]
-    for i in sorted(range(6), key=lambda j: units[j] - allocation[j], reverse=True)[:1000-sum(allocation)]:
-        allocation[i] += 1
-    assert [n * 10 for n in allocation] == [b['count'] for b in bands]
+    catalog = audit_catalog(ROOT)
 
     fig, ax = page(10, 8.6)
     text(ax, .06, .94, 'MOBILE MAIA RESEARCH  /  MUTE CHESS', 12, TEAL, 'bold')
@@ -145,23 +139,34 @@ def main():
     text(canvas,.06,.03,'Native Glicko-2 ratings, starting from the Lichess-informed reference. Color uses 1 − Temperature × Top-P.',10,MUTED)
     save(fig,'reader-settings')
 
-    fig,canvas=page(10,7.6)
-    text(canvas,.06,.93,'A busy middle. A small strong tail.',27,weight='bold')
-    text(canvas,.06,.866,'Proposed allocation for 10,000 identities • Informed by Lichess Blitz',14,MUTED)
-    ax=fig.add_axes([.22,.25,.68,.50]);style_chart(ax)
-    counts=[b['count'] for b in bands]
-    ax.barh(range(6),counts,color=[TEAL,TEAL,TEAL,BLUE,BLUE,BLUE],height=.63)
-    for i,count in enumerate(counts):
-        ax.text(count+65,i,f'{count:,}',va='center',fontsize=13,fontweight='bold')
-    ax.set(yticks=range(6),yticklabels=[b['label'] for b in bands],xlim=(0,4000),xlabel='Planned bot identities')
+    fig,canvas=page(10,8.5)
+    text(canvas,.06,.94,'A busy middle. A small strong tail.',27,weight='bold')
+    text(canvas,.06,.885,'Generated allocation for 10,000 identities • Activation pending',14,MUTED)
+    ax=fig.add_axes([.23,.27,.66,.52]);style_chart(ax)
+    labels=['Below 1,000*','1,000–1,399','1,400–1,799','1,800–2,199','2,200–2,599','2,600+']
+    for speed,offset,color in [('blitz',-.18,TEAL),('rapid',.18,BLUE)]:
+        counts=catalog['speeds'][speed]['bandCounts']
+        positions=[i+offset for i in range(6)]
+        ax.barh(positions,counts,color=color,height=.30,label=speed.title())
+        for y,count in zip(positions,counts):
+            ax.text(count+55,y,f'{count:,}',va='center',fontsize=11,fontweight='bold',color=color)
+    ax.set(yticks=range(6),yticklabels=labels,xlim=(0,4200),xlabel='Generated bot identities per speed')
     ax.invert_yaxis();ax.tick_params(axis='y',labelsize=12)
-    text(canvas,.06,.14,'Most opponents sit where most players are.',17,weight='bold')
-    text(canvas,.06,.088,'Rounded from the official weekly Blitz chart observed October 31, 2026 UTC; excludes below 600.',10.5,MUTED)
-    text(canvas,.06,.048,'This is a roster plan, not an activated catalog. The weakest target band still needs calibration.',10.5,MUTED)
+    ax.legend(loc='lower right',frameon=False,fontsize=12)
+    text(canvas,.06,.17,'Both ratings come from the same measured playing policy.',15,weight='bold')
+    text(canvas,.06,.118,'Weekly Lichess Blitz and Rapid snapshots, October 30, 2026; target distributions restricted to 800+.',10,MUTED)
+    text(canvas,.06,.076,'Includes all 250 preserved references and 9,750 new identities with assigned ratings and zero games.',10,MUTED)
+    text(canvas,.06,.035,'* Mostly 800–999. One preserved Blitz reference is below 800. These are prepared counts, not live accounts.',10,MUTED)
     save(fig,'reader-roster')
 
-    inputs=('configurations.json','final-native-perfs.json','reader-chart-sources.json')
-    metrics={'referenceBots':250,'finalEstablishedBotSpeedRatings':500,'proposedCatalogCount':sum(counts),
+    inputs=('configurations.json','final-native-perfs.json','reader-chart-sources.json',
+            'catalog-2026-11-01/catalog-manifest.json','catalog-2026-11-01/source-provenance.json',
+            'catalog-2026-11-01/distribution-blitz.json','catalog-2026-11-01/distribution-rapid.json',
+            'catalog-2026-11-01/distribution-source.json')
+    metrics={'referenceBots':250,'finalEstablishedBotSpeedRatings':500,'generatedCatalogCount':catalog['total'],
+      'generatedBandCounts':{s:catalog['speeds'][s]['bandCounts'] for s in ('blitz','rapid')},
+      'catalogSourceCommit':catalog['sourceCommit'],'activation':'pending',
+      'newAssignedRd':catalog['assignedRd'],'newAssignedGameCount':catalog['assignedGameCount'],
       'samplingEffects':[c['gain'] for c in comps], 'neuralInferencePerformed':False,
       'inputsSha256':{n:hashlib.sha256((ROOT/'data'/n).read_bytes()).hexdigest() for n in inputs}}
     (OUT/'reader-figure-metrics.json').write_text(json.dumps(metrics,indent=2)+'\n')

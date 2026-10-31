@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "status": "Generated catalog source prepared for deployment; activation pending; no new games or inference",
+  "sourceRepository": "https://github.com/Dash1971/mute-chess",
+  "sourceCommit": "7b8f5d4625c77a6ff7e30985f6d6b1904cc26a93",
+  "sourcePullRequest": "https://github.com/Dash1971/mute-chess/pull/174",
+  "sourceIssue": "https://github.com/Dash1971/mute-chess/issues/172",
+  "sourceCommitStatusAtPublicationPreparation": "Reviewed preparation branch; not a claim of merged-main deployment",
+  "referenceResearchCommit": "d12f93536442c636d56ec23313e89807a2771467",
+  "copiedArtifacts": [
+    {
+      "localFile": "catalog-manifest.json",
+      "sourcePath": "docs/data/catalog-2026-11-01/catalog-manifest.json",
+      "sha256": "9c2670e0691774c0c9c4cb46d858aed3abad7a9629f1d6d0293a07163e531ecf"
+    },
+    {
+      "localFile": "distribution-blitz.json",
+      "sourcePath": "docs/data/catalog-2026-11-01/distribution-blitz.json",
+      "sha256": "63a2b3f363b57c6bf481f217fe12b7ad2cdf1b2fbecf21466a00ea77a200ad92"
+    },
+    {
+      "localFile": "distribution-rapid.json",
+      "sourcePath": "docs/data/catalog-2026-11-01/distribution-rapid.json",
+      "sha256": "11c9fe444c0bf46febf581508918445f012bc462d44c3e93e51594ce45259fe9"
+    },
+    {
+      "localFile": "distribution-source.json",
+      "sourcePath": "docs/data/catalog-2026-11-01/distribution-source.json",
+      "sha256": "183e5ddc66e7b6448e44c50f089c3694252ca0b2e6335ca8a9aea53e29fa76fa"
+    }
+  ],
+  "referenceInputs": [
+    {
+      "sourcePath": "docs/data/catalog-2026-11-01/reference-settings.json",
+      "sourceSha256": "1dd3f4b90c99a2afdb77953ba6799fac965abe2123a3b3699aa2980686b3523b",
+      "publishedFile": "../configurations.json",
+      "publishedSha256": "1dd3f4b90c99a2afdb77953ba6799fac965abe2123a3b3699aa2980686b3523b",
+      "relationship": "Parsed JSON identical; original research file unchanged"
+    },
+    {
+      "sourcePath": "docs/data/catalog-2026-11-01/reference-perfs.json",
+      "sourceSha256": "c5396653687632153d2651d91bcd9157a2087f89a2cac0facbd50ceeaddf8f91",
+      "publishedFile": "../final-native-perfs.json",
+      "publishedSha256": "c5396653687632153d2651d91bcd9157a2087f89a2cac0facbd50ceeaddf8f91",
+      "relationship": "Parsed JSON identical; original research file unchanged"
+    }
+  ],
+  "fullCatalog": {
+    "sourcePath": "lila-adapter/catalog-roster.json",
+    "sha256": "d2a39c16d23420f37410c69f7bacc7353bc3216229ee18dcd5acc269769601aa",
+    "bytes": 18713345,
+    "newIdentities": 9750,
+    "note": "Full identity list retained at immutable application source; this research snapshot stores allocation and source hashes without duplicating the large roster."
+  },
+  "generatorSourcePaths": [
+    "lila-adapter/catalog-calibration.mjs",
+    "lila-adapter/generate-catalog.mjs"
+  ],
+  "interpretation": [
+    "New assigned RD100 and zero games are owner-approved initialization choices, not inherited earned evidence.",
+    "Original250 accounts retain earned ratings, histories and settings.",
+    "Exact measured-policy reuse is the prepared implementation; the earlier smooth approximation remains separate planning analysis."
+  ]
+}

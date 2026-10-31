@@ -8,7 +8,7 @@ the same playing strength as it does on Lichess**, at the same time control.
 
 Maia's settings let us create many different opponents. This report explains
 how we turn those settings into useful ratings—and how that research supports
-a much larger bot pool.
+a much larger bot pool, now generated and prepared for deployment.
 
 ## 1. How did we come up with the bot ratings?
 
@@ -58,7 +58,7 @@ same model considerably stronger.**
 | **Temperature** | Lower values favor the model's most likely moves more strongly. | Lowering it substantially improved results in our controlled comparisons. |
 | **Top-P** | Removes unlikely moves from the available choices. | Narrowing the choices improved results, including the small change from 1.00 to 0.95. |
 | **Argmax** | Always chooses the most likely legal move. | It was about 320 match-Elo stronger than full sampling in the controlled 1600-input comparison. |
-| **Move history** | Gives Maia previous positions as well as the current board. | We found no useful extra rating adjustment for history in the prediction checks, so the simple formula below leaves it out. This does not establish that history can never affect strength. |
+| **Move history** | Gives Maia previous positions as well as the current board. | The generated roster reuses the reference policy’s fixed history mode. We apply no universal history bonus or penalty. |
 
 ![Controlled comparisons: Top-P 0.95 adds about 71 match-Elo, Top-P 0.90 about 131, Temperature 0.50 about 271, and argmax about 318, relative to full sampling in the tested setting.](figures/reader-sampling.png)
 
@@ -75,81 +75,83 @@ opponents.
 
 ![Higher Maia inputs generally produce higher playing ratings, with a substantial spread from settings and rating uncertainty.](figures/reader-settings.png)
 
-## From this research to a 10,000-bot pool
+## A prepared pool of 10,000 opponents
 
-**We plan to expand the roster to 10,000 identities, each with persistent
-settings and an assigned rating calibrated from this reference.** A new name
-does not require another tournament to rediscover the strength of an already
-measured playing policy.
+**We have generated 10,000 identities: the 250 reference bots and 9,750 new
+opponents using measured playing policies.** The supported offering is roughly
+**800–3,000 in Blitz and 800–2,800 in Rapid**. The roster is prepared in
+[source PR #174](https://github.com/Dash1971/mute-chess/pull/174); **live activation
+is still pending**.
 
-The plan is to present those calibrated bot ratings without a provisional
-starter mark. This is an assignment based on the policy's evidence; it does
-not mean that every new identity has already played its own calibration games.
-We will preserve that distinction in the data, and games will continue to
-update ratings through Glicko. The expanded roster has not been activated yet.
+Each new identity keeps its settings and personality. A new name does not need
+another tournament to rediscover the strength of a policy already represented
+in the research. The original 250 retain their earned ratings and game
+histories, including the one Blitz reference slightly below 800.
 
-### A simple rating formula
+### How a new identity gets its rating
 
-For an already measured policy, its established reference rating is the most
-direct starting point. For other combinations, this is a **rough catalog-planning
-approximation**, guided by the reference ratings and the controlled sampling
-results:
+For this release, the assignment rule is simple:
 
 ```text
-Assigned rating ≈ 1575 + 0.73 × (Maia input − 1600)
-                      + 320 × (1 − Temperature³ × Top-P⁵)
+New bot rating = reference estimate for the same playing policy and speed
 ```
 
-The first part sets the broad level; the second adds a sampling adjustment
-that rises toward 320 as choices become more concentrated. There is no history
-bonus or penalty. Blitz and Rapid retain separate reference ratings; the
-[method note](CATALOG-METHOD.md) gives the separate-speed versions and derivation.
-This smooth approximation is a proposed way to fill gaps between measured
-settings, not a new law of chess strength.
+A matching policy uses the same Maia inputs, Temperature, Top-P, opening rule
+and fixed history mode. Where several reference accounts share an equivalent
+policy, we combine their ratings into a weighted estimate that gives more
+weight to lower rating uncertainty. The [method note](CATALOG-METHOD.md)
+provides the calculation and source records.
 
-For example, at input 1600 it gives approximately **1575 with full sampling**,
-**1650 at Temperature 1 / Top-P 0.95**, and **1895 with argmax**. We prefer direct
-reference evidence where it is available rather than forcing every bot onto
-the same smooth curve.
+This uses direct policy evidence. The earlier smooth formula remains available
+as a separate [planning approximation](PLANNING-APPROXIMATION.md), but it does
+not assign the generated roster's ratings. Nor do we add a strength bonus to
+put a favorite character at the top of the list.
 
-### A pool shaped like Lichess
+The approved initialization gives each new bot **RD 100 and zero completed
+games**. That makes its assigned native rating nonprovisional under the normal
+110-point boundary. It is an informed starting assignment, not a claim that the
+new account has already played calibration games. Native Glicko continues
+updating the rating and its uncertainty; no game count or history is copied.
+The rating rules for human accounts are unchanged.
 
-Most identities should sit in the busy middle of the rating range, with fewer
-at either extreme. The illustration below uses Lichess's weekly Blitz
-distribution to propose an allocation—not an equal number of bots at every
-Maia input.
+### A pool shaped by Lichess
 
-![Proposed allocation of 10,000 identities: most around the middle of the Lichess Blitz distribution and a small strong tail.](figures/reader-roster.png)
+Most identities sit in the busy middle of the rating range, with fewer at
+either extreme. The generator uses archived weekly **Blitz and Rapid** player
+distributions from Lichess, restricted to the supported range of 800 and above.
+It matches both together because every policy has a paired Blitz/Rapid rating.
 
-| Assigned rating band | Proposed identities |
-| --- | ---: |
-| 600–999 | 1,230 |
-| 1,000–1,399 | 3,140 |
-| 1,400–1,799 | 3,460 |
-| 1,800–2,199 | 1,850 |
-| 2,200–2,599 | 310 |
-| 2,600–3,000 | 10 |
-| **Total** | **10,000** |
+![The generated 10,000-identity roster, with separate Blitz and Rapid distributions concentrated in the middle of the supported range. Activation is pending.](figures/reader-roster.png)
 
-This is a rounded planning illustration based on the
-[Lichess Blitz distribution](https://lichess.org/stat/rating/distribution/blitz)
-observed on October 31, 2026 UTC. It excludes the below-600 share and caps the
-top band for the proposed catalog. Rapid needs its own distribution; one
-allocation does not reproduce both speed categories.
+| Rating band | Blitz identities | Rapid identities |
+| --- | ---: | ---: |
+| Below 1,000, mostly 800–999 | 920 | 1,191 |
+| 1,000–1,399 | 3,237 | 3,689 |
+| 1,400–1,799 | 3,582 | 3,471 |
+| 1,800–2,199 | 1,926 | 1,499 |
+| 2,200–2,599 | 320 | 136 |
+| 2,600+ | 15 | 14 |
+| **Total** | **10,000** | **10,000** |
 
-**The desired range is 600–3,000; the evidence does not yet cover every part of
-it equally.** The full-sampling 600-input reference finished around 800–900, and
-the smooth formula does not itself reach either target edge. Some measured
-Blitz opponents reached roughly 3,000. Extending the roster down to genuine 600-strength opponents needs weaker
-playing policies and calibration at that end of the range.
+These are counts in the **generated roster**, including the preserved reference
+accounts. They are not 10,000 independently measured strengths or a claim that
+the roster is already live. The [dated sources and allocation audit](CATALOG-METHOD.md#distribution-and-reproduction)
+show how the counts follow the Lichess distributions while retaining the actual
+policy ratings. The strongest Rapid tail is slightly larger than the target
+because the existing accounts are preserved.
 
-The practical result is a measured reference for a much larger, varied pool,
-with ratings that can improve as people play. **The Lichess correspondence
-remains the goal throughout.**
+**We will offer the range supported by the measured Maia policies.** New
+policies with reference estimates below 800 are excluded rather than relabeled.
+The upper range comes from the observed reference opponents. Names, extra
+identities and a desired histogram do not make a policy stronger or weaker.
+
+The research now supports a much larger pool with persistent personalities,
+ratings grounded in measured policies, and normal rating updates as people
+play. Keeping those ratings close to Lichess strength remains the goal.
 
 ---
 
-[Data and reproduction](README.md) · [Catalog formula and chart sources](CATALOG-METHOD.md) ·
+[Data and reproduction](README.md) · [Catalog method and chart sources](CATALOG-METHOD.md) ·
 [All reference settings](data/configurations.json) · [Earned ratings](data/ratings.csv)
 
 Built on [Lichess/Lila](https://github.com/lichess-org/lila),
