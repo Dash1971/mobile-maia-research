@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="777.6pt" viewBox="0 0 648 777.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="619.2pt" viewBox="0 0 720 619.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -20,168 +20,162 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 777.6
-L 648 777.6
-L 648 0
+   <path d="M 0 619.2
+L 720 619.2
+L 720 0
 L 0 0
 z
 " style="fill: #f6f4ee"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 50.544 367.0272
-L 208.656 367.0272
-Q 220.32 367.0272 220.32 353.0304
-L 220.32 281.4912
-Q 220.32 267.4944 208.656 267.4944
-L 50.544 267.4944
-Q 38.88 267.4944 38.88 281.4912
-L 38.88 353.0304
-Q 38.88 367.0272 50.544 367.0272
+    <path d="M 56.16 329.4144
+L 231.84 329.4144
+Q 244.8 329.4144 244.8 318.2688
+L 244.8 266.256
+Q 244.8 255.1104 231.84 255.1104
+L 56.16 255.1104
+Q 43.2 255.1104 43.2 266.256
+L 43.2 318.2688
+Q 43.2 329.4144 56.16 329.4144
 z
-" clip-path="url(#p1b6e8b8764)" style="fill: #ffffff"/>
+" clip-path="url(#pbfa1bf6019)" style="fill: #ffffff"/>
    </g>
    <g id="patch_3">
-    <path d="M 244.944 367.0272
-L 403.056 367.0272
-Q 414.72 367.0272 414.72 353.0304
-L 414.72 281.4912
-Q 414.72 267.4944 403.056 267.4944
-L 244.944 267.4944
-Q 233.28 267.4944 233.28 281.4912
-L 233.28 353.0304
-Q 233.28 367.0272 244.944 367.0272
+    <path d="M 272.16 329.4144
+L 447.84 329.4144
+Q 460.8 329.4144 460.8 318.2688
+L 460.8 266.256
+Q 460.8 255.1104 447.84 255.1104
+L 272.16 255.1104
+Q 259.2 255.1104 259.2 266.256
+L 259.2 318.2688
+Q 259.2 329.4144 272.16 329.4144
 z
-" clip-path="url(#p1b6e8b8764)" style="fill: #ffffff"/>
+" clip-path="url(#pbfa1bf6019)" style="fill: #ffffff"/>
    </g>
    <g id="patch_4">
-    <path d="M 439.344 367.0272
-L 597.456 367.0272
-Q 609.12 367.0272 609.12 353.0304
-L 609.12 281.4912
-Q 609.12 267.4944 597.456 267.4944
-L 439.344 267.4944
-Q 427.68 267.4944 427.68 281.4912
-L 427.68 353.0304
-Q 427.68 367.0272 439.344 367.0272
+    <path d="M 488.16 329.4144
+L 663.84 329.4144
+Q 676.8 329.4144 676.8 318.2688
+L 676.8 266.256
+Q 676.8 255.1104 663.84 255.1104
+L 488.16 255.1104
+Q 475.2 255.1104 475.2 266.256
+L 475.2 318.2688
+Q 475.2 329.4144 488.16 329.4144
 z
-" clip-path="url(#p1b6e8b8764)" style="fill: #ffffff"/>
+" clip-path="url(#pbfa1bf6019)" style="fill: #ffffff"/>
    </g>
    <g id="patch_5">
-    <path d="M 50.544 499.9968
-L 597.456 499.9968
-Q 609.12 499.9968 609.12 486
-L 609.12 442.4544
-Q 609.12 428.4576 597.456 428.4576
-L 50.544 428.4576
-Q 38.88 428.4576 38.88 442.4544
-L 38.88 486
-Q 38.88 499.9968 50.544 499.9968
+    <path d="M 56.16 419.1984
+L 663.84 419.1984
+Q 676.8 419.1984 676.8 408.0528
+L 676.8 374.616
+Q 676.8 363.4704 663.84 363.4704
+L 56.16 363.4704
+Q 43.2 363.4704 43.2 374.616
+L 43.2 408.0528
+Q 43.2 419.1984 56.16 419.1984
 z
-" clip-path="url(#p1b6e8b8764)" style="fill: #e7efeb"/>
+" clip-path="url(#pbfa1bf6019)" style="fill: #e7efeb"/>
    </g>
    <g id="patch_6">
-    <path d="M 50.544 587.088
-L 597.456 587.088
-Q 609.12 587.088 609.12 573.0912
-L 609.12 529.5456
-Q 609.12 515.5488 597.456 515.5488
-L 50.544 515.5488
-Q 38.88 515.5488 38.88 529.5456
-L 38.88 573.0912
-Q 38.88 587.088 50.544 587.088
+    <path d="M 56.16 484.2144
+L 663.84 484.2144
+Q 676.8 484.2144 676.8 473.0688
+L 676.8 439.632
+Q 676.8 428.4864 663.84 428.4864
+L 56.16 428.4864
+Q 43.2 428.4864 43.2 439.632
+L 43.2 473.0688
+Q 43.2 484.2144 56.16 484.2144
 z
-" clip-path="url(#p1b6e8b8764)" style="fill: #e7efeb"/>
+" clip-path="url(#pbfa1bf6019)" style="fill: #e7efeb"/>
    </g>
    <g id="patch_7">
-    <path d="M 50.544 674.1792
-L 597.456 674.1792
-Q 609.12 674.1792 609.12 660.1824
-L 609.12 616.6368
-Q 609.12 602.64 597.456 602.64
-L 50.544 602.64
-Q 38.88 602.64 38.88 616.6368
-L 38.88 660.1824
-Q 38.88 674.1792 50.544 674.1792
+    <path d="M 56.16 549.2304
+L 663.84 549.2304
+Q 676.8 549.2304 676.8 538.0848
+L 676.8 504.648
+Q 676.8 493.5024 663.84 493.5024
+L 56.16 493.5024
+Q 43.2 493.5024 43.2 504.648
+L 43.2 538.0848
+Q 43.2 549.2304 56.16 549.2304
 z
-" clip-path="url(#p1b6e8b8764)" style="fill: #e7efeb"/>
+" clip-path="url(#pbfa1bf6019)" style="fill: #e7efeb"/>
    </g>
    <g id="line2d_1">
-    <path d="M 38.88 76.2048
-L 90.72 76.2048
-" clip-path="url(#p1b6e8b8764)" style="fill: none; stroke: #138578; stroke-width: 4; stroke-linecap: square"/>
+    <path d="M 43.2 71.208
+L 100.8 71.208
+" clip-path="url(#pbfa1bf6019)" style="fill: none; stroke: #138578; stroke-width: 4; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="38.88" y="40.4352" transform="rotate(-0 38.88 40.4352)">MOBILE MAIA RESEARCH  /  MUTE CHESS</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="43.2" y="37.152" transform="rotate(-0 43.2 37.152)">MOBILE MAIA RESEARCH  /  MUTE CHESS</text>
    </g>
    <g id="text_2">
-    <text style="font-weight: 700; font-size: 32px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="38.88" y="137.6352" transform="rotate(-0 38.88 137.6352)">How we give Maia bots</text>
+    <text style="font-weight: 700; font-size: 36px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="43.2" y="123.84" transform="rotate(-0 43.2 123.84)">How we rate our</text>
    </g>
    <g id="text_3">
-    <text style="font-weight: 700; font-size: 32px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="38.88" y="181.9584" transform="rotate(-0 38.88 181.9584)">a starting rating</text>
+    <text style="font-weight: 700; font-size: 36px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="43.2" y="170.8992" transform="rotate(-0 43.2 170.8992)">Maia opponents</text>
    </g>
    <g id="text_4">
-    <text style="font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="38.88" y="229.392" transform="rotate(-0 38.88 229.392)">Different settings. Different playing strengths.</text>
+    <text style="font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="43.2" y="216.1008" transform="rotate(-0 43.2 216.1008)">A familiar rating. A varied opponent pool.</text>
    </g>
    <g id="text_5">
-    <text style="font-weight: 700; font-size: 28px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="51.84" y="317.2608" transform="rotate(-0 51.84 317.2608)">250</text>
+    <text style="font-weight: 700; font-size: 26px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="57.6" y="294.7392" transform="rotate(-0 57.6 294.7392)">Lichess</text>
    </g>
    <g id="text_6">
-    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="51.84" y="349.92" transform="rotate(-0 51.84 349.92)">reference bots</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="57.6" y="315.792" transform="rotate(-0 57.6 315.792)">the starting reference</text>
    </g>
    <g id="text_7">
-    <text style="font-weight: 700; font-size: 28px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="246.24" y="317.2608" transform="rotate(-0 246.24 317.2608)">200 + 50</text>
+    <text style="font-weight: 700; font-size: 26px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="273.6" y="294.7392" transform="rotate(-0 273.6 294.7392)">3,449</text>
    </g>
    <g id="text_8">
-    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="246.24" y="349.92" transform="rotate(-0 246.24 349.92)">learn + check</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="273.6" y="315.792" transform="rotate(-0 273.6 315.792)">recorded rated games</text>
    </g>
    <g id="text_9">
-    <text style="font-weight: 700; font-size: 28px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="440.64" y="317.2608" transform="rotate(-0 440.64 317.2608)">~116</text>
+    <text style="font-weight: 700; font-size: 26px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="489.6" y="294.7392" transform="rotate(-0 489.6 294.7392)">Glicko-2</text>
    </g>
    <g id="text_10">
-    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="440.64" y="349.92" transform="rotate(-0 440.64 349.92)">points of average error</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="489.6" y="315.792" transform="rotate(-0 489.6 315.792)">native rating updates</text>
    </g>
    <g id="text_11">
-    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="38.88" y="410.5728" transform="rotate(-0 38.88 410.5728)">THE METHOD</text>
+    <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="57.6" y="397.3377" transform="rotate(-0 57.6 397.3377)">1</text>
    </g>
    <g id="text_12">
-    <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="53.136" y="472.680838" transform="rotate(-0 53.136 472.680838)">1</text>
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="100.8" y="384.5232" transform="rotate(-0 100.8 384.5232)">Start from observed Lichess Maia ratings</text>
    </g>
    <g id="text_13">
-    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="93.96" y="454.1184" transform="rotate(-0 93.96 454.1184)">Start from Lichess</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="100.8" y="405.576" transform="rotate(-0 100.8 405.576)">Account for the sampling settings those opponents use.</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="93.96" y="480.5568" transform="rotate(-0 93.96 480.5568)">Use observed Maia account ratings as the starting anchor.</text>
+    <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="57.6" y="462.3537" transform="rotate(-0 57.6 462.3537)">2</text>
    </g>
    <g id="text_15">
-    <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="53.136" y="559.772038" transform="rotate(-0 53.136 559.772038)">2</text>
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="100.8" y="449.5392" transform="rotate(-0 100.8 449.5392)">Measure what our settings actually do</text>
    </g>
    <g id="text_16">
-    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="93.96" y="541.2096" transform="rotate(-0 93.96 541.2096)">Measure a varied reference pool</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="100.8" y="470.592" transform="rotate(-0 100.8 470.592)">Fixed policies play rated games; results determine their standings.</text>
    </g>
    <g id="text_17">
-    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="93.96" y="567.648" transform="rotate(-0 93.96 567.648)">Let fixed bot settings earn ratings through played games.</text>
+    <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="57.6" y="527.3697" transform="rotate(-0 57.6 527.3697)">3</text>
    </g>
    <g id="text_18">
-    <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="53.136" y="646.863237" transform="rotate(-0 53.136 646.863237)">3</text>
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="100.8" y="514.5552" transform="rotate(-0 100.8 514.5552)">Build a much larger, calibrated roster</text>
    </g>
    <g id="text_19">
-    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192f3e" x="93.96" y="628.3008" transform="rotate(-0 93.96 628.3008)">Estimate ratings for new names</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="100.8" y="535.608" transform="rotate(-0 100.8 535.608)">Reuse policy evidence for new names, then keep learning from games.</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="93.96" y="654.7392" transform="rotate(-0 93.96 654.7392)">Use the reference data to choose an informed starting rating.</text>
-   </g>
-   <g id="text_21">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="38.88" y="726.2784" transform="rotate(-0 38.88 726.2784)">Blitz and Rapid • Maia3-79M • Fixed history and sampling settings</text>
-   </g>
-   <g id="text_22">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="38.88" y="747.2736" transform="rotate(-0 38.88 747.2736)">Average error describes the checked estimates, not a guarantee for every bot.</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #55636b" x="43.2" y="590.0976" transform="rotate(-0 43.2 590.0976)">The goal: Mute Chess strength should correspond as closely as possible to Lichess.</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p1b6e8b8764">
-   <rect x="0" y="0" width="648" height="777.6"/>
+  <clipPath id="pbfa1bf6019">
+   <rect x="0" y="0" width="720" height="619.2"/>
   </clipPath>
  </defs>
 </svg>

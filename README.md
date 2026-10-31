@@ -15,15 +15,15 @@ results and match scores, with links to the full study and recorded data.
 
 ## Studies
 
-### How should a new Maia bot get its rating?
+### How we rate the bots in Mute Chess
 
 [Read the illustrated report](studies/bot-rating-establishment-2026-10-31/REPORT.md) · [Data and reproduction](studies/bot-rating-establishment-2026-10-31/README.md)
 
-Different Maia settings produce different playing strengths. Mute Chess uses
-observed Lichess Maia ratings and a 250-bot reference pool to estimate starting
-ratings for new opponents. The guide explains the settings, rating method,
-200/50 fit-and-check design and roughly 116-point average error, with linked
-measurements and clear limits.
+How were the ratings obtained, how do they relate to Lichess, and how do Maia
+settings change strength? The report follows the Lichess starting reference
+through rated games and native Glicko, illustrates controlled sampling effects,
+and explains a proposed formula and Lichess-shaped allocation for a 10,000-bot
+roster. Measured ratings and future catalog plans are clearly distinguished.
 
 ### Original bot-rating calibration dataset — 31 October 2026
 
