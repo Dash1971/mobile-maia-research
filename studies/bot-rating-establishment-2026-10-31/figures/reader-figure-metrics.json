@@ -1,7 +1,29 @@
 {
   "referenceBots": 250,
   "finalEstablishedBotSpeedRatings": 500,
-  "proposedCatalogCount": 10000,
+  "generatedCatalogCount": 10000,
+  "generatedBandCounts": {
+    "blitz": [
+      920,
+      3237,
+      3582,
+      1926,
+      320,
+      15
+    ],
+    "rapid": [
+      1191,
+      3689,
+      3471,
+      1499,
+      136,
+      14
+    ]
+  },
+  "catalogSourceCommit": "7b8f5d4625c77a6ff7e30985f6d6b1904cc26a93",
+  "activation": "pending",
+  "newAssignedRd": 100,
+  "newAssignedGameCount": 0,
   "samplingEffects": [
     71.0,
     130.9,
@@ -12,6 +34,11 @@
   "inputsSha256": {
     "configurations.json": "1dd3f4b90c99a2afdb77953ba6799fac965abe2123a3b3699aa2980686b3523b",
     "final-native-perfs.json": "c5396653687632153d2651d91bcd9157a2087f89a2cac0facbd50ceeaddf8f91",
-    "reader-chart-sources.json": "3770da49468ed4317a9d78c4492af481ec5d8127a0efe5bcb5f54e751dc8cbd1"
+    "reader-chart-sources.json": "3770da49468ed4317a9d78c4492af481ec5d8127a0efe5bcb5f54e751dc8cbd1",
+    "catalog-2026-11-01/catalog-manifest.json": "9c2670e0691774c0c9c4cb46d858aed3abad7a9629f1d6d0293a07163e531ecf",
+    "catalog-2026-11-01/source-provenance.json": "3c5451fcb41fc307160b4fbcf8a35a0006f3092c851f82b2e41d1a608e2c2699",
+    "catalog-2026-11-01/distribution-blitz.json": "63a2b3f363b57c6bf481f217fe12b7ad2cdf1b2fbecf21466a00ea77a200ad92",
+    "catalog-2026-11-01/distribution-rapid.json": "11c9fe444c0bf46febf581508918445f012bc462d44c3e93e51594ce45259fe9",
+    "catalog-2026-11-01/distribution-source.json": "183e5ddc66e7b6448e44c50f089c3694252ca0b2e6335ca8a9aea53e29fa76fa"
   }
 }

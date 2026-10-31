@@ -44,3 +44,5 @@ jobs:
         run: >-
           python studies/bot-rating-establishment-2026-10-31/tools/check_evaluation.py
           --output /tmp/night163-evaluation-verification.json
+      - name: Audit prepared catalog against unchanged measured policies
+        run: python studies/bot-rating-establishment-2026-10-31/tools/audit_catalog_allocation.py
