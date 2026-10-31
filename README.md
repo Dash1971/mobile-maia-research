@@ -29,12 +29,10 @@ measurements and clear limits.
 
 [Read the report](studies/bot-strength-seeding-2026-10-31/REPORT.md) · [Data and reproduction](studies/bot-strength-seeding-2026-10-31/README.md)
 
-In Mute Chess, 250 fixed Maia configurations played 2,623 native rated games.
-The frozen predictors missed the 100-point target against uncertain held-out
-rating estimates, and did not improve native-label error over the starting
-priors. The report preserves that negative result, the original bots' earned
-rating changes, measured capacity, all games and reproducible evaluation. It
-does not establish absolute alignment with human Lichess ratings.
+The original calibration dataset records 2,623 games across 250 Maia settings,
+including starting priors, earned rating changes, prediction checks and measured
+capacity. This technical archive preserves the earlier measurements and
+reproduction tools behind the illustrated report above.
 
 ### Screenshot and diagram import — 28 October 2026
 

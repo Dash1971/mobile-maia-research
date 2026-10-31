@@ -39,7 +39,7 @@ Q 38.88 267.4944 38.88 281.4912
 L 38.88 353.0304 
 Q 38.88 367.0272 50.544 367.0272 
 z
-" clip-path="url(#pcdfd25cf08)" style="fill: #ffffff"/>
+" clip-path="url(#pa007e1ea95)" style="fill: #ffffff"/>
    </g>
    <g id="patch_3">
     <path d="M 244.944 367.0272 
@@ -52,7 +52,7 @@ Q 233.28 267.4944 233.28 281.4912
 L 233.28 353.0304 
 Q 233.28 367.0272 244.944 367.0272 
 z
-" clip-path="url(#pcdfd25cf08)" style="fill: #ffffff"/>
+" clip-path="url(#pa007e1ea95)" style="fill: #ffffff"/>
    </g>
    <g id="patch_4">
     <path d="M 439.344 367.0272 
@@ -65,7 +65,7 @@ Q 427.68 267.4944 427.68 281.4912
 L 427.68 353.0304 
 Q 427.68 367.0272 439.344 367.0272 
 z
-" clip-path="url(#pcdfd25cf08)" style="fill: #ffffff"/>
+" clip-path="url(#pa007e1ea95)" style="fill: #ffffff"/>
    </g>
    <g id="patch_5">
     <path d="M 50.544 499.9968 
@@ -78,7 +78,7 @@ Q 38.88 428.4576 38.88 442.4544
 L 38.88 486 
 Q 38.88 499.9968 50.544 499.9968 
 z
-" clip-path="url(#pcdfd25cf08)" style="fill: #e7efeb"/>
+" clip-path="url(#pa007e1ea95)" style="fill: #e7efeb"/>
    </g>
    <g id="patch_6">
     <path d="M 50.544 587.088 
@@ -91,7 +91,7 @@ Q 38.88 515.5488 38.88 529.5456
 L 38.88 573.0912 
 Q 38.88 587.088 50.544 587.088 
 z
-" clip-path="url(#pcdfd25cf08)" style="fill: #e7efeb"/>
+" clip-path="url(#pa007e1ea95)" style="fill: #e7efeb"/>
    </g>
    <g id="patch_7">
     <path d="M 50.544 674.1792 
@@ -104,12 +104,12 @@ Q 38.88 602.64 38.88 616.6368
 L 38.88 660.1824 
 Q 38.88 674.1792 50.544 674.1792 
 z
-" clip-path="url(#pcdfd25cf08)" style="fill: #e7efeb"/>
+" clip-path="url(#pa007e1ea95)" style="fill: #e7efeb"/>
    </g>
    <g id="line2d_1">
     <path d="M 38.88 76.2048 
 L 90.72 76.2048 
-" clip-path="url(#pcdfd25cf08)" style="fill: none; stroke: #138578; stroke-width: 4; stroke-linecap: square"/>
+" clip-path="url(#pa007e1ea95)" style="fill: none; stroke: #138578; stroke-width: 4; stroke-linecap: square"/>
    </g>
    <g id="text_1">
     <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #138578" x="38.88" y="40.4352" transform="rotate(-0 38.88 40.4352)">MOBILE MAIA RESEARCH  /  MUTE CHESS</text>
@@ -180,7 +180,7 @@ L 90.72 76.2048
   </g>
  </g>
  <defs>
-  <clipPath id="pcdfd25cf08">
+  <clipPath id="pa007e1ea95">
    <rect x="0" y="0" width="648" height="777.6"/>
   </clipPath>
  </defs>
