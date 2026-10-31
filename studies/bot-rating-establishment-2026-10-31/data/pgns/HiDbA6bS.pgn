@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/HiDbA6bS"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain042"]
+[Black "ChromeCastle"]
+[Result "1/2-1/2"]
+[GameId "HiDbA6bS"]
+[UTCDate "2026.10.31"]
+[UTCTime "15:47:42"]
+[WhiteElo "1838"]
+[BlackElo "1829"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+1"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A46"]
+[Opening "Torre Attack: Classical Defense"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... Nf6 { [%clk 0:10:03] } 2. Bg5 { [%clk 0:10:07] } 2... e6 { [%clk 0:10:06] } 3. Nf3 { [%clk 0:10:10] } 3... d5 { [%clk 0:10:08] } 4. e3 { [%clk 0:10:13] } 4... c5 { [%clk 0:10:11] } 5. dxc5 { [%clk 0:10:16] } 5... Bxc5 { [%clk 0:10:15] } 6. Bb5+ { [%clk 0:10:19] } 6... Bd7 { [%clk 0:10:18] } 7. Bxd7+ { [%clk 0:10:22] } 7... Nbxd7 { [%clk 0:10:21] } 8. O-O { [%clk 0:10:25] } 8... O-O { [%clk 0:10:23] } 9. Nc3 { [%clk 0:10:28] } 9... Qb6 { [%clk 0:10:26] } 10. Na4 { [%clk 0:10:31] } 10... Qa5 { [%clk 0:10:29] } 11. Nxc5 { [%clk 0:10:34] } 11... Nxc5 { [%clk 0:10:32] } 12. Bxf6 { [%clk 0:10:37] } 12... gxf6 { [%clk 0:10:35] } 13. Qd4 { [%clk 0:10:40] } 13... Kg7 { [%clk 0:10:38] } 14. Qg4+ { [%clk 0:10:43] } 14... Kh8 { [%clk 0:10:41] } 15. Qh4 { [%clk 0:10:45] } 15... Kg7 { [%clk 0:10:44] } 16. Qg4+ { [%clk 0:10:49] } 16... Kh8 { [%clk 0:10:47] } 17. Qh4 { [%clk 0:10:51] } 17... Kg7 { [%clk 0:10:50] } 18. Qg4+ { [%clk 0:10:55] } 1/2-1/2
+
+

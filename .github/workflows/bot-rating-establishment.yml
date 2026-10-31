@@ -1,0 +1,46 @@
+name: Bot rating establishment reproduction
+on:
+  pull_request:
+    paths:
+      - studies/bot-rating-establishment-2026-10-31/**
+      - .github/workflows/bot-rating-establishment.yml
+  push:
+    branches: [main]
+    paths:
+      - studies/bot-rating-establishment-2026-10-31/**
+      - .github/workflows/bot-rating-establishment.yml
+permissions:
+  contents: read
+jobs:
+  published-evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: studies/bot-rating-establishment-2026-10-31/requirements-verify.txt
+      - run: python -m pip install -r requirements-verify.txt
+        working-directory: studies/bot-rating-establishment-2026-10-31
+      - name: Reject semantic corruption even when projection checksums are recomputed
+        run: python -m unittest -v test_verify_public.py
+        working-directory: studies/bot-rating-establishment-2026-10-31
+      - name: Verify published counts, native flags, unique acknowledgments and every legal PGN
+        run: >-
+          python studies/bot-rating-establishment-2026-10-31/verify_public.py
+          --bundle studies/bot-rating-establishment-2026-10-31
+          --output /tmp/night163-public-verification.json --require-checksums
+      - name: Reproduce the frozen training-only procedure
+        run: >-
+          python studies/bot-rating-establishment-2026-10-31/tools/check_refit.py
+          --output /tmp/night163-refit-verification.json
+      - name: Reproduce the unchanged evaluation from public tables
+        run: >-
+          python studies/bot-rating-establishment-2026-10-31/tools/check_evaluation.py
+          --output /tmp/night163-evaluation-verification.json

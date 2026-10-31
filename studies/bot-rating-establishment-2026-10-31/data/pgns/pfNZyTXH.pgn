@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/pfNZyTXH"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain116"]
+[Black "SignalTrain051"]
+[Result "1-0"]
+[GameId "pfNZyTXH"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:03:35"]
+[WhiteElo "1786"]
+[BlackElo "1649"]
+[WhiteRatingDiff "+21"]
+[BlackRatingDiff "-20"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C42"]
+[Opening "Petrov's Defense: Italian Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:02] } 1... e5 { [%clk 0:05:01] } 2. Bc4 { [%clk 0:05:03] } 2... Nf6 { [%clk 0:05:01] } 3. Nf3 { [%clk 0:05:04] } 3... Bd6 { [%clk 0:05:02] } 4. Ng5 { [%clk 0:05:05] } 4... O-O { [%clk 0:05:03] } 5. d3 { [%clk 0:05:06] } 5... h6 { [%clk 0:05:04] } 6. h4 { [%clk 0:05:07] } 6... hxg5 { [%clk 0:05:05] } 7. hxg5 { [%clk 0:05:08] } 7... Nh7 { [%clk 0:05:06] } 8. Qh5 { [%clk 0:05:09] } 8... Nxg5 { [%clk 0:05:07] } 9. Qh8# { [%clk 0:05:06] } 1-0
+
+

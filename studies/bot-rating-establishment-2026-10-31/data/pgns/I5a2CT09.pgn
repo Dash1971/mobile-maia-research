@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/I5a2CT09"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain050"]
+[Black "SignalTest008"]
+[Result "1/2-1/2"]
+[GameId "I5a2CT09"]
+[UTCDate "2026.10.31"]
+[UTCTime "17:22:08"]
+[WhiteElo "1394"]
+[BlackElo "1205"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+17"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B00"]
+[Opening "Lemming Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... Na6 { [%clk 0:10:03] } 2. Nc3 { [%clk 0:10:07] } 2... b6 { [%clk 0:10:06] } 3. Nf3 { [%clk 0:10:10] } 3... Bb7 { [%clk 0:10:09] } 4. e5 { [%clk 0:10:13] } 4... d6 { [%clk 0:10:11] } 5. d3 { [%clk 0:10:16] } 5... dxe5 { [%clk 0:10:14] } 6. Nxe5 { [%clk 0:10:19] } 6... f6 { [%clk 0:10:16] } 7. Nf3 { [%clk 0:10:22] } 7... e5 { [%clk 0:10:19] } 8. d4 { [%clk 0:10:24] } 8... Qe7 { [%clk 0:10:22] } 9. dxe5 { [%clk 0:10:27] } 9... fxe5 { [%clk 0:10:25] } 10. Bg5 { [%clk 0:10:30] } 10... Nf6 { [%clk 0:10:28] } 11. Bb5+ { [%clk 0:10:33] } 11... c6 { [%clk 0:10:31] } 12. Bxa6 { [%clk 0:10:35] } 12... Bxa6 { [%clk 0:10:33] } 13. Bxf6 { [%clk 0:10:38] } 13... gxf6 { [%clk 0:10:36] } 14. Qd2 { [%clk 0:10:41] } 14... e4 { [%clk 0:10:39] } 15. Nd4 { [%clk 0:10:43] } 15... Rd8 { [%clk 0:10:42] } 16. O-O-O { [%clk 0:10:46] } 16... f5 { [%clk 0:10:45] } 17. Nxc6 { [%clk 0:10:49] } 17... Rxd2 { [%clk 0:10:47] } 18. Nxe7 { [%clk 0:10:52] } 18... Rxd1+ { [%clk 0:10:50] } 19. Rxd1 { [%clk 0:10:55] } 19... Bxe7 { [%clk 0:10:53] } 20. Nd5 { [%clk 0:10:57] } 20... O-O { [%clk 0:10:56] } 21. Nxe7+ { [%clk 0:11:00] } 21... Kf7 { [%clk 0:10:58] } 22. Nxf5 { [%clk 0:11:03] } 22... Be2 { [%clk 0:11:01] } 23. Rd7+ { [%clk 0:11:06] } 23... Ke6 { [%clk 0:11:04] } 24. Rd2 { [%clk 0:11:09] } 24... Bg4 { [%clk 0:11:07] } 25. Nd4+ { [%clk 0:11:11] } 25... Ke5 { [%clk 0:11:09] } 26. Nc6+ { [%clk 0:11:14] } 26... Ke6 { [%clk 0:11:12] } 27. Nxa7 { [%clk 0:11:17] } 27... Ke5 { [%clk 0:11:15] } 28. Nc6+ { [%clk 0:11:20] } 28... Ke6 { [%clk 0:11:18] } 29. Nd4+ { [%clk 0:11:23] } 29... Kd5 { [%clk 0:11:21] } 30. f3 { [%clk 0:11:25] } 30... exf3 { [%clk 0:11:23] } 31. Nxf3+ { [%clk 0:11:28] } 31... Ke6 { [%clk 0:11:26] } 32. Nd4+ { [%clk 0:11:31] } 32... Ke5 { [%clk 0:11:29] } 33. Nc6+ { [%clk 0:11:34] } 33... Ke6 { [%clk 0:11:32] } 34. Nd4+ { [%clk 0:11:37] } 34... Ke5 { [%clk 0:11:35] } 35. Nc6+ { [%clk 0:11:39] } 35... Ke6 { [%clk 0:11:38] } 36. Nd4+ { [%clk 0:11:42] } 1/2-1/2
+
+

@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/pClEU1tm"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain139"]
+[Black "SignalTrain028"]
+[Result "1-0"]
+[GameId "pClEU1tm"]
+[UTCDate "2026.10.31"]
+[UTCTime "15:36:33"]
+[WhiteElo "1160"]
+[BlackElo "989"]
+[WhiteRatingDiff "+21"]
+[BlackRatingDiff "-17"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B00"]
+[Opening "Ware Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... a5 { [%clk 0:05:01] } 2. Qh5 { [%clk 0:05:04] } 2... b6 { [%clk 0:05:02] } 3. Bc4 { [%clk 0:05:04] } 3... g6 { [%clk 0:05:02] } 4. Qf3 { [%clk 0:05:05] } 4... e6 { [%clk 0:05:03] } 5. Nc3 { [%clk 0:05:06] } 5... d5 { [%clk 0:05:04] } 6. exd5 { [%clk 0:05:07] } 6... exd5 { [%clk 0:05:05] } 7. Bxd5 { [%clk 0:05:08] } 7... c6 { [%clk 0:05:05] } 8. Qxf7# { [%clk 0:05:06] } 1-0
+
+

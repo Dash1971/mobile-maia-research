@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/CRjczIUy"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest012"]
+[Black "SignalTrain154"]
+[Result "1-0"]
+[GameId "CRjczIUy"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:37:41"]
+[WhiteElo "1295"]
+[BlackElo "1213"]
+[WhiteRatingDiff "+33"]
+[BlackRatingDiff "-18"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C42"]
+[Opening "Petrov's Defense: Three Knights Game"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:08] } 2... Nf6 { [%clk 0:10:06] } 3. Nc3 { [%clk 0:10:11] } 3... g5 { [%clk 0:10:09] } 4. Nxg5 { [%clk 0:10:14] } 4... Ng4 { [%clk 0:10:11] } 5. Qxg4 { [%clk 0:10:17] } 5... Qxg5 { [%clk 0:10:14] } 6. Qxg5 { [%clk 0:10:19] } 6... f6 { [%clk 0:10:17] } 7. Qxf6 { [%clk 0:10:22] } 7... Rg8 { [%clk 0:10:20] } 8. Qxe5+ { [%clk 0:10:25] } 8... Be7 { [%clk 0:10:23] } 9. Nd5 { [%clk 0:10:28] } 9... d6 { [%clk 0:10:26] } 10. Qxe7# { [%clk 0:10:26] } 1-0
+
+

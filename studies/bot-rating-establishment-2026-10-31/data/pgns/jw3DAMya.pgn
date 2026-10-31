@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/jw3DAMya"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest011"]
+[Black "SignalTrain144"]
+[Result "0-1"]
+[GameId "jw3DAMya"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:48:23"]
+[WhiteElo "1876"]
+[BlackElo "1847"]
+[WhiteRatingDiff "-45"]
+[BlackRatingDiff "+27"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Bc4 { [%clk 0:10:07] } 2... Nc6 { [%clk 0:10:05] } 3. d3 { [%clk 0:10:10] } 3... h6 { [%clk 0:10:08] } 4. Nc3 { [%clk 0:10:13] } 4... Bb4 { [%clk 0:10:11] } 5. Bd2 { [%clk 0:10:16] } 5... Nf6 { [%clk 0:10:14] } 6. a3 { [%clk 0:10:19] } 6... Ba5 { [%clk 0:10:17] } 7. b4 { [%clk 0:10:22] } 7... Bb6 { [%clk 0:10:19] } 8. Nf3 { [%clk 0:10:25] } 8... d6 { [%clk 0:10:22] } 9. O-O { [%clk 0:10:28] } 9... Bg4 { [%clk 0:10:25] } 10. h3 { [%clk 0:10:31] } 10... Bh5 { [%clk 0:10:28] } 11. Nd5 { [%clk 0:10:34] } 11... Nxd5 { [%clk 0:10:31] } 12. Bxd5 { [%clk 0:10:36] } 12... Nd4 { [%clk 0:10:34] } 13. g4 { [%clk 0:10:39] } 13... Nxf3+ { [%clk 0:10:37] } 14. Qxf3 { [%clk 0:10:42] } 14... Bg6 { [%clk 0:10:39] } 15. h4 { [%clk 0:10:45] } 15... Qxh4 { [%clk 0:10:42] } 16. Bxb7 { [%clk 0:10:48] } 16... Rb8 { [%clk 0:10:45] } 17. Bc6+ { [%clk 0:10:51] } 17... Ke7 { [%clk 0:10:48] } 18. Kg2 { [%clk 0:10:54] } 18... h5 { [%clk 0:10:51] } 19. Rh1 { [%clk 0:10:57] } 19... Qxg4+ { [%clk 0:10:54] } 20. Qxg4 { [%clk 0:11:00] } 20... hxg4 { [%clk 0:10:56] } 21. Rxh8 { [%clk 0:11:02] } 21... Rxh8 { [%clk 0:10:59] } 22. Rh1 { [%clk 0:11:05] } 22... Rxh1 { [%clk 0:11:02] } 23. Kxh1 { [%clk 0:11:08] } 23... Bxf2 { [%clk 0:11:05] } 24. Kg2 { [%clk 0:11:11] } 24... Bb6 { [%clk 0:11:08] } 25. Kg3 { [%clk 0:11:14] } 25... Bh5 { [%clk 0:11:11] } 26. Kh4 { [%clk 0:11:17] } 26... g6 { [%clk 0:11:14] } 27. Bg5+ { [%clk 0:11:19] } 27... f6 { [%clk 0:11:17] } 28. Bd2 { [%clk 0:11:22] } 28... Bf2# { [%clk 0:11:15] } 0-1
+
+

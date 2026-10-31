@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "night163-sanitized-operational-audits-v1",
+  "nativeIndependentAudit": {
+    "observedAtUtc": "2026-10-31T17:35:44.511354+00:00",
+    "run": "r20261031n163",
+    "nativeUsers": 250,
+    "nativePerfs": 250,
+    "nativeStudyRecords": 826,
+    "nativeGame5Records": 826,
+    "activeOwnedNativeGames": 0,
+    "activeOwnedStudyRecords": 0,
+    "ratedResults": 826,
+    "ratedPlayerCountIncrements": 1652,
+    "perBotSpeedCountsMatch": true,
+    "otherPublicGamesDuringRun": 0,
+    "otherSpeedPerfsUnchanged": true,
+    "nativeNonprovisionalBlitz": 250,
+    "nativeNonprovisionalRapid": 250,
+    "nativeBotsEstablishedBoth": 250,
+    "apiStatus": 200
+  },
+  "cleanup": {
+    "observedAtUtc": "2026-10-31T17:41:31.496671+00:00",
+    "passed": true,
+    "ownedWorkerAndSupervisorStopped": true,
+    "recursiveStudyCgroupsRemoved": true,
+    "ownedInferenceChildrenStopped": true,
+    "normalConfigurationBytesAndMetadataRestored": true,
+    "normalConfigurationSha256": "53569546b74e6a9f9695672a67113b1f95f12a489a8be20ccddbc75f5578f08b",
+    "studyConfigurationAbsent": true,
+    "freshApplicationLoadedNormalConfiguration": true,
+    "normalManagedGameCapacity": 2,
+    "allNinePublicRolesActive": true,
+    "nativeWebSocketAndStaticAnimatedGifVerified": true,
+    "protectedMaiaHealthReady": true,
+    "maiaPending": 0,
+    "healthCheckRequestedPrediction": false,
+    "ownedActiveStudyGames": 0,
+    "ownedActiveNativeGames": 0,
+    "ordinaryActiveNativeGames": 0,
+    "databaseLockReleased": true,
+    "noDatabaseRestorationPerformed": true,
+    "frozenRuntimeRevision": "8930c60cced8d85d9aec770dcb0a022a8709a07c"
+  },
+  "security": {
+    "observedAtUtc": "2026-10-31T17:36:57.310626+00:00",
+    "criticalDriftCount": 0,
+    "criticalExposureCount": 0,
+    "containmentLatched": false,
+    "controllerSha256": "023bc8301d60bbc3fd91d6e39764b9caa20644f737fcbd219213f1e0e743c18d"
+  },
+  "publicHealth": {
+    "observedAtUtc": "2026-10-31T17:38:10.722568+00:00",
+    "url": "https://mutechess.org/club/me",
+    "status": 200,
+    "revision": "8930c60cced8d85d9aec770dcb0a022a8709a07c"
+  },
+  "verificationSourceSha256": {
+    "finalCleanupVerifier": "d0cad345a19e4da577d65472f63b4e17154adbe84d8f4df1e4c460d9dcce6baf",
+    "nativeCountReader": "db3c98385e0e97f299c9f6a8811648f162582eae05bbbeac8afebeb6bfb150c1"
+  },
+  "scope": "Sanitized projection of independent read-only receipts. Raw database/configuration/environment/credentials and private operational paths are omitted."
+}

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/VGsTC01U"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain038"]
+[Black "SignalTrain029"]
+[Result "1-0"]
+[GameId "VGsTC01U"]
+[UTCDate "2026.10.31"]
+[UTCTime "15:43:34"]
+[WhiteElo "1075"]
+[BlackElo "876"]
+[WhiteRatingDiff "+18"]
+[BlackRatingDiff "-17"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C23"]
+[Opening "Bishop's Opening: Boi Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Bc4 { [%clk 0:10:07] } 2... Bc5 { [%clk 0:10:06] } 3. Qf3 { [%clk 0:10:10] } 3... Nc6 { [%clk 0:10:09] } 4. Qxf7# { [%clk 0:10:08] } 1-0
+
+

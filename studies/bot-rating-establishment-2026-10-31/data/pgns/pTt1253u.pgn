@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/pTt1253u"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest045"]
+[Black "SignalTrain148"]
+[Result "1-0"]
+[GameId "pTt1253u"]
+[UTCDate "2026.10.31"]
+[UTCTime "17:27:09"]
+[WhiteElo "1972"]
+[BlackElo "1924"]
+[WhiteRatingDiff "+26"]
+[BlackRatingDiff "-21"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C25"]
+[Opening "Vienna Game: Max Lange Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nc3 { [%clk 0:10:08] } 2... Nc6 { [%clk 0:10:05] } 3. Bb5 { [%clk 0:10:10] } 3... Nf6 { [%clk 0:10:08] } 4. d3 { [%clk 0:10:13] } 4... Nd4 { [%clk 0:10:11] } 5. Bc4 { [%clk 0:10:16] } 5... d6 { [%clk 0:10:14] } 6. Nf3 { [%clk 0:10:19] } 6... Bg4 { [%clk 0:10:17] } 7. h3 { [%clk 0:10:22] } 7... Bxf3 { [%clk 0:10:20] } 8. gxf3 { [%clk 0:10:25] } 8... Be7 { [%clk 0:10:23] } 9. Be3 { [%clk 0:10:27] } 9... c5 { [%clk 0:10:26] } 10. Bxd4 { [%clk 0:10:30] } 10... cxd4 { [%clk 0:10:29] } 11. Nd5 { [%clk 0:10:33] } 11... Nxd5 { [%clk 0:10:32] } 12. Bxd5 { [%clk 0:10:36] } 12... Rb8 { [%clk 0:10:34] } 13. Qd2 { [%clk 0:10:39] } 13... O-O { [%clk 0:10:37] } 14. Rg1 { [%clk 0:10:42] } 14... h6 { [%clk 0:10:40] } 15. Qxh6 { [%clk 0:10:45] } 15... Bf6 { [%clk 0:10:42] } 16. O-O-O { [%clk 0:10:48] } 16... b5 { [%clk 0:10:46] } 17. Rg4 { [%clk 0:10:51] } 17... a5 { [%clk 0:10:49] } 18. Rdg1 { [%clk 0:10:54] } 18... g6 { [%clk 0:10:52] } 19. Rxg6+ { [%clk 0:10:57] } 19... Bg7 { [%clk 0:10:55] } 20. Qxg7# { [%clk 0:10:55] } 1-0
+
+

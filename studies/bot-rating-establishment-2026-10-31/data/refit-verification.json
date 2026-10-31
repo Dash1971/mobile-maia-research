@@ -1,0 +1,23 @@
+{
+  "trainingSnapshotSha256": "eafdf58962686810a0938fde34272f11214e71f235158c422b4d6453b9cc42cc",
+  "predictorSourceSha256": "f35c16b5c504abc48ca0b9d7e15bf1f5720f7c271d3ca6a7716186c0152474b1",
+  "modelVersion": "strength137-ridge-rbf-effective-cv-v2",
+  "numpyVersion": "2.3.5",
+  "heldoutOutcomesRead": false,
+  "fittedCoefficientsWritten": false,
+  "neuralInferencePerformed": false,
+  "predictionTolerance": 1e-07,
+  "maximumAbsolutePredictionDifference": 3.183231456205249e-11,
+  "selection": {
+    "blitz": {
+      "complexity": "interaction",
+      "penalty": 0.1,
+      "configurationCvMae": 99.3271433744124
+    },
+    "rapid": {
+      "complexity": "additive",
+      "penalty": 1.0,
+      "configurationCvMae": 105.82852679892117
+    }
+  }
+}

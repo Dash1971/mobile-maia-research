@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/pBR67d45"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain099"]
+[Black "SignalTrain035"]
+[Result "1/2-1/2"]
+[GameId "pBR67d45"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:08:20"]
+[WhiteElo "1432"]
+[BlackElo "1581"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-10"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C50"]
+[Opening "Italian Game: Anti-Fried Liver Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:08] } 2... Nc6 { [%clk 0:10:05] } 3. Bc4 { [%clk 0:10:11] } 3... h6 { [%clk 0:10:08] } 4. Nc3 { [%clk 0:10:13] } 4... Nf6 { [%clk 0:10:11] } 5. d3 { [%clk 0:10:16] } 5... d6 { [%clk 0:10:14] } 6. O-O { [%clk 0:10:19] } 6... Bg4 { [%clk 0:10:16] } 7. h3 { [%clk 0:10:22] } 7... Bh5 { [%clk 0:10:19] } 8. Be3 { [%clk 0:10:25] } 8... Be7 { [%clk 0:10:22] } 9. Nd5 { [%clk 0:10:28] } 9... Nxd5 { [%clk 0:10:25] } 10. Bxd5 { [%clk 0:10:31] } 10... O-O { [%clk 0:10:28] } 11. g4 { [%clk 0:10:34] } 11... Bg6 { [%clk 0:10:30] } 12. h4 { [%clk 0:10:37] } 12... Bxh4 { [%clk 0:10:33] } 13. Nxh4 { [%clk 0:10:40] } 13... Qxh4 { [%clk 0:10:36] } 14. f3 { [%clk 0:10:43] } 14... Qg3+ { [%clk 0:10:39] } 15. Kh1 { [%clk 0:10:46] } 15... Qh3+ { [%clk 0:10:42] } 16. Kg1 { [%clk 0:10:49] } 16... Qg3+ { [%clk 0:10:45] } 17. Kh1 { [%clk 0:10:52] } 17... Qh3+ { [%clk 0:10:48] } 18. Kg1 { [%clk 0:10:54] } 18... Qg3+ { [%clk 0:10:51] } 1/2-1/2
+
+

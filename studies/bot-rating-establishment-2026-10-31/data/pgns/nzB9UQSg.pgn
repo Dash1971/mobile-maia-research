@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/nzB9UQSg"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest033"]
+[Black "SignalTrain047"]
+[Result "1-0"]
+[GameId "nzB9UQSg"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:55:37"]
+[WhiteElo "1932"]
+[BlackElo "2019"]
+[WhiteRatingDiff "+46"]
+[BlackRatingDiff "-31"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C00"]
+[Opening "French Defense: Carlson Gambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e6 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... d5 { [%clk 0:10:06] } 3. d4 { [%clk 0:10:10] } 3... dxe4 { [%clk 0:10:08] } 4. Ne5 { [%clk 0:10:13] } 4... f6 { [%clk 0:10:11] } 5. Qh5+ { [%clk 0:10:16] } 5... Ke7 { [%clk 0:10:14] } 6. Qf7+ { [%clk 0:10:19] } 6... Kd6 { [%clk 0:10:16] } 7. Nc4+ { [%clk 0:10:22] } 7... Kd5 { [%clk 0:10:19] } 8. Nc3+ { [%clk 0:10:25] } 8... Kxd4 { [%clk 0:10:22] } 9. Be3# { [%clk 0:10:23] } 1-0
+
+

@@ -1,0 +1,55 @@
+{
+  "observedProgressWindowSeconds": 6940.078999996185,
+  "capacity": {
+    "recordedRoles": [
+      "worker",
+      "app",
+      "adapter",
+      "ws",
+      "mongo",
+      "redis",
+      "gateway"
+    ],
+    "wholeHostMeasured": false,
+    "samplesWithAllSevenValid": 664,
+    "maskedIntervals": 3,
+    "validIntervalSeconds": 6921.751,
+    "maximumAcceptedIntervalSeconds": 30,
+    "cpuCounterContinuityCondition": "Adjacent active numeric nondecreasing counters; no PID or invocation IDs in resource projection. Continuity between samples is assumed, not independently proved by this file.",
+    "workerMeanLogicalCores": 3.641601537818971,
+    "sevenGroupMeanLogicalCores": 4.161186104787647,
+    "workerMaximumSampledCurrentGiB": 1.2460670471191406,
+    "sevenGroupMaximumSampledCurrentGiB": 2.981159210205078,
+    "uniqueAcknowledgedMoves": 71287,
+    "observedMovesPerSecond": 10.271785090636458,
+    "illustrative20PercentHeadroomMovesPerSecond": 8.217428072509167,
+    "illustrativeBotReplyRequestIntervalSecondsPerHumanGame": [
+      2,
+      5,
+      10
+    ],
+    "illustrativeActiveHumanGames": [
+      16.434856145018333,
+      41.08714036254583,
+      82.17428072509166
+    ],
+    "omissions": [
+      "GIF",
+      "Cloudflared",
+      "isolation service",
+      "operating system and other host activity"
+    ],
+    "interpretation": "Measured game-serving throughput. Scenarios assume one bot reply request per active human game per stated interval, with no analysis traffic; they are not a VPS benchmark or admission setting."
+  },
+  "inputsSha256": {
+    "native-progress.jsonl.gz": "e4740002c5d10dba8783b12c3b43f7151293686b27a5fee6dba3105545471490",
+    "initial-native-perfs.json": "8176e1456e17f740a84d7e5e9f962a0d616193c0eab572ee08df0e384ea2a8db",
+    "final-native-perfs.json": "c5396653687632153d2651d91bcd9157a2087f89a2cac0facbd50ceeaddf8f91",
+    "configurations.json": "1dd3f4b90c99a2afdb77953ba6799fac965abe2123a3b3699aa2980686b3523b",
+    "original-design-manifest.json": "1ba436c37456a7f621225791d6fa039891632f9029076c0377f77683c500b6d7",
+    "evaluation.json": "4f692f2311b6e754f3b3385f097578da4608ff5206a9c97d5223ad0c06308a02",
+    "frozen-predictions-v2.csv": "bc2717a903b30c7da45cda707e355d76e799ee32687f2600164a87d639280815",
+    "resources-projection.jsonl.gz": "62f30587af98bdc94d6f18fc4e26fc42ded9cb851a9a14d5cd0846599848478a",
+    "acknowledged-moves.jsonl.gz": "d5e5e37639b009d6e3b1e623397bdc1447ed2714afd76ea4011ac1f5b2dd04b9"
+  }
+}

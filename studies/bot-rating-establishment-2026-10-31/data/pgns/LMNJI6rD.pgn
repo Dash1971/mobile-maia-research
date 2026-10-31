@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/LMNJI6rD"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest036"]
+[Black "SignalTrain118"]
+[Result "1/2-1/2"]
+[GameId "LMNJI6rD"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:28:48"]
+[WhiteElo "1505"]
+[BlackElo "1377"]
+[WhiteRatingDiff "-18"]
+[BlackRatingDiff "+8"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:02] } 1... e5 { [%clk 0:05:01] } 2. Qh5 { [%clk 0:05:03] } 2... Nf6 { [%clk 0:05:02] } 3. Qxe5+ { [%clk 0:05:04] } 3... Be7 { [%clk 0:05:03] } 4. Qg3 { [%clk 0:05:05] } 4... Nxe4 { [%clk 0:05:04] } 5. Qxg7 { [%clk 0:05:06] } 5... Bf6 { [%clk 0:05:05] } 6. Qg4 { [%clk 0:05:06] } 6... d5 { [%clk 0:05:05] } 7. Qf3 { [%clk 0:05:07] } 7... Nc6 { [%clk 0:05:06] } 8. d3 { [%clk 0:05:08] } 8... Ng5 { [%clk 0:05:07] } 9. Bxg5 { [%clk 0:05:09] } 9... Bxg5 { [%clk 0:05:08] } 10. Nc3 { [%clk 0:05:09] } 10... Nd4 { [%clk 0:05:09] } 11. Qd1 { [%clk 0:05:10] } 11... Qe7+ { [%clk 0:05:09] } 12. Be2 { [%clk 0:05:11] } 12... Bg4 { [%clk 0:05:10] } 13. f3 { [%clk 0:05:11] } 13... Bh5 { [%clk 0:05:11] } 14. g4 { [%clk 0:05:12] } 14... Bg6 { [%clk 0:05:12] } 15. Nxd5 { [%clk 0:05:13] } 15... Qe5 { [%clk 0:05:13] } 16. c4 { [%clk 0:05:14] } 16... O-O-O { [%clk 0:05:14] } 17. Nh3 { [%clk 0:05:15] } 17... Nxf3+ { [%clk 0:05:15] } 18. Kf2 { [%clk 0:05:16] } 18... Nd4 { [%clk 0:05:16] } 19. Nxg5 { [%clk 0:05:17] } 19... Qxg5 { [%clk 0:05:17] } 20. h4 { [%clk 0:05:18] } 20... Qe5 { [%clk 0:05:18] } 21. h5 { [%clk 0:05:19] } 21... Nxe2 { [%clk 0:05:18] } 22. Qxe2 { [%clk 0:05:19] } 22... Qd4+ { [%clk 0:05:19] } 23. Qe3 { [%clk 0:05:20] } 23... Qxb2+ { [%clk 0:05:20] } 24. Qe2 { [%clk 0:05:21] } 24... Qd4+ { [%clk 0:05:21] } 25. Qe3 { [%clk 0:05:22] } 25... Qb2+ { [%clk 0:05:22] } 26. Qe2 { [%clk 0:05:23] } 26... Qd4+ { [%clk 0:05:23] } 27. Qe3 { [%clk 0:05:24] } 27... Qb2+ { [%clk 0:05:24] } 1/2-1/2
+
+

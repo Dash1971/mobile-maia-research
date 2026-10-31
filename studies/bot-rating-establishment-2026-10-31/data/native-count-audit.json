@@ -1,0 +1,19 @@
+{
+  "observedAtUtc": "2026-10-31T17:35:44.511354+00:00",
+  "run": "r20261031n163",
+  "nativeUsers": 250,
+  "nativePerfs": 250,
+  "nativeStudyRecords": 826,
+  "nativeGame5Records": 826,
+  "activeOwnedNativeGames": 0,
+  "activeOwnedStudyRecords": 0,
+  "ratedResults": 826,
+  "ratedPlayerCountIncrements": 1652,
+  "perBotSpeedCountsMatch": true,
+  "otherPublicGamesDuringRun": 0,
+  "otherSpeedPerfsUnchanged": true,
+  "nativeNonprovisionalBlitz": 250,
+  "nativeNonprovisionalRapid": 250,
+  "nativeBotsEstablishedBoth": 250,
+  "apiStatus": 200
+}
