@@ -3,8 +3,8 @@
 The [public report](REPORT.md) explains how Mute Chess uses a varied Maia
 reference pool to estimate starting ratings for new bots. This guide contains
 the exact settings, recorded results and reproduction steps behind that article.
-The estimates averaged 115.8 rating points of error in Blitz and 116.0 in Rapid
-across 50 test configurations.
+The original prediction evaluation remains in the evidence below. The proposed
+catalog approximation and distribution have a separate [method note](CATALOG-METHOD.md).
 
 ## Method reference
 
@@ -28,7 +28,9 @@ pins, native criterion and capacity observations remain in the
 [2,623-game dataset](../bot-strength-seeding-2026-10-31/README.md) is preserved
 separately; together with this guide's 826-game dataset it provides the 3,449
 published games cited in the article. The baseline retains older earned history
-as well. No new games, fitted procedure or rating writes accompany this rewrite.
+as well. No new games or rating writes accompany this rewrite. The catalog-planning
+approximation is a separate posthoc calculation and does not replace the original
+frozen procedure or its predictions.
 
 ## Evidence map
 
@@ -63,6 +65,9 @@ as well. No new games, fitted procedure or rating writes accompany this rewrite.
 - `figures/`, `tools/build_figures.py`, `tools/build_reader_figures.py` and
   `requirements-figures.txt`: technical and reader-facing PNG/SVG figures with
   reproducible metrics/input hashes.
+- `CATALOG-METHOD.md`, `tools/public_rating_approximation.py` and
+  `data/reader-chart-sources.json`: separate posthoc catalog approximation, history
+  sensitivity, controlled sampling sources and dated proposed roster allocation.
 - `SHA256SUMS`: publication-file checksums, excluding the checksum file itself.
 
 ## Cached verification
@@ -117,7 +122,8 @@ PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/mute-night163-mpl \
   /tmp/mute-night163-verify/bin/python /tmp/mute-night163-figures/tools/build_reader_figures.py
 ```
 
-The script uses saved public projections, performs no fit or inference, and
+The figure scripts use saved public projections and cited source measurements,
+perform no fit or inference, and
 records input hashes/derived metrics. CPU estimates are conditional on continuous
 counters; the projection lacks independent process identity timestamps. Reply
 throughput is workload-specific, and capacity scenarios do not change the normal
@@ -125,16 +131,18 @@ production cap of 2.
 
 ## Using the reference and its limits
 
-New names can reuse supported policy priors without each playing a calibration
-tournament first. Each account retains its own native provisional mechanism and
-earned history; another account's count/RD/established flag is not copied.
-The report explains both the measured policy reference and fitted mapping's
-error, rather than equating a conditioning input with playing Elo.
+New names can reuse supported policy evidence without each playing a calibration
+tournament first. The planned expansion proposes assigned nonprovisional catalog
+labels, distinct from a new account having earned its own native history. That
+product policy is not implemented by this publication; another account's game
+count or RD is not copied. The [catalog note](CATALOG-METHOD.md) explains the
+approximation, history omission and coverage separately from the unchanged
+frozen prediction evaluation.
 
 These are previously observed test configurations, not a fresh blind test.
 Native establishment improves relative rating precision but does not independently
 prove absolute human Lichess alignment. Source dependency declarations are not
-proof of the installed inference environment. No coefficients, neural weights,
+proof of the installed inference environment. No original fitted-model artifact, neural weights,
 private environments/keys, database dump or backup ciphertext are published.
 Original sampling seeds are omitted, so exact fresh neural replay of sampled
 trajectories is outside this cached reproduction.

@@ -1,152 +1,158 @@
-# How should a new Maia bot get its rating?
+# How we rate the bots in Mute Chess
 
-![From Maia settings to an informed starting rating: 250 reference bots, established Blitz and Rapid ratings, and about 116 points of average prediction error.](figures/reader-cover.png)
+![Lichess as the starting reference, games as the test, and Glicko as the rating system.](figures/reader-cover.png)
 
-Mute Chess is a chess site where you can play bots powered by **Maia**, a model
-that predicts human moves. Different settings produce different opponents,
-from varied to predictable. Their ratings should help you find a matched game.
+[Mute Chess](https://mutechess.org) brings Maia opponents into the Lichess playing
+experience. Our goal is straightforward: **a rating here should mean roughly
+the same playing strength as it does on Lichess**, at the same time control.
 
-**How do we give a new bot a sensible rating before it has played?** Our approach
-is to use a varied set of bots' settings and earned ratings as a reference.
+Maia's settings let us create many different opponents. This report explains
+how we turn those settings into useful ratings—and how that research supports
+a much larger bot pool.
 
-We now have **250 reference bots with established Blitz and Rapid ratings**.
-A fitted formula estimates ratings from settings. On the 50 test configurations,
-its estimates differed from the final earned ratings by about **116 points on
-average** in each speed. This gives us a measured error scale for judging
-these starting estimates.
+## 1. How did we come up with the bot ratings?
 
-[Why settings matter](#how-settings-change-playing-strength) ·
-[Rating reference](#a-reference-set-of-250-bots) ·
-[Results](#how-close-were-the-estimates) · [Data and methods](README.md)
+**We started with Lichess, then let the bots earn their ratings through games.**
 
-## How settings change playing strength
+Public Maia3-79M accounts on Lichess supplied our starting reference. We checked
+their sampling settings and adjusted the starting estimates to account for
+the difference between those settings and ours. The
+[source record](../bot-strength-seeding-2026-10-31/REPORT.md#why-these-starting-priors-require-a-test)
+documents that reference and adjustment.
 
-Maia's **rating input**, also called its *conditioning input*, tells the model
-which level of human play to imitate. It is not a measurement of how well the
-resulting bot will score. The other settings matter too.
+We then played **3,449 recorded rated games** across a varied reference roster,
+using the **native Lichess Glicko-2 rating system**. Each bot kept its assigned
+Maia input, Temperature, Top-P and move-history setting. Games changed their
+ratings in the normal way; we retained their existing results and histories.
 
-| Setting | What it changes |
-| --- | --- |
-| **Rating input: 600–2600** | The level of human play Maia is asked to imitate. |
-| **Temperature: 0–1** | Lower values concentrate choices on Maia's most likely moves. |
-| **Top-P: 0–1** | Lower values remove more unlikely moves from the available choices. |
-| **Move history: on or off** | Whether Maia receives preceding positions alongside the current board. |
-| **Opening rule** | When the assigned sampling settings begin to apply. |
+The result is **250 reference opponents with established ratings in both Blitz
+and Rapid**. Their measured ratings cover roughly **800–3,000 in Blitz** and
+**800–2,800 in Rapid**. This gives us evidence about actual playing policies,
+rather than assuming that Maia's input of “1600” automatically produces a
+1600-rated opponent.
 
-Two bots can both have a rating input of 1600 while one samples the full range
-of moves and the other repeatedly chooses its favorite. Our
-[sampling study](../maia3-sampling/REPORT.md) found that narrowing those choices
-could make Maia substantially harder to beat. After any opening override, setting either
-Temperature or Top-P to zero selects the most likely move.
+## 2. Are they close to Lichess ratings?
 
-We call the complete move-selection setup a **policy**. Each reference bot keeps
-one policy throughout its games. Another name using the same settings can benefit from that evidence.
+**They have a Lichess-based starting anchor, and keeping that correspondence is
+a central goal of the site.** The games refine the relative strength of the
+opponents around that anchor.
 
-## Where does the rating scale come from?
+That gives us a reasoned starting point, not a guarantee that a Mute Chess
+rating already equals a human's Lichess rating. Some reference bots still have
+relatively short histories. Playing only one another also cannot reveal a
+shared offset affecting the whole pool.
 
-**The starting reference comes from observed Maia accounts on Lichess.** The
-original Mute Chess roster used historical ratings from public Maia3-79M
-accounts, with an approximate adjustment for differences in sampling settings.
+We will monitor ratings as people play, compare further Lichess evidence as it
+becomes available, and document any adjustments. **Established means the native
+rating system has enough confidence to remove its provisional mark; ratings
+can still change with more games.**
 
-The bots then played rated games in Mute Chess using **Lichess's Glicko-2 rating
-system**. Results update ratings and their uncertainty; existing histories were retained.
-[Starting-reference evidence](../bot-strength-seeding-2026-10-31/REPORT.md#why-these-starting-priors-require-a-test).
+## 3. How do the engine settings affect strength?
 
-The aim is for Mute Chess ratings to roughly correspond to Lichess strength in
-the same speed category. Games among these bots improve their **relative
-ratings**, but cannot independently prove that the entire pool matches the
-human Lichess scale. A shared offset could remain even if the bots were ordered
-well.
+**The Maia input sets the broad strength level. Sampling settings can make the
+same model considerably stronger.**
 
-## A reference set of 250 bots
+| Setting | What it does | What our evidence supports |
+| --- | --- | --- |
+| **Maia input** | Chooses the level of human play the model tries to imitate. | Higher inputs generally produced stronger opponents. Input and earned rating are different numbers. |
+| **Temperature** | Lower values favor the model's most likely moves more strongly. | Lowering it substantially improved results in our controlled comparisons. |
+| **Top-P** | Removes unlikely moves from the available choices. | Narrowing the choices improved results, including the small change from 1.00 to 0.95. |
+| **Argmax** | Always chooses the most likely legal move. | It was about 320 match-Elo stronger than full sampling in the controlled 1600-input comparison. |
+| **Move history** | Gives Maia previous positions as well as the current board. | We found no useful extra rating adjustment for history in the prediction checks, so the simple formula below leaves it out. This does not establish that history can never affect strength. |
 
-The reference uses **Maia3-79M** with varied inputs, sampling settings and fixed
-history modes. The published calibration dataset contains
-**3,449 rated games**, alongside the bots’ existing rating histories.
+![Controlled comparisons: Top-P 0.95 adds about 71 match-Elo, Top-P 0.90 about 131, Temperature 0.50 about 271, and argmax about 318, relative to full sampling in the tested setting.](figures/reader-sampling.png)
 
-| Reference at the end of the studies | Blitz | Rapid |
-| --- | ---: | ---: |
-| Time control | 5 minutes + 3 seconds per move | 10 minutes + 5 seconds per move |
-| Bots with established ratings | **250 of 250** | **250 of 250** |
-| Earned rating range, rounded | 771–3,043 | 835–2,813 |
-| Highest rating deviation | 109.91 | 109.97 |
+These comparisons hold the **79M model and 1600 input fixed**, with history off.
+They measure gains against full sampling, not absolute human ratings. The whiskers
+show 95% uncertainty intervals. Settings interact: their gains should not be
+added together or assumed identical at every Maia input.
+[Controlled sampling results](../maia3-sampling/strength.md) ·
+[Top-P 0.95 comparison](../maia3-sampling/followup/strength/SUMMARY.md)
 
-**Rating deviation, or RD, measures the rating system's uncertainty.** Every bot
-finished below the 110-point provisional boundary in both speeds. All 500
-ratings therefore became *established*. Established does not promise accuracy within 110 points of true strength.
+Our broader bot pool tests many combinations of these settings. The chart below
+shows the resulting native ratings, including the remaining variation between
+opponents.
 
-![The same Maia rating input can lead to different earned ratings when sampling, history and opening settings vary.](figures/reader-settings.png)
+![Higher Maia inputs generally produce higher playing ratings, with a substantial spread from settings and rating uncertainty.](figures/reader-settings.png)
 
-The spread illustrates why the whole policy matters. It reflects both different
-settings and remaining rating uncertainty; it does not isolate the effect of
-any one slider.
+## From this research to a 10,000-bot pool
 
-## Turning settings into a starting estimate
+**We plan to expand the roster to 10,000 identities, each with persistent
+settings and an assigned rating calibrated from this reference.** A new name
+does not require another tournament to rediscover the strength of an already
+measured playing policy.
 
-We used **200 bots to fit the formula and 50 to check its predictions**, with
-separate fits for Blitz and Rapid. Equivalent training policies are grouped together when comparing candidate
-formulas.
+The plan is to present those calibrated bot ratings without a provisional
+starter mark. This is an assignment based on the policy's evidence; it does
+not mean that every new identity has already played its own calibration games.
+We will preserve that distinction in the data, and games will continue to
+update ratings through Glicko. The expanded roster has not been activated yet.
 
-Once the 200 training bots had established ratings in both speeds, we fitted
-the predetermined procedure using only those ratings. Its predictions
-were saved and fixed before the new test games began. Those results did not
-change the formula or its predictions.
+### A simple rating formula
 
-**The 50 test policies had been observed in the earlier study.** Their earlier
-games also influenced training opponents' ratings. This checks fixed predictions
-against later evidence from known configurations; it is not a fresh blind test
-of previously unseen policies.
+For an already measured policy, its established reference rating is the most
+direct starting point. For other combinations, this is a **rough catalog-planning
+approximation**, guided by the reference ratings and the controlled sampling
+results:
 
-## How close were the estimates?
+```text
+Assigned rating ≈ 1575 + 0.73 × (Maia input − 1600)
+                      + 320 × (1 − Temperature³ × Top-P⁵)
+```
 
-The chart compares fixed predictions with earned ratings. Points on the
-diagonal would be exact matches.
+The first part sets the broad level; the second adds a sampling adjustment
+that rises toward 320 as choices become more concentrated. There is no history
+bonus or penalty. Blitz and Rapid retain separate reference ratings; the
+[method note](CATALOG-METHOD.md) gives the separate-speed versions and derivation.
+This smooth approximation is a proposed way to fill gaps between measured
+settings, not a new law of chess strength.
 
-![Predicted and earned test ratings broadly agree, with average errors of about 116 points and substantial errors for some individual bots.](figures/reader-predictions.png)
+For example, at input 1600 it gives approximately **1575 with full sampling**,
+**1650 at Temperature 1 / Top-P 0.95**, and **1895 with argmax**. We prefer direct
+reference evidence where it is available rather than forcing every bot onto
+the same smooth curve.
 
-We measure each error as the distance between prediction and earned rating,
-ignoring whether it was too high or too low. Averaging those distances gives
-**mean absolute error**, or MAE.
+### A pool shaped like Lichess
 
-| Prediction check | Blitz | Rapid |
-| --- | ---: | ---: |
-| Test policies | 50 | 50 |
-| Average error, rating points | **115.8** | **116.0** |
-| 95% interval for average error | 94.1–138.5 | 91.8–143.1 |
+Most identities should sit in the busy middle of the rating range, with fewer
+at either extreme. The illustration below uses Lichess's weekly Blitz
+distribution to propose an allocation—not an equal number of bots at every
+Maia input.
 
-The intervals describe uncertainty in the **average error across this sample**,
-not a prediction range for a new bot. Individual errors can be much larger.
-The earned ratings are themselves estimates, and these intervals do not include
-uncertainty in the shared Lichess-derived scale.
+![Proposed allocation of 10,000 identities: most around the middle of the Lichess Blitz distribution and a small strong tail.](figures/reader-roster.png)
 
-## What this means for a new bot
+| Assigned rating band | Proposed identities |
+| --- | ---: |
+| 600–999 | 1,230 |
+| 1,000–1,399 | 3,140 |
+| 1,400–1,799 | 3,460 |
+| 1,800–2,199 | 1,850 |
+| 2,200–2,599 | 310 |
+| 2,600–3,000 | 10 |
+| **Total** | **10,000** |
 
-**Choose an informed starting estimate from the policy, then let games take
-over.** An established reference bot supplies direct evidence for matching
-settings. The formula supplies an approximate estimate for other combinations
-within the tested domain.
+This is a rounded planning illustration based on the
+[Lichess Blitz distribution](https://lichess.org/stat/rating/distribution/blitz)
+observed on October 31, 2026 UTC. It excludes the below-600 share and caps the
+top band for the proposed catalog. Rapid needs its own distribution; one
+allocation does not reproduce both speed categories.
 
-A new name still needs its own provisional rating history. It should not inherit
-another account's completed games, low RD or established status. The benefit is
-that every future name does not need a separate tournament just to get an
-informed starting point.
+**The desired range is 600–3,000; the evidence does not yet cover every part of
+it equally.** The full-sampling 600-input reference finished around 800–900, and
+the smooth formula does not itself reach either target edge. Some measured
+Blitz opponents reached roughly 3,000. Extending the roster down to genuine 600-strength opponents needs weaker
+playing policies and calibration at that end of the range.
 
-For players, the **earned playing rating is more informative than the Maia input
-alone**. A new bot's rating can move as it plays. These results cover the recorded
-79M policies in Blitz and Rapid; they do not establish ratings for other models,
-speeds or independently varied opponent-conditioning inputs. Nor do they prove
-accuracy for every unmeasured combination.
+The practical result is a measured reference for a much larger, varied pool,
+with ratings that can improve as people play. **The Lichess correspondence
+remains the goal throughout.**
 
 ---
 
-The [evidence and reproduction guide](README.md) contains protocols, source pins,
-all games, verification and detailed limitations. The
-[settings](data/configurations.json), [earned ratings](data/ratings.csv),
-[frozen predictions](data/frozen-predictions-v2.csv) and
-[per-bot evaluation](data/evaluation.json) make the comparisons inspectable.
+[Data and reproduction](README.md) · [Catalog formula and chart sources](CATALOG-METHOD.md) ·
+[All reference settings](data/configurations.json) · [Earned ratings](data/ratings.csv)
 
-This is independent Mobile Maia/Mute Chess research, built on
-[Maia/CSSLab](https://github.com/CSSLab/maia3),
-[Lichess/Lila](https://github.com/lichess-org/lila) and earlier Mobile Maia and
+Built on [Lichess/Lila](https://github.com/lichess-org/lila),
+[Maia/CSSLab](https://github.com/CSSLab/maia3), and earlier Mobile Maia and
 [En Croissant](https://github.com/franciscoBSalgueiro/en-croissant) work.
-These are project choices, not upstream recommendations.
+This is independent project research, not an upstream endorsement.
