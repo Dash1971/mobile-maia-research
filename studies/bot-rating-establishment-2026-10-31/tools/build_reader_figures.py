@@ -21,7 +21,8 @@ BG, INK, MUTED = '#F6F4EE', '#192F3E', '#55636B'
 TEAL, BLUE, TRACK = '#138578', '#4966AA', '#E7EAE7'
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'svg.fonttype': 'none',
                      'text.color': INK, 'axes.labelcolor': INK,
-                     'xtick.color': MUTED, 'ytick.color': MUTED})
+                     'xtick.color': MUTED, 'ytick.color': MUTED,
+                     'svg.hashsalt': 'mute-chess-rating-reader-v1'})
 
 
 def read(name):
@@ -49,7 +50,9 @@ def page(width, height):
 
 def save(fig, name):
     fig.savefig(OUT / (name + '.png'), dpi=170, facecolor=BG)
-    fig.savefig(OUT / (name + '.svg'), facecolor=BG, metadata={'Date': None})
+    svg = OUT / (name + '.svg')
+    fig.savefig(svg, facecolor=BG, metadata={'Date': None})
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines()) + '\n')
     plt.close(fig)
 
 
