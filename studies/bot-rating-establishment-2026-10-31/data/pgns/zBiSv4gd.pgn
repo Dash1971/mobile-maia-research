@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/zBiSv4gd"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain139"]
+[Black "SignalTrain154"]
+[Result "1-0"]
+[GameId "zBiSv4gd"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:01:10"]
+[WhiteElo "1181"]
+[BlackElo "1258"]
+[WhiteRatingDiff "+41"]
+[BlackRatingDiff "-39"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C42"]
+[Opening "Petrov's Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Nf3 { [%clk 0:05:04] } 2... Nf6 { [%clk 0:05:02] } 3. Bb5 { [%clk 0:05:04] } 3... Bc5 { [%clk 0:05:03] } 4. Nxe5 { [%clk 0:05:05] } 4... Nxe4 { [%clk 0:05:04] } 5. Qg4 { [%clk 0:05:06] } 5... Nxf2 { [%clk 0:05:04] } 6. Qxg7 { [%clk 0:05:07] } 6... Nxh1 { [%clk 0:05:05] } 7. Qxh8+ { [%clk 0:05:07] } 7... Ke7 { [%clk 0:05:06] } 8. Qxh7 { [%clk 0:05:08] } 8... Bf2+ { [%clk 0:05:07] } 9. Kf1 { [%clk 0:05:09] } 9... d6 { [%clk 0:05:08] } 10. Qxf7# { [%clk 0:05:07] } 1-0
+
+

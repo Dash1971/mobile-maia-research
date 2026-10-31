@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/Gg4YtaZY"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain140"]
+[Black "SignalTest042"]
+[Result "0-1"]
+[GameId "Gg4YtaZY"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:25:08"]
+[WhiteElo "1490"]
+[BlackElo "1410"]
+[WhiteRatingDiff "-35"]
+[BlackRatingDiff "+60"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C60"]
+[Opening "Ruy Lopez: Rotary-Albany Gambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... Nc6 { [%clk 0:10:06] } 3. Bb5 { [%clk 0:10:11] } 3... b6 { [%clk 0:10:09] } 4. Bxc6 { [%clk 0:10:14] } 4... dxc6 { [%clk 0:10:12] } 5. O-O { [%clk 0:10:17] } 5... Bb7 { [%clk 0:10:15] } 6. Nxe5 { [%clk 0:10:20] } 6... Qe7 { [%clk 0:10:17] } 7. d4 { [%clk 0:10:23] } 7... O-O-O { [%clk 0:10:20] } 8. Qg4+ { [%clk 0:10:26] } 8... Kb8 { [%clk 0:10:24] } 9. Bg5 { [%clk 0:10:29] } 9... f6 { [%clk 0:10:27] } 10. Bxf6 { [%clk 0:10:33] } 10... gxf6 { [%clk 0:10:30] } 11. Nc4 { [%clk 0:10:35] } 11... Rxd4 { [%clk 0:10:33] } 12. b3 { [%clk 0:10:38] } 12... Rxe4 { [%clk 0:10:36] } 13. Qf3 { [%clk 0:10:42] } 13... c5 { [%clk 0:10:39] } 14. Nc3 { [%clk 0:10:45] } 14... Rxc4 { [%clk 0:10:42] } 15. bxc4 { [%clk 0:10:48] } 15... Bxf3 { [%clk 0:10:45] } 16. gxf3 { [%clk 0:10:51] } 16... Qg7+ { [%clk 0:10:47] } 17. Kh1 { [%clk 0:10:53] } 17... Bd6 { [%clk 0:10:50] } 18. Rg1 { [%clk 0:10:57] } 18... Qh6 { [%clk 0:10:53] } 19. Nd5 { [%clk 0:11:00] } 19... Qxh2# { [%clk 0:10:51] } 0-1
+
+

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/E80SLXeL"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain007"]
+[Black "SignalTrain112"]
+[Result "1-0"]
+[GameId "E80SLXeL"]
+[UTCDate "2026.10.31"]
+[UTCTime "15:43:25"]
+[WhiteElo "1042"]
+[BlackElo "1221"]
+[WhiteRatingDiff "+54"]
+[BlackRatingDiff "-50"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Classical Variation"]
+[Termination "Normal"]
+
+1. b3 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. Bb2 { [%clk 0:10:08] } 2... Bf5 { [%clk 0:10:06] } 3. d3 { [%clk 0:10:11] } 3... Nf6 { [%clk 0:10:09] } 4. Nh3 { [%clk 0:10:14] } 4... Nbd7 { [%clk 0:10:11] } 5. Nc3 { [%clk 0:10:17] } 5... g5 { [%clk 0:10:14] } 6. Nxg5 { [%clk 0:10:20] } 6... Bh6 { [%clk 0:10:16] } 7. Nf3 { [%clk 0:10:23] } 7... O-O { [%clk 0:10:20] } 8. e4 { [%clk 0:10:26] } 8... dxe4 { [%clk 0:10:23] } 9. dxe4 { [%clk 0:10:28] } 9... Bxe4 { [%clk 0:10:26] } 10. Nxe4 { [%clk 0:10:31] } 10... Nxe4 { [%clk 0:10:28] } 11. Bd3 { [%clk 0:10:34] } 11... Nec5 { [%clk 0:10:31] } 12. O-O { [%clk 0:10:37] } 12... Nxd3 { [%clk 0:10:34] } 13. Qxd3 { [%clk 0:10:40] } 13... Nc5 { [%clk 0:10:37] } 14. Qc3 { [%clk 0:10:43] } 14... Ne4 { [%clk 0:10:40] } 15. Qh8# { [%clk 0:10:41] } 1-0
+
+

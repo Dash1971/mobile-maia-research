@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "bot-rating-establishment-publication-v1",
+  "run": "r20261031n163",
+  "publicationIssue": "https://github.com/Dash1971/mobile-maia-research/issues/9",
+  "applicationIssue": "https://github.com/Dash1971/mute-chess/issues/163",
+  "applicationSourceCommit": "8930c60cced8d85d9aec770dcb0a022a8709a07c",
+  "upstreamLilaCommit": "b551752d2a0e7a63459d9812825d95a633a98737",
+  "upstreamWebSocketCommit": "5089b84b5fe2da3f3e9e69d29363115cfddfc758",
+  "nativePatchSha256": "af80d43f093e47f68148ff4f4c893f5070ac85522b034374013e82cd853a6c11",
+  "neuralModel": "Maia3-79M",
+  "neuralModelSha256": "3454b03ae78baa64a87b345fdb1a457265d912caec531039b074f07eda0d8010",
+  "logicalCombinedRosterSha256": "ac9cb13a2c2e6b59daf1c7d09a74527da7c07fcdd166ea2d0389e72c5d669296",
+  "logicalSplitSha256": "3e954c26ab3671fabbfe27c4f85b86c0d7b131109175aad21f478d9cc0f8f65c",
+  "previousReportCommit": "4800b4e6f5e68d55e64d8c15fa07efe4a4e3c7de",
+  "limits": {
+    "preparationBeganUtc": "2026-10-31T13:30:00Z",
+    "admissionEndUtc": "2026-10-31T21:00:00Z",
+    "hardGameStopUtc": "2026-10-31T21:30:00Z",
+    "maximumAdditionalAdmissions": 3000,
+    "maximumTotalManagedGamesIncludingHumans": 22,
+    "oneGamePerBot": true,
+    "eligibilityRatingPoints": 200,
+    "workers": 2,
+    "combinedLogicalCpuQuotaPercent": 400,
+    "workerGroupMemoryMiB": 2000,
+    "nativeControls": {
+      "blitz": "5+3",
+      "rapid": "10+5"
+    }
+  },
+  "actual": {
+    "schemaVersion": "night163-execution-projection-v1",
+    "run": "r20261031n163",
+    "main": "8930c60cced8d85d9aec770dcb0a022a8709a07c",
+    "workerStartedAtUtc": "2026-10-31T15:36:25.565Z",
+    "workerEndedAtUtc": "2026-10-31T17:32:09.094Z",
+    "goalReachedAtUtc": "2026-10-31T17:32:08.536Z",
+    "reason": "completed",
+    "configurationRestoredRecorded": true,
+    "admitted": 826,
+    "finishedRated": 826,
+    "aborted": 0,
+    "unfinished": 0,
+    "trainingFinishedBeforeFreeze": 349,
+    "heldoutFollowupGames": 477,
+    "initialNonprovisional": {
+      "blitz": 80,
+      "rapid": 75
+    },
+    "finalNonprovisional": {
+      "blitz": 250,
+      "rapid": 250
+    },
+    "uniqueAcknowledgedPlies": 71287,
+    "resourceSamples": 667,
+    "nativeProgressSamples": 823,
+    "noFurtherGamesAuthorizedByPublication": true
+  },
+  "freeze": {
+    "atUtc": "2026-10-31T16:25:06.245Z",
+    "admitted": 349,
+    "modelSha256": "f108a6a5957ab8df39bb67b1725ccdf6e97946cd3946a45c857dc2dd4bf2eeeb",
+    "trainingSnapshotSha256": "eafdf58962686810a0938fde34272f11214e71f235158c422b4d6453b9cc42cc",
+    "predictorSourceSha256": "f35c16b5c504abc48ca0b9d7e15bf1f5720f7c271d3ca6a7716186c0152474b1",
+    "modelVersion": "strength137-ridge-rbf-effective-cv-v2"
+  },
+  "termination": {
+    "goalReached": true,
+    "all250BotsEstablishedBothSpeeds": true,
+    "admittedGames": 826,
+    "ratedFinishes": 826,
+    "noAutomaticRestart": true,
+    "finalCleanupIndependentlyVerified": true,
+    "allEarnedPublicDataRetained": true,
+    "noReseedingOrForcedProvisionalFlags": true,
+    "unusedGameBudget": 2174
+  },
+  "method": {
+    "trainingIdentities": 200,
+    "testIdentities": 50,
+    "procedure": "strength137-ridge-rbf-effective-cv-v2",
+    "trainingOnlyRefitInput": "data/frozen-training-perfs.json",
+    "heldoutPolicyStatus": "Previously observed configurations; follow-up precision, not fresh unseen-policy validation",
+    "fitSelectionUsesTestOutcomes": false,
+    "absoluteHumanLichessScaleIndependentlyValidated": false
+  },
+  "dataLineage": "data/integrity-lineage.json",
+  "operationalEvidence": "data/operational-audits.json",
+  "reproduction": {
+    "publicIntegrity": "verify_public.py",
+    "trainingOnlyRefit": "tools/check_refit.py",
+    "unchangedEvaluator": "tools/check_evaluation.py",
+    "figures": "tools/build_figures.py",
+    "checksumManifest": "SHA256SUMS"
+  },
+  "omitted": [
+    "private operational paths and environments",
+    "credentials and private keys",
+    "raw native database documents and database archives",
+    "encrypted backups and ciphertext",
+    "neural weights",
+    "fitted coefficient artifacts and raw sampling seeds"
+  ],
+  "interpretation": "Lichess-informed priors are retained as the external starting anchor; native games establish relative rating precision. Frozen estimates inform new-account priors; earned histories and established flags are never copied."
+}

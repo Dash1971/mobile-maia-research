@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/9zAft4HP"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest026"]
+[Black "SignalTrain013"]
+[Result "0-1"]
+[GameId "9zAft4HP"]
+[UTCDate "2026.10.31"]
+[UTCTime "17:04:51"]
+[WhiteElo "1729"]
+[BlackElo "1804"]
+[WhiteRatingDiff "-27"]
+[BlackRatingDiff "+24"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Normal Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... Nf6 { [%clk 0:10:02] } 2. e5 { [%clk 0:10:08] } 2... Nd5 { [%clk 0:10:05] } 3. Bc4 { [%clk 0:10:10] } 3... Nb6 { [%clk 0:10:08] } 4. Bb5 { [%clk 0:10:13] } 4... Nc6 { [%clk 0:10:10] } 5. Bxc6 { [%clk 0:10:16] } 5... bxc6 { [%clk 0:10:13] } 6. d4 { [%clk 0:10:19] } 6... d6 { [%clk 0:10:15] } 7. Nf3 { [%clk 0:10:22] } 7... dxe5 { [%clk 0:10:18] } 8. Nxe5 { [%clk 0:10:24] } 8... Bb7 { [%clk 0:10:21] } 9. Qf3 { [%clk 0:10:27] } 9... f6 { [%clk 0:10:24] } 10. Nxc6 { [%clk 0:10:30] } 10... Bxc6 { [%clk 0:10:27] } 11. Qxc6+ { [%clk 0:10:33] } 11... Nd7 { [%clk 0:10:29] } 12. O-O { [%clk 0:10:35] } 12... e5 { [%clk 0:10:32] } 13. dxe5 { [%clk 0:10:38] } 13... fxe5 { [%clk 0:10:35] } 14. Re1 { [%clk 0:10:41] } 14... Bd6 { [%clk 0:10:38] } 15. Nc3 { [%clk 0:10:44] } 15... O-O { [%clk 0:10:41] } 16. Nd5 { [%clk 0:10:47] } 16... Nf6 { [%clk 0:10:44] } 17. Bg5 { [%clk 0:10:49] } 17... h6 { [%clk 0:10:47] } 18. Bxf6 { [%clk 0:10:52] } 18... gxf6 { [%clk 0:10:50] } 19. Rad1 { [%clk 0:10:55] } 19... Rb8 { [%clk 0:10:52] } 20. b3 { [%clk 0:10:58] } 20... f5 { [%clk 0:10:55] } 21. Qc4 { [%clk 0:11:01] } 21... Kh7 { [%clk 0:10:58] } 22. Ne3 { [%clk 0:11:03] } 22... f4 { [%clk 0:11:01] } 23. Ng4 { [%clk 0:11:06] } 23... Qg5 { [%clk 0:11:04] } 24. h3 { [%clk 0:11:09] } 24... h5 { [%clk 0:11:07] } 25. Nh2 { [%clk 0:11:12] } 25... Rg8 { [%clk 0:11:10] } 26. Qe4+ { [%clk 0:11:15] } 26... Kh6 { [%clk 0:11:13] } 27. c4 { [%clk 0:11:18] } 27... Rbf8 { [%clk 0:11:15] } 28. Nf3 { [%clk 0:11:20] } 28... Qxg2# { [%clk 0:11:14] } 0-1
+
+

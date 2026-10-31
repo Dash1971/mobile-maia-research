@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "night163-execution-projection-v1",
+  "run": "r20261031n163",
+  "main": "8930c60cced8d85d9aec770dcb0a022a8709a07c",
+  "workerStartedAtUtc": "2026-10-31T15:36:25.565Z",
+  "workerEndedAtUtc": "2026-10-31T17:32:09.094Z",
+  "goalReachedAtUtc": "2026-10-31T17:32:08.536Z",
+  "reason": "completed",
+  "configurationRestoredRecorded": true,
+  "admitted": 826,
+  "finishedRated": 826,
+  "aborted": 0,
+  "unfinished": 0,
+  "trainingFinishedBeforeFreeze": 349,
+  "heldoutFollowupGames": 477,
+  "initialNonprovisional": {
+    "blitz": 80,
+    "rapid": 75
+  },
+  "finalNonprovisional": {
+    "blitz": 250,
+    "rapid": 250
+  },
+  "uniqueAcknowledgedPlies": 71287,
+  "resourceSamples": 667,
+  "nativeProgressSamples": 823,
+  "noFurtherGamesAuthorizedByPublication": true
+}

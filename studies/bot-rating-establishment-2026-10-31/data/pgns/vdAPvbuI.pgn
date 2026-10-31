@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/vdAPvbuI"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest041"]
+[Black "SignalTrain030"]
+[Result "1/2-1/2"]
+[GameId "vdAPvbuI"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:41:07"]
+[WhiteElo "1807"]
+[BlackElo "1938"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-9"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. e3 { [%clk 0:10:07] } 2... c5 { [%clk 0:10:05] } 3. dxc5 { [%clk 0:10:10] } 3... Nc6 { [%clk 0:10:08] } 4. Bb5 { [%clk 0:10:13] } 4... e5 { [%clk 0:10:10] } 5. Bxc6+ { [%clk 0:10:16] } 5... bxc6 { [%clk 0:10:13] } 6. b4 { [%clk 0:10:19] } 6... a5 { [%clk 0:10:16] } 7. c3 { [%clk 0:10:21] } 7... axb4 { [%clk 0:10:19] } 8. cxb4 { [%clk 0:10:24] } 8... Nf6 { [%clk 0:10:21] } 9. Nf3 { [%clk 0:10:27] } 9... e4 { [%clk 0:10:24] } 10. Nd4 { [%clk 0:10:30] } 10... Qc7 { [%clk 0:10:27] } 11. O-O { [%clk 0:10:33] } 11... Be7 { [%clk 0:10:30] } 12. Nc3 { [%clk 0:10:36] } 12... O-O { [%clk 0:10:33] } 13. a4 { [%clk 0:10:38] } 13... Ng4 { [%clk 0:10:36] } 14. g3 { [%clk 0:10:41] } 14... Ne5 { [%clk 0:10:39] } 15. b5 { [%clk 0:10:44] } 15... Bxc5 { [%clk 0:10:42] } 16. bxc6 { [%clk 0:10:46] } 16... Bxd4 { [%clk 0:10:44] } 17. exd4 { [%clk 0:10:49] } 17... Nf3+ { [%clk 0:10:47] } 18. Kg2 { [%clk 0:10:52] } 18... Qxc6 { [%clk 0:10:50] } 19. Nb5 { [%clk 0:10:55] } 19... Ba6 { [%clk 0:10:53] } 20. Ba3 { [%clk 0:10:58] } 20... Bxb5 { [%clk 0:10:56] } 21. axb5 { [%clk 0:11:01] } 21... Qxb5 { [%clk 0:10:59] } 22. Bxf8 { [%clk 0:11:04] } 22... Rxf8 { [%clk 0:11:02] } 23. Rb1 { [%clk 0:11:07] } 23... Qd7 { [%clk 0:11:05] } 24. Qb3 { [%clk 0:11:10] } 24... Qg4 { [%clk 0:11:08] } 25. Qxd5 { [%clk 0:11:13] } 25... Nh4+ { [%clk 0:11:11] } 26. Kg1 { [%clk 0:11:16] } 26... Nf3+ { [%clk 0:11:13] } 27. Kg2 { [%clk 0:11:19] } 27... Nh4+ { [%clk 0:11:16] } 28. Kg1 { [%clk 0:11:21] } 28... Nf3+ { [%clk 0:11:19] } 29. Kg2 { [%clk 0:11:24] } 1/2-1/2
+
+

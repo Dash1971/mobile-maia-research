@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/XlrFuYSC"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "CassetteKid"]
+[Black "SignalTrain016"]
+[Result "0-1"]
+[GameId "XlrFuYSC"]
+[UTCDate "2026.10.31"]
+[UTCTime "15:58:58"]
+[WhiteElo "1099"]
+[BlackElo "1276"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+18"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C20"]
+[Opening "King's Pawn Game"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. g3 { [%clk 0:10:07] } 2... Bc5 { [%clk 0:10:06] } 3. Ne2 { [%clk 0:10:10] } 3... Nf6 { [%clk 0:10:09] } 4. h3 { [%clk 0:10:13] } 4... Ng4 { [%clk 0:10:11] } 5. hxg4 { [%clk 0:10:16] } 5... Qf6 { [%clk 0:10:14] } 6. Nec3 { [%clk 0:10:19] } 6... Qxf2# { [%clk 0:10:12] } 0-1
+
+

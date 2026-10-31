@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/CFBNiAtq"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest041"]
+[Black "SignalTrain149"]
+[Result "0-1"]
+[GameId "CFBNiAtq"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:34:54"]
+[WhiteElo "1669"]
+[BlackElo "1728"]
+[WhiteRatingDiff "-37"]
+[BlackRatingDiff "+26"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C26"]
+[Opening "Vienna Game: Stanley Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Bc4 { [%clk 0:05:03] } 2... Nf6 { [%clk 0:05:02] } 3. Nc3 { [%clk 0:05:04] } 3... c6 { [%clk 0:05:03] } 4. Nf3 { [%clk 0:05:05] } 4... a6 { [%clk 0:05:03] } 5. Nxe5 { [%clk 0:05:05] } 5... Bd6 { [%clk 0:05:04] } 6. Nxf7 { [%clk 0:05:06] } 6... Qe7 { [%clk 0:05:05] } 7. Nxh8 { [%clk 0:05:07] } 7... Nxe4 { [%clk 0:05:06] } 8. O-O { [%clk 0:05:08] } 8... Qe5 { [%clk 0:05:07] } 9. Nxe4 { [%clk 0:05:09] } 9... Qxh2# { [%clk 0:05:05] } 0-1
+
+

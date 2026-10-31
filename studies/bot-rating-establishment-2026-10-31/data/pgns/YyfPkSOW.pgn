@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/YyfPkSOW"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain008"]
+[Black "SignalTrain059"]
+[Result "0-1"]
+[GameId "YyfPkSOW"]
+[UTCDate "2026.10.31"]
+[UTCTime "15:49:31"]
+[WhiteElo "1569"]
+[BlackElo "1697"]
+[WhiteRatingDiff "-21"]
+[BlackRatingDiff "+23"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C44"]
+[Opening "King's Pawn Game: Tayler Opening"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Nf3 { [%clk 0:05:04] } 2... Nc6 { [%clk 0:05:01] } 3. Be2 { [%clk 0:05:05] } 3... Nf6 { [%clk 0:05:02] } 4. O-O { [%clk 0:05:06] } 4... d5 { [%clk 0:05:03] } 5. d3 { [%clk 0:05:07] } 5... dxe4 { [%clk 0:05:04] } 6. dxe4 { [%clk 0:05:08] } 6... Qxd1 { [%clk 0:05:05] } 7. Bxd1 { [%clk 0:05:09] } 7... Nxe4 { [%clk 0:05:06] } 8. Re1 { [%clk 0:05:09] } 8... Bf5 { [%clk 0:05:07] } 9. Nc3 { [%clk 0:05:10] } 9... Nxc3 { [%clk 0:05:07] } 10. bxc3 { [%clk 0:05:11] } 10... O-O-O { [%clk 0:05:08] } 11. Nxe5 { [%clk 0:05:12] } 11... Nxe5 { [%clk 0:05:09] } 12. Rxe5 { [%clk 0:05:13] } 12... Rxd1+ { [%clk 0:05:10] } 13. Re1 { [%clk 0:05:14] } 13... Rxe1# { [%clk 0:05:08] } 0-1
+
+

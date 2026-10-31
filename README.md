@@ -15,6 +15,17 @@ results and match scores, with links to the full study and recorded data.
 
 ## Studies
 
+### Established reference ratings for Maia bots — 31 October 2026
+
+[Read the report](studies/bot-rating-establishment-2026-10-31/REPORT.md) · [Evidence and reproduction](studies/bot-rating-establishment-2026-10-31/README.md)
+
+The same 250 Mute Chess bots continued from their earned ratings for 826 more
+native rated games. All finished nonprovisional in both Blitz and Rapid. This
+follow-up builds an established policy reference for informed new-bot priors,
+with a fixed training-only V2 prediction freeze before the new test games.
+The frozen mapping's average native-label error was about 116 points per speed;
+the stricter 100-point target was not met. The earlier report remains unchanged.
+
 ### Starting ratings for Maia bot pools — 31 October 2026
 
 [Read the report](studies/bot-strength-seeding-2026-10-31/REPORT.md) · [Data and reproduction](studies/bot-strength-seeding-2026-10-31/README.md)

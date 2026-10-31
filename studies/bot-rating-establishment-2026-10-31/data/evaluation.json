@@ -1,0 +1,839 @@
+{
+  "version": "strength137-ridge-rbf-effective-cv-v2",
+  "evaluatorVersion": "strength137-ridge-rbf-effective-cv-v2",
+  "targetMae": 100,
+  "speeds": {
+    "blitz": {
+      "configurations": 50,
+      "nativeRatingMae": 115.77126993185166,
+      "configurationBootstrapMae95": [
+        94.10436348242999,
+        138.5329891738664
+      ],
+      "medianNativeRd": 107.55586979877364,
+      "frozenOutcomeGames": 241,
+      "brier": 0.16544171838931035,
+      "expectedScoreCrossEntropy": 0.6284587901975895,
+      "meetsNoisyLabelMaeTarget": false,
+      "details": [
+        {
+          "id": "probe001",
+          "prediction": 2093.419982186934,
+          "nativeRating": 2261.6894024396097,
+          "rd": 108.80332379657007,
+          "nativeGames": 11,
+          "absoluteError": 168.2694202526759
+        },
+        {
+          "id": "signaltest002",
+          "prediction": 994.4758609206632,
+          "nativeRating": 1195.022163825975,
+          "rd": 107.58898444603037,
+          "nativeGames": 11,
+          "absoluteError": 200.5463029053118
+        },
+        {
+          "id": "signaltest003",
+          "prediction": 2229.4597921819473,
+          "nativeRating": 2087.5588797668242,
+          "rd": 106.42815126285896,
+          "nativeGames": 11,
+          "absoluteError": 141.900912415123
+        },
+        {
+          "id": "signaltest004",
+          "prediction": 2451.1123307315897,
+          "nativeRating": 2414.4216653045355,
+          "rd": 108.6775046252836,
+          "nativeGames": 11,
+          "absoluteError": 36.69066542705423
+        },
+        {
+          "id": "signaltest005",
+          "prediction": 2249.4701983018954,
+          "nativeRating": 2484.4138892799506,
+          "rd": 106.33886295510291,
+          "nativeGames": 11,
+          "absoluteError": 234.9436909780552
+        },
+        {
+          "id": "signaltest006",
+          "prediction": 2432.1404732757455,
+          "nativeRating": 2486.5290926008533,
+          "rd": 108.03916373758167,
+          "nativeGames": 11,
+          "absoluteError": 54.38861932510781
+        },
+        {
+          "id": "signaltest007",
+          "prediction": 1682.8334408907222,
+          "nativeRating": 1885.5441542991425,
+          "rd": 107.0702239720755,
+          "nativeGames": 11,
+          "absoluteError": 202.71071340842036
+        },
+        {
+          "id": "signaltest008",
+          "prediction": 1067.778062340382,
+          "nativeRating": 1229.8473922844742,
+          "rd": 108.09159693655863,
+          "nativeGames": 11,
+          "absoluteError": 162.06932994409226
+        },
+        {
+          "id": "signaltest009",
+          "prediction": 1798.7703490111376,
+          "nativeRating": 1848.7021792079147,
+          "rd": 109.09207166714044,
+          "nativeGames": 11,
+          "absoluteError": 49.93183019677713
+        },
+        {
+          "id": "signaltest010",
+          "prediction": 2495.2449967470793,
+          "nativeRating": 2328.263420222606,
+          "rd": 107.10425841609587,
+          "nativeGames": 11,
+          "absoluteError": 166.98157652447344
+        },
+        {
+          "id": "signaltest011",
+          "prediction": 1673.4862766692122,
+          "nativeRating": 1805.2845120015986,
+          "rd": 107.08154693864121,
+          "nativeGames": 11,
+          "absoluteError": 131.7982353323864
+        },
+        {
+          "id": "signaltest012",
+          "prediction": 1204.5038259366695,
+          "nativeRating": 1179.4988133284924,
+          "rd": 107.34986520655404,
+          "nativeGames": 11,
+          "absoluteError": 25.00501260817714
+        },
+        {
+          "id": "signaltest013",
+          "prediction": 2237.935992650538,
+          "nativeRating": 2245.467965126278,
+          "rd": 107.07974643157591,
+          "nativeGames": 11,
+          "absoluteError": 7.531972475740076
+        },
+        {
+          "id": "signaltest014",
+          "prediction": 1409.56372767786,
+          "nativeRating": 1318.8677774271769,
+          "rd": 107.02162108771738,
+          "nativeGames": 11,
+          "absoluteError": 90.69595025068315
+        },
+        {
+          "id": "signaltest015",
+          "prediction": 1225.5997156424628,
+          "nativeRating": 1438.797742522224,
+          "rd": 106.7137898076824,
+          "nativeGames": 11,
+          "absoluteError": 213.1980268797613
+        },
+        {
+          "id": "signaltest016",
+          "prediction": 2591.5164092213613,
+          "nativeRating": 2389.1131269130874,
+          "rd": 108.51045589539865,
+          "nativeGames": 11,
+          "absoluteError": 202.4032823082739
+        },
+        {
+          "id": "signaltest017",
+          "prediction": 1387.5581140651113,
+          "nativeRating": 1220.8525064840487,
+          "rd": 108.50871892181011,
+          "nativeGames": 11,
+          "absoluteError": 166.70560758106262
+        },
+        {
+          "id": "signaltest018",
+          "prediction": 2350.189936734841,
+          "nativeRating": 2276.925283061961,
+          "rd": 108.87049015861615,
+          "nativeGames": 11,
+          "absoluteError": 73.26465367287983
+        },
+        {
+          "id": "signaltest019",
+          "prediction": 1966.4576396035275,
+          "nativeRating": 2086.9457382883693,
+          "rd": 105.93813807461315,
+          "nativeGames": 12,
+          "absoluteError": 120.48809868484182
+        },
+        {
+          "id": "signaltest020",
+          "prediction": 1551.2259920269273,
+          "nativeRating": 1501.2592327412797,
+          "rd": 109.44045560054907,
+          "nativeGames": 10,
+          "absoluteError": 49.96675928564764
+        },
+        {
+          "id": "signaltest021",
+          "prediction": 2533.034741353773,
+          "nativeRating": 2587.492204474359,
+          "rd": 108.53135661477732,
+          "nativeGames": 11,
+          "absoluteError": 54.457463120586
+        },
+        {
+          "id": "signaltest022",
+          "prediction": 1477.4311938066521,
+          "nativeRating": 1497.7419604139732,
+          "rd": 107.33338783353523,
+          "nativeGames": 11,
+          "absoluteError": 20.310766607321057
+        },
+        {
+          "id": "signaltest023",
+          "prediction": 1441.9651660799987,
+          "nativeRating": 1563.0667415955127,
+          "rd": 109.13879951943733,
+          "nativeGames": 11,
+          "absoluteError": 121.10157551551401
+        },
+        {
+          "id": "signaltest024",
+          "prediction": 1797.4247175591454,
+          "nativeRating": 1687.3607975483217,
+          "rd": 105.41670369115187,
+          "nativeGames": 11,
+          "absoluteError": 110.06392001082372
+        },
+        {
+          "id": "signaltest025",
+          "prediction": 1824.6620307910925,
+          "nativeRating": 2021.5580470783761,
+          "rd": 106.80004394476401,
+          "nativeGames": 11,
+          "absoluteError": 196.8960162872836
+        },
+        {
+          "id": "signaltest026",
+          "prediction": 1638.8084458447595,
+          "nativeRating": 1678.7689801531276,
+          "rd": 106.79795038642017,
+          "nativeGames": 11,
+          "absoluteError": 39.960534308368096
+        },
+        {
+          "id": "signaltest027",
+          "prediction": 1801.4161284429451,
+          "nativeRating": 1543.2251513212225,
+          "rd": 109.49332258304267,
+          "nativeGames": 11,
+          "absoluteError": 258.19097712172265
+        },
+        {
+          "id": "signaltest028",
+          "prediction": 2101.285962358622,
+          "nativeRating": 1951.1153027869157,
+          "rd": 108.3355673597451,
+          "nativeGames": 11,
+          "absoluteError": 150.1706595717062
+        },
+        {
+          "id": "signaltest029",
+          "prediction": 2094.4903973070664,
+          "nativeRating": 1943.858260093632,
+          "rd": 107.52275515151692,
+          "nativeGames": 11,
+          "absoluteError": 150.63213721343436
+        },
+        {
+          "id": "signaltest030",
+          "prediction": 1748.9449309448387,
+          "nativeRating": 1577.9164371664822,
+          "rd": 107.34720906311468,
+          "nativeGames": 11,
+          "absoluteError": 171.0284937783565
+        },
+        {
+          "id": "signaltest031",
+          "prediction": 2035.2696977760413,
+          "nativeRating": 2125.10914507474,
+          "rd": 107.44865188051342,
+          "nativeGames": 11,
+          "absoluteError": 89.83944729869859
+        },
+        {
+          "id": "signaltest032",
+          "prediction": 2583.497021412285,
+          "nativeRating": 2536.7400199122903,
+          "rd": 108.04264214225611,
+          "nativeGames": 11,
+          "absoluteError": 46.75700149999466
+        },
+        {
+          "id": "signaltest033",
+          "prediction": 1956.1798740204667,
+          "nativeRating": 1999.5018992638375,
+          "rd": 105.35934980837517,
+          "nativeGames": 11,
+          "absoluteError": 43.32202524337072
+        },
+        {
+          "id": "signaltest034",
+          "prediction": 2169.134928406977,
+          "nativeRating": 2185.2514859383255,
+          "rd": 107.4702037523046,
+          "nativeGames": 11,
+          "absoluteError": 16.116557531348462
+        },
+        {
+          "id": "signaltest035",
+          "prediction": 1001.5433941366981,
+          "nativeRating": 1040.125748972829,
+          "rd": 105.87334978241365,
+          "nativeGames": 12,
+          "absoluteError": 38.582354836130776
+        },
+        {
+          "id": "signaltest036",
+          "prediction": 1473.9488447481208,
+          "nativeRating": 1422.5255333160276,
+          "rd": 107.8921985033042,
+          "nativeGames": 11,
+          "absoluteError": 51.423311432093215
+        },
+        {
+          "id": "signaltest037",
+          "prediction": 2256.2261457514833,
+          "nativeRating": 2314.3342340608697,
+          "rd": 106.78383420334886,
+          "nativeGames": 11,
+          "absoluteError": 58.1080883093864
+        },
+        {
+          "id": "signaltest038",
+          "prediction": 1642.5479174291195,
+          "nativeRating": 1508.9585261553061,
+          "rd": 108.71696638670522,
+          "nativeGames": 11,
+          "absoluteError": 133.58939127381336
+        },
+        {
+          "id": "signaltest039",
+          "prediction": 2481.582778104407,
+          "nativeRating": 2556.838788547182,
+          "rd": 108.80884437593782,
+          "nativeGames": 11,
+          "absoluteError": 75.25601044277482
+        },
+        {
+          "id": "signaltest040",
+          "prediction": 2040.2767652181144,
+          "nativeRating": 1960.773096364113,
+          "rd": 107.77995496005381,
+          "nativeGames": 11,
+          "absoluteError": 79.50366885400149
+        },
+        {
+          "id": "signaltest041",
+          "prediction": 1767.4068375911047,
+          "nativeRating": 1694.549944415797,
+          "rd": 107.97190838401755,
+          "nativeGames": 11,
+          "absoluteError": 72.85689317530773
+        },
+        {
+          "id": "signaltest042",
+          "prediction": 1253.8046247568295,
+          "nativeRating": 1376.2915178117232,
+          "rd": 109.35169692586452,
+          "nativeGames": 11,
+          "absoluteError": 122.4868930548937
+        },
+        {
+          "id": "signaltest043",
+          "prediction": 2327.718448834736,
+          "nativeRating": 2546.6570244359755,
+          "rd": 106.48734099616219,
+          "nativeGames": 11,
+          "absoluteError": 218.93857560123934
+        },
+        {
+          "id": "signaltest044",
+          "prediction": 1478.4140703099638,
+          "nativeRating": 1592.6084478794344,
+          "rd": 107.8966805723695,
+          "nativeGames": 11,
+          "absoluteError": 114.19437756947059
+        },
+        {
+          "id": "signaltest045",
+          "prediction": 2006.5015998382544,
+          "nativeRating": 1986.4054091963117,
+          "rd": 107.94287995512991,
+          "nativeGames": 11,
+          "absoluteError": 20.096190641942712
+        },
+        {
+          "id": "signaltest046",
+          "prediction": 1860.779634090367,
+          "nativeRating": 1732.984195386165,
+          "rd": 109.58136932049464,
+          "nativeGames": 11,
+          "absoluteError": 127.79543870420184
+        },
+        {
+          "id": "signaltest047",
+          "prediction": 1695.9973088469992,
+          "nativeRating": 1648.4171676542078,
+          "rd": 108.89813439815295,
+          "nativeGames": 11,
+          "absoluteError": 47.580141192791416
+        },
+        {
+          "id": "signaltest048",
+          "prediction": 1579.8139361466215,
+          "nativeRating": 1332.8770011865145,
+          "rd": 107.32401882594507,
+          "nativeGames": 11,
+          "absoluteError": 246.936934960107
+        },
+        {
+          "id": "signaltest049",
+          "prediction": 2638.076255354595,
+          "nativeRating": 2248.7063501893035,
+          "rd": 107.19598987625231,
+          "nativeGames": 11,
+          "absoluteError": 389.3699051652916
+        },
+        {
+          "id": "signaltest050",
+          "prediction": 1904.8293241717788,
+          "nativeRating": 1928.3364099858425,
+          "rd": 106.04378469382826,
+          "nativeGames": 11,
+          "absoluteError": 23.507085814063657
+        }
+      ]
+    },
+    "rapid": {
+      "configurations": 50,
+      "nativeRatingMae": 116.00625250290892,
+      "configurationBootstrapMae95": [
+        91.79560321625935,
+        143.07912565836654
+      ],
+      "medianNativeRd": 107.73176284380793,
+      "frozenOutcomeGames": 236,
+      "brier": 0.21095111123411914,
+      "expectedScoreCrossEntropy": 0.7302864030522782,
+      "meetsNoisyLabelMaeTarget": false,
+      "details": [
+        {
+          "id": "probe001",
+          "prediction": 2080.671331165831,
+          "nativeRating": 1984.404471556081,
+          "rd": 107.27475586637028,
+          "nativeGames": 11,
+          "absoluteError": 96.26685960974987
+        },
+        {
+          "id": "signaltest002",
+          "prediction": 1132.56204694802,
+          "nativeRating": 1078.7986215809374,
+          "rd": 107.73629856418302,
+          "nativeGames": 11,
+          "absoluteError": 53.76342536708262
+        },
+        {
+          "id": "signaltest003",
+          "prediction": 2165.3259076489076,
+          "nativeRating": 2105.198244549304,
+          "rd": 106.22957675934336,
+          "nativeGames": 11,
+          "absoluteError": 60.127663099603524
+        },
+        {
+          "id": "signaltest004",
+          "prediction": 2343.108079404402,
+          "nativeRating": 2613.068537298485,
+          "rd": 108.61745383978543,
+          "nativeGames": 11,
+          "absoluteError": 269.960457894083
+        },
+        {
+          "id": "signaltest005",
+          "prediction": 2234.810884432866,
+          "nativeRating": 2205.5490532874064,
+          "rd": 107.26065095704824,
+          "nativeGames": 11,
+          "absoluteError": 29.261831145459382
+        },
+        {
+          "id": "signaltest006",
+          "prediction": 2369.8102896806167,
+          "nativeRating": 2255.2287849474237,
+          "rd": 109.97059496653888,
+          "nativeGames": 11,
+          "absoluteError": 114.58150473319301
+        },
+        {
+          "id": "signaltest007",
+          "prediction": 1666.0613985219954,
+          "nativeRating": 1694.1067371275785,
+          "rd": 106.63425043331864,
+          "nativeGames": 11,
+          "absoluteError": 28.045338605583083
+        },
+        {
+          "id": "signaltest008",
+          "prediction": 1137.8582321271476,
+          "nativeRating": 1222.1100136130733,
+          "rd": 108.89693694634907,
+          "nativeGames": 11,
+          "absoluteError": 84.25178148592568
+        },
+        {
+          "id": "signaltest009",
+          "prediction": 1763.3637113992672,
+          "nativeRating": 1757.2974312034532,
+          "rd": 107.1623569488296,
+          "nativeGames": 12,
+          "absoluteError": 6.066280195813988
+        },
+        {
+          "id": "signaltest010",
+          "prediction": 2452.472834433987,
+          "nativeRating": 2523.9662260789546,
+          "rd": 109.65707102778399,
+          "nativeGames": 10,
+          "absoluteError": 71.49339164496769
+        },
+        {
+          "id": "signaltest011",
+          "prediction": 1718.5620958460433,
+          "nativeRating": 1788.6077406481947,
+          "rd": 106.01239661020007,
+          "nativeGames": 11,
+          "absoluteError": 70.0456448021514
+        },
+        {
+          "id": "signaltest012",
+          "prediction": 1304.2663861966134,
+          "nativeRating": 1226.9634649017014,
+          "rd": 107.99034836998692,
+          "nativeGames": 11,
+          "absoluteError": 77.30292129491204
+        },
+        {
+          "id": "signaltest013",
+          "prediction": 2211.430517986203,
+          "nativeRating": 2263.617751564718,
+          "rd": 108.00375686124335,
+          "nativeGames": 11,
+          "absoluteError": 52.187233578515134
+        },
+        {
+          "id": "signaltest014",
+          "prediction": 1343.846670994217,
+          "nativeRating": 1400.4521777442635,
+          "rd": 107.30901610158011,
+          "nativeGames": 11,
+          "absoluteError": 56.605506750046516
+        },
+        {
+          "id": "signaltest015",
+          "prediction": 1312.6646629989318,
+          "nativeRating": 1609.9264289646007,
+          "rd": 108.3875871089418,
+          "nativeGames": 11,
+          "absoluteError": 297.2617659656689
+        },
+        {
+          "id": "signaltest016",
+          "prediction": 2530.9930188572603,
+          "nativeRating": 2482.9333128198273,
+          "rd": 107.14738600887713,
+          "nativeGames": 11,
+          "absoluteError": 48.05970603743299
+        },
+        {
+          "id": "signaltest017",
+          "prediction": 1357.0881634558195,
+          "nativeRating": 1443.6124019380381,
+          "rd": 109.09589918586113,
+          "nativeGames": 11,
+          "absoluteError": 86.5242384822186
+        },
+        {
+          "id": "signaltest018",
+          "prediction": 2249.529313545037,
+          "nativeRating": 2315.869586377217,
+          "rd": 106.45434853223615,
+          "nativeGames": 11,
+          "absoluteError": 66.34027283217983
+        },
+        {
+          "id": "signaltest019",
+          "prediction": 1979.9148545974,
+          "nativeRating": 1935.377407204505,
+          "rd": 107.29168430391738,
+          "nativeGames": 11,
+          "absoluteError": 44.53744739289505
+        },
+        {
+          "id": "signaltest020",
+          "prediction": 1587.3659275134926,
+          "nativeRating": 1337.0826354872174,
+          "rd": 109.23176600261947,
+          "nativeGames": 10,
+          "absoluteError": 250.28329202627515
+        },
+        {
+          "id": "signaltest021",
+          "prediction": 2441.880288107878,
+          "nativeRating": 2813.151371712525,
+          "rd": 107.96205042091985,
+          "nativeGames": 11,
+          "absoluteError": 371.2710836046467
+        },
+        {
+          "id": "signaltest022",
+          "prediction": 1407.7156567330837,
+          "nativeRating": 1492.231071799995,
+          "rd": 109.91422069107963,
+          "nativeGames": 10,
+          "absoluteError": 84.51541506691137
+        },
+        {
+          "id": "signaltest023",
+          "prediction": 1387.3528281876459,
+          "nativeRating": 1301.5127861671997,
+          "rd": 109.27056637525031,
+          "nativeGames": 10,
+          "absoluteError": 85.84004202044616
+        },
+        {
+          "id": "signaltest024",
+          "prediction": 1807.2329123606733,
+          "nativeRating": 1893.426037372215,
+          "rd": 108.15819003337961,
+          "nativeGames": 11,
+          "absoluteError": 86.19312501154172
+        },
+        {
+          "id": "signaltest025",
+          "prediction": 1837.1762879919097,
+          "nativeRating": 1649.8375004527174,
+          "rd": 107.9121034530053,
+          "nativeGames": 11,
+          "absoluteError": 187.33878753919225
+        },
+        {
+          "id": "signaltest026",
+          "prediction": 1636.57405170079,
+          "nativeRating": 1708.3478770933677,
+          "rd": 105.86916512713036,
+          "nativeGames": 11,
+          "absoluteError": 71.77382539257769
+        },
+        {
+          "id": "signaltest027",
+          "prediction": 1767.778938672242,
+          "nativeRating": 1798.7714371276961,
+          "rd": 107.01842992917243,
+          "nativeGames": 12,
+          "absoluteError": 30.992498455454097
+        },
+        {
+          "id": "signaltest028",
+          "prediction": 2122.282125013141,
+          "nativeRating": 1832.3353015709251,
+          "rd": 108.36032757005329,
+          "nativeGames": 11,
+          "absoluteError": 289.9468234422159
+        },
+        {
+          "id": "signaltest029",
+          "prediction": 2210.3245667767665,
+          "nativeRating": 2244.34840941616,
+          "rd": 108.09294866110591,
+          "nativeGames": 12,
+          "absoluteError": 34.02384263939348
+        },
+        {
+          "id": "signaltest030",
+          "prediction": 1825.2412687483672,
+          "nativeRating": 1469.932345028847,
+          "rd": 108.67181970071046,
+          "nativeGames": 11,
+          "absoluteError": 355.3089237195202
+        },
+        {
+          "id": "signaltest031",
+          "prediction": 2045.0196003777587,
+          "nativeRating": 2306.759175279675,
+          "rd": 107.31638370400769,
+          "nativeGames": 11,
+          "absoluteError": 261.7395749019165
+        },
+        {
+          "id": "signaltest032",
+          "prediction": 2623.425246813862,
+          "nativeRating": 2672.732690223161,
+          "rd": 108.04934216840448,
+          "nativeGames": 11,
+          "absoluteError": 49.30744340929914
+        },
+        {
+          "id": "signaltest033",
+          "prediction": 1891.4930567925608,
+          "nativeRating": 1922.3779653395075,
+          "rd": 107.09121921950499,
+          "nativeGames": 11,
+          "absoluteError": 30.88490854694669
+        },
+        {
+          "id": "signaltest034",
+          "prediction": 2171.905155098371,
+          "nativeRating": 2050.306715207403,
+          "rd": 107.0193167495827,
+          "nativeGames": 11,
+          "absoluteError": 121.59843989096771
+        },
+        {
+          "id": "signaltest035",
+          "prediction": 1203.0670356586945,
+          "nativeRating": 1114.4753382309282,
+          "rd": 105.61002291545564,
+          "nativeGames": 11,
+          "absoluteError": 88.59169742776635
+        },
+        {
+          "id": "signaltest036",
+          "prediction": 1518.5721186882,
+          "nativeRating": 1719.6922346991519,
+          "rd": 106.13858513997695,
+          "nativeGames": 11,
+          "absoluteError": 201.12011601095196
+        },
+        {
+          "id": "signaltest037",
+          "prediction": 2197.0758310662522,
+          "nativeRating": 2374.2852524975947,
+          "rd": 106.97678862839803,
+          "nativeGames": 11,
+          "absoluteError": 177.20942143134243
+        },
+        {
+          "id": "signaltest038",
+          "prediction": 1637.2679649642955,
+          "nativeRating": 1638.0654946538316,
+          "rd": 106.75086654545026,
+          "nativeGames": 11,
+          "absoluteError": 0.7975296895360771
+        },
+        {
+          "id": "signaltest039",
+          "prediction": 2457.6311534597776,
+          "nativeRating": 2551.6192365453035,
+          "rd": 107.43448522320347,
+          "nativeGames": 11,
+          "absoluteError": 93.98808308552589
+        },
+        {
+          "id": "signaltest040",
+          "prediction": 2047.2752949435326,
+          "nativeRating": 1862.6889472206535,
+          "rd": 106.9151703513519,
+          "nativeGames": 11,
+          "absoluteError": 184.58634772287905
+        },
+        {
+          "id": "signaltest041",
+          "prediction": 1726.9549037223387,
+          "nativeRating": 1819.561804207441,
+          "rd": 108.62834250076742,
+          "nativeGames": 11,
+          "absoluteError": 92.60690048510219
+        },
+        {
+          "id": "signaltest042",
+          "prediction": 1309.8992516594244,
+          "nativeRating": 1377.0411059641087,
+          "rd": 108.74222949146906,
+          "nativeGames": 11,
+          "absoluteError": 67.14185430468433
+        },
+        {
+          "id": "signaltest043",
+          "prediction": 2373.8942442577713,
+          "nativeRating": 2671.523996798503,
+          "rd": 107.72722712343285,
+          "nativeGames": 11,
+          "absoluteError": 297.6297525407317
+        },
+        {
+          "id": "signaltest044",
+          "prediction": 1424.8799459695715,
+          "nativeRating": 1514.1214967309559,
+          "rd": 108.28466224160944,
+          "nativeGames": 11,
+          "absoluteError": 89.24155076138436
+        },
+        {
+          "id": "signaltest045",
+          "prediction": 2048.462423419237,
+          "nativeRating": 1998.8545512228904,
+          "rd": 106.754536412213,
+          "nativeGames": 11,
+          "absoluteError": 49.607872196346534
+        },
+        {
+          "id": "signaltest046",
+          "prediction": 1870.4179909830082,
+          "nativeRating": 2036.322567189216,
+          "rd": 107.19652285556582,
+          "nativeGames": 11,
+          "absoluteError": 165.90457620620782
+        },
+        {
+          "id": "signaltest047",
+          "prediction": 1683.9813237849921,
+          "nativeRating": 1600.8944876346711,
+          "rd": 108.97915203972501,
+          "nativeGames": 11,
+          "absoluteError": 83.086836150321
+        },
+        {
+          "id": "signaltest048",
+          "prediction": 1496.4373202493496,
+          "nativeRating": 1652.7178009869385,
+          "rd": 109.96862099111841,
+          "nativeGames": 11,
+          "absoluteError": 156.28048073758896
+        },
+        {
+          "id": "signaltest049",
+          "prediction": 2550.780035156427,
+          "nativeRating": 2448.2383500343353,
+          "rd": 109.89125757973757,
+          "nativeGames": 11,
+          "absoluteError": 102.54168512209162
+        },
+        {
+          "id": "signaltest050",
+          "prediction": 1926.7949196516781,
+          "nativeRating": 1900.51829496348,
+          "rd": 106.68344635781506,
+          "nativeGames": 11,
+          "absoluteError": 26.276624688198126
+        }
+      ]
+    }
+  },
+  "noisyLabelTargetMet": false,
+  "interpretation": "Noisy native-label criterion only; does not prove true-strength MAE or absolute Lichess alignment."
+}

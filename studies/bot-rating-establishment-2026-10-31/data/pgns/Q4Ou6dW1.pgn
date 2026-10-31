@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/Q4Ou6dW1"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain029"]
+[Black "CopperByte"]
+[Result "0-1"]
+[GameId "Q4Ou6dW1"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:08:51"]
+[WhiteElo "859"]
+[BlackElo "967"]
+[WhiteRatingDiff "-24"]
+[BlackRatingDiff "+14"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A40"]
+[Opening "Englund Gambit"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. c3 { [%clk 0:10:07] } 2... e4 { [%clk 0:10:06] } 3. Nd2 { [%clk 0:10:11] } 3... d5 { [%clk 0:10:09] } 4. e3 { [%clk 0:10:13] } 4... Bf5 { [%clk 0:10:12] } 5. h3 { [%clk 0:10:16] } 5... Bd6 { [%clk 0:10:14] } 6. g4 { [%clk 0:10:19] } 6... Bg6 { [%clk 0:10:18] } 7. f3 { [%clk 0:10:22] } 7... exf3 { [%clk 0:10:21] } 8. Ngxf3 { [%clk 0:10:25] } 8... Nf6 { [%clk 0:10:23] } 9. Bb5+ { [%clk 0:10:28] } 9... c6 { [%clk 0:10:27] } 10. Ba4 { [%clk 0:10:30] } 10... Bd3 { [%clk 0:10:30] } 11. Ng5 { [%clk 0:10:33] } 11... Bg3# { [%clk 0:10:28] } 0-1
+
+

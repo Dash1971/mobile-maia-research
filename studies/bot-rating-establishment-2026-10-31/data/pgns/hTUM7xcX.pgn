@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/hTUM7xcX"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain068"]
+[Black "SignalTest025"]
+[Result "0-1"]
+[GameId "hTUM7xcX"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:58:54"]
+[WhiteElo "1948"]
+[BlackElo "1965"]
+[WhiteRatingDiff "-25"]
+[BlackRatingDiff "+37"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Leonardis Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. d3 { [%clk 0:05:03] } 2... Nc6 { [%clk 0:05:02] } 3. f4 { [%clk 0:05:04] } 3... Bc5 { [%clk 0:05:02] } 4. f5 { [%clk 0:05:05] } 4... Nf6 { [%clk 0:05:03] } 5. Bg5 { [%clk 0:05:06] } 5... Nxe4 { [%clk 0:05:04] } 6. Bxd8 { [%clk 0:05:07] } 6... Bf2+ { [%clk 0:05:05] } 7. Ke2 { [%clk 0:05:08] } 7... Nd4# { [%clk 0:05:03] } 0-1
+
+

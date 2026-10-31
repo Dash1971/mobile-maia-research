@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/w7seCHQW"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "ChromeAlley"]
+[Black "SignalTest015"]
+[Result "1-0"]
+[GameId "w7seCHQW"]
+[UTCDate "2026.10.31"]
+[UTCTime "17:22:07"]
+[WhiteElo "1486"]
+[BlackElo "1656"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-47"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:02] } 2. Qh5 { [%clk 0:10:08] } 2... d6 { [%clk 0:10:05] } 3. Bc4 { [%clk 0:10:10] } 3... Nf6 { [%clk 0:10:08] } 4. Qxf7# { [%clk 0:10:08] } 1-0
+
+

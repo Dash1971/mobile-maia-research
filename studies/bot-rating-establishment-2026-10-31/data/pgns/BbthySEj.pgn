@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/BbthySEj"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "ChromeCastle"]
+[Black "SignalTest047"]
+[Result "1-0"]
+[GameId "BbthySEj"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:56:56"]
+[WhiteElo "1830"]
+[BlackElo "1658"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-21"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. c3 { [%clk 0:10:07] } 2... Bf5 { [%clk 0:10:06] } 3. Bf4 { [%clk 0:10:11] } 3... e6 { [%clk 0:10:08] } 4. e3 { [%clk 0:10:13] } 4... Nc6 { [%clk 0:10:11] } 5. Qb3 { [%clk 0:10:16] } 5... b6 { [%clk 0:10:14] } 6. Bb5 { [%clk 0:10:19] } 6... Qd7 { [%clk 0:10:17] } 7. Qa4 { [%clk 0:10:22] } 7... Nge7 { [%clk 0:10:20] } 8. Nf3 { [%clk 0:10:25] } 8... O-O-O { [%clk 0:10:23] } 9. Ne5 { [%clk 0:10:28] } 9... Qe8 { [%clk 0:10:26] } 10. Nxc6 { [%clk 0:10:30] } 10... Nxc6 { [%clk 0:10:28] } 11. Bxc6 { [%clk 0:10:33] } 11... Qe7 { [%clk 0:10:31] } 12. Qa6+ { [%clk 0:10:36] } 12... Kb8 { [%clk 0:10:34] } 13. Qb7# { [%clk 0:10:34] } 1-0
+
+

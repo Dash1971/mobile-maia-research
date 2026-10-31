@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/pWvjRAub"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "QuantumShade"]
+[Black "SignalTest013"]
+[Result "1-0"]
+[GameId "pWvjRAub"]
+[UTCDate "2026.10.31"]
+[UTCTime "16:41:48"]
+[WhiteElo "2221"]
+[BlackElo "2368"]
+[WhiteRatingDiff "+22"]
+[BlackRatingDiff "-58"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C40"]
+[Opening "Elephant Gambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... d5 { [%clk 0:10:06] } 3. Nxe5 { [%clk 0:10:10] } 3... Bd6 { [%clk 0:10:09] } 4. d4 { [%clk 0:10:13] } 4... dxe4 { [%clk 0:10:12] } 5. Qe2 { [%clk 0:10:16] } 5... Nf6 { [%clk 0:10:15] } 6. Bg5 { [%clk 0:10:19] } 6... O-O { [%clk 0:10:17] } 7. Nc3 { [%clk 0:10:22] } 7... Bf5 { [%clk 0:10:20] } 8. O-O-O { [%clk 0:10:25] } 8... h6 { [%clk 0:10:23] } 9. Bh4 { [%clk 0:10:28] } 9... g5 { [%clk 0:10:26] } 10. Bg3 { [%clk 0:10:31] } 10... Nc6 { [%clk 0:10:29] } 11. h4 { [%clk 0:10:33] } 11... g4 { [%clk 0:10:32] } 12. f3 { [%clk 0:10:36] } 12... exf3 { [%clk 0:10:35] } 13. gxf3 { [%clk 0:10:39] } 13... h5 { [%clk 0:10:37] } 14. fxg4 { [%clk 0:10:42] } 14... Nxg4 { [%clk 0:10:40] } 15. Bh3 { [%clk 0:10:45] } 15... f6 { [%clk 0:10:43] } 16. Nxg4 { [%clk 0:10:47] } 16... Bxg3 { [%clk 0:10:46] } 17. Nh6+ { [%clk 0:10:51] } 17... Kh7 { [%clk 0:10:49] } 18. Nxf5 { [%clk 0:10:54] } 18... Bf4+ { [%clk 0:10:52] } 19. Kb1 { [%clk 0:10:57] } 19... Qe8 { [%clk 0:10:55] } 20. Qf3 { [%clk 0:10:59] } 20... Bh6 { [%clk 0:10:58] } 21. Nxh6 { [%clk 0:11:02] } 21... Kxh6 { [%clk 0:11:01] } 22. Qf4+ { [%clk 0:11:05] } 22... Kh7 { [%clk 0:11:03] } 23. Bf5+ { [%clk 0:11:08] } 23... Kh8 { [%clk 0:11:06] } 24. Qh6+ { [%clk 0:11:11] } 24... Kg8 { [%clk 0:11:09] } 25. Qh7# { [%clk 0:11:08] } 1-0
+
+
