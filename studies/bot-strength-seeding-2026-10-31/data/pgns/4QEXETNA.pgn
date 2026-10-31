@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/4QEXETNA"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain016"]
+[Black "Patchwork"]
+[Result "0-1"]
+[GameId "4QEXETNA"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:19:46"]
+[WhiteElo "1134"]
+[BlackElo "1187"]
+[WhiteRatingDiff "-49"]
+[BlackRatingDiff "+21"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C20"]
+[Opening "King's Pawn Game: King's Head Opening"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:00] } 2. f3 { [%clk 0:05:03] } 2... Nf6 { [%clk 0:05:00] } 3. g4 { [%clk 0:05:04] } 3... Bc5 { [%clk 0:05:01] } 4. Nh3 { [%clk 0:05:04] } 4... d6 { [%clk 0:05:02] } 5. g5 { [%clk 0:05:05] } 5... Nh5 { [%clk 0:05:03] } 6. f4 { [%clk 0:05:05] } 6... Nxf4 { [%clk 0:05:03] } 7. Nxf4 { [%clk 0:05:06] } 7... exf4 { [%clk 0:05:04] } 8. Qf3 { [%clk 0:05:07] } 8... Qxg5 { [%clk 0:05:05] } 9. Bb5+ { [%clk 0:05:07] } 9... c6 { [%clk 0:05:05] } 10. Ba4 { [%clk 0:05:07] } 10... Bg4 { [%clk 0:05:06] } 11. Qd3 { [%clk 0:05:08] } 11... Qh4+ { [%clk 0:05:07] } 12. Kf1 { [%clk 0:05:09] } 12... Qf2# { [%clk 0:05:05] } 0-1
+
+

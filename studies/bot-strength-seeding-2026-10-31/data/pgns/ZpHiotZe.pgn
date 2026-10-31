@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/ZpHiotZe"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain135"]
+[Black "SignalTrain038"]
+[Result "1-0"]
+[GameId "ZpHiotZe"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:51:35"]
+[WhiteElo "1046"]
+[BlackElo "998"]
+[WhiteRatingDiff "+39"]
+[BlackRatingDiff "-40"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Mokele Mbembe"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... Nf6 { [%clk 0:05:00] } 2. e5 { [%clk 0:05:03] } 2... Ne4 { [%clk 0:05:01] } 3. f3 { [%clk 0:05:04] } 3... d5 { [%clk 0:05:02] } 4. d3 { [%clk 0:05:05] } 4... Nc5 { [%clk 0:05:02] } 5. d4 { [%clk 0:05:06] } 5... Na4 { [%clk 0:05:03] } 6. b3 { [%clk 0:05:06] } 6... Nb6 { [%clk 0:05:04] } 7. Bb5+ { [%clk 0:05:07] } 7... c6 { [%clk 0:05:05] } 8. Bd3 { [%clk 0:05:07] } 8... f5 { [%clk 0:05:05] } 9. Ne2 { [%clk 0:05:08] } 9... g6 { [%clk 0:05:06] } 10. Nf4 { [%clk 0:05:08] } 10... g5 { [%clk 0:05:06] } 11. Nh5 { [%clk 0:05:09] } 11... e6 { [%clk 0:05:07] } 12. f4 { [%clk 0:05:10] } 12... Bb4+ { [%clk 0:05:07] } 13. c3 { [%clk 0:05:10] } 13... Ba5 { [%clk 0:05:07] } 14. fxg5 { [%clk 0:05:11] } 14... Qe7 { [%clk 0:05:08] } 15. Nf6+ { [%clk 0:05:11] } 15... Kf7 { [%clk 0:05:09] } 16. Qh5+ { [%clk 0:05:12] } 16... Kg7 { [%clk 0:05:09] } 17. Qh6+ { [%clk 0:05:12] } 17... Kf7 { [%clk 0:05:10] } 18. g6+ { [%clk 0:05:13] } 18... hxg6 { [%clk 0:05:10] } 19. Qxh8 { [%clk 0:05:14] } 19... N8d7 { [%clk 0:05:10] } 20. Qg8# { [%clk 0:05:11] } 1-0
+
+

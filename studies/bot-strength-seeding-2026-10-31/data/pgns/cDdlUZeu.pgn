@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/cDdlUZeu"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "Mycroft"]
+[Black "KernelGhost"]
+[Result "1/2-1/2"]
+[GameId "cDdlUZeu"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:51:50"]
+[WhiteElo "2563"]
+[BlackElo "2448"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+6"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A11"]
+[Opening "Réti Opening: Anglo-Slav Variation, Gurevich System"]
+[Termination "Normal"]
+
+1. Nf3 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:02] } 2. c4 { [%clk 0:10:07] } 2... c6 { [%clk 0:10:05] } 3. e3 { [%clk 0:10:09] } 3... Bg4 { [%clk 0:10:07] } 4. cxd5 { [%clk 0:10:12] } 4... cxd5 { [%clk 0:10:10] } 5. Qa4+ { [%clk 0:10:14] } 5... Bd7 { [%clk 0:10:12] } 6. Qb3 { [%clk 0:10:17] } 6... Bc6 { [%clk 0:10:15] } 7. Ne5 { [%clk 0:10:20] } 7... e6 { [%clk 0:10:17] } 8. Nxc6 { [%clk 0:10:23] } 8... bxc6 { [%clk 0:10:20] } 9. Qb7 { [%clk 0:10:25] } 9... Nd7 { [%clk 0:10:23] } 10. Qxc6 { [%clk 0:10:27] } 10... Rc8 { [%clk 0:10:25] } 11. Qa4 { [%clk 0:10:30] } 11... Rxc1+ { [%clk 0:10:28] } 12. Ke2 { [%clk 0:10:32] } 12... Nf6 { [%clk 0:10:31] } 13. g3 { [%clk 0:10:35] } 13... Qb6 { [%clk 0:10:33] } 14. Bg2 { [%clk 0:10:38] } 14... Rxh1 { [%clk 0:10:36] } 15. Bxh1 { [%clk 0:10:41] } 15... Qxb2 { [%clk 0:10:39] } 16. Qxa7 { [%clk 0:10:43] } 16... Qxa1 { [%clk 0:10:41] } 17. Qa8+ { [%clk 0:10:46] } 17... Ke7 { [%clk 0:10:44] } 18. Qa3+ { [%clk 0:10:49] } 18... Kd8 { [%clk 0:10:47] } 19. Qa8+ { [%clk 0:10:52] } 19... Ke7 { [%clk 0:10:50] } 20. Qa3+ { [%clk 0:10:54] } 20... Kd8 { [%clk 0:10:52] } 21. Qa8+ { [%clk 0:10:57] } 21... Ke7 { [%clk 0:10:54] } 1/2-1/2
+
+

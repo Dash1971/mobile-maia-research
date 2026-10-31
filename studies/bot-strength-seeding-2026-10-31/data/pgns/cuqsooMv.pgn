@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/cuqsooMv"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "AnalogGhost"]
+[Black "GhostRelay"]
+[Result "0-1"]
+[GameId "cuqsooMv"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:37:52"]
+[WhiteElo "1627"]
+[BlackElo "1603"]
+[WhiteRatingDiff "-30"]
+[BlackRatingDiff "+32"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C44"]
+[Opening "King's Knight Opening: Normal Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:04] } 1... e5 { [%clk 0:10:04] } 2. Nf3 { [%clk 0:10:08] } 2... Nc6 { [%clk 0:10:07] } 3. h3 { [%clk 0:10:11] } 3... Bc5 { [%clk 0:10:11] } 4. c3 { [%clk 0:10:15] } 4... Nf6 { [%clk 0:10:15] } 5. d3 { [%clk 0:10:19] } 5... O-O { [%clk 0:10:18] } 6. Be2 { [%clk 0:10:21] } 6... h6 { [%clk 0:10:21] } 7. b4 { [%clk 0:10:24] } 7... Bb6 { [%clk 0:10:24] } 8. O-O { [%clk 0:10:27] } 8... Re8 { [%clk 0:10:27] } 9. Na3 { [%clk 0:10:30] } 9... d5 { [%clk 0:10:30] } 10. exd5 { [%clk 0:10:33] } 10... Nxd5 { [%clk 0:10:32] } 11. Bd2 { [%clk 0:10:36] } 11... a6 { [%clk 0:10:35] } 12. Nc4 { [%clk 0:10:40] } 12... f5 { [%clk 0:10:38] } 13. Qc1 { [%clk 0:10:43] } 13... Ba7 { [%clk 0:10:42] } 14. Bxh6 { [%clk 0:10:46] } 14... gxh6 { [%clk 0:10:44] } 15. Qxh6 { [%clk 0:10:48] } 15... Qf6 { [%clk 0:10:47] } 16. Qh5 { [%clk 0:10:51] } 16... Bd7 { [%clk 0:10:50] } 17. Ng5 { [%clk 0:10:54] } 17... Re7 { [%clk 0:10:53] } 18. Bf3 { [%clk 0:10:57] } 18... Nf4 { [%clk 0:10:56] } 19. Qh4 { [%clk 0:11:00] } 19... Rh7 { [%clk 0:10:59] } 20. Qxh7+ { [%clk 0:11:03] } 20... Kf8 { [%clk 0:11:02] } 21. Qxd7 { [%clk 0:11:06] } 21... Qxg5 { [%clk 0:11:05] } 22. Qxc7 { [%clk 0:11:09] } 22... Nxh3+ { [%clk 0:11:08] } 23. Kh2 { [%clk 0:11:12] } 23... Nxf2 { [%clk 0:11:11] } 24. Rxf2 { [%clk 0:11:14] } 24... Bxf2 { [%clk 0:11:14] } 25. Qd6+ { [%clk 0:11:17] } 25... Ne7 { [%clk 0:11:17] } 26. Nxe5 { [%clk 0:11:20] } 26... Qh4# { [%clk 0:11:15] } 0-1
+
+

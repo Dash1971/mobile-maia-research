@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/5XEuHxN7"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain129"]
+[Black "CarbonKite"]
+[Result "1-0"]
+[GameId "5XEuHxN7"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:21:05"]
+[WhiteElo "1672"]
+[BlackElo "1647"]
+[WhiteRatingDiff "+37"]
+[BlackRatingDiff "-16"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Valencian Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. exd5 { [%clk 0:10:07] } 2... Qxd5 { [%clk 0:10:05] } 3. Nc3 { [%clk 0:10:10] } 3... Qd8 { [%clk 0:10:07] } 4. d4 { [%clk 0:10:12] } 4... Bf5 { [%clk 0:10:10] } 5. Nf3 { [%clk 0:10:15] } 5... e6 { [%clk 0:10:13] } 6. Bd3 { [%clk 0:10:18] } 6... Bxd3 { [%clk 0:10:15] } 7. Qxd3 { [%clk 0:10:20] } 7... Nf6 { [%clk 0:10:18] } 8. Bg5 { [%clk 0:10:22] } 8... Be7 { [%clk 0:10:20] } 9. O-O-O { [%clk 0:10:24] } 9... O-O { [%clk 0:10:22] } 10. h4 { [%clk 0:10:27] } 10... h6 { [%clk 0:10:25] } 11. Ne5 { [%clk 0:10:29] } 11... hxg5 { [%clk 0:10:27] } 12. hxg5 { [%clk 0:10:32] } 12... Nh7 { [%clk 0:10:30] } 13. Qxh7# { [%clk 0:10:30] } 1-0
+
+

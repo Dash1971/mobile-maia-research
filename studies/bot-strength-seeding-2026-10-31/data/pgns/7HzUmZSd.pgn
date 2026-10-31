@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/7HzUmZSd"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "CassetteKid"]
+[Black "NeonFinch"]
+[Result "1-0"]
+[GameId "7HzUmZSd"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:53:24"]
+[WhiteElo "1143"]
+[BlackElo "1138"]
+[WhiteRatingDiff "+27"]
+[BlackRatingDiff "-18"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C00"]
+[Opening "French Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e6 { [%clk 0:10:03] } 2. Qf3 { [%clk 0:10:08] } 2... e5 { [%clk 0:10:06] } 3. Bc4 { [%clk 0:10:10] } 3... Nh6 { [%clk 0:10:09] } 4. d3 { [%clk 0:10:13] } 4... Bc5 { [%clk 0:10:11] } 5. Bxh6 { [%clk 0:10:16] } 5... gxh6 { [%clk 0:10:14] } 6. Qxf7# { [%clk 0:10:14] } 1-0
+
+

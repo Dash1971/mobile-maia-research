@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/ybsPaiN9"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain092"]
+[Black "SignalTrain071"]
+[Result "1-0"]
+[GameId "ybsPaiN9"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:20:25"]
+[WhiteElo "1522"]
+[BlackElo "1548"]
+[WhiteRatingDiff "+81"]
+[BlackRatingDiff "-97"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. exd5 { [%clk 0:10:07] } 2... Qd6 { [%clk 0:10:06] } 3. Nc3 { [%clk 0:10:10] } 3... Bf5 { [%clk 0:10:08] } 4. Qf3 { [%clk 0:10:13] } 4... g6 { [%clk 0:10:11] } 5. Bd3 { [%clk 0:10:16] } 5... Qe5+ { [%clk 0:10:14] } 6. Nge2 { [%clk 0:10:19] } 6... Bxd3 { [%clk 0:10:17] } 7. Qxd3 { [%clk 0:10:21] } 7... Qg5 { [%clk 0:10:19] } 8. O-O { [%clk 0:10:24] } 8... Nf6 { [%clk 0:10:22] } 9. Nb5 { [%clk 0:10:27] } 9... Nxd5 { [%clk 0:10:25] } 10. c4 { [%clk 0:10:30] } 10... Nf4 { [%clk 0:10:28] } 11. Nxc7# { [%clk 0:10:28] } 1-0
+
+

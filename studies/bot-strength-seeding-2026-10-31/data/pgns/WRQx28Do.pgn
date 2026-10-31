@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/WRQx28Do"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "CassetteKid"]
+[Black "SignalTest002"]
+[Result "1/2-1/2"]
+[GameId "WRQx28Do"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:06:49"]
+[WhiteElo "1073"]
+[BlackElo "1249"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-38"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C00"]
+[Opening "French Defense: Normal Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... e6 { [%clk 0:10:03] } 2. e4 { [%clk 0:10:07] } 2... Nc6 { [%clk 0:10:06] } 3. e5 { [%clk 0:10:10] } 3... Bb4+ { [%clk 0:10:08] } 4. c3 { [%clk 0:10:13] } 4... Nxd4 { [%clk 0:10:11] } 5. Qxd4 { [%clk 0:10:16] } 5... Ba5 { [%clk 0:10:13] } 6. b4 { [%clk 0:10:19] } 6... Bb6 { [%clk 0:10:15] } 7. Qg4 { [%clk 0:10:21] } 7... f6 { [%clk 0:10:17] } 8. Qxg7 { [%clk 0:10:24] } 8... Qe7 { [%clk 0:10:20] } 9. Qxh8 { [%clk 0:10:27] } 9... fxe5 { [%clk 0:10:23] } 10. Qxg8+ { [%clk 0:10:30] } 10... Qf8 { [%clk 0:10:25] } 11. Qxh7 { [%clk 0:10:33] } 11... Qf7 { [%clk 0:10:28] } 12. Qh8+ { [%clk 0:10:35] } 12... Qf8 { [%clk 0:10:30] } 13. Qxe5 { [%clk 0:10:38] } 13... d6 { [%clk 0:10:33] } 14. Qh5+ { [%clk 0:10:39] } 14... Qf7 { [%clk 0:10:35] } 15. Qh8+ { [%clk 0:10:42] } 15... Qf8 { [%clk 0:10:38] } 16. Qh5+ { [%clk 0:10:44] } 16... Qf7 { [%clk 0:10:40] } 17. Qh8+ { [%clk 0:10:47] } 17... Qf8 { [%clk 0:10:42] } 18. Qh5+ { [%clk 0:10:48] } 1/2-1/2
+
+

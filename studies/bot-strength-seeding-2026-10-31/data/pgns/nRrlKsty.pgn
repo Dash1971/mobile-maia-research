@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/nRrlKsty"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain126"]
+[Black "SignalTrain030"]
+[Result "0-1"]
+[GameId "nRrlKsty"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:08:34"]
+[WhiteElo "1999"]
+[BlackElo "1848"]
+[WhiteRatingDiff "-185"]
+[BlackRatingDiff "+185"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "D93"]
+[Opening "Grünfeld Defense: Three Knights Variation, Hungarian Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:05:03] } 1... Nf6 { [%clk 0:05:01] } 2. c4 { [%clk 0:05:03] } 2... g6 { [%clk 0:05:02] } 3. Nc3 { [%clk 0:05:04] } 3... Bg7 { [%clk 0:05:03] } 4. Nf3 { [%clk 0:05:05] } 4... d5 { [%clk 0:05:03] } 5. Bf4 { [%clk 0:05:06] } 5... O-O { [%clk 0:05:04] } 6. e3 { [%clk 0:05:06] } 6... c6 { [%clk 0:05:05] } 7. Bd3 { [%clk 0:05:07] } 7... Nbd7 { [%clk 0:05:06] } 8. O-O { [%clk 0:05:08] } 8... Re8 { [%clk 0:05:07] } 9. cxd5 { [%clk 0:05:09] } 9... Nxd5 { [%clk 0:05:08] } 10. Nxd5 { [%clk 0:05:10] } 10... cxd5 { [%clk 0:05:09] } 11. Rc1 { [%clk 0:05:11] } 11... e5 { [%clk 0:05:10] } 12. dxe5 { [%clk 0:05:12] } 12... Nxe5 { [%clk 0:05:11] } 13. Nxe5 { [%clk 0:05:13] } 13... Bxe5 { [%clk 0:05:11] } 14. Bxe5 { [%clk 0:05:14] } 14... Rxe5 { [%clk 0:05:12] } 15. Qb3 { [%clk 0:05:15] } 15... b6 { [%clk 0:05:13] } 16. Rfd1 { [%clk 0:05:16] } 16... Be6 { [%clk 0:05:14] } 17. Qc3 { [%clk 0:05:17] } 17... Rg5 { [%clk 0:05:15] } 18. Qc7 { [%clk 0:05:18] } 18... Qf6 { [%clk 0:05:16] } 19. Qb7 { [%clk 0:05:19] } 19... Rf8 { [%clk 0:05:16] } 20. Qxa7 { [%clk 0:05:20] } 20... Bh3 { [%clk 0:05:17] } 21. Bf1 { [%clk 0:05:21] } 21... Qf3 { [%clk 0:05:18] } 22. g3 { [%clk 0:05:22] } 22... Bxf1 { [%clk 0:05:19] } 23. Rxf1 { [%clk 0:05:22] } 23... h5 { [%clk 0:05:20] } 24. Qxb6 { [%clk 0:05:23] } 24... h4 { [%clk 0:05:21] } 25. Qd4 { [%clk 0:05:24] } 25... h3 { [%clk 0:05:22] } 26. Qxd5 { [%clk 0:05:25] } 26... Rxd5 { [%clk 0:05:23] } 27. e4 { [%clk 0:05:26] } 27... Qg2# { [%clk 0:05:21] } 0-1
+
+

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/873XQVh7"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "VioletMetro"]
+[Black "StaticRain"]
+[Result "1-0"]
+[GameId "873XQVh7"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:49:23"]
+[WhiteElo "1337"]
+[BlackElo "1349"]
+[WhiteRatingDiff "+29"]
+[BlackRatingDiff "-27"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C62"]
+[Opening "Ruy Lopez: Steinitz Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:08] } 2... Nc6 { [%clk 0:10:05] } 3. Bb5 { [%clk 0:10:10] } 3... d6 { [%clk 0:10:08] } 4. Nc3 { [%clk 0:10:13] } 4... Nf6 { [%clk 0:10:11] } 5. Bxc6+ { [%clk 0:10:16] } 5... bxc6 { [%clk 0:10:14] } 6. d3 { [%clk 0:10:19] } 6... Bb7 { [%clk 0:10:17] } 7. O-O { [%clk 0:10:22] } 7... d5 { [%clk 0:10:20] } 8. Bg5 { [%clk 0:10:25] } 8... Bd6 { [%clk 0:10:23] } 9. exd5 { [%clk 0:10:27] } 9... h6 { [%clk 0:10:26] } 10. Bxf6 { [%clk 0:10:30] } 10... Qxf6 { [%clk 0:10:29] } 11. d4 { [%clk 0:10:32] } 11... O-O { [%clk 0:10:31] } 12. dxe5 { [%clk 0:10:35] } 12... Bxe5 { [%clk 0:10:34] } 13. Nxe5 { [%clk 0:10:38] } 13... Qxe5 { [%clk 0:10:37] } 14. Re1 { [%clk 0:10:41] } 14... Qf6 { [%clk 0:10:40] } 15. Ne4 { [%clk 0:10:44] } 15... Qxb2 { [%clk 0:10:43] } 16. d6 { [%clk 0:10:47] } 16... cxd6 { [%clk 0:10:46] } 17. Rb1 { [%clk 0:10:49] } 17... Qxa2 { [%clk 0:10:48] } 18. Rxb7 { [%clk 0:10:52] } 18... d5 { [%clk 0:10:51] } 19. Nd6 { [%clk 0:10:55] } 19... Qa6 { [%clk 0:10:54] } 20. Ree7 { [%clk 0:10:58] } 20... Rad8 { [%clk 0:10:57] } 21. Rxf7 { [%clk 0:11:01] } 21... Rxd6 { [%clk 0:11:00] } 22. Rxg7+ { [%clk 0:11:04] } 22... Kh8 { [%clk 0:11:03] } 23. h3 { [%clk 0:11:07] } 23... Rdf6 { [%clk 0:11:05] } 24. Rh7+ { [%clk 0:11:09] } 24... Kg8 { [%clk 0:11:08] } 25. Qg4+ { [%clk 0:11:12] } 25... Rg6 { [%clk 0:11:11] } 26. Qxg6# { [%clk 0:11:10] } 1-0
+
+

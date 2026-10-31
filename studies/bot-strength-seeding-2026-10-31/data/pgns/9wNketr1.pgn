@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/9wNketr1"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "NightCurrent"]
+[Black "MidnightSignal"]
+[Result "0-1"]
+[GameId "9wNketr1"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:35:56"]
+[WhiteElo "1897"]
+[BlackElo "1894"]
+[WhiteRatingDiff "-33"]
+[BlackRatingDiff "+36"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "A05"]
+[Opening "Zukertort Opening: Lemberger Gambit"]
+[Termination "Normal"]
+
+1. Nf3 { [%clk 0:05:03] } 1... Nf6 { [%clk 0:05:02] } 2. e4 { [%clk 0:05:05] } 2... d6 { [%clk 0:05:04] } 3. e5 { [%clk 0:05:07] } 3... Nc6 { [%clk 0:05:06] } 4. exf6 { [%clk 0:05:09] } 4... exf6 { [%clk 0:05:08] } 5. Nc3 { [%clk 0:05:11] } 5... Bg4 { [%clk 0:05:10] } 6. Be2 { [%clk 0:05:13] } 6... d5 { [%clk 0:05:12] } 7. O-O { [%clk 0:05:15] } 7... Bd6 { [%clk 0:05:13] } 8. h3 { [%clk 0:05:17] } 8... Be6 { [%clk 0:05:15] } 9. Re1 { [%clk 0:05:18] } 9... Qd7 { [%clk 0:05:17] } 10. Bb5 { [%clk 0:05:20] } 10... O-O-O { [%clk 0:05:18] } 11. Bxc6 { [%clk 0:05:21] } 11... Qxc6 { [%clk 0:05:20] } 12. d4 { [%clk 0:05:23] } 12... h5 { [%clk 0:05:21] } 13. Bd2 { [%clk 0:05:24] } 13... g5 { [%clk 0:05:23] } 14. Qe2 { [%clk 0:05:26] } 14... g4 { [%clk 0:05:25] } 15. Nb5 { [%clk 0:05:27] } 15... Kb8 { [%clk 0:05:26] } 16. Nxd6 { [%clk 0:05:29] } 16... Qxd6 { [%clk 0:05:28] } 17. Nh2 { [%clk 0:05:31] } 17... gxh3 { [%clk 0:05:30] } 18. g3 { [%clk 0:05:32] } 18... Rhg8 { [%clk 0:05:31] } 19. Qxh5 { [%clk 0:05:34] } 19... Rxg3+ { [%clk 0:05:33] } 20. fxg3 { [%clk 0:05:36] } 20... Qxg3+ { [%clk 0:05:35] } 21. Kf1 { [%clk 0:05:37] } 21... Qg2# { [%clk 0:05:33] } 0-1
+
+

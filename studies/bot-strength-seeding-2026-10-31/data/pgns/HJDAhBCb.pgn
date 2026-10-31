@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/HJDAhBCb"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain036"]
+[Black "SignalTrain082"]
+[Result "1-0"]
+[GameId "HJDAhBCb"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:02:19"]
+[WhiteElo "1899"]
+[BlackElo "2092"]
+[WhiteRatingDiff "+132"]
+[BlackRatingDiff "-133"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:05:03] } 1... d5 { [%clk 0:05:01] } 2. Nc3 { [%clk 0:05:04] } 2... Nc6 { [%clk 0:05:01] } 3. Bf4 { [%clk 0:05:04] } 3... Nf6 { [%clk 0:05:02] } 4. Nb5 { [%clk 0:05:05] } 4... e5 { [%clk 0:05:03] } 5. dxe5 { [%clk 0:05:06] } 5... Nh5 { [%clk 0:05:04] } 6. Qd2 { [%clk 0:05:07] } 6... Nxf4 { [%clk 0:05:05] } 7. Qxf4 { [%clk 0:05:08] } 7... a6 { [%clk 0:05:06] } 8. e6 { [%clk 0:05:09] } 8... axb5 { [%clk 0:05:06] } 9. Qxf7# { [%clk 0:05:07] } 1-0
+
+

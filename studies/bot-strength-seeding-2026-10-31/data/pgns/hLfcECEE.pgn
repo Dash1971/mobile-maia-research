@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/hLfcECEE"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain135"]
+[Black "PocketStatic"]
+[Result "0-1"]
+[GameId "hLfcECEE"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:45:58"]
+[WhiteElo "981"]
+[BlackElo "1059"]
+[WhiteRatingDiff "-95"]
+[BlackRatingDiff "+13"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "A40"]
+[Opening "Mikenas Defense"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:05:03] } 1... Nc6 { [%clk 0:05:01] } 2. Nc3 { [%clk 0:05:04] } 2... e5 { [%clk 0:05:01] } 3. d5 { [%clk 0:05:05] } 3... Nd4 { [%clk 0:05:02] } 4. e3 { [%clk 0:05:05] } 4... c5 { [%clk 0:05:03] } 5. a3 { [%clk 0:05:06] } 5... Nf5 { [%clk 0:05:04] } 6. e4 { [%clk 0:05:07] } 6... Nd4 { [%clk 0:05:04] } 7. Be3 { [%clk 0:05:08] } 7... d6 { [%clk 0:05:05] } 8. b4 { [%clk 0:05:09] } 8... Nf6 { [%clk 0:05:06] } 9. bxc5 { [%clk 0:05:09] } 9... Bg4 { [%clk 0:05:07] } 10. f3 { [%clk 0:05:10] } 10... dxc5 { [%clk 0:05:07] } 11. fxg4 { [%clk 0:05:11] } 11... Nxg4 { [%clk 0:05:08] } 12. Qxg4 { [%clk 0:05:12] } 12... Nxc2+ { [%clk 0:05:08] } 13. Kd2 { [%clk 0:05:13] } 13... Nxa1 { [%clk 0:05:09] } 14. Bb5+ { [%clk 0:05:13] } 14... Ke7 { [%clk 0:05:10] } 15. Bxc5+ { [%clk 0:05:14] } 15... Kf6 { [%clk 0:05:11] } 16. Qf3+ { [%clk 0:05:15] } 16... Kg6 { [%clk 0:05:12] } 17. Qf5+ { [%clk 0:05:15] } 17... Kh6 { [%clk 0:05:13] } 18. Be3+ { [%clk 0:05:17] } 18... g5 { [%clk 0:05:13] } 19. h4 { [%clk 0:05:17] } 19... Bxa3 { [%clk 0:05:14] } 20. hxg5+ { [%clk 0:05:18] } 20... Kg7 { [%clk 0:05:14] } 21. Rh6 { [%clk 0:05:19] } 21... Nb3+ { [%clk 0:05:15] } 22. Kc2 { [%clk 0:05:20] } 22... Na1+ { [%clk 0:05:16] } 23. Kb1 { [%clk 0:05:21] } 23... Qa5 { [%clk 0:05:17] } 24. Qf6+ { [%clk 0:05:22] } 24... Kf8 { [%clk 0:05:17] } 25. Qxh8+ { [%clk 0:05:22] } 25... Ke7 { [%clk 0:05:19] } 26. Qxa8 { [%clk 0:05:23] } 26... Qxc3 { [%clk 0:05:19] } 27. Qxb7+ { [%clk 0:05:24] } 27... Kf8 { [%clk 0:05:20] } 28. Rxh7 { [%clk 0:05:25] } 28... Qb2# { [%clk 0:05:18] } 0-1
+
+

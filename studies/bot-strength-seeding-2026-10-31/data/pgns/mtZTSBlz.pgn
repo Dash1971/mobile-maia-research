@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/mtZTSBlz"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain073"]
+[Black "SignalTrain041"]
+[Result "1-0"]
+[GameId "mtZTSBlz"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:42:00"]
+[WhiteElo "1255"]
+[BlackElo "1298"]
+[WhiteRatingDiff "+52"]
+[BlackRatingDiff "-65"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... c5 { [%clk 0:05:01] } 2. Bc4 { [%clk 0:05:03] } 2... Nc6 { [%clk 0:05:02] } 3. Qf3 { [%clk 0:05:03] } 3... Nd4 { [%clk 0:05:02] } 4. Qxf7# { [%clk 0:05:01] } 1-0
+
+

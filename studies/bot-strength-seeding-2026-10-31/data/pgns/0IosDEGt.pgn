@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/0IosDEGt"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "CarbonKite"]
+[Black "ChromeAlley"]
+[Result "1-0"]
+[GameId "0IosDEGt"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:59:48"]
+[WhiteElo "1627"]
+[BlackElo "1644"]
+[WhiteRatingDiff "+24"]
+[BlackRatingDiff "-23"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:05:03] } 1... d5 { [%clk 0:05:01] } 2. Nf3 { [%clk 0:05:04] } 2... Nc6 { [%clk 0:05:02] } 3. e3 { [%clk 0:05:04] } 3... Nf6 { [%clk 0:05:03] } 4. Bd3 { [%clk 0:05:05] } 4... Bg4 { [%clk 0:05:03] } 5. h3 { [%clk 0:05:06] } 5... Bxf3 { [%clk 0:05:04] } 6. Qxf3 { [%clk 0:05:06] } 6... e6 { [%clk 0:05:05] } 7. Nd2 { [%clk 0:05:07] } 7... Bb4 { [%clk 0:05:06] } 8. c3 { [%clk 0:05:08] } 8... Ba5 { [%clk 0:05:07] } 9. O-O { [%clk 0:05:09] } 9... O-O { [%clk 0:05:07] } 10. e4 { [%clk 0:05:10] } 10... dxe4 { [%clk 0:05:08] } 11. Nxe4 { [%clk 0:05:11] } 11... Nxe4 { [%clk 0:05:09] } 12. Qxe4 { [%clk 0:05:12] } 12... f5 { [%clk 0:05:10] } 13. Qxe6+ { [%clk 0:05:12] } 13... Kh8 { [%clk 0:05:11] } 14. Bxf5 { [%clk 0:05:13] } 14... Ne7 { [%clk 0:05:12] } 15. Bd3 { [%clk 0:05:14] } 15... Rf6 { [%clk 0:05:13] } 16. Qe4 { [%clk 0:05:15] } 16... c6 { [%clk 0:05:13] } 17. Qxh7# { [%clk 0:05:13] } 1-0
+
+

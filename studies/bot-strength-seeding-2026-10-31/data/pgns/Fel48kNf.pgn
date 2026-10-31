@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/Fel48kNf"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain134"]
+[Black "SignalTrain104"]
+[Result "1/2-1/2"]
+[GameId "Fel48kNf"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:52:23"]
+[WhiteElo "1620"]
+[BlackElo "1447"]
+[WhiteRatingDiff "-32"]
+[BlackRatingDiff "+29"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Normal Defense"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:04] } 1... d5 { [%clk 0:10:03] } 2. c4 { [%clk 0:10:07] } 2... Nf6 { [%clk 0:10:06] } 3. Nc3 { [%clk 0:10:10] } 3... e6 { [%clk 0:10:09] } 4. a3 { [%clk 0:10:13] } 4... Be7 { [%clk 0:10:11] } 5. Bg5 { [%clk 0:10:16] } 5... h6 { [%clk 0:10:14] } 6. Bh4 { [%clk 0:10:19] } 6... O-O { [%clk 0:10:17] } 7. Nf3 { [%clk 0:10:21] } 7... Nc6 { [%clk 0:10:20] } 8. e3 { [%clk 0:10:24] } 8... Ne4 { [%clk 0:10:22] } 9. Bxe7 { [%clk 0:10:27] } 9... Qxe7 { [%clk 0:10:25] } 10. Nxe4 { [%clk 0:10:30] } 10... dxe4 { [%clk 0:10:28] } 11. Nd2 { [%clk 0:10:32] } 11... e5 { [%clk 0:10:31] } 12. Nxe4 { [%clk 0:10:35] } 12... exd4 { [%clk 0:10:34] } 13. Bd3 { [%clk 0:10:38] } 13... dxe3 { [%clk 0:10:36] } 14. fxe3 { [%clk 0:10:41] } 14... Bf5 { [%clk 0:10:39] } 15. Qf3 { [%clk 0:10:43] } 15... Bxe4 { [%clk 0:10:42] } 16. Bxe4 { [%clk 0:10:46] } 16... Ne5 { [%clk 0:10:45] } 17. Qf5 { [%clk 0:10:49] } 17... g6 { [%clk 0:10:47] } 18. Qf4 { [%clk 0:10:52] } 18... Nxc4 { [%clk 0:10:50] } 19. O-O { [%clk 0:10:54] } 19... Nd2 { [%clk 0:10:53] } 20. Bxb7 { [%clk 0:10:57] } 20... Nxf1 { [%clk 0:10:56] } 21. Bxa8 { [%clk 0:10:59] } 21... Nxe3 { [%clk 0:10:59] } 22. Re1 { [%clk 0:11:02] } 22... Rxa8 { [%clk 0:11:01] } 23. Rxe3 { [%clk 0:11:05] } 23... Qc5 { [%clk 0:11:04] } 24. Kf2 { [%clk 0:11:07] } 24... Qc2+ { [%clk 0:11:07] } 25. Re2 { [%clk 0:11:10] } 25... Qc5+ { [%clk 0:11:09] } 26. Re3 { [%clk 0:11:13] } 26... Qc2+ { [%clk 0:11:12] } 27. Re2 { [%clk 0:11:16] } 27... Qc5+ { [%clk 0:11:15] } 28. Re3 { [%clk 0:11:19] } 1/2-1/2
+
+

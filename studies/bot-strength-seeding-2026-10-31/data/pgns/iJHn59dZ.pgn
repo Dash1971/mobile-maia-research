@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/iJHn59dZ"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "CobaltMist"]
+[Black "NeonFinch"]
+[Result "1-0"]
+[GameId "iJHn59dZ"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:35:54"]
+[WhiteElo "1084"]
+[BlackElo "1163"]
+[WhiteRatingDiff "+54"]
+[BlackRatingDiff "-29"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C42"]
+[Opening "Petrov's Defense: Italian Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:04] } 2. Nf3 { [%clk 0:10:08] } 2... Nf6 { [%clk 0:10:08] } 3. Bc4 { [%clk 0:10:12] } 3... Bc5 { [%clk 0:10:12] } 4. Ng5 { [%clk 0:10:16] } 4... h6 { [%clk 0:10:16] } 5. Nxf7 { [%clk 0:10:21] } 5... Qe7 { [%clk 0:10:20] } 6. Nxh8 { [%clk 0:10:25] } 6... Nc6 { [%clk 0:10:24] } 7. Bf7+ { [%clk 0:10:29] } 7... Kf8 { [%clk 0:10:28] } 8. Bc4 { [%clk 0:10:32] } 8... Qe8 { [%clk 0:10:32] } 9. Ng6+ { [%clk 0:10:36] } 9... Qxg6 { [%clk 0:10:36] } 10. d3 { [%clk 0:10:39] } 10... Ng4 { [%clk 0:10:39] } 11. O-O { [%clk 0:10:43] } 11... Qh5 { [%clk 0:10:43] } 12. h3 { [%clk 0:10:47] } 12... Bxf2+ { [%clk 0:10:46] } 13. Rxf2+ { [%clk 0:10:51] } 13... Nxf2 { [%clk 0:10:50] } 14. Qxh5 { [%clk 0:10:54] } 14... Nd4 { [%clk 0:10:53] } 15. Qf7# { [%clk 0:10:53] } 1-0
+
+

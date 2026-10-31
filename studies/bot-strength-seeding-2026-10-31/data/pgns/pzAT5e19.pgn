@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/pzAT5e19"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain078"]
+[Black "SignalTest044"]
+[Result "1-0"]
+[GameId "pzAT5e19"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:46:45"]
+[WhiteElo "1472"]
+[BlackElo "1405"]
+[WhiteRatingDiff "+25"]
+[BlackRatingDiff "-88"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C50"]
+[Opening "Italian Game"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Nf3 { [%clk 0:05:03] } 2... Nc6 { [%clk 0:05:02] } 3. Bc4 { [%clk 0:05:04] } 3... d5 { [%clk 0:05:02] } 4. Bxd5 { [%clk 0:05:04] } 4... Bg4 { [%clk 0:05:03] } 5. h3 { [%clk 0:05:05] } 5... Bxf3 { [%clk 0:05:03] } 6. Qxf3 { [%clk 0:05:06] } 6... Nd4 { [%clk 0:05:03] } 7. Qxf7# { [%clk 0:05:03] } 1-0
+
+

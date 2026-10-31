@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/KVKZ7z5o"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain038"]
+[Black "SignalTrain088"]
+[Result "1-0"]
+[GameId "KVKZ7z5o"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:23:39"]
+[WhiteElo "1059"]
+[BlackElo "1033"]
+[WhiteRatingDiff "+129"]
+[BlackRatingDiff "-95"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B02"]
+[Opening "Alekhine Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... Nf6 { [%clk 0:10:03] } 2. Qf3 { [%clk 0:10:08] } 2... e5 { [%clk 0:10:05] } 3. Bc4 { [%clk 0:10:11] } 3... d5 { [%clk 0:10:08] } 4. exd5 { [%clk 0:10:14] } 4... Nh5 { [%clk 0:10:11] } 5. d6 { [%clk 0:10:16] } 5... cxd6 { [%clk 0:10:14] } 6. Qxf7# { [%clk 0:10:14] } 1-0
+
+

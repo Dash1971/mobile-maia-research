@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/hQ8S1ewX"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain073"]
+[Black "SignalTrain085"]
+[Result "1-0"]
+[GameId "hQ8S1ewX"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:37:50"]
+[WhiteElo "1251"]
+[BlackElo "1446"]
+[WhiteRatingDiff "+105"]
+[BlackRatingDiff "-102"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C57"]
+[Opening "Italian Game: Two Knights Defense, Fried Liver Attack"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Nf3 { [%clk 0:05:04] } 2... Nc6 { [%clk 0:05:01] } 3. Bc4 { [%clk 0:05:04] } 3... Nf6 { [%clk 0:05:02] } 4. Ng5 { [%clk 0:05:04] } 4... d5 { [%clk 0:05:02] } 5. exd5 { [%clk 0:05:05] } 5... Nxd5 { [%clk 0:05:03] } 6. Nxf7 { [%clk 0:05:05] } 6... Kxf7 { [%clk 0:05:04] } 7. Qf3+ { [%clk 0:05:06] } 7... Ke8 { [%clk 0:05:04] } 8. Bxd5 { [%clk 0:05:07] } 8... Nd4 { [%clk 0:05:06] } 9. Qf7# { [%clk 0:05:05] } 1-0
+
+

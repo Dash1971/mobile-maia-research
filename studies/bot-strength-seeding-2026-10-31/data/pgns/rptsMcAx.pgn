@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/rptsMcAx"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain039"]
+[Black "SignalTest010"]
+[Result "0-1"]
+[GameId "rptsMcAx"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:59:36"]
+[WhiteElo "2440"]
+[BlackElo "2537"]
+[WhiteRatingDiff "-24"]
+[BlackRatingDiff "+40"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A06"]
+[Opening "Zukertort Opening: Tennison Gambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... dxe4 { [%clk 0:10:05] } 3. Ng5 { [%clk 0:10:09] } 3... Bf5 { [%clk 0:10:07] } 4. Nc3 { [%clk 0:10:10] } 4... Nf6 { [%clk 0:10:10] } 5. Qe2 { [%clk 0:10:12] } 5... Nc6 { [%clk 0:10:13] } 6. Ngxe4 { [%clk 0:10:14] } 6... Nd4 { [%clk 0:10:15] } 7. Nxf6+ { [%clk 0:10:16] } 7... gxf6 { [%clk 0:10:17] } 8. Qh5 { [%clk 0:10:19] } 8... Bg6 { [%clk 0:10:20] } 9. Qa5 { [%clk 0:10:21] } 9... Nxc2+ { [%clk 0:10:22] } 10. Kd1 { [%clk 0:10:23] } 10... Nxa1 { [%clk 0:10:24] } 11. Qb5+ { [%clk 0:10:25] } 11... Qd7 { [%clk 0:10:26] } 12. Qxb7 { [%clk 0:10:27] } 12... Rd8 { [%clk 0:10:29] } 13. Bb5 { [%clk 0:10:29] } 13... Bh6 { [%clk 0:10:31] } 14. Bxd7+ { [%clk 0:10:31] } 14... Rxd7 { [%clk 0:10:34] } 15. Qc8+ { [%clk 0:10:33] } 15... Rd8 { [%clk 0:10:36] } 16. Qxc7 { [%clk 0:10:36] } 16... O-O { [%clk 0:10:39] } 17. Qxe7 { [%clk 0:10:38] } 17... Rfe8 { [%clk 0:10:42] } 18. Qxf6 { [%clk 0:10:41] } 18... Bc2# { [%clk 0:10:39] } 0-1
+
+

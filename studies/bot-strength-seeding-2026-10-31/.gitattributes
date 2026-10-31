@@ -1,0 +1,6 @@
+# Publication checksums require identical bytes on every checkout platform.
+* -text
+# Preserve standard CSV CRLF, original PGN export spacing, and generated SVG paths.
+data/*.csv whitespace=cr-at-eol
+data/pgns/*.pgn -whitespace
+figures/*.svg -whitespace

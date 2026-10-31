@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/K44s7inr"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain025"]
+[Black "GhostRelay"]
+[Result "0-1"]
+[GameId "K44s7inr"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:13:27"]
+[WhiteElo "1713"]
+[BlackElo "1535"]
+[WhiteRatingDiff "-76"]
+[BlackRatingDiff "+27"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Maróczy Variation"]
+[Termination "Normal"]
+
+1. d3 { [%clk 0:10:05] } 1... Nf6 { [%clk 0:10:02] } 2. e4 { [%clk 0:10:07] } 2... e6 { [%clk 0:10:05] } 3. Bg5 { [%clk 0:10:09] } 3... b6 { [%clk 0:10:08] } 4. Nc3 { [%clk 0:10:12] } 4... h6 { [%clk 0:10:10] } 5. Bf4 { [%clk 0:10:14] } 5... Bb4 { [%clk 0:10:13] } 6. a3 { [%clk 0:10:17] } 6... Bxc3+ { [%clk 0:10:16] } 7. bxc3 { [%clk 0:10:19] } 7... Bb7 { [%clk 0:10:18] } 8. Nf3 { [%clk 0:10:21] } 8... g5 { [%clk 0:10:21] } 9. Be5 { [%clk 0:10:24] } 9... d6 { [%clk 0:10:24] } 10. Bxf6 { [%clk 0:10:27] } 10... Qxf6 { [%clk 0:10:27] } 11. Be2 { [%clk 0:10:29] } 11... Qxc3+ { [%clk 0:10:29] } 12. Nd2 { [%clk 0:10:31] } 12... Nd7 { [%clk 0:10:32] } 13. O-O { [%clk 0:10:34] } 13... Qg7 { [%clk 0:10:35] } 14. Bh5 { [%clk 0:10:37] } 14... Nf6 { [%clk 0:10:37] } 15. Bf3 { [%clk 0:10:39] } 15... e5 { [%clk 0:10:40] } 16. Nc4 { [%clk 0:10:42] } 16... h5 { [%clk 0:10:43] } 17. h3 { [%clk 0:10:45] } 17... g4 { [%clk 0:10:45] } 18. hxg4 { [%clk 0:10:47] } 18... hxg4 { [%clk 0:10:48] } 19. Be2 { [%clk 0:10:49] } 19... Qh6 { [%clk 0:10:51] } 20. f3 { [%clk 0:10:52] } 20... g3 { [%clk 0:10:53] } 21. Nxd6+ { [%clk 0:10:54] } 21... cxd6 { [%clk 0:10:55] } 22. Rf2 { [%clk 0:10:57] } 22... Qh1# { [%clk 0:10:53] } 0-1
+
+

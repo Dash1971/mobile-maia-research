@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/8CnxOKch"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain084"]
+[Black "SignalTrain090"]
+[Result "1/2-1/2"]
+[GameId "8CnxOKch"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:06:19"]
+[WhiteElo "2409"]
+[BlackElo "2558"]
+[WhiteRatingDiff "+28"]
+[BlackRatingDiff "-26"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A40"]
+[Opening "English Defense"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:04] } 1... b6 { [%clk 0:10:03] } 2. c4 { [%clk 0:10:07] } 2... Bb7 { [%clk 0:10:06] } 3. Nc3 { [%clk 0:10:10] } 3... e6 { [%clk 0:10:09] } 4. e4 { [%clk 0:10:13] } 4... Nf6 { [%clk 0:10:11] } 5. f3 { [%clk 0:10:16] } 5... Nh5 { [%clk 0:10:14] } 6. Be3 { [%clk 0:10:19] } 6... Qh4+ { [%clk 0:10:17] } 7. Bf2 { [%clk 0:10:22] } 7... Qg5 { [%clk 0:10:20] } 8. h4 { [%clk 0:10:25] } 8... Qg6 { [%clk 0:10:22] } 9. g4 { [%clk 0:10:28] } 9... Nf4 { [%clk 0:10:25] } 10. h5 { [%clk 0:10:31] } 10... Qf6 { [%clk 0:10:28] } 11. Bh4 { [%clk 0:10:33] } 11... g5 { [%clk 0:10:31] } 12. hxg6 { [%clk 0:10:36] } 12... Qxg6 { [%clk 0:10:33] } 13. Qd2 { [%clk 0:10:38] } 13... Bh6 { [%clk 0:10:36] } 14. g5 { [%clk 0:10:41] } 14... Bxg5 { [%clk 0:10:39] } 15. Bxg5 { [%clk 0:10:44] } 15... Qxg5 { [%clk 0:10:42] } 16. O-O-O { [%clk 0:10:47] } 16... Nc6 { [%clk 0:10:45] } 17. Kb1 { [%clk 0:10:50] } 17... O-O-O { [%clk 0:10:48] } 18. Nge2 { [%clk 0:10:52] } 18... e5 { [%clk 0:10:50] } 19. d5 { [%clk 0:10:55] } 19... Ne7 { [%clk 0:10:53] } 20. Nxf4 { [%clk 0:10:58] } 20... exf4 { [%clk 0:10:56] } 21. Bh3 { [%clk 0:11:01] } 21... Ng6 { [%clk 0:10:58] } 22. Rdg1 { [%clk 0:11:04] } 22... Qf6 { [%clk 0:11:01] } 23. Bf5 { [%clk 0:11:07] } 23... Kb8 { [%clk 0:11:03] } 24. Rh6 { [%clk 0:11:10] } 24... d6 { [%clk 0:11:06] } 25. Rgh1 { [%clk 0:11:12] } 25... Bc8 { [%clk 0:11:08] } 26. Bxc8 { [%clk 0:11:15] } 26... Rxc8 { [%clk 0:11:11] } 27. Rxh7 { [%clk 0:11:18] } 27... Rxh7 { [%clk 0:11:14] } 28. Rxh7 { [%clk 0:11:21] } 28... Ne5 { [%clk 0:11:17] } 29. Qe2 { [%clk 0:11:24] } 29... Qg6 { [%clk 0:11:19] } 30. Rh1 { [%clk 0:11:27] } 30... Qg3 { [%clk 0:11:22] } 31. Rf1 { [%clk 0:11:30] } 31... Rh8 { [%clk 0:11:25] } 32. c5 { [%clk 0:11:33] } 32... dxc5 { [%clk 0:11:28] } 33. Qa6 { [%clk 0:11:35] } 33... Qg2 { [%clk 0:11:31] } 34. Rc1 { [%clk 0:11:38] } 34... Rh2 { [%clk 0:11:34] } 35. Na4 { [%clk 0:11:41] } 35... Qxf3 { [%clk 0:11:37] } 36. Nxc5 { [%clk 0:11:44] } 36... bxc5 { [%clk 0:11:39] } 37. Qb5+ { [%clk 0:11:47] } 37... Kc8 { [%clk 0:11:42] } 38. Qe8+ { [%clk 0:11:49] } 38... Kb7 { [%clk 0:11:45] } 39. Qb5+ { [%clk 0:11:52] } 39... Kc8 { [%clk 0:11:48] } 40. Qe8+ { [%clk 0:11:55] } 40... Kb7 { [%clk 0:11:51] } 41. Qb5+ { [%clk 0:11:58] } 41... Kc8 { [%clk 0:11:53] } 1/2-1/2
+
+

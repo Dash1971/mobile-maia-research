@@ -1,0 +1,44 @@
+name: Bot strength study reproduction
+on:
+  pull_request:
+    paths:
+      - studies/bot-strength-seeding-2026-10-31/**
+      - .github/workflows/bot-strength-study.yml
+  push:
+    branches: [main]
+    paths:
+      - studies/bot-strength-seeding-2026-10-31/**
+      - .github/workflows/bot-strength-study.yml
+permissions:
+  contents: read
+jobs:
+  cached-evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: studies/bot-strength-seeding-2026-10-31/requirements-verify.txt
+      - run: python -m pip install -r requirements-verify.txt
+        working-directory: studies/bot-strength-seeding-2026-10-31
+      - name: Synthetic verifier contracts and exact evaluator parity
+        working-directory: studies/bot-strength-seeding-2026-10-31
+        env:
+          MAIA_EVALUATOR_SOURCE: tools/predictor_v1.py
+        run: python -m unittest -v test_verify_public.py
+      - name: Verify published counts, frozen-table metrics and all legal PGNs
+        run: >-
+          python studies/bot-strength-seeding-2026-10-31/verify_public.py
+          --bundle studies/bot-strength-seeding-2026-10-31
+          --output /tmp/strength-public-verification --check-reported --verify-pgn
+      - name: Reproduce both training procedures from the original frozen snapshot
+        run: >-
+          python studies/bot-strength-seeding-2026-10-31/tools/check_refit.py
+          --output /tmp/strength-refit-verification.json

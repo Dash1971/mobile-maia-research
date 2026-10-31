@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/FWw0Asw2"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain138"]
+[Black "VelvetCircuit"]
+[Result "1-0"]
+[GameId "FWw0Asw2"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:03:51"]
+[WhiteElo "1389"]
+[BlackElo "1478"]
+[WhiteRatingDiff "+90"]
+[BlackRatingDiff "-23"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "D38"]
+[Opening "Queen's Gambit Declined: Ragozin Defense"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:05:03] } 1... d5 { [%clk 0:05:01] } 2. c4 { [%clk 0:05:04] } 2... e6 { [%clk 0:05:01] } 3. Nc3 { [%clk 0:05:04] } 3... Bb4 { [%clk 0:05:02] } 4. Nf3 { [%clk 0:05:05] } 4... Nf6 { [%clk 0:05:02] } 5. Qc2 { [%clk 0:05:05] } 5... O-O { [%clk 0:05:03] } 6. Bg5 { [%clk 0:05:05] } 6... Nc6 { [%clk 0:05:04] } 7. e3 { [%clk 0:05:06] } 7... h6 { [%clk 0:05:04] } 8. Bh4 { [%clk 0:05:07] } 8... g5 { [%clk 0:05:04] } 9. Bg3 { [%clk 0:05:07] } 9... Ne4 { [%clk 0:05:05] } 10. Bd3 { [%clk 0:05:08] } 10... Nxg3 { [%clk 0:05:06] } 11. hxg3 { [%clk 0:05:09] } 11... f5 { [%clk 0:05:07] } 12. Rxh6 { [%clk 0:05:10] } 12... g4 { [%clk 0:05:07] } 13. Ne5 { [%clk 0:05:11] } 13... Nxe5 { [%clk 0:05:08] } 14. dxe5 { [%clk 0:05:11] } 14... Qg5 { [%clk 0:05:09] } 15. Rh4 { [%clk 0:05:12] } 15... dxc4 { [%clk 0:05:10] } 16. Bxc4 { [%clk 0:05:12] } 16... f4 { [%clk 0:05:10] } 17. exf4 { [%clk 0:05:13] } 17... Qf5 { [%clk 0:05:11] } 18. Bd3 { [%clk 0:05:14] } 18... Qf7 { [%clk 0:05:11] } 19. Rxg4+ { [%clk 0:05:14] } 19... Kh8 { [%clk 0:05:12] } 20. O-O-O { [%clk 0:05:15] } 20... Qh5 { [%clk 0:05:13] } 21. Rh4 { [%clk 0:05:16] } 21... Qxh4 { [%clk 0:05:14] } 22. gxh4 { [%clk 0:05:17] } 22... Rxf4 { [%clk 0:05:14] } 23. g3 { [%clk 0:05:17] } 23... Rf3 { [%clk 0:05:15] } 24. Be4 { [%clk 0:05:18] } 24... Rf7 { [%clk 0:05:16] } 25. Rd8+ { [%clk 0:05:19] } 25... Kg7 { [%clk 0:05:17] } 26. Bg6 { [%clk 0:05:20] } 26... Rf3 { [%clk 0:05:18] } 27. Bh5 { [%clk 0:05:20] } 27... Kh6 { [%clk 0:05:19] } 28. Qg6# { [%clk 0:05:18] } 1-0
+
+

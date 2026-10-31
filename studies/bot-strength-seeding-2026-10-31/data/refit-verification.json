@@ -1,0 +1,45 @@
+{
+  "trainingSnapshotSha256": "4a88c1dd54420b81237f4323b52f328330bd46494866bc890daf9581522fe436",
+  "heldoutOutcomesRead": false,
+  "fittedCoefficientsWritten": false,
+  "neuralInferencePerformed": false,
+  "procedures": {
+    "v1": {
+      "sourceSha256": "7d5a82954a28d72370d6c3dbacdd8362a64c0d8a4b4228bbf524678ece7c62a1",
+      "modelVersion": "strength137-ridge-rbf-v1",
+      "maximumAbsolutePredictionDifference": 2.7966962079517543e-11,
+      "predictionTolerance": 1e-07,
+      "selection": {
+        "blitz": {
+          "complexity": "interaction",
+          "penalty": 1.0,
+          "configurationCvMae": 107.30663083838948
+        },
+        "rapid": {
+          "complexity": "additive",
+          "penalty": 1.0,
+          "configurationCvMae": 110.6211840320955
+        }
+      }
+    },
+    "v2": {
+      "sourceSha256": "6e8318643ea735e7ddc29a475c73c29e14a236cb69ddfc029ca0c794c92b234e",
+      "modelVersion": "strength137-ridge-rbf-effective-cv-v2",
+      "maximumAbsolutePredictionDifference": 0.0,
+      "predictionTolerance": 1e-07,
+      "selection": {
+        "blitz": {
+          "complexity": "interaction",
+          "penalty": 0.1,
+          "configurationCvMae": 104.50666905331491
+        },
+        "rapid": {
+          "complexity": "additive",
+          "penalty": 1.0,
+          "configurationCvMae": 113.84014104924762
+        }
+      }
+    }
+  },
+  "numpyVersion": "2.3.5"
+}

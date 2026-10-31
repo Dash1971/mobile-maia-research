@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/etrVFVkR"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "HoloRaven"]
+[Black "HAL9000"]
+[Result "0-1"]
+[GameId "etrVFVkR"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:33:13"]
+[WhiteElo "2315"]
+[BlackElo "2293"]
+[WhiteRatingDiff "-35"]
+[BlackRatingDiff "+134"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C45"]
+[Opening "Scotch Game: Potter Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... Nc6 { [%clk 0:10:05] } 3. d4 { [%clk 0:10:10] } 3... exd4 { [%clk 0:10:08] } 4. Nxd4 { [%clk 0:10:13] } 4... Bc5 { [%clk 0:10:11] } 5. Nb3 { [%clk 0:10:16] } 5... Bb6 { [%clk 0:10:14] } 6. Nc3 { [%clk 0:10:19] } 6... Nf6 { [%clk 0:10:17] } 7. Bd3 { [%clk 0:10:22] } 7... O-O { [%clk 0:10:20] } 8. O-O { [%clk 0:10:24] } 8... d6 { [%clk 0:10:22] } 9. Bg5 { [%clk 0:10:27] } 9... h6 { [%clk 0:10:25] } 10. Bh4 { [%clk 0:10:30] } 10... Ne5 { [%clk 0:10:28] } 11. Kh1 { [%clk 0:10:33] } 11... Ng6 { [%clk 0:10:30] } 12. Bg3 { [%clk 0:10:35] } 12... Re8 { [%clk 0:10:33] } 13. f3 { [%clk 0:10:38] } 13... Nh5 { [%clk 0:10:36] } 14. Bf2 { [%clk 0:10:41] } 14... Bxf2 { [%clk 0:10:38] } 15. Rxf2 { [%clk 0:10:44] } 15... Qh4 { [%clk 0:10:41] } 16. Qg1 { [%clk 0:10:46] } 16... Ng3# { [%clk 0:10:39] } 0-1
+
+

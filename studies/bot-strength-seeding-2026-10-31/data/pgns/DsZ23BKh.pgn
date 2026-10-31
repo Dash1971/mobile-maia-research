@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/DsZ23BKh"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "PixelMoth"]
+[Black "SignalTrain029"]
+[Result "1-0"]
+[GameId "DsZ23BKh"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:21:41"]
+[WhiteElo "861"]
+[BlackElo "919"]
+[WhiteRatingDiff "+18"]
+[BlackRatingDiff "-43"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:02] } 2. Bc4 { [%clk 0:10:07] } 2... Qh4 { [%clk 0:10:05] } 3. Qf3 { [%clk 0:10:09] } 3... Nf6 { [%clk 0:10:08] } 4. g3 { [%clk 0:10:12] } 4... Qh6 { [%clk 0:10:10] } 5. d3 { [%clk 0:10:14] } 5... g5 { [%clk 0:10:13] } 6. h4 { [%clk 0:10:17] } 6... gxh4 { [%clk 0:10:16] } 7. Bxh6 { [%clk 0:10:20] } 7... Bxh6 { [%clk 0:10:19] } 8. Qxf6 { [%clk 0:10:22] } 8... O-O { [%clk 0:10:21] } 9. Qxh6 { [%clk 0:10:25] } 9... d6 { [%clk 0:10:24] } 10. Nf3 { [%clk 0:10:27] } 10... Bg4 { [%clk 0:10:26] } 11. Ng5 { [%clk 0:10:30] } 11... Nc6 { [%clk 0:10:28] } 12. Qxh7# { [%clk 0:10:28] } 1-0
+
+

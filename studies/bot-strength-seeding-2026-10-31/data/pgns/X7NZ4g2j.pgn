@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/X7NZ4g2j"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "StaticBishop"]
+[Black "ChromeSparrow"]
+[Result "1-0"]
+[GameId "X7NZ4g2j"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:49:02"]
+[WhiteElo "1800"]
+[BlackElo "1629"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-14"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C42"]
+[Opening "Petrov's Defense: Italian Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... Nf6 { [%clk 0:10:06] } 3. Bc4 { [%clk 0:10:10] } 3... Nxe4 { [%clk 0:10:08] } 4. d3 { [%clk 0:10:13] } 4... Nc5 { [%clk 0:10:11] } 5. Ng5 { [%clk 0:10:16] } 5... d5 { [%clk 0:10:14] } 6. Qf3 { [%clk 0:10:19] } 6... f6 { [%clk 0:10:16] } 7. Bxd5 { [%clk 0:10:22] } 7... fxg5 { [%clk 0:10:19] } 8. Qf7# { [%clk 0:10:20] } 1-0
+
+

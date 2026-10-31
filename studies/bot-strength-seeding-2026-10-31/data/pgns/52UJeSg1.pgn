@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/52UJeSg1"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest042"]
+[Black "SignalTrain019"]
+[Result "1-0"]
+[GameId "52UJeSg1"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:25:32"]
+[WhiteElo "1294"]
+[BlackElo "1276"]
+[WhiteRatingDiff "+136"]
+[BlackRatingDiff "-30"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Franco-Nimzowitsch Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... Nc6 { [%clk 0:05:03] } 2. Nf3 { [%clk 0:05:05] } 2... e6 { [%clk 0:05:05] } 3. d4 { [%clk 0:05:07] } 3... d5 { [%clk 0:05:07] } 4. Nc3 { [%clk 0:05:08] } 4... Bb4 { [%clk 0:05:07] } 5. e5 { [%clk 0:05:09] } 5... Nge7 { [%clk 0:05:08] } 6. Bb5 { [%clk 0:05:10] } 6... O-O { [%clk 0:05:09] } 7. O-O { [%clk 0:05:11] } 7... a6 { [%clk 0:05:10] } 8. Bd3 { [%clk 0:05:12] } 8... b5 { [%clk 0:05:11] } 9. Ng5 { [%clk 0:05:13] } 9... Nxd4 { [%clk 0:05:12] } 10. Qh5 { [%clk 0:05:13] } 10... h6 { [%clk 0:05:12] } 11. Bh7+ { [%clk 0:05:14] } 11... Kh8 { [%clk 0:05:13] } 12. Nxf7+ { [%clk 0:05:15] } 12... Rxf7 { [%clk 0:05:13] } 13. Qxf7 { [%clk 0:05:15] } 13... Kxh7 { [%clk 0:05:14] } 14. Bxh6 { [%clk 0:05:16] } 14... Kxh6 { [%clk 0:05:15] } 15. Qf4+ { [%clk 0:05:16] } 15... Kh7 { [%clk 0:05:16] } 16. Qxd4 { [%clk 0:05:17] } 16... Bxc3 { [%clk 0:05:17] } 17. Qxc3 { [%clk 0:05:18] } 17... Nf5 { [%clk 0:05:18] } 18. Qh3+ { [%clk 0:05:18] } 18... Kg8 { [%clk 0:05:18] } 19. Rae1 { [%clk 0:05:19] } 19... Nd4 { [%clk 0:05:19] } 20. Re3 { [%clk 0:05:20] } 20... Nxc2 { [%clk 0:05:20] } 21. Rg3 { [%clk 0:05:20] } 21... Nd4 { [%clk 0:05:20] } 22. Qg4 { [%clk 0:05:21] } 22... Nf5 { [%clk 0:05:21] } 23. Rh3 { [%clk 0:05:21] } 23... Nh6 { [%clk 0:05:22] } 24. Rxh6 { [%clk 0:05:22] } 24... Kf7 { [%clk 0:05:23] } 25. Qg6+ { [%clk 0:05:23] } 25... Ke7 { [%clk 0:05:24] } 26. Qxg7+ { [%clk 0:05:23] } 26... Ke8 { [%clk 0:05:24] } 27. Rh8# { [%clk 0:05:21] } 1-0
+
+

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/h9rAVoa2"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain117"]
+[Black "SignalTrain111"]
+[Result "1/2-1/2"]
+[GameId "h9rAVoa2"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:18:28"]
+[WhiteElo "2347"]
+[BlackElo "2438"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-18"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C68"]
+[Opening "Ruy Lopez: Exchange Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... Nc6 { [%clk 0:10:06] } 3. Bb5 { [%clk 0:10:10] } 3... a6 { [%clk 0:10:09] } 4. Bxc6 { [%clk 0:10:13] } 4... dxc6 { [%clk 0:10:12] } 5. d4 { [%clk 0:10:16] } 5... Bg4 { [%clk 0:10:14] } 6. dxe5 { [%clk 0:10:19] } 6... Qxd1+ { [%clk 0:10:17] } 7. Kxd1 { [%clk 0:10:22] } 7... O-O-O+ { [%clk 0:10:20] } 8. Ke2 { [%clk 0:10:25] } 8... Ne7 { [%clk 0:10:22] } 9. h3 { [%clk 0:10:27] } 9... Bxf3+ { [%clk 0:10:25] } 10. gxf3 { [%clk 0:10:30] } 10... Ng6 { [%clk 0:10:27] } 11. f4 { [%clk 0:10:33] } 11... Bc5 { [%clk 0:10:30] } 12. Be3 { [%clk 0:10:35] } 12... Bxe3 { [%clk 0:10:33] } 13. fxe3 { [%clk 0:10:38] } 13... Rhe8 { [%clk 0:10:36] } 14. Nc3 { [%clk 0:10:41] } 14... f6 { [%clk 0:10:39] } 15. exf6 { [%clk 0:10:44] } 15... gxf6 { [%clk 0:10:42] } 16. Rad1 { [%clk 0:10:47] } 16... b5 { [%clk 0:10:44] } 17. Rxd8+ { [%clk 0:10:50] } 17... Kxd8 { [%clk 0:10:47] } 18. Rd1+ { [%clk 0:10:53] } 18... Kc8 { [%clk 0:10:50] } 19. a3 { [%clk 0:10:56] } 19... a5 { [%clk 0:10:53] } 20. b4 { [%clk 0:10:59] } 20... a4 { [%clk 0:10:56] } 21. Kf3 { [%clk 0:11:02] } 21... Nh4+ { [%clk 0:10:59] } 22. Kg4 { [%clk 0:11:05] } 22... Ng2 { [%clk 0:11:01] } 23. Kf3 { [%clk 0:11:07] } 23... Nh4+ { [%clk 0:11:04] } 24. Kf2 { [%clk 0:11:10] } 24... Rg8 { [%clk 0:11:07] } 25. Rg1 { [%clk 0:11:13] } 25... Rd8 { [%clk 0:11:09] } 26. Ke2 { [%clk 0:11:16] } 26... Ng6 { [%clk 0:11:12] } 27. Rd1 { [%clk 0:11:19] } 27... Re8 { [%clk 0:11:14] } 28. Kf3 { [%clk 0:11:22] } 28... Nh4+ { [%clk 0:11:17] } 1/2-1/2
+
+

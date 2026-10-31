@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/nfaJDHvU"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain085"]
+[Black "VioletMetro"]
+[Result "1-0"]
+[GameId "nfaJDHvU"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:21:44"]
+[WhiteElo "1468"]
+[BlackElo "1381"]
+[WhiteRatingDiff "+27"]
+[BlackRatingDiff "-11"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C40"]
+[Opening "King's Pawn Game: McConnell Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:00] } 2. Nf3 { [%clk 0:05:03] } 2... Qf6 { [%clk 0:05:00] } 3. Bc4 { [%clk 0:05:04] } 3... h6 { [%clk 0:05:01] } 4. Nc3 { [%clk 0:05:05] } 4... d6 { [%clk 0:05:02] } 5. h3 { [%clk 0:05:05] } 5... c6 { [%clk 0:05:02] } 6. d3 { [%clk 0:05:06] } 6... Be7 { [%clk 0:05:03] } 7. Be3 { [%clk 0:05:07] } 7... Qg6 { [%clk 0:05:03] } 8. g4 { [%clk 0:05:07] } 8... Nf6 { [%clk 0:05:04] } 9. Qe2 { [%clk 0:05:08] } 9... Nbd7 { [%clk 0:05:05] } 10. O-O-O { [%clk 0:05:08] } 10... O-O { [%clk 0:05:05] } 11. Nh4 { [%clk 0:05:09] } 11... Qh7 { [%clk 0:05:06] } 12. Nf5 { [%clk 0:05:09] } 12... Rb8 { [%clk 0:05:06] } 13. Nxe7+ { [%clk 0:05:09] } 13... Kh8 { [%clk 0:05:07] } 14. Nxc8 { [%clk 0:05:10] } 14... Rbxc8 { [%clk 0:05:07] } 15. Bxa7 { [%clk 0:05:11] } 15... Ra8 { [%clk 0:05:08] } 16. Be3 { [%clk 0:05:11] } 16... g5 { [%clk 0:05:09] } 17. h4 { [%clk 0:05:12] } 17... gxh4 { [%clk 0:05:09] } 18. Rxh4 { [%clk 0:05:12] } 18... d5 { [%clk 0:05:10] } 19. exd5 { [%clk 0:05:13] } 19... cxd5 { [%clk 0:05:11] } 20. Nxd5 { [%clk 0:05:14] } 20... Nxd5 { [%clk 0:05:10] } 21. Bxd5 { [%clk 0:05:14] } 21... Nc5 { [%clk 0:05:11] } 22. Bxc5 { [%clk 0:05:15] } 22... Rfc8 { [%clk 0:05:12] } 23. Qxe5+ { [%clk 0:05:16] } 23... Kg8 { [%clk 0:05:13] } 24. Bd4 { [%clk 0:05:17] } 24... Re8 { [%clk 0:05:14] } 25. Qf6 { [%clk 0:05:18] } 25... Rf8 { [%clk 0:05:15] } 26. Rxh6 { [%clk 0:05:19] } 26... Rxa2 { [%clk 0:05:16] } 27. Rxh7 { [%clk 0:05:19] } 27... Kxh7 { [%clk 0:05:16] } 28. Qg7# { [%clk 0:05:17] } 1-0
+
+

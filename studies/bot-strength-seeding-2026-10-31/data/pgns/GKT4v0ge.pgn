@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/GKT4v0ge"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain071"]
+[Black "SignalTrain127"]
+[Result "0-1"]
+[GameId "GKT4v0ge"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:42:12"]
+[WhiteElo "1247"]
+[BlackElo "1222"]
+[WhiteRatingDiff "-100"]
+[BlackRatingDiff "+106"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "A00"]
+[Opening "Grob Opening"]
+[Termination "Normal"]
+
+1. g4 { [%clk 0:05:03] } 1... c5 { [%clk 0:05:01] } 2. Nf3 { [%clk 0:05:04] } 2... Nc6 { [%clk 0:05:02] } 3. Bh3 { [%clk 0:05:05] } 3... d6 { [%clk 0:05:02] } 4. O-O { [%clk 0:05:05] } 4... Nf6 { [%clk 0:05:03] } 5. Nc3 { [%clk 0:05:06] } 5... Nxg4 { [%clk 0:05:04] } 6. Bxg4 { [%clk 0:05:07] } 6... Bxg4 { [%clk 0:05:05] } 7. h3 { [%clk 0:05:08] } 7... Bxh3 { [%clk 0:05:06] } 8. Re1 { [%clk 0:05:09] } 8... Qd7 { [%clk 0:05:07] } 9. Ng5 { [%clk 0:05:10] } 9... Qg4+ { [%clk 0:05:07] } 10. Kh2 { [%clk 0:05:11] } 10... Qg2# { [%clk 0:05:05] } 0-1
+
+

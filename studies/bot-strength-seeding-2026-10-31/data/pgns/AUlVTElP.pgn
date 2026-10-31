@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/AUlVTElP"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain028"]
+[Black "CopperByte"]
+[Result "0-1"]
+[GameId "AUlVTElP"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:56:45"]
+[WhiteElo "1070"]
+[BlackElo "1078"]
+[WhiteRatingDiff "-53"]
+[BlackRatingDiff "+19"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C25"]
+[Opening "Vienna Game"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:00] } 2. Nc3 { [%clk 0:05:03] } 2... Bb4 { [%clk 0:05:01] } 3. a3 { [%clk 0:05:04] } 3... Bxc3 { [%clk 0:05:01] } 4. bxc3 { [%clk 0:05:04] } 4... Nf6 { [%clk 0:05:02] } 5. Nf3 { [%clk 0:05:05] } 5... Nxe4 { [%clk 0:05:03] } 6. Nxe5 { [%clk 0:05:06] } 6... Qf6 { [%clk 0:05:03] } 7. d4 { [%clk 0:05:06] } 7... d6 { [%clk 0:05:03] } 8. Ng4 { [%clk 0:05:07] } 8... Qf5 { [%clk 0:05:04] } 9. Ne3 { [%clk 0:05:07] } 9... Qxf2# { [%clk 0:05:02] } 0-1
+
+

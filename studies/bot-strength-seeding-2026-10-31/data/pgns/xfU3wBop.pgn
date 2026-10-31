@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/xfU3wBop"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "HoloRaven"]
+[Black "SignalTrain084"]
+[Result "0-1"]
+[GameId "xfU3wBop"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:46:34"]
+[WhiteElo "2305"]
+[BlackElo "2453"]
+[WhiteRatingDiff "-19"]
+[BlackRatingDiff "+33"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B34"]
+[Opening "Sicilian Defense: Accelerated Dragon, Modern Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... c5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... g6 { [%clk 0:10:05] } 3. d4 { [%clk 0:10:10] } 3... cxd4 { [%clk 0:10:08] } 4. Nxd4 { [%clk 0:10:12] } 4... Nc6 { [%clk 0:10:11] } 5. Nc3 { [%clk 0:10:15] } 5... Nf6 { [%clk 0:10:13] } 6. Be3 { [%clk 0:10:17] } 6... Bg7 { [%clk 0:10:16] } 7. f3 { [%clk 0:10:20] } 7... O-O { [%clk 0:10:19] } 8. Qd2 { [%clk 0:10:23] } 8... d5 { [%clk 0:10:21] } 9. exd5 { [%clk 0:10:25] } 9... Nxd5 { [%clk 0:10:23] } 10. Nxc6 { [%clk 0:10:28] } 10... bxc6 { [%clk 0:10:27] } 11. Bd4 { [%clk 0:10:30] } 11... e5 { [%clk 0:10:29] } 12. Bc5 { [%clk 0:10:33] } 12... Re8 { [%clk 0:10:32] } 13. O-O-O { [%clk 0:10:36] } 13... Be6 { [%clk 0:10:34] } 14. h4 { [%clk 0:10:38] } 14... Qa5 { [%clk 0:10:36] } 15. Ne4 { [%clk 0:10:41] } 15... Qxa2 { [%clk 0:10:39] } 16. c3 { [%clk 0:10:43] } 16... Rab8 { [%clk 0:10:42] } 17. Ba3 { [%clk 0:10:46] } 17... Qa1+ { [%clk 0:10:45] } 18. Kc2 { [%clk 0:10:49] } 18... Qa2 { [%clk 0:10:47] } 19. Kc1 { [%clk 0:10:52] } 19... Red8 { [%clk 0:10:50] } 20. Nc5 { [%clk 0:10:55] } 20... Bf5 { [%clk 0:10:53] } 21. Ne4 { [%clk 0:10:57] } 21... Qa1+ { [%clk 0:10:55] } 22. Kc2 { [%clk 0:11:00] } 22... Ne3+ { [%clk 0:10:57] } 23. Qxe3 { [%clk 0:11:03] } 23... Qxd1# { [%clk 0:10:55] } 0-1
+
+

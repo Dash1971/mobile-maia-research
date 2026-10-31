@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/dbWUWYxS"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain128"]
+[Black "QuietProxy"]
+[Result "1-0"]
+[GameId "dbWUWYxS"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:01:22"]
+[WhiteElo "1673"]
+[BlackElo "1557"]
+[WhiteRatingDiff "+69"]
+[BlackRatingDiff "-12"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C40"]
+[Opening "Elephant Gambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... d5 { [%clk 0:10:05] } 3. exd5 { [%clk 0:10:10] } 3... Qxd5 { [%clk 0:10:08] } 4. Nc3 { [%clk 0:10:13] } 4... Qd6 { [%clk 0:10:11] } 5. d4 { [%clk 0:10:16] } 5... exd4 { [%clk 0:10:14] } 6. Nxd4 { [%clk 0:10:19] } 6... Nf6 { [%clk 0:10:16] } 7. Be3 { [%clk 0:10:21] } 7... c5 { [%clk 0:10:19] } 8. Ndb5 { [%clk 0:10:24] } 8... Qxd1+ { [%clk 0:10:22] } 9. Rxd1 { [%clk 0:10:27] } 9... Nc6 { [%clk 0:10:25] } 10. Nc7+ { [%clk 0:10:30] } 10... Ke7 { [%clk 0:10:28] } 11. Nxa8 { [%clk 0:10:32] } 11... Ke8 { [%clk 0:10:30] } 12. Nc7+ { [%clk 0:10:35] } 12... Ke7 { [%clk 0:10:33] } 13. Bxc5# { [%clk 0:10:33] } 1-0
+
+

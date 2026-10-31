@@ -15,6 +15,17 @@ results and match scores, with links to the full study and recorded data.
 
 ## Studies
 
+### Starting ratings for Maia bot pools — 31 October 2026
+
+[Read the report](studies/bot-strength-seeding-2026-10-31/REPORT.md) · [Data and reproduction](studies/bot-strength-seeding-2026-10-31/README.md)
+
+In Mute Chess, 250 fixed Maia configurations played 2,623 native rated games.
+The frozen predictors missed the 100-point target against uncertain held-out
+rating estimates, and did not improve native-label error over the starting
+priors. The report preserves that negative result, the original bots' earned
+rating changes, measured capacity, all games and reproducible evaluation. It
+does not establish absolute alignment with human Lichess ratings.
+
 ### Screenshot and diagram import — 28 October 2026
 
 [Read the report](studies/board-image-import-2026-10-28/REPORT.md) · [Evidence and reproduction guide](studies/board-image-import-2026-10-28/README.md)

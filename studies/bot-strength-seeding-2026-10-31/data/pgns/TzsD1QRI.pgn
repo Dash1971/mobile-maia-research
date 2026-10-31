@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/TzsD1QRI"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain077"]
+[Black "Probe001"]
+[Result "0-1"]
+[GameId "TzsD1QRI"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:48:14"]
+[WhiteElo "2175"]
+[BlackElo "2064"]
+[WhiteRatingDiff "-37"]
+[BlackRatingDiff "+145"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "A00"]
+[Opening "Barnes Opening: Hammerschlag"]
+[Termination "Normal"]
+
+1. f3 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:00] } 2. Kf2 { [%clk 0:05:03] } 2... Bc5+ { [%clk 0:05:00] } 3. Kg3 { [%clk 0:05:03] } 3... f5 { [%clk 0:05:01] } 4. e3 { [%clk 0:05:04] } 4... Nc6 { [%clk 0:05:01] } 5. h4 { [%clk 0:05:04] } 5... d5 { [%clk 0:05:02] } 6. Nh3 { [%clk 0:05:05] } 6... Nf6 { [%clk 0:05:03] } 7. Bb5 { [%clk 0:05:05] } 7... O-O { [%clk 0:05:04] } 8. Bxc6 { [%clk 0:05:06] } 8... bxc6 { [%clk 0:05:04] } 9. d4 { [%clk 0:05:07] } 9... Bd6 { [%clk 0:05:05] } 10. dxe5 { [%clk 0:05:07] } 10... Bxe5+ { [%clk 0:05:05] } 11. f4 { [%clk 0:05:07] } 11... Ne4+ { [%clk 0:05:05] } 12. Kf3 { [%clk 0:05:07] } 12... Qxh4 { [%clk 0:05:05] } 13. fxe5 { [%clk 0:05:07] } 13... Qg4# { [%clk 0:05:03] } 0-1
+
+

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/MDdJ5Env"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain118"]
+[Black "SignalTrain051"]
+[Result "1-0"]
+[GameId "MDdJ5Env"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:13:58"]
+[WhiteElo "1504"]
+[BlackElo "1383"]
+[WhiteRatingDiff "+42"]
+[BlackRatingDiff "-40"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C00"]
+[Opening "French Defense: St. George Defense"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:04] } 1... e6 { [%clk 0:10:03] } 2. e4 { [%clk 0:10:06] } 2... a6 { [%clk 0:10:05] } 3. Nf3 { [%clk 0:10:09] } 3... b5 { [%clk 0:10:08] } 4. Nc3 { [%clk 0:10:12] } 4... Bb7 { [%clk 0:10:10] } 5. Bf4 { [%clk 0:10:14] } 5... Bb4 { [%clk 0:10:13] } 6. a3 { [%clk 0:10:17] } 6... Ba5 { [%clk 0:10:16] } 7. b4 { [%clk 0:10:19] } 7... Bb6 { [%clk 0:10:18] } 8. Bd3 { [%clk 0:10:22] } 8... Nc6 { [%clk 0:10:21] } 9. O-O { [%clk 0:10:25] } 9... d6 { [%clk 0:10:23] } 10. d5 { [%clk 0:10:27] } 10... exd5 { [%clk 0:10:26] } 11. exd5 { [%clk 0:10:30] } 11... Nd4 { [%clk 0:10:28] } 12. Nxd4 { [%clk 0:10:33] } 12... Bxd4 { [%clk 0:10:31] } 13. Qd2 { [%clk 0:10:36] } 13... Nf6 { [%clk 0:10:34] } 14. Rae1+ { [%clk 0:10:38] } 14... Be5 { [%clk 0:10:37] } 15. Bxe5 { [%clk 0:10:41] } 15... dxe5 { [%clk 0:10:39] } 16. Rxe5+ { [%clk 0:10:44] } 16... Kd7 { [%clk 0:10:42] } 17. Bf5+ { [%clk 0:10:46] } 17... Kd6 { [%clk 0:10:44] } 18. Rfe1 { [%clk 0:10:49] } 18... Re8 { [%clk 0:10:47] } 19. Rxe8 { [%clk 0:10:51] } 19... Nxe8 { [%clk 0:10:50] } 20. Qf4# { [%clk 0:10:49] } 1-0
+
+

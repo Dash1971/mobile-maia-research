@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/KvL9356h"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain014"]
+[Black "SignalTrain070"]
+[Result "0-1"]
+[GameId "KvL9356h"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:37:00"]
+[WhiteElo "2397"]
+[BlackElo "2384"]
+[WhiteRatingDiff "-62"]
+[BlackRatingDiff "+64"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A00"]
+[Opening "Creepy Crawly Formation: Classical Defense"]
+[Termination "Normal"]
+
+1. h3 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. a3 { [%clk 0:10:07] } 2... e5 { [%clk 0:10:05] } 3. f3 { [%clk 0:10:10] } 3... Bd6 { [%clk 0:10:08] } 4. g3 { [%clk 0:10:13] } 4... e4 { [%clk 0:10:11] } 5. Nc3 { [%clk 0:10:15] } 5... Bxg3# { [%clk 0:10:08] } 0-1
+
+

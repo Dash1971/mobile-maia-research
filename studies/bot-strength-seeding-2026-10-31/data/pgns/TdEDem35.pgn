@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/TdEDem35"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain015"]
+[Black "SignalTrain143"]
+[Result "1/2-1/2"]
+[GameId "TdEDem35"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:24:40"]
+[WhiteElo "2023"]
+[BlackElo "1981"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[Termination "Normal"]
+
+1. g3 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Bg2 { [%clk 0:10:08] } 2... Nf6 { [%clk 0:10:06] } 3. d3 { [%clk 0:10:10] } 3... d5 { [%clk 0:10:08] } 4. Nf3 { [%clk 0:10:13] } 4... Nc6 { [%clk 0:10:11] } 5. O-O { [%clk 0:10:16] } 5... Bc5 { [%clk 0:10:13] } 6. c3 { [%clk 0:10:18] } 6... e4 { [%clk 0:10:16] } 7. dxe4 { [%clk 0:10:21] } 7... dxe4 { [%clk 0:10:19] } 8. Qxd8+ { [%clk 0:10:24] } 8... Nxd8 { [%clk 0:10:22] } 9. Ng5 { [%clk 0:10:27] } 9... Bf5 { [%clk 0:10:25] } 10. Nd2 { [%clk 0:10:30] } 10... e3 { [%clk 0:10:27] } 11. fxe3 { [%clk 0:10:32] } 11... Bxe3+ { [%clk 0:10:30] } 12. Kh1 { [%clk 0:10:35] } 12... Bg6 { [%clk 0:10:33] } 13. Nc4 { [%clk 0:10:38] } 13... Bxc1 { [%clk 0:10:35] } 14. Raxc1 { [%clk 0:10:41] } 14... c6 { [%clk 0:10:38] } 15. Nd6+ { [%clk 0:10:43] } 15... Kd7 { [%clk 0:10:41] } 16. Rcd1 { [%clk 0:10:45] } 16... Ke7 { [%clk 0:10:44] } 17. e4 { [%clk 0:10:48] } 17... h6 { [%clk 0:10:47] } 18. e5 { [%clk 0:10:51] } 18... Ng4 { [%clk 0:10:50] } 19. Nf3 { [%clk 0:10:54] } 19... Ne3 { [%clk 0:10:53] } 20. Nd4 { [%clk 0:10:56] } 20... Nxd1 { [%clk 0:10:55] } 21. Rxd1 { [%clk 0:10:59] } 21... f6 { [%clk 0:10:58] } 22. N4f5+ { [%clk 0:11:02] } 22... Bxf5 { [%clk 0:11:01] } 23. Nxf5+ { [%clk 0:11:05] } 23... Kf8 { [%clk 0:11:04] } 24. exf6 { [%clk 0:11:08] } 24... gxf6 { [%clk 0:11:07] } 25. Rd7 { [%clk 0:11:10] } 25... Ke8 { [%clk 0:11:10] } 26. Re7+ { [%clk 0:11:13] } 26... Kf8 { [%clk 0:11:12] } 27. Rd7 { [%clk 0:11:16] } 27... Ke8 { [%clk 0:11:15] } 28. Re7+ { [%clk 0:11:19] } 28... Kf8 { [%clk 0:11:18] } 29. Rd7 { [%clk 0:11:22] } 1/2-1/2
+
+

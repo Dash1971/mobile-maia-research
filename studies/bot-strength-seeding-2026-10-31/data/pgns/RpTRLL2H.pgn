@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/RpTRLL2H"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain042"]
+[Black "SignalTrain123"]
+[Result "1-0"]
+[GameId "RpTRLL2H"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:44:15"]
+[WhiteElo "1971"]
+[BlackElo "1882"]
+[WhiteRatingDiff "+90"]
+[BlackRatingDiff "-86"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:08] } 2... d6 { [%clk 0:10:06] } 3. Nc3 { [%clk 0:10:11] } 3... Be7 { [%clk 0:10:08] } 4. Bc4 { [%clk 0:10:13] } 4... Nf6 { [%clk 0:10:11] } 5. Ng5 { [%clk 0:10:16] } 5... O-O { [%clk 0:10:14] } 6. d3 { [%clk 0:10:19] } 6... h6 { [%clk 0:10:17] } 7. h4 { [%clk 0:10:22] } 7... hxg5 { [%clk 0:10:20] } 8. hxg5 { [%clk 0:10:24] } 8... Nh7 { [%clk 0:10:23] } 9. Qh5 { [%clk 0:10:27] } 9... Bxg5 { [%clk 0:10:25] } 10. Qxh7# { [%clk 0:10:25] } 1-0
+
+

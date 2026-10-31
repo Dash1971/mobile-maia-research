@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/MxQPLikn"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain080"]
+[Black "SignalTrain008"]
+[Result "1-0"]
+[GameId "MxQPLikn"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:50:22"]
+[WhiteElo "1500"]
+[BlackElo "1569"]
+[WhiteRatingDiff "+49"]
+[BlackRatingDiff "-46"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C44"]
+[Opening "Scotch Game: Göring Gambit, Double Pawn Sacrifice"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:04] } 1... e5 { [%clk 0:10:03] } 2. d4 { [%clk 0:10:06] } 2... exd4 { [%clk 0:10:05] } 3. Nf3 { [%clk 0:10:09] } 3... Nc6 { [%clk 0:10:07] } 4. c3 { [%clk 0:10:12] } 4... dxc3 { [%clk 0:10:10] } 5. Bc4 { [%clk 0:10:15] } 5... cxb2 { [%clk 0:10:12] } 6. Bxb2 { [%clk 0:10:17] } 6... Nf6 { [%clk 0:10:15] } 7. e5 { [%clk 0:10:19] } 7... Ng4 { [%clk 0:10:17] } 8. O-O { [%clk 0:10:21] } 8... d6 { [%clk 0:10:20] } 9. exd6 { [%clk 0:10:24] } 9... Bxd6 { [%clk 0:10:23] } 10. Re1+ { [%clk 0:10:27] } 10... Be6 { [%clk 0:10:25] } 11. Bxe6 { [%clk 0:10:29] } 11... fxe6 { [%clk 0:10:27] } 12. Rxe6+ { [%clk 0:10:31] } 12... Ne7 { [%clk 0:10:30] } 13. Bxg7 { [%clk 0:10:33] } 13... Rg8 { [%clk 0:10:32] } 14. Bf6 { [%clk 0:10:36] } 14... Nxf6 { [%clk 0:10:35] } 15. Rxf6 { [%clk 0:10:39] } 15... Nc6 { [%clk 0:10:37] } 16. Qe2+ { [%clk 0:10:42] } 16... Ne7 { [%clk 0:10:40] } 17. Nc3 { [%clk 0:10:44] } 17... Qd7 { [%clk 0:10:43] } 18. Nd5 { [%clk 0:10:47] } 18... O-O-O { [%clk 0:10:45] } 19. Nxe7+ { [%clk 0:10:49] } 19... Bxe7 { [%clk 0:10:47] } 20. Rf7 { [%clk 0:10:51] } 20... Rde8 { [%clk 0:10:50] } 21. Rd1 { [%clk 0:10:54] } 21... Qg4 { [%clk 0:10:52] } 22. g3 { [%clk 0:10:57] } 22... h5 { [%clk 0:10:55] } 23. Rxe7 { [%clk 0:11:00] } 23... Rxe7 { [%clk 0:10:58] } 24. Qxe7 { [%clk 0:11:02] } 24... Qxf3 { [%clk 0:11:01] } 25. Qe6+ { [%clk 0:11:05] } 25... Kb8 { [%clk 0:11:03] } 26. Qxg8+ { [%clk 0:11:08] } 26... Qf8 { [%clk 0:11:06] } 27. Qxf8# { [%clk 0:11:05] } 1-0
+
+

@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/zb53VTe4"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "PocketStatic"]
+[Black "CopperByte"]
+[Result "1-0"]
+[GameId "zb53VTe4"]
+[UTCDate "2026.10.31"]
+[UTCTime "03:50:48"]
+[WhiteElo "1081"]
+[BlackElo "1093"]
+[WhiteRatingDiff "+24"]
+[BlackRatingDiff "-24"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Nf3 { [%clk 0:05:03] } 2... d6 { [%clk 0:05:02] } 3. Nc3 { [%clk 0:05:05] } 3... g5 { [%clk 0:05:03] } 4. d4 { [%clk 0:05:05] } 4... g4 { [%clk 0:05:04] } 5. Ng5 { [%clk 0:05:05] } 5... f6 { [%clk 0:05:05] } 6. Bb5+ { [%clk 0:05:06] } 6... Nd7 { [%clk 0:05:06] } 7. Ne6 { [%clk 0:05:07] } 7... Qe7 { [%clk 0:05:07] } 8. Nxc7+ { [%clk 0:05:08] } 8... Kd8 { [%clk 0:05:07] } 9. Nxa8 { [%clk 0:05:09] } 9... exd4 { [%clk 0:05:08] } 10. Nd5 { [%clk 0:05:10] } 10... Qxe4+ { [%clk 0:05:09] } 11. Qe2 { [%clk 0:05:11] } 11... Qxd5 { [%clk 0:05:10] } 12. O-O { [%clk 0:05:12] } 12... Nh6 { [%clk 0:05:11] } 13. Re1 { [%clk 0:05:13] } 13... a6 { [%clk 0:05:11] } 14. Qe8# { [%clk 0:05:10] } 1-0
+
+

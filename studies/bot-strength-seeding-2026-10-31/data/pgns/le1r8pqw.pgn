@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/le1r8pqw"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain055"]
+[Black "SignalTrain134"]
+[Result "1-0"]
+[GameId "le1r8pqw"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:46:14"]
+[WhiteElo "1570"]
+[BlackElo "1648"]
+[WhiteRatingDiff "+47"]
+[BlackRatingDiff "-47"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Accelerated London System"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. Bf4 { [%clk 0:10:07] } 2... Nc6 { [%clk 0:10:06] } 3. e3 { [%clk 0:10:10] } 3... a6 { [%clk 0:10:08] } 4. c3 { [%clk 0:10:12] } 4... Bf5 { [%clk 0:10:11] } 5. Nf3 { [%clk 0:10:14] } 5... Nf6 { [%clk 0:10:14] } 6. Bd3 { [%clk 0:10:17] } 6... Bxd3 { [%clk 0:10:16] } 7. Qxd3 { [%clk 0:10:19] } 7... e6 { [%clk 0:10:18] } 8. Nbd2 { [%clk 0:10:22] } 8... Bd6 { [%clk 0:10:21] } 9. Bg3 { [%clk 0:10:25] } 9... Bxg3 { [%clk 0:10:23] } 10. hxg3 { [%clk 0:10:27] } 10... O-O { [%clk 0:10:26] } 11. Ne5 { [%clk 0:10:30] } 11... Nxe5 { [%clk 0:10:28] } 12. dxe5 { [%clk 0:10:32] } 12... Nd7 { [%clk 0:10:31] } 13. Qxh7# { [%clk 0:10:29] } 1-0
+
+

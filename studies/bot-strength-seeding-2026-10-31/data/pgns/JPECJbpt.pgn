@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/JPECJbpt"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain034"]
+[Black "SignalTest025"]
+[Result "1-0"]
+[GameId "JPECJbpt"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:32:04"]
+[WhiteElo "1989"]
+[BlackElo "1883"]
+[WhiteRatingDiff "+22"]
+[BlackRatingDiff "-106"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... b6 { [%clk 0:10:03] } 2. d4 { [%clk 0:10:07] } 2... Bb7 { [%clk 0:10:06] } 3. Nc3 { [%clk 0:10:09] } 3... a6 { [%clk 0:10:08] } 4. Nf3 { [%clk 0:10:12] } 4... h6 { [%clk 0:10:11] } 5. d5 { [%clk 0:10:15] } 5... e6 { [%clk 0:10:14] } 6. dxe6 { [%clk 0:10:18] } 6... fxe6 { [%clk 0:10:17] } 7. Bd3 { [%clk 0:10:19] } 7... Nf6 { [%clk 0:10:19] } 8. O-O { [%clk 0:10:22] } 8... Bb4 { [%clk 0:10:22] } 9. e5 { [%clk 0:10:24] } 9... Nd5 { [%clk 0:10:25] } 10. Nxd5 { [%clk 0:10:27] } 10... Bxd5 { [%clk 0:10:27] } 11. Bg6+ { [%clk 0:10:30] } 11... Kf8 { [%clk 0:10:30] } 12. c3 { [%clk 0:10:33] } 12... Be7 { [%clk 0:10:32] } 13. Nd4 { [%clk 0:10:35] } 13... Bg5 { [%clk 0:10:35] } 14. f4 { [%clk 0:10:38] } 14... Be7 { [%clk 0:10:38] } 15. f5 { [%clk 0:10:40] } 15... Kg8 { [%clk 0:10:40] } 16. fxe6 { [%clk 0:10:43] } 16... dxe6 { [%clk 0:10:42] } 17. Bf7+ { [%clk 0:10:45] } 17... Kh7 { [%clk 0:10:45] } 18. Qd3+ { [%clk 0:10:48] } 18... g6 { [%clk 0:10:48] } 19. Qxg6# { [%clk 0:10:45] } 1-0
+
+

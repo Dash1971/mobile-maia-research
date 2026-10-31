@@ -1,0 +1,4002 @@
+{
+  "signaltrain032": {
+    "blitz": {
+      "rating": 2409,
+      "rd": 300.0002868291459,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2306,
+      "rd": 300.0002868220705,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "ghost-gambit": {
+    "blitz": {
+      "rating": 2109.3309713456542,
+      "rd": 106.92171399352563,
+      "volatility": 0.08990616915134185,
+      "games": 10,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 2170.8159990491913,
+      "rd": 130.08804836030427,
+      "volatility": 0.08996249766007146,
+      "games": 6,
+      "provisional": true
+    }
+  },
+  "signaltest048": {
+    "blitz": {
+      "rating": 1448,
+      "rd": 300.00028584566746,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1494,
+      "rd": 300.00028584263515,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain021": {
+    "blitz": {
+      "rating": 1688,
+      "rd": 300.0002868432967,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1803,
+      "rd": 300.00028683622133,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain104": {
+    "blitz": {
+      "rating": 1404,
+      "rd": 300.00028640664436,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1375,
+      "rd": 300.0002863985583,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain151": {
+    "blitz": {
+      "rating": 2282,
+      "rd": 300.00028610240287,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2307,
+      "rd": 300.0002860902736,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain140": {
+    "blitz": {
+      "rating": 1491,
+      "rd": 300.0002862055013,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1450,
+      "rd": 300.00028619539364,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain015": {
+    "blitz": {
+      "rating": 2164,
+      "rd": 300.00028692719053,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2172,
+      "rd": 300.00028691607207,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "prism-wraith": {
+    "blitz": {
+      "rating": 2419.3161124924127,
+      "rd": 139.88063151604146,
+      "volatility": 0.09001878171299302,
+      "games": 7,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2326.3004671465105,
+      "rd": 127.42033347806715,
+      "volatility": 0.08998236141948325,
+      "games": 9,
+      "provisional": true
+    }
+  },
+  "signaltrain004": {
+    "blitz": {
+      "rating": 2375,
+      "rd": 300.00028704443974,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2575,
+      "rd": 300.00028703231055,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain115": {
+    "blitz": {
+      "rating": 2264,
+      "rd": 300.0002863945152,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2354,
+      "rd": 300.00028638845055,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest044": {
+    "blitz": {
+      "rating": 1464,
+      "rd": 300.00028584566746,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1426,
+      "rd": 300.00028584263515,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain010": {
+    "blitz": {
+      "rating": 2411,
+      "rd": 300.0002869352767,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2405,
+      "rd": 300.0002869261798,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain080": {
+    "blitz": {
+      "rating": 1494,
+      "rd": 300.00028656230285,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1470,
+      "rd": 300.0002865542167,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "probe001": {
+    "blitz": {
+      "rating": 2088,
+      "rd": 300.0002860650044,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2137,
+      "rd": 300.00028605792903,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest019": {
+    "blitz": {
+      "rating": 1929,
+      "rd": 300.0002859891967,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1904,
+      "rd": 300.00028598414286,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain026": {
+    "blitz": {
+      "rating": 1710,
+      "rd": 300.00028683824286,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1768,
+      "rd": 300.00028683116744,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest005": {
+    "blitz": {
+      "rating": 2262,
+      "rd": 300.0002860639936,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2210,
+      "rd": 300.00028605691824,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain100": {
+    "blitz": {
+      "rating": 1516,
+      "rd": 300.000286478409,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1555,
+      "rd": 300.0002864733552,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest037": {
+    "blitz": {
+      "rating": 2229,
+      "rd": 300.0002859113675,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2202,
+      "rd": 300.00028590328134,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain091": {
+    "blitz": {
+      "rating": 1766,
+      "rd": 300.00028647941974,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1847,
+      "rd": 300.0002864733552,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain048": {
+    "blitz": {
+      "rating": 2248,
+      "rd": 300.00028673716594,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2257,
+      "rd": 300.00028673211204,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain149": {
+    "blitz": {
+      "rating": 1586,
+      "rd": 300.0002861094782,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1722,
+      "rd": 300.00028609835977,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "null-echo": {
+    "blitz": {
+      "rating": 2495.995105294144,
+      "rd": 109.39345526548708,
+      "volatility": 0.08992345200830175,
+      "games": 12,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 2364.5886664844925,
+      "rd": 131.53952724624227,
+      "volatility": 0.08997302801406634,
+      "games": 6,
+      "provisional": true
+    }
+  },
+  "signaltrain111": {
+    "blitz": {
+      "rating": 2445,
+      "rd": 300.0002863975475,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2396,
+      "rd": 300.00028639148286,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest027": {
+    "blitz": {
+      "rating": 1694,
+      "rd": 300.00028592551826,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1830,
+      "rd": 300.00028592046436,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain059": {
+    "blitz": {
+      "rating": 1609,
+      "rd": 300.00028666034746,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1681,
+      "rd": 300.0002866522613,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain037": {
+    "blitz": {
+      "rating": 2198,
+      "rd": 300.00028675333823,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2191,
+      "rd": 300.0002867472736,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest043": {
+    "blitz": {
+      "rating": 2321,
+      "rd": 300.0002858507213,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2496,
+      "rd": 300.00028584465673,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest008": {
+    "blitz": {
+      "rating": 1081,
+      "rd": 300.0002860609613,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1099,
+      "rd": 300.00028605590745,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain123": {
+    "blitz": {
+      "rating": 1881,
+      "rd": 300.000286333869,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1871,
+      "rd": 300.000286320729,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain134": {
+    "blitz": {
+      "rating": 1582,
+      "rd": 300.00028622167366,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1683,
+      "rd": 300.0002862044905,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "holo-raven": {
+    "blitz": {
+      "rating": 2161.3595473486785,
+      "rd": 112.00778092856473,
+      "volatility": 0.08994289610958942,
+      "games": 11,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2363.0700446746587,
+      "rd": 190.4005688186362,
+      "volatility": 0.089980897908355,
+      "games": 4,
+      "provisional": true
+    }
+  },
+  "signaltrain145": {
+    "blitz": {
+      "rating": 1245,
+      "rd": 300.0002861994367,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1245,
+      "rd": 300.00028619337206,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain054": {
+    "blitz": {
+      "rating": 2285,
+      "rd": 300.0002866704552,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2248,
+      "rd": 300.00028666236904,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest016": {
+    "blitz": {
+      "rating": 2528,
+      "rd": 300.0002859932398,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2454,
+      "rd": 300.0002859861644,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest032": {
+    "blitz": {
+      "rating": 2566,
+      "rd": 300.000285913389,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2520,
+      "rd": 300.0002859083352,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain085": {
+    "blitz": {
+      "rating": 1541,
+      "rd": 300.00028649357057,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1552,
+      "rd": 300.00028648649516,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain060": {
+    "blitz": {
+      "rating": 1902,
+      "rd": 300.00028666034746,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1881,
+      "rd": 300.0002866532721,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest011": {
+    "blitz": {
+      "rating": 1640,
+      "rd": 300.00028599728284,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1727,
+      "rd": 300.0002859871752,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain076": {
+    "blitz": {
+      "rating": 1928,
+      "rd": 300.00028656735674,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1888,
+      "rd": 300.000286557249,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain065": {
+    "blitz": {
+      "rating": 1315,
+      "rd": 300.0002866522613,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1269,
+      "rd": 300.0002866461967,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "night-current": {
+    "blitz": {
+      "rating": 1862.5119042588005,
+      "rd": 117.35803445758697,
+      "volatility": 0.08993596854549638,
+      "games": 8,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1821.3300184204004,
+      "rd": 101.34908215183907,
+      "volatility": 0.08996662358891278,
+      "games": 11,
+      "provisional": false
+    }
+  },
+  "signaltrain138": {
+    "blitz": {
+      "rating": 1545,
+      "rd": 300.0002862085336,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1532,
+      "rd": 300.0002861913506,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "neon-rook": {
+    "blitz": {
+      "rating": 1616.4453674772406,
+      "rd": 91.22924606313578,
+      "volatility": 0.08992961622933036,
+      "games": 17,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1387.5213656333383,
+      "rd": 117.43288738970799,
+      "volatility": 0.0899350076478615,
+      "games": 8,
+      "provisional": true
+    }
+  },
+  "signaltrain127": {
+    "blitz": {
+      "rating": 1390,
+      "rd": 300.00028631264286,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1356,
+      "rd": 300.0002863015244,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain096": {
+    "blitz": {
+      "rating": 2365,
+      "rd": 300.0002864773982,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2295,
+      "rd": 300.0002864713336,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain043": {
+    "blitz": {
+      "rating": 1941,
+      "rd": 300.0002867462629,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1863,
+      "rd": 300.00028673817667,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest022": {
+    "blitz": {
+      "rating": 1362,
+      "rd": 300.00028598515365,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1363,
+      "rd": 300.000285979089,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "analog-ghost": {
+    "blitz": {
+      "rating": 1722.3694468030783,
+      "rd": 106.57962842336848,
+      "volatility": 0.0899511857293821,
+      "games": 10,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1661.680530397945,
+      "rd": 106.41622064360764,
+      "volatility": 0.08992429343050462,
+      "games": 10,
+      "provisional": false
+    }
+  },
+  "signaltrain019": {
+    "blitz": {
+      "rating": 1417,
+      "rd": 300.0002869261798,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1393,
+      "rd": 300.00028691405055,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain071": {
+    "blitz": {
+      "rating": 1306,
+      "rd": 300.00028658049666,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1310,
+      "rd": 300.000286570389,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain008": {
+    "blitz": {
+      "rating": 1434,
+      "rd": 300.00028693022284,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1449,
+      "rd": 300.0002869191044,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain156": {
+    "blitz": {
+      "rating": 2176,
+      "rd": 300.000286093306,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2197,
+      "rd": 300.0002860852198,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "night-courier": {
+    "blitz": {
+      "rating": 1659.5105116005907,
+      "rd": 116.40204738484456,
+      "volatility": 0.08997083873888873,
+      "games": 8,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1808.0572787347862,
+      "rd": 96.60659059393049,
+      "volatility": 0.0899065955793982,
+      "games": 13,
+      "provisional": false
+    }
+  },
+  "hal9000": {
+    "blitz": {
+      "rating": 2725,
+      "rd": 300.0002870515151,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2475,
+      "rd": 300.0002870272567,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain154": {
+    "blitz": {
+      "rating": 1259,
+      "rd": 300.00028609937056,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1282,
+      "rd": 300.0002860892629,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest015": {
+    "blitz": {
+      "rating": 1280,
+      "rd": 300.00028598515365,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1286,
+      "rd": 300.00028597807824,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain082": {
+    "blitz": {
+      "rating": 1890,
+      "rd": 300.00028656230285,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1917,
+      "rd": 300.0002865542167,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain078": {
+    "blitz": {
+      "rating": 1512,
+      "rd": 300.00028655927053,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1464,
+      "rd": 300.0002865521952,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain052": {
+    "blitz": {
+      "rating": 2368,
+      "rd": 300.0002867341336,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2337,
+      "rd": 300.0002867290798,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain041": {
+    "blitz": {
+      "rating": 1266,
+      "rd": 300.0002867462629,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1235,
+      "rd": 300.00028673918746,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain143": {
+    "blitz": {
+      "rating": 2213,
+      "rd": 300.00028619842595,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2067,
+      "rd": 300.0002861913506,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain087": {
+    "blitz": {
+      "rating": 1599,
+      "rd": 300.00028648750595,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1687,
+      "rd": 300.0002864814413,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest026": {
+    "blitz": {
+      "rating": 1591,
+      "rd": 300.00028592652905,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1618,
+      "rd": 300.0002859214752,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain074": {
+    "blitz": {
+      "rating": 1976,
+      "rd": 300.0002865663459,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1900,
+      "rd": 300.000286557249,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "glitch-cat": {
+    "blitz": {
+      "rating": 931.2840725084743,
+      "rd": 130.5317915487533,
+      "volatility": 0.08994407246287972,
+      "games": 6,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 876.3125668203899,
+      "rd": 98.56397454690887,
+      "volatility": 0.08994158921939202,
+      "games": 12,
+      "provisional": false
+    }
+  },
+  "signaltrain067": {
+    "blitz": {
+      "rating": 2011,
+      "rd": 300.0002866532721,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1977,
+      "rd": 300.0002866472075,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain135": {
+    "blitz": {
+      "rating": 1140,
+      "rd": 300.0002862085336,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1155,
+      "rd": 300.00028619741516,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "zero-day": {
+    "blitz": {
+      "rating": 2341.625120483795,
+      "rd": 137.67147988853898,
+      "volatility": 0.08996071600902598,
+      "games": 7,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2696.857045566595,
+      "rd": 130.65254479847974,
+      "volatility": 0.08995048385230298,
+      "games": 10,
+      "provisional": true
+    }
+  },
+  "blackout": {
+    "blitz": {
+      "rating": 2457.7193303601052,
+      "rd": 160.85300817036838,
+      "volatility": 0.08997997863517458,
+      "games": 5,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2214.486516928366,
+      "rd": 123.20641849359386,
+      "volatility": 0.08994870757372327,
+      "games": 9,
+      "provisional": true
+    }
+  },
+  "signaltrain045": {
+    "blitz": {
+      "rating": 1915,
+      "rd": 300.000286741209,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1923,
+      "rd": 300.0002867341336,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest029": {
+    "blitz": {
+      "rating": 2097,
+      "rd": 300.00028592349673,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2052,
+      "rd": 300.0002859174321,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest047": {
+    "blitz": {
+      "rating": 1597,
+      "rd": 300.00028584566746,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1716,
+      "rd": 300.00028584263515,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain006": {
+    "blitz": {
+      "rating": 2375,
+      "rd": 300.00028694134124,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2575,
+      "rd": 300.00028693224436,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest018": {
+    "blitz": {
+      "rating": 2384,
+      "rd": 300.00028598515365,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2295,
+      "rd": 300.00028598009976,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "ghost-relay": {
+    "blitz": {
+      "rating": 1625.4717436115288,
+      "rd": 101.44265480572984,
+      "volatility": 0.0899560003101578,
+      "games": 11,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1603.7664931790164,
+      "rd": 105.80940045436962,
+      "volatility": 0.08992000280052764,
+      "games": 11,
+      "provisional": false
+    }
+  },
+  "signaltrain093": {
+    "blitz": {
+      "rating": 2093,
+      "rd": 300.000286478409,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2072,
+      "rd": 300.0002864733552,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain056": {
+    "blitz": {
+      "rating": 1508,
+      "rd": 300.00028666236904,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1462,
+      "rd": 300.0002866552936,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain031": {
+    "blitz": {
+      "rating": 1697,
+      "rd": 300.00028682813513,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1821,
+      "rd": 300.0002868210598,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest036": {
+    "blitz": {
+      "rating": 1511,
+      "rd": 300.0002859123783,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1465,
+      "rd": 300.0002859083352,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "switchback": {
+    "blitz": {
+      "rating": 1922.634398563397,
+      "rd": 105.54236917974652,
+      "volatility": 0.08997678467691377,
+      "games": 11,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1995.6578662017223,
+      "rd": 108.88386768850417,
+      "volatility": 0.0899403085607106,
+      "games": 11,
+      "provisional": false
+    }
+  },
+  "signaltrain121": {
+    "blitz": {
+      "rating": 2385,
+      "rd": 300.0002863237613,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2423,
+      "rd": 300.0002863166859,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain063": {
+    "blitz": {
+      "rating": 1716,
+      "rd": 300.0002866552936,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1865,
+      "rd": 300.000286649229,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain090": {
+    "blitz": {
+      "rating": 2264,
+      "rd": 300.00028648346284,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2209,
+      "rd": 300.0002864773982,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "midnight-signal": {
+    "blitz": {
+      "rating": 1894.950772317639,
+      "rd": 116.79442070622578,
+      "volatility": 0.08999284664719831,
+      "games": 8,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2000.383855191641,
+      "rd": 106.06924347281766,
+      "volatility": 0.09001787699234758,
+      "games": 10,
+      "provisional": false
+    }
+  },
+  "signaltrain103": {
+    "blitz": {
+      "rating": 1697,
+      "rd": 300.00028640866594,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1823,
+      "rd": 300.0002864026013,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain064": {
+    "blitz": {
+      "rating": 1360,
+      "rd": 300.00028665428283,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1347,
+      "rd": 300.00028664821826,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain097": {
+    "blitz": {
+      "rating": 1470,
+      "rd": 300.0002864763875,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1436,
+      "rd": 300.00028647032286,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain005": {
+    "blitz": {
+      "rating": 2175,
+      "rd": 300.0002869474059,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2025,
+      "rd": 300.00028693426594,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain049": {
+    "blitz": {
+      "rating": 2015,
+      "rd": 300.00028673514436,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1967,
+      "rd": 300.0002867290798,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain042": {
+    "blitz": {
+      "rating": 1776,
+      "rd": 300.0002867472736,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1880,
+      "rd": 300.00028674019825,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain142": {
+    "blitz": {
+      "rating": 1483,
+      "rd": 300.00028620752283,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1445,
+      "rd": 300.0002861964044,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain038": {
+    "blitz": {
+      "rating": 1048,
+      "rd": 300.0002867503059,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1059,
+      "rd": 300.0002867442413,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest040": {
+    "blitz": {
+      "rating": 1973,
+      "rd": 300.0002859103567,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1890,
+      "rd": 300.00028590328134,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest033": {
+    "blitz": {
+      "rating": 1840,
+      "rd": 300.000285913389,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1851,
+      "rd": 300.0002859083352,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain114": {
+    "blitz": {
+      "rating": 2130,
+      "rd": 300.0002863945152,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2259,
+      "rd": 300.00028638845055,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "violet-metro": {
+    "blitz": {
+      "rating": 1306.6724678187545,
+      "rd": 98.50856859539209,
+      "volatility": 0.08990828096212307,
+      "games": 13,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1323.3161679952345,
+      "rd": 117.28457135056685,
+      "volatility": 0.08994613950009868,
+      "games": 8,
+      "provisional": true
+    }
+  },
+  "signaltrain016": {
+    "blitz": {
+      "rating": 1201,
+      "rd": 300.00028693426594,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1207,
+      "rd": 300.000286925169,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest007": {
+    "blitz": {
+      "rating": 1625,
+      "rd": 300.00028606197213,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1718,
+      "rd": 300.00028605691824,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "pixel-moth": {
+    "blitz": {
+      "rating": 701.9618789087704,
+      "rd": 143.24928077590343,
+      "volatility": 0.08996112198089026,
+      "games": 4,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 849.9583525395971,
+      "rd": 102.34533408075376,
+      "volatility": 0.08994831476882023,
+      "games": 11,
+      "provisional": false
+    }
+  },
+  "signaltrain086": {
+    "blitz": {
+      "rating": 2389,
+      "rd": 300.00028648952747,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2263,
+      "rd": 300.0002864814413,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest023": {
+    "blitz": {
+      "rating": 1414,
+      "rd": 300.000285979089,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1373,
+      "rd": 300.00028597403514,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain027": {
+    "blitz": {
+      "rating": 1647,
+      "rd": 300.00028683217823,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1692,
+      "rd": 300.0002868251029,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain146": {
+    "blitz": {
+      "rating": 1401,
+      "rd": 300.0002861994367,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1380,
+      "rd": 300.00028619438285,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain075": {
+    "blitz": {
+      "rating": 1657,
+      "rd": 300.0002865693782,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1767,
+      "rd": 300.00028655927053,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain132": {
+    "blitz": {
+      "rating": 2123,
+      "rd": 300.0002863116321,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2160,
+      "rd": 300.0002863015244,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain150": {
+    "blitz": {
+      "rating": 2399,
+      "rd": 300.0002861034136,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2523,
+      "rd": 300.00028609229514,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signal-weaver": {
+    "blitz": {
+      "rating": 1943.7426056255117,
+      "rd": 115.0351336380989,
+      "volatility": 0.09001692276890795,
+      "games": 10,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2205.230726806768,
+      "rd": 141.40113425624264,
+      "volatility": 0.08994512381127488,
+      "games": 7,
+      "provisional": true
+    }
+  },
+  "signaltrain053": {
+    "blitz": {
+      "rating": 1234,
+      "rd": 300.0002866704552,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1259,
+      "rd": 300.00028666236904,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain128": {
+    "blitz": {
+      "rating": 1738,
+      "rd": 300.00028632173974,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1871,
+      "rd": 300.00028630961054,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain108": {
+    "blitz": {
+      "rating": 2301,
+      "rd": 300.0002864026013,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2268,
+      "rd": 300.00028639552596,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain034": {
+    "blitz": {
+      "rating": 1908,
+      "rd": 300.00028682813513,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1843,
+      "rd": 300.0002868190382,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest004": {
+    "blitz": {
+      "rating": 2436,
+      "rd": 300.0002860650044,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2352,
+      "rd": 300.0002860589398,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain139": {
+    "blitz": {
+      "rating": 1228,
+      "rd": 300.00028620752283,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1248,
+      "rd": 300.0002861964044,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain009": {
+    "blitz": {
+      "rating": 1265,
+      "rd": 300.00028693325515,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1280,
+      "rd": 300.0002869221367,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "durandal": {
+    "blitz": {
+      "rating": 2694,
+      "rd": 300.00028690697513,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2480,
+      "rd": 300.0002868958567,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain119": {
+    "blitz": {
+      "rating": 2416,
+      "rd": 300.00028632982594,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2546,
+      "rd": 300.0002863176967,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest012": {
+    "blitz": {
+      "rating": 1242,
+      "rd": 300.00028598818596,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1263,
+      "rd": 300.00028598414286,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain023": {
+    "blitz": {
+      "rating": 1730,
+      "rd": 300.0002868392536,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1868,
+      "rd": 300.00028683318897,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "quiet-proxy": {
+    "blitz": {
+      "rating": 1491.9406680387615,
+      "rd": 114.26637232296194,
+      "volatility": 0.08996837176440077,
+      "games": 10,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1506.7513563310456,
+      "rd": 98.84147413864882,
+      "volatility": 0.09000976773871885,
+      "games": 13,
+      "provisional": false
+    }
+  },
+  "signaltrain030": {
+    "blitz": {
+      "rating": 1848,
+      "rd": 300.0002868291459,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1850,
+      "rd": 300.0002868220705,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest025": {
+    "blitz": {
+      "rating": 1841,
+      "rd": 300.0002859275398,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1883,
+      "rd": 300.00028592248594,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "rust-halo": {
+    "blitz": {
+      "rating": 1858.7770713210627,
+      "rd": 120.75432813213854,
+      "volatility": 0.08998748541486956,
+      "games": 7,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1748.1503235297948,
+      "rd": 101.60776931272889,
+      "volatility": 0.08994023329892371,
+      "games": 12,
+      "provisional": false
+    }
+  },
+  "neon-knight": {
+    "blitz": {
+      "rating": 2075.6201799116125,
+      "rd": 103.97913457292441,
+      "volatility": 0.0899675890371406,
+      "games": 11,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1971.9164018396564,
+      "rd": 123.18118060658907,
+      "volatility": 0.08997195224783698,
+      "games": 7,
+      "provisional": true
+    }
+  },
+  "signaltrain077": {
+    "blitz": {
+      "rating": 2328,
+      "rd": 300.00028656735674,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2247,
+      "rd": 300.00028655825975,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest014": {
+    "blitz": {
+      "rating": 1345,
+      "rd": 300.00028598414286,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1315,
+      "rd": 300.00028597706745,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain057": {
+    "blitz": {
+      "rating": 1712,
+      "rd": 300.00028666135825,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1855,
+      "rd": 300.0002866552936,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain066": {
+    "blitz": {
+      "rating": 1757,
+      "rd": 300.0002866522613,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1847,
+      "rd": 300.0002866461967,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain035": {
+    "blitz": {
+      "rating": 1558,
+      "rd": 300.00028682712434,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1564,
+      "rd": 300.0002868190382,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "copper-byte": {
+    "blitz": {
+      "rating": 1128.3539291871716,
+      "rd": 110.37419478486063,
+      "volatility": 0.08998068658007115,
+      "games": 9,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1016.7380794093144,
+      "rd": 127.3625411253537,
+      "volatility": 0.08993285409388095,
+      "games": 6,
+      "provisional": true
+    }
+  },
+  "signaltrain013": {
+    "blitz": {
+      "rating": 1616,
+      "rd": 300.00028692719053,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1711,
+      "rd": 300.00028691607207,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "velvet-circuit": {
+    "blitz": {
+      "rating": 1505.7797324587864,
+      "rd": 99.25278238634115,
+      "volatility": 0.08995193295589748,
+      "games": 12,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1385.4173021705883,
+      "rd": 109.46766286042181,
+      "volatility": 0.0899999537631376,
+      "games": 9,
+      "provisional": false
+    }
+  },
+  "signaltrain024": {
+    "blitz": {
+      "rating": 2233,
+      "rd": 300.00028683622133,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2278,
+      "rd": 300.0002868291459,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "chrome-alley": {
+    "blitz": {
+      "rating": 1640.2338317321846,
+      "rd": 112.18753372745137,
+      "volatility": 0.08995158511586214,
+      "games": 9,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1490.0164622102384,
+      "rd": 97.35884112519042,
+      "volatility": 0.08996994911740924,
+      "games": 13,
+      "provisional": false
+    }
+  },
+  "signaltest039": {
+    "blitz": {
+      "rating": 2369,
+      "rd": 300.0002859113675,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2498,
+      "rd": 300.00028590328134,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest002": {
+    "blitz": {
+      "rating": 1024,
+      "rd": 300.0002860639936,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1058,
+      "rd": 300.00028605792903,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "event-horizon": {
+    "blitz": {
+      "rating": 2508.5559203882726,
+      "rd": 112.39129289728274,
+      "volatility": 0.0899345736712645,
+      "games": 12,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2651.9857865385993,
+      "rd": 192.6344138644302,
+      "volatility": 0.09001154139915547,
+      "games": 4,
+      "provisional": true
+    }
+  },
+  "signaltrain125": {
+    "blitz": {
+      "rating": 1540,
+      "rd": 300.0002863187075,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1655,
+      "rd": 300.0002863025352,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "cassette-kid": {
+    "blitz": {
+      "rating": 1105.4539704990739,
+      "rd": 119.63605099154144,
+      "volatility": 0.08998221506563417,
+      "games": 7,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1184.9260831186473,
+      "rd": 122.28816397233179,
+      "volatility": 0.08996884480744093,
+      "games": 7,
+      "provisional": true
+    }
+  },
+  "signaltrain120": {
+    "blitz": {
+      "rating": 2026,
+      "rd": 300.0002863227506,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2041,
+      "rd": 300.0002863166859,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain147": {
+    "blitz": {
+      "rating": 1286,
+      "rd": 300.00028619741516,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1270,
+      "rd": 300.0002861852859,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "cipher-fox": {
+    "blitz": {
+      "rating": 1486.798871301718,
+      "rd": 106.74825923853263,
+      "volatility": 0.08990747844530925,
+      "games": 11,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1576.7615812588774,
+      "rd": 107.84935874442895,
+      "volatility": 0.08999216587678452,
+      "games": 10,
+      "provisional": false
+    }
+  },
+  "signaltrain153": {
+    "blitz": {
+      "rating": 1671,
+      "rd": 300.0002861003813,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1780,
+      "rd": 300.0002860902736,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "mycroft": {
+    "blitz": {
+      "rating": 2452,
+      "rd": 300.0002863833967,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2459,
+      "rd": 300.00028637531057,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain079": {
+    "blitz": {
+      "rating": 1657,
+      "rd": 300.00028656331364,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1746,
+      "rd": 300.0002865562383,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain083": {
+    "blitz": {
+      "rating": 2309,
+      "rd": 300.00028656230285,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2181,
+      "rd": 300.0002865542167,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "carbon-kite": {
+    "blitz": {
+      "rating": 1647.9515591165252,
+      "rd": 103.27240182751527,
+      "volatility": 0.08994669418138312,
+      "games": 12,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1681.9643106455114,
+      "rd": 110.82858073990826,
+      "volatility": 0.08995788874380863,
+      "games": 9,
+      "provisional": true
+    }
+  },
+  "signaltrain068": {
+    "blitz": {
+      "rating": 1820,
+      "rd": 300.00028664417516,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1771,
+      "rd": 300.0002866350782,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain131": {
+    "blitz": {
+      "rating": 1568,
+      "rd": 300.00028631062133,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1603,
+      "rd": 300.00028630051366,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain136": {
+    "blitz": {
+      "rating": 2206,
+      "rd": 300.00028620954436,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2182,
+      "rd": 300.00028619842595,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "patchwork": {
+    "blitz": {
+      "rating": 1152.358070676524,
+      "rd": 115.52033260556912,
+      "volatility": 0.0899919336176074,
+      "games": 8,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1356.0471138754779,
+      "rd": 97.65219300107964,
+      "volatility": 0.08995055214852771,
+      "games": 13,
+      "provisional": false
+    }
+  },
+  "signaltest041": {
+    "blitz": {
+      "rating": 1660,
+      "rd": 300.0002858517321,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1788,
+      "rd": 300.00028584566746,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest024": {
+    "blitz": {
+      "rating": 1725,
+      "rd": 300.0002859710029,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1784,
+      "rd": 300.00028596392747,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain017": {
+    "blitz": {
+      "rating": 1355,
+      "rd": 300.0002869312336,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1353,
+      "rd": 300.0002869241582,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain092": {
+    "blitz": {
+      "rating": 1500,
+      "rd": 300.0002864814413,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1553,
+      "rd": 300.0002864753767,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "kernel-ghost": {
+    "blitz": {
+      "rating": 2843.8064614775985,
+      "rd": 255.14550827648958,
+      "volatility": 0.08999578300223322,
+      "games": 1,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2359.775552703125,
+      "rd": 123.39729902942662,
+      "volatility": 0.08995624386080839,
+      "games": 10,
+      "provisional": true
+    }
+  },
+  "signaltrain113": {
+    "blitz": {
+      "rating": 1631,
+      "rd": 300.00028639552596,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1774,
+      "rd": 300.00028638946134,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain081": {
+    "blitz": {
+      "rating": 2446,
+      "rd": 300.000286557249,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2538,
+      "rd": 300.0002865511844,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest030": {
+    "blitz": {
+      "rating": 1709,
+      "rd": 300.00028591945363,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1856,
+      "rd": 300.0002859113675,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest013": {
+    "blitz": {
+      "rating": 2286,
+      "rd": 300.00028599425053,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2137,
+      "rd": 300.00028598818596,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain102": {
+    "blitz": {
+      "rating": 1571,
+      "rd": 300.00028641169826,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1594,
+      "rd": 300.00028640563363,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "neon-drift": {
+    "blitz": {
+      "rating": 2050.882385996038,
+      "rd": 120.97079278012762,
+      "volatility": 0.08992324809095344,
+      "games": 9,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1968.1366285389056,
+      "rd": 148.05134739330447,
+      "volatility": 0.08995125418930905,
+      "games": 6,
+      "provisional": true
+    }
+  },
+  "signaltrain107": {
+    "blitz": {
+      "rating": 1623,
+      "rd": 300.000286399569,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1755,
+      "rd": 300.0002863935044,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain040": {
+    "blitz": {
+      "rating": 2257,
+      "rd": 300.0002867492951,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2194,
+      "rd": 300.00028674323056,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain152": {
+    "blitz": {
+      "rating": 1504,
+      "rd": 300.00028610240287,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1472,
+      "rd": 300.0002860902736,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain046": {
+    "blitz": {
+      "rating": 2048,
+      "rd": 300.00028673918746,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2090,
+      "rd": 300.0002867290798,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain073": {
+    "blitz": {
+      "rating": 1225,
+      "rd": 300.00028656735674,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1215,
+      "rd": 300.00028655825975,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "quantum-shade": {
+    "blitz": {
+      "rating": 2744.050242781269,
+      "rd": 161.2731459467509,
+      "volatility": 0.08996672669412664,
+      "games": 5,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2127.7720731647714,
+      "rd": 111.78141614206784,
+      "volatility": 0.08996053929921934,
+      "games": 12,
+      "provisional": true
+    }
+  },
+  "signaltest034": {
+    "blitz": {
+      "rating": 2160,
+      "rd": 300.0002859123783,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2170,
+      "rd": 300.0002859083352,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain118": {
+    "blitz": {
+      "rating": 1356,
+      "rd": 300.00028633285825,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1337,
+      "rd": 300.00028631971827,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest020": {
+    "blitz": {
+      "rating": 1550,
+      "rd": 300.0002859871752,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1526,
+      "rd": 300.00028598212134,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain141": {
+    "blitz": {
+      "rating": 1844,
+      "rd": 300.0002862065121,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1909,
+      "rd": 300.0002861964044,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "circuit-saint": {
+    "blitz": {
+      "rating": 2114.066495708097,
+      "rd": 118.87425399738247,
+      "volatility": 0.0899585351675162,
+      "games": 8,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2433.613177611962,
+      "rd": 124.16023154441169,
+      "volatility": 0.08996248812643008,
+      "games": 8,
+      "provisional": true
+    }
+  },
+  "signaltrain109": {
+    "blitz": {
+      "rating": 1534,
+      "rd": 300.0002863985583,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1614,
+      "rd": 300.00028639249365,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "static-rain": {
+    "blitz": {
+      "rating": 1431.7586371679897,
+      "rd": 106.2577910711324,
+      "volatility": 0.08990833923567108,
+      "games": 11,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1374.8721275577263,
+      "rd": 113.95183413185171,
+      "volatility": 0.08998716721977419,
+      "games": 8,
+      "provisional": true
+    }
+  },
+  "signaltest003": {
+    "blitz": {
+      "rating": 2177,
+      "rd": 300.0002860660152,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2218,
+      "rd": 300.0002860589398,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "chrome-castle": {
+    "blitz": {
+      "rating": 1882.6413437954072,
+      "rd": 107.81528488979615,
+      "volatility": 0.08994732542911828,
+      "games": 10,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1807.2917466383442,
+      "rd": 111.86013956324096,
+      "volatility": 0.08996846476214089,
+      "games": 9,
+      "provisional": true
+    }
+  },
+  "signaltrain098": {
+    "blitz": {
+      "rating": 2032,
+      "rd": 300.0002864753767,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2016,
+      "rd": 300.0002864693121,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest045": {
+    "blitz": {
+      "rating": 1963,
+      "rd": 300.00028584667825,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1920,
+      "rd": 300.00028584364594,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "colossus": {
+    "blitz": {
+      "rating": 2524,
+      "rd": 300.000286373289,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2441,
+      "rd": 300.0002863672244,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain129": {
+    "blitz": {
+      "rating": 1941,
+      "rd": 300.000286320729,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1854,
+      "rd": 300.00028630859975,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "deepthought": {
+    "blitz": {
+      "rating": 2334,
+      "rd": 300.00028691809365,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2275,
+      "rd": 300.0002869089967,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain039": {
+    "blitz": {
+      "rating": 2403,
+      "rd": 300.0002867503059,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2310,
+      "rd": 300.0002867452521,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain028": {
+    "blitz": {
+      "rating": 1197,
+      "rd": 300.00028683116744,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1232,
+      "rd": 300.0002868251029,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain051": {
+    "blitz": {
+      "rating": 1547,
+      "rd": 300.00028674019825,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1661,
+      "rd": 300.00028673312283,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "indigo-pulse": {
+    "blitz": {
+      "rating": 2018.4333536071344,
+      "rd": 144.10674443482,
+      "volatility": 0.08998392944519606,
+      "games": 6,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2089.06120236341,
+      "rd": 120.56078145726008,
+      "volatility": 0.0899794437893173,
+      "games": 11,
+      "provisional": true
+    }
+  },
+  "signaltest038": {
+    "blitz": {
+      "rating": 1582,
+      "rd": 300.0002859113675,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1638,
+      "rd": 300.00028590328134,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain014": {
+    "blitz": {
+      "rating": 2401,
+      "rd": 300.00028692820126,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2265,
+      "rd": 300.00028691708286,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain084": {
+    "blitz": {
+      "rating": 2311,
+      "rd": 300.0002865562383,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2505,
+      "rd": 300.0002865501736,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain089": {
+    "blitz": {
+      "rating": 1942,
+      "rd": 300.00028648649516,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1875,
+      "rd": 300.00028647941974,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain069": {
+    "blitz": {
+      "rating": 2101,
+      "rd": 300.00028658150745,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2119,
+      "rd": 300.00028657746435,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "skynet": {
+    "blitz": {
+      "rating": 2575,
+      "rd": 300.00028609937056,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2435,
+      "rd": 300.0002860872413,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "sideband": {
+    "blitz": {
+      "rating": 1383.771343627928,
+      "rd": 101.9973888634315,
+      "volatility": 0.09000315244516006,
+      "games": 12,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1259.0957585007661,
+      "rd": 100.74511394586122,
+      "volatility": 0.08995147794445287,
+      "games": 12,
+      "provisional": false
+    }
+  },
+  "signaltrain095": {
+    "blitz": {
+      "rating": 2358,
+      "rd": 300.000286478409,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2237,
+      "rd": 300.0002864733552,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest049": {
+    "blitz": {
+      "rating": 2633,
+      "rd": 300.00028584566746,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2446,
+      "rd": 300.0002858416244,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "neuromancer": {
+    "blitz": {
+      "rating": 2725,
+      "rd": 300.00028705252583,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2475,
+      "rd": 300.00028702826745,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest028": {
+    "blitz": {
+      "rating": 2132,
+      "rd": 300.00028592248594,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2065,
+      "rd": 300.0002859174321,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest050": {
+    "blitz": {
+      "rating": 1867,
+      "rd": 300.00028584566746,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1773,
+      "rd": 300.0002858416244,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "glados": {
+    "blitz": {
+      "rating": 2507,
+      "rd": 300.0002864581936,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2399,
+      "rd": 300.000286452129,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain033": {
+    "blitz": {
+      "rating": 1995,
+      "rd": 300.00028682712434,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1937,
+      "rd": 300.000286820049,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain025": {
+    "blitz": {
+      "rating": 1637,
+      "rd": 300.00028683419976,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1702,
+      "rd": 300.00028682813513,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "rooftop-echo": {
+    "blitz": {
+      "rating": 1749.6406854939892,
+      "rd": 108.42888646125957,
+      "volatility": 0.08995474064161593,
+      "games": 10,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1645.5043122783252,
+      "rd": 104.4757859144033,
+      "volatility": 0.08995518245282283,
+      "games": 11,
+      "provisional": false
+    }
+  },
+  "signaltrain130": {
+    "blitz": {
+      "rating": 2361,
+      "rd": 300.0002863116321,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2524,
+      "rd": 300.0002862984921,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "ultraviolet": {
+    "blitz": {
+      "rating": 2344.131768864039,
+      "rd": 109.10156351066723,
+      "volatility": 0.08995009474323326,
+      "games": 13,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 2053.0177699533806,
+      "rd": 172.9131710092394,
+      "volatility": 0.08997730208800218,
+      "games": 4,
+      "provisional": true
+    }
+  },
+  "signaltrain070": {
+    "blitz": {
+      "rating": 2154,
+      "rd": 300.00028658251824,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2187,
+      "rd": 300.00028657746435,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain101": {
+    "blitz": {
+      "rating": 1563,
+      "rd": 300.00028641068747,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1563,
+      "rd": 300.00028640462284,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest017": {
+    "blitz": {
+      "rating": 1361,
+      "rd": 300.00028598414286,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1344,
+      "rd": 300.00028597706745,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain116": {
+    "blitz": {
+      "rating": 1718,
+      "rd": 300.00028639148286,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1819,
+      "rd": 300.000286386429,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain036": {
+    "blitz": {
+      "rating": 1938,
+      "rd": 300.0002868261136,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1845,
+      "rd": 300.0002868190382,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain011": {
+    "blitz": {
+      "rating": 2192,
+      "rd": 300.0002869393197,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2242,
+      "rd": 300.00028692719053,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest006": {
+    "blitz": {
+      "rating": 2346,
+      "rd": 300.00028606298287,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2401,
+      "rd": 300.00028605691824,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "chrome-oracle": {
+    "blitz": {
+      "rating": 2420.2654328829362,
+      "rd": 141.7156871519501,
+      "volatility": 0.08999189336007954,
+      "games": 7,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2356.740773457055,
+      "rd": 145.16652579959967,
+      "volatility": 0.09001642911653729,
+      "games": 8,
+      "provisional": true
+    }
+  },
+  "signaltrain058": {
+    "blitz": {
+      "rating": 2388,
+      "rd": 300.00028666337977,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2490,
+      "rd": 300.00028665731514,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "joshua": {
+    "blitz": {
+      "rating": 2514,
+      "rd": 300.0002866350782,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2471,
+      "rd": 300.0002866290136,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest009": {
+    "blitz": {
+      "rating": 1691,
+      "rd": 300.0002859993044,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1780,
+      "rd": 300.000285992229,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "cobalt-mist": {
+    "blitz": {
+      "rating": 1209.9957822814108,
+      "rd": 92.67363757804657,
+      "volatility": 0.08992439387220355,
+      "games": 14,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1084.6356553128578,
+      "rd": 136.25519155102884,
+      "volatility": 0.08993815912552831,
+      "games": 5,
+      "provisional": true
+    }
+  },
+  "signaltrain072": {
+    "blitz": {
+      "rating": 2385,
+      "rd": 300.00028657948593,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2549,
+      "rd": 300.0002865693782,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain148": {
+    "blitz": {
+      "rating": 1898,
+      "rd": 300.0002862004475,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1868,
+      "rd": 300.00028619236133,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain029": {
+    "blitz": {
+      "rating": 1162,
+      "rd": 300.00028683116744,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1204,
+      "rd": 300.0002868240921,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain061": {
+    "blitz": {
+      "rating": 1486,
+      "rd": 300.0002866563044,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1537,
+      "rd": 300.0002866502398,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain044": {
+    "blitz": {
+      "rating": 1508,
+      "rd": 300.0002867442413,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1538,
+      "rd": 300.00028673716594,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain055": {
+    "blitz": {
+      "rating": 1714,
+      "rd": 300.0002866684336,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1789,
+      "rd": 300.00028665933667,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain122": {
+    "blitz": {
+      "rating": 2133,
+      "rd": 300.00028633285825,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2132,
+      "rd": 300.00028631971827,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest031": {
+    "blitz": {
+      "rating": 2070,
+      "rd": 300.0002859174321,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2060,
+      "rd": 300.0002859113675,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest042": {
+    "blitz": {
+      "rating": 1294,
+      "rd": 300.0002858517321,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1289,
+      "rd": 300.00028584465673,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain133": {
+    "blitz": {
+      "rating": 2067,
+      "rd": 300.00028622167366,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2016,
+      "rd": 300.0002862044905,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "chrome-sparrow": {
+    "blitz": {
+      "rating": 1496.929934507644,
+      "rd": 101.21982006457556,
+      "volatility": 0.08994067041809067,
+      "games": 12,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1609.9522566803594,
+      "rd": 112.04942325434567,
+      "volatility": 0.08999061432683632,
+      "games": 9,
+      "provisional": true
+    }
+  },
+  "signaltrain112": {
+    "blitz": {
+      "rating": 1201,
+      "rd": 300.0002863965367,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1231,
+      "rd": 300.00028639047207,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain047": {
+    "blitz": {
+      "rating": 1885,
+      "rd": 300.00028673817667,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1919,
+      "rd": 300.00028673211204,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain018": {
+    "blitz": {
+      "rating": 1474,
+      "rd": 300.0002869312336,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1536,
+      "rd": 300.0002869241582,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain137": {
+    "blitz": {
+      "rating": 2020,
+      "rd": 300.0002862065121,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1922,
+      "rd": 300.0002861964044,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain088": {
+    "blitz": {
+      "rating": 1101,
+      "rd": 300.00028648952747,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1149,
+      "rd": 300.0002864814413,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest010": {
+    "blitz": {
+      "rating": 2384,
+      "rd": 300.00028599728284,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2418,
+      "rd": 300.000285992229,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "wintermute": {
+    "blitz": {
+      "rating": 2725,
+      "rd": 300.0002870808274,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2475,
+      "rd": 300.000287056569,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "neon-finch": {
+    "blitz": {
+      "rating": 1150.087117845723,
+      "rd": 106.50301390289837,
+      "volatility": 0.08995975406699665,
+      "games": 10,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1163.927837557098,
+      "rd": 100.99845156282998,
+      "volatility": 0.08994135477591621,
+      "games": 11,
+      "provisional": false
+    }
+  },
+  "static-bishop": {
+    "blitz": {
+      "rating": 1900.966286875219,
+      "rd": 115.72464215989699,
+      "volatility": 0.08995488484945013,
+      "games": 8,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1833.8966585571693,
+      "rd": 107.69566880771181,
+      "volatility": 0.08992284470394933,
+      "games": 10,
+      "provisional": false
+    }
+  },
+  "signaltest021": {
+    "blitz": {
+      "rating": 2359,
+      "rd": 300.00028598212134,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2501,
+      "rd": 300.0002859750459,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "walterwobot": {
+    "blitz": {
+      "rating": 2674,
+      "rd": 300.0002863227506,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2487,
+      "rd": 300.00028631062133,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain144": {
+    "blitz": {
+      "rating": 1729,
+      "rd": 300.00028619741516,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1743,
+      "rd": 300.0002861852859,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain117": {
+    "blitz": {
+      "rating": 2449,
+      "rd": 300.0002863358905,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2369,
+      "rd": 300.00028632780436,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "shodan": {
+    "blitz": {
+      "rating": 2676,
+      "rd": 300.00028682712434,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2453,
+      "rd": 300.000286820049,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain099": {
+    "blitz": {
+      "rating": 1534,
+      "rd": 300.0002864753767,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1527,
+      "rd": 300.0002864693121,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest046": {
+    "blitz": {
+      "rating": 1790,
+      "rd": 300.00028584566746,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1893,
+      "rd": 300.00028584263515,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain007": {
+    "blitz": {
+      "rating": 1163,
+      "rd": 300.000286938309,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1202,
+      "rd": 300.0002869241582,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltest035": {
+    "blitz": {
+      "rating": 1103,
+      "rd": 300.000285913389,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1151,
+      "rd": 300.00028590934596,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain106": {
+    "blitz": {
+      "rating": 2326,
+      "rd": 300.0002864026013,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 2384,
+      "rd": 300.0002863945152,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "signaltrain050": {
+    "blitz": {
+      "rating": 1524,
+      "rd": 300.00028673615515,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1484,
+      "rd": 300.0002867311013,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  },
+  "pocket-static": {
+    "blitz": {
+      "rating": 1013.1344968192932,
+      "rd": 102.45474463865017,
+      "volatility": 0.08996588846429061,
+      "games": 11,
+      "provisional": false
+    },
+    "rapid": {
+      "rating": 1078.2374754948723,
+      "rd": 101.46485304472115,
+      "volatility": 0.08993046671204787,
+      "games": 11,
+      "provisional": false
+    }
+  },
+  "signaltrain126": {
+    "blitz": {
+      "rating": 1999,
+      "rd": 300.0002863166859,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    },
+    "rapid": {
+      "rating": 1913,
+      "rd": 300.0002863025352,
+      "volatility": 0.09,
+      "games": 0,
+      "provisional": true
+    }
+  }
+}

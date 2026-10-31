@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/aPQj2uCK"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain099"]
+[Black "ChromeAlley"]
+[Result "1-0"]
+[GameId "aPQj2uCK"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:02:44"]
+[WhiteElo "1508"]
+[BlackElo "1517"]
+[WhiteRatingDiff "+98"]
+[BlackRatingDiff "-16"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C47"]
+[Opening "Four Knights Game: Italian Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:08] } 2... Nc6 { [%clk 0:10:05] } 3. Bc4 { [%clk 0:10:10] } 3... Nf6 { [%clk 0:10:08] } 4. Nc3 { [%clk 0:10:13] } 4... Bb4 { [%clk 0:10:11] } 5. a3 { [%clk 0:10:16] } 5... Bxc3 { [%clk 0:10:14] } 6. dxc3 { [%clk 0:10:19] } 6... Nxe4 { [%clk 0:10:17] } 7. Qd5 { [%clk 0:10:22] } 7... Nf6 { [%clk 0:10:20] } 8. Qxf7# { [%clk 0:10:20] } 1-0
+
+

@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/ScGJEEoW"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "GhostRelay"]
+[Black "SignalTrain102"]
+[Result "1-0"]
+[GameId "ScGJEEoW"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:28:38"]
+[WhiteElo "1554"]
+[BlackElo "1669"]
+[WhiteRatingDiff "+24"]
+[BlackRatingDiff "-108"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Symmetrical Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... Nf6 { [%clk 0:10:05] } 3. Nc3 { [%clk 0:10:10] } 3... e5 { [%clk 0:10:08] } 4. dxe5 { [%clk 0:10:13] } 4... Bg4 { [%clk 0:10:11] } 5. exf6 { [%clk 0:10:16] } 5... Qxf6 { [%clk 0:10:14] } 6. e3 { [%clk 0:10:19] } 6... Bb4 { [%clk 0:10:17] } 7. Bd2 { [%clk 0:10:22] } 7... O-O { [%clk 0:10:19] } 8. Be2 { [%clk 0:10:25] } 8... Nc6 { [%clk 0:10:22] } 9. O-O { [%clk 0:10:28] } 9... d4 { [%clk 0:10:25] } 10. Nxd4 { [%clk 0:10:30] } 10... Nxd4 { [%clk 0:10:28] } 11. Bxg4 { [%clk 0:10:33] } 11... Bxc3 { [%clk 0:10:31] } 12. Bxc3 { [%clk 0:10:35] } 12... Rad8 { [%clk 0:10:34] } 13. Bxd4 { [%clk 0:10:38] } 13... Rxd4 { [%clk 0:10:36] } 14. exd4 { [%clk 0:10:41] } 14... Rd8 { [%clk 0:10:39] } 15. c3 { [%clk 0:10:44] } 15... c5 { [%clk 0:10:42] } 16. d5 { [%clk 0:10:47] } 16... Qg5 { [%clk 0:10:45] } 17. c4 { [%clk 0:10:49] } 17... b5 { [%clk 0:10:47] } 18. cxb5 { [%clk 0:10:52] } 18... Rxd5 { [%clk 0:10:50] } 19. Qf3 { [%clk 0:10:55] } 19... c4 { [%clk 0:10:53] } 20. Rad1 { [%clk 0:10:57] } 20... Rxb5 { [%clk 0:10:56] } 21. Qa8+ { [%clk 0:11:00] } 21... Rb8 { [%clk 0:10:59] } 22. Qxb8+ { [%clk 0:11:03] } 22... Qd8 { [%clk 0:11:01] } 23. Qxd8# { [%clk 0:11:00] } 1-0
+
+

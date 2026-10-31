@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/u0DYnQJa"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain065"]
+[Black "CassetteKid"]
+[Result "1/2-1/2"]
+[GameId "u0DYnQJa"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:08:20"]
+[WhiteElo "1269"]
+[BlackElo "1114"]
+[WhiteRatingDiff "-69"]
+[BlackRatingDiff "+6"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[Termination "Normal"]
+
+1. g3 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. e4 { [%clk 0:10:08] } 2... Nf6 { [%clk 0:10:06] } 3. d4 { [%clk 0:10:10] } 3... d5 { [%clk 0:10:09] } 4. exd5 { [%clk 0:10:13] } 4... exd4 { [%clk 0:10:12] } 5. Bg5 { [%clk 0:10:16] } 5... Be7 { [%clk 0:10:15] } 6. Qxd4 { [%clk 0:10:19] } 6... Nxd5 { [%clk 0:10:17] } 7. Bxe7 { [%clk 0:10:22] } 7... Qxe7+ { [%clk 0:10:20] } 8. Be2 { [%clk 0:10:24] } 8... c6 { [%clk 0:10:23] } 9. Qxg7 { [%clk 0:10:27] } 9... Rf8 { [%clk 0:10:26] } 10. Qxh7 { [%clk 0:10:30] } 10... Nf6 { [%clk 0:10:29] } 11. Qg7 { [%clk 0:10:33] } 11... Rg8 { [%clk 0:10:32] } 12. Qh6 { [%clk 0:10:35] } 12... Rg6 { [%clk 0:10:35] } 13. Qh8+ { [%clk 0:10:39] } 13... Rg8 { [%clk 0:10:38] } 14. Qh4 { [%clk 0:10:41] } 14... Rg4 { [%clk 0:10:41] } 15. Qh8+ { [%clk 0:10:44] } 15... Rg8 { [%clk 0:10:44] } 16. Qh6 { [%clk 0:10:47] } 16... Rg6 { [%clk 0:10:47] } 17. Qh8+ { [%clk 0:10:50] } 17... Rg8 { [%clk 0:10:50] } 1/2-1/2
+
+

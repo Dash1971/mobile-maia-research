@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/AZeWolZp"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain053"]
+[Black "SignalTrain112"]
+[Result "0-1"]
+[GameId "AZeWolZp"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:14:18"]
+[WhiteElo "1268"]
+[BlackElo "1077"]
+[WhiteRatingDiff "-83"]
+[BlackRatingDiff "+104"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... Nc6 { [%clk 0:10:03] } 2. Bc4 { [%clk 0:10:08] } 2... e5 { [%clk 0:10:06] } 3. Qh5 { [%clk 0:10:10] } 3... g6 { [%clk 0:10:08] } 4. Bxf7+ { [%clk 0:10:13] } 4... Kxf7 { [%clk 0:10:11] } 5. Qf3+ { [%clk 0:10:16] } 5... Ke8 { [%clk 0:10:13] } 6. Nh3 { [%clk 0:10:18] } 6... Nf6 { [%clk 0:10:16] } 7. Ng5 { [%clk 0:10:21] } 7... Nd4 { [%clk 0:10:18] } 8. Qd3 { [%clk 0:10:23] } 8... h6 { [%clk 0:10:21] } 9. Nf3 { [%clk 0:10:26] } 9... Nxf3+ { [%clk 0:10:23] } 10. gxf3 { [%clk 0:10:29] } 10... d6 { [%clk 0:10:26] } 11. Rg1 { [%clk 0:10:31] } 11... g5 { [%clk 0:10:29] } 12. Nc3 { [%clk 0:10:34] } 12... c5 { [%clk 0:10:31] } 13. Nd5 { [%clk 0:10:36] } 13... Nxd5 { [%clk 0:10:34] } 14. Qxd5 { [%clk 0:10:39] } 14... Qe7 { [%clk 0:10:36] } 15. d3 { [%clk 0:10:42] } 15... Be6 { [%clk 0:10:39] } 16. Bxg5 { [%clk 0:10:44] } 16... hxg5 { [%clk 0:10:41] } 17. Qxb7 { [%clk 0:10:47] } 17... Qxb7 { [%clk 0:10:44] } 18. Rxg5 { [%clk 0:10:50] } 18... Qxb2 { [%clk 0:10:46] } 19. Rd1 { [%clk 0:10:52] } 19... Qxc2 { [%clk 0:10:49] } 20. Rg6 { [%clk 0:10:55] } 20... Bxa2 { [%clk 0:10:52] } 21. Rxd6 { [%clk 0:10:58] } 21... Bxd6 { [%clk 0:10:54] } 22. Rd2 { [%clk 0:11:01] } 22... Qc1+ { [%clk 0:10:57] } 23. Ke2 { [%clk 0:11:03] } 23... Rxh2 { [%clk 0:11:00] } 24. Rxa2 { [%clk 0:11:05] } 24... Qb1 { [%clk 0:11:02] } 25. Rd2 { [%clk 0:11:08] } 25... Rh1 { [%clk 0:11:05] } 26. Ke3 { [%clk 0:11:11] } 26... Qe1+ { [%clk 0:11:07] } 27. Re2 { [%clk 0:11:14] } 27... Qc1+ { [%clk 0:11:10] } 28. Rd2 { [%clk 0:11:16] } 28... Re1# { [%clk 0:11:08] } 0-1
+
+

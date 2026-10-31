@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/5PHRRz2j"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTest029"]
+[Black "SignalTrain120"]
+[Result "1/2-1/2"]
+[GameId "5PHRRz2j"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:26:37"]
+[WhiteElo "2052"]
+[BlackElo "2050"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+1"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e6 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... d5 { [%clk 0:10:05] } 3. exd5 { [%clk 0:10:10] } 3... exd5 { [%clk 0:10:08] } 4. d4 { [%clk 0:10:12] } 4... Nf6 { [%clk 0:10:11] } 5. Bd3 { [%clk 0:10:15] } 5... Bd6 { [%clk 0:10:13] } 6. O-O { [%clk 0:10:17] } 6... O-O { [%clk 0:10:16] } 7. Bg5 { [%clk 0:10:20] } 7... h6 { [%clk 0:10:18] } 8. Bh4 { [%clk 0:10:22] } 8... Bg4 { [%clk 0:10:21] } 9. Nbd2 { [%clk 0:10:25] } 9... Nbd7 { [%clk 0:10:23] } 10. c3 { [%clk 0:10:28] } 10... c6 { [%clk 0:10:26] } 11. Qc2 { [%clk 0:10:31] } 11... Qc7 { [%clk 0:10:29] } 12. Rfe1 { [%clk 0:10:33] } 12... Rae8 { [%clk 0:10:31] } 13. Bg3 { [%clk 0:10:36] } 13... Bxg3 { [%clk 0:10:33] } 14. hxg3 { [%clk 0:10:38] } 14... Nh5 { [%clk 0:10:36] } 15. Bf5 { [%clk 0:10:41] } 15... Bxf5 { [%clk 0:10:38] } 16. Qxf5 { [%clk 0:10:43] } 16... Nhf6 { [%clk 0:10:41] } 17. Ne5 { [%clk 0:10:45] } 17... Re7 { [%clk 0:10:44] } 18. Ndf3 { [%clk 0:10:48] } 18... Nxe5 { [%clk 0:10:46] } 19. Nxe5 { [%clk 0:10:50] } 19... Rfe8 { [%clk 0:10:49] } 20. Re3 { [%clk 0:10:52] } 20... Ne4 { [%clk 0:10:51] } 21. Rae1 { [%clk 0:10:55] } 21... Qb6 { [%clk 0:10:54] } 22. R1e2 { [%clk 0:10:58] } 22... Qc7 { [%clk 0:10:57] } 23. Kh2 { [%clk 0:11:00] } 23... f6 { [%clk 0:11:00] } 24. Ng6 { [%clk 0:11:03] } 24... Re6 { [%clk 0:11:02] } 25. Nf4 { [%clk 0:11:05] } 25... R6e7 { [%clk 0:11:05] } 26. Ng6 { [%clk 0:11:08] } 26... Re6 { [%clk 0:11:07] } 27. Nf4 { [%clk 0:11:10] } 27... R6e7 { [%clk 0:11:10] } 28. Ng6 { [%clk 0:11:13] } 1/2-1/2
+
+

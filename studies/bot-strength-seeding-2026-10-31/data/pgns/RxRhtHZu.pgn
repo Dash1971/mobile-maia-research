@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/RxRhtHZu"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain106"]
+[Black "Colossus"]
+[Result "0-1"]
+[GameId "RxRhtHZu"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:14:33"]
+[WhiteElo "2664"]
+[BlackElo "2659"]
+[WhiteRatingDiff "-42"]
+[BlackRatingDiff "+36"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "A00"]
+[Opening "Hungarian Opening: Slav Formation"]
+[Termination "Normal"]
+
+1. g3 { [%clk 0:10:05] } 1... d5 { [%clk 0:10:03] } 2. Bg2 { [%clk 0:10:07] } 2... c6 { [%clk 0:10:06] } 3. c4 { [%clk 0:10:10] } 3... Nf6 { [%clk 0:10:08] } 4. cxd5 { [%clk 0:10:12] } 4... cxd5 { [%clk 0:10:10] } 5. d3 { [%clk 0:10:15] } 5... Nc6 { [%clk 0:10:13] } 6. Nf3 { [%clk 0:10:17] } 6... Bg4 { [%clk 0:10:16] } 7. O-O { [%clk 0:10:20] } 7... e6 { [%clk 0:10:18] } 8. Nc3 { [%clk 0:10:22] } 8... Be7 { [%clk 0:10:21] } 9. Bg5 { [%clk 0:10:25] } 9... O-O { [%clk 0:10:23] } 10. Qa4 { [%clk 0:10:28] } 10... Bh5 { [%clk 0:10:25] } 11. Rac1 { [%clk 0:10:31] } 11... a6 { [%clk 0:10:28] } 12. a3 { [%clk 0:10:33] } 12... b5 { [%clk 0:10:30] } 13. Qd1 { [%clk 0:10:36] } 13... Rc8 { [%clk 0:10:32] } 14. b4 { [%clk 0:10:38] } 14... h6 { [%clk 0:10:35] } 15. Bf4 { [%clk 0:10:41] } 15... Bd6 { [%clk 0:10:38] } 16. Bxd6 { [%clk 0:10:44] } 16... Qxd6 { [%clk 0:10:40] } 17. Qd2 { [%clk 0:10:47] } 17... Bxf3 { [%clk 0:10:43] } 18. Bxf3 { [%clk 0:10:49] } 18... Nd4 { [%clk 0:10:46] } 19. Bg2 { [%clk 0:10:52] } 19... Nb3 { [%clk 0:10:48] } 20. Qb2 { [%clk 0:10:54] } 20... Nxc1 { [%clk 0:10:51] } 21. Rxc1 { [%clk 0:10:56] } 21... Rc7 { [%clk 0:10:53] } 22. Na2 { [%clk 0:10:59] } 22... Rfc8 { [%clk 0:10:56] } 23. Rxc7 { [%clk 0:11:02] } 23... Qxc7 { [%clk 0:10:58] } 24. Bf3 { [%clk 0:11:04] } 24... Qc2 { [%clk 0:11:01] } 25. Qa1 { [%clk 0:11:06] } 25... Qb3 { [%clk 0:11:03] } 26. Nc1 { [%clk 0:11:09] } 26... Qd1+ { [%clk 0:11:06] } 27. Kg2 { [%clk 0:11:12] } 27... Rxc1 { [%clk 0:11:08] } 28. Qe5 { [%clk 0:11:15] } 28... Qf1# { [%clk 0:11:05] } 0-1
+
+

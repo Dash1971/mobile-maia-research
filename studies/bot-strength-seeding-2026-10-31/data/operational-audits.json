@@ -1,0 +1,39 @@
+{
+  "nativePersistenceAudit": {
+    "checkedAtUtc": "2026-10-31T10:37:16.230448Z",
+    "bots": 250,
+    "persistedStudyGameIds": 2623,
+    "persistedActiveStudyGames": 0,
+    "nativePlayerResultsAdded": 5246,
+    "expectedPlayerResults": 5246,
+    "mismatchCount": 0,
+    "scope": "Operator read-only production database query, independent of published snapshot verifier."
+  },
+  "finalCleanup": {
+    "checkedAtUtc": "2026-10-31T11:12:00Z",
+    "originalSupervisorCompletedNormally": true,
+    "originalWorkersStopped": true,
+    "privateCgroupsEmpty": true,
+    "privateListenersAbsent": true,
+    "publicStudyConfigurationAbsent": true,
+    "publicActiveGames": 0,
+    "publicStudyActiveRecords": 0,
+    "publicStudyRecordCount": 2623,
+    "publicReleaseUnchanged": "f656d5c22b062646cc48c54feced50cb2c6710f6"
+  },
+  "continuationQualification": {
+    "passed": false,
+    "activated": false,
+    "publicAdmissions": 0,
+    "qualifierInvocations": 0,
+    "fixtureAdmissions": 0,
+    "permissionProbeStarted": false,
+    "inferenceCalls": 0,
+    "inferenceZeroEvidence": "Control flow failed during private service startup before qualifier; not a cumulative inference counter.",
+    "privateDatabaseGameCount": null,
+    "privateDatabaseCountMeasured": false,
+    "failure": "Copied secrets filename lacked a recognized HOCON extension; required include tried nonexistent suffixed filenames. App and WebSocket startup failed before fixture games. Adapter startup also failed. No retry or production change.",
+    "rootCleanupReceiptSha256": "6d819f48a7710a75696ba5b293ec5e245cc48699638be9a8c9683045c51c9246",
+    "rawReceiptPublished": false
+  }
+}

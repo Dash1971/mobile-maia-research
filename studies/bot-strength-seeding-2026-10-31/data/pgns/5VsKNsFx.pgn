@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/5VsKNsFx"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain035"]
+[Black "GhostRelay"]
+[Result "1-0"]
+[GameId "5VsKNsFx"]
+[UTCDate "2026.10.31"]
+[UTCTime "06:26:59"]
+[WhiteElo "1370"]
+[BlackElo "1562"]
+[WhiteRatingDiff "+89"]
+[BlackRatingDiff "-27"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C40"]
+[Opening "Elephant Gambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... d5 { [%clk 0:10:05] } 3. exd5 { [%clk 0:10:10] } 3... Bc5 { [%clk 0:10:08] } 4. Nxe5 { [%clk 0:10:12] } 4... Bxf2+ { [%clk 0:10:09] } 5. Kxf2 { [%clk 0:10:15] } 5... Qh4+ { [%clk 0:10:11] } 6. g3 { [%clk 0:10:17] } 6... Qd4+ { [%clk 0:10:14] } 7. Kg2 { [%clk 0:10:19] } 7... Qxe5 { [%clk 0:10:16] } 8. Bb5+ { [%clk 0:10:22] } 8... Kf8 { [%clk 0:10:19] } 9. Re1 { [%clk 0:10:24] } 9... Qxd5+ { [%clk 0:10:21] } 10. Kg1 { [%clk 0:10:27] } 10... Qxb5 { [%clk 0:10:24] } 11. Qe2 { [%clk 0:10:30] } 11... Nc6 { [%clk 0:10:27] } 12. Qe8# { [%clk 0:10:28] } 1-0
+
+

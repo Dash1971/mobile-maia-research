@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/c1pjRkr0"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain154"]
+[Black "SignalTrain079"]
+[Result "0-1"]
+[GameId "c1pjRkr0"]
+[UTCDate "2026.10.31"]
+[UTCTime "07:07:02"]
+[WhiteElo "1447"]
+[BlackElo "1628"]
+[WhiteRatingDiff "-27"]
+[BlackRatingDiff "+33"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C26"]
+[Opening "Vienna Game: Falkbeer Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Nc3 { [%clk 0:05:03] } 2... Nf6 { [%clk 0:05:01] } 3. d3 { [%clk 0:05:03] } 3... Be7 { [%clk 0:05:02] } 4. f3 { [%clk 0:05:04] } 4... O-O { [%clk 0:05:03] } 5. Nd5 { [%clk 0:05:04] } 5... Nc6 { [%clk 0:05:04] } 6. Bg5 { [%clk 0:05:05] } 6... Nxd5 { [%clk 0:05:04] } 7. exd5 { [%clk 0:05:06] } 7... Bxg5 { [%clk 0:05:04] } 8. dxc6 { [%clk 0:05:06] } 8... dxc6 { [%clk 0:05:05] } 9. Nh3 { [%clk 0:05:07] } 9... Bxh3 { [%clk 0:05:06] } 10. gxh3 { [%clk 0:05:07] } 10... Bh4+ { [%clk 0:05:07] } 11. Ke2 { [%clk 0:05:07] } 11... Qd4 { [%clk 0:05:07] } 12. c3 { [%clk 0:05:07] } 12... Qf2# { [%clk 0:05:05] } 0-1
+
+

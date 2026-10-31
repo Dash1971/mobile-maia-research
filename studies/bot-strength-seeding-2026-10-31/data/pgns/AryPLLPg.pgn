@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/AryPLLPg"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain149"]
+[Black "SignalTrain074"]
+[Result "0-1"]
+[GameId "AryPLLPg"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:19:27"]
+[WhiteElo "1722"]
+[BlackElo "1881"]
+[WhiteRatingDiff "-98"]
+[BlackRatingDiff "+77"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... c6 { [%clk 0:10:03] } 2. Nf3 { [%clk 0:10:07] } 2... d6 { [%clk 0:10:06] } 3. d4 { [%clk 0:10:10] } 3... Nf6 { [%clk 0:10:09] } 4. Nc3 { [%clk 0:10:13] } 4... b5 { [%clk 0:10:11] } 5. e5 { [%clk 0:10:16] } 5... Ng8 { [%clk 0:10:14] } 6. Bf4 { [%clk 0:10:19] } 6... d5 { [%clk 0:10:16] } 7. Bd3 { [%clk 0:10:22] } 7... Bg4 { [%clk 0:10:19] } 8. h3 { [%clk 0:10:25] } 8... Bh5 { [%clk 0:10:22] } 9. g4 { [%clk 0:10:27] } 9... Bg6 { [%clk 0:10:25] } 10. Bxg6 { [%clk 0:10:30] } 10... hxg6 { [%clk 0:10:28] } 11. Qd2 { [%clk 0:10:33] } 11... e6 { [%clk 0:10:30] } 12. O-O-O { [%clk 0:10:35] } 12... a5 { [%clk 0:10:33] } 13. a3 { [%clk 0:10:38] } 13... b4 { [%clk 0:10:36] } 14. axb4 { [%clk 0:10:41] } 14... axb4 { [%clk 0:10:38] } 15. Nb1 { [%clk 0:10:43] } 15... Ra1 { [%clk 0:10:41] } 16. Bg5 { [%clk 0:10:46] } 16... Qa5 { [%clk 0:10:44] } 17. c3 { [%clk 0:10:49] } 17... b3 { [%clk 0:10:47] } 18. c4 { [%clk 0:10:52] } 18... Qa2 { [%clk 0:10:50] } 19. Qd3 { [%clk 0:10:55] } 19... dxc4 { [%clk 0:10:53] } 20. Qe4 { [%clk 0:10:57] } 20... c3 { [%clk 0:10:56] } 21. bxc3 { [%clk 0:11:00] } 21... Ba3# { [%clk 0:10:53] } 0-1
+
+

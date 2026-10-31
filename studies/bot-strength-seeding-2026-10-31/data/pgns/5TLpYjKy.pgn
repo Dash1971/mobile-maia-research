@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/5TLpYjKy"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain064"]
+[Black "SignalTrain104"]
+[Result "1-0"]
+[GameId "5TLpYjKy"]
+[UTCDate "2026.10.31"]
+[UTCTime "08:19:10"]
+[WhiteElo "1381"]
+[BlackElo "1459"]
+[WhiteRatingDiff "+47"]
+[BlackRatingDiff "-42"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "B00"]
+[Opening "King's Pawn Game"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:02] } 1... b5 { [%clk 0:05:01] } 2. Qh5 { [%clk 0:05:03] } 2... Bb7 { [%clk 0:05:02] } 3. Bxb5 { [%clk 0:05:03] } 3... Bxe4 { [%clk 0:05:02] } 4. Bc4 { [%clk 0:05:03] } 4... Bxc2 { [%clk 0:05:03] } 5. Qxf7# { [%clk 0:05:01] } 1-0
+
+

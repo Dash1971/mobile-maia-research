@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/6entrPi1"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain044"]
+[Black "SignalTrain065"]
+[Result "1-0"]
+[GameId "6entrPi1"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:30:14"]
+[WhiteElo "1476"]
+[BlackElo "1395"]
+[WhiteRatingDiff "+58"]
+[BlackRatingDiff "-57"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C50"]
+[Opening "Italian Game: Paris Defense"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... e5 { [%clk 0:10:03] } 2. Bc4 { [%clk 0:10:07] } 2... d6 { [%clk 0:10:05] } 3. Nf3 { [%clk 0:10:10] } 3... Nc6 { [%clk 0:10:08] } 4. Nc3 { [%clk 0:10:13] } 4... Be6 { [%clk 0:10:10] } 5. d3 { [%clk 0:10:16] } 5... Nd4 { [%clk 0:10:13] } 6. Nxd4 { [%clk 0:10:18] } 6... exd4 { [%clk 0:10:16] } 7. Nd5 { [%clk 0:10:21] } 7... Bxd5 { [%clk 0:10:19] } 8. Bxd5 { [%clk 0:10:24] } 8... c6 { [%clk 0:10:22] } 9. Bb3 { [%clk 0:10:27] } 9... c5 { [%clk 0:10:24] } 10. Qf3 { [%clk 0:10:30] } 10... Nf6 { [%clk 0:10:27] } 11. Bg5 { [%clk 0:10:32] } 11... Be7 { [%clk 0:10:30] } 12. O-O { [%clk 0:10:35] } 12... O-O { [%clk 0:10:33] } 13. Rfe1 { [%clk 0:10:38] } 13... Nd7 { [%clk 0:10:36] } 14. Bxe7 { [%clk 0:10:41] } 14... Qxe7 { [%clk 0:10:39] } 15. c3 { [%clk 0:10:44] } 15... Ne5 { [%clk 0:10:41] } 16. Qg3 { [%clk 0:10:46] } 16... dxc3 { [%clk 0:10:44] } 17. bxc3 { [%clk 0:10:49] } 17... Rac8 { [%clk 0:10:47] } 18. d4 { [%clk 0:10:52] } 18... cxd4 { [%clk 0:10:49] } 19. cxd4 { [%clk 0:10:55] } 19... Nc6 { [%clk 0:10:52] } 20. d5 { [%clk 0:10:57] } 20... Nd4 { [%clk 0:10:54] } 21. Bd1 { [%clk 0:11:00] } 21... Qf6 { [%clk 0:10:57] } 22. Bg4 { [%clk 0:11:03] } 22... Rc2 { [%clk 0:11:00] } 23. e5 { [%clk 0:11:06] } 23... dxe5 { [%clk 0:11:03] } 24. Rxe5 { [%clk 0:11:09] } 24... Rfc8 { [%clk 0:11:05] } 25. Bxc8 { [%clk 0:11:12] } 25... Rxc8 { [%clk 0:11:08] } 26. Rae1 { [%clk 0:11:14] } 26... Nc2 { [%clk 0:11:10] } 27. Re8+ { [%clk 0:11:17] } 27... Rxe8 { [%clk 0:11:13] } 28. Rxe8# { [%clk 0:11:14] } 1-0
+
+

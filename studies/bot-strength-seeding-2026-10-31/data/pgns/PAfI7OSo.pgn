@@ -1,0 +1,25 @@
+[Event "rated rapid game"]
+[Site "https://mutechess.org/game/PAfI7OSo"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "Skynet"]
+[Black "CircuitSaint"]
+[Result "1-0"]
+[GameId "PAfI7OSo"]
+[UTCDate "2026.10.31"]
+[UTCTime "04:51:41"]
+[WhiteElo "2326"]
+[BlackElo "2466"]
+[WhiteRatingDiff "+171"]
+[BlackRatingDiff "-21"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit Accepted, Kan Formation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:10:05] } 1... c5 { [%clk 0:10:03] } 2. d4 { [%clk 0:10:07] } 2... cxd4 { [%clk 0:10:05] } 3. c3 { [%clk 0:10:10] } 3... dxc3 { [%clk 0:10:07] } 4. Nxc3 { [%clk 0:10:13] } 4... e6 { [%clk 0:10:10] } 5. Nf3 { [%clk 0:10:16] } 5... a6 { [%clk 0:10:13] } 6. Bc4 { [%clk 0:10:19] } 6... b5 { [%clk 0:10:16] } 7. Bb3 { [%clk 0:10:21] } 7... Bb7 { [%clk 0:10:19] } 8. O-O { [%clk 0:10:24] } 8... b4 { [%clk 0:10:21] } 9. Nd5 { [%clk 0:10:27] } 9... exd5 { [%clk 0:10:24] } 10. exd5 { [%clk 0:10:30] } 10... d6 { [%clk 0:10:26] } 11. Re1+ { [%clk 0:10:32] } 11... Be7 { [%clk 0:10:29] } 12. Nd4 { [%clk 0:10:35] } 12... Nf6 { [%clk 0:10:32] } 13. Nf5 { [%clk 0:10:38] } 13... O-O { [%clk 0:10:35] } 14. Nxe7+ { [%clk 0:10:41] } 14... Kh8 { [%clk 0:10:38] } 15. Bg5 { [%clk 0:10:43] } 15... Nbd7 { [%clk 0:10:41] } 16. Qd4 { [%clk 0:10:46] } 16... Re8 { [%clk 0:10:43] } 17. Nf5 { [%clk 0:10:49] } 17... Ne5 { [%clk 0:10:46] } 18. f4 { [%clk 0:10:52] } 18... Ng6 { [%clk 0:10:49] } 19. Rxe8+ { [%clk 0:10:54] } 19... Qxe8 { [%clk 0:10:52] } 20. Bxf6 { [%clk 0:10:58] } 20... gxf6 { [%clk 0:10:54] } 21. Qxf6+ { [%clk 0:11:00] } 21... Kg8 { [%clk 0:10:57] } 22. Qg7# { [%clk 0:10:58] } 1-0
+
+

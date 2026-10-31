@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/9Jxtuj5s"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain044"]
+[Black "SignalTest042"]
+[Result "0-1"]
+[GameId "9Jxtuj5s"]
+[UTCDate "2026.10.31"]
+[UTCTime "09:59:53"]
+[WhiteElo "1481"]
+[BlackElo "1344"]
+[WhiteRatingDiff "-41"]
+[BlackRatingDiff "+75"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C50"]
+[Opening "Italian Game: Blackburne-Kostić Gambit"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:00] } 2. Nf3 { [%clk 0:05:03] } 2... Nc6 { [%clk 0:05:01] } 3. Bc4 { [%clk 0:05:03] } 3... Nd4 { [%clk 0:05:01] } 4. Nxe5 { [%clk 0:05:03] } 4... Qg5 { [%clk 0:05:02] } 5. Nxf7 { [%clk 0:05:03] } 5... Qxg2 { [%clk 0:05:02] } 6. Rf1 { [%clk 0:05:04] } 6... Qxe4+ { [%clk 0:05:01] } 7. Be2 { [%clk 0:05:04] } 7... Nf3# { [%clk 0:04:58] } 0-1
+
+

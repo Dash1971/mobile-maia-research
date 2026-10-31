@@ -1,0 +1,25 @@
+[Event "rated blitz game"]
+[Site "https://mutechess.org/game/Pit5SJaC"]
+[Date "2026.10.31"]
+[Round "-"]
+[White "SignalTrain028"]
+[Black "CassetteKid"]
+[Result "1-0"]
+[GameId "Pit5SJaC"]
+[UTCDate "2026.10.31"]
+[UTCTime "05:13:57"]
+[WhiteElo "935"]
+[BlackElo "1036"]
+[WhiteRatingDiff "+126"]
+[BlackRatingDiff "-25"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:03] } 1... e5 { [%clk 0:05:01] } 2. Qh5 { [%clk 0:05:04] } 2... g6 { [%clk 0:05:01] } 3. Qxe5+ { [%clk 0:05:04] } 3... Ne7 { [%clk 0:05:02] } 4. Qxh8 { [%clk 0:05:05] } 4... d6 { [%clk 0:05:03] } 5. Qxh7 { [%clk 0:05:06] } 5... Nec6 { [%clk 0:05:04] } 6. Bc4 { [%clk 0:05:07] } 6... Nd4 { [%clk 0:05:04] } 7. Qxf7# { [%clk 0:05:05] } 1-0
+
+
