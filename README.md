@@ -15,18 +15,17 @@ results and match scores, with links to the full study and recorded data.
 
 ## Studies
 
-### Established reference ratings for Maia bots — 31 October 2026
+### How should a new Maia bot get its rating?
 
-[Read the report](studies/bot-rating-establishment-2026-10-31/REPORT.md) · [Evidence and reproduction](studies/bot-rating-establishment-2026-10-31/README.md)
+[Read the illustrated report](studies/bot-rating-establishment-2026-10-31/REPORT.md) · [Data and reproduction](studies/bot-rating-establishment-2026-10-31/README.md)
 
-The same 250 Mute Chess bots continued from their earned ratings for 826 more
-native rated games. All finished nonprovisional in both Blitz and Rapid. This
-follow-up builds an established policy reference for informed new-bot priors,
-with a fixed training-only V2 prediction freeze before the new test games.
-The frozen mapping's average native-label error was about 116 points per speed;
-the stricter 100-point target was not met. The earlier report remains unchanged.
+Different Maia settings produce different playing strengths. Mute Chess uses
+observed Lichess Maia ratings and a 250-bot reference pool to estimate starting
+ratings for new opponents. The guide explains the settings, rating method,
+200/50 fit-and-check design and roughly 116-point average error, with linked
+measurements and clear limits.
 
-### Starting ratings for Maia bot pools — 31 October 2026
+### Original bot-rating calibration dataset — 31 October 2026
 
 [Read the report](studies/bot-strength-seeding-2026-10-31/REPORT.md) · [Data and reproduction](studies/bot-strength-seeding-2026-10-31/README.md)
 
