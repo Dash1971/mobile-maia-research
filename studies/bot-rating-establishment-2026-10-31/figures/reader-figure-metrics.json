@@ -21,7 +21,7 @@
     ]
   },
   "catalogSourceCommit": "7b8f5d4625c77a6ff7e30985f6d6b1904cc26a93",
-  "activation": "pending",
+  "distributionScope": "initial catalog allocation; not a live rating feed",
   "newAssignedRd": 100,
   "newAssignedGameCount": 0,
   "samplingEffects": [

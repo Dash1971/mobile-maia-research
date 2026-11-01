@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Public explanation charts; saved measurements only, no neural inference.
 
-The catalog distribution is the generated, not yet activated allocation. The sampling effects are
+The catalog distribution is the initial allocation, not a live rating feed. The sampling effects are
 controlled earlier match results; the native ratings are the unchanged pool
 snapshot. These distinct sources are never pooled into a causal effect.
 """
@@ -141,7 +141,7 @@ def main():
 
     fig,canvas=page(10,8.5)
     text(canvas,.06,.94,'A busy middle. A small strong tail.',27,weight='bold')
-    text(canvas,.06,.885,'Generated allocation for 10,000 identities • Activation pending',14,MUTED)
+    text(canvas,.06,.885,'Initial rating distribution for 10,000 opponents',14,MUTED)
     ax=fig.add_axes([.23,.27,.66,.52]);style_chart(ax)
     labels=['Below 1,000*','1,000–1,399','1,400–1,799','1,800–2,199','2,200–2,599','2,600+']
     for speed,offset,color in [('blitz',-.18,TEAL),('rapid',.18,BLUE)]:
@@ -150,13 +150,13 @@ def main():
         ax.barh(positions,counts,color=color,height=.30,label=speed.title())
         for y,count in zip(positions,counts):
             ax.text(count+55,y,f'{count:,}',va='center',fontsize=11,fontweight='bold',color=color)
-    ax.set(yticks=range(6),yticklabels=labels,xlim=(0,4200),xlabel='Generated bot identities per speed')
+    ax.set(yticks=range(6),yticklabels=labels,xlim=(0,4200),xlabel='Bot identities per speed at initialization')
     ax.invert_yaxis();ax.tick_params(axis='y',labelsize=12)
     ax.legend(loc='lower right',frameon=False,fontsize=12)
     text(canvas,.06,.17,'Both ratings come from the same measured playing policy.',15,weight='bold')
     text(canvas,.06,.118,'Weekly Lichess Blitz and Rapid snapshots, October 30, 2026; target distributions restricted to 800+.',10,MUTED)
-    text(canvas,.06,.076,'Includes all 250 preserved references and 9,750 new identities with assigned ratings and zero games.',10,MUTED)
-    text(canvas,.06,.035,'* Mostly 800–999. One preserved Blitz reference is below 800. These are prepared counts, not live accounts.',10,MUTED)
+    text(canvas,.06,.076,'250 earned reference ratings + 9,750 assigned starting ratings. New accounts begin with zero games.',10,MUTED)
+    text(canvas,.06,.035,'* Mostly 800–999. One preserved Blitz reference is below 800. Ratings change as opponents play.',10,MUTED)
     save(fig,'reader-roster')
 
     inputs=('configurations.json','final-native-perfs.json','reader-chart-sources.json',
@@ -165,7 +165,7 @@ def main():
             'catalog-2026-11-01/distribution-source.json')
     metrics={'referenceBots':250,'finalEstablishedBotSpeedRatings':500,'generatedCatalogCount':catalog['total'],
       'generatedBandCounts':{s:catalog['speeds'][s]['bandCounts'] for s in ('blitz','rapid')},
-      'catalogSourceCommit':catalog['sourceCommit'],'activation':'pending',
+      'catalogSourceCommit':catalog['sourceCommit'],'distributionScope':'initial catalog allocation; not a live rating feed',
       'newAssignedRd':catalog['assignedRd'],'newAssignedGameCount':catalog['assignedGameCount'],
       'samplingEffects':[c['gain'] for c in comps], 'neuralInferencePerformed':False,
       'inputsSha256':{n:hashlib.sha256((ROOT/'data'/n).read_bytes()).hexdigest() for n in inputs}}

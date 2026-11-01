@@ -1,12 +1,13 @@
-# Method for the generated 10,000-bot catalog
+# Method for the live 10,000-bot catalog
 
-**Status: generated and prepared for deployment, 1 November 2026; activation
-pending.** The owner approved a 10,000-identity roster using supported Maia
-policies, with new assigned nonprovisional ratings and truthful zero-game
-counts. This note records the prepared implementation from
-[Mute Chess PR #174](https://github.com/Dash1971/mute-chess/pull/174), pinned to
-[commit 7b8f5d4](https://github.com/Dash1971/mute-chess/tree/7b8f5d4625c77a6ff7e30985f6d6b1904cc26a93).
-It does not claim a live deployment or create new game evidence.
+**Status: live on Mute Chess.** Deployment verification confirmed 10,000 bot
+identities: 250 preserved reference accounts and 9,750 new accounts initialized
+with research-seeded, nonprovisional ratings and zero completed games. The
+[sanitized verification record](data/catalog-2026-11-01/deployment-status.json)
+records the initial counts and their evidence scope. The live implementation
+comes from [Mute Chess PR #174](https://github.com/Dash1971/mute-chess/pull/174),
+pinned to [commit 594342d](https://github.com/Dash1971/mute-chess/tree/594342df8d11ad04b7a6d914f75fbd3743098aa6).
+Deployment adds no new calibration-game evidence.
 
 The earlier smooth formula and illustrative allocation are preserved in the
 [historical planning note](PLANNING-APPROXIMATION.md). They are not the method
@@ -39,7 +40,7 @@ The sums include reference accounts i using the same effective policy p.
 A policy with one reference uses that account's recorded rating. When several
 accounts share the policy, inverse-RD-squared weighting supplies a descriptive
 central estimate. It does not make those accounts independent replicates or
-supply a new confidence interval. The prepared allocation uses 202 distinct
+supply a new confidence interval. The initial allocation uses 202 distinct
 measured policies, with separate Blitz and Rapid estimates for each.
 
 History is retained when matching a measured policy; there is no universal
@@ -57,7 +58,7 @@ strength; it does not newly validate every timing personality or clock control.
 
 ## Initialization and supported range
 
-The approved new-account policy initializes **RD 100, native default volatility
+The new-account policy initialized **RD 100, native default volatility
 and zero completed games**. Native Glicko's RD-below-110 criterion makes those
 assigned perfs nonprovisional. The choice of RD 100 is an explicit product
 initialization policy, not a measured posterior uncertainty for each new
@@ -68,13 +69,14 @@ The existing 250 accounts retain their earned perfs, settings and histories.
 The generation does not copy their game counts or RD into the new accounts,
 reset existing ratings, or change human initialization and rating semantics.
 Native provisioning and the complete per-account data are reviewed in the
-pinned application source; this publication audits the saved research inputs
-and aggregate allocation, not the live database.
+pinned application source. Separate deployment checks confirmed those initial
+counts and preservation; the reproducible offline audit below checks saved
+research inputs and allocation, without querying the live database.
 
 The supported offering is approximately **800–3,000 Blitz and 800–2,800 Rapid**.
 New templates whose estimated rating is below 800 in either speed are excluded,
 not clipped upward. Preserved references include one Blitz rating below 800.
-The prepared roster ranges are:
+The initial roster ranges are:
 
 | Scope | Blitz | Rapid |
 | --- | ---: | ---: |
@@ -108,8 +110,8 @@ explicitly unvalidated transfers, not additional measured calibration or a
 claim that every speed has the same population distribution. All new assigned
 categories use the owner-approved initialization above; existing unplayed
 categories are not reseeded. See the pinned application's
-[catalog method](https://github.com/Dash1971/mute-chess/blob/7b8f5d4625c77a6ff7e30985f6d6b1904cc26a93/docs/catalog-roster.md)
-and [dated cross-speed references](https://github.com/Dash1971/mute-chess/blob/7b8f5d4625c77a6ff7e30985f6d6b1904cc26a93/docs/data/lichess-maia-adjustment-reference-2026-10-30.json).
+[catalog method](https://github.com/Dash1971/mute-chess/blob/594342df8d11ad04b7a6d914f75fbd3743098aa6/docs/catalog-roster.md)
+and [dated cross-speed references](https://github.com/Dash1971/mute-chess/blob/594342df8d11ad04b7a6d914f75fbd3743098aa6/docs/data/lichess-maia-adjustment-reference-2026-10-30.json).
 
 ## Distribution and reproduction
 
@@ -147,16 +149,19 @@ counts are:
 
 The maximum cumulative mismatch at those boundaries is **0.00473 percentage
 points Blitz** and **0.11940 Rapid**. Retaining all original accounts prevents
-an exact match to Rapid's small upper tail. Counts describe this prepared
-roster, not 10,000 independent observations or an activated population.
+an exact match to Rapid's small upper tail. Counts describe the initial
+roster, not 10,000 independent observations or a continuously updated census.
 
 The [application manifest](data/catalog-2026-11-01/catalog-manifest.json) records
 template counts, assigned ratings, source policies, both distributions and the
 strongest 20 identities in each speed. It is copied byte-for-byte from the
 pinned preparation commit. [Source provenance](data/catalog-2026-11-01/source-provenance.json)
 records every copied file's SHA-256, the original research input hashes, the
-application commit and the complete generated roster's hash. The full identity
-list remains in the [application source](https://github.com/Dash1971/mute-chess/blob/7b8f5d4625c77a6ff7e30985f6d6b1904cc26a93/lila-adapter/catalog-roster.json)
+preparation commit and the complete generated roster's hash. That historical
+record remains unchanged. The separate [deployment record](data/catalog-2026-11-01/deployment-status.json)
+pins the final source: all settings, identities, names and ratings are identical;
+only the personality assignment-method label changed. The full identity list
+remains in the [application source](https://github.com/Dash1971/mute-chess/blob/594342df8d11ad04b7a6d914f75fbd3743098aa6/lila-adapter/catalog-roster.json)
 rather than being duplicated here.
 
 Run the independent standard-library audit from this study directory:
@@ -180,6 +185,7 @@ illustrative allocation is retained as historical evidence. The scatter plots
 use the original native perfs. The color `1 − Temperature × Top-P` describes
 settings, not a measured causal effect or the implemented rating rule.
 
-No neural inference, new games, rating writes, runtime deployment or capacity
-increase accompanies this research publication. Activation requires the
-application's verified-main release and separate live provisioning audit.
+This publication adds no neural inference or new games. The separate live
+verification confirmed the initial native records and public Research-seeded
+label; subsequent games and inactivity can change ratings and RD. Original
+research data, frozen predictions and preparation provenance remain unchanged.

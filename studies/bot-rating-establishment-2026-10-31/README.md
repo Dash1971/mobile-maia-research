@@ -4,7 +4,9 @@ The [public report](REPORT.md) explains how Mute Chess uses a varied Maia
 reference pool to estimate starting ratings for new bots. This guide contains
 the exact settings, recorded results and reproduction steps behind that article.
 The original prediction evaluation remains in the evidence below. The generated 10,000-identity catalog and its actual allocation have a separate
-[method note](CATALOG-METHOD.md). Activation is pending.
+[method note](CATALOG-METHOD.md). The roster is now live; a separate
+[sanitized deployment record](data/catalog-2026-11-01/deployment-status.json)
+documents the verified initial state.
 
 ## Method reference
 
@@ -29,7 +31,7 @@ pins, native criterion and capacity observations remain in the
 separately; together with this guide's 826-game dataset it provides the 3,449
 published games cited in the article. The baseline retains older earned history
 as well. No new games or rating writes accompany this rewrite. The historical [catalog-planning approximation](PLANNING-APPROXIMATION.md) is a
-separate posthoc calculation. The prepared implementation reuses exact measured
+separate posthoc calculation. The live implementation reuses exact measured
 policies; neither changes the original frozen procedure or its predictions.
 
 ## Evidence map
@@ -134,12 +136,12 @@ production cap of 2.
 
 ## Using the reference and its limits
 
-The prepared catalog reuses measured policies for 9,750 new identities while
-preserving all 250 original accounts. The approved new-account initialization
-assigns RD 100 and zero completed games, making those ratings nonprovisional
-under native rules without inventing earned history. The catalog has been
-generated in the pinned application source; activation is pending. This
-publication does not provision accounts. The [catalog note](CATALOG-METHOD.md)
+The live catalog reuses measured policies for 9,750 new identities while
+preserving all 250 original accounts. New accounts were initialized with RD 100
+and zero completed games, making those ratings nonprovisional under native
+rules without inventing earned history. They display a Research-seeded label.
+The separate deployment verification confirmed the initial native records;
+this publication and its offline audit do not provision accounts. The [catalog note](CATALOG-METHOD.md)
 explains the exact reuse rule, supported range and actual distribution.
 
 Audit the copied source records and aggregate allocation with no dependencies:
