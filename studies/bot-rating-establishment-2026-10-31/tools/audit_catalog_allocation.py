@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check the prepared catalog allocation against unchanged published evidence.
+"""Check the initial catalog allocation against unchanged published evidence.
 
 Standard library only. Reads saved files; no fit, inference, games or network.
 The complete identity list and application generator remain at the pinned source.
@@ -108,7 +108,7 @@ def audit_catalog(root=ROOT):
                          'newAssignedRange': [min(new_ratings), max(new_ratings)]}
     return {'status': 'passed', 'total': 10000, 'preserved': 250, 'added': 9750,
             'usedMeasuredPolicies': len(counts), 'assignedRd': 100, 'assignedGameCount': 0,
-            'activation': 'pending; this audit does not inspect live accounts',
+            'activation': 'not evaluated; this offline audit does not inspect live accounts',
             'scope': 'Source hashes, reference-policy means and aggregate allocation; '
                      'full identity/personality/native provisioning checks belong to pinned application source',
             'sourceCommit': provenance['sourceCommit'], 'speeds': results,

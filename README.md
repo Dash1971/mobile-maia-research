@@ -22,8 +22,9 @@ results and match scores, with links to the full study and recorded data.
 How were the ratings obtained, how do they relate to Lichess, and how do Maia
 settings change strength? The report follows the Lichess starting reference
 through rated games and native Glicko, illustrates controlled sampling effects,
-and explains a proposed formula and Lichess-shaped allocation for a 10,000-bot
-roster. Measured ratings and future catalog plans are clearly distinguished.
+and explains how a 10,000-bot roster reuses measured playing policies with a
+Lichess-shaped allocation. Earned reference ratings and assigned starting
+ratings are clearly distinguished.
 
 ### Original bot-rating calibration dataset — 31 October 2026
 

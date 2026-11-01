@@ -8,7 +8,7 @@ the same playing strength as it does on Lichess**, at the same time control.
 
 Maia's settings let us create many different opponents. This report explains
 how we turn those settings into useful ratings—and how that research supports
-a much larger bot pool, now generated and prepared for deployment.
+the pool of **10,000 opponents now live on Mute Chess**.
 
 ## 1. How did we come up with the bot ratings?
 
@@ -75,13 +75,13 @@ opponents.
 
 ![Higher Maia inputs generally produce higher playing ratings, with a substantial spread from settings and rating uncertainty.](figures/reader-settings.png)
 
-## A prepared pool of 10,000 opponents
+## 10,000 opponents, now live
 
-**We have generated 10,000 identities: the 250 reference bots and 9,750 new
-opponents using measured playing policies.** The supported offering is roughly
-**800–3,000 in Blitz and 800–2,800 in Rapid**. The roster is prepared in
-[source PR #174](https://github.com/Dash1971/mute-chess/pull/174); **live activation
-is still pending**.
+**Mute Chess now offers 10,000 opponents: the 250 reference bots and 9,750 new
+identities using measured playing policies.** The supported range is roughly
+**800–3,000 in Blitz and 800–2,800 in Rapid**. New accounts are labeled
+**Research-seeded**, making their starting assignment distinct from an earned
+game history.
 
 Each new identity keeps its settings and personality. A new name does not need
 another tournament to rediscover the strength of a policy already represented
@@ -107,9 +107,8 @@ as a separate [planning approximation](PLANNING-APPROXIMATION.md), but it does
 not assign the generated roster's ratings. Nor do we add a strength bonus to
 put a favorite character at the top of the list.
 
-The approved initialization gives each new bot **RD 100 and zero completed
-games**. That makes its assigned native rating nonprovisional under the normal
-110-point boundary. It is an informed starting assignment, not a claim that the
+Each new bot was initialized with **RD 100 and zero completed games**. That made
+its assigned native rating nonprovisional under the normal 110-point boundary. It is an informed starting assignment, not a claim that the
 new account has already played calibration games. Native Glicko continues
 updating the rating and its uncertainty; no game count or history is copied.
 The rating rules for human accounts are unchanged.
@@ -121,7 +120,7 @@ either extreme. The generator uses archived weekly **Blitz and Rapid** player
 distributions from Lichess, restricted to the supported range of 800 and above.
 It matches both together because every policy has a paired Blitz/Rapid rating.
 
-![The generated 10,000-identity roster, with separate Blitz and Rapid distributions concentrated in the middle of the supported range. Activation is pending.](figures/reader-roster.png)
+![The initial 10,000-opponent roster, with separate Blitz and Rapid distributions concentrated in the middle of the supported range.](figures/reader-roster.png)
 
 | Rating band | Blitz identities | Rapid identities |
 | --- | ---: | ---: |
@@ -133,19 +132,19 @@ It matches both together because every policy has a paired Blitz/Rapid rating.
 | 2,600+ | 15 | 14 |
 | **Total** | **10,000** | **10,000** |
 
-These are counts in the **generated roster**, including the preserved reference
-accounts. They are not 10,000 independently measured strengths or a claim that
-the roster is already live. The [dated sources and allocation audit](CATALOG-METHOD.md#distribution-and-reproduction)
+These are the **initial roster counts**, including the preserved reference
+accounts. Ratings change as opponents play; the chart is not a live rating feed
+or 10,000 independently measured strengths. The [dated sources and allocation audit](CATALOG-METHOD.md#distribution-and-reproduction)
 show how the counts follow the Lichess distributions while retaining the actual
 policy ratings. The strongest Rapid tail is slightly larger than the target
 because the existing accounts are preserved.
 
-**We will offer the range supported by the measured Maia policies.** New
+**We offer the range supported by the measured Maia policies.** New
 policies with reference estimates below 800 are excluded rather than relabeled.
 The upper range comes from the observed reference opponents. Names, extra
 identities and a desired histogram do not make a policy stronger or weaker.
 
-The research now supports a much larger pool with persistent personalities,
+The live pool brings together persistent personalities,
 ratings grounded in measured policies, and normal rating updates as people
 play. Keeping those ratings close to Lichess strength remains the goal.
 

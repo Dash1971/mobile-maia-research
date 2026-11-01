@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "mute-chess-catalog-deployment-status-v1",
+  "status": "live",
+  "verifiedAtUtc": "2026-11-01T03:08:31.918Z",
+  "sourceRepository": "https://github.com/Dash1971/mute-chess",
+  "sourceCommit": "594342df8d11ad04b7a6d914f75fbd3743098aa6",
+  "sourcePullRequest": "https://github.com/Dash1971/mute-chess/pull/174",
+  "catalogManifestSha256": "9c2670e0691774c0c9c4cb46d858aed3abad7a9629f1d6d0293a07163e531ecf",
+  "fullCatalogSha256": "c647cd9ba7300b46d4c734208b1e84e5996b6d59ad0f06777a8c7862e5fdd3da",
+  "preparationProvenanceFile": "source-provenance.json",
+  "changeFromPreparation": "Only the personality.assignment method label changed, from sha256-independent-fields-v1 to measured-policy-history-hash-timing-v1. All 9750 identities, names, settings and assigned ratings are identical; the allocation manifest is byte-identical.",
+  "initialState": {
+    "totalBotIdentities": 10000,
+    "preservedReferenceAccounts": 250,
+    "newNativeAccounts": 9750,
+    "newNativePerfRecords": 9750,
+    "newAssignedGameCount": 0,
+    "newAssignedRd": 100,
+    "newAssignedSpeedCategories": [
+      "blitz",
+      "rapid",
+      "bullet",
+      "classical",
+      "ultraBullet",
+      "correspondence"
+    ],
+    "newAssignedNonprovisional": true,
+    "newAccountValidationErrors": 0,
+    "existingEarnedPerfsAndHistoriesPreserved": true,
+    "existingPolicySettingsPreserved": true,
+    "approvedDisplayAliasesApplied": 12,
+    "newGamesCreatedForDeployment": 0,
+    "nativeGlickoAlgorithmChanged": false
+  },
+  "publicProfileCheck": {
+    "url": "https://mutechess.org/@/pris",
+    "label": "Research-seeded",
+    "displayedBlitzRating": 2756,
+    "completedGames": 0,
+    "provisionalMarkPresent": false
+  },
+  "evidence": {
+    "kind": "Sanitized aggregate of operator read-only deployment verification and public profile inspection",
+    "verificationRecordSha256": "f328b01fb0dc3f58ca474a2a4a95bba7e7bd3d0be111ee77b0d05cbab7d76af7",
+    "nativeSummaryEvidenceSha256": "fd666eeec1d8487cce90fccd7bd8cddcf465b21b62f40b2b20ae550f981860e8",
+    "publicProfileEvidenceSha256": "7ad18b3f3a828599cda234957ef45fd54d53404ecef4efd9f9f1df1719ab2d84",
+    "scope": "Underlying operational logs are retained privately. This record reports verified initial deployment state; the research allocation audit independently reproduces saved policy means and distribution, not the live database."
+  },
+  "interpretation": [
+    "Nonprovisional starting ratings follow the explicit RD100 initialization policy; they are not newly earned game evidence.",
+    "Counts and profile values are observations at verification, not a live feed. Later games and inactivity may change native ratings, RD and counts.",
+    "The initial distribution and all original research measurements remain unchanged."
+  ]
+}
