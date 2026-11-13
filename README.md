@@ -15,6 +15,12 @@ results and match scores, with links to the full study and recorded data.
 
 ## Studies
 
+### Offline board recognition — 13 November 2026
+
+[Visual report and model comparison](studies/offline-board-recognition-2026-11-13/REPORT.md) · [Evidence and reproduction guide](studies/offline-board-recognition-2026-11-13/README.md)
+
+We looked for an open, lightweight model for offline camera/screenshot-to-board import. Small models were unreliable on twelve test photos; larger candidates still made errors and would add substantially to the existing Maia 79M footprint. Lichess's ChessQ Lite has a noncommercial model licence. No sufficiently suitable candidate was found, and the feature is shelved. The report separates identical-crop classification from full-photo detection and includes all measured failures, licence findings, model sizes and actual reconstructed positions.
+
 ### How we rate the bots in Mute Chess
 
 [Read the illustrated report](studies/bot-rating-establishment-2026-10-31/REPORT.md) · [Data and reproduction](studies/bot-rating-establishment-2026-10-31/README.md)

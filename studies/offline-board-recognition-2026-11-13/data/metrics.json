@@ -1,0 +1,66 @@
+{
+  "common_crop": [
+    {
+      "id": "current",
+      "label": "Current CrispChess",
+      "model_bytes": 835655,
+      "exact_boards": 1,
+      "photos": 12,
+      "wrong_squares": 79,
+      "squares": 768
+    },
+    {
+      "id": "acuity",
+      "label": "Chess Acuity",
+      "model_bytes": 105472,
+      "exact_boards": 1,
+      "photos": 12,
+      "wrong_squares": 344,
+      "squares": 768
+    },
+    {
+      "id": "fenshot",
+      "label": "Fenshot",
+      "model_bytes": 1289483,
+      "exact_boards": 5,
+      "photos": 12,
+      "wrong_squares": 52,
+      "squares": 768
+    },
+    {
+      "id": "fenify",
+      "label": "Fenify",
+      "model_bytes": 127147094,
+      "exact_boards": 6,
+      "photos": 12,
+      "wrong_squares": 19,
+      "squares": 768
+    },
+    {
+      "id": "tsoj",
+      "label": "Chess diagram to FEN",
+      "model_bytes": 243873463,
+      "exact_boards": 6,
+      "photos": 12,
+      "wrong_squares": 46,
+      "squares": 768
+    }
+  ],
+  "full_photo": {
+    "current_full_photo": {
+      "exact": 1,
+      "no_result": 1
+    },
+    "frozen_prototype_full_photo": {
+      "exact": 2,
+      "no_result": 3
+    },
+    "fenshot_full_photo": {
+      "exact": 1,
+      "no_result": 5
+    }
+  },
+  "unique_positions": 10,
+  "input_photos_public": false,
+  "android_performance_measured": false
+}

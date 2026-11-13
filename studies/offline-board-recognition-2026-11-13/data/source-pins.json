@@ -1,0 +1,213 @@
+{
+  "fenshot": {
+    "commit": "24e01e9434b34abb779728d8dc0d6496162cb613",
+    "files": [
+      {
+        "path": "LICENSE",
+        "bytes": 1090,
+        "sha256": "22bdd2569d3963454a4f743256a0f95f9b8747d8c57e5dff559b76b333480f91",
+        "url": "https://raw.githubusercontent.com/scoriiu/fenshot/24e01e9434b34abb779728d8dc0d6496162cb613/LICENSE"
+      },
+      {
+        "path": "packages/fenshot/README.md",
+        "bytes": 6871,
+        "sha256": "6b833035837c1e9518e15a3768bb0a88449f8be6f335fb38d7d3c171e712044f",
+        "url": "https://raw.githubusercontent.com/scoriiu/fenshot/24e01e9434b34abb779728d8dc0d6496162cb613/packages/fenshot/README.md"
+      },
+      {
+        "path": "packages/fenshot/src/detect.ts",
+        "bytes": 24099,
+        "sha256": "596c7d546eb3a65fe377df6dc7ead23adfa3206c32f1326124ec98ed2462409d",
+        "url": "https://raw.githubusercontent.com/scoriiu/fenshot/24e01e9434b34abb779728d8dc0d6496162cb613/packages/fenshot/src/detect.ts"
+      },
+      {
+        "path": "packages/fenshot/src/tiles.ts",
+        "bytes": 3018,
+        "sha256": "da677b678013cb76ba5e5985cc7661f90e94b08fb92f27e953fd66ff71da76d3",
+        "url": "https://raw.githubusercontent.com/scoriiu/fenshot/24e01e9434b34abb779728d8dc0d6496162cb613/packages/fenshot/src/tiles.ts"
+      },
+      {
+        "path": "packages/fenshot/src/fen.ts",
+        "bytes": 3896,
+        "sha256": "77046fe6d7cc45c3041ad621f355c115a9236d8ed9e0ae85ee9fc9943cb66b03",
+        "url": "https://raw.githubusercontent.com/scoriiu/fenshot/24e01e9434b34abb779728d8dc0d6496162cb613/packages/fenshot/src/fen.ts"
+      },
+      {
+        "path": "packages/fenshot/src/recognize.ts",
+        "bytes": 11356,
+        "sha256": "d5f0c5ef1b2bd320f8ca646d8abcc1441eb7730d2f542dcfd4228fdfb592adcc",
+        "url": "https://raw.githubusercontent.com/scoriiu/fenshot/24e01e9434b34abb779728d8dc0d6496162cb613/packages/fenshot/src/recognize.ts"
+      },
+      {
+        "path": "tools/tile-classifier/README.md",
+        "bytes": 3693,
+        "sha256": "136fc190d0792682a13ecad19fad06cfd1ad41e5746415aa97057716d0f3fa2d",
+        "url": "https://raw.githubusercontent.com/scoriiu/fenshot/24e01e9434b34abb779728d8dc0d6496162cb613/tools/tile-classifier/README.md"
+      },
+      {
+        "path": "tools/tile-classifier/download-assets.ts",
+        "bytes": 5001,
+        "sha256": "77b9691808efa1b5fc7cc8c0465d8f6a6f79b02b45abe3eb75851e6d83c5b989",
+        "url": "https://raw.githubusercontent.com/scoriiu/fenshot/24e01e9434b34abb779728d8dc0d6496162cb613/tools/tile-classifier/download-assets.ts"
+      },
+      {
+        "path": "tools/tile-classifier/train.py",
+        "bytes": 6796,
+        "sha256": "4191ba14716963dfad4a47f08b4b33cc26127243a0cef5d2f5036ec0c703754e",
+        "url": "https://raw.githubusercontent.com/scoriiu/fenshot/24e01e9434b34abb779728d8dc0d6496162cb613/tools/tile-classifier/train.py"
+      },
+      {
+        "path": "packages/fenshot/model/chess-tiles-v2.onnx",
+        "bytes": 1289483,
+        "sha256": "883f6a8e639e6d6b6399b3fda0508ad772e3c6f9cefa2e678a13f27b9fa6248d",
+        "url": "https://raw.githubusercontent.com/scoriiu/fenshot/24e01e9434b34abb779728d8dc0d6496162cb613/packages/fenshot/model/chess-tiles-v2.onnx"
+      }
+    ]
+  },
+  "acuity": {
+    "commit": "a0648361bfade7f50858a855e11180997fe5e3bf",
+    "files": [
+      {
+        "path": "LICENSE",
+        "bytes": 35149,
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "url": "https://raw.githubusercontent.com/alexostar/chess-acuity-app/a0648361bfade7f50858a855e11180997fe5e3bf/LICENSE"
+      },
+      {
+        "path": "ml/README.md",
+        "bytes": 3349,
+        "sha256": "a2f465fc1301ed3e1bda1804fda983f8b94f36a80fd2cc3b95a17ec792410e39",
+        "url": "https://raw.githubusercontent.com/alexostar/chess-acuity-app/a0648361bfade7f50858a855e11180997fe5e3bf/ml/README.md"
+      },
+      {
+        "path": "ml/model.py",
+        "bytes": 1610,
+        "sha256": "dd065360f97129779456b55876dc715e59ac6ca5da879308c71680e1e51b9de9",
+        "url": "https://raw.githubusercontent.com/alexostar/chess-acuity-app/a0648361bfade7f50858a855e11180997fe5e3bf/ml/model.py"
+      },
+      {
+        "path": "ml/export_tflite.py",
+        "bytes": 2496,
+        "sha256": "47e54819be8059113893d826bc13d3e0060b3c1b7c7acf11b4baeae61d9cb5ff",
+        "url": "https://raw.githubusercontent.com/alexostar/chess-acuity-app/a0648361bfade7f50858a855e11180997fe5e3bf/ml/export_tflite.py"
+      },
+      {
+        "path": "ml/piece_sets.py",
+        "bytes": 4009,
+        "sha256": "177528d2d9b2223c8081e5ac39bf9f3da9b9160c855c06cc998972a0568b0b8c",
+        "url": "https://raw.githubusercontent.com/alexostar/chess-acuity-app/a0648361bfade7f50858a855e11180997fe5e3bf/ml/piece_sets.py"
+      },
+      {
+        "path": "ml/evaluate.py",
+        "bytes": 4072,
+        "sha256": "ecb3e378d99099b40d75c998c5b6e7c4454f4cbbdd0d6f38fe2ccbcd5e242d45",
+        "url": "https://raw.githubusercontent.com/alexostar/chess-acuity-app/a0648361bfade7f50858a855e11180997fe5e3bf/ml/evaluate.py"
+      },
+      {
+        "path": "modules/board-vision/ios/BoardVisionModule.swift",
+        "bytes": 4984,
+        "sha256": "a80220e884efbf30feace904e1ed4f5f1cc6e3102dbce1a3ebef531a6426c7be",
+        "url": "https://raw.githubusercontent.com/alexostar/chess-acuity-app/a0648361bfade7f50858a855e11180997fe5e3bf/modules/board-vision/ios/BoardVisionModule.swift"
+      },
+      {
+        "path": "assets/models/labels.json",
+        "bytes": 318,
+        "sha256": "25cb7792baeb667f87ca69e943149986fe72a7ea3bc11dcf889a60be7cb1a00f",
+        "url": "https://raw.githubusercontent.com/alexostar/chess-acuity-app/a0648361bfade7f50858a855e11180997fe5e3bf/assets/models/labels.json"
+      },
+      {
+        "path": "assets/models/tiles.tflite",
+        "bytes": 105472,
+        "sha256": "73c2788b39be1c9a87089d54795e9e76d154dbe786c0fbea11d6bdf5a909c55c",
+        "url": "https://raw.githubusercontent.com/alexostar/chess-acuity-app/a0648361bfade7f50858a855e11180997fe5e3bf/assets/models/tiles.tflite"
+      }
+    ]
+  },
+  "fenify": {
+    "commit": "e9a4fd252ea4be322c560a9b78a2b9da31f49735",
+    "files": [
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/notnil/fenify/e9a4fd252ea4be322c560a9b78a2b9da31f49735/LICENSE",
+        "bytes": 1069,
+        "sha256": "68531202b2d20cd09ba487aa068016640dfb0c58af91793ab6314fd8a0c9b6b9"
+      },
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/notnil/fenify/e9a4fd252ea4be322c560a9b78a2b9da31f49735/README.md",
+        "bytes": 2805,
+        "sha256": "db5b6b733b0daf9b63cc409d734be3debbe193128d59c3713edf2239fb365820"
+      },
+      {
+        "path": "src/board_predictor.py",
+        "url": "https://raw.githubusercontent.com/notnil/fenify/e9a4fd252ea4be322c560a9b78a2b9da31f49735/src/board_predictor.py",
+        "bytes": 1744,
+        "sha256": "477f10fb6bed59304cdd7c261d2d50c249bc2f3405b2b42ae97c026a22120fe8"
+      },
+      {
+        "path": "model.pt",
+        "url": "https://github.com/notnil/fenify/releases/download/v2023-07-10/models_2023-07-10-chessboard-2D-balanced-fen-cpu.pt",
+        "bytes": 127147094,
+        "sha256": "baafc27099f4b0948a5136ebd3860f986fa4b5b016c83c859efa7649adb8968b"
+      }
+    ]
+  },
+  "tsoj": {
+    "commit": "3d751125357ebd47b91f6a8168e0b8d513fe7aae",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/tsoj/Chess_diagram_to_FEN/3d751125357ebd47b91f6a8168e0b8d513fe7aae/README.md",
+        "sha256": "3810d634b7bcaf097bf08c9cef902e35e1b21f1e704cb49f4b4fe191453ebd5d",
+        "bytes": 4843
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/tsoj/Chess_diagram_to_FEN/3d751125357ebd47b91f6a8168e0b8d513fe7aae/LICENSE",
+        "sha256": "1989bc3f1e8ed2581278779e8fed5746773be9e28aec6e933804009f8b7dc09c",
+        "bytes": 1069
+      },
+      {
+        "path": "pyproject.toml",
+        "url": "https://raw.githubusercontent.com/tsoj/Chess_diagram_to_FEN/3d751125357ebd47b91f6a8168e0b8d513fe7aae/pyproject.toml",
+        "sha256": "648d72fbc5b80178eb123b2b16401b1ae7c30cdb412377cc8bf466067148cfe2",
+        "bytes": 1989
+      },
+      {
+        "path": "chess_diagram_to_fen.py",
+        "url": "https://raw.githubusercontent.com/tsoj/Chess_diagram_to_FEN/3d751125357ebd47b91f6a8168e0b8d513fe7aae/chess_diagram_to_fen.py",
+        "sha256": "d9072ddfe8792056074ee20cd49134c50dfc79d6a040af0ae66591fe68505220",
+        "bytes": 16886
+      },
+      {
+        "path": "src/fen_recognition/model.py",
+        "url": "https://raw.githubusercontent.com/tsoj/Chess_diagram_to_FEN/3d751125357ebd47b91f6a8168e0b8d513fe7aae/src/fen_recognition/model.py",
+        "sha256": "be6a92e8141c528a6a538e33cdf9b16c4aa3205df93b10176bdf9aeb1bf51e9b",
+        "bytes": 4282
+      }
+    ],
+    "model": [
+      {
+        "name": "models/chess/best_model_position_0.977_2026-03-09-00-47-01.pth",
+        "method": 8,
+        "compressed": 225943869,
+        "bytes": 243873463,
+        "offset": 337921346,
+        "sha256": "35b58ecbc72b546b980730b6127bdf6903d2109aa3f8a40ed8a800ea609f711d",
+        "url": "https://github.com/tsoj/Chess_diagram_to_FEN/releases/download/1.0/models.zip"
+      }
+    ]
+  },
+  "crisp": {
+    "commit": "0d01798daf9661076675f8505b4cc6995a6529da",
+    "bytes": 835655,
+    "sha256": "2408717e2e0e2ed438e2f9f89f85c2e544326cef34a0c91b95168bd17336df47",
+    "source": "https://github.com/CrispStrobe/CrispChess"
+  },
+  "maia79m_context": {
+    "bytes": 316034244,
+    "sha256": "3454b03ae78baa64a87b345fdb1a457265d912caec531039b074f07eda0d8010",
+    "source": "https://github.com/Dash1971/maia-chess-android-preview/blob/f4dcc31fdef0bc4b33cc30639bb4db39393930d8/assets/models/maia3-79m.onnx",
+    "measurement": "Git LFS pointer metadata only; no Maia weights downloaded"
+  }
+}
