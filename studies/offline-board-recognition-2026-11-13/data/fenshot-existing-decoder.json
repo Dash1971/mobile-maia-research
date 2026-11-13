@@ -1,0 +1,346 @@
+[
+  {
+    "placement": "6r1/3k4/8/3KP3/8/8/7B/8",
+    "id": "book",
+    "correct": 63,
+    "errors": [
+      {
+        "square": "h2",
+        "expected": "R",
+        "actual": "B"
+      }
+    ]
+  },
+  {
+    "placement": "8/ppp3pp/2p5/2k5/K2R4/5P1N/PrP3PP/8",
+    "id": "screen",
+    "correct": 64,
+    "errors": []
+  },
+  {
+    "placement": "r7/pn6/3k4/4b1R1/3PP3/2P2P1N/P2N4/3KB2R",
+    "id": "cap03",
+    "correct": 42,
+    "errors": [
+      {
+        "square": "b8",
+        "expected": "n",
+        "actual": "."
+      },
+      {
+        "square": "d8",
+        "expected": "q",
+        "actual": "."
+      },
+      {
+        "square": "e8",
+        "expected": "r",
+        "actual": "."
+      },
+      {
+        "square": "g8",
+        "expected": "k",
+        "actual": "."
+      },
+      {
+        "square": "b7",
+        "expected": "p",
+        "actual": "n"
+      },
+      {
+        "square": "c7",
+        "expected": "p",
+        "actual": "."
+      },
+      {
+        "square": "f7",
+        "expected": "p",
+        "actual": "."
+      },
+      {
+        "square": "g7",
+        "expected": "b",
+        "actual": "."
+      },
+      {
+        "square": "h7",
+        "expected": "p",
+        "actual": "."
+      },
+      {
+        "square": "d6",
+        "expected": "p",
+        "actual": "k"
+      },
+      {
+        "square": "f6",
+        "expected": "n",
+        "actual": "."
+      },
+      {
+        "square": "g6",
+        "expected": "p",
+        "actual": "."
+      },
+      {
+        "square": "e5",
+        "expected": "p",
+        "actual": "b"
+      },
+      {
+        "square": "g5",
+        "expected": "B",
+        "actual": "R"
+      },
+      {
+        "square": "f3",
+        "expected": "B",
+        "actual": "P"
+      },
+      {
+        "square": "h3",
+        "expected": "P",
+        "actual": "N"
+      },
+      {
+        "square": "b2",
+        "expected": "P",
+        "actual": "."
+      },
+      {
+        "square": "f2",
+        "expected": "P",
+        "actual": "."
+      },
+      {
+        "square": "g2",
+        "expected": "P",
+        "actual": "."
+      },
+      {
+        "square": "a1",
+        "expected": "R",
+        "actual": "."
+      },
+      {
+        "square": "d1",
+        "expected": "Q",
+        "actual": "K"
+      },
+      {
+        "square": "e1",
+        "expected": "K",
+        "actual": "B"
+      }
+    ]
+  },
+  {
+    "placement": "k7/p6p/8/8/8/2NK4/PPq5/r7",
+    "id": "cap06",
+    "correct": 39,
+    "errors": [
+      {
+        "square": "a8",
+        "expected": "r",
+        "actual": "k"
+      },
+      {
+        "square": "c8",
+        "expected": "b",
+        "actual": "."
+      },
+      {
+        "square": "d8",
+        "expected": "q",
+        "actual": "."
+      },
+      {
+        "square": "e8",
+        "expected": "r",
+        "actual": "."
+      },
+      {
+        "square": "f8",
+        "expected": "n",
+        "actual": "."
+      },
+      {
+        "square": "g8",
+        "expected": "k",
+        "actual": "."
+      },
+      {
+        "square": "b7",
+        "expected": "p",
+        "actual": "."
+      },
+      {
+        "square": "e7",
+        "expected": "b",
+        "actual": "."
+      },
+      {
+        "square": "f7",
+        "expected": "p",
+        "actual": "."
+      },
+      {
+        "square": "g7",
+        "expected": "p",
+        "actual": "."
+      },
+      {
+        "square": "c6",
+        "expected": "p",
+        "actual": "."
+      },
+      {
+        "square": "f6",
+        "expected": "n",
+        "actual": "."
+      },
+      {
+        "square": "d5",
+        "expected": "p",
+        "actual": "."
+      },
+      {
+        "square": "g5",
+        "expected": "B",
+        "actual": "."
+      },
+      {
+        "square": "d4",
+        "expected": "P",
+        "actual": "."
+      },
+      {
+        "square": "d3",
+        "expected": "B",
+        "actual": "K"
+      },
+      {
+        "square": "e3",
+        "expected": "P",
+        "actual": "."
+      },
+      {
+        "square": "f3",
+        "expected": "N",
+        "actual": "."
+      },
+      {
+        "square": "c2",
+        "expected": "Q",
+        "actual": "q"
+      },
+      {
+        "square": "f2",
+        "expected": "P",
+        "actual": "."
+      },
+      {
+        "square": "g2",
+        "expected": "P",
+        "actual": "."
+      },
+      {
+        "square": "h2",
+        "expected": "P",
+        "actual": "."
+      },
+      {
+        "square": "a1",
+        "expected": "R",
+        "actual": "r"
+      },
+      {
+        "square": "f1",
+        "expected": "R",
+        "actual": "."
+      },
+      {
+        "square": "g1",
+        "expected": "K",
+        "actual": "."
+      }
+    ]
+  },
+  {
+    "placement": "2kr2r1/ppqbnp1Q/4p3/PB1pn1B1/8/P1p2N2/2P2PPP/R4RK1",
+    "id": "cap09",
+    "correct": 64,
+    "errors": []
+  },
+  {
+    "placement": "2kr2r1/ppqbnp1Q/4p3/1B1pn1B1/8/N1p2N2/2P2PPP/R4RK1",
+    "id": "cap11",
+    "correct": 62,
+    "errors": [
+      {
+        "square": "a5",
+        "expected": "P",
+        "actual": "."
+      },
+      {
+        "square": "a3",
+        "expected": "P",
+        "actual": "N"
+      }
+    ]
+  },
+  {
+    "placement": "6k1/8/5ppR/4p2p/4P2P/5P1K/5rP1/8",
+    "id": "cap14",
+    "correct": 64,
+    "errors": []
+  },
+  {
+    "placement": "r1b1k1nr/pppp1p1p/6p1/3QP3/1n6/5N2/PqPNPPPP/1R2KB1R",
+    "id": "cap16",
+    "correct": 64,
+    "errors": []
+  },
+  {
+    "placement": "rnbqkb1r/ppppnppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R",
+    "id": "cap19",
+    "correct": 64,
+    "errors": []
+  },
+  {
+    "placement": "8/5p2/4k1p1/2B3P1/2K5/8/8/8",
+    "id": "cap21",
+    "correct": 63,
+    "errors": [
+      {
+        "square": "c5",
+        "expected": "P",
+        "actual": "B"
+      }
+    ]
+  },
+  {
+    "placement": "4rrk1/p1pn2pp/2pp1p2/8/4PP2/1P4PB/P1P3B1/3R1RK1",
+    "id": "cap24",
+    "correct": 63,
+    "errors": [
+      {
+        "square": "h3",
+        "expected": "P",
+        "actual": "B"
+      }
+    ]
+  },
+  {
+    "placement": "4rrk1/p1pn2pp/2pp1p2/8/4PP2/1P4PP/P1P3B1/3r1RK1",
+    "id": "cap26",
+    "correct": 63,
+    "errors": [
+      {
+        "square": "d1",
+        "expected": "R",
+        "actual": "r"
+      }
+    ]
+  }
+]

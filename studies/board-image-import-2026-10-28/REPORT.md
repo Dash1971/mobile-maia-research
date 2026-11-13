@@ -1,5 +1,7 @@
 # Screenshot and chess-diagram import: pinned MIT model accuracy
 
+> **Follow-up, 13 November 2026:** Camera/image recognition has been shelved after further phone-photo testing and a search for open, lightweight alternatives. See the [new visual report and model comparison](../offline-board-recognition-2026-11-13/REPORT.md). This earlier report remains the record of its original experiment.
+
 28 October 2026 · Independent Mobile Maia experiment for [Preview #179](https://github.com/Dash1971/maia-chess-android-preview/issues/179)
 
 The 0.84 MB MIT model is a useful candidate for **assisted import with correction**, but this experiment does not support treating it as reliable automatic import for arbitrary chess diagrams. Clear screenshots often worked. Book fonts, arrows and ambiguous board selection caused important failures. The earlier licensing recommendation is separate from this accuracy assessment.
