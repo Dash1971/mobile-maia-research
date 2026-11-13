@@ -17,4 +17,3 @@ def automatic(a):
  else:
   prepared=rectified;mode='original colour';level=None
  return dict(quad=c['quad'].tolist(),grid_score=c['score'],chroma=chroma,preprocessing=mode,threshold=level,rectified=rectified,prepared=prepared)
-

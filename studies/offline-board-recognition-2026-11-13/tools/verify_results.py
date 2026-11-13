@@ -68,7 +68,7 @@ def main():
               'input_photos_public': False, 'android_performance_measured': False}
     (ROOT / 'data/metrics.json').write_text(json.dumps(report, indent=2) + '\n')
     with (ROOT / 'data/per-photo.csv').open('w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=list(per_photo[0]))
+        writer = csv.DictWriter(f, fieldnames=list(per_photo[0]), lineterminator="\n")
         writer.writeheader()
         writer.writerows(per_photo)
     print(json.dumps(report, indent=2))

@@ -20,19 +20,19 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 330.775875 
-L 659.090625 330.775875 
-L 659.090625 0 
-L 0 0 
+   <path d="M 0 330.775875
+L 659.090625 330.775875
+L 659.090625 0
+L 0 0
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 128.087187 309.429938 
-L 574.487188 309.429938 
-L 574.487188 32.229938 
-L 128.087187 32.229938 
+    <path d="M 128.087187 309.429938
+L 574.487188 309.429938
+L 574.487188 32.229938
+L 128.087187 32.229938
 z
 " style="fill: #ffffff"/>
    </g>
@@ -147,13 +147,13 @@ iVBORw0KGgoAAAANSUhEUgAAAm0AAAGCCAYAAACy8fR0AAAIM0lEQVR4nO3YMY5VZRyH4XtnjgMRYogW
     </g>
    </g>
    <g id="patch_3">
-    <path d="M 128.087187 309.429938 
-L 128.087187 32.229938 
+    <path d="M 128.087187 309.429938
+L 128.087187 32.229938
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="patch_4">
-    <path d="M 128.087187 309.429938 
-L 574.487188 309.429938 
+    <path d="M 128.087187 309.429938
+L 574.487188 309.429938
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_18">
@@ -342,10 +342,10 @@ L 574.487188 309.429938
   </g>
   <g id="axes_2">
    <g id="patch_5">
-    <path d="M 602.387188 309.429938 
-L 616.247188 309.429938 
-L 616.247188 32.229938 
-L 602.387188 32.229938 
+    <path d="M 602.387188 309.429938
+L 616.247188 309.429938
+L 616.247188 32.229938
+L 602.387188 32.229938
 z
 " style="fill: #ffffff"/>
    </g>
@@ -356,8 +356,8 @@ iVBORw0KGgoAAAANSUhEUgAAABMAAAGBCAYAAACEiYowAAAB4ElEQVR4nO2agW0EQQgDfWj7ryw14Sgl
     <g id="ytick_13">
      <g id="line2d_18">
       <defs>
-       <path id="m30924997ae" d="M 0 0 
-L 3.5 0 
+       <path id="m30924997ae" d="M 0 0
+L 3.5 0
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
@@ -414,13 +414,13 @@ L 3.5 0
    </g>
    <g id="LineCollection_1"/>
    <g id="patch_6">
-    <path d="M 602.387188 309.429938 
-L 609.317188 309.429938 
-L 616.247188 309.429938 
-L 616.247188 32.229938 
-L 609.317188 32.229938 
-L 602.387188 32.229938 
-L 602.387188 309.429938 
+    <path d="M 602.387188 309.429938
+L 609.317188 309.429938
+L 616.247188 309.429938
+L 616.247188 32.229938
+L 609.317188 32.229938
+L 602.387188 32.229938
+L 602.387188 309.429938
 z
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>

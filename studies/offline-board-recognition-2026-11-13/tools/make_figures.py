@@ -21,6 +21,8 @@ out.mkdir(exist_ok=True)
 def save(fig, name):
     fig.savefig(out / (name + '.svg'), bbox_inches='tight', metadata={'Date': None})
     fig.savefig(out / (name + '.png'), bbox_inches='tight', dpi=160)
+    svg = out / (name + '.svg')
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines()) + '\n')
     plt.close(fig)
 
 

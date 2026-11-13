@@ -51,4 +51,3 @@ def candidates(a):
     w=warp(a,q);score=grid_score(w)
     out.append(dict(quad=q,score=score,area=float(area)))
  return sorted(out,key=lambda x:(x['score'][0],x['score'][1]),reverse=True)
-
