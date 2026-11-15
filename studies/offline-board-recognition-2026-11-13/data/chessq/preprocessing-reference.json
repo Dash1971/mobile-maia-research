@@ -1,0 +1,78 @@
+{
+  "reference": "En Croissant vision.rs preprocessing_matches_torchvision_reference",
+  "maxAbsError": 3.999633779727674e-08,
+  "checks": [
+    {
+      "channel": 0,
+      "y": 0,
+      "x": 0,
+      "actual": -2.058122396469116,
+      "expected": -2.0581224,
+      "absError": 3.5308835855119014e-09
+    },
+    {
+      "channel": 0,
+      "y": 17,
+      "x": 29,
+      "actual": 0.019186709076166153,
+      "expected": 0.01918671,
+      "absError": 9.238338462280726e-10
+    },
+    {
+      "channel": 0,
+      "y": 643,
+      "x": 643,
+      "actual": 0.8020244836807251,
+      "expected": 0.8020245,
+      "absError": 1.6319274931397842e-08
+    },
+    {
+      "channel": 1,
+      "y": 0,
+      "x": 0,
+      "actual": -1.904168963432312,
+      "expected": -1.904169,
+      "absError": 3.656768798876442e-08
+    },
+    {
+      "channel": 1,
+      "y": 177,
+      "x": 392,
+      "actual": -0.5175198316574097,
+      "expected": -0.51751983,
+      "absError": 1.657409653965658e-09
+    },
+    {
+      "channel": 1,
+      "y": 643,
+      "x": 643,
+      "actual": 0.07364353537559509,
+      "expected": 0.073643535,
+      "absError": 3.755950966910504e-10
+    },
+    {
+      "channel": 2,
+      "y": 0,
+      "x": 0,
+      "actual": -1.6067047119140625,
+      "expected": -1.6067047,
+      "absError": 1.1914062403306502e-08
+    },
+    {
+      "channel": 2,
+      "y": 398,
+      "x": 51,
+      "actual": 1.442674160003662,
+      "expected": 1.4426742,
+      "absError": 3.999633779727674e-08
+    },
+    {
+      "channel": 2,
+      "y": 643,
+      "x": 643,
+      "actual": 0.8562137484550476,
+      "expected": 0.85621375,
+      "absError": 1.5449523882438143e-09
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "sourceApk": "https://github.com/Dash1971/maia-chess-android-preview/releases/download/v2.6.0-beta.2/Mobile-Maia-Preview-v2.6.0-beta.2.apk",
+  "apkBytes": 456789332,
+  "bytesRead": 228670,
+  "centralDirectoryBytes": 163134,
+  "archiveEntries": 1732,
+  "nativeLibrariesByAbi": {
+    "arm64-v8a": {
+      "compressedBytes": 52432120,
+      "uncompressedBytes": 52432120,
+      "files": 8
+    },
+    "armeabi-v7a": {
+      "compressedBytes": 41397440,
+      "uncompressedBytes": 41397440,
+      "files": 8
+    },
+    "x86_64": {
+      "compressedBytes": 59611408,
+      "uncompressedBytes": 59611408,
+      "files": 8
+    }
+  },
+  "modelAssets": [
+    {
+      "name": "assets/flutter_assets/assets/models/board_squares.onnx",
+      "compressedBytes": 775477,
+      "uncompressedBytes": 835655
+    },
+    {
+      "name": "assets/flutter_assets/assets/models/maia3-79m.onnx",
+      "compressedBytes": 293001496,
+      "uncompressedBytes": 316034244
+    }
+  ],
+  "otherAbiPayloadBytes": 101008848,
+  "arm64OnlyPayloadEstimateBytes": 355780484,
+  "estimateLimitations": "Subtracts native payload only; rebuild changes ZIP metadata, alignment/signatures. No Android build or complete APK/model download.",
+  "scannerOriginalWeightBytes": 63147914,
+  "arm64PlusOriginalScannerWeightEstimateBytes": 418928398,
+  "savingAfterAddingOriginalWeightsBytes": 37860934,
+  "scannerCaveat": "Uses existing 63.15 MB FP16 safetensors file size for illustration; Android conversion, compression, runtime code, alignment and replacement of old 0.78 MB scanner asset may change result. RAM is not offset by APK ABI slimming.",
+  "arm64PlusV4Int8EstimateBytes": 397150882,
+  "candidateEstimateNote": "Historical beta.2 basis; adds original V4 INT8 bytes before compression, integration and alignment. No integrated scanner APK was built; beta.3 has withdrawn the old scanner."
+}

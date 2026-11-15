@@ -1,0 +1,113 @@
+{
+  "modelSha256": "fd269bcfdefe6208b75490d7ac72524c0970f8212470a88012ce755b5f092d10",
+  "modelBytes": 63147914,
+  "sourceCommit": "f5aaaf38212cc7839b03ccf383455053905b3f7e",
+  "sourceFiles": {
+    "LICENSE": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5",
+    "pyproject.toml": "e8ab9c69cb7c478330e3dd3e00449bac9a40650069b0f432d2f58618ffac88ce",
+    "chessqueries/__init__.py": "85db2d18fe436cd964da68476a42a243019635639dbd136962cd0377c326e316",
+    "chessqueries/core/board.py": "f05b7535496d9ef0951f346be5d9c59ea8549083b51ad4321b8c6b0780e34239",
+    "chessqueries/core/__init__.py": "3a4c3e1713469284d5dc329aa8eb45a63d6ed55c63d56d5667cfa861e61e8140",
+    "chessqueries/core/pieces.py": "5945493200be6ead70451a324587abf6d128301401a970d6df18d93660deb1be",
+    "chessqueries/core/split.py": "b2a590ee0e828a91aaf984a871fe2208d4413706fe6f47c6279016ec80f34771",
+    "chessqueries/core/square.py": "9b46d92692c66f1cba3eda7f952b02ca6fb32714ecf9f11a8fa62b262966f077",
+    "chessqueries/models/checkpoint.py": "09fe260f67b6871f189e1afefd38e20eea69c3fd2de3cd6b01f300338255857f",
+    "chessqueries/models/__init__.py": "f249736d0521504f58b8c2b2bddc112f951cb68fb02b5dde7e15d883c3792f9d",
+    "chessqueries/models/base.py": "43b29559b676da044d8b58ed3bdc23ded87e0ac0f2731a38fcccb064b50e16f1",
+    "chessqueries/models/chessqueries_model.py": "4f2ab50973e3c704adf56ae3dc16b7d278b1d694bc082336e341d9ecc989a0cb",
+    "chessqueries/data/transforms.py": "9565975efb06415ea5cf8131bf37bd86161456dac6aa03887f1aff04ea5c9fd7"
+  },
+  "truthSha256": "cbd281d9e3c3aee1289d61f123d042ea1a900c4cc5f9f35cb7c58b2000c1f273",
+  "geometrySha256": "de6e447f94fe96afe874475e0cebf11f7ca56309d85226b11f3f2622a47cc66a",
+  "routes": [
+    "full_photo",
+    "common_crop"
+  ],
+  "scoring": "64-square exact placement; no per-image rotation/route selection",
+  "inputs": [
+    {
+      "id": "book",
+      "expected": "6r1/3k4/8/3KP3/8/8/7R/8",
+      "sourcePngSha256": "0844d8cbef9543b33936bda5b2ec8107cceb0931f508dc9391eb01d4284c1602",
+      "commonFrameRgbaSha256": "37241e5cbb858ce376adbf203c62edc39c76bfd189a3124f645914cdb1d48e50",
+      "rotationCcw": 0
+    },
+    {
+      "id": "screen",
+      "expected": "8/ppp3pp/2p5/2k5/K2R4/5P1N/PrP3PP/8",
+      "sourcePngSha256": "a24cd5c593f4eb2d85bbf18ef7fb5c0a0e7f48b1f7b663ab83ddf3ba50a953c1",
+      "commonFrameRgbaSha256": "03012818e34c04f93bc134f3b30fad71d4c15911634ad68ac701b7735d9d3341",
+      "rotationCcw": 0
+    },
+    {
+      "id": "cap03",
+      "expected": "rn1qr1k1/ppp2pbp/3p1np1/4p1B1/3PP3/2P2B1P/PP1N1PP1/R2QK2R",
+      "sourcePngSha256": "4d45e3e7035bb460cac404f3dbd9e488f8559fab3c668bfcc7725101dfae5044",
+      "commonFrameRgbaSha256": "35f62888df30b70a20ac249765042fe27df2f9ffb7a759352e0eedf9dfc1b075",
+      "rotationCcw": 180
+    },
+    {
+      "id": "cap06",
+      "expected": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBPN2/PPQ2PPP/R4RK1",
+      "sourcePngSha256": "81a0ba50f5fc97d34f02ed7718e49037b4445ae87e1feb3641307cb72ca88fc7",
+      "commonFrameRgbaSha256": "57723744bc131d76480f9d3ab6fd610e50493a12a2387fb68243aabfc30986de",
+      "rotationCcw": 180
+    },
+    {
+      "id": "cap09",
+      "expected": "2kr2r1/ppqbnp1Q/4p3/PB1pn1B1/8/P1p2N2/2P2PPP/R4RK1",
+      "sourcePngSha256": "0348345d1c17ad636bf06988dfab12822fad18c1c72d2d798d54b6f8c3a49511",
+      "commonFrameRgbaSha256": "e2c5195df8f60ee57f7c4f40b740facc4681509a1c2d16dcf67d42e16374b8a6",
+      "rotationCcw": 90
+    },
+    {
+      "id": "cap11",
+      "expected": "2kr2r1/ppqbnp1Q/4p3/PB1pn1B1/8/P1p2N2/2P2PPP/R4RK1",
+      "sourcePngSha256": "caccb0dd777086b3b23ce9e105419e04201231b1a56370de3506f6354ba0dadb",
+      "commonFrameRgbaSha256": "f75c2b3f4545fad10126f637e8d438dd5a80db30a8625b0096aae7b91c6b5388",
+      "rotationCcw": 90
+    },
+    {
+      "id": "cap14",
+      "expected": "6k1/8/5ppR/4p2p/4P2P/5P1K/5rP1/8",
+      "sourcePngSha256": "75cc442f86781052640a885872eac7879e412ba79eadee1bd2c23debe4497e4c",
+      "commonFrameRgbaSha256": "4296fef2054ace38b6f5d7af24e088970a9a39fa5dd081ddd059b1791095495c",
+      "rotationCcw": 0
+    },
+    {
+      "id": "cap16",
+      "expected": "r1b1k1nr/pppp1p1p/6p1/3QP3/1n6/5N2/PqPNPPPP/1R2KB1R",
+      "sourcePngSha256": "bf6d13e64aba71e09752fe92bb45d0d067aa09a4435ad22eb0e2212192fc7774",
+      "commonFrameRgbaSha256": "28844ba3fabcec9c9946ad132d2cf0dcbc2b6c1b5f015e790a220bbde9550f6e",
+      "rotationCcw": 0
+    },
+    {
+      "id": "cap19",
+      "expected": "rnbqkb1r/ppppnppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R",
+      "sourcePngSha256": "1fb31e41486f09afcaac5f78472331330eed08da9e6910587f27dab919146429",
+      "commonFrameRgbaSha256": "ba37306931cbc1f906f60663f6e2166eb2472dc3f0dd60d7112dcc34697cf5ca",
+      "rotationCcw": 0
+    },
+    {
+      "id": "cap21",
+      "expected": "8/5p2/4k1p1/2P3P1/2K5/8/8/8",
+      "sourcePngSha256": "35b55b73bd707db2357e43c454e3ccf6ee9c58366d776c9b101d8d253094791d",
+      "commonFrameRgbaSha256": "b6fa03ec535e27b59a342757beeecd605055c1120336113a5806bce5aaa6837c",
+      "rotationCcw": 0
+    },
+    {
+      "id": "cap24",
+      "expected": "4rrk1/p1pn2pp/2pp1p2/8/4PP2/1P4PP/P1P3B1/3R1RK1",
+      "sourcePngSha256": "b0552bd0fa661993754575b07658a80df6cae95ec225c9a924a32b4bf98b8fd5",
+      "commonFrameRgbaSha256": "84fc1af432f8962af452bf4d18fe43cafad96c54d1c1339a3685c37309798762",
+      "rotationCcw": 90
+    },
+    {
+      "id": "cap26",
+      "expected": "4rrk1/p1pn2pp/2pp1p2/8/4PP2/1P4PP/P1P3B1/3R1RK1",
+      "sourcePngSha256": "dd5f6c4a9f2477dd8fbbf915d7acd698b3f49daf72cd9e216b766299787d93f2",
+      "commonFrameRgbaSha256": "a3a8ff42b51e8cff4bc4dbf4553c7954985e621879332b4d282d837f5b849a64",
+      "rotationCcw": 90
+    }
+  ]
+}
