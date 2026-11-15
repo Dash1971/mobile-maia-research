@@ -15,11 +15,18 @@ results and match scores, with links to the full study and recorded data.
 
 ## Studies
 
-### Offline board recognition — 13 November 2026
+### Offline board recognition — updated November 15, 2026
 
 [Visual report and model comparison](studies/offline-board-recognition-2026-11-13/REPORT.md) · [Evidence and reproduction guide](studies/offline-board-recognition-2026-11-13/README.md)
 
-We looked for an open, lightweight model for offline camera/screenshot-to-board import. Small models were unreliable on twelve test photos; larger candidates still made errors and would add substantially to the existing Maia 79M footprint. Lichess's ChessQ Lite has a noncommercial model licence. No sufficiently suitable candidate was found, and the feature is shelved. The report separates identical-crop classification from full-photo detection and includes all measured failures, licence findings, model sizes and actual reconstructed positions.
+The original model search shelved offline scanning. Follow-up tests now find
+**ChessQ Lite V4 INT8 accuracy acceptable on our twelve-photo test set**:
+10/12 exact full positions, matching the 63.1 MB V4 model in a 41.4 MB ONNX file.
+V5 INT8 performed worse. **Shipping remains undecided while we weigh APK size
+and the published noncommercial license**, including distribution/F-Droid
+implications and Android validation. The plan does not depend on obtaining a
+more permissive license. The visual report preserves the original investigation
+and adds the measured follow-up, remaining errors and size estimates.
 
 ### How we rate the bots in Mute Chess
 
@@ -87,6 +94,6 @@ History improved average human-move prediction but strongly reinforced copying i
 
 The study includes 20,160 main human-game positions, 4,000 opening positions, 384 tactical diagnostics and 1,000 targeted Stonewall opening trials. It does not establish a change in full-game Elo or claim an explicit upstream recommendation against history.
 
-## Attribution and licence
+## Attribution and license
 
 This is independent Mobile Maia research, not an official Maia-team publication. Sources, model hashes and methodological limits are documented per study. Original code and documentation are licensed under [AGPL-3.0-only](LICENSE); third-party models, datasets and software retain their upstream terms.

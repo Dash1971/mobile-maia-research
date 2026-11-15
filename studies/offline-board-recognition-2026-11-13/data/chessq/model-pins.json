@@ -1,0 +1,24 @@
+[
+  {
+    "version": "v4",
+    "filename": "chessq-lite-v4-int8.onnx",
+    "url": "https://lichess.org/assets/lifat/vision/chessq-lite-v4-int8.onnx",
+    "finalUrl": "https://lichess.org/assets/lifat/vision/chessq-lite-v4-int8.onnx",
+    "bytes": 41370398,
+    "sha256": "89d75e343c5d98f235855a67588efb469a4e7cff1e003ee6b6ee0de67732ae1f",
+    "lichessSourceCommit": "4a427ef69b93816aac87e0df59b44f38ea2e49fe",
+    "downloadSeconds": 0.5799109591171145,
+    "method": "ordinary HTTPS from Lichess, not Git LFS"
+  },
+  {
+    "version": "v5",
+    "filename": "chessq-lite-v5-int8.onnx",
+    "url": "https://lichess.org/assets/lifat/vision/chessq-lite-v5-int8.onnx",
+    "finalUrl": "https://lichess.org/assets/lifat/vision/chessq-lite-v5-int8.onnx",
+    "bytes": 35905331,
+    "sha256": "334c8b19b4f3fd92e95f74ec75e0e34e86e5c95bcd7c090c972d126497bd5da3",
+    "lichessSourceCommit": "4a427ef69b93816aac87e0df59b44f38ea2e49fe",
+    "downloadSeconds": 0.5010605840943754,
+    "method": "ordinary HTTPS from Lichess, not Git LFS"
+  }
+]

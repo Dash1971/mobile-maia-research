@@ -1,0 +1,218 @@
+{
+  "previousProtocolSha256": "3e84e523aaf034349b67fdd8d869d50392640fd8321b212b4359674288eba8ad",
+  "previousPredictionSha256": "47f8b96168b588e518f65da4d4812d3482ad60725c9811c29ce43c4fb747d49d",
+  "sourceCommit": "f5aaaf38212cc7839b03ccf383455053905b3f7e",
+  "truthSha256": "cbd281d9e3c3aee1289d61f123d042ea1a900c4cc5f9f35cb7c58b2000c1f273",
+  "inputs": [
+    {
+      "id": "book",
+      "expected": "6r1/3k4/8/3KP3/8/8/7R/8",
+      "sourcePngSha256": "0844d8cbef9543b33936bda5b2ec8107cceb0931f508dc9391eb01d4284c1602",
+      "commonFrameRgbaSha256": "37241e5cbb858ce376adbf203c62edc39c76bfd189a3124f645914cdb1d48e50",
+      "rotationCcw": 0
+    },
+    {
+      "id": "screen",
+      "expected": "8/ppp3pp/2p5/2k5/K2R4/5P1N/PrP3PP/8",
+      "sourcePngSha256": "a24cd5c593f4eb2d85bbf18ef7fb5c0a0e7f48b1f7b663ab83ddf3ba50a953c1",
+      "commonFrameRgbaSha256": "03012818e34c04f93bc134f3b30fad71d4c15911634ad68ac701b7735d9d3341",
+      "rotationCcw": 0
+    },
+    {
+      "id": "cap03",
+      "expected": "rn1qr1k1/ppp2pbp/3p1np1/4p1B1/3PP3/2P2B1P/PP1N1PP1/R2QK2R",
+      "sourcePngSha256": "4d45e3e7035bb460cac404f3dbd9e488f8559fab3c668bfcc7725101dfae5044",
+      "commonFrameRgbaSha256": "35f62888df30b70a20ac249765042fe27df2f9ffb7a759352e0eedf9dfc1b075",
+      "rotationCcw": 180
+    },
+    {
+      "id": "cap06",
+      "expected": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBPN2/PPQ2PPP/R4RK1",
+      "sourcePngSha256": "81a0ba50f5fc97d34f02ed7718e49037b4445ae87e1feb3641307cb72ca88fc7",
+      "commonFrameRgbaSha256": "57723744bc131d76480f9d3ab6fd610e50493a12a2387fb68243aabfc30986de",
+      "rotationCcw": 180
+    },
+    {
+      "id": "cap09",
+      "expected": "2kr2r1/ppqbnp1Q/4p3/PB1pn1B1/8/P1p2N2/2P2PPP/R4RK1",
+      "sourcePngSha256": "0348345d1c17ad636bf06988dfab12822fad18c1c72d2d798d54b6f8c3a49511",
+      "commonFrameRgbaSha256": "e2c5195df8f60ee57f7c4f40b740facc4681509a1c2d16dcf67d42e16374b8a6",
+      "rotationCcw": 90
+    },
+    {
+      "id": "cap11",
+      "expected": "2kr2r1/ppqbnp1Q/4p3/PB1pn1B1/8/P1p2N2/2P2PPP/R4RK1",
+      "sourcePngSha256": "caccb0dd777086b3b23ce9e105419e04201231b1a56370de3506f6354ba0dadb",
+      "commonFrameRgbaSha256": "f75c2b3f4545fad10126f637e8d438dd5a80db30a8625b0096aae7b91c6b5388",
+      "rotationCcw": 90
+    },
+    {
+      "id": "cap14",
+      "expected": "6k1/8/5ppR/4p2p/4P2P/5P1K/5rP1/8",
+      "sourcePngSha256": "75cc442f86781052640a885872eac7879e412ba79eadee1bd2c23debe4497e4c",
+      "commonFrameRgbaSha256": "4296fef2054ace38b6f5d7af24e088970a9a39fa5dd081ddd059b1791095495c",
+      "rotationCcw": 0
+    },
+    {
+      "id": "cap16",
+      "expected": "r1b1k1nr/pppp1p1p/6p1/3QP3/1n6/5N2/PqPNPPPP/1R2KB1R",
+      "sourcePngSha256": "bf6d13e64aba71e09752fe92bb45d0d067aa09a4435ad22eb0e2212192fc7774",
+      "commonFrameRgbaSha256": "28844ba3fabcec9c9946ad132d2cf0dcbc2b6c1b5f015e790a220bbde9550f6e",
+      "rotationCcw": 0
+    },
+    {
+      "id": "cap19",
+      "expected": "rnbqkb1r/ppppnppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R",
+      "sourcePngSha256": "1fb31e41486f09afcaac5f78472331330eed08da9e6910587f27dab919146429",
+      "commonFrameRgbaSha256": "ba37306931cbc1f906f60663f6e2166eb2472dc3f0dd60d7112dcc34697cf5ca",
+      "rotationCcw": 0
+    },
+    {
+      "id": "cap21",
+      "expected": "8/5p2/4k1p1/2P3P1/2K5/8/8/8",
+      "sourcePngSha256": "35b55b73bd707db2357e43c454e3ccf6ee9c58366d776c9b101d8d253094791d",
+      "commonFrameRgbaSha256": "b6fa03ec535e27b59a342757beeecd605055c1120336113a5806bce5aaa6837c",
+      "rotationCcw": 0
+    },
+    {
+      "id": "cap24",
+      "expected": "4rrk1/p1pn2pp/2pp1p2/8/4PP2/1P4PP/P1P3B1/3R1RK1",
+      "sourcePngSha256": "b0552bd0fa661993754575b07658a80df6cae95ec225c9a924a32b4bf98b8fd5",
+      "commonFrameRgbaSha256": "84fc1af432f8962af452bf4d18fe43cafad96c54d1c1339a3685c37309798762",
+      "rotationCcw": 90
+    },
+    {
+      "id": "cap26",
+      "expected": "4rrk1/p1pn2pp/2pp1p2/8/4PP2/1P4PP/P1P3B1/3R1RK1",
+      "sourcePngSha256": "dd5f6c4a9f2477dd8fbbf915d7acd698b3f49daf72cd9e216b766299787d93f2",
+      "commonFrameRgbaSha256": "a3a8ff42b51e8cff4bc4dbf4553c7954985e621879332b4d282d837f5b849a64",
+      "rotationCcw": 90
+    }
+  ],
+  "tensorHashes": [
+    {
+      "id": "book",
+      "route": "full_photo",
+      "float32NchwSha256": "94f7d14cea2f2308d6707e0892979218944b518744726ac25bfe440d99943889"
+    },
+    {
+      "id": "book",
+      "route": "common_crop",
+      "float32NchwSha256": "3feff846f038da24ced9f9b6d088352162dca2a4d43929e31676a49d6d26fe28"
+    },
+    {
+      "id": "screen",
+      "route": "full_photo",
+      "float32NchwSha256": "fb3fd3fdf439cac755e6f1a7300cb706edeb3aab7f7b84da9b10c7cb191dd84c"
+    },
+    {
+      "id": "screen",
+      "route": "common_crop",
+      "float32NchwSha256": "f3b68b00b00b0beca70c776b1fbb0f85d004fda4787c8d8270451c819e1b8481"
+    },
+    {
+      "id": "cap03",
+      "route": "full_photo",
+      "float32NchwSha256": "2d5d940016d92428a6bffc228fed7c6c1a3d4f2228d159b865713e44f000ca0b"
+    },
+    {
+      "id": "cap03",
+      "route": "common_crop",
+      "float32NchwSha256": "6cf99e7d99ff5e77b8c585cc09d3dc9d67bf36bcef52a15692ce98750062b8e3"
+    },
+    {
+      "id": "cap06",
+      "route": "full_photo",
+      "float32NchwSha256": "5276000f9c658b332f73353d120bb4d2c80bbc796f436769a05fb4fd9215bd36"
+    },
+    {
+      "id": "cap06",
+      "route": "common_crop",
+      "float32NchwSha256": "19aec7807fabd76a8f953d6cc00af55e798b673b11c1c8473f6e079ffa19672d"
+    },
+    {
+      "id": "cap09",
+      "route": "full_photo",
+      "float32NchwSha256": "3760b4e5a0ffee8fa92d93f0e836c2bc8c3ccf4ec3d89d222c317cc57ac1e62a"
+    },
+    {
+      "id": "cap09",
+      "route": "common_crop",
+      "float32NchwSha256": "9f3107087b282f66072714a432929aced801f064187f79de666219125a017fa4"
+    },
+    {
+      "id": "cap11",
+      "route": "full_photo",
+      "float32NchwSha256": "f1498048b1680b5f125ca4b18d88dba9f56fc3f5f3e0e067ce70e03626662d20"
+    },
+    {
+      "id": "cap11",
+      "route": "common_crop",
+      "float32NchwSha256": "5dd4f148b5936443a7f9710129a2a8258ce1a9e24c17d712f18f36a20e2ac9f4"
+    },
+    {
+      "id": "cap14",
+      "route": "full_photo",
+      "float32NchwSha256": "5ad891a838f6b477c9befc027376c08f43ec38f67699bbc680fa3d55b90c8ae6"
+    },
+    {
+      "id": "cap14",
+      "route": "common_crop",
+      "float32NchwSha256": "a8354a868c53cf139aab4e2ed51d5f29207dfc1bebd26181a93623cb4eb4960b"
+    },
+    {
+      "id": "cap16",
+      "route": "full_photo",
+      "float32NchwSha256": "c23f896b4b1a588a0cffe2eb169935b1356580702a4e81e2063036276c03360e"
+    },
+    {
+      "id": "cap16",
+      "route": "common_crop",
+      "float32NchwSha256": "1d2091a8b1206d277f4689c03f6c4dc5504352c056b6b137d9ff2b7bd13b8998"
+    },
+    {
+      "id": "cap19",
+      "route": "full_photo",
+      "float32NchwSha256": "39f27eb5d333cc6cf25483440502bda1b3dc04084d8f1a9e97cdc402f6ee11af"
+    },
+    {
+      "id": "cap19",
+      "route": "common_crop",
+      "float32NchwSha256": "1c74731f70dae9e2e90816c03b3adaa21383b1074f66bf1f53e03860a002be89"
+    },
+    {
+      "id": "cap21",
+      "route": "full_photo",
+      "float32NchwSha256": "9cc657d43841d7ce83f41d8e934c75fcf61425e5e067b6996bb0eec4401685e6"
+    },
+    {
+      "id": "cap21",
+      "route": "common_crop",
+      "float32NchwSha256": "0ff0e78c36150562596a68f4e3736e25ebbf8a7778c9e755b198667b405a2683"
+    },
+    {
+      "id": "cap24",
+      "route": "full_photo",
+      "float32NchwSha256": "1e9e6026ce11b8de8ce93efaa86593cf87a9a6ebd30507752e591cf3052aa3e8"
+    },
+    {
+      "id": "cap24",
+      "route": "common_crop",
+      "float32NchwSha256": "2e03a04fccef88117e0e2c867d124ea7680c967da563f81d3b3ca6abda4b98c1"
+    },
+    {
+      "id": "cap26",
+      "route": "full_photo",
+      "float32NchwSha256": "ea17511f216dd017f0fe72ff9ef0e5e77ba5eb8e76b37c45018716ac9b604e82"
+    },
+    {
+      "id": "cap26",
+      "route": "common_crop",
+      "float32NchwSha256": "34e1b28489ce24d8e5c228e75c1ad843358c702529599935ca306b383f5a640e"
+    }
+  ],
+  "preprocessing": "Same upstream torchvision 0.23 antialiased bilinear resize to 644 and ImageNet normalization as prior FP16 experiment; identical cached tensors for all models.",
+  "scoring": "Every one of 64 squares must match; fixed full-photo and common-crop routes, no prediction-guided choice of route, rotation or crop.",
+  "runtime": "CPU only; 4 intra-op threads and 1 inter-op thread; ONNX graph optimizations enabled.",
+  "v5Direction": "Recorded separately using Lichess cos(100 degrees) threshold; does not rotate or alter scored FEN placement."
+}
