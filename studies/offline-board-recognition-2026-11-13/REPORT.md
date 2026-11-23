@@ -4,9 +4,9 @@
 
 > **November 23, 2026 follow-up.** We trained our own 3.5 MB model and compared
 > it with ChessQ Lite V4, Fenshot and Fenify on 88 new photos and 1,650 screen
-> boards: [Open Board Scanner report](https://github.com/Dash1971/open-board-scanner/blob/main/REPORT.md). Its models are noncommercial,
-> and inclusion in Mobile Maia is pending a licensing review. The findings
-> below are unchanged.
+> boards: [Open Board Scanner report](https://github.com/Dash1971/open-board-scanner/blob/main/REPORT.md). Its models are trained
+> partly on noncommercial artwork, and inclusion in Mobile Maia is pending a
+> licensing review. The findings below are unchanged.
 
 We wanted an open, lightweight model that could turn a photograph of a printed
 chess diagram or an on-screen board into an editable position, entirely offline.
