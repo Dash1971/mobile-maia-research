@@ -2,6 +2,9 @@
 
 [Visual report and decision](REPORT.md)
 
+Follow-up, November 23, 2026: [Open Board Scanner report](https://github.com/Dash1971/open-board-scanner/blob/main/REPORT.md), our own
+3.5 MB model compared with ChessQ Lite V4, Fenshot and Fenify.
+
 The November 15 follow-up finds **V4 INT8 accuracy acceptable on this test set**,
 with shipping undecided pending APK-size and licensing/distribution trade-offs.
 The plan does not assume a more permissive license will be available. The

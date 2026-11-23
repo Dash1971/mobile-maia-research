@@ -19,6 +19,11 @@ results and match scores, with links to the full study and recorded data.
 
 [Visual report and model comparison](studies/offline-board-recognition-2026-11-13/REPORT.md) · [Evidence and reproduction guide](studies/offline-board-recognition-2026-11-13/README.md)
 
+Follow-up, November 23, 2026: [Open Board Scanner report](https://github.com/Dash1971/open-board-scanner/blob/main/REPORT.md). We trained
+our own 3.5 MB model and compared it with ChessQ Lite V4, Fenshot and Fenify.
+Its models are noncommercial; inclusion in Mobile Maia is pending a licensing
+review.
+
 The original model search shelved offline scanning. Follow-up tests now find
 **ChessQ Lite V4 INT8 accuracy acceptable on our twelve-photo test set**:
 10/12 exact full positions, matching the 63.1 MB V4 model in a 41.4 MB ONNX file.
