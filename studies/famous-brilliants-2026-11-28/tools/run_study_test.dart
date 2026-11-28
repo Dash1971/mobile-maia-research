@@ -135,10 +135,26 @@ void main() {
     final qualities = GameAnalysisQuality.values.where(
       (q) => input['qualities'] == null || (input['qualities'] as List).contains(q.name),
     ).toList();
+    if (env['BRILLY_STUDY_RESUME'] == '1' && output.existsSync()) {
+      final previous = jsonDecode(output.readAsStringSync()) as Map<String, dynamic>;
+      for (final key in data.keys.where((key) => key != 'runs')) {
+        expect(previous[key], data[key], reason: 'Resume provenance: $key');
+      }
+      final keys = <String>{};
+      for (final dynamic run in previous['runs']) {
+        final game = (input['games'] as List).singleWhere((g) => g['id'] == run['game']);
+        expect(qualities.map((q) => q.name), contains(run['quality']));
+        expect((run['scores'] as List).length, (game['positions'] as List).length);
+        expect(keys.add('${run['game']}:${run['quality']}'), isTrue);
+        runs.add((run as Map).cast<String, Object?>());
+      }
+      stdout.writeln('RESUME ${runs.length} completed game/mode runs with matching provenance');
+    }
     for (final dynamic game in input['games']) {
       final positions = (game['positions'] as List).cast<String>();
       final moves = (game['moves'] as List).cast<String>();
       for (final quality in qualities) {
+        if (runs.any((r) => r['game'] == game['id'] && r['quality'] == quality.name)) continue;
         final engines = <StudyEngine>[];
         final analyzer = StockfishAnalyzer.withFactory(() async {
           final engine = StudyEngine(
@@ -295,5 +311,5 @@ void main() {
       }
     }
     expect(runs, hasLength((input['games'] as List).length * qualities.length));
-  }, timeout: const Timeout(Duration(minutes: 45)));
+  }, timeout: const Timeout(Duration(minutes: 120)));
 }

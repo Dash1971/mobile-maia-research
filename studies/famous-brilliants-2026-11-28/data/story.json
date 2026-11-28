@@ -24,6 +24,6 @@
   ],
   "onlineHeldout": "In the six games kept out of the model’s training games, Open Brilly Finder found all six recorded Brilliants, versus three previously.",
   "gingerIntro": "We then tested {gingerGames} games from grandmaster Simon Williams (Ginger_GM), outside the published development data. Before analysis, we excluded three games that repeated training positions and moves. None of the retained games or their played position-and-move pairs matches the published candidate data.",
-  "gingerResult": "Open Brilly Finder gains {gingerGained} gallery brillies and loses {gingerLost}, a net gain of {gingerGain}. Its {gingerNewPercent:.1f}% hit rate is lower than the earlier sample’s 86.3%, but the improvement holds outside the development games. It still misses {gingerMissed} of the {gingerTargets} gallery brillies.",
-  "gingerLimit": "These games were selected for their gallery brillies. Awards outside the gallery are disagreements, not automatically errors. Both detectors use the same Fast analysis; the model and cutoff are unchanged."
+  "gingerResult": "Open Brilly Finder finds more gallery brillies in every mode. Each mode loses one move the old rules recognized.",
+  "gingerLimit": "These games were selected for their gallery brillies. Awards outside the gallery are disagreements, not automatically errors. Both detectors receive the same analysis within each mode; the model and cutoff are unchanged."
 }

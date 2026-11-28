@@ -116,3 +116,9 @@ These exports mark only Ginger’s Brilliant moves, matching the scoring scope.
 - [Captured gallery labels](gallery-labels.pgn)
 
 No Android builds, GitHub Actions, LFS downloads or model training.
+
+## Other analysis modes
+
+The [Balanced and Thorough follow-up](modes/REPORT.md) tests the same frozen
+sample and retains the original Fast results above. It includes every reference
+move, completed search depths and raw model-score shifts.
