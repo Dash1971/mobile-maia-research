@@ -114,5 +114,21 @@
     }
   ],
   "hero": "hero-opera.png",
-  "positionsVerified": 14
+  "positionsVerified": 14,
+  "onlineIllustrations": [
+    {
+      "game": "online-169812769348",
+      "ply": 53,
+      "file": "online-169812769348-053.png",
+      "kind": "Recorded review Brilliant and new Mobile Maia award",
+      "sha256": "a4ca6e70f4c5cef1a97c79c37d511cb1c64a2e303100894c76f9a793484fbfc6"
+    },
+    {
+      "game": "online-170012492008",
+      "ply": 37,
+      "file": "online-170012492008-037.png",
+      "kind": "Recorded review Brilliant and new Mobile Maia award",
+      "sha256": "0dd780224a2e1e0043bf96b419ceabc76820f65909f572fb412e740c1db5be6a"
+    }
+  ]
 }

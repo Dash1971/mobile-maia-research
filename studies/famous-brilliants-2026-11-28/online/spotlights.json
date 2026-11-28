@@ -1,0 +1,14 @@
+[
+  {
+    "game": "online-169812769348",
+    "ply": 53,
+    "title": "Eric Hansen: a rook sacrifice sets up a fork",
+    "text": "Hansen plays 27.Rxd7, giving up a rook for a knight. After 27...Rxd7, 28.Nf6+ forks the black king and both rooks. The game continues 28...Kf8 29.Bxc5. The existing detector gives no Brilliant award; Open Brilly Finder recognizes the sacrifice, matching the recorded review."
+  },
+  {
+    "game": "online-170012492008",
+    "ply": 37,
+    "title": "Aman Hambleton: a knight offer leads to mate",
+    "text": "Hambleton offers his knight with 19.Nxg6. Black accepts: 19...Kxg6 20.Bxf5+ Kf7 21.Bg6+ Ke6 22.Qf5#. The existing detector misses the Brilliant label; Open Brilly Finder finds it, matching the recorded review. Stockfish’s first choice before the move was 19.Bxf5, so the old best-move rule excludes the played sacrifice."
+  }
+]

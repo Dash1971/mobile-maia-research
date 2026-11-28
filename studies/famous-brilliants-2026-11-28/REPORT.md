@@ -1,330 +1,131 @@
-# Can an offline model spot a masterpiece?
+# Finding more brilliant moves
 
-Nine famous games. Fourteen published Brilliant landmarks. Two classifiers.
+Mobile Maia is a free, offline chess app for Android. Its game analysis marks brilliant moves with !!, the chess symbol for an exceptional idea. We want it to recognize more of those moves.
 
-**Release target:** Open Brilly Finder is a Preview draft aiming for Mobile Maia 2.7. This study is not an Android release qualification.
+Our existing detector uses rules adapted from En Croissant, an open-source chess analysis app. We tested a replacement from our Open Brilly Finder project on famous classical games and a fixed selection of online games.
 
-## Verdict
+Planned for Mobile Maia 2.7; not yet in a published Android release.
 
-Fast analysis finds 10 of 14 published landmarks, up from 9. Balanced and Thorough also find more, but all three lose the Evergreen Game’s 20.Rxe7+. The evidence supports more testing, not a clean replacement sign-off.
+## The two detectors
 
-We’re aiming for Mobile Maia 2.7. Open Brilly Finder remains a draft; the Evergreen regression and broader quality checks need review before promotion.
+**Existing: En Croissant-derived rules.** The En Croissant-derived detector looks for a sacrifice that doesn’t significantly worsen the position, is the Stockfish chess engine’s best move, and stands clearly above the alternatives. These rules catch many good combinations, but can miss a brilliant sacrifice when another move also works.
 
-**Opera: a new award, not a new landmark hit.** Both classifiers find 16.Qb8+!!. The new one also awards 13.Rxd7, which our chosen annotation marks !. That is a generous promotion, not an extra match to its published !!.
+**New: Open Brilly Finder.** Open Brilly Finder is our open-source research project for recognizing Brilliant moves. Its Mute Exchange model was trained using recorded Chess.com game-review labels. It first checks for a piece offer, allowing for the captures and recaptures on that square. A small trained model then uses the position and Stockfish’s analysis to decide whether that offer deserves !!.
 
-**Fischer: the total stays three in Fast.** The new list keeps 11...Na4 and 17...Be6, adds 15...Nxc3 and drops 19...Ne2+. Balanced also recovers Na4. These changes make the emphasis different; they do not turn three awards into five.
+The model is about 469 KiB and runs entirely on the device. It uses Mobile Maia’s existing Stockfish analysis; it needs no online service or extra chess engine.
 
-**Two famous queens are recovered.** The Immortal Game’s 22.Qf6+ and Marshall’s 23...Qg3 gain Brilliant in every mode. Both are explicit !! landmarks in the frozen sources.
+Both detectors received the same Stockfish analysis for each game. We counted their final Brilliant awards after the app’s normal checks.
 
-**Evergreen is the counterexample.** The old classifier finds 20.Rxe7+!!; the new one gives Interesting in every mode. Its model score is about 0.021, far below the fixed 0.8193 cutoff. This is a model rejection, not an unfinished confirmation search.
+## First, the classics: a small improvement
 
-**Kasparov needs the deeper run.** The new model finds 24.Rxd4 only in Thorough. Fast and Balanced still call it Interesting. The headline uses Fast, as planned, rather than selecting the most flattering mode.
+We started with nine famous games, including Morphy’s Opera Game and Byrne–Fischer. Before running the comparison, we chose fourteen moves explicitly marked !! in published annotations. In Fast analysis, the existing detector found nine; Open Brilly Finder found ten.
 
-**A quiet king walk still escapes.** Neither classifier finds Short’s 31.Kh2!! in any mode. Both award the later 34.Kg5, marked ! by the chosen grandmaster. Finding sacrificial ideas does not cover every human use of Brilliant.
+Both find the Opera Game’s 16.Qb8+ and Fischer’s 11...Na4 and 17...Be6. Open Brilly Finder also recognizes the Immortal Game’s 22.Qf6+ and Marshall’s 23...Qg3. That is a small improvement: it finds most of our selected classical brilliancies, with two gains and one loss.
 
-**Extra awards still need judgment.** Fast produces 19 total Brilliant awards before and 20 after. Ten in each list lie outside the fourteen frozen landmarks. Some are source ! moves; others are not listed in that source scope. Those counts cannot establish a false-positive rate.
+![The Opera Game before and after 16.Qb8+](figures/opera-1858-031.png)
 
-**The shared engine evidence has a warning sign.** Both classifiers call Opera15.Bxd7+ a Blunder in Fast and a Mistake in Balanced, while Thorough leaves it unmarked. Balanced recommends that move before playing it, then lowers its evaluation afterward. This shared search instability is separate from Open Brilly Finder; the study does not validate every non-Brilliant grade.
+Both detectors recognize Morphy’s queen sacrifice.
 
-## What the tests found
-
-In Fast analysis, the previous classifier found **9/14** frozen published!! landmarks. Open Brilly Finder found **10/14**. It recovered 2 and lost 1 at those landmarks. These are final app awards after its normal confirmation policy, not raw model predictions.
-
-| Game | Published!! landmarks | Previous Fast | Open Brilly Finder Fast |
-| --- | ---: | ---: | ---: |
-| Opera Game (1858) | 1 | 1 | 1 |
-| Byrne–Fischer (1956) | 2 | 2 | 2 |
-| Immortal Game (1851) | 1 | 0 | 1 |
-| Evergreen Game (1852) | 2 | 2 | 1 |
-| Rotlewi–Rubinstein (1907) | 3 | 2 | 2 |
-| Levitsky–Marshall (1912) | 1 | 0 | 1 |
-| Lasker–Thomas (1912) | 1 | 1 | 1 |
-| Kasparov–Topalov (1999) | 2 | 1 | 1 |
-| Short–Timman (1991) | 1 | 0 | 0 |
-
-### All three prespecified modes
-
-| Mode | Previous landmarks | New landmarks | Previous total awards | New total awards |
-| --- | ---: | ---: | ---: | ---: |
-| Fast | 9/14 | 10/14 | 19 | 20 |
-| Balanced | 8/14 | 10/14 | 16 | 19 |
-| Thorough | 9/14 | 11/14 | 19 | 20 |
-
-Additional awards are listed below and in the data. A move without a recorded!! is not automatically a false positive: some are explicitly!, and the source excerpts are not exhaustive labels for every move.
-
-## Walk through the games
-
-### Opera Game · 1858
-
-[Chosen annotation](https://www.chess.com/article/view/the-best-chess-games-of-all-time)
-
-**16.Qb8+ — published!!**
-
-Queen sacrifice deflects the knight so the remaining rook mates on d8.
-
-![Opera Game 16.Qb8+ before and after](figures/opera-1858-031.png)
-
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
-
-<details>
-<summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
-
-| Move | Selected source mark | Previous Fast | New Fast |
+| Game | Published !! | Existing finds | Open Brilly finds |
 | --- | --- | --- | --- |
-| 10.Nxb5 | ! | Brilliant !! | Brilliant !! |
-| 13.Rxd7 | ! | Unmarked | Brilliant !! |
-| 15.Bxd7+ | Not listed | Blunder ?? | Blunder ?? |
-| 16.Qb8+ | !! | Brilliant !! | Brilliant !! |
+| Opera Game | 1 | 1 | 1 |
+| Byrne–Fischer | 2 | 2 | 2 |
+| Immortal Game | 1 | 0 | 1 |
+| Evergreen Game | 2 | 2 | 1 |
+| Rotlewi–Rubinstein | 3 | 2 | 2 |
+| Levitsky–Marshall | 1 | 0 | 1 |
+| Lasker–Thomas | 1 | 1 | 1 |
+| Kasparov–Topalov | 2 | 1 | 1 |
+| Short–Timman | 1 | 0 | 0 |
 
-</details>
+The loss is Evergreen’s 20.Rxe7+, which the existing detector finds and the new one misses. Neither finds Short’s quiet 31.Kh2. Deeper analysis helps with Kasparov’s 24.Rxd4: the new detector finds it in Thorough, but misses it in Fast and Balanced. These exceptions remain in the results.
 
-### Byrne–Fischer · 1956
+| Analysis mode | Existing finds / 14 | Open Brilly finds / 14 |
+| --- | --- | --- |
+| Fast | 9 | 10 |
+| Balanced | 8 | 10 |
+| Thorough | 9 | 11 |
 
-[Chosen annotation](https://en.chessbase.com/post/the-game-that-shook-the-world-2)
+[All classical moves, diagrams and sources](CLASSICS.md)
 
-**11...Na4 — published!!**
+## Next, online games: 33 more brilliancies found
 
-The knight is offered because accepting it allows decisive attacks on White’s other pieces.
+Next we tested 42 online games from Open Brilly Finder’s public collection: six each from seven titled-player accounts. The games were selected by a fixed hash before either detector ran. We analyzed every move, then counted how many of Chess.com’s recorded Brilliant moves each detector recognized on the selected players’ moves.
 
-![Byrne–Fischer 11...Na4 before and after](figures/byrne-fischer-1956-022.png)
+This gives us 1,692 scored moves, including 51 marked Brilliant in those reviews. These games were collected for their Brilliant moves; they are not a random sample of online chess. Thirty-six selected games were used in the model’s development; six Witty_Alien games were held out upstream. This checks the integration on that collection, rather than establishing accuracy for all players.
 
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+The En Croissant-derived detector found 11 of those 51 moves. Open Brilly Finder found 44: 33 more. It retains all 11 moves the old rules recognized.
 
-**17...Be6 — published!!**
-
-Fischer leaves his queen to be captured while his remaining pieces launch the winning attack.
-
-![Byrne–Fischer 17...Be6 before and after](figures/byrne-fischer-1956-034.png)
-
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
-
-<details>
-<summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
-
-| Move | Selected source mark | Previous Fast | New Fast |
+| Player / account | Recorded !! | Existing finds | Open Brilly finds |
 | --- | --- | --- | --- |
-| 11...Na4 | !! | Brilliant !! | Brilliant !! |
-| 13...Nxe4 | ! | Unmarked | Unmarked |
-| 15...Nxc3 | ! | Interesting !? | Brilliant !! |
-| 17...Be6 | !! | Brilliant !! | Brilliant !! |
-| 19...Ne2+ | Not listed | Brilliant !! | Interesting !? |
+| Eric Hansen | 6 | 1 | 6 |
+| Aman Hambleton | 7 | 2 | 6 |
+| nelsi | 7 | 0 | 4 |
+| GothamChess | 9 | 2 | 8 |
+| Hikaru | 7 | 2 | 6 |
+| MagnusCarlsen | 9 | 1 | 8 |
+| Witty_Alien | 6 | 3 | 6 |
+| Total | 51 | 11 | 44 |
 
-</details>
+In the six games held out upstream, Open Brilly Finder found all six recorded Brilliants, versus three previously.
 
-### Immortal Game · 1851
+On the scored moves, every Brilliant award from either detector matched a recorded Brilliant label.
 
-[Chosen annotation](https://www.chess.com/terms/immortal-game-chess)
+| Recorded Brilliant moves | En Croissant-derived | Open Brilly Finder |
+| --- | --- | --- |
+| Found | 11 | 44 |
+| Missed | 40 | 7 |
+| Awards outside those labels | 0 | 0 |
+| All Brilliant awards | 11 | 44 |
 
-**22.Qf6+ — published!!**
+## Two games from Chessbrah
 
-The queen offer diverts the g8 knight from guarding e7, enabling the bishop mate.
+### Eric Hansen: a rook sacrifice sets up a fork
 
-![Immortal Game 22.Qf6+ before and after](figures/immortal-1851-043.png)
+hansen – DAESDO · 2026/06/06 · 27.Rxd7
 
-Fast: Interesting !? → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Hansen plays 27.Rxd7, giving up a rook for a knight. After 27...Rxd7, 28.Nf6+ forks the black king and both rooks. The game continues 28...Kf8 29.Bxc5. The existing detector gives no Brilliant award; Open Brilly Finder recognizes the sacrifice, matching the recorded review.
 
-<details>
-<summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
+![hansen – DAESDO · 2026/06/06 · 27.Rxd7](figures/online-169812769348-053.png)
 
-| Move | Selected source mark | Previous Fast | New Fast |
-| --- | --- | --- | --- |
-| 18.Bd6 | ?! | Blunder ?? | Blunder ?? |
-| 22.Qf6+ | !! | Interesting !? | Brilliant !! |
+Existing: **Interesting !?**. Open Brilly Finder: **Brilliant !!**. Recorded Chess.com review: **Brilliant**.
 
-</details>
+[Original game](https://www.chess.com/game/live/169812769348)
 
-### Evergreen Game · 1852
+### Aman Hambleton: a knight offer leads to mate
 
-[Chosen annotation](https://uscf1-nyc1.aodhosting.com/CLK-ALL/2015/2015.10.pdf)
+KNVB – Cocolino31 · 2026/06/10 · 19.Nxg6
 
-**20.Rxe7+ — published!!**
+Hambleton offers his knight with 19.Nxg6. Black accepts: 19...Kxg6 20.Bxf5+ Kf7 21.Bg6+ Ke6 22.Qf5#. The existing detector misses the Brilliant label; Open Brilly Finder finds it, matching the recorded review. Stockfish’s first choice before the move was 19.Bxf5, so the old best-move rule excludes the played sacrifice.
 
-Rook sacrifice draws the defending knight away so the queen can be offered with check.
+![KNVB – Cocolino31 · 2026/06/10 · 19.Nxg6](figures/online-170012492008-037.png)
 
-![Evergreen Game 20.Rxe7+ before and after](figures/evergreen-1852-039.png)
+Existing: **Interesting !?**. Open Brilly Finder: **Brilliant !!**. Recorded Chess.com review: **Brilliant**.
 
-Fast: Brilliant !! → Interesting !?. The model score is below its fixed Brilliant cutoff.
+[Original game](https://www.chess.com/game/live/170012492008)
 
-**21.Qxd7+ — published!!**
+## Our decision: Open Brilly Finder for 2.7
 
-Queen sacrifice draws the king into a forced mating net with the two bishops.
+We have chosen to adopt Open Brilly Finder for Mobile Maia 2.7. It finds 33 more of the recorded online brilliancies in this sample, with a smaller gain on the classics. The Evergreen miss shows the trade-off: it improves recognition without catching every brilliant idea.
 
-![Evergreen Game 21.Qxd7+ before and after](figures/evergreen-1852-041.png)
+## How we tested
 
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Classical games: 492 mainline moves, nine games, all three modes. Online games: 3,364 mainline moves, 42 games, Fast. The paired classifiers share baseline Stockfish 18 evidence and keep their normal evidence and confirmation checks. No model, cutoff or classification-rule changes were made for this study.
 
-<details>
-<summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
+The online sample contains titled players and games collected for their Brilliant moves. Six accounts were used in the model’s development; six selected Witty_Alien games were held out upstream, although other games from that account were used in training. This is a comparison in Mobile Maia, not an independent estimate of accuracy for all players.
 
-| Move | Selected source mark | Previous Fast | New Fast |
-| --- | --- | --- | --- |
-| 19.Rad1 | ! | Mistake ? | Mistake ? |
-| 20.Rxe7+ | !! | Brilliant !! | Interesting !? |
-| 21.Qxd7+ | !! | Brilliant !! | Brilliant !! |
+Chess.com’s recorded labels and human annotations are references, not a universal definition of brilliance. Review labels can change. The new detector was trained to recognize piece offers, so quiet brilliancies remain difficult.
 
-</details>
+The tests use native Stockfish 18 on a Mac with Mobile Maia’s actual analyzer and classifiers. Android performance and release checks remain separate. No Android builds or LFS downloads were used.
 
-### Rotlewi–Rubinstein · 1907
+Both detectors also show a shared shallow-search inconsistency at Opera 15.Bxd7+: Fast calls it a Blunder and Balanced a Mistake; Thorough leaves it unmarked. That is separate from the Brilliant model.
 
-[Chosen annotation](https://www.chess.com/article/view/the-best-chess-games-of-all-time)
+[Fixed online plan](online/PLAN.md) · [Selection](online/selection.json) · [All game-level results](online/summary.json) · [Online raw evidence](online/engine-runs.json.gz) · [Data and reproduction](README.md)
 
-**22...Rxc3 — published!!**
+[Recorded reference PGN](online/review-labels.pgn) · [Existing detector PGN](online/old-awards.pgn) · [Open Brilly Finder PGN](online/new-awards.pgn). The detector PGNs include awards for both players; tables score only the selected account.
 
-The rook removes a defender while the queen is offered to the g-pawn.
+## Sources and credits
 
-![Rotlewi–Rubinstein 22...Rxc3 before and after](figures/rotlewi-rubinstein-1907-044.png)
+[En Croissant](https://github.com/franciscoBSalgueiro/en-croissant) · [Open Brilly Finder](https://github.com/Dash1971/open-brilly-finder) · [Chessbrah player identities](https://www.chess.com/tv/shows/chessbrahs) · [Classical annotations](CLASSICS.md) · [Artwork notices](THIRD_PARTY.md)
 
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
-
-**23...Rd2 — published!!**
-
-A second rook offer diverts the white queen from its defensive role.
-
-![Rotlewi–Rubinstein 23...Rd2 before and after](figures/rotlewi-rubinstein-1907-046.png)
-
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
-
-**25...Rh3 — published!!**
-
-Quiet rook move seals the mating attack; check need not be immediate.
-
-![Rotlewi–Rubinstein 25...Rh3 before and after](figures/rotlewi-rubinstein-1907-050.png)
-
-Fast: Interesting !? → Interesting !?. The model score is below its fixed Brilliant cutoff.
-
-<details>
-<summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
-
-| Move | Selected source mark | Previous Fast | New Fast |
-| --- | --- | --- | --- |
-| 22...Rxc3 | !! | Brilliant !! | Brilliant !! |
-| 23...Rd2 | !! | Brilliant !! | Brilliant !! |
-| 25...Rh3 | !! | Interesting !? | Interesting !? |
-
-</details>
-
-### Levitsky–Marshall · 1912
-
-[Chosen annotation](https://www.chess.com/article/view/throwing-away-your-queen)
-
-**23...Qg3 — published!!**
-
-The queen can be taken three ways, but each loses to knight and rook tactics.
-
-![Levitsky–Marshall 23...Qg3 before and after](figures/levitsky-marshall-1912-046.png)
-
-Fast: Interesting !? → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
-
-<details>
-<summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
-
-| Move | Selected source mark | Previous Fast | New Fast |
-| --- | --- | --- | --- |
-| 19.Rxd5 | Not listed | Good ! | Brilliant !! |
-| 22...Rxh3 | Not listed | Interesting !? | Brilliant !! |
-| 23...Qg3 | !! | Interesting !? | Brilliant !! |
-
-</details>
-
-### Lasker–Thomas · 1912
-
-[Chosen annotation](https://uscf1-nyc1.aodhosting.com/CLK-ALL/2020/4-August%202020%20CLK.pdf)
-
-**11.Qxh7+ — published!!**
-
-The queen offer draws the king out; a discovered double check begins the long forced king hunt.
-
-![Lasker–Thomas 11.Qxh7+ before and after](figures/lasker-thomas-1912-021.png)
-
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
-
-<details>
-<summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
-
-| Move | Selected source mark | Previous Fast | New Fast |
-| --- | --- | --- | --- |
-| 11.Qxh7+ | !! | Brilliant !! | Brilliant !! |
-
-</details>
-
-### Kasparov–Topalov · 1999
-
-[Chosen annotation](https://www.chess.com/article/view/the-best-chess-games-of-all-time)
-
-**24.Rxd4 — published!!**
-
-Rook offer opens the position for a long attack against the black king.
-
-![Kasparov–Topalov 24.Rxd4 before and after](figures/kasparov-topalov-1999-047.png)
-
-Fast: Interesting !? → Interesting !?. The model score is below its fixed Brilliant cutoff.
-
-**25.Re7+ — published!!**
-
-The second rook joins the king hunt and cannot safely be captured.
-
-![Kasparov–Topalov 25.Re7+ before and after](figures/kasparov-topalov-1999-049.png)
-
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
-
-<details>
-<summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
-
-| Move | Selected source mark | Previous Fast | New Fast |
-| --- | --- | --- | --- |
-| 24.Rxd4 | !! | Interesting !? | Interesting !? |
-| 25.Re7+ | !! | Brilliant !! | Brilliant !! |
-| 25...Kb6 | Not listed | Brilliant !! | Interesting !? |
-| 26.Qxd4+ | Not listed | Dubious ?! | Dubious ?! |
-| 28.Qc3 | Not listed | Interesting !? | Brilliant !! |
-| 28...Qxd5 | Not listed | Brilliant !! | Interesting !? |
-| 29.Ra7 | Not listed | Brilliant !! | Interesting !? |
-| 29...Bb7 | Not listed | Brilliant !! | Interesting !? |
-| 30.Rxb7 | Not listed | Interesting !? | Brilliant !! |
-| 36.Bf1 | ! | Brilliant !! | Brilliant !! |
-| 37.Rd7 | Not listed | Good ! | Brilliant !! |
-| 37...Rxd7 | Not listed | Brilliant !! | Unmarked |
-| 38...bxc4 | Not listed | Brilliant !! | Unmarked |
-
-</details>
-
-### Short–Timman · 1991
-
-[Chosen annotation](https://rafaelleitao.com/short-x-timman-2/)
-
-**31.Kh2 — published!!**
-
-The king leaves safety to join the mating attack while many pieces remain. This is a quiet non-sacrificial plan, testing the model’s conceptual scope.
-
-![Short–Timman 31.Kh2 before and after](figures/short-timman-1991-061.png)
-
-Fast: Dubious ?! → Dubious ?!. The engine-based error grade takes precedence.
-
-<details>
-<summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
-
-| Move | Selected source mark | Previous Fast | New Fast |
-| --- | --- | --- | --- |
-| 13...e6 | ?! | Unmarked | Unmarked |
-| 17.Bc4 | ! | Unmarked | Unmarked |
-| 18.b3 | ! | Unmarked | Unmarked |
-| 24.Rd8 | ! | Unmarked | Unmarked |
-| 25...Bg7 | !? | Mistake ? | Mistake ? |
-| 26.R8d7 | ! | Unmarked | Unmarked |
-| 30.h4 | ! | Mistake ? | Mistake ? |
-| 31.Kh2 | !! | Dubious ?! | Dubious ?! |
-| 32.Kg3 | ! | Unmarked | Unmarked |
-| 33.Kf4 | ! | Unmarked | Unmarked |
-| 34.Kg5 | ! | Brilliant !! | Brilliant !! |
-
-</details>
-
-## What this can establish
-
-The source registry and plan were committed before fresh analysis. Both classifiers saw the same baseline Stockfish 18 output; each retained its own normal provisional/confirmation/final behavior. Every position in all nine games was evaluated in all three modes. No model weights, thresholds or app rules were changed after results.
-
-The nine games are deliberately famous, not a random sample. Opera and Fischer were already development examples. Training membership was not audited. Human! and!! judgments vary; this is a comparison with a fixed chosen set of annotations, not objective ground truth or a recreation of a private commercial classifier. No precision, false-positive rate or population accuracy is claimed.
-
-Short–Timman tests quiet brilliance, not just sacrifices. Its inclusion and any misses stay in the denominator. Immortal18.Bd6?! is retained separately as a famous but questioned sacrifice. The results include every final award, even outside the selected annotation marks.
-
-[Plan](PLAN.md) · [Data and reproduction](README.md) · [Full engine evidence](data/engine-runs.json) · [Viewer data](web/results.json) · [Artwork notices](THIRD_PARTY.md)
+[Interactive report on mobilemaia.org](https://mobilemaia.org/research/brilliant-moves/)

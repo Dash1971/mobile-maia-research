@@ -1,0 +1,26 @@
+{
+  "title": "Finding more brilliant moves",
+  "intro": [
+    "Mobile Maia is a free, offline chess app for Android. Its game analysis marks brilliant moves with !!, the chess symbol for an exceptional idea. We want it to recognize more of those moves.",
+    "Our existing detector uses rules adapted from En Croissant, an open-source chess analysis app. We tested a replacement from our Open Brilly Finder project on famous classical games and a fixed selection of online games."
+  ],
+  "old": "The En Croissant-derived detector looks for a sacrifice that doesn’t significantly worsen the position, is the Stockfish chess engine’s best move, and stands clearly above the alternatives. These rules catch many good combinations, but can miss a brilliant sacrifice when another move also works.",
+  "new": "Open Brilly Finder is our open-source research project for recognizing Brilliant moves. Its Mute Exchange model was trained using recorded Chess.com game-review labels. It first checks for a piece offer, allowing for the captures and recaptures on that square. A small trained model then uses the position and Stockfish’s analysis to decide whether that offer deserves !!.",
+  "offline": "The model is about 469 KiB and runs entirely on the device. It uses Mobile Maia’s existing Stockfish analysis; it needs no online service or extra chess engine.",
+  "paired": "Both detectors received the same Stockfish analysis for each game. We counted their final Brilliant awards after the app’s normal checks.",
+  "classics": "We started with nine famous games, including Morphy’s Opera Game and Byrne–Fischer. Before running the comparison, we chose fourteen moves explicitly marked !! in published annotations. In Fast analysis, the existing detector found nine; Open Brilly Finder found ten.",
+  "classicGains": "Both find the Opera Game’s 16.Qb8+ and Fischer’s 11...Na4 and 17...Be6. Open Brilly Finder also recognizes the Immortal Game’s 22.Qf6+ and Marshall’s 23...Qg3. That is a small improvement: it finds most of our selected classical brilliancies, with two gains and one loss.",
+  "classicMisses": "The loss is Evergreen’s 20.Rxe7+, which the existing detector finds and the new one misses. Neither finds Short’s quiet 31.Kh2. Deeper analysis helps with Kasparov’s 24.Rxd4: the new detector finds it in Thorough, but misses it in Fast and Balanced. These exceptions remain in the results.",
+  "online": "Next we tested 42 online games from Open Brilly Finder’s public collection: six each from seven titled-player accounts. The games were selected by a fixed hash before either detector ran. We analyzed every move, then counted how many of Chess.com’s recorded Brilliant moves each detector recognized on the selected players’ moves.",
+  "onlineScope": "This gives us 1,692 scored moves, including 51 marked Brilliant in those reviews. These games were collected for their Brilliant moves; they are not a random sample of online chess. Thirty-six selected games were used in the model’s development; six Witty_Alien games were held out upstream. This checks the integration on that collection, rather than establishing accuracy for all players.",
+  "onlineResult": "The En Croissant-derived detector found {oldHits} of those 51 moves. Open Brilly Finder found {newHits}: {hitGain} more. It retains all {oldHits} moves the old rules recognized.",
+  "onlineAwards": "On the scored moves, every Brilliant award from either detector matched a recorded Brilliant label.",
+  "decision": "We have chosen to adopt Open Brilly Finder for Mobile Maia 2.7. It finds {hitGain} more of the recorded online brilliancies in this sample, with a smaller gain on the classics. The Evergreen miss shows the trade-off: it improves recognition without catching every brilliant idea.",
+  "release": "Planned for Mobile Maia 2.7; not yet in a published Android release.",
+  "limits": [
+    "The online sample contains titled players and games collected for their Brilliant moves. Six accounts were used in the model’s development; six selected Witty_Alien games were held out upstream, although other games from that account were used in training. This is a comparison in Mobile Maia, not an independent estimate of accuracy for all players.",
+    "Chess.com’s recorded labels and human annotations are references, not a universal definition of brilliance. Review labels can change. The new detector was trained to recognize piece offers, so quiet brilliancies remain difficult.",
+    "The tests use native Stockfish 18 on a Mac with Mobile Maia’s actual analyzer and classifiers. Android performance and release checks remain separate. No Android builds or LFS downloads were used."
+  ],
+  "onlineHeldout": "In the six games held out upstream, Open Brilly Finder found all six recorded Brilliants, versus three previously."
+}

@@ -5,3 +5,4 @@ studies/opening-variety-2026-10-18/games.pgn whitespace=-blank-at-eof
 
 # Canonical PGN collection ends the final game with its blank separator.
 studies/famous-brilliants-2026-11-28/data/games.pgn whitespace=-blank-at-eof
+studies/famous-brilliants-2026-11-28/online/*.pgn whitespace=-blank-at-eof

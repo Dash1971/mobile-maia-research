@@ -15,14 +15,15 @@ results and match scores, with links to the full study and recorded data.
 
 ## Studies
 
-### Famous games, Brilliant moves — November 28, 2026
+### Finding more brilliant moves — November 28, 2026
 
-[Visual study](studies/famous-brilliants-2026-11-28/REPORT.md) · [Data and reproduction](studies/famous-brilliants-2026-11-28/README.md)
+[Visual report](studies/famous-brilliants-2026-11-28/REPORT.md) · [Interactive boards](https://mobilemaia.org/research/brilliant-moves/) · [Data and reproduction](studies/famous-brilliants-2026-11-28/README.md)
 
-Nine famous games, fourteen published landmarks, and both actual Mobile Maia
-classifiers. Open Brilly Finder improves Fast landmark recovery from 9 to 10,
-but loses an Evergreen sacrifice in every mode. Explore every target, extra
-award and miss. The implementation remains a draft aiming for Mobile Maia 2.7.
+Why Mobile Maia is adopting Open Brilly Finder for 2.7. The report explains the
+existing En Croissant-derived rules and the new model, then compares nine
+classics and 42 online games. Recorded online Brilliants found rise from 11 to
+44 out of 51, with two illustrated Chessbrah games. The classics improve more
+modestly; the remaining misses and sample limits are included.
 
 
 ### Offline board recognition — updated November 15, 2026
