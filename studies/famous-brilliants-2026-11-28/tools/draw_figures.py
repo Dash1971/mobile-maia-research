@@ -146,7 +146,7 @@ def _save(image, output, *, source_label, fen_before, fen_after, uci):
     image.save(output, pnginfo=meta, optimize=True)
 
 
-def draw_pair(fen_before: str, fen_after: str, uci: str, label: str, subtitle: str, output: Path | str, *, annotation: str = 'Source !! landmark') -> Path:
+def draw_pair(fen_before: str, fen_after: str, uci: str, label: str, subtitle: str, output: Path | str, *, annotation: str = 'Left: before the move. Right: after the same move.') -> Path:
     """Create a readable 960x550 before/after pair for any actual played move."""
     before, after = chess.Board(fen_before), chess.Board(fen_after)
     move = chess.Move.from_uci(uci)
@@ -160,7 +160,7 @@ def draw_pair(fen_before: str, fen_after: str, uci: str, label: str, subtitle: s
     draw.rectangle((0, 0, 960, 5), fill=BLUE)
     title, selected = fitted(draw, label, 912, 28, serif=True)
     draw.text((24, 15), title, font=selected, fill=INK)
-    for left, name in [(40, 'Before'), (528, 'After')]:
+    for left, name in [(40, 'Before the move'), (528, 'After the same move')]:
         draw.text((left, 57), name, font=font(19), fill=MUTED)
     _board(image, fen_before, uci, 40, 88, 48)
     _board(image, fen_after, uci, 528, 88, 48)
@@ -195,6 +195,26 @@ def draw_hero(game: dict, output: Path | str) -> Path:
     return output
 
 
+def render_online_spotlights() -> list[dict]:
+    """Redraw the two recorded examples with named detector captions."""
+    from example_labels import OLD, NEW
+    games = json.loads((STUDY / 'web/online-results.json').read_text())
+    grades = json.loads((STUDY / 'web/results.json').read_text())['grades']
+    rows = []
+    for spot in json.loads((STUDY / 'online/spotlights.json').read_text()):
+        game = next(g for g in games['games'] if g['id'] == spot['game'])
+        case = next(c for c in game['cases'] if c['ply'] == spot['ply'])
+        mode = case['modes']['fast']
+        filename = f"{game['id']}-{case['ply']:03d}.png"
+        draw_pair(case['before'], case['after'], case['uci'], spot['title'].split(':', 1)[0] + ' | ' + case['move'],
+                  f"{OLD}: {grades[mode['old'] or 'null']} | {NEW}: {grades[mode['new'] or 'null']}", FIGURES / filename,
+                  annotation='Chess.com Game Review: Brilliant !! | Fast analysis')
+        rows.append({'game': game['id'], 'ply': case['ply'], 'file': filename,
+                     'kind': 'Recorded review Brilliant and new Mobile Maia award',
+                     'sha256': hashlib.sha256((FIGURES / filename).read_bytes()).hexdigest()})
+    return rows
+
+
 def render_landmarks(games: list[dict]) -> list[dict]:
     FIGURES.mkdir(parents=True, exist_ok=True)
     manifest = []
@@ -212,7 +232,7 @@ def render_landmarks(games: list[dict]) -> list[dict]:
     assert len(manifest) == 14, 'The frozen sample has fourteen primary anchors.'
     opera = next(g for g in games if g['id'] == 'opera-1858')
     draw_hero(opera, FIGURES / 'hero-opera.png')
-    (FIGURES / 'manifest.json').write_text(json.dumps({'landmarks': manifest, 'hero': 'hero-opera.png', 'positionsVerified': len(manifest)}, indent=2) + '\n')
+    (FIGURES / 'manifest.json').write_text(json.dumps({'landmarks': manifest, 'hero': 'hero-opera.png', 'positionsVerified': len(manifest), 'onlineIllustrations': render_online_spotlights()}, indent=2) + '\n')
     return manifest
 
 

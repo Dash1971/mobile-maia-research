@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 
 import chess
+from example_labels import SOURCES, OLD, NEW, MODES, comparison_summary
 
 ROOT = Path(__file__).resolve().parents[1]
 QUALITIES = ('fast', 'balanced', 'thorough')
@@ -103,8 +104,12 @@ def report(result):
     for g in result['games']:
         lines += [f"### {g['title']} · {g['year']}", '', f"[Chosen annotation]({g['source']['url']})", '']
         for case in [c for c in g['cases'] if c['landmark']]:
-            s = case['modes']['fast']
-            lines += [f"**{case['move']} — published!!**", '', case['idea'], '', f"![{g['title']} {case['move']} before and after](figures/{g['id']}-{case['ply']:03d}.png)", '', f"Fast: {GRADES[s['old']]} → {GRADES[s['new']]}. {s['reason']}", '']
+            source = SOURCES[g['id']]
+            lines += [f"**{case['move']}**", '', case['idea'], '', '**Published annotation: Brilliant !!**', '', f"{source['byline']}: [{source['publication']}]({g['source']['url']}) — {source['location']}.", '', f'| Analysis mode | {OLD} | {NEW} |', '| --- | --- | --- |']
+            for q in MODES:
+                m = case['modes'][q]
+                lines.append(f"| {q.title()} | {GRADES[m['old']]} | {GRADES[m['new']]} |")
+            lines += ['', comparison_summary(case), '', f"![{g['title']} {case['move']} before and after](figures/{g['id']}-{case['ply']:03d}.png)", '', f"Left: before {case['move']}. Right: after the same move.", '']
         lines += ['<details>', '<summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>', '', '| Move | Selected source mark | Previous Fast | New Fast |', '| --- | --- | --- | --- |']
         for c in g['cases']:
             s = c['modes']['fast']; mark = c['sourceMark'] or 'Not listed'
@@ -115,7 +120,7 @@ def report(result):
               'The nine games are deliberately famous, not a random sample. Opera and Fischer were already development examples. Training membership was not audited. Human! and!! judgments vary; this is a comparison with a fixed chosen set of annotations, not objective ground truth or a recreation of a private commercial classifier. No precision, false-positive rate or population accuracy is claimed.', '',
               'Short–Timman tests quiet brilliance, not just sacrifices. Its inclusion and any misses stay in the denominator. Immortal18.Bd6?! is retained separately as a famous but questioned sacrifice. The results include every final award, even outside the selected annotation marks.', '',
               '[Plan](PLAN.md) · [Data and reproduction](README.md) · [Full engine evidence](data/engine-runs.json) · [Viewer data](web/results.json) · [Artwork notices](THIRD_PARTY.md)', '']
-    text = '\n'.join(lines)
+    text = '\n'.join(lines).replace('previous classifier',OLD).replace('Previous Fast',OLD+' Fast').replace('New Fast',NEW+' Fast').replace('Previous landmarks',OLD+' finds').replace('New landmarks',NEW+' finds').replace('Previous total awards',OLD+' awards').replace('New total awards',NEW+' awards')
     editorial_path = ROOT / 'data/editorial.json'
     if editorial_path.exists() and not (ROOT / 'data/story.json').exists():
         editorial = json.loads(editorial_path.read_text())
