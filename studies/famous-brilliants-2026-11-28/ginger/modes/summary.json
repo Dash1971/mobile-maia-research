@@ -1,0 +1,3184 @@
+{
+  "schema": 1,
+  "appSource": "096591bd8d42759e5a3f3a288d56d7c93245d6d1",
+  "planCommit": "6844202bf606211c11a27b777560cf009293f30f",
+  "modelSource": "59cab58a8b63387d9775252f03a6875fe451f697",
+  "modelSha256": "992a792a646b11e612486c4fe26796fc38ee47f395f2220b00d26db65ba1e27d",
+  "engine": {
+    "name": "Stockfish18",
+    "binarySha256": "ae4c93fa9676ca7750d0714342fd8a5b1d018000fc6e0f6cedf112067b5ef374",
+    "binaryBytes": 113875192,
+    "host": "Darwin arm64"
+  },
+  "threads": 1,
+  "hashMiB": 64,
+  "multiPV": 2,
+  "cutoff": 0.8193002847777424,
+  "modes": {
+    "fast": {
+      "totals": {
+        "games": 27,
+        "scoredMoves": 922,
+        "targets": 32,
+        "oldHits": 7,
+        "newHits": 20,
+        "oldAwards": 12,
+        "newAwards": 21,
+        "oldOutside": 5,
+        "newOutside": 1,
+        "gainedTargets": 14,
+        "lostTargets": 1
+      },
+      "completedDepths": {
+        "9": 8,
+        "10": 64,
+        "11": 202,
+        "12": 1588
+      },
+      "confirmationSearchesPerGame": {
+        "0": 18,
+        "2": 1,
+        "3": 7,
+        "6": 1
+      },
+      "unselectedUnreliableBrilliants": [],
+      "gingerAwardsWithBaselineBelow12": [
+        {
+          "game": "187353132044",
+          "ply": 23,
+          "depths": [
+            11,
+            10
+          ]
+        },
+        {
+          "game": "186798917398",
+          "ply": 33,
+          "depths": [
+            11,
+            12
+          ]
+        },
+        {
+          "game": "186771033900",
+          "ply": 47,
+          "depths": [
+            12,
+            11
+          ]
+        }
+      ]
+    },
+    "balanced": {
+      "totals": {
+        "games": 27,
+        "scoredMoves": 922,
+        "targets": 32,
+        "oldHits": 6,
+        "newHits": 23,
+        "oldAwards": 10,
+        "newAwards": 24,
+        "oldOutside": 4,
+        "newOutside": 1,
+        "gainedTargets": 18,
+        "lostTargets": 1
+      },
+      "completedDepths": {
+        "8": 2,
+        "9": 4,
+        "10": 3,
+        "11": 15,
+        "12": 77,
+        "13": 130,
+        "14": 1631
+      },
+      "confirmationSearchesPerGame": {
+        "0": 18,
+        "2": 1,
+        "3": 8
+      },
+      "unselectedUnreliableBrilliants": [],
+      "gingerAwardsWithBaselineBelow12": [
+        {
+          "game": "187352976104",
+          "ply": 30,
+          "depths": [
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    "thorough": {
+      "totals": {
+        "games": 27,
+        "scoredMoves": 922,
+        "targets": 32,
+        "oldHits": 8,
+        "newHits": 24,
+        "oldAwards": 14,
+        "newAwards": 25,
+        "oldOutside": 6,
+        "newOutside": 1,
+        "gainedTargets": 17,
+        "lostTargets": 1
+      },
+      "completedDepths": {
+        "11": 8,
+        "12": 32,
+        "13": 89,
+        "14": 126,
+        "15": 138,
+        "16": 1469
+      },
+      "confirmationSearchesPerGame": {
+        "0": 26,
+        "3": 1
+      },
+      "unselectedUnreliableBrilliants": [],
+      "gingerAwardsWithBaselineBelow12": []
+    }
+  },
+  "perGame": [
+    {
+      "game": "188136844746",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 38,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "189854753175",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 42,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "189853553123",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 37,
+      "targets": 2,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187896748818",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 14,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187459649420",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 56,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "187457958048",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 22,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 1,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187353132044",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 37,
+      "targets": 2,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 2,
+      "newAwards": 2,
+      "oldOutside": 2,
+      "newOutside": 1,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187352976104",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 23,
+      "targets": 4,
+      "oldHits": 1,
+      "newHits": 3,
+      "oldAwards": 1,
+      "newAwards": 3,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 2,
+      "lostTargets": 0
+    },
+    {
+      "game": "187106742030",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 29,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "187104408324",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 34,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "187052146336",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 23,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "188642299209",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 32,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186895306980",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 68,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186807227802",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 34,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 0,
+      "oldAwards": 1,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 1
+    },
+    {
+      "game": "186804298306",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 30,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 2,
+      "newAwards": 1,
+      "oldOutside": 1,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186798917398",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 32,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186787690334",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 33,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186786230002",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 36,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186771033900",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 49,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186706231870",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 25,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186704873752",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 38,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186701606880",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 45,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186700377930",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 26,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186700239458",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 19,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 1,
+      "newAwards": 0,
+      "oldOutside": 1,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186659807318",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 34,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186573944216",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 37,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186573774294",
+      "quality": "fast",
+      "games": 1,
+      "scoredMoves": 29,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "188136844746",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 38,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "189854753175",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 42,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "189853553123",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 37,
+      "targets": 2,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187896748818",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 14,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187459649420",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 56,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "187457958048",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 22,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187353132044",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 37,
+      "targets": 2,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 2,
+      "newAwards": 2,
+      "oldOutside": 2,
+      "newOutside": 1,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187352976104",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 23,
+      "targets": 4,
+      "oldHits": 1,
+      "newHits": 3,
+      "oldAwards": 1,
+      "newAwards": 3,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 2,
+      "lostTargets": 0
+    },
+    {
+      "game": "187106742030",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 29,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "187104408324",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 34,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187052146336",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 23,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "188642299209",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 32,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186895306980",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 68,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186807227802",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 34,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 0,
+      "oldAwards": 1,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 1
+    },
+    {
+      "game": "186804298306",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 30,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 2,
+      "newAwards": 1,
+      "oldOutside": 1,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186798917398",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 32,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186787690334",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 33,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186786230002",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 36,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186771033900",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 49,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186706231870",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 25,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186704873752",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 38,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186701606880",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 45,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186700377930",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 26,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186700239458",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 19,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 1,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186659807318",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 34,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186573944216",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 37,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186573774294",
+      "quality": "balanced",
+      "games": 1,
+      "scoredMoves": 29,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "188136844746",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 38,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "189854753175",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 42,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "189853553123",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 37,
+      "targets": 2,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187896748818",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 14,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187459649420",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 56,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "187457958048",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 22,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187353132044",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 37,
+      "targets": 2,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 4,
+      "newAwards": 2,
+      "oldOutside": 3,
+      "newOutside": 1,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "187352976104",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 23,
+      "targets": 4,
+      "oldHits": 1,
+      "newHits": 3,
+      "oldAwards": 1,
+      "newAwards": 3,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 2,
+      "lostTargets": 0
+    },
+    {
+      "game": "187106742030",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 29,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "187104408324",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 34,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "187052146336",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 23,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 1,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "188642299209",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 32,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186895306980",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 68,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186807227802",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 34,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 0,
+      "oldAwards": 1,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 1
+    },
+    {
+      "game": "186804298306",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 30,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 2,
+      "newAwards": 1,
+      "oldOutside": 1,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186798917398",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 32,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186787690334",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 33,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186786230002",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 36,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 0,
+      "oldAwards": 0,
+      "newAwards": 0,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186771033900",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 49,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186706231870",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 25,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186704873752",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 38,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186701606880",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 45,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186700377930",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 26,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186700239458",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 19,
+      "targets": 1,
+      "oldHits": 1,
+      "newHits": 1,
+      "oldAwards": 3,
+      "newAwards": 1,
+      "oldOutside": 2,
+      "newOutside": 0,
+      "gainedTargets": 0,
+      "lostTargets": 0
+    },
+    {
+      "game": "186659807318",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 34,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186573944216",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 37,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    },
+    {
+      "game": "186573774294",
+      "quality": "thorough",
+      "games": 1,
+      "scoredMoves": 29,
+      "targets": 1,
+      "oldHits": 0,
+      "newHits": 1,
+      "oldAwards": 0,
+      "newAwards": 1,
+      "oldOutside": 0,
+      "newOutside": 0,
+      "gainedTargets": 1,
+      "lostTargets": 0
+    }
+  ],
+  "targets": [
+    {
+      "game": "188136844746",
+      "quality": "fast",
+      "ply": 76,
+      "move": "Qd2",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9950760424665641,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "189854753175",
+      "quality": "fast",
+      "ply": 69,
+      "move": "Qxh5",
+      "old": "interesting",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.7979983869684973,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "189853553123",
+      "quality": "fast",
+      "ply": 24,
+      "move": "Nxe4",
+      "old": "good",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.8866639424594465,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "189853553123",
+      "quality": "fast",
+      "ply": 68,
+      "move": "Rxf2+",
+      "old": null,
+      "new": null,
+      "candidate": true,
+      "score": 0.48122310506585303,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187896748818",
+      "quality": "fast",
+      "ply": 28,
+      "move": "Nxd4",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9762236075545659,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187459649420",
+      "quality": "fast",
+      "ply": 53,
+      "move": "Bxe7",
+      "old": null,
+      "new": null,
+      "candidate": true,
+      "score": 0.6674597367812147,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187457958048",
+      "quality": "fast",
+      "ply": 35,
+      "move": "Nd5",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9780363730997992,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187353132044",
+      "quality": "fast",
+      "ply": 39,
+      "move": "Nb4",
+      "old": "mistake",
+      "new": "mistake",
+      "candidate": true,
+      "score": 0.8426505759619292,
+      "depths": [
+        12,
+        11
+      ]
+    },
+    {
+      "game": "187353132044",
+      "quality": "fast",
+      "ply": 43,
+      "move": "Rxd7+",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9338134672926808,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "fast",
+      "ply": 26,
+      "move": "Bxh2+",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9834424065392119,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "fast",
+      "ply": 30,
+      "move": "Bh2+",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9807857663767834,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "fast",
+      "ply": 32,
+      "move": "Qe8",
+      "old": "interesting",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.4602906922186323,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "fast",
+      "ply": 40,
+      "move": "Rh1+",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9699513388458061,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187106742030",
+      "quality": "fast",
+      "ply": 58,
+      "move": "Qa5",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9551225749760712,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187104408324",
+      "quality": "fast",
+      "ply": 35,
+      "move": "Ne4",
+      "old": null,
+      "new": null,
+      "candidate": true,
+      "score": 0.7677915794721805,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187052146336",
+      "quality": "fast",
+      "ply": 36,
+      "move": "fxg3",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9195087690596561,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "188642299209",
+      "quality": "fast",
+      "ply": 52,
+      "move": "Rxf2",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9782871099125225,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "186895306980",
+      "quality": "fast",
+      "ply": 42,
+      "move": "Rxg5",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9156378638870919,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "186807227802",
+      "quality": "fast",
+      "ply": 28,
+      "move": "Nxe4",
+      "old": "brilliant",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.6931766338593274,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "186804298306",
+      "quality": "fast",
+      "ply": 35,
+      "move": "Nxe4",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9690099925556008,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "186798917398",
+      "quality": "fast",
+      "ply": 33,
+      "move": "Nd6",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9750549673661298,
+      "depths": [
+        11,
+        12
+      ]
+    },
+    {
+      "game": "186787690334",
+      "quality": "fast",
+      "ply": 28,
+      "move": "Bg4",
+      "old": "interesting",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.2258771911441427,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "186786230002",
+      "quality": "fast",
+      "ply": 51,
+      "move": "Nf5",
+      "old": null,
+      "new": null,
+      "candidate": true,
+      "score": 0.6571003346608217,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "186771033900",
+      "quality": "fast",
+      "ply": 47,
+      "move": "Nxc5",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9814140755908582,
+      "depths": [
+        12,
+        11
+      ]
+    },
+    {
+      "game": "186706231870",
+      "quality": "fast",
+      "ply": 27,
+      "move": "Nd5",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.983484017591105,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "186704873752",
+      "quality": "fast",
+      "ply": 55,
+      "move": "Nh5",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.962449181802246,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "186701606880",
+      "quality": "fast",
+      "ply": 12,
+      "move": "a4",
+      "old": "interesting",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.8135861052448969,
+      "depths": [
+        12,
+        11
+      ]
+    },
+    {
+      "game": "186700377930",
+      "quality": "fast",
+      "ply": 32,
+      "move": "Nxf2",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9826443904796126,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "186700239458",
+      "quality": "fast",
+      "ply": 32,
+      "move": "Rxf3",
+      "old": "dubious",
+      "new": "dubious",
+      "candidate": true,
+      "score": 0.9528863801939205,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "186659807318",
+      "quality": "fast",
+      "ply": 37,
+      "move": "Rxh5",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9832707023628611,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "186573944216",
+      "quality": "fast",
+      "ply": 44,
+      "move": "Nf4",
+      "old": "dubious",
+      "new": "dubious",
+      "candidate": true,
+      "score": 0.09613769148258013,
+      "depths": [
+        11,
+        12
+      ]
+    },
+    {
+      "game": "186573774294",
+      "quality": "fast",
+      "ply": 45,
+      "move": "Qe7",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.82020462580156,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "188136844746",
+      "quality": "balanced",
+      "ply": 76,
+      "move": "Qd2",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9950760424665641,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "189854753175",
+      "quality": "balanced",
+      "ply": 69,
+      "move": "Qxh5",
+      "old": "interesting",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.8005444882542934,
+      "depths": [
+        14,
+        13
+      ]
+    },
+    {
+      "game": "189853553123",
+      "quality": "balanced",
+      "ply": 24,
+      "move": "Nxe4",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.8841297633792431,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "189853553123",
+      "quality": "balanced",
+      "ply": 68,
+      "move": "Rxf2+",
+      "old": null,
+      "new": null,
+      "candidate": true,
+      "score": 0.5008606717994221,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "187896748818",
+      "quality": "balanced",
+      "ply": 28,
+      "move": "Nxd4",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9337313238270623,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "187459649420",
+      "quality": "balanced",
+      "ply": 53,
+      "move": "Bxe7",
+      "old": null,
+      "new": null,
+      "candidate": true,
+      "score": 0.6967146983065138,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "187457958048",
+      "quality": "balanced",
+      "ply": 35,
+      "move": "Nd5",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9776836516811991,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "187353132044",
+      "quality": "balanced",
+      "ply": 39,
+      "move": "Nb4",
+      "old": "mistake",
+      "new": "mistake",
+      "candidate": true,
+      "score": 0.897322641505575,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "187353132044",
+      "quality": "balanced",
+      "ply": 43,
+      "move": "Rxd7+",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.958870631147801,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "balanced",
+      "ply": 26,
+      "move": "Bxh2+",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9813340684351652,
+      "depths": [
+        13,
+        12
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "balanced",
+      "ply": 30,
+      "move": "Bh2+",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9731515571530865,
+      "depths": [
+        9,
+        10
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "balanced",
+      "ply": 32,
+      "move": "Qe8",
+      "old": "interesting",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.655946285334194,
+      "depths": [
+        13,
+        14
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "balanced",
+      "ply": 40,
+      "move": "Rh1+",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9699513388458061,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "187106742030",
+      "quality": "balanced",
+      "ply": 58,
+      "move": "Qa5",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9562449129804279,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "187104408324",
+      "quality": "balanced",
+      "ply": 35,
+      "move": "Ne4",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.8932772747984105,
+      "depths": [
+        12,
+        12
+      ]
+    },
+    {
+      "game": "187052146336",
+      "quality": "balanced",
+      "ply": 36,
+      "move": "fxg3",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9093362103149012,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "188642299209",
+      "quality": "balanced",
+      "ply": 52,
+      "move": "Rxf2",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9813194670237978,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186895306980",
+      "quality": "balanced",
+      "ply": 42,
+      "move": "Rxg5",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9248820173560852,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186807227802",
+      "quality": "balanced",
+      "ply": 28,
+      "move": "Nxe4",
+      "old": "brilliant",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.6737869740970924,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186804298306",
+      "quality": "balanced",
+      "ply": 35,
+      "move": "Nxe4",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9702274306597283,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186798917398",
+      "quality": "balanced",
+      "ply": 33,
+      "move": "Nd6",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9755268402885257,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186787690334",
+      "quality": "balanced",
+      "ply": 28,
+      "move": "Bg4",
+      "old": "interesting",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.2296316282004519,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186786230002",
+      "quality": "balanced",
+      "ply": 51,
+      "move": "Nf5",
+      "old": null,
+      "new": null,
+      "candidate": true,
+      "score": 0.6424487470935601,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186771033900",
+      "quality": "balanced",
+      "ply": 47,
+      "move": "Nxc5",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9752279318434239,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186706231870",
+      "quality": "balanced",
+      "ply": 27,
+      "move": "Nd5",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9731225875490572,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186704873752",
+      "quality": "balanced",
+      "ply": 55,
+      "move": "Nh5",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9771141851403781,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186701606880",
+      "quality": "balanced",
+      "ply": 12,
+      "move": "a4",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.8667875782279952,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186700377930",
+      "quality": "balanced",
+      "ply": 32,
+      "move": "Nxf2",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.98124790657162,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186700239458",
+      "quality": "balanced",
+      "ply": 32,
+      "move": "Rxf3",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9828523561723379,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186659807318",
+      "quality": "balanced",
+      "ply": 37,
+      "move": "Rxh5",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9832707023628611,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186573944216",
+      "quality": "balanced",
+      "ply": 44,
+      "move": "Nf4",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.8566421254552533,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "186573774294",
+      "quality": "balanced",
+      "ply": 45,
+      "move": "Qe7",
+      "old": null,
+      "new": null,
+      "candidate": true,
+      "score": 0.7451146821829154,
+      "depths": [
+        14,
+        14
+      ]
+    },
+    {
+      "game": "188136844746",
+      "quality": "thorough",
+      "ply": 76,
+      "move": "Qd2",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9943088597578417,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "189854753175",
+      "quality": "thorough",
+      "ply": 69,
+      "move": "Qxh5",
+      "old": "interesting",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.7933071611951605,
+      "depths": [
+        16,
+        14
+      ]
+    },
+    {
+      "game": "189853553123",
+      "quality": "thorough",
+      "ply": 24,
+      "move": "Nxe4",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.8850869250829178,
+      "depths": [
+        14,
+        15
+      ]
+    },
+    {
+      "game": "189853553123",
+      "quality": "thorough",
+      "ply": 68,
+      "move": "Rxf2+",
+      "old": null,
+      "new": null,
+      "candidate": true,
+      "score": 0.5093697331909816,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "187896748818",
+      "quality": "thorough",
+      "ply": 28,
+      "move": "Nxd4",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9759516122886243,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "187459649420",
+      "quality": "thorough",
+      "ply": 53,
+      "move": "Bxe7",
+      "old": null,
+      "new": null,
+      "candidate": true,
+      "score": 0.6939057367420443,
+      "depths": [
+        14,
+        16
+      ]
+    },
+    {
+      "game": "187457958048",
+      "quality": "thorough",
+      "ply": 35,
+      "move": "Nd5",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9781256957605816,
+      "depths": [
+        16,
+        15
+      ]
+    },
+    {
+      "game": "187353132044",
+      "quality": "thorough",
+      "ply": 39,
+      "move": "Nb4",
+      "old": "dubious",
+      "new": "dubious",
+      "candidate": true,
+      "score": 0.9085268755087527,
+      "depths": [
+        15,
+        14
+      ]
+    },
+    {
+      "game": "187353132044",
+      "quality": "thorough",
+      "ply": 43,
+      "move": "Rxd7+",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9587356728049052,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "thorough",
+      "ply": 26,
+      "move": "Bxh2+",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9849896158863185,
+      "depths": [
+        16,
+        15
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "thorough",
+      "ply": 30,
+      "move": "Bh2+",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9795684394485783,
+      "depths": [
+        13,
+        12
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "thorough",
+      "ply": 32,
+      "move": "Qe8",
+      "old": "interesting",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.655946285334194,
+      "depths": [
+        14,
+        16
+      ]
+    },
+    {
+      "game": "187352976104",
+      "quality": "thorough",
+      "ply": 40,
+      "move": "Rh1+",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9699513388458061,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "187106742030",
+      "quality": "thorough",
+      "ply": 58,
+      "move": "Qa5",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9562449129804279,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "187104408324",
+      "quality": "thorough",
+      "ply": 35,
+      "move": "Ne4",
+      "old": "good",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9841937377373116,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "187052146336",
+      "quality": "thorough",
+      "ply": 36,
+      "move": "fxg3",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9158105691577753,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "188642299209",
+      "quality": "thorough",
+      "ply": 52,
+      "move": "Rxf2",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9813194670237978,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186895306980",
+      "quality": "thorough",
+      "ply": 42,
+      "move": "Rxg5",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9156378638870919,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186807227802",
+      "quality": "thorough",
+      "ply": 28,
+      "move": "Nxe4",
+      "old": "brilliant",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.7010851411314988,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186804298306",
+      "quality": "thorough",
+      "ply": 35,
+      "move": "Nxe4",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9666240256347305,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186798917398",
+      "quality": "thorough",
+      "ply": 33,
+      "move": "Nd6",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.974368271536492,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186787690334",
+      "quality": "thorough",
+      "ply": 28,
+      "move": "Bg4",
+      "old": "interesting",
+      "new": "interesting",
+      "candidate": true,
+      "score": 0.22503807046056665,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186786230002",
+      "quality": "thorough",
+      "ply": 51,
+      "move": "Nf5",
+      "old": null,
+      "new": null,
+      "candidate": true,
+      "score": 0.6383001257211756,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186771033900",
+      "quality": "thorough",
+      "ply": 47,
+      "move": "Nxc5",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9822240758604717,
+      "depths": [
+        16,
+        15
+      ]
+    },
+    {
+      "game": "186706231870",
+      "quality": "thorough",
+      "ply": 27,
+      "move": "Nd5",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9709174274601006,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186704873752",
+      "quality": "thorough",
+      "ply": 55,
+      "move": "Nh5",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9629575283133585,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186701606880",
+      "quality": "thorough",
+      "ply": 12,
+      "move": "a4",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.8861275247720776,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186700377930",
+      "quality": "thorough",
+      "ply": 32,
+      "move": "Nxf2",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9824229516631162,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186700239458",
+      "quality": "thorough",
+      "ply": 32,
+      "move": "Rxf3",
+      "old": "brilliant",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9823639920006547,
+      "depths": [
+        16,
+        14
+      ]
+    },
+    {
+      "game": "186659807318",
+      "quality": "thorough",
+      "ply": 37,
+      "move": "Rxh5",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9832246002777513,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186573944216",
+      "quality": "thorough",
+      "ply": 44,
+      "move": "Nf4",
+      "old": "interesting",
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.9329972047327797,
+      "depths": [
+        16,
+        16
+      ]
+    },
+    {
+      "game": "186573774294",
+      "quality": "thorough",
+      "ply": 45,
+      "move": "Qe7",
+      "old": null,
+      "new": "brilliant",
+      "candidate": true,
+      "score": 0.82020462580156,
+      "depths": [
+        16,
+        16
+      ]
+    }
+  ],
+  "targetScoreShiftsFromFast": {
+    "balanced": {
+      "commonCandidates": 32,
+      "medianDelta": 0.0007971054633762464,
+      "minDelta": -0.07508994361864452,
+      "maxDelta": 0.7605044339726732,
+      "crossesUp": 3,
+      "crossesDown": 1,
+      "cases": [
+        {
+          "game": "188136844746",
+          "ply": 76,
+          "fastScore": 0.9950760424665641,
+          "score": 0.9950760424665641,
+          "delta": 0.0
+        },
+        {
+          "game": "189854753175",
+          "ply": 69,
+          "fastScore": 0.7979983869684973,
+          "score": 0.8005444882542934,
+          "delta": 0.002546101285796021
+        },
+        {
+          "game": "189853553123",
+          "ply": 24,
+          "fastScore": 0.8866639424594465,
+          "score": 0.8841297633792431,
+          "delta": -0.0025341790802033692
+        },
+        {
+          "game": "189853553123",
+          "ply": 68,
+          "fastScore": 0.48122310506585303,
+          "score": 0.5008606717994221,
+          "delta": 0.019637566733569034
+        },
+        {
+          "game": "187896748818",
+          "ply": 28,
+          "fastScore": 0.9762236075545659,
+          "score": 0.9337313238270623,
+          "delta": -0.04249228372750369
+        },
+        {
+          "game": "187459649420",
+          "ply": 53,
+          "fastScore": 0.6674597367812147,
+          "score": 0.6967146983065138,
+          "delta": 0.02925496152529905
+        },
+        {
+          "game": "187457958048",
+          "ply": 35,
+          "fastScore": 0.9780363730997992,
+          "score": 0.9776836516811991,
+          "delta": -0.0003527214186000993
+        },
+        {
+          "game": "187353132044",
+          "ply": 39,
+          "fastScore": 0.8426505759619292,
+          "score": 0.897322641505575,
+          "delta": 0.05467206554364579
+        },
+        {
+          "game": "187353132044",
+          "ply": 43,
+          "fastScore": 0.9338134672926808,
+          "score": 0.958870631147801,
+          "delta": 0.025057163855120246
+        },
+        {
+          "game": "187352976104",
+          "ply": 26,
+          "fastScore": 0.9834424065392119,
+          "score": 0.9813340684351652,
+          "delta": -0.0021083381040466476
+        },
+        {
+          "game": "187352976104",
+          "ply": 30,
+          "fastScore": 0.9807857663767834,
+          "score": 0.9731515571530865,
+          "delta": -0.007634209223696842
+        },
+        {
+          "game": "187352976104",
+          "ply": 32,
+          "fastScore": 0.4602906922186323,
+          "score": 0.655946285334194,
+          "delta": 0.1956555931155617
+        },
+        {
+          "game": "187352976104",
+          "ply": 40,
+          "fastScore": 0.9699513388458061,
+          "score": 0.9699513388458061,
+          "delta": 0.0
+        },
+        {
+          "game": "187106742030",
+          "ply": 58,
+          "fastScore": 0.9551225749760712,
+          "score": 0.9562449129804279,
+          "delta": 0.0011223380043566822
+        },
+        {
+          "game": "187104408324",
+          "ply": 35,
+          "fastScore": 0.7677915794721805,
+          "score": 0.8932772747984105,
+          "delta": 0.12548569532623
+        },
+        {
+          "game": "187052146336",
+          "ply": 36,
+          "fastScore": 0.9195087690596561,
+          "score": 0.9093362103149012,
+          "delta": -0.010172558744754867
+        },
+        {
+          "game": "188642299209",
+          "ply": 52,
+          "fastScore": 0.9782871099125225,
+          "score": 0.9813194670237978,
+          "delta": 0.0030323571112752523
+        },
+        {
+          "game": "186895306980",
+          "ply": 42,
+          "fastScore": 0.9156378638870919,
+          "score": 0.9248820173560852,
+          "delta": 0.009244153468993321
+        },
+        {
+          "game": "186807227802",
+          "ply": 28,
+          "fastScore": 0.6931766338593274,
+          "score": 0.6737869740970924,
+          "delta": -0.019389659762234945
+        },
+        {
+          "game": "186804298306",
+          "ply": 35,
+          "fastScore": 0.9690099925556008,
+          "score": 0.9702274306597283,
+          "delta": 0.001217438104127444
+        },
+        {
+          "game": "186798917398",
+          "ply": 33,
+          "fastScore": 0.9750549673661298,
+          "score": 0.9755268402885257,
+          "delta": 0.0004718729223958107
+        },
+        {
+          "game": "186787690334",
+          "ply": 28,
+          "fastScore": 0.2258771911441427,
+          "score": 0.2296316282004519,
+          "delta": 0.0037544370563092067
+        },
+        {
+          "game": "186786230002",
+          "ply": 51,
+          "fastScore": 0.6571003346608217,
+          "score": 0.6424487470935601,
+          "delta": -0.014651587567261593
+        },
+        {
+          "game": "186771033900",
+          "ply": 47,
+          "fastScore": 0.9814140755908582,
+          "score": 0.9752279318434239,
+          "delta": -0.006186143747434314
+        },
+        {
+          "game": "186706231870",
+          "ply": 27,
+          "fastScore": 0.983484017591105,
+          "score": 0.9731225875490572,
+          "delta": -0.010361430042047814
+        },
+        {
+          "game": "186704873752",
+          "ply": 55,
+          "fastScore": 0.962449181802246,
+          "score": 0.9771141851403781,
+          "delta": 0.014665003338132032
+        },
+        {
+          "game": "186701606880",
+          "ply": 12,
+          "fastScore": 0.8135861052448969,
+          "score": 0.8667875782279952,
+          "delta": 0.0532014729830983
+        },
+        {
+          "game": "186700377930",
+          "ply": 32,
+          "fastScore": 0.9826443904796126,
+          "score": 0.98124790657162,
+          "delta": -0.0013964839079926294
+        },
+        {
+          "game": "186700239458",
+          "ply": 32,
+          "fastScore": 0.9528863801939205,
+          "score": 0.9828523561723379,
+          "delta": 0.029965975978417436
+        },
+        {
+          "game": "186659807318",
+          "ply": 37,
+          "fastScore": 0.9832707023628611,
+          "score": 0.9832707023628611,
+          "delta": 0.0
+        },
+        {
+          "game": "186573944216",
+          "ply": 44,
+          "fastScore": 0.09613769148258013,
+          "score": 0.8566421254552533,
+          "delta": 0.7605044339726732
+        },
+        {
+          "game": "186573774294",
+          "ply": 45,
+          "fastScore": 0.82020462580156,
+          "score": 0.7451146821829154,
+          "delta": -0.07508994361864452
+        }
+      ]
+    },
+    "thorough": {
+      "commonCandidates": 32,
+      "medianDelta": 4.466133039121578e-05,
+      "minDelta": -0.01880020893964618,
+      "maxDelta": 0.8368595132501996,
+      "crossesUp": 3,
+      "crossesDown": 0,
+      "cases": [
+        {
+          "game": "188136844746",
+          "ply": 76,
+          "fastScore": 0.9950760424665641,
+          "score": 0.9943088597578417,
+          "delta": -0.000767182708722447
+        },
+        {
+          "game": "189854753175",
+          "ply": 69,
+          "fastScore": 0.7979983869684973,
+          "score": 0.7933071611951605,
+          "delta": -0.004691225773336805
+        },
+        {
+          "game": "189853553123",
+          "ply": 24,
+          "fastScore": 0.8866639424594465,
+          "score": 0.8850869250829178,
+          "delta": -0.001577017376528711
+        },
+        {
+          "game": "189853553123",
+          "ply": 68,
+          "fastScore": 0.48122310506585303,
+          "score": 0.5093697331909816,
+          "delta": 0.028146628125128526
+        },
+        {
+          "game": "187896748818",
+          "ply": 28,
+          "fastScore": 0.9762236075545659,
+          "score": 0.9759516122886243,
+          "delta": -0.00027199526594168244
+        },
+        {
+          "game": "187459649420",
+          "ply": 53,
+          "fastScore": 0.6674597367812147,
+          "score": 0.6939057367420443,
+          "delta": 0.026445999960829525
+        },
+        {
+          "game": "187457958048",
+          "ply": 35,
+          "fastScore": 0.9780363730997992,
+          "score": 0.9781256957605816,
+          "delta": 8.932266078243156e-05
+        },
+        {
+          "game": "187353132044",
+          "ply": 39,
+          "fastScore": 0.8426505759619292,
+          "score": 0.9085268755087527,
+          "delta": 0.0658762995468235
+        },
+        {
+          "game": "187353132044",
+          "ply": 43,
+          "fastScore": 0.9338134672926808,
+          "score": 0.9587356728049052,
+          "delta": 0.02492220551222446
+        },
+        {
+          "game": "187352976104",
+          "ply": 26,
+          "fastScore": 0.9834424065392119,
+          "score": 0.9849896158863185,
+          "delta": 0.001547209347106615
+        },
+        {
+          "game": "187352976104",
+          "ply": 30,
+          "fastScore": 0.9807857663767834,
+          "score": 0.9795684394485783,
+          "delta": -0.001217326928205087
+        },
+        {
+          "game": "187352976104",
+          "ply": 32,
+          "fastScore": 0.4602906922186323,
+          "score": 0.655946285334194,
+          "delta": 0.1956555931155617
+        },
+        {
+          "game": "187352976104",
+          "ply": 40,
+          "fastScore": 0.9699513388458061,
+          "score": 0.9699513388458061,
+          "delta": 0.0
+        },
+        {
+          "game": "187106742030",
+          "ply": 58,
+          "fastScore": 0.9551225749760712,
+          "score": 0.9562449129804279,
+          "delta": 0.0011223380043566822
+        },
+        {
+          "game": "187104408324",
+          "ply": 35,
+          "fastScore": 0.7677915794721805,
+          "score": 0.9841937377373116,
+          "delta": 0.2164021582651311
+        },
+        {
+          "game": "187052146336",
+          "ply": 36,
+          "fastScore": 0.9195087690596561,
+          "score": 0.9158105691577753,
+          "delta": -0.0036981999018808054
+        },
+        {
+          "game": "188642299209",
+          "ply": 52,
+          "fastScore": 0.9782871099125225,
+          "score": 0.9813194670237978,
+          "delta": 0.0030323571112752523
+        },
+        {
+          "game": "186895306980",
+          "ply": 42,
+          "fastScore": 0.9156378638870919,
+          "score": 0.9156378638870919,
+          "delta": 0.0
+        },
+        {
+          "game": "186807227802",
+          "ply": 28,
+          "fastScore": 0.6931766338593274,
+          "score": 0.7010851411314988,
+          "delta": 0.007908507272171406
+        },
+        {
+          "game": "186804298306",
+          "ply": 35,
+          "fastScore": 0.9690099925556008,
+          "score": 0.9666240256347305,
+          "delta": -0.0023859669208703416
+        },
+        {
+          "game": "186798917398",
+          "ply": 33,
+          "fastScore": 0.9750549673661298,
+          "score": 0.974368271536492,
+          "delta": -0.0006866958296378733
+        },
+        {
+          "game": "186787690334",
+          "ply": 28,
+          "fastScore": 0.2258771911441427,
+          "score": 0.22503807046056665,
+          "delta": -0.0008391206835760556
+        },
+        {
+          "game": "186786230002",
+          "ply": 51,
+          "fastScore": 0.6571003346608217,
+          "score": 0.6383001257211756,
+          "delta": -0.01880020893964618
+        },
+        {
+          "game": "186771033900",
+          "ply": 47,
+          "fastScore": 0.9814140755908582,
+          "score": 0.9822240758604717,
+          "delta": 0.0008100002696134201
+        },
+        {
+          "game": "186706231870",
+          "ply": 27,
+          "fastScore": 0.983484017591105,
+          "score": 0.9709174274601006,
+          "delta": -0.012566590131004474
+        },
+        {
+          "game": "186704873752",
+          "ply": 55,
+          "fastScore": 0.962449181802246,
+          "score": 0.9629575283133585,
+          "delta": 0.000508346511112423
+        },
+        {
+          "game": "186701606880",
+          "ply": 12,
+          "fastScore": 0.8135861052448969,
+          "score": 0.8861275247720776,
+          "delta": 0.07254141952718063
+        },
+        {
+          "game": "186700377930",
+          "ply": 32,
+          "fastScore": 0.9826443904796126,
+          "score": 0.9824229516631162,
+          "delta": -0.00022143881649638875
+        },
+        {
+          "game": "186700239458",
+          "ply": 32,
+          "fastScore": 0.9528863801939205,
+          "score": 0.9823639920006547,
+          "delta": 0.02947761180673425
+        },
+        {
+          "game": "186659807318",
+          "ply": 37,
+          "fastScore": 0.9832707023628611,
+          "score": 0.9832246002777513,
+          "delta": -4.6102085109800406e-05
+        },
+        {
+          "game": "186573944216",
+          "ply": 44,
+          "fastScore": 0.09613769148258013,
+          "score": 0.9329972047327797,
+          "delta": 0.8368595132501996
+        },
+        {
+          "game": "186573774294",
+          "ply": 45,
+          "fastScore": 0.82020462580156,
+          "score": 0.82020462580156,
+          "delta": 0.0
+        }
+      ]
+    }
+  },
+  "frozenInputSha256": {
+    "PLAN.md": "46d34457631e3aabbd9dc738d46afa80928c55d554ab2efad24ec45390eb020a",
+    "gallery-selection.json": "6a00022d432af23777326be0797f60833805b55ba1bf9ecc2ac2bb68f8a30be3",
+    "games.pgn": "6934e331d9819e46a2071e1fbca17c1d4e66a05a34272abeacf05cde65049f0e",
+    "games.json": "0ce47ff4d1879e45a3e7c7e6e7af8162bc9f9b07a06d8101b108a660875dbbdf",
+    "overlap-audit.json": "c2f91632efbd1c5e3363eec7b5d74a78ded67d9dc1351beea8222b4ffe64514d",
+    "runner-input.json": "b984225b831aa22e51b97f3a4aad83325175fc61733ce089a1433cb43d2ae191",
+    "engine-runs.json.gz": "6a5a9b8a65c2d7f1c2272a20374f485435d973beb8f8618665d0649e820d056e"
+  }
+}

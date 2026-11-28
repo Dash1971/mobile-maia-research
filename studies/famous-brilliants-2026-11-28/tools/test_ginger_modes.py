@@ -40,6 +40,16 @@ class CountingTest(unittest.TestCase):
         r['new']['provisional']=[dict(ply=1,label='brilliant')]
         self.assertEqual(modes.count(self.game,r)['newAwards'],0)
 
+    def test_report_does_not_claim_improvement_when_counts_do_not_support_it(self):
+        totals=dict(oldHits=2,newHits=1,oldOutside=0,newOutside=1,
+                    gainedTargets=0,lostTargets=1,oldAwards=2,newAwards=2)
+        data=dict(totals=totals,completedDepths={12:1},unselectedUnreliableBrilliants=[])
+        result=dict(modes={q:data for q in ('fast','balanced','thorough')},
+                    targetScoreShiftsFromFast={},targets=[])
+        report=modes.report(result)
+        self.assertIn('does not show a consistent improvement',report)
+        self.assertNotIn('recovers more gallery labels in every mode',report)
+
     def test_duplicate_label_rows_are_rejected(self):
         with self.assertRaises(AssertionError):
             modes.labels(run([],[(1,'brilliant'),(1,'brilliant')]),'new')

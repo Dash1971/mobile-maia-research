@@ -196,7 +196,16 @@ def report(result):
     for mode, data in result['modes'].items():
         t = data['totals']
         lines.append(f"| {mode.title()} | {t['oldHits']} / 32 | {t['newHits']} / 32 | {t['oldOutside']} / {t['newOutside']} |")
-    lines += ['', '## What changes with the mode', '',
+    improved = all(d['totals']['newHits'] > d['totals']['oldHits'] and
+                   d['totals']['newOutside'] < d['totals']['oldOutside']
+                   for d in result['modes'].values())
+    conclusion = ('Open Brilly Finder recovers more gallery labels in every mode, with fewer '
+                  'awards outside the gallery. This sample supports keeping the app’s current '
+                  'search settings and unchanged model cutoff; it does not justify forcing '
+                  'every mode to the training search setup.' if improved else
+                  'This run does not show a consistent improvement across every mode. '
+                  'Review the mode-specific recovery and outside-gallery awards before changing policy.')
+    lines += ['', conclusion, '', '## What changes with the mode', '',
               '| Mode | Gallery labels gained over adapted En Croissant | Labels lost | All adapted / new Brilliant awards |',
               '|---|---:|---:|---:|']
     for mode, data in result['modes'].items():
@@ -213,7 +222,7 @@ def report(result):
               '| Compared with Fast | Common candidates | Median score change | Minimum / maximum change | Cutoff crossed up / down |',
               '|---|---:|---:|---:|---:|']
     for mode, d in result['targetScoreShiftsFromFast'].items():
-        lines.append(f"| {mode.title()} | {d['commonCandidates']} | {d['medianDelta']:+.4f} | {d['minDelta']:+.4f} / {d['maxDelta']:+.4f} | {d['crossesUp']} / {d['crossesDown']} |")
+        lines.append(f"| {mode.title()} | {d['commonCandidates']} | {d['medianDelta']:+.6f} | {d['minDelta']:+.4f} / {d['maxDelta']:+.4f} | {d['crossesUp']} / {d['crossesDown']} |")
     lines += ['', '## Search evidence', '',
               '| Mode | Nonterminal positions | Completed depth: number of positions | New Brilliant candidates omitted from confirmation budget |',
               '|---|---:|---|---:|']
@@ -244,6 +253,9 @@ def report(result):
               'This sample was selected for containing gallery brillies. Awards outside the',
               'captured gallery are disagreements, not proven false positives. These results',
               'do not establish precision across ordinary games or calibrate the model.',
+              'Each game/mode has one recorded desktop pass. Time-limited searches and host',
+              'load can change lines and labels on a fresh run; the retained evidence makes',
+              'this exact comparison reproducible without rerunning the engine.',
               'They test the app’s current mode behavior rather than reproduce the training',
               'search distribution. They do not measure Android speed or memory.', '',
               '[Plan](PLAN.md) · [Original sample and overlap audit](../REPORT.md) ·',
