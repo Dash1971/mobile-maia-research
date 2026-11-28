@@ -8,7 +8,7 @@ Planned for Mobile Maia 2.7; not yet in a published Android release.
 
 ## The two detectors
 
-**Existing: En Croissant-derived rules.** The En Croissant-derived detector looks for a sacrifice that doesn’t significantly worsen the position, is the Stockfish chess engine’s best move, and stands clearly above the alternatives. These rules catch many good combinations, but can miss a brilliant sacrifice when another move also works.
+**En Croissant (adapted).** The En Croissant (adapted) detector looks for a sacrifice that doesn’t significantly worsen the position, is the Stockfish chess engine’s best move, and stands clearly above the alternatives. These rules catch many good combinations, but can miss a brilliant sacrifice when another move also works.
 
 **New: Open Brilly Finder.** Open Brilly Finder is our open-source research project for recognizing Brilliant moves. Its Mute Exchange model was trained using recorded Chess.com game-review labels. It first checks for a piece offer, allowing for the captures and recaptures on that square. A small trained model then uses the position and Stockfish’s analysis to decide whether that offer deserves !!.
 
@@ -26,7 +26,7 @@ Both find the Opera Game’s 16.Qb8+ and Fischer’s 11...Na4 and 17...Be6. Open
 
 Both detectors recognize Morphy’s queen sacrifice.
 
-| Game | Published !! | Existing finds | Open Brilly finds |
+| Game | Published !! | En Croissant (adapted) | Open Brilly finds |
 | --- | --- | --- | --- |
 | Opera Game | 1 | 1 | 1 |
 | Byrne–Fischer | 2 | 2 | 2 |
@@ -40,7 +40,7 @@ Both detectors recognize Morphy’s queen sacrifice.
 
 The loss is Evergreen’s 20.Rxe7+, which the existing detector finds and the new one misses. Neither finds Short’s quiet 31.Kh2. Deeper analysis helps with Kasparov’s 24.Rxd4: the new detector finds it in Thorough, but misses it in Fast and Balanced. These exceptions remain in the results.
 
-| Analysis mode | Existing finds / 14 | Open Brilly finds / 14 |
+| Analysis mode | En Croissant (adapted) / 14 | Open Brilly finds / 14 |
 | --- | --- | --- |
 | Fast | 9 | 10 |
 | Balanced | 8 | 10 |
@@ -54,9 +54,9 @@ Next we tested 42 online games from Open Brilly Finder’s public collection: si
 
 This gives us 1,692 scored moves, including 51 marked Brilliant in those reviews. These games were collected for their Brilliant moves; they are not a random sample of online chess. Thirty-six selected games were used in the model’s development; six Witty_Alien games were kept out of the model’s training games. This checks the integration on that collection, rather than establishing accuracy for all players.
 
-The En Croissant-derived detector found 11 of those 51 moves. Open Brilly Finder found 44: 33 more. It retains all 11 moves the old rules recognized.
+The En Croissant (adapted) detector found 11 of those 51 moves. Open Brilly Finder found 44: 33 more. It retains all 11 moves the old rules recognized.
 
-| Player / account | Recorded !! | Existing finds | Open Brilly finds |
+| Player / account | Recorded !! | En Croissant (adapted) | Open Brilly finds |
 | --- | --- | --- | --- |
 | Eric Hansen | 6 | 1 | 6 |
 | Aman Hambleton | 7 | 2 | 6 |
@@ -71,7 +71,7 @@ In the six games kept out of the model’s training games, Open Brilly Finder fo
 
 On the scored moves, every Brilliant award from either detector matched a recorded Brilliant label.
 
-| Recorded Brilliant moves | En Croissant-derived | Open Brilly Finder |
+| Recorded Brilliant moves | En Croissant (adapted) | Open Brilly Finder |
 | --- | --- | --- |
 | Found | 11 | 44 |
 | Missed | 40 | 7 |
@@ -88,7 +88,7 @@ Hansen plays 27.Rxd7, giving up a rook for a knight. After 27...Rxd7, 28.Nf6+ fo
 
 ![hansen – DAESDO · 2026/06/06 · 27.Rxd7](figures/online-169812769348-053.png)
 
-Existing: **Interesting !?**. Open Brilly Finder: **Brilliant !!**. Recorded Chess.com review: **Brilliant**.
+En Croissant (adapted): **Interesting !?**. Open Brilly Finder: **Brilliant !!**. Recorded Chess.com review: **Brilliant**.
 
 [Original game](https://www.chess.com/game/live/169812769348)
 
@@ -100,7 +100,7 @@ Hambleton offers his knight with 19.Nxg6. Black accepts: 19...Kxg6 20.Bxf5+ Kf7 
 
 ![KNVB – Cocolino31 · 2026/06/10 · 19.Nxg6](figures/online-170012492008-037.png)
 
-Existing: **Interesting !?**. Open Brilly Finder: **Brilliant !!**. Recorded Chess.com review: **Brilliant**.
+En Croissant (adapted): **Interesting !?**. Open Brilly Finder: **Brilliant !!**. Recorded Chess.com review: **Brilliant**.
 
 [Original game](https://www.chess.com/game/live/170012492008)
 
@@ -138,7 +138,7 @@ Both detectors also show a shared shallow-search inconsistency at Opera 15.Bxd7+
 
 [Fixed online plan](online/PLAN.md) · [Selection](online/selection.json) · [All game-level results](online/summary.json) · [Online raw evidence](online/engine-runs.json.gz) · [Data and reproduction](README.md)
 
-[Recorded reference PGN](online/review-labels.pgn) · [Existing detector PGN](online/old-awards.pgn) · [Open Brilly Finder PGN](online/new-awards.pgn). The detector PGNs include awards for both players; tables score only the selected account.
+[Recorded reference PGN](online/review-labels.pgn) · [En Croissant (adapted) PGN](online/old-awards.pgn) · [Open Brilly Finder PGN](online/new-awards.pgn). The detector PGNs include awards for both players; tables score only the selected account.
 
 ## Sources and credits
 

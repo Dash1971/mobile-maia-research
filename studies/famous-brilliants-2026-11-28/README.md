@@ -21,6 +21,10 @@ confirmation and final checks. The runner asserts that confirmations do not
 change graph scores or baseline principal variations. No model, cutoff or
 classification rules were changed for any comparison.
 
+Each classical example names its published source and shows both detectors’
+results in Fast, Balanced and Thorough. Diagram pairs show the position before
+and after the same move. The interactive viewer labels its selected analysis mode.
+
 The online games come from seven titled-player accounts. Six games per account
 were selected by a fixed hash before analysis. Thirty-six selected games were
 upstream development games; six Witty_Alien games were held out upstream,
@@ -103,6 +107,7 @@ python tools/summarize_online.py --runs /task/scratch/online-runs.json
 python tools/summarize.py --runs data/engine-runs.json
 python tools/build_article.py
 python tools/check_study.py
+python tools/check_example_display.py
 python tools/check_online.py
 ```
 

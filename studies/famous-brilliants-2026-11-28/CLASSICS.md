@@ -4,9 +4,9 @@ Appendix to [Finding more brilliant moves](REPORT.md). Nine famous games and fou
 
 ## What the tests found
 
-In Fast analysis, the previous classifier found **9/14** frozen published!! landmarks. Open Brilly Finder found **10/14**. It recovered 2 and lost 1 at those landmarks. These are final app awards after its normal confirmation policy, not raw model predictions.
+In Fast analysis, the En Croissant (adapted) found **9/14** frozen published!! landmarks. Open Brilly Finder found **10/14**. It recovered 2 and lost 1 at those landmarks. These are final app awards after its normal confirmation policy, not raw model predictions.
 
-| Game | Published!! landmarks | Previous Fast | Open Brilly Finder Fast |
+| Game | Published!! landmarks | En Croissant (adapted) Fast | Open Brilly Finder Fast |
 | --- | ---: | ---: | ---: |
 | Opera Game (1858) | 1 | 1 | 1 |
 | Byrne–Fischer (1956) | 2 | 2 | 2 |
@@ -20,7 +20,7 @@ In Fast analysis, the previous classifier found **9/14** frozen published!! land
 
 ### All three prespecified modes
 
-| Mode | Previous landmarks | New landmarks | Previous total awards | New total awards |
+| Mode | En Croissant (adapted) finds | Open Brilly Finder finds | En Croissant (adapted) awards | Open Brilly Finder awards |
 | --- | ---: | ---: | ---: | ---: |
 | Fast | 9/14 | 10/14 | 19 | 20 |
 | Balanced | 8/14 | 10/14 | 16 | 19 |
@@ -34,18 +34,30 @@ Additional awards are listed below and in the data. A move without a recorded!! 
 
 [Chosen annotation](https://www.chess.com/article/view/the-best-chess-games-of-all-time)
 
-**16.Qb8+ — published!!**
+**16.Qb8+**
 
 Queen sacrifice deflects the knight so the remaining rook mates on d8.
 
+**Published annotation: Brilliant !!**
+
+Chess.com staff: [The Best Chess Games Of All Time](https://www.chess.com/article/view/the-best-chess-games-of-all-time) — Opera Game section.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Brilliant !! | Brilliant !! |
+| Balanced | Brilliant !! | Brilliant !! |
+| Thorough | Brilliant !! | Brilliant !! |
+
+Both detectors label this move Brilliant in all three modes.
+
 ![Opera Game 16.Qb8+ before and after](figures/opera-1858-031.png)
 
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Left: before 16.Qb8+. Right: after the same move.
 
 <details>
 <summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
 
-| Move | Selected source mark | Previous Fast | New Fast |
+| Move | Selected source mark | En Croissant (adapted) Fast | Open Brilly Finder Fast |
 | --- | --- | --- | --- |
 | 10.Nxb5 | ! | Brilliant !! | Brilliant !! |
 | 13.Rxd7 | ! | Unmarked | Brilliant !! |
@@ -58,26 +70,50 @@ Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal 
 
 [Chosen annotation](https://en.chessbase.com/post/the-game-that-shook-the-world-2)
 
-**11...Na4 — published!!**
+**11...Na4**
 
 The knight is offered because accepting it allows decisive attacks on White’s other pieces.
 
+**Published annotation: Brilliant !!**
+
+Frederic Friedel · ChessBase: [The game that shook the world](https://en.chessbase.com/post/the-game-that-shook-the-world-2) — Published game commentary.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Brilliant !! | Brilliant !! |
+| Balanced | Interesting !? | Brilliant !! |
+| Thorough | Brilliant !! | Brilliant !! |
+
+En Croissant (adapted) labels it Brilliant in Fast and Thorough only. Open Brilly Finder labels it Brilliant in all three modes.
+
 ![Byrne–Fischer 11...Na4 before and after](figures/byrne-fischer-1956-022.png)
 
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Left: before 11...Na4. Right: after the same move.
 
-**17...Be6 — published!!**
+**17...Be6**
 
 Fischer leaves his queen to be captured while his remaining pieces launch the winning attack.
 
+**Published annotation: Brilliant !!**
+
+Frederic Friedel · ChessBase: [The game that shook the world](https://en.chessbase.com/post/the-game-that-shook-the-world-2) — Published game commentary.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Brilliant !! | Brilliant !! |
+| Balanced | Brilliant !! | Brilliant !! |
+| Thorough | Brilliant !! | Brilliant !! |
+
+Both detectors label this move Brilliant in all three modes.
+
 ![Byrne–Fischer 17...Be6 before and after](figures/byrne-fischer-1956-034.png)
 
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Left: before 17...Be6. Right: after the same move.
 
 <details>
 <summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
 
-| Move | Selected source mark | Previous Fast | New Fast |
+| Move | Selected source mark | En Croissant (adapted) Fast | Open Brilly Finder Fast |
 | --- | --- | --- | --- |
 | 11...Na4 | !! | Brilliant !! | Brilliant !! |
 | 13...Nxe4 | ! | Unmarked | Unmarked |
@@ -91,18 +127,30 @@ Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal 
 
 [Chosen annotation](https://www.chess.com/terms/immortal-game-chess)
 
-**22.Qf6+ — published!!**
+**22.Qf6+**
 
 The queen offer diverts the g8 knight from guarding e7, enabling the bishop mate.
 
+**Published annotation: Brilliant !!**
+
+NM Sam Copeland · Chess.com: [Immortal Game — Anderssen vs Kieseritzky (1851)](https://www.chess.com/terms/immortal-game-chess) — Chess.com Terms.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Interesting !? | Brilliant !! |
+| Balanced | Interesting !? | Brilliant !! |
+| Thorough | Interesting !? | Brilliant !! |
+
+En Croissant (adapted) does not label this move Brilliant. Open Brilly Finder labels it Brilliant in all three modes.
+
 ![Immortal Game 22.Qf6+ before and after](figures/immortal-1851-043.png)
 
-Fast: Interesting !? → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Left: before 22.Qf6+. Right: after the same move.
 
 <details>
 <summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
 
-| Move | Selected source mark | Previous Fast | New Fast |
+| Move | Selected source mark | En Croissant (adapted) Fast | Open Brilly Finder Fast |
 | --- | --- | --- | --- |
 | 18.Bd6 | ?! | Blunder ?? | Blunder ?? |
 | 22.Qf6+ | !! | Interesting !? | Brilliant !! |
@@ -113,26 +161,50 @@ Fast: Interesting !? → Brilliant !!. Awarded Brilliant after the app’s norma
 
 [Chosen annotation](https://uscf1-nyc1.aodhosting.com/CLK-ALL/2015/2015.10.pdf)
 
-**20.Rxe7+ — published!!**
+**20.Rxe7+**
 
 Rook sacrifice draws the defending knight away so the queen can be offered with check.
 
+**Published annotation: Brilliant !!**
+
+US Chess: [Chess Life for Kids, October 2015](https://uscf1-nyc1.aodhosting.com/CLK-ALL/2015/2015.10.pdf) — End of the Line solutions, page 23.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Brilliant !! | Interesting !? |
+| Balanced | Brilliant !! | Interesting !? |
+| Thorough | Brilliant !! | Interesting !? |
+
+En Croissant (adapted) labels it Brilliant in all three modes. Open Brilly Finder does not label this move Brilliant.
+
 ![Evergreen Game 20.Rxe7+ before and after](figures/evergreen-1852-039.png)
 
-Fast: Brilliant !! → Interesting !?. The model score is below its fixed Brilliant cutoff.
+Left: before 20.Rxe7+. Right: after the same move.
 
-**21.Qxd7+ — published!!**
+**21.Qxd7+**
 
 Queen sacrifice draws the king into a forced mating net with the two bishops.
 
+**Published annotation: Brilliant !!**
+
+US Chess: [Chess Life for Kids, October 2015](https://uscf1-nyc1.aodhosting.com/CLK-ALL/2015/2015.10.pdf) — End of the Line solutions, page 23.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Brilliant !! | Brilliant !! |
+| Balanced | Brilliant !! | Brilliant !! |
+| Thorough | Brilliant !! | Brilliant !! |
+
+Both detectors label this move Brilliant in all three modes.
+
 ![Evergreen Game 21.Qxd7+ before and after](figures/evergreen-1852-041.png)
 
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Left: before 21.Qxd7+. Right: after the same move.
 
 <details>
 <summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
 
-| Move | Selected source mark | Previous Fast | New Fast |
+| Move | Selected source mark | En Croissant (adapted) Fast | Open Brilly Finder Fast |
 | --- | --- | --- | --- |
 | 19.Rad1 | ! | Mistake ? | Mistake ? |
 | 20.Rxe7+ | !! | Brilliant !! | Interesting !? |
@@ -144,34 +216,70 @@ Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal 
 
 [Chosen annotation](https://www.chess.com/article/view/the-best-chess-games-of-all-time)
 
-**22...Rxc3 — published!!**
+**22...Rxc3**
 
 The rook removes a defender while the queen is offered to the g-pawn.
 
+**Published annotation: Brilliant !!**
+
+Chess.com staff: [The Best Chess Games Of All Time](https://www.chess.com/article/view/the-best-chess-games-of-all-time) — Rotlewi–Rubinstein section.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Brilliant !! | Brilliant !! |
+| Balanced | Brilliant !! | Brilliant !! |
+| Thorough | Brilliant !! | Brilliant !! |
+
+Both detectors label this move Brilliant in all three modes.
+
 ![Rotlewi–Rubinstein 22...Rxc3 before and after](figures/rotlewi-rubinstein-1907-044.png)
 
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Left: before 22...Rxc3. Right: after the same move.
 
-**23...Rd2 — published!!**
+**23...Rd2**
 
 A second rook offer diverts the white queen from its defensive role.
 
+**Published annotation: Brilliant !!**
+
+Chess.com staff: [The Best Chess Games Of All Time](https://www.chess.com/article/view/the-best-chess-games-of-all-time) — Rotlewi–Rubinstein section.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Brilliant !! | Brilliant !! |
+| Balanced | Brilliant !! | Brilliant !! |
+| Thorough | Brilliant !! | Brilliant !! |
+
+Both detectors label this move Brilliant in all three modes.
+
 ![Rotlewi–Rubinstein 23...Rd2 before and after](figures/rotlewi-rubinstein-1907-046.png)
 
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Left: before 23...Rd2. Right: after the same move.
 
-**25...Rh3 — published!!**
+**25...Rh3**
 
 Quiet rook move seals the mating attack; check need not be immediate.
 
+**Published annotation: Brilliant !!**
+
+Chess.com staff: [The Best Chess Games Of All Time](https://www.chess.com/article/view/the-best-chess-games-of-all-time) — Rotlewi–Rubinstein section.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Interesting !? | Interesting !? |
+| Balanced | Interesting !? | Interesting !? |
+| Thorough | Interesting !? | Interesting !? |
+
+Neither detector labels this move Brilliant in any mode.
+
 ![Rotlewi–Rubinstein 25...Rh3 before and after](figures/rotlewi-rubinstein-1907-050.png)
 
-Fast: Interesting !? → Interesting !?. The model score is below its fixed Brilliant cutoff.
+Left: before 25...Rh3. Right: after the same move.
 
 <details>
 <summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
 
-| Move | Selected source mark | Previous Fast | New Fast |
+| Move | Selected source mark | En Croissant (adapted) Fast | Open Brilly Finder Fast |
 | --- | --- | --- | --- |
 | 22...Rxc3 | !! | Brilliant !! | Brilliant !! |
 | 23...Rd2 | !! | Brilliant !! | Brilliant !! |
@@ -183,18 +291,30 @@ Fast: Interesting !? → Interesting !?. The model score is below its fixed Bril
 
 [Chosen annotation](https://www.chess.com/article/view/throwing-away-your-queen)
 
-**23...Qg3 — published!!**
+**23...Qg3**
 
 The queen can be taken three ways, but each loses to knight and rook tactics.
 
+**Published annotation: Brilliant !!**
+
+IM Jeremy Silman · Chess.com: [Throwing Away Your Queen](https://www.chess.com/article/view/throwing-away-your-queen) — Levitsky–Marshall section.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Interesting !? | Brilliant !! |
+| Balanced | Interesting !? | Brilliant !! |
+| Thorough | Interesting !? | Brilliant !! |
+
+En Croissant (adapted) does not label this move Brilliant. Open Brilly Finder labels it Brilliant in all three modes.
+
 ![Levitsky–Marshall 23...Qg3 before and after](figures/levitsky-marshall-1912-046.png)
 
-Fast: Interesting !? → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Left: before 23...Qg3. Right: after the same move.
 
 <details>
 <summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
 
-| Move | Selected source mark | Previous Fast | New Fast |
+| Move | Selected source mark | En Croissant (adapted) Fast | Open Brilly Finder Fast |
 | --- | --- | --- | --- |
 | 19.Rxd5 | Not listed | Good ! | Brilliant !! |
 | 22...Rxh3 | Not listed | Interesting !? | Brilliant !! |
@@ -206,18 +326,30 @@ Fast: Interesting !? → Brilliant !!. Awarded Brilliant after the app’s norma
 
 [Chosen annotation](https://uscf1-nyc1.aodhosting.com/CLK-ALL/2020/4-August%202020%20CLK.pdf)
 
-**11.Qxh7+ — published!!**
+**11.Qxh7+**
 
 The queen offer draws the king out; a discovered double check begins the long forced king hunt.
 
+**Published annotation: Brilliant !!**
+
+John Hartmann · US Chess: [Chess Life for Kids, August 2020](https://uscf1-nyc1.aodhosting.com/CLK-ALL/2020/4-August%202020%20CLK.pdf) — Page 4.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Brilliant !! | Brilliant !! |
+| Balanced | Brilliant !! | Brilliant !! |
+| Thorough | Brilliant !! | Brilliant !! |
+
+Both detectors label this move Brilliant in all three modes.
+
 ![Lasker–Thomas 11.Qxh7+ before and after](figures/lasker-thomas-1912-021.png)
 
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Left: before 11.Qxh7+. Right: after the same move.
 
 <details>
 <summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
 
-| Move | Selected source mark | Previous Fast | New Fast |
+| Move | Selected source mark | En Croissant (adapted) Fast | Open Brilly Finder Fast |
 | --- | --- | --- | --- |
 | 11.Qxh7+ | !! | Brilliant !! | Brilliant !! |
 
@@ -227,26 +359,50 @@ Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal 
 
 [Chosen annotation](https://www.chess.com/article/view/the-best-chess-games-of-all-time)
 
-**24.Rxd4 — published!!**
+**24.Rxd4**
 
 Rook offer opens the position for a long attack against the black king.
 
+**Published annotation: Brilliant !!**
+
+Sam Copeland · Chess.com: [The Best Chess Games Of All Time](https://www.chess.com/article/view/the-best-chess-games-of-all-time) — Kasparov–Topalov section.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Interesting !? | Interesting !? |
+| Balanced | Interesting !? | Interesting !? |
+| Thorough | Interesting !? | Brilliant !! |
+
+En Croissant (adapted) does not label this move Brilliant. Open Brilly Finder labels it Brilliant in Thorough only.
+
 ![Kasparov–Topalov 24.Rxd4 before and after](figures/kasparov-topalov-1999-047.png)
 
-Fast: Interesting !? → Interesting !?. The model score is below its fixed Brilliant cutoff.
+Left: before 24.Rxd4. Right: after the same move.
 
-**25.Re7+ — published!!**
+**25.Re7+**
 
 The second rook joins the king hunt and cannot safely be captured.
 
+**Published annotation: Brilliant !!**
+
+Sam Copeland · Chess.com: [The Best Chess Games Of All Time](https://www.chess.com/article/view/the-best-chess-games-of-all-time) — Kasparov–Topalov section.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Brilliant !! | Brilliant !! |
+| Balanced | Brilliant !! | Brilliant !! |
+| Thorough | Brilliant !! | Brilliant !! |
+
+Both detectors label this move Brilliant in all three modes.
+
 ![Kasparov–Topalov 25.Re7+ before and after](figures/kasparov-topalov-1999-049.png)
 
-Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal evidence checks.
+Left: before 25.Re7+. Right: after the same move.
 
 <details>
 <summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
 
-| Move | Selected source mark | Previous Fast | New Fast |
+| Move | Selected source mark | En Croissant (adapted) Fast | Open Brilly Finder Fast |
 | --- | --- | --- | --- |
 | 24.Rxd4 | !! | Interesting !? | Interesting !? |
 | 25.Re7+ | !! | Brilliant !! | Brilliant !! |
@@ -268,18 +424,30 @@ Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal 
 
 [Chosen annotation](https://rafaelleitao.com/short-x-timman-2/)
 
-**31.Kh2 — published!!**
+**31.Kh2**
 
 The king leaves safety to join the mating attack while many pieces remain. This is a quiet non-sacrificial plan, testing the model’s conceptual scope.
 
+**Published annotation: Brilliant !!**
+
+GM Rafael Leitão: [Chess game: Short x Timman](https://rafaelleitao.com/short-x-timman-2/) — Published annotated game.
+
+| Analysis mode | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Fast | Dubious ?! | Dubious ?! |
+| Balanced | Unmarked | Unmarked |
+| Thorough | Unmarked | Unmarked |
+
+Neither detector labels this move Brilliant in any mode.
+
 ![Short–Timman 31.Kh2 before and after](figures/short-timman-1991-061.png)
 
-Fast: Dubious ?! → Dubious ?!. The engine-based error grade takes precedence.
+Left: before 31.Kh2. Right: after the same move.
 
 <details>
 <summary>Awarded and source-listed moves across all modes; Fast grades shown</summary>
 
-| Move | Selected source mark | Previous Fast | New Fast |
+| Move | Selected source mark | En Croissant (adapted) Fast | Open Brilly Finder Fast |
 | --- | --- | --- | --- |
 | 13...e6 | ?! | Unmarked | Unmarked |
 | 17.Bc4 | ! | Unmarked | Unmarked |
