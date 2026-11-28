@@ -24,6 +24,8 @@ We’re aiming for Mobile Maia 2.7. Open Brilly Finder remains a draft; the Ever
 
 **Extra awards still need judgment.** Fast produces 19 total Brilliant awards before and 20 after. Ten in each list lie outside the fourteen frozen landmarks. Some are source ! moves; others are not listed in that source scope. Those counts cannot establish a false-positive rate.
 
+**The shared engine evidence has a warning sign.** Both classifiers call Opera15.Bxd7+ a Blunder in Fast and a Mistake in Balanced, while Thorough leaves it unmarked. Balanced recommends that move before playing it, then lowers its evaluation afterward. This shared search instability is separate from Open Brilly Finder; the study does not validate every non-Brilliant grade.
+
 ## What the tests found
 
 In Fast analysis, the previous classifier found **9/14** frozen published!! landmarks. Open Brilly Finder found **10/14**. It recovered 2 and lost 1 at those landmarks. These are final app awards after its normal confirmation policy, not raw model predictions.
@@ -71,6 +73,7 @@ Fast: Brilliant !! → Brilliant !!. Awarded Brilliant after the app’s normal 
 | --- | --- | --- | --- |
 | 10.Nxb5 | ! | Brilliant !! | Brilliant !! |
 | 13.Rxd7 | ! | Unmarked | Brilliant !! |
+| 15.Bxd7+ | Not listed | Blunder ?? | Blunder ?? |
 | 16.Qb8+ | !! | Brilliant !! | Brilliant !! |
 
 </details>

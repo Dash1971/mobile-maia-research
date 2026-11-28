@@ -28,7 +28,7 @@
       const group = document.createElement('optgroup'); group.label = landmark ? 'Published !! landmarks' : 'Other source-listed or awarded moves';
       for (const c of game().cases.filter(c => c.landmark === landmark)) {
         const option = document.createElement('option'); option.value = c.ply;
-        option.textContent = c.move + (c.sourceMark ? ` · published ${c.sourceMark}` : '');
+        option.textContent = c.move + (c.diagnostic ? ' · search diagnostic' : '') + (c.sourceMark ? ` · published ${c.sourceMark}` : '');
         group.append(option);
       }
       if (group.children.length) select.append(group);
@@ -67,7 +67,7 @@
   function evidence() {
     const g=game(), c=current(), m=c.modes[quality];
     metric('case-title',c.move); metric('game-title',`${g.title} · ${g.year}`);
-    metric('annotation',c.sourceMark ? `Published ${c.sourceMark}` : 'Not listed in the chosen annotation');
+    metric('annotation',c.diagnostic ? 'Post-run search diagnostic' : c.sourceMark ? `Published ${c.sourceMark}` : 'Not listed in the chosen annotation');
     const link=byId('annotation-source'); link.href=g.source.url; link.textContent='Read the chosen annotation';
     metric('idea',c.idea || 'This move is included because at least one classifier awarded it Brilliant, or it was separately marked in the chosen source.');
     metric('old',grade(m.old)); metric('new',grade(m.new));
@@ -83,7 +83,7 @@
     const body=byId('all-awards'); body.replaceChildren();
     for (const item of cases) {
       const v=item.modes[quality];
-      if (v.old!=='brilliant' && v.new!=='brilliant' && !item.landmark && !item.sourceListed) continue;
+      if (v.old!=='brilliant' && v.new!=='brilliant' && !item.landmark && !item.sourceListed && !item.diagnostic) continue;
       const tr=document.createElement('tr');
       for (const value of [item.move,item.sourceMark || 'Not listed',glyph(v.old),glyph(v.new)]) {
         const td=document.createElement('td'); td.textContent=value; tr.append(td);

@@ -3,8 +3,8 @@
     {
       "source": "web/article-body.html",
       "target": "research-source/brilliant-study/article-body.html",
-      "bytes": 23530,
-      "sha256": "b1f94fdf3ee19d09c5a37d975e250599e3b8eb85ec91dfcdeb092f12abfc65a6"
+      "bytes": 23969,
+      "sha256": "35439aaed1e566f065502a8f46d9d9d30b5ee65279f91230488c506baddc0efb"
     },
     {
       "source": "web/index-card.json",
@@ -21,14 +21,14 @@
     {
       "source": "web/brilliant.js",
       "target": "site/research/brilliant-moves/brilliant.js",
-      "bytes": 7594,
-      "sha256": "80408ed95dbec7a90b75f03998e578991449156a11d52d8c2062009dac34175e"
+      "bytes": 7708,
+      "sha256": "209e41a05efe028c0b44621c57001aec9ec2ec320d1fc21d733623170de7fd59"
     },
     {
       "source": "web/results.json",
       "target": "site/research/brilliant-moves/results.json",
-      "bytes": 75575,
-      "sha256": "48f04e5649b8e919716c802ab6f368fd1b3adec2cdc8d84b62c2a1931ec45acd"
+      "bytes": 78055,
+      "sha256": "134dc71578134a484a37ede33e0d3499e2231163eb0d0836f5338647894307f6"
     },
     {
       "source": "data/games.pgn",

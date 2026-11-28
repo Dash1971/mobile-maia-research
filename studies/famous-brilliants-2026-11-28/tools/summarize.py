@@ -42,7 +42,8 @@ def build(raw):
     for game in games:
         anchors = {a['ply']: a for a in game['strictBrilliants']}
         notes = {a['ply']: a for a in game['otherAnnotations']}
-        cases = set(anchors) | set(notes)
+        diagnostics = {29} if game['id'] == 'opera-1858' else set()
+        cases = set(anchors) | set(notes) | diagnostics
         stats = {}
         for q in QUALITIES:
             run = runs[game['id'], q]
@@ -62,7 +63,7 @@ def build(raw):
             board.push(m)
             assert board.board_fen() == chess.Board(game['positions'][ply]).board_fen()
             mark = anchors.get(ply) or notes.get(ply)
-            entry = {'ply': ply, 'move': move_label(game, ply), 'uci': m.uci(), 'before': game['positions'][ply - 1], 'after': game['positions'][ply], 'landmark': ply in anchors, 'sourceMark': mark.get('published') if mark else None, 'sourceListed': mark is not None, 'idea': (mark or {}).get('reason', ''), 'modes': {}}
+            entry = {'ply': ply, 'move': move_label(game, ply), 'uci': m.uci(), 'before': game['positions'][ply - 1], 'after': game['positions'][ply], 'landmark': ply in anchors, 'sourceMark': mark.get('published') if mark else None, 'sourceListed': mark is not None, 'diagnostic': ply in diagnostics, 'idea': ('A post-run diagnostic: both classifiers give this move an error grade in shallow analysis, despite Balanced recommending it before the move. This does not change the frozen landmark comparison.' if ply in diagnostics else (mark or {}).get('reason', '')), 'modes': {}}
             for q in QUALITIES:
                 run = runs[game['id'], q]
                 old = labelmap(run['old']).get(ply)

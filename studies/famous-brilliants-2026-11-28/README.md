@@ -2,7 +2,7 @@
 
 [Read the visual report](REPORT.md) · [Frozen plan](PLAN.md) · [Game scores](data/games.pgn)
 
-Nine famous games, 492 played moves, fourteen published `!!` landmarks. Every
+Nine famous games, 492 mainline plies from the published scores, fourteen published `!!` landmarks. Every
 position was freshly analyzed in all three Mobile Maia modes: **27 runs and
 1,503 baseline positions**. Both actual Dart classifiers received the same
 baseline Stockfish output, then used their normal independent confirmation
@@ -37,7 +37,7 @@ thread. Worker parsing and feature extraction remain off the UI isolate.
 ## Data map
 
 - [Annotation registry](data/annotation-registry.json): fixed landmarks, ordinary/dubious marks, source scopes and historical caveats.
-- [Legal games](data/games.json) and [fact-only PGN](data/games.pgn): all played moves/positions, without copied source commentary or variations.
+- [Legal games](data/games.json) and [fact-only PGN](data/games.pgn): all moves/positions in the published scores, without copied source commentary or variations.
 - [Source receipts](data/game-score-sources.json) and [access/normalization record](data/annotation-access-receipt.json): URLs, download hashes where available, and disclosed source typos/access limits. The receipt's original registry hash identifies the contributing source collection; the combined nine-game registry is fixed in the plan commit above.
 - [Full engine evidence](data/engine-runs.json): completed current/prior snapshots, all provisional/final labels, independent confirmations and timing.
 - [Summary](data/summary.json) and [viewer dataset](web/results.json): derived counts and every awarded/source-listed review position.
@@ -51,6 +51,16 @@ not audited. Short–Timman is a prespecified quiet-brilliance stress case. Thes
 selected games establish neither a population accuracy nor a false-positive
 rate. Extra awards remain visible; source! becoming model!! is described as a
 generous promotion. The model score is not a probability.
+
+## Shared search-evidence diagnostic
+
+A post-run inspection also found Opera15.Bxd7+ graded Blunder in Fast and
+Mistake in Balanced by **both** classifiers; Thorough leaves it unmarked.
+Balanced recommends Bxd7+ before the move (+6.39), then evaluates the resulting
+position at +3.10. Thorough gives +8.32/+8.47. This is inconsistent shallow
+search evidence, separate from the proposed Brilliant model. The viewer includes
+this post-run diagnostic without adding it to the fourteen frozen landmarks.
+Non-Brilliant grade accuracy is not validated by this study.
 
 ## Reproduce
 
