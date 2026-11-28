@@ -1,0 +1,67 @@
+{
+  "retrievalDate": "2026-11-28",
+  "classifierResultsSeen": false,
+  "primaryAnnotationAccess": [
+    {
+      "source": "https://www.chess.com/terms/immortal-game-chess",
+      "read": "Web source rendering; explicit22.Qf6+!! and18.Bd6?! visible in prose. Detailed embedded game not extracted."
+    },
+    {
+      "source": "https://uscf1-nyc1.aodhosting.com/CLK-ALL/2015/2015.10.pdf",
+      "read": "Search-rendered original PDF text for printedp23 End of the Line answer4: Rxe7+!! andQxd7+!!. Direct PDF download returned403; no full PDF archived."
+    },
+    {
+      "source": "https://www.chess.com/article/view/the-best-chess-games-of-all-time",
+      "read": "Full web source rendering. Selected game sections1(Kasparov),2(Opera),9(Rubinstein). Exact markers taken only from those sections, not from reader quotes elsewhere or unplayed variations."
+    },
+    {
+      "source": "https://www.chess.com/article/view/throwing-away-your-queen",
+      "read": "Full web source rendering. IMJeremySilman; selectedLevitsky–Marshallmainline has23...Qg3!!; othergames/variations excluded."
+    },
+    {
+      "source": "https://uscf1-nyc1.aodhosting.com/CLK-ALL/2020/4-August%202020%20CLK.pdf",
+      "read": "Search-rendered original PDF text printedp4, complete35ply game with JohnHartmann credit.11.Qxh7+!! is explicit. Direct PDF download403; no fullPDF archived."
+    },
+    {
+      "source": "https://rafaelleitao.com/short-x-timman-2/",
+      "read": "Full web rendering includes complete annotated PGN. Sole played-mainline NAG$3=31.Kh2;32.Kg3,33.Kf4,34.Kg5 areNAG$1. Direct HTML download403; factualmainline transcribed from publicly rendered PGN and independently validated."
+    }
+  ],
+  "normalizations": [
+    {
+      "game": "rotlewi-rubinstein-1907",
+      "sourceText": "23...Rxd2!!",
+      "canonicalMove": "23...Rd2",
+      "reason": "On mainline d2 is empty; this is a source capture-marker typo. Move identity is matched by game, fullmove23, Black, rooktod2."
+    },
+    {
+      "game": "evergreen-1852",
+      "sourceText": [
+        "1.Rxe7+!!",
+        "2.Qxd7+!!"
+      ],
+      "canonicalMoves": [
+        "20.Rxe7+",
+        "21.Qxd7+"
+      ],
+      "reason": "Chosen article is a finishing problem fragment. Full-game move numbers and legality are independently validated."
+    },
+    {
+      "game": "lasker-thomas-1912",
+      "choice": "US Chess2020 printed opening order1.d4f5 2.Nf3e6 ...8.Bd3Bb7 9.Ne5O-O;1912unknownmonth/day.",
+      "reason": "Historical sources disagree on opening order and year; do not conflate alternate opening sequences or replace played18.Kd2# with optionalcastlingmate."
+    },
+    {
+      "game": "levitsky-marshall-1912",
+      "choice": "ChessBase factual score starts1.e4e6 2.d4d5;Silman starts1.d4e6 2.e4d5.",
+      "reason": "Both transpose to identical board at2...d5; allanchors arelater. Keep exact factualscoreversion and documenttransposition."
+    },
+    {
+      "game": "short-timman-1991",
+      "choice": "GM Rafael Leitão exact mainline with31.Kh2!!32.Kg3!33.Kf4!34.Kg5!, sole strictanchor31.Kh2.",
+      "reason": "Independent credible annotation avoids Chess.com BestGamessection7 typos; Kh6 is an unplayed threatened continuation."
+    }
+  ],
+  "registrySha256": "9dced81a804efbb2970e569364942900d39bd54ec004959c73d0cf2f079f945f",
+  "sourceGamesSha256": "62caed16ddc54c6f2cbb6c25ced254e17e663ee8760a98ab9ac3580a2213e3d8"
+}

@@ -1,0 +1,380 @@
+{
+  "frozenBeforeClassifierResults": true,
+  "date": "2026-11-28",
+  "selection": "Six predetermined famous games plus parent-requested Opera primary annotation; all explicit!! in the bounded chosen source section/finish are listed. No absent marker is treated as a negative label.",
+  "sources": [
+    {
+      "id": "opera-1858",
+      "title": "Morphy–Duke/Count: Opera Game",
+      "primaryAnnotation": {
+        "url": "https://www.chess.com/article/view/the-best-chess-games-of-all-time",
+        "title": "The Best Chess Games Of All Time, section2",
+        "author": "Chess.com staff",
+        "scope": "The section explicitly distinguishes10.Nxb5!,13.Rxd7! and16.Qb8+!!."
+      },
+      "strictBrilliants": [
+        {
+          "move": "16.Qb8+",
+          "ply": 31,
+          "san": "Qb8+",
+          "published": "!!",
+          "reason": "Queen sacrifice deflects the knight so the remaining rook mates on d8."
+        }
+      ],
+      "otherAnnotations": [
+        {
+          "move": "10.Nxb5",
+          "ply": 19,
+          "san": "Nxb5",
+          "published": "!"
+        },
+        {
+          "move": "13.Rxd7",
+          "ply": 25,
+          "san": "Rxd7",
+          "published": "!"
+        }
+      ],
+      "notes": [
+        "This is a previously examined development example, not an independent holdout.",
+        "Sam Copeland2019 and Chess.com Terms Opera pages attribute detailed annotations to Copeland/Fischer, but their actual embedded PGN was not extracted. Primary chosen explicitly before seeing results, not inferred from that inaccessible board."
+      ]
+    },
+    {
+      "id": "byrne-fischer-1956",
+      "title": "Byrne–Fischer: Game of the Century",
+      "primaryAnnotation": {
+        "url": "https://en.chessbase.com/post/the-game-that-shook-the-world-2",
+        "title": "The game that shook the world",
+        "author": "Frederic Friedel, ChessBase; annotated game credits Shipov",
+        "scope": "Explicit mainline double-exclamation marks in article text; quoted alternative annotators recorded separately"
+      },
+      "strictBrilliants": [
+        {
+          "move": "11...Na4",
+          "ply": 22,
+          "san": "Na4",
+          "published": "!!",
+          "reason": "The knight is offered because accepting it allows decisive attacks on White’s other pieces."
+        },
+        {
+          "move": "17...Be6",
+          "ply": 34,
+          "san": "Be6",
+          "published": "!!",
+          "reason": "Fischer leaves his queen to be captured while his remaining pieces launch the winning attack."
+        }
+      ],
+      "otherAnnotations": [
+        {
+          "move": "13...Nxe4",
+          "ply": 26,
+          "san": "Nxe4",
+          "published": "!",
+          "note": "Article notes Fine and Reinfeld gave!!; secondary annotation disagreement, not added to the frozen primary set."
+        },
+        {
+          "move": "15...Nxc3",
+          "ply": 30,
+          "san": "Nxc3",
+          "published": "!"
+        },
+        {
+          "move": "19...Ne2+",
+          "ply": 38,
+          "san": "Ne2+",
+          "published": null
+        }
+      ],
+      "notes": [
+        "Previously examined development example, not an independent holdout.",
+        "There is no authoritative fixed total of three Brilliants."
+      ]
+    },
+    {
+      "id": "immortal-1851",
+      "title": "Anderssen–Kieseritzky: Immortal Game",
+      "primaryAnnotation": {
+        "url": "https://www.chess.com/terms/immortal-game-chess",
+        "title": "Immortal Game — Anderssen vs Kieseritzky (1851)",
+        "author": "Chess.com Terms, analysis attributed to NM Sam Copeland",
+        "scope": "Explicitly marked mainline moves in visible article prose; embedded board not extracted."
+      },
+      "strictBrilliants": [
+        {
+          "move": "22.Qf6+",
+          "ply": 43,
+          "san": "Qf6+",
+          "published": "!!",
+          "reason": "The queen offer diverts the g8 knight from guarding e7, enabling the bishop mate."
+        }
+      ],
+      "otherAnnotations": [
+        {
+          "move": "18.Bd6",
+          "ply": 35,
+          "san": "Bd6",
+          "published": "?!",
+          "reason": "Famous double-rook offer, explicitly marked dubious by the chosen source; not a positive Brilliant anchor."
+        }
+      ],
+      "notes": [
+        "Traditional published45-ply score; historical sources disagree on when play actually stopped. Use the reproduced mainline as a test score, not proof every final move was played."
+      ]
+    },
+    {
+      "id": "evergreen-1852",
+      "title": "Anderssen–Dufresne: Evergreen Game",
+      "primaryAnnotation": {
+        "url": "https://uscf1-nyc1.aodhosting.com/CLK-ALL/2015/2015.10.pdf",
+        "title": "Chess Life for Kids, October2015, End of the Line solutions",
+        "publisher": "US Chess",
+        "printedPage": 23,
+        "scope": "Mainline finish explicitly prints Rxe7+!! and Qxd7+!! as fragment moves1–2; map to full-game moves20–21."
+      },
+      "strictBrilliants": [
+        {
+          "move": "20.Rxe7+",
+          "ply": 39,
+          "san": "Rxe7+",
+          "published": "!!",
+          "reason": "Rook sacrifice draws the defending knight away so the queen can be offered with check."
+        },
+        {
+          "move": "21.Qxd7+",
+          "ply": 41,
+          "san": "Qxd7+",
+          "published": "!!",
+          "reason": "Queen sacrifice draws the king into a forced mating net with the two bishops."
+        }
+      ],
+      "otherAnnotations": [
+        {
+          "move": "19.Rad1",
+          "ply": 37,
+          "san": "Rad1",
+          "published": "!",
+          "source": "https://www.chess.com/terms/evergreen-game-chess"
+        }
+      ],
+      "notes": [
+        "Game details are historically uncertain; retain date1852.??.??.",
+        "The chosen source supplies a finishing fragment, not a full-game judgment. Absence of a marker elsewhere is not a negative label."
+      ]
+    },
+    {
+      "id": "rotlewi-rubinstein-1907",
+      "title": "Rotlewi–Rubinstein: Rubinstein’s Immortal",
+      "primaryAnnotation": {
+        "url": "https://www.chess.com/article/view/the-best-chess-games-of-all-time",
+        "title": "The Best Chess Games Of All Time, section9",
+        "author": "Chess.com staff",
+        "scope": "All three explicitly double-exclaimed mainline moves in this game section."
+      },
+      "strictBrilliants": [
+        {
+          "move": "22...Rxc3",
+          "ply": 44,
+          "san": "Rxc3",
+          "published": "!!",
+          "reason": "The rook removes a defender while the queen is offered to the g-pawn."
+        },
+        {
+          "move": "23...Rd2",
+          "ply": 46,
+          "san": "Rd2",
+          "published": "!!",
+          "reason": "A second rook offer diverts the white queen from its defensive role."
+        },
+        {
+          "move": "25...Rh3",
+          "ply": 50,
+          "san": "Rh3",
+          "published": "!!",
+          "reason": "Quiet rook move seals the mating attack; check need not be immediate."
+        }
+      ],
+      "otherAnnotations": [],
+      "notes": [
+        "Article prints23...Rxd2!!, but d2 is empty in the legal mainline. Canonical SAN is23...Rd2; preserve published typo in notes rather than inventing a capture."
+      ]
+    },
+    {
+      "id": "levitsky-marshall-1912",
+      "title": "Levitsky–Marshall: Gold Coins Game",
+      "primaryAnnotation": {
+        "url": "https://www.chess.com/article/view/throwing-away-your-queen",
+        "title": "Throwing Away Your Queen, Levitsky–Marshall section",
+        "author": "IM Jeremy Silman",
+        "scope": "All explicit!! on the selected game’s played mainline; other games/variations in the article are excluded."
+      },
+      "strictBrilliants": [
+        {
+          "move": "23...Qg3",
+          "ply": 46,
+          "san": "Qg3",
+          "published": "!!",
+          "reason": "The queen can be taken three ways, but each loses to knight and rook tactics."
+        }
+      ],
+      "otherAnnotations": [],
+      "notes": [
+        "Avoid repeating the shower-of-gold legend as established fact; the chosen source discusses conflicting accounts.",
+        "Move-order transposition: Silman prints1.d4 e6 2.e4 d5; the ChessBase game-score source prints1.e4 e6 2.d4 d5. Both reach the same position after2...d5."
+      ]
+    },
+    {
+      "id": "lasker-thomas-1912",
+      "title": "Edward Lasker–George Thomas: King Hunt",
+      "primaryAnnotation": {
+        "url": "https://uscf1-nyc1.aodhosting.com/CLK-ALL/2020/4-August%202020%20CLK.pdf",
+        "title": "Chess Life for Kids, August2020",
+        "publisher": "US Chess",
+        "author": "John Hartmann, Chess Life/CLO editor",
+        "printedPage": 4,
+        "scope": "Full game explicitly annotated; 11.Qxh7+!! is the sole mainline double-exclaimed move in the printed score."
+      },
+      "strictBrilliants": [
+        {
+          "move": "11.Qxh7+",
+          "ply": 21,
+          "san": "Qxh7+",
+          "published": "!!",
+          "reason": "The queen offer draws the king out; a discovered double check begins the long forced king hunt."
+        }
+      ],
+      "otherAnnotations": [],
+      "notes": [
+        "Opening move order and year vary across historical reproductions. Use the chosen US Chess2020 score and its1912 heading; do not invent an exact day.",
+        "Final played move is18.Kd2#. Queenside castling mate is a noted alternative, not a replacement played move."
+      ]
+    },
+    {
+      "id": "kasparov-topalov-1999",
+      "title": "Kasparov–Topalov: Kasparov’s Immortal",
+      "primaryAnnotation": {
+        "url": "https://www.chess.com/article/view/the-best-chess-games-of-all-time",
+        "title": "The Best Chess Games Of All Time, section1",
+        "author": "Chess.com staff; explicit marks in NM Sam Copeland’s selected commentary",
+        "scope": "Both double-exclaimed mainline moves named in the game section."
+      },
+      "strictBrilliants": [
+        {
+          "move": "24.Rxd4",
+          "ply": 47,
+          "san": "Rxd4",
+          "published": "!!",
+          "reason": "Rook offer opens the position for a long attack against the black king."
+        },
+        {
+          "move": "25.Re7+",
+          "ply": 49,
+          "san": "Re7+",
+          "published": "!!",
+          "reason": "The second rook joins the king hunt and cannot safely be captured."
+        }
+      ],
+      "otherAnnotations": [
+        {
+          "move": "36.Bf1",
+          "ply": 71,
+          "san": "Bf1",
+          "published": "!",
+          "reason": "A quiet move keeps the attack winning after the king appears to have escaped."
+        }
+      ],
+      "notes": [
+        "ChessBase’s2021 account notes24...Kb6 declines the sacrifice more safely. Do not describe24.Rxd4 as forcing a win against every defense."
+      ]
+    },
+    {
+      "id": "short-timman-1991",
+      "title": "Short–Timman: The King Walk",
+      "cohort": "prespecified scope stress test",
+      "primaryAnnotation": {
+        "url": "https://rafaelleitao.com/short-x-timman-2/",
+        "title": "Chess game: Short x Timman",
+        "author": "GM Rafael Leitão",
+        "scope": "Full annotated game PGN is visible in web rendering. All played-mainline NAG$3 recorded; branch variations excluded."
+      },
+      "strictBrilliants": [
+        {
+          "move": "31.Kh2",
+          "ply": 61,
+          "san": "Kh2",
+          "published": "!!",
+          "reason": "The king leaves safety to join the mating attack while many pieces remain. This is a quiet non-sacrificial plan, testing the model’s conceptual scope.",
+          "nag": 3
+        }
+      ],
+      "otherAnnotations": [
+        {
+          "move": "13...e6",
+          "ply": 26,
+          "san": "e6",
+          "published": "?!"
+        },
+        {
+          "move": "17.Bc4",
+          "ply": 33,
+          "san": "Bc4",
+          "published": "!"
+        },
+        {
+          "move": "18.b3",
+          "ply": 35,
+          "san": "b3",
+          "published": "!"
+        },
+        {
+          "move": "24.Rd8",
+          "ply": 47,
+          "san": "Rd8",
+          "published": "!"
+        },
+        {
+          "move": "25...Bg7",
+          "ply": 50,
+          "san": "Bg7",
+          "published": "!?"
+        },
+        {
+          "move": "26.R8d7",
+          "ply": 51,
+          "san": "R8d7",
+          "published": "!"
+        },
+        {
+          "move": "30.h4",
+          "ply": 59,
+          "san": "h4",
+          "published": "!"
+        },
+        {
+          "move": "32.Kg3",
+          "ply": 63,
+          "san": "Kg3",
+          "published": "!"
+        },
+        {
+          "move": "33.Kf4",
+          "ply": 65,
+          "san": "Kf4",
+          "published": "!"
+        },
+        {
+          "move": "34.Kg5",
+          "ply": 67,
+          "san": "Kg5",
+          "published": "!"
+        }
+      ],
+      "notes": [
+        "Added before any engine/classifier results as an explicit non-sacrifice scope-stressgame.",
+        "Game ends34.Kg5. Kh6 is a threatened continuation, not a played move.",
+        "Chess.com BestGames section7 contains conflicting move/number typos; it is not the chosen annotation source."
+      ]
+    }
+  ],
+  "strictAnchorCount": 14
+}
