@@ -15,6 +15,16 @@ results and match scores, with links to the full study and recorded data.
 
 ## Studies
 
+### Famous games, Brilliant moves — November 28, 2026
+
+[Visual study](studies/famous-brilliants-2026-11-28/REPORT.md) · [Data and reproduction](studies/famous-brilliants-2026-11-28/README.md)
+
+Nine famous games, fourteen published landmarks, and both actual Mobile Maia
+classifiers. Open Brilly Finder improves Fast landmark recovery from 9 to 10,
+but loses an Evergreen sacrifice in every mode. Explore every target, extra
+award and miss. The implementation remains a draft aiming for Mobile Maia 2.7.
+
+
 ### Offline board recognition — updated November 15, 2026
 
 [Visual report and model comparison](studies/offline-board-recognition-2026-11-13/REPORT.md) · [Evidence and reproduction guide](studies/offline-board-recognition-2026-11-13/README.md)

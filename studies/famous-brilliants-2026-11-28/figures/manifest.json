@@ -1,0 +1,118 @@
+{
+  "landmarks": [
+    {
+      "game": "opera-1858",
+      "ply": 31,
+      "move": "16.Qb8+",
+      "file": "opera-1858-031.png",
+      "kind": "published !! landmark",
+      "sha256": "a8f9cc03aa32178e9aa31b49e0b933b53bcba361c332c49102ffec4659c16a5b"
+    },
+    {
+      "game": "byrne-fischer-1956",
+      "ply": 22,
+      "move": "11...Na4",
+      "file": "byrne-fischer-1956-022.png",
+      "kind": "published !! landmark",
+      "sha256": "36f1ba5e54872a014c4a793531389e0b00c010f8e9dfbe9e525bb96b1a4ac7ab"
+    },
+    {
+      "game": "byrne-fischer-1956",
+      "ply": 34,
+      "move": "17...Be6",
+      "file": "byrne-fischer-1956-034.png",
+      "kind": "published !! landmark",
+      "sha256": "4776c5740a8310472717717189b6704db3882f4f42046a3513fcfc067b49cccc"
+    },
+    {
+      "game": "immortal-1851",
+      "ply": 43,
+      "move": "22.Qf6+",
+      "file": "immortal-1851-043.png",
+      "kind": "published !! landmark",
+      "sha256": "5661f5e59887e24a66635c213b9ee2d07fdce900990382538ef79c587d28b15c"
+    },
+    {
+      "game": "evergreen-1852",
+      "ply": 39,
+      "move": "20.Rxe7+",
+      "file": "evergreen-1852-039.png",
+      "kind": "published !! landmark",
+      "sha256": "a5d418fb67b743b2a06ec1a748c2017df7142405b98b4bce654ed47d1336bcfd"
+    },
+    {
+      "game": "evergreen-1852",
+      "ply": 41,
+      "move": "21.Qxd7+",
+      "file": "evergreen-1852-041.png",
+      "kind": "published !! landmark",
+      "sha256": "29afa4d4ce0d366e26938ad6911ddab02b8a2b205bf23baebd07a81b81793cfd"
+    },
+    {
+      "game": "rotlewi-rubinstein-1907",
+      "ply": 44,
+      "move": "22...Rxc3",
+      "file": "rotlewi-rubinstein-1907-044.png",
+      "kind": "published !! landmark",
+      "sha256": "4fdcd255c1ff7e18209af3894066e20c76120a9a1b6f34104f0db451c9657d4f"
+    },
+    {
+      "game": "rotlewi-rubinstein-1907",
+      "ply": 46,
+      "move": "23...Rd2",
+      "file": "rotlewi-rubinstein-1907-046.png",
+      "kind": "published !! landmark",
+      "sha256": "c514ee377fe170f79ba49f9e99378320943087c1d1be4b5ca890e1ffe504f2bf"
+    },
+    {
+      "game": "rotlewi-rubinstein-1907",
+      "ply": 50,
+      "move": "25...Rh3",
+      "file": "rotlewi-rubinstein-1907-050.png",
+      "kind": "published !! landmark",
+      "sha256": "9a6eb357bf91801fe75ec22ffe1c3ed1bebe28bb7a7cacdb22f726af247a9d95"
+    },
+    {
+      "game": "levitsky-marshall-1912",
+      "ply": 46,
+      "move": "23...Qg3",
+      "file": "levitsky-marshall-1912-046.png",
+      "kind": "published !! landmark",
+      "sha256": "5ea428ed01602cba3b9356e1bab144454112e8cef43fc28e769fa7f2f6b40ab2"
+    },
+    {
+      "game": "lasker-thomas-1912",
+      "ply": 21,
+      "move": "11.Qxh7+",
+      "file": "lasker-thomas-1912-021.png",
+      "kind": "published !! landmark",
+      "sha256": "000740dd35893d8f193f5ae7a29ff30f2c30578004698c001148efed59807a93"
+    },
+    {
+      "game": "kasparov-topalov-1999",
+      "ply": 47,
+      "move": "24.Rxd4",
+      "file": "kasparov-topalov-1999-047.png",
+      "kind": "published !! landmark",
+      "sha256": "8eff5f26db22cd164607e011bcdc18abf955ec65e5ccb6757eda8391b7ace2e4"
+    },
+    {
+      "game": "kasparov-topalov-1999",
+      "ply": 49,
+      "move": "25.Re7+",
+      "file": "kasparov-topalov-1999-049.png",
+      "kind": "published !! landmark",
+      "sha256": "dd91e51be2e1b874c3722e3aadbdebe9851b7822735f5e844d7fd5a107fa183e"
+    },
+    {
+      "game": "short-timman-1991",
+      "ply": 61,
+      "move": "31.Kh2",
+      "file": "short-timman-1991-061.png",
+      "kind": "published !! landmark",
+      "sha256": "9d905b4a8db1966ae73ee2e8ee9573c445c081cf4b8c5ef112746e6b923eb3bf"
+    }
+  ],
+  "hero": "hero-opera.png",
+  "positionsVerified": 14
+}

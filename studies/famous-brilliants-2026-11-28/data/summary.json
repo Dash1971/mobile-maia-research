@@ -1,0 +1,354 @@
+{
+  "totals": {
+    "fast": {
+      "oldHits": 9,
+      "newHits": 10,
+      "targets": 14,
+      "oldAwards": 19,
+      "newAwards": 20,
+      "gainedTargets": 2,
+      "lostTargets": 1,
+      "additionalOld": 10,
+      "additionalNew": 10
+    },
+    "balanced": {
+      "oldHits": 8,
+      "newHits": 10,
+      "targets": 14,
+      "oldAwards": 16,
+      "newAwards": 19,
+      "gainedTargets": 3,
+      "lostTargets": 1,
+      "additionalOld": 8,
+      "additionalNew": 9
+    },
+    "thorough": {
+      "oldHits": 9,
+      "newHits": 11,
+      "targets": 14,
+      "oldAwards": 19,
+      "newAwards": 20,
+      "gainedTargets": 3,
+      "lostTargets": 1,
+      "additionalOld": 10,
+      "additionalNew": 9
+    }
+  },
+  "perGame": {
+    "opera-1858": {
+      "fast": {
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 2,
+        "newAwards": 3,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 1,
+        "additionalNew": 2
+      },
+      "balanced": {
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 2,
+        "newAwards": 3,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 1,
+        "additionalNew": 2
+      },
+      "thorough": {
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 2,
+        "newAwards": 3,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 1,
+        "additionalNew": 2
+      }
+    },
+    "byrne-fischer-1956": {
+      "fast": {
+        "targets": 2,
+        "oldHits": 2,
+        "newHits": 2,
+        "oldAwards": 3,
+        "newAwards": 3,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 1,
+        "additionalNew": 1
+      },
+      "balanced": {
+        "targets": 2,
+        "oldHits": 1,
+        "newHits": 2,
+        "oldAwards": 2,
+        "newAwards": 3,
+        "gainedTargets": 1,
+        "lostTargets": 0,
+        "additionalOld": 1,
+        "additionalNew": 1
+      },
+      "thorough": {
+        "targets": 2,
+        "oldHits": 2,
+        "newHits": 2,
+        "oldAwards": 3,
+        "newAwards": 3,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 1,
+        "additionalNew": 1
+      }
+    },
+    "immortal-1851": {
+      "fast": {
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "gainedTargets": 1,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 0
+      },
+      "balanced": {
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "gainedTargets": 1,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 0
+      },
+      "thorough": {
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "gainedTargets": 1,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 0
+      }
+    },
+    "evergreen-1852": {
+      "fast": {
+        "targets": 2,
+        "oldHits": 2,
+        "newHits": 1,
+        "oldAwards": 2,
+        "newAwards": 1,
+        "gainedTargets": 0,
+        "lostTargets": 1,
+        "additionalOld": 0,
+        "additionalNew": 0
+      },
+      "balanced": {
+        "targets": 2,
+        "oldHits": 2,
+        "newHits": 1,
+        "oldAwards": 2,
+        "newAwards": 1,
+        "gainedTargets": 0,
+        "lostTargets": 1,
+        "additionalOld": 0,
+        "additionalNew": 0
+      },
+      "thorough": {
+        "targets": 2,
+        "oldHits": 2,
+        "newHits": 1,
+        "oldAwards": 2,
+        "newAwards": 1,
+        "gainedTargets": 0,
+        "lostTargets": 1,
+        "additionalOld": 0,
+        "additionalNew": 0
+      }
+    },
+    "rotlewi-rubinstein-1907": {
+      "fast": {
+        "targets": 3,
+        "oldHits": 2,
+        "newHits": 2,
+        "oldAwards": 2,
+        "newAwards": 2,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 0
+      },
+      "balanced": {
+        "targets": 3,
+        "oldHits": 2,
+        "newHits": 2,
+        "oldAwards": 2,
+        "newAwards": 2,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 0
+      },
+      "thorough": {
+        "targets": 3,
+        "oldHits": 2,
+        "newHits": 2,
+        "oldAwards": 2,
+        "newAwards": 2,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 0
+      }
+    },
+    "levitsky-marshall-1912": {
+      "fast": {
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 3,
+        "gainedTargets": 1,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 2
+      },
+      "balanced": {
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 2,
+        "gainedTargets": 1,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 1
+      },
+      "thorough": {
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 2,
+        "gainedTargets": 1,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 1
+      }
+    },
+    "lasker-thomas-1912": {
+      "fast": {
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 1,
+        "newAwards": 1,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 0
+      },
+      "balanced": {
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 1,
+        "newAwards": 1,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 0
+      },
+      "thorough": {
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 1,
+        "newAwards": 1,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 0,
+        "additionalNew": 0
+      }
+    },
+    "kasparov-topalov-1999": {
+      "fast": {
+        "targets": 2,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 8,
+        "newAwards": 5,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 7,
+        "additionalNew": 4
+      },
+      "balanced": {
+        "targets": 2,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 6,
+        "newAwards": 5,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 5,
+        "additionalNew": 4
+      },
+      "thorough": {
+        "targets": 2,
+        "oldHits": 1,
+        "newHits": 2,
+        "oldAwards": 8,
+        "newAwards": 6,
+        "gainedTargets": 1,
+        "lostTargets": 0,
+        "additionalOld": 7,
+        "additionalNew": 4
+      }
+    },
+    "short-timman-1991": {
+      "fast": {
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 0,
+        "oldAwards": 1,
+        "newAwards": 1,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 1,
+        "additionalNew": 1
+      },
+      "balanced": {
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 0,
+        "oldAwards": 1,
+        "newAwards": 1,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 1,
+        "additionalNew": 1
+      },
+      "thorough": {
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 0,
+        "oldAwards": 1,
+        "newAwards": 1,
+        "gainedTargets": 0,
+        "lostTargets": 0,
+        "additionalOld": 1,
+        "additionalNew": 1
+      }
+    }
+  }
+}
