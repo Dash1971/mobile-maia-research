@@ -57,6 +57,11 @@ def main():
             final = {l['ply'] for l in run[algorithm]['final'] if l['label'] == 'brilliant'}
             assert final <= provisional
     assert positions == 1503
+    for game in public['games']:
+        for case in game['cases']:
+            for mode in case['modes'].values():
+                if mode['candidate'] is None and mode['new'] not in ('blunder', 'mistake', 'dubious'):
+                    assert 'not recorded' in mode['reason']
     expected = {'fast': (9, 10, 19, 20), 'balanced': (8, 10, 16, 19), 'thorough': (9, 11, 19, 20)}
     for q, values in expected.items():
         total = public['totals'][q]

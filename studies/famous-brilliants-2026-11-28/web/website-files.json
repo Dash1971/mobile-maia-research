@@ -21,14 +21,14 @@
     {
       "source": "web/brilliant.js",
       "target": "site/research/brilliant-moves/brilliant.js",
-      "bytes": 7506,
-      "sha256": "fdedc4c33e8ff77a875bf8defcf8852865f2263ea963b3a666eb0c29159e6852"
+      "bytes": 7594,
+      "sha256": "80408ed95dbec7a90b75f03998e578991449156a11d52d8c2062009dac34175e"
     },
     {
       "source": "web/results.json",
       "target": "site/research/brilliant-moves/results.json",
-      "bytes": 75395,
-      "sha256": "c814c5d5e969a3375a16f19251eafe7748594d8ff2f584d03b3b1465cd889e96"
+      "bytes": 75575,
+      "sha256": "48f04e5649b8e919716c802ab6f368fd1b3adec2cdc8d84b62c2a1931ec45acd"
     },
     {
       "source": "data/games.pgn",

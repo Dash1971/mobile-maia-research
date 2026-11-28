@@ -72,8 +72,9 @@ def build(raw):
                 if new == 'brilliant': reason = 'Awarded Brilliant after the app’s normal evidence checks.'
                 elif new in ('blunder', 'mistake', 'dubious'): reason = 'The engine-based error grade takes precedence.'
                 elif provisional == 'brilliant': reason = 'A provisional award was withheld by the app’s confirmation policy.'
-                elif not decision.get('candidate'): reason = 'No qualifying piece offer: the model’s sacrifice gate is not met.'
-                else: reason = 'The model score is below its fixed Brilliant cutoff.'
+                elif decision.get('candidate') is False: reason = 'No qualifying piece offer: the model’s sacrifice gate is not met.'
+                elif decision.get('candidate') is True: reason = 'The model score is below its fixed Brilliant cutoff.'
+                else: reason = 'This move was selected for review in another mode; a standalone model diagnostic was not recorded for this mode.'
                 before, after = run['scores'][ply - 1:ply + 1]
                 entry['modes'][q] = {'old': old, 'new': new, 'provisionalNew': provisional, 'candidate': decision.get('candidate'), 'score': decision.get('score'), 'reason': reason, 'depths': [s['evidence']['depth'] if s['evidence'] else 0 for s in (before, after)], 'beforeCp': before['cp'], 'beforeMate': before['mate'], 'afterCp': after['cp'], 'afterMate': after['mate'], 'beforePV': pv(entry['before'], before['lines'][0]['moves']) if before['lines'] else '', 'afterPV': pv(entry['after'], after['lines'][0]['moves']) if after['lines'] else ''}
             entries.append(entry)

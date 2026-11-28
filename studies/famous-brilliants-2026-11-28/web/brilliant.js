@@ -74,7 +74,7 @@
     const changed = m.old===m.new ? 'Same grade in this mode.' : `${grade(m.old)} → ${grade(m.new)}`;
     metric('change',changed);
     metric('reason',m.reason);
-    metric('model',m.candidate ? `Model score ${Number(m.score).toFixed(4)}; fixed cutoff ${data.cutoff.toFixed(4)}. This is not a probability.` : 'The exchange gate fails, so tree inference is skipped.');
+    metric('model',m.candidate == null ? 'A standalone model diagnostic was not recorded for this mode.' : m.candidate ? `Model score ${Number(m.score).toFixed(4)}; fixed cutoff ${data.cutoff.toFixed(4)}. This is not a probability.` : 'The exchange gate fails, so tree inference is skipped.');
     metric('engine',`Achieved depths: before ${m.depths[0]}, after ${m.depths[1]}. Before: ${m.beforePV || 'terminal position'}. After: ${m.afterPV || 'terminal position'}.`);
     metric('game-awards',`Total Brilliant awards in this game: previous ${g.stats[quality].oldAwards}; new ${g.stats[quality].newAwards}.`);
     const cases=g.cases, index=cases.indexOf(c);
