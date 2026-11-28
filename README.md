@@ -44,26 +44,6 @@ implications and Android validation. The plan does not depend on obtaining a
 more permissive license. The visual report preserves the original investigation
 and adds the measured follow-up, remaining errors and size estimates.
 
-### How we rate the bots in Mute Chess
-
-[Read the illustrated report](studies/bot-rating-establishment-2026-10-31/REPORT.md) · [Data and reproduction](studies/bot-rating-establishment-2026-10-31/README.md)
-
-How were the ratings obtained, how do they relate to Lichess, and how do Maia
-settings change strength? The report follows the Lichess starting reference
-through rated games and native Glicko, illustrates controlled sampling effects,
-and explains how a 10,000-bot roster reuses measured playing policies with a
-Lichess-shaped allocation. Earned reference ratings and assigned starting
-ratings are clearly distinguished.
-
-### Original bot-rating calibration dataset — 31 October 2026
-
-[Read the report](studies/bot-strength-seeding-2026-10-31/REPORT.md) · [Data and reproduction](studies/bot-strength-seeding-2026-10-31/README.md)
-
-The original calibration dataset records 2,623 games across 250 Maia settings,
-including starting priors, earned rating changes, prediction checks and measured
-capacity. This technical archive preserves the earlier measurements and
-reproduction tools behind the illustrated report above.
-
 ### Screenshot and diagram import — 28 October 2026
 
 [Read the report](studies/board-image-import-2026-10-28/REPORT.md) · [Evidence and reproduction guide](studies/board-image-import-2026-10-28/README.md)
@@ -109,6 +89,13 @@ The original app-repository publication remains available for older app versions
 History improved average human-move prediction but strongly reinforced copying in a low-Elo Stonewall test. The recommendation is to keep history off by default; an [experimental opt-in setting](https://github.com/Dash1971/maia-chess-android-preview/issues/101) is proposed separately.
 
 The study includes 20,160 main human-game positions, 4,000 opening positions, 384 tactical diagnostics and 1,000 targeted Stonewall opening trials. It does not establish a change in full-game Elo or claim an explicit upstream recommendation against history.
+
+<a id="how-we-rate-the-bots-in-mute-chess"></a>
+<a id="original-bot-rating-calibration-dataset--31-october-2026"></a>
+
+## Related research
+
+Mute Chess bot ratings and calibration: [reports, data and reproduction](https://github.com/Dash1971/mute-chess-research/tree/main/studies/elo-seeding).
 
 ## Attribution and license
 
