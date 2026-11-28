@@ -1,0 +1,1371 @@
+{
+  "appSource": "096591bd8d42759e5a3f3a288d56d7c93245d6d1",
+  "planCommit": "6844202bf606211c11a27b777560cf009293f30f",
+  "modelSource": "59cab58a8b63387d9775252f03a6875fe451f697",
+  "modelSha256": "992a792a646b11e612486c4fe26796fc38ee47f395f2220b00d26db65ba1e27d",
+  "cutoff": 0.8193002847777424,
+  "engine": {
+    "name": "Stockfish18",
+    "binarySha256": "ae4c93fa9676ca7750d0714342fd8a5b1d018000fc6e0f6cedf112067b5ef374",
+    "binaryBytes": 113875192,
+    "host": "Darwin arm64"
+  },
+  "mode": "fast",
+  "totals": {
+    "games": 27,
+    "scoredMoves": 922,
+    "targets": 32,
+    "oldHits": 7,
+    "newHits": 20,
+    "oldAwards": 12,
+    "newAwards": 21,
+    "oldOutside": 5,
+    "newOutside": 1,
+    "gainedTargets": 14,
+    "lostTargets": 1
+  },
+  "perGame": [
+    {
+      "id": "188136844746",
+      "white": "NechepurenkoRV",
+      "black": "Ginger_GM",
+      "date": "2026.11.27",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 38,
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 1,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [
+        76
+      ],
+      "newAwards": [
+        76
+      ],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "189854753175",
+      "white": "Ginger_GM",
+      "black": "Cayse",
+      "date": "2026.11.24",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 42,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 0,
+        "oldAwards": 0,
+        "newAwards": 0,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "189853553123",
+      "white": "AlexPapasimakopoulos",
+      "black": "Ginger_GM",
+      "date": "2026.11.24",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 37,
+        "targets": 2,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [
+        24
+      ],
+      "gainedTargets": [
+        24
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "187896748818",
+      "white": "kucing_72",
+      "black": "Ginger_GM",
+      "date": "2026.11.24",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 14,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [
+        28
+      ],
+      "gainedTargets": [
+        28
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "187459649420",
+      "white": "Ginger_GM",
+      "black": "Moradayoub1573",
+      "date": "2026.11.18",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 56,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 0,
+        "oldAwards": 0,
+        "newAwards": 0,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "187457958048",
+      "white": "Ginger_GM",
+      "black": "sykvio",
+      "date": "2026.11.18",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 22,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 1,
+        "newAwards": 1,
+        "oldOutside": 1,
+        "newOutside": 0,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [
+        27
+      ],
+      "newAwards": [
+        35
+      ],
+      "gainedTargets": [
+        35
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "187353132044",
+      "white": "Ginger_GM",
+      "black": "Blunder_Punisher01",
+      "date": "2026.11.16",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 37,
+        "targets": 2,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 2,
+        "newAwards": 2,
+        "oldOutside": 2,
+        "newOutside": 1,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [
+        23,
+        45
+      ],
+      "newAwards": [
+        23,
+        43
+      ],
+      "gainedTargets": [
+        43
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "187352976104",
+      "white": "Blunder_Punisher01",
+      "black": "Ginger_GM",
+      "date": "2026.11.16",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 23,
+        "targets": 4,
+        "oldHits": 1,
+        "newHits": 3,
+        "oldAwards": 1,
+        "newAwards": 3,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 2,
+        "lostTargets": 0
+      },
+      "oldAwards": [
+        26
+      ],
+      "newAwards": [
+        26,
+        30,
+        40
+      ],
+      "gainedTargets": [
+        30,
+        40
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "187106742030",
+      "white": "alpope",
+      "black": "Ginger_GM",
+      "date": "2026.11.13",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 29,
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 1,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [
+        58
+      ],
+      "newAwards": [
+        58
+      ],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "187104408324",
+      "white": "Ginger_GM",
+      "black": "Forgetmenow2k6",
+      "date": "2026.11.13",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 34,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 0,
+        "oldAwards": 0,
+        "newAwards": 0,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "187052146336",
+      "white": "Talcrifice",
+      "black": "Ginger_GM",
+      "date": "2026.11.12",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 23,
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 1,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [
+        36
+      ],
+      "newAwards": [
+        36
+      ],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "188642299209",
+      "white": "rasmussvane",
+      "black": "Ginger_GM",
+      "date": "2026.11.10",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 32,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [
+        52
+      ],
+      "gainedTargets": [
+        52
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "186895306980",
+      "white": "Juliodiaz_2002",
+      "black": "Ginger_GM",
+      "date": "2026.11.10",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 68,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [
+        42
+      ],
+      "gainedTargets": [
+        42
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "186807227802",
+      "white": "98766789Maverick",
+      "black": "Ginger_GM",
+      "date": "2026.11.08",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 34,
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 0,
+        "oldAwards": 1,
+        "newAwards": 0,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 1
+      },
+      "oldAwards": [
+        28
+      ],
+      "newAwards": [],
+      "gainedTargets": [],
+      "lostTargets": [
+        28
+      ]
+    },
+    {
+      "id": "186804298306",
+      "white": "Ginger_GM",
+      "black": "MaximusDecimIV",
+      "date": "2026.11.08",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 30,
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 2,
+        "newAwards": 1,
+        "oldOutside": 1,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [
+        35,
+        47
+      ],
+      "newAwards": [
+        35
+      ],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "186798917398",
+      "white": "Ginger_GM",
+      "black": "GetThePartyStarted",
+      "date": "2026.11.08",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 32,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [
+        33
+      ],
+      "gainedTargets": [
+        33
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "186787690334",
+      "white": "AgentKimR",
+      "black": "Ginger_GM",
+      "date": "2026.11.08",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 33,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 0,
+        "oldAwards": 0,
+        "newAwards": 0,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "186786230002",
+      "white": "Ginger_GM",
+      "black": "AgentKimR",
+      "date": "2026.11.08",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 36,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 0,
+        "oldAwards": 0,
+        "newAwards": 0,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "186771033900",
+      "white": "Ginger_GM",
+      "black": "GodzillaChessYoutube",
+      "date": "2026.11.08",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 49,
+        "targets": 1,
+        "oldHits": 1,
+        "newHits": 1,
+        "oldAwards": 1,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [
+        47
+      ],
+      "newAwards": [
+        47
+      ],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "186706231870",
+      "white": "Ginger_GM",
+      "black": "Qullanif",
+      "date": "2026.11.07",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 25,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [
+        27
+      ],
+      "gainedTargets": [
+        27
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "186704873752",
+      "white": "Ginger_GM",
+      "black": "MaevskiyNikolay",
+      "date": "2026.11.07",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 38,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [
+        55
+      ],
+      "gainedTargets": [
+        55
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "186701606880",
+      "white": "6JoshuaKimmich",
+      "black": "Ginger_GM",
+      "date": "2026.11.07",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 45,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 0,
+        "oldAwards": 0,
+        "newAwards": 0,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "186700377930",
+      "white": "Sanjeev_18",
+      "black": "Ginger_GM",
+      "date": "2026.11.07",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 26,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [
+        32
+      ],
+      "gainedTargets": [
+        32
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "186700239458",
+      "white": "YegoryoCh",
+      "black": "Ginger_GM",
+      "date": "2026.11.07",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 19,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 0,
+        "oldAwards": 1,
+        "newAwards": 0,
+        "oldOutside": 1,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [
+        38
+      ],
+      "newAwards": [],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "186659807318",
+      "white": "Ginger_GM",
+      "black": "Nasledstvo67",
+      "date": "2026.11.06",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 34,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [
+        37
+      ],
+      "gainedTargets": [
+        37
+      ],
+      "lostTargets": []
+    },
+    {
+      "id": "186573944216",
+      "white": "GMG",
+      "black": "Ginger_GM",
+      "date": "2026.11.05",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 37,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 0,
+        "oldAwards": 0,
+        "newAwards": 0,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 0,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [],
+      "gainedTargets": [],
+      "lostTargets": []
+    },
+    {
+      "id": "186573774294",
+      "white": "Ginger_GM",
+      "black": "Tiraturyan_Chessmood1991",
+      "date": "2026.11.05",
+      "stats": {
+        "games": 1,
+        "scoredMoves": 29,
+        "targets": 1,
+        "oldHits": 0,
+        "newHits": 1,
+        "oldAwards": 0,
+        "newAwards": 1,
+        "oldOutside": 0,
+        "newOutside": 0,
+        "gainedTargets": 1,
+        "lostTargets": 0
+      },
+      "oldAwards": [],
+      "newAwards": [
+        45
+      ],
+      "gainedTargets": [
+        45
+      ],
+      "lostTargets": []
+    }
+  ],
+  "cases": [
+    {
+      "game": "188136844746",
+      "white": "NechepurenkoRV",
+      "black": "Ginger_GM",
+      "date": "2026.11.27",
+      "ply": 76,
+      "move": "38...Qd2",
+      "galleryBrilliant": true,
+      "old": "brilliant",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9950760424665641,
+      "before": "5rk1/1PR5/3p4/2pPp1q1/2P1P3/6Pb/7P/3NQ1K1 b - - 2 38",
+      "after": "5rk1/1PR5/3p4/2pPp3/2P1P3/6Pb/3q3P/3NQ1K1 w - - 3 39",
+      "url": "https://www.chess.com/analysis/game/live/188136844746?move=75"
+    },
+    {
+      "game": "189854753175",
+      "white": "Ginger_GM",
+      "black": "Cayse",
+      "date": "2026.11.24",
+      "ply": 69,
+      "move": "35.Qxh5",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "interesting",
+      "provisionalNew": "interesting",
+      "modelCandidate": true,
+      "modelScore": 0.7979983869684973,
+      "before": "2rq2k1/6p1/4p1N1/2p3Pp/5P2/pP1pP3/P1n4K/R2Q2R1 w - - 1 35",
+      "after": "2rq2k1/6p1/4p1N1/2p3PQ/5P2/pP1pP3/P1n4K/R5R1 b - - 0 35",
+      "url": "https://www.chess.com/analysis/game/live/189854753175?move=68"
+    },
+    {
+      "game": "189853553123",
+      "white": "AlexPapasimakopoulos",
+      "black": "Ginger_GM",
+      "date": "2026.11.24",
+      "ply": 24,
+      "move": "12...Nxe4",
+      "galleryBrilliant": true,
+      "old": "good",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.8866639424594465,
+      "before": "r2qk2r/1bpn1pp1/1p1p1n1p/p1bPp3/2P1P2B/3B3P/PP1QNPP1/RN3K1R b kq - 1 12",
+      "after": "r2qk2r/1bpn1pp1/1p1p3p/p1bPp3/2P1n2B/3B3P/PP1QNPP1/RN3K1R w kq - 0 13",
+      "url": "https://www.chess.com/analysis/game/live/189853553123?move=23"
+    },
+    {
+      "game": "189853553123",
+      "white": "AlexPapasimakopoulos",
+      "black": "Ginger_GM",
+      "date": "2026.11.24",
+      "ply": 68,
+      "move": "34...Rxf2+",
+      "galleryBrilliant": true,
+      "old": "no annotation",
+      "new": "no annotation",
+      "provisionalNew": "no annotation",
+      "modelCandidate": true,
+      "modelScore": 0.48122310506585303,
+      "before": "8/5p1k/6p1/2p1p1Pp/2NrR2P/p2n1K2/r4P2/5R2 b - - 1 34",
+      "after": "8/5p1k/6p1/2p1p1Pp/2NrR2P/p2n1K2/5r2/5R2 w - - 0 35",
+      "url": "https://www.chess.com/analysis/game/live/189853553123?move=67"
+    },
+    {
+      "game": "187896748818",
+      "white": "kucing_72",
+      "black": "Ginger_GM",
+      "date": "2026.11.24",
+      "ply": 28,
+      "move": "14...Nxd4",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9762236075545659,
+      "before": "r1bqk2r/1pp3p1/2n1pb2/p4p2/2PPp3/BP2PPP1/P5B1/RN1Q1RK1 b kq - 0 14",
+      "after": "r1bqk2r/1pp3p1/4pb2/p4p2/2Pnp3/BP2PPP1/P5B1/RN1Q1RK1 w kq - 0 15",
+      "url": "https://www.chess.com/analysis/game/live/187896748818?move=27"
+    },
+    {
+      "game": "187459649420",
+      "white": "Ginger_GM",
+      "black": "Moradayoub1573",
+      "date": "2026.11.18",
+      "ply": 53,
+      "move": "27.Bxe7",
+      "galleryBrilliant": true,
+      "old": "no annotation",
+      "new": "no annotation",
+      "provisionalNew": "no annotation",
+      "modelCandidate": true,
+      "modelScore": 0.6674597367812147,
+      "before": "7r/pp1rpk1p/4Rbp1/3P4/P7/B7/6PP/5RK1 w - - 3 27",
+      "after": "7r/pp1rBk1p/4Rbp1/3P4/P7/8/6PP/5RK1 b - - 0 27",
+      "url": "https://www.chess.com/analysis/game/live/187459649420?move=52"
+    },
+    {
+      "game": "187457958048",
+      "white": "Ginger_GM",
+      "black": "sykvio",
+      "date": "2026.11.18",
+      "ply": 27,
+      "move": "14.exf6",
+      "galleryBrilliant": false,
+      "old": "brilliant",
+      "new": "interesting",
+      "provisionalNew": "interesting",
+      "modelCandidate": true,
+      "modelScore": 0.06366188382975771,
+      "before": "r4rk1/p3bppp/1qpp1n2/4P3/4P3/1PNb4/PBP3PP/R2Q1R1K w - - 0 14",
+      "after": "r4rk1/p3bppp/1qpp1P2/8/4P3/1PNb4/PBP3PP/R2Q1R1K b - - 0 14",
+      "url": "https://www.chess.com/analysis/game/live/187457958048?move=26"
+    },
+    {
+      "game": "187457958048",
+      "white": "Ginger_GM",
+      "black": "sykvio",
+      "date": "2026.11.18",
+      "ply": 35,
+      "move": "18.Nd5",
+      "galleryBrilliant": true,
+      "old": "no annotation",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9780363730997992,
+      "before": "r3r1k1/p3Pppp/2pp4/8/4P1Q1/1PN1q3/PBP3KP/R7 w - - 3 18",
+      "after": "r3r1k1/p3Pppp/2pp4/3N4/4P1Q1/1P2q3/PBP3KP/R7 b - - 4 18",
+      "url": "https://www.chess.com/analysis/game/live/187457958048?move=34"
+    },
+    {
+      "game": "187353132044",
+      "white": "Ginger_GM",
+      "black": "Blunder_Punisher01",
+      "date": "2026.11.16",
+      "ply": 23,
+      "move": "12.Nb5",
+      "galleryBrilliant": false,
+      "old": "brilliant",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9355441392887279,
+      "before": "r1b1kbnr/p2q1ppp/8/2pN4/2pNp3/8/PP3PPP/R1BQK2R w KQkq - 0 12",
+      "after": "r1b1kbnr/p2q1ppp/8/1NpN4/2p1p3/8/PP3PPP/R1BQK2R b KQkq - 1 12",
+      "url": "https://www.chess.com/analysis/game/live/187353132044?move=22"
+    },
+    {
+      "game": "187353132044",
+      "white": "Ginger_GM",
+      "black": "Blunder_Punisher01",
+      "date": "2026.11.16",
+      "ply": 39,
+      "move": "20.Nb4",
+      "galleryBrilliant": true,
+      "old": "mistake",
+      "new": "mistake",
+      "provisionalNew": "mistake",
+      "modelCandidate": true,
+      "modelScore": 0.8426505759619292,
+      "before": "2bk2nr/prN3pp/3B1p2/2pN4/4p3/2P1Q3/q4PPP/2KR3R w - - 0 20",
+      "after": "2bk2nr/prN3pp/3B1p2/2p5/1N2p3/2P1Q3/q4PPP/2KR3R b - - 1 20",
+      "url": "https://www.chess.com/analysis/game/live/187353132044?move=38"
+    },
+    {
+      "game": "187353132044",
+      "white": "Ginger_GM",
+      "black": "Blunder_Punisher01",
+      "date": "2026.11.16",
+      "ply": 43,
+      "move": "22.Rxd7+",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9338134672926808,
+      "before": "3k2nr/prNb2pp/5p2/8/1B2p3/2P1Q3/q4PPP/2KR3R w - - 1 22",
+      "after": "3k2nr/prNR2pp/5p2/8/1B2p3/2P1Q3/q4PPP/2K4R b - - 0 22",
+      "url": "https://www.chess.com/analysis/game/live/187353132044?move=42"
+    },
+    {
+      "game": "187353132044",
+      "white": "Ginger_GM",
+      "black": "Blunder_Punisher01",
+      "date": "2026.11.16",
+      "ply": 45,
+      "move": "23.Rd1+",
+      "galleryBrilliant": false,
+      "old": "brilliant",
+      "new": "interesting",
+      "provisionalNew": "interesting",
+      "modelCandidate": true,
+      "modelScore": 0.0872047254739875,
+      "before": "6nr/prNk2pp/5p2/8/1B2p3/2P1Q3/q4PPP/2K4R w - - 0 23",
+      "after": "6nr/prNk2pp/5p2/8/1B2p3/2P1Q3/q4PPP/2KR4 b - - 1 23",
+      "url": "https://www.chess.com/analysis/game/live/187353132044?move=44"
+    },
+    {
+      "game": "187352976104",
+      "white": "Blunder_Punisher01",
+      "black": "Ginger_GM",
+      "date": "2026.11.16",
+      "ply": 26,
+      "move": "13...Bxh2+",
+      "galleryBrilliant": true,
+      "old": "brilliant",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9834424065392119,
+      "before": "r1bq2k1/ppbn2pp/2p1p2r/2Pp1p2/1P1Pn3/1N1BPN2/PBQ2PPP/1R3RK1 b - - 4 13",
+      "after": "r1bq2k1/pp1n2pp/2p1p2r/2Pp1p2/1P1Pn3/1N1BPN2/PBQ2PPb/1R3RK1 w - - 0 14",
+      "url": "https://www.chess.com/analysis/game/live/187352976104?move=25"
+    },
+    {
+      "game": "187352976104",
+      "white": "Blunder_Punisher01",
+      "black": "Ginger_GM",
+      "date": "2026.11.16",
+      "ply": 30,
+      "move": "15...Bh2+",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9807857663767834,
+      "before": "r1bq2k1/ppbn2pp/2p1p2r/2Pp1p2/1P1Pn3/1N1BPN2/PBQ2PP1/1R3RK1 b - - 3 15",
+      "after": "r1bq2k1/pp1n2pp/2p1p2r/2Pp1p2/1P1Pn3/1N1BPN2/PBQ2PPb/1R3RK1 w - - 4 16",
+      "url": "https://www.chess.com/analysis/game/live/187352976104?move=29"
+    },
+    {
+      "game": "187352976104",
+      "white": "Blunder_Punisher01",
+      "black": "Ginger_GM",
+      "date": "2026.11.16",
+      "ply": 32,
+      "move": "16...Qe8",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "interesting",
+      "provisionalNew": "interesting",
+      "modelCandidate": true,
+      "modelScore": 0.4602906922186323,
+      "before": "r1bq2k1/pp1n2pp/2p1p2r/2Pp1p2/1P1Pn3/1N1BPN2/PBQ2PPb/1R3R1K b - - 5 16",
+      "after": "r1b1q1k1/pp1n2pp/2p1p2r/2Pp1p2/1P1Pn3/1N1BPN2/PBQ2PPb/1R3R1K w - - 6 17",
+      "url": "https://www.chess.com/analysis/game/live/187352976104?move=31"
+    },
+    {
+      "game": "187352976104",
+      "white": "Blunder_Punisher01",
+      "black": "Ginger_GM",
+      "date": "2026.11.16",
+      "ply": 40,
+      "move": "20...Rh1+",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9699513388458061,
+      "before": "r1b3k1/pp1n2pp/2p1p1q1/2Pp1p2/1P1PB2r/1N2P1b1/PB2QPP1/1R3RK1 b - - 2 20",
+      "after": "r1b3k1/pp1n2pp/2p1p1q1/2Pp1p2/1P1PB3/1N2P1b1/PB2QPP1/1R3RKr w - - 3 21",
+      "url": "https://www.chess.com/analysis/game/live/187352976104?move=39"
+    },
+    {
+      "game": "187106742030",
+      "white": "alpope",
+      "black": "Ginger_GM",
+      "date": "2026.11.13",
+      "ply": 58,
+      "move": "29...Qa5",
+      "galleryBrilliant": true,
+      "old": "brilliant",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9551225749760712,
+      "before": "1kr4r/1b1Rb1p1/pq2p1Pp/4P3/5N2/1n3P1Q/1P3N2/1KB4R b - - 1 29",
+      "after": "1kr4r/1b1Rb1p1/p3p1Pp/q3P3/5N2/1n3P1Q/1P3N2/1KB4R w - - 2 30",
+      "url": "https://www.chess.com/analysis/game/live/187106742030?move=57"
+    },
+    {
+      "game": "187104408324",
+      "white": "Ginger_GM",
+      "black": "Forgetmenow2k6",
+      "date": "2026.11.13",
+      "ply": 35,
+      "move": "18.Ne4",
+      "galleryBrilliant": true,
+      "old": "no annotation",
+      "new": "no annotation",
+      "provisionalNew": "no annotation",
+      "modelCandidate": true,
+      "modelScore": 0.7677915794721805,
+      "before": "3r1rk1/pp1npp1p/5npQ/2p1q3/7R/1BN5/PPP3PP/5R1K w - - 0 18",
+      "after": "3r1rk1/pp1npp1p/5npQ/2p1q3/4N2R/1B6/PPP3PP/5R1K b - - 1 18",
+      "url": "https://www.chess.com/analysis/game/live/187104408324?move=34"
+    },
+    {
+      "game": "187052146336",
+      "white": "Talcrifice",
+      "black": "Ginger_GM",
+      "date": "2026.11.12",
+      "ply": 36,
+      "move": "18...fxg3",
+      "galleryBrilliant": true,
+      "old": "brilliant",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9195087690596561,
+      "before": "1r3rk1/1p2q1bp/pN1p2p1/P1pPn2n/5pb1/2N3PP/1P1BPPB1/R2Q1RK1 b - - 0 18",
+      "after": "1r3rk1/1p2q1bp/pN1p2p1/P1pPn2n/6b1/2N3pP/1P1BPPB1/R2Q1RK1 w - - 0 19",
+      "url": "https://www.chess.com/analysis/game/live/187052146336?move=35"
+    },
+    {
+      "game": "188642299209",
+      "white": "rasmussvane",
+      "black": "Ginger_GM",
+      "date": "2026.11.10",
+      "ply": 52,
+      "move": "26...Rxf2",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9782871099125225,
+      "before": "1q3rk1/1p2n1r1/p3p2p/3p2pn/3P4/P1NB3P/1PQ2PPb/2BRR2K b - - 8 26",
+      "after": "1q4k1/1p2n1r1/p3p2p/3p2pn/3P4/P1NB3P/1PQ2rPb/2BRR2K w - - 0 27",
+      "url": "https://www.chess.com/analysis/game/live/188642299209?move=51"
+    },
+    {
+      "game": "186895306980",
+      "white": "Juliodiaz_2002",
+      "black": "Ginger_GM",
+      "date": "2026.11.10",
+      "ply": 42,
+      "move": "21...Rxg5",
+      "galleryBrilliant": true,
+      "old": "no annotation",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9156378638870919,
+      "before": "5rk1/p1pp2p1/1p2p1rp/5nBq/2PPQ1PP/2P5/P4P2/R5KR b - - 0 21",
+      "after": "5rk1/p1pp2p1/1p2p2p/5nrq/2PPQ1PP/2P5/P4P2/R5KR w - - 0 22",
+      "url": "https://www.chess.com/analysis/game/live/186895306980?move=41"
+    },
+    {
+      "game": "186807227802",
+      "white": "98766789Maverick",
+      "black": "Ginger_GM",
+      "date": "2026.11.08",
+      "ply": 28,
+      "move": "14...Nxe4",
+      "galleryBrilliant": true,
+      "old": "brilliant",
+      "new": "interesting",
+      "provisionalNew": "interesting",
+      "modelCandidate": true,
+      "modelScore": 0.6931766338593274,
+      "before": "rnb1r1k1/ppp1qppp/3b1n2/8/3PP3/1PPB1Q1P/PB1N2P1/R3K2R b KQ - 0 14",
+      "after": "rnb1r1k1/ppp1qppp/3b4/8/3Pn3/1PPB1Q1P/PB1N2P1/R3K2R w KQ - 0 15",
+      "url": "https://www.chess.com/analysis/game/live/186807227802?move=27"
+    },
+    {
+      "game": "186804298306",
+      "white": "Ginger_GM",
+      "black": "MaximusDecimIV",
+      "date": "2026.11.08",
+      "ply": 35,
+      "move": "18.Nxe4",
+      "galleryBrilliant": true,
+      "old": "brilliant",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9690099925556008,
+      "before": "r1b2rk1/pp1n1qp1/2n3Rp/2pp4/3Pp3/2PB1N2/PPQN1P1P/2K3R1 w - - 0 18",
+      "after": "r1b2rk1/pp1n1qp1/2n3Rp/2pp4/3PN3/2PB1N2/PPQ2P1P/2K3R1 b - - 0 18",
+      "url": "https://www.chess.com/analysis/game/live/186804298306?move=34"
+    },
+    {
+      "game": "186804298306",
+      "white": "Ginger_GM",
+      "black": "MaximusDecimIV",
+      "date": "2026.11.08",
+      "ply": 47,
+      "move": "24.Kd2",
+      "galleryBrilliant": false,
+      "old": "brilliant",
+      "new": "interesting",
+      "provisionalNew": "interesting",
+      "modelCandidate": true,
+      "modelScore": 0.03266949759594094,
+      "before": "r1b2r1k/pp2n1pB/5n2/2p1N3/3P3R/2P5/1PQ2P1P/q1K3R1 w - - 2 24",
+      "after": "r1b2r1k/pp2n1pB/5n2/2p1N3/3P3R/2P5/1PQK1P1P/q5R1 b - - 3 24",
+      "url": "https://www.chess.com/analysis/game/live/186804298306?move=46"
+    },
+    {
+      "game": "186798917398",
+      "white": "Ginger_GM",
+      "black": "GetThePartyStarted",
+      "date": "2026.11.08",
+      "ply": 33,
+      "move": "17.Nd6",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9750549673661298,
+      "before": "r1b2rk1/pp1p1p1p/1q3bp1/3B1N2/4P3/8/PP3PPP/R2Q1R1K w - - 0 17",
+      "after": "r1b2rk1/pp1p1p1p/1q1N1bp1/3B4/4P3/8/PP3PPP/R2Q1R1K b - - 1 17",
+      "url": "https://www.chess.com/analysis/game/live/186798917398?move=32"
+    },
+    {
+      "game": "186787690334",
+      "white": "AgentKimR",
+      "black": "Ginger_GM",
+      "date": "2026.11.08",
+      "ply": 28,
+      "move": "14...Bg4",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "interesting",
+      "provisionalNew": "interesting",
+      "modelCandidate": true,
+      "modelScore": 0.2258771911441427,
+      "before": "r1b1r1k1/ppp2ppp/8/2P1B3/8/N5P1/PP3PBP/n2R2K1 b - - 0 14",
+      "after": "r3r1k1/ppp2ppp/8/2P1B3/6b1/N5P1/PP3PBP/n2R2K1 w - - 1 15",
+      "url": "https://www.chess.com/analysis/game/live/186787690334?move=27"
+    },
+    {
+      "game": "186786230002",
+      "white": "Ginger_GM",
+      "black": "AgentKimR",
+      "date": "2026.11.08",
+      "ply": 51,
+      "move": "26.Nf5",
+      "galleryBrilliant": true,
+      "old": "no annotation",
+      "new": "no annotation",
+      "provisionalNew": "no annotation",
+      "modelCandidate": true,
+      "modelScore": 0.6571003346608217,
+      "before": "6k1/3bppbp/1q1p1np1/1P6/2rNP3/P3Q1PP/4NPB1/1R4K1 w - - 2 26",
+      "after": "6k1/3bppbp/1q1p1np1/1P3N2/2r1P3/P3Q1PP/4NPB1/1R4K1 b - - 3 26",
+      "url": "https://www.chess.com/analysis/game/live/186786230002?move=50"
+    },
+    {
+      "game": "186771033900",
+      "white": "Ginger_GM",
+      "black": "GodzillaChessYoutube",
+      "date": "2026.11.08",
+      "ply": 47,
+      "move": "24.Nxc5",
+      "galleryBrilliant": true,
+      "old": "brilliant",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9814140755908582,
+      "before": "r1br4/ppk5/3p1q1p/2pQ1p1n/2B3pP/1NP5/PP3PP1/3RR1K1 w - - 0 24",
+      "after": "r1br4/ppk5/3p1q1p/2NQ1p1n/2B3pP/2P5/PP3PP1/3RR1K1 b - - 0 24",
+      "url": "https://www.chess.com/analysis/game/live/186771033900?move=46"
+    },
+    {
+      "game": "186706231870",
+      "white": "Ginger_GM",
+      "black": "Qullanif",
+      "date": "2026.11.07",
+      "ply": 27,
+      "move": "14.Nd5",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.983484017591105,
+      "before": "rnb1kb1r/1pq1p2p/p2pPn2/2p2pN1/8/2N5/P1PB2PP/R2QKB1R w KQkq - 0 14",
+      "after": "rnb1kb1r/1pq1p2p/p2pPn2/2pN1pN1/8/8/P1PB2PP/R2QKB1R b KQkq - 1 14",
+      "url": "https://www.chess.com/analysis/game/live/186706231870?move=26"
+    },
+    {
+      "game": "186704873752",
+      "white": "Ginger_GM",
+      "black": "MaevskiyNikolay",
+      "date": "2026.11.07",
+      "ply": 55,
+      "move": "28.Nh5",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.962449181802246,
+      "before": "2r1n1k1/1b3rqp/p3p1p1/1p1p2Q1/2nP1P2/2NBP1NR/PP5P/6RK w - - 6 28",
+      "after": "2r1n1k1/1b3rqp/p3p1p1/1p1p2QN/2nP1P2/2NBP2R/PP5P/6RK b - - 7 28",
+      "url": "https://www.chess.com/analysis/game/live/186704873752?move=54"
+    },
+    {
+      "game": "186701606880",
+      "white": "6JoshuaKimmich",
+      "black": "Ginger_GM",
+      "date": "2026.11.07",
+      "ply": 12,
+      "move": "6...a4",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "interesting",
+      "provisionalNew": "interesting",
+      "modelCandidate": true,
+      "modelScore": 0.8135861052448969,
+      "before": "rn1qk1nr/1bpp1ppp/1p2p3/p7/1bPP4/PQN2N2/1P2PPPP/R1B1KB1R b KQkq - 0 6",
+      "after": "rn1qk1nr/1bpp1ppp/1p2p3/8/pbPP4/PQN2N2/1P2PPPP/R1B1KB1R w KQkq - 0 7",
+      "url": "https://www.chess.com/analysis/game/live/186701606880?move=11"
+    },
+    {
+      "game": "186700377930",
+      "white": "Sanjeev_18",
+      "black": "Ginger_GM",
+      "date": "2026.11.07",
+      "ply": 32,
+      "move": "16...Nxf2",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9826443904796126,
+      "before": "4rr1k/pbpnq1pp/1p1p4/4pp2/2PPn3/P2QPN1P/2P1BPPB/R2R2K1 b - - 9 16",
+      "after": "4rr1k/pbpnq1pp/1p1p4/4pp2/2PP4/P2QPN1P/2P1BnPB/R2R2K1 w - - 0 17",
+      "url": "https://www.chess.com/analysis/game/live/186700377930?move=31"
+    },
+    {
+      "game": "186700239458",
+      "white": "YegoryoCh",
+      "black": "Ginger_GM",
+      "date": "2026.11.07",
+      "ply": 32,
+      "move": "16...Rxf3",
+      "galleryBrilliant": true,
+      "old": "dubious",
+      "new": "dubious",
+      "provisionalNew": "dubious",
+      "modelCandidate": true,
+      "modelScore": 0.9528863801939205,
+      "before": "r4rk1/pp4pp/1bnqb3/3p2B1/6n1/1N1B1N1P/PP3PP1/R2Q1RK1 b - - 0 16",
+      "after": "r5k1/pp4pp/1bnqb3/3p2B1/6n1/1N1B1r1P/PP3PP1/R2Q1RK1 w - - 0 17",
+      "url": "https://www.chess.com/analysis/game/live/186700239458?move=31"
+    },
+    {
+      "game": "186700239458",
+      "white": "YegoryoCh",
+      "black": "Ginger_GM",
+      "date": "2026.11.07",
+      "ply": 38,
+      "move": "19...Nxg4",
+      "galleryBrilliant": false,
+      "old": "brilliant",
+      "new": "interesting",
+      "provisionalNew": "interesting",
+      "modelCandidate": true,
+      "modelScore": 0.7336909408084018,
+      "before": "5rk1/pp4pp/1b1qb3/3pn3/6PB/1N3r2/PP2BPP1/R2Q1RK1 b - - 4 19",
+      "after": "5rk1/pp4pp/1b1qb3/3p4/6nB/1N3r2/PP2BPP1/R2Q1RK1 w - - 0 20",
+      "url": "https://www.chess.com/analysis/game/live/186700239458?move=37"
+    },
+    {
+      "game": "186659807318",
+      "white": "Ginger_GM",
+      "black": "Nasledstvo67",
+      "date": "2026.11.06",
+      "ply": 37,
+      "move": "19.Rxh5",
+      "galleryBrilliant": true,
+      "old": "interesting",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.9832707023628611,
+      "before": "r1q1r1k1/pp3p1p/2pb2p1/3p2Pn/3P3R/3PPN1Q/PP1N1P2/2K4R w - - 3 19",
+      "after": "r1q1r1k1/pp3p1p/2pb2p1/3p2PR/3P4/3PPN1Q/PP1N1P2/2K4R b - - 0 19",
+      "url": "https://www.chess.com/analysis/game/live/186659807318?move=36"
+    },
+    {
+      "game": "186573944216",
+      "white": "GMG",
+      "black": "Ginger_GM",
+      "date": "2026.11.05",
+      "ply": 44,
+      "move": "22...Nf4",
+      "galleryBrilliant": true,
+      "old": "dubious",
+      "new": "dubious",
+      "provisionalNew": "dubious",
+      "modelCandidate": true,
+      "modelScore": 0.09613769148258013,
+      "before": "5r1k/pp4p1/3p1rnp/1P2p2q/4P3/Q4NPb/P3P2P/2RR2KB b - - 0 22",
+      "after": "5r1k/pp4p1/3p1r1p/1P2p2q/4Pn2/Q4NPb/P3P2P/2RR2KB w - - 1 23",
+      "url": "https://www.chess.com/analysis/game/live/186573944216?move=43"
+    },
+    {
+      "game": "186573774294",
+      "white": "Ginger_GM",
+      "black": "Tiraturyan_Chessmood1991",
+      "date": "2026.11.05",
+      "ply": 45,
+      "move": "23.Qe7",
+      "galleryBrilliant": true,
+      "old": "no annotation",
+      "new": "brilliant",
+      "provisionalNew": "brilliant",
+      "modelCandidate": true,
+      "modelScore": 0.82020462580156,
+      "before": "2r4r/pp3pk1/4p1bp/3q4/1Q1PN3/2P1b1N1/PP4P1/3K1R1R w - - 4 23",
+      "after": "2r4r/pp2Qpk1/4p1bp/3q4/3PN3/2P1b1N1/PP4P1/3K1R1R b - - 5 23",
+      "url": "https://www.chess.com/analysis/game/live/186573774294?move=44"
+    }
+  ]
+}

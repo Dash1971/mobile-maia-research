@@ -2,7 +2,7 @@
   "title": "Finding more brilliant moves",
   "intro": [
     "Mobile Maia is a free, offline chess app for Android. Its game analysis marks brilliant moves with !!, the chess symbol for an exceptional idea. We want it to recognize more of those moves.",
-    "Our existing detector uses rules adapted from En Croissant, an open-source chess analysis app. We tested a replacement from our Open Brilly Finder project on famous classical games and a fixed selection of online games."
+    "Our existing detector uses rules adapted from En Croissant, an open-source chess analysis app. We tested a replacement from our Open Brilly Finder project on classical games and two sets of online games."
   ],
   "old": "The En Croissant-derived detector looks for a sacrifice that doesn’t significantly worsen the position, is the Stockfish chess engine’s best move, and stands clearly above the alternatives. These rules catch many good combinations, but can miss a brilliant sacrifice when another move also works.",
   "new": "Open Brilly Finder is our open-source research project for recognizing Brilliant moves. Its Mute Exchange model was trained using recorded Chess.com game-review labels. It first checks for a piece offer, allowing for the captures and recaptures on that square. A small trained model then uses the position and Stockfish’s analysis to decide whether that offer deserves !!.",
@@ -15,12 +15,15 @@
   "onlineScope": "This gives us 1,692 scored moves, including 51 marked Brilliant in those reviews. These games were collected for their Brilliant moves; they are not a random sample of online chess. Thirty-six selected games were used in the model’s development; six Witty_Alien games were kept out of the model’s training games. This checks the integration on that collection, rather than establishing accuracy for all players.",
   "onlineResult": "The En Croissant-derived detector found {oldHits} of those 51 moves. Open Brilly Finder found {newHits}: {hitGain} more. It retains all {oldHits} moves the old rules recognized.",
   "onlineAwards": "On the scored moves, every Brilliant award from either detector matched a recorded Brilliant label.",
-  "decision": "We have chosen to adopt Open Brilly Finder for Mobile Maia 2.7. It finds {hitGain} more of the recorded online brilliancies in this sample, with a smaller gain on the classics. The Evergreen miss shows the trade-off: it improves recognition without catching every brilliant idea.",
+  "decision": "We have chosen to adopt Open Brilly Finder for Mobile Maia 2.7. The gains are modest on the classics and larger in both online samples. It still misses some brilliant moves.",
   "release": "Planned for Mobile Maia 2.7; not yet in a published Android release.",
   "limits": [
-    "The online sample contains titled players and games collected for their Brilliant moves. Six accounts were used in the model’s development; six selected Witty_Alien games were kept out of the model’s training games, although other games from that account were used in training. This is a comparison in Mobile Maia, not an independent estimate of accuracy for all players.",
+    "The original 42-game online sample contains development games and titled players. Six selected Witty_Alien games were kept out of training, although other games from that account were used in training. The separate Ginger sample has no matching games or candidate position-and-move pairs in the published development data. Both samples were selected for their brillies; neither estimates accuracy for all players.",
     "Chess.com’s recorded labels and human annotations are references, not a universal definition of brilliance. Review labels can change. The new detector was trained to recognize piece offers, so quiet brilliancies remain difficult.",
     "The tests use native Stockfish 18 on a Mac with Mobile Maia’s actual analyzer and classifiers. Android performance and release checks remain separate. No Android builds or LFS downloads were used."
   ],
-  "onlineHeldout": "In the six games kept out of the model’s training games, Open Brilly Finder found all six recorded Brilliants, versus three previously."
+  "onlineHeldout": "In the six games kept out of the model’s training games, Open Brilly Finder found all six recorded Brilliants, versus three previously.",
+  "gingerIntro": "We then tested {gingerGames} games from grandmaster Simon Williams (Ginger_GM), outside the published development data. Before analysis, we excluded three games that repeated training positions and moves. None of the retained games or their played position-and-move pairs matches the published candidate data.",
+  "gingerResult": "Open Brilly Finder gains {gingerGained} gallery brillies and loses {gingerLost}, a net gain of {gingerGain}. Its {gingerNewPercent:.1f}% hit rate is lower than the earlier sample’s 86.3%, but the improvement holds outside the development games. It still misses {gingerMissed} of the {gingerTargets} gallery brillies.",
+  "gingerLimit": "These games were selected for their gallery brillies. Awards outside the gallery are disagreements, not automatically errors. Both detectors use the same Fast analysis; the model and cutoff are unchanged."
 }

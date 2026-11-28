@@ -2,7 +2,7 @@
 
 Mobile Maia is a free, offline chess app for Android. Its game analysis marks brilliant moves with !!, the chess symbol for an exceptional idea. We want it to recognize more of those moves.
 
-Our existing detector uses rules adapted from En Croissant, an open-source chess analysis app. We tested a replacement from our Open Brilly Finder project on famous classical games and a fixed selection of online games.
+Our existing detector uses rules adapted from En Croissant, an open-source chess analysis app. We tested a replacement from our Open Brilly Finder project on classical games and two sets of online games.
 
 Planned for Mobile Maia 2.7; not yet in a published Android release.
 
@@ -104,15 +104,31 @@ Existing: **Interesting !?**. Open Brilly Finder: **Brilliant !!**. Recorded Che
 
 [Original game](https://www.chess.com/game/live/170012492008)
 
+## An independent check: Ginger
+
+We then tested 27 games from grandmaster Simon Williams (Ginger_GM), outside the published development data. Before analysis, we excluded three games that repeated training positions and moves. None of the retained games or their played position-and-move pairs matches the published candidate data.
+
+| Fast analysis | En Croissant (adapted) | Open Brilly Finder |
+| --- | --- | --- |
+| Gallery brillies found | 7/32 (21.9%) | 20/32 (62.5%) |
+| Gallery brillies missed | 25 | 12 |
+| Awards outside the gallery | 5 | 1 |
+
+Open Brilly Finder gains 14 gallery brillies and loses 1, a net gain of 13. Its 62.5% hit rate is lower than the earlier sample’s 86.3%, but the improvement holds outside the development games. It still misses 12 of the 32 gallery brillies.
+
+These games were selected for their gallery brillies. Awards outside the gallery are disagreements, not automatically errors. Both detectors use the same Fast analysis; the model and cutoff are unchanged.
+
+[All Ginger games, moves and training-overlap audit](ginger/REPORT.md)
+
 ## Our decision: Open Brilly Finder for 2.7
 
-We have chosen to adopt Open Brilly Finder for Mobile Maia 2.7. It finds 33 more of the recorded online brilliancies in this sample, with a smaller gain on the classics. The Evergreen miss shows the trade-off: it improves recognition without catching every brilliant idea.
+We have chosen to adopt Open Brilly Finder for Mobile Maia 2.7. The gains are modest on the classics and larger in both online samples. It still misses some brilliant moves.
 
 ## How we tested
 
-Classical games: 492 mainline moves, nine games, all three modes. Online games: 3,364 mainline moves, 42 games, Fast. The paired classifiers share baseline Stockfish 18 evidence and keep their normal evidence and confirmation checks. No model, cutoff or classification-rule changes were made for this study.
+Classical games: 492 mainline moves, nine games, all three modes. Online games: 3,364 mainline moves, 42 games, Fast. The independent Ginger follow-up adds 1,837 mainline moves across 27 games, in Fast. The paired classifiers share baseline Stockfish 18 evidence and keep their normal evidence and confirmation checks. No model, cutoff or classification-rule changes were made for this study.
 
-The online sample contains titled players and games collected for their Brilliant moves. Six accounts were used in the model’s development; six selected Witty_Alien games were kept out of the model’s training games, although other games from that account were used in training. This is a comparison in Mobile Maia, not an independent estimate of accuracy for all players.
+The original 42-game online sample contains development games and titled players. Six selected Witty_Alien games were kept out of training, although other games from that account were used in training. The separate Ginger sample has no matching games or candidate position-and-move pairs in the published development data. Both samples were selected for their brillies; neither estimates accuracy for all players.
 
 Chess.com’s recorded labels and human annotations are references, not a universal definition of brilliance. Review labels can change. The new detector was trained to recognize piece offers, so quiet brilliancies remain difficult.
 

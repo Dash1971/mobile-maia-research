@@ -7,18 +7,19 @@ the proposed Open Brilly Finder integration. The report explains the purpose,
 results and planned adoption for Mobile Maia 2.7. This is research evidence,
 not Android release qualification.
 
-## Two comparisons
+## Three comparisons
 
 | Comparison | Games | Mainline plies | Baseline positions | Reference |
 | --- | ---: | ---: | ---: | --- |
 | Classics, Fast/Balanced/Thorough | 9 | 492 | 1,503 | 14 explicitly published `!!` moves |
 | Online, Fast | 42 | 3,364 | 3,406 | 51 recorded Chess.com review Brilliants on 1,692 selected-account moves |
+| Ginger, Fast | 27 | 1,837 | 1,864 | 32 captured gallery Brilliants on 922 Ginger moves |
 
-Both comparisons use the actual app analyzer and both actual Dart classifiers,
+All three comparisons use the actual app analyzer and both actual Dart classifiers,
 sharing identical baseline scores. Each retains its normal provisional,
 confirmation and final checks. The runner asserts that confirmations do not
 change graph scores or baseline principal variations. No model, cutoff or
-classification rules were changed for either comparison.
+classification rules were changed for any comparison.
 
 The online games come from seven titled-player accounts. Six games per account
 were selected by a fixed hash before analysis. Thirty-six selected games were
@@ -28,11 +29,17 @@ this source collection, not independent population accuracy. Primary counts use
 recorded November 22, 2026 Game Review labels, not the gallery labels; agreement
 with the gallery is reported separately in `online/summary.json`.
 
+The independent [Ginger follow-up](ginger/REPORT.md) excludes any game or played
+position-and-move pair matching the published development candidate data. Its
+[overlap audit](ginger/overlap-audit.json) records three excluded games. It uses
+the captured gallery as its reference, rather than the November 22 reviews.
+
 ## Pins and engine settings
 
 - App: Preview [`096591bd8d42759e5a3f3a288d56d7c93245d6d1`](https://github.com/Dash1971/maia-chess-android-preview/tree/096591bd8d42759e5a3f3a288d56d7c93245d6d1); [implementation PR #284](https://github.com/Dash1971/maia-chess-android-preview/pull/284).
 - Classical plan/registry/runner: `52065e0c57b788875687f41ace29cb252c92b242`.
 - Online plan/sample/runner: `a3c44bf2ba76021db8a8688881f1dc80748318df`.
+- Ginger plan/sample: `6844202bf606211c11a27b777560cf009293f30f`.
 - Open Brilly Finder: `59cab58a8b63387d9775252f03a6875fe451f697`; model SHA-256 `992a792a646b11e612486c4fe26796fc38ee47f395f2220b00d26db65ba1e27d`; unchanged cutoff `0.8193002847777424`. Model weights are not copied here.
 - Existing Homebrew Stockfish 18, macOS ARM64; binary 113,875,192 bytes; SHA-256 `ae4c93fa9676ca7750d0714342fd8a5b1d018000fc6e0f6cedf112067b5ef374`. No engine binary is distributed.
 - One search thread, 64 MiB hash, MultiPV2, fresh engine/session per game and mode. Positions within each game use the normal warm session.
@@ -68,6 +75,11 @@ The shared shallow-search inconsistency at Opera15.Bxd7+ is retained: both
 detectors grade it Blunder in Fast, Mistake in Balanced, unmarked in Thorough.
 Balanced recommends it before the move (+6.39) then lowers its score (+3.10);
 Thorough gives +8.32/+8.47. This is separate from the Brilliant model.
+
+The [Ginger report](ginger/REPORT.md) includes every game, reference move and
+additional award, with separate labeled PGNs. Its raw searches are retained in
+`ginger/engine-runs.json.gz`; `tools/check_ginger.py` independently recounts all
+results from the recorded labels.
 
 ## Reproduce
 
