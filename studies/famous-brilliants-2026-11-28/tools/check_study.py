@@ -72,7 +72,7 @@ def main():
     for file in (ROOT / 'figures').glob('*.png'):
         with Image.open(file) as im:
             im.verify()
-    images = re.findall(r'!\[[^\]]*\]\(([^)]+)\)', (ROOT / 'REPORT.md').read_text())
+    images = re.findall(r'!\[[^\]]*\]\(([^)]+)\)', (ROOT / 'CLASSICS.md').read_text())
     assert len(images) == 14
     assert all((ROOT / image).is_file() for image in images)
     imports = json.loads((ROOT / 'web/website-files.json').read_text())

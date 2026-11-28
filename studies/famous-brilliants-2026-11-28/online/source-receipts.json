@@ -1,0 +1,50 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 4237,
+    "sha256": "fd067357dbacfe19edd1fe0477c700eae1652c96a2a524f1a73d838d66203531",
+    "url": "https://raw.githubusercontent.com/Dash1971/open-brilly-finder/59cab58a8b63387d9775252f03a6875fe451f697/README.md"
+  },
+  {
+    "path": "studies/brilliant-exchange-2026-11-22/METHODS.md",
+    "bytes": 11123,
+    "sha256": "bc856a08d98649208c1c2daaa8ff9525bd467ab1ea5e01b23d17f9e6ece2090e",
+    "url": "https://raw.githubusercontent.com/Dash1971/open-brilly-finder/59cab58a8b63387d9775252f03a6875fe451f697/studies/brilliant-exchange-2026-11-22/METHODS.md"
+  },
+  {
+    "path": "studies/brilliant-exchange-2026-11-22/README.md",
+    "bytes": 5361,
+    "sha256": "5ffb91f692b9e2732b469e8e14a4c7fd78b561097660a7167a22a3e1e0bdf1be",
+    "url": "https://raw.githubusercontent.com/Dash1971/open-brilly-finder/59cab58a8b63387d9775252f03a6875fe451f697/studies/brilliant-exchange-2026-11-22/README.md"
+  },
+  {
+    "path": "studies/brilliant-exchange-2026-11-22/code/v6build.py",
+    "bytes": 1942,
+    "sha256": "7da34797efab71446e01719c1ba229de34bad2c164acbf345445eafa896d67ac",
+    "url": "https://raw.githubusercontent.com/Dash1971/open-brilly-finder/59cab58a8b63387d9775252f03a6875fe451f697/studies/brilliant-exchange-2026-11-22/code/v6build.py"
+  },
+  {
+    "path": "studies/brilliant-exchange-2026-11-22/code/v6train.py",
+    "bytes": 6099,
+    "sha256": "6fc22fcb609977974b4cfefac30416798f3622d992012a0a686d52996426b802",
+    "url": "https://raw.githubusercontent.com/Dash1971/open-brilly-finder/59cab58a8b63387d9775252f03a6875fe451f697/studies/brilliant-exchange-2026-11-22/code/v6train.py"
+  },
+  {
+    "path": "studies/brilliant-exchange-2026-11-22/data/chesscom-review-moves.csv.gz",
+    "bytes": 839308,
+    "sha256": "a8976aa660fe437ea7e47415bc94eaf17109865f755b3464d501ef5a805d33c0",
+    "url": "https://raw.githubusercontent.com/Dash1971/open-brilly-finder/59cab58a8b63387d9775252f03a6875fe451f697/studies/brilliant-exchange-2026-11-22/data/chesscom-review-moves.csv.gz"
+  },
+  {
+    "path": "studies/brilliant-exchange-2026-11-22/data/heldout-outcomes.csv",
+    "bytes": 103068,
+    "sha256": "c3d5eccd8ed3fcf26cf8111e709b167c05c643e28c5ea352d5b1a9663ddd4599",
+    "url": "https://raw.githubusercontent.com/Dash1971/open-brilly-finder/59cab58a8b63387d9775252f03a6875fe451f697/studies/brilliant-exchange-2026-11-22/data/heldout-outcomes.csv"
+  },
+  {
+    "path": "studies/brilliant-selective-2026-11-06/data/seven-accounts-last-12-months-chesscom-brilliants.pgn",
+    "bytes": 22824066,
+    "sha256": "0089e8896924a5a370d7213f3336dd1a72f7d6ec9e1449ff8117917d3d2442df",
+    "url": "https://raw.githubusercontent.com/Dash1971/open-brilly-finder/59cab58a8b63387d9775252f03a6875fe451f697/studies/brilliant-selective-2026-11-06/data/seven-accounts-last-12-months-chesscom-brilliants.pgn"
+  }
+]

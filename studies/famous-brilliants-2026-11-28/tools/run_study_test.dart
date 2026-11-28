@@ -132,10 +132,13 @@ void main() {
       temp.renameSync(output.path);
     }
 
+    final qualities = GameAnalysisQuality.values.where(
+      (q) => input['qualities'] == null || (input['qualities'] as List).contains(q.name),
+    ).toList();
     for (final dynamic game in input['games']) {
       final positions = (game['positions'] as List).cast<String>();
       final moves = (game['moves'] as List).cast<String>();
-      for (final quality in GameAnalysisQuality.values) {
+      for (final quality in qualities) {
         final engines = <StudyEngine>[];
         final analyzer = StockfishAnalyzer.withFactory(() async {
           final engine = StudyEngine(
@@ -291,6 +294,6 @@ void main() {
         }
       }
     }
-    expect(runs, hasLength((input['games'] as List).length * 3));
+    expect(runs, hasLength((input['games'] as List).length * qualities.length));
   }, timeout: const Timeout(Duration(minutes: 45)));
 }

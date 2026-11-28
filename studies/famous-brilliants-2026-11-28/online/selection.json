@@ -1,0 +1,1277 @@
+{
+  "upstreamCommit": "59cab58a8b63387d9775252f03a6875fe451f697",
+  "salt": "mobile-maia-online-brilliant-27-v1:",
+  "rule": "Six lowest SHA-256(salt + numeric game ID) per account among fully reviewed, legal, move-matched games. A missing promotion suffix in review UCI is resolved from the legal PGN. Witty_Alien limited to upstream held-out games. No filtering on classifier outcomes.",
+  "reviewUCINormalizations": [
+    {
+      "gameId": "156936454273",
+      "ply": 68,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "156940056291",
+      "ply": 72,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "156940056291",
+      "ply": 100,
+      "recorded": "c2c1",
+      "legalPGN": "c2c1q"
+    },
+    {
+      "gameId": "156940056291",
+      "ply": 115,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "156940056291",
+      "ply": 135,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "145323660212",
+      "ply": 99,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    },
+    {
+      "gameId": "145323660212",
+      "ply": 113,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "157540651623",
+      "ply": 83,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    },
+    {
+      "gameId": "145790326664",
+      "ply": 93,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "145790326664",
+      "ply": 99,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    },
+    {
+      "gameId": "145976280014",
+      "ply": 66,
+      "recorded": "c2c1",
+      "legalPGN": "c2c1n"
+    },
+    {
+      "gameId": "158594844571",
+      "ply": 119,
+      "recorded": "e7e8",
+      "legalPGN": "e7e8q"
+    },
+    {
+      "gameId": "146139118004",
+      "ply": 76,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "146139118004",
+      "ply": 79,
+      "recorded": "a7a8",
+      "legalPGN": "a7a8q"
+    },
+    {
+      "gameId": "146190725512",
+      "ply": 106,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "146227897822",
+      "ply": 114,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "146401364314",
+      "ply": 126,
+      "recorded": "b2b1",
+      "legalPGN": "b2b1q"
+    },
+    {
+      "gameId": "146472680370",
+      "ply": 138,
+      "recorded": "b2b1",
+      "legalPGN": "b2b1q"
+    },
+    {
+      "gameId": "146527082996",
+      "ply": 90,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "146809292272",
+      "ply": 80,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "146809292272",
+      "ply": 92,
+      "recorded": "b2b1",
+      "legalPGN": "b2b1q"
+    },
+    {
+      "gameId": "146986537160",
+      "ply": 71,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "147141170116",
+      "ply": 150,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "147549999968",
+      "ply": 130,
+      "recorded": "f2f1",
+      "legalPGN": "f2f1q"
+    },
+    {
+      "gameId": "147549999968",
+      "ply": 156,
+      "recorded": "g2g1",
+      "legalPGN": "g2g1q"
+    },
+    {
+      "gameId": "147580244050",
+      "ply": 80,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "162035821155",
+      "ply": 52,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "147707982926",
+      "ply": 120,
+      "recorded": "f2f1",
+      "legalPGN": "f2f1q"
+    },
+    {
+      "gameId": "147711144876",
+      "ply": 125,
+      "recorded": "e7e8",
+      "legalPGN": "e7e8q"
+    },
+    {
+      "gameId": "147711144876",
+      "ply": 127,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "147711144876",
+      "ply": 143,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "147711144876",
+      "ply": 159,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "147867750924",
+      "ply": 98,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "147867750924",
+      "ply": 101,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    },
+    {
+      "gameId": "147931690908",
+      "ply": 93,
+      "recorded": "a7a8",
+      "legalPGN": "a7a8q"
+    },
+    {
+      "gameId": "148027080078",
+      "ply": 132,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "162828425163",
+      "ply": 125,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "162828425163",
+      "ply": 132,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "148310596108",
+      "ply": 85,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "163431423359",
+      "ply": 50,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "163431423359",
+      "ply": 73,
+      "recorded": "g7f8",
+      "legalPGN": "g7f8n"
+    },
+    {
+      "gameId": "163431423359",
+      "ply": 132,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "163431423359",
+      "ply": 135,
+      "recorded": "a7a8",
+      "legalPGN": "a7a8q"
+    },
+    {
+      "gameId": "163448222207",
+      "ply": 127,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "148376399144",
+      "ply": 138,
+      "recorded": "f2f1",
+      "legalPGN": "f2f1q"
+    },
+    {
+      "gameId": "163590911355",
+      "ply": 140,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "148470577122",
+      "ply": 78,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "148470577122",
+      "ply": 101,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "164186856264",
+      "ply": 142,
+      "recorded": "f2f1",
+      "legalPGN": "f2f1q"
+    },
+    {
+      "gameId": "164451588977",
+      "ply": 123,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "164451588977",
+      "ply": 128,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "164451588977",
+      "ply": 130,
+      "recorded": "b2b1",
+      "legalPGN": "b2b1q"
+    },
+    {
+      "gameId": "164655208732",
+      "ply": 118,
+      "recorded": "f2f1",
+      "legalPGN": "f2f1q"
+    },
+    {
+      "gameId": "165408614221",
+      "ply": 105,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "165408614221",
+      "ply": 116,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "165033621304",
+      "ply": 105,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "165054858718",
+      "ply": 103,
+      "recorded": "e7e8",
+      "legalPGN": "e7e8q"
+    },
+    {
+      "gameId": "165062448396",
+      "ply": 79,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "165062448396",
+      "ply": 137,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "165278198834",
+      "ply": 42,
+      "recorded": "b2c1",
+      "legalPGN": "b2c1q"
+    },
+    {
+      "gameId": "165362952080",
+      "ply": 70,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "166959615975",
+      "ply": 108,
+      "recorded": "c2c1",
+      "legalPGN": "c2c1q"
+    },
+    {
+      "gameId": "167475615655",
+      "ply": 98,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "166428771838",
+      "ply": 61,
+      "recorded": "e7e8",
+      "legalPGN": "e7e8q"
+    },
+    {
+      "gameId": "166434439278",
+      "ply": 100,
+      "recorded": "c2c1",
+      "legalPGN": "c2c1q"
+    },
+    {
+      "gameId": "166434439278",
+      "ply": 109,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "166581068628",
+      "ply": 61,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "169288839819",
+      "ply": 127,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "167204797820",
+      "ply": 88,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1n"
+    },
+    {
+      "gameId": "167275719056",
+      "ply": 82,
+      "recorded": "e2d1",
+      "legalPGN": "e2d1q"
+    },
+    {
+      "gameId": "171100225991",
+      "ply": 76,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "167651681516",
+      "ply": 127,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "167651681516",
+      "ply": 135,
+      "recorded": "e7e8",
+      "legalPGN": "e7e8q"
+    },
+    {
+      "gameId": "167746219002",
+      "ply": 129,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "167856003594",
+      "ply": 95,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "167856003594",
+      "ply": 118,
+      "recorded": "f2f1",
+      "legalPGN": "f2f1q"
+    },
+    {
+      "gameId": "167960914902",
+      "ply": 119,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    },
+    {
+      "gameId": "167960914902",
+      "ply": 121,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "167966458998",
+      "ply": 114,
+      "recorded": "b2c1",
+      "legalPGN": "b2c1q"
+    },
+    {
+      "gameId": "167972065104",
+      "ply": 65,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "167972065104",
+      "ply": 110,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "171875446927",
+      "ply": 150,
+      "recorded": "g2g1",
+      "legalPGN": "g2g1q"
+    },
+    {
+      "gameId": "168057687144",
+      "ply": 102,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "172312814427",
+      "ply": 184,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "168480603700",
+      "ply": 119,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    },
+    {
+      "gameId": "168659610872",
+      "ply": 149,
+      "recorded": "e7e8",
+      "legalPGN": "e7e8q"
+    },
+    {
+      "gameId": "168659610872",
+      "ply": 161,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "168713832628",
+      "ply": 92,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "168737759864",
+      "ply": 130,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "168760846978",
+      "ply": 111,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "168760846978",
+      "ply": 112,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "168788688076",
+      "ply": 128,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "173869755385",
+      "ply": 95,
+      "recorded": "a7a8",
+      "legalPGN": "a7a8q"
+    },
+    {
+      "gameId": "169174249610",
+      "ply": 138,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "169331890294",
+      "ply": 112,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "169726335792",
+      "ply": 94,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "169888454806",
+      "ply": 98,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "169959018402",
+      "ply": 67,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "169959018402",
+      "ply": 149,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "169959018402",
+      "ply": 185,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "170063219376",
+      "ply": 119,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "176111959885",
+      "ply": 81,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    },
+    {
+      "gameId": "176114357797",
+      "ply": 89,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    },
+    {
+      "gameId": "176454412351",
+      "ply": 51,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "170739762756",
+      "ply": 81,
+      "recorded": "a7a8",
+      "legalPGN": "a7a8q"
+    },
+    {
+      "gameId": "170804673012",
+      "ply": 104,
+      "recorded": "b2b1",
+      "legalPGN": "b2b1q"
+    },
+    {
+      "gameId": "170849739008",
+      "ply": 148,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "170859699464",
+      "ply": 58,
+      "recorded": "c2d1",
+      "legalPGN": "c2d1q"
+    },
+    {
+      "gameId": "170897477550",
+      "ply": 120,
+      "recorded": "g2g1",
+      "legalPGN": "g2g1q"
+    },
+    {
+      "gameId": "170902761788",
+      "ply": 128,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "177150412115",
+      "ply": 141,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "177150412115",
+      "ply": 142,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "177150412115",
+      "ply": 174,
+      "recorded": "c2c1",
+      "legalPGN": "c2c1q"
+    },
+    {
+      "gameId": "170996205618",
+      "ply": 70,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "171253306562",
+      "ply": 143,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "171253306562",
+      "ply": 177,
+      "recorded": "a7a8",
+      "legalPGN": "a7a8q"
+    },
+    {
+      "gameId": "171303218306",
+      "ply": 91,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "171363174704",
+      "ply": 70,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "178105072697",
+      "ply": 108,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "171487603906",
+      "ply": 138,
+      "recorded": "g2g1",
+      "legalPGN": "g2g1q"
+    },
+    {
+      "gameId": "171487603906",
+      "ply": 156,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "171576214796",
+      "ply": 106,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "171626498334",
+      "ply": 103,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "171626498334",
+      "ply": 104,
+      "recorded": "f2f1",
+      "legalPGN": "f2f1q"
+    },
+    {
+      "gameId": "171626498334",
+      "ply": 137,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "171626498334",
+      "ply": 138,
+      "recorded": "f2f1",
+      "legalPGN": "f2f1q"
+    },
+    {
+      "gameId": "171709955126",
+      "ply": 140,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "178706873269",
+      "ply": 84,
+      "recorded": "c2c1",
+      "legalPGN": "c2c1q"
+    },
+    {
+      "gameId": "178706873269",
+      "ply": 100,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "178708072359",
+      "ply": 149,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "178708072359",
+      "ply": 161,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "178708673761",
+      "ply": 106,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "171779765030",
+      "ply": 90,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "171825665164",
+      "ply": 59,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "172017226794",
+      "ply": 78,
+      "recorded": "c2c1",
+      "legalPGN": "c2c1q"
+    },
+    {
+      "gameId": "172017226794",
+      "ply": 107,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "172083859860",
+      "ply": 92,
+      "recorded": "b2b1",
+      "legalPGN": "b2b1q"
+    },
+    {
+      "gameId": "172100050508",
+      "ply": 96,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "172193429948",
+      "ply": 94,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "172222062970",
+      "ply": 51,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "172561794238",
+      "ply": 91,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "172682678568",
+      "ply": 125,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "172709605834",
+      "ply": 132,
+      "recorded": "b2b1",
+      "legalPGN": "b2b1q"
+    },
+    {
+      "gameId": "172755086192",
+      "ply": 51,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "172796255382",
+      "ply": 64,
+      "recorded": "g2f1",
+      "legalPGN": "g2f1q"
+    },
+    {
+      "gameId": "172929981028",
+      "ply": 83,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "172929981028",
+      "ply": 121,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8n"
+    },
+    {
+      "gameId": "172931305254",
+      "ply": 86,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "173128556206",
+      "ply": 96,
+      "recorded": "g2g1",
+      "legalPGN": "g2g1q"
+    },
+    {
+      "gameId": "173190017560",
+      "ply": 118,
+      "recorded": "b2b1",
+      "legalPGN": "b2b1q"
+    },
+    {
+      "gameId": "173238026816",
+      "ply": 112,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "173752546072",
+      "ply": 49,
+      "recorded": "g7f8",
+      "legalPGN": "g7f8q"
+    },
+    {
+      "gameId": "173790572428",
+      "ply": 72,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "173790572428",
+      "ply": 98,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "173794036630",
+      "ply": 85,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "173851954580",
+      "ply": 105,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "182939902369",
+      "ply": 85,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "174140787858",
+      "ply": 132,
+      "recorded": "c2c1",
+      "legalPGN": "c2c1q"
+    },
+    {
+      "gameId": "174195616430",
+      "ply": 81,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    },
+    {
+      "gameId": "174231473034",
+      "ply": 109,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "174423800930",
+      "ply": 129,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "174423800930",
+      "ply": 133,
+      "recorded": "f7f8",
+      "legalPGN": "f7f8q"
+    },
+    {
+      "gameId": "174425603426",
+      "ply": 127,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "174488228896",
+      "ply": 89,
+      "recorded": "a7a8",
+      "legalPGN": "a7a8q"
+    },
+    {
+      "gameId": "174488798608",
+      "ply": 112,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "174488798608",
+      "ply": 126,
+      "recorded": "c2c1",
+      "legalPGN": "c2c1q"
+    },
+    {
+      "gameId": "180005648508",
+      "ply": 125,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    },
+    {
+      "gameId": "180005648508",
+      "ply": 148,
+      "recorded": "g2g1",
+      "legalPGN": "g2g1q"
+    },
+    {
+      "gameId": "184010310819",
+      "ply": 66,
+      "recorded": "g2f1",
+      "legalPGN": "g2f1q"
+    },
+    {
+      "gameId": "184010310819",
+      "ply": 119,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "184150111435",
+      "ply": 171,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "184226998492",
+      "ply": 92,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "184275174786",
+      "ply": 91,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "184275174786",
+      "ply": 102,
+      "recorded": "b2b1",
+      "legalPGN": "b2b1q"
+    },
+    {
+      "gameId": "184405419484",
+      "ply": 73,
+      "recorded": "g7g8",
+      "legalPGN": "g7g8q"
+    },
+    {
+      "gameId": "184405419484",
+      "ply": 107,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "184453466930",
+      "ply": 62,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1n"
+    },
+    {
+      "gameId": "184453466930",
+      "ply": 66,
+      "recorded": "c2c1",
+      "legalPGN": "c2c1n"
+    },
+    {
+      "gameId": "184502966816",
+      "ply": 74,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "184509540676",
+      "ply": 112,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "184542055566",
+      "ply": 90,
+      "recorded": "g2g1",
+      "legalPGN": "g2g1q"
+    },
+    {
+      "gameId": "184542055566",
+      "ply": 104,
+      "recorded": "d2d1",
+      "legalPGN": "d2d1q"
+    },
+    {
+      "gameId": "184542055566",
+      "ply": 116,
+      "recorded": "c2c1",
+      "legalPGN": "c2c1q"
+    },
+    {
+      "gameId": "184617535540",
+      "ply": 106,
+      "recorded": "e2e1",
+      "legalPGN": "e2e1q"
+    },
+    {
+      "gameId": "184617535540",
+      "ply": 114,
+      "recorded": "a2a1",
+      "legalPGN": "a2a1q"
+    },
+    {
+      "gameId": "185704591215",
+      "ply": 123,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    },
+    {
+      "gameId": "185571535188",
+      "ply": 85,
+      "recorded": "d7d8",
+      "legalPGN": "d7d8q"
+    },
+    {
+      "gameId": "185587455566",
+      "ply": 79,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "185782160484",
+      "ply": 122,
+      "recorded": "g2g1",
+      "legalPGN": "g2g1q"
+    },
+    {
+      "gameId": "186102691718",
+      "ply": 87,
+      "recorded": "a7a8",
+      "legalPGN": "a7a8q"
+    },
+    {
+      "gameId": "186102691718",
+      "ply": 101,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "186275429956",
+      "ply": 135,
+      "recorded": "e7e8",
+      "legalPGN": "e7e8q"
+    },
+    {
+      "gameId": "186312822844",
+      "ply": 91,
+      "recorded": "c7c8",
+      "legalPGN": "c7c8q"
+    },
+    {
+      "gameId": "186405183098",
+      "ply": 59,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "186407154380",
+      "ply": 77,
+      "recorded": "h7h8",
+      "legalPGN": "h7h8q"
+    },
+    {
+      "gameId": "186407154380",
+      "ply": 118,
+      "recorded": "b2b1",
+      "legalPGN": "b2b1q"
+    },
+    {
+      "gameId": "186413820562",
+      "ply": 82,
+      "recorded": "h2h1",
+      "legalPGN": "h2h1q"
+    },
+    {
+      "gameId": "188228285603",
+      "ply": 111,
+      "recorded": "b7b8",
+      "legalPGN": "b7b8q"
+    }
+  ],
+  "excludedMismatches": [],
+  "primaryMode": "fast",
+  "primaryReference": "Recorded Chess.com Game Review November 22, 2026; scored account moves only",
+  "accounts": {
+    "hansen": {
+      "eligible": 104,
+      "selected": 6
+    },
+    "KNVB": {
+      "eligible": 152,
+      "selected": 6
+    },
+    "nelsi": {
+      "eligible": 108,
+      "selected": 6
+    },
+    "GothamChess": {
+      "eligible": 95,
+      "selected": 6
+    },
+    "Hikaru": {
+      "eligible": 156,
+      "selected": 6
+    },
+    "MagnusCarlsen": {
+      "eligible": 52,
+      "selected": 6
+    },
+    "Witty_Alien": {
+      "eligible": 337,
+      "selected": 6
+    }
+  },
+  "gameIds": [
+    "167742451240",
+    "183989911137",
+    "147939098332",
+    "167256015132",
+    "147734975198",
+    "169812769348",
+    "173382490976",
+    "184617535540",
+    "165107496038",
+    "170012492008",
+    "169999885390",
+    "169730301514",
+    "185989473802",
+    "164746202684",
+    "163758907869",
+    "167319477752",
+    "174394143338",
+    "186312822844",
+    "186305620178",
+    "173476659474",
+    "146596153920",
+    "171363174704",
+    "145923746794",
+    "184403800890",
+    "183545311101",
+    "184387370778",
+    "173719509302",
+    "163939339180",
+    "186823589241",
+    "170342172742",
+    "166266015869",
+    "167475615655",
+    "174469292094",
+    "146849967118",
+    "185125087610",
+    "157540651623",
+    "169837969726",
+    "166014886308",
+    "169502789540",
+    "184453466930",
+    "164719647956",
+    "167852178438"
+  ],
+  "games": 42,
+  "plies": 3364,
+  "scoredMoves": 1692,
+  "reviewBrilliants": 51,
+  "galleryBrilliants": 51
+}

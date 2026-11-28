@@ -91,8 +91,7 @@ def build(raw):
 
 def report(result):
     fast = result['totals']['fast']
-    lines = ['# Can an offline model spot a masterpiece?', '', 'Nine famous games. Fourteen published Brilliant landmarks. Two classifiers.', '',
-             '**Release target:** Open Brilly Finder is a Preview draft aiming for Mobile Maia 2.7. This study is not an Android release qualification.', '',
+    lines = ['# Classical games: complete results', '', 'Appendix to [Finding more brilliant moves](REPORT.md). Nine famous games and fourteen published Brilliant moves.', '',
              '## What the tests found', '',
              f"In Fast analysis, the previous classifier found **{fast['oldHits']}/14** frozen published!! landmarks. Open Brilly Finder found **{fast['newHits']}/14**. It recovered {fast['gainedTargets']} and lost {fast['lostTargets']} at those landmarks. These are final app awards after its normal confirmation policy, not raw model predictions.", '',
              '| Game | Published!! landmarks | Previous Fast | Open Brilly Finder Fast |', '| --- | ---: | ---: | ---: |']
@@ -118,12 +117,12 @@ def report(result):
               '[Plan](PLAN.md) · [Data and reproduction](README.md) · [Full engine evidence](data/engine-runs.json) · [Viewer data](web/results.json) · [Artwork notices](THIRD_PARTY.md)', '']
     text = '\n'.join(lines)
     editorial_path = ROOT / 'data/editorial.json'
-    if editorial_path.exists():
+    if editorial_path.exists() and not (ROOT / 'data/story.json').exists():
         editorial = json.loads(editorial_path.read_text())
         verdict = '## Verdict\n\n' + editorial['summary'] + '\n\n' + editorial['releaseNote'] + '\n\n'
         verdict += '\n\n'.join('**' + n['title'] + '** ' + n['text'] for n in editorial['notes']) + '\n\n'
         text = text.replace('## What the tests found\n', verdict + '## What the tests found\n')
-    (ROOT / 'REPORT.md').write_text(text)
+    (ROOT / 'CLASSICS.md').write_text(text)
 
 
 if __name__ == '__main__':
