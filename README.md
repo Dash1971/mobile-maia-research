@@ -15,6 +15,16 @@ results and match scores, with links to the full study and recorded data.
 
 ## Studies
 
+### Brilliant moves gained and lost — November 28, 2026
+
+[Visual comparison](studies/brilliant-classification-2026-11-28/REPORT.md) · [Data and reproduction](studies/brilliant-classification-2026-11-28/README.md)
+
+The Open Brilly Finder 2.7 draft changes four distinct positions across Mobile
+Maia’s recorded engine tests: 10 Brilliant awards gained and 6 lost across
+engine/mode snapshots. Before/after diagrams cover those positions and all 29
+changed labeled reference cases, including awards outside the recorded labels.
+
+
 ### Offline board recognition — updated November 15, 2026
 
 [Visual report and model comparison](studies/offline-board-recognition-2026-11-13/REPORT.md) · [Evidence and reproduction guide](studies/offline-board-recognition-2026-11-13/README.md)
