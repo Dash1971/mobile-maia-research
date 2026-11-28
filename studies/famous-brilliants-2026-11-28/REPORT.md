@@ -12,7 +12,7 @@ Planned for Mobile Maia 2.7; not yet in a published Android release.
 
 **New: Open Brilly Finder.** Open Brilly Finder is our open-source research project for recognizing Brilliant moves. Its Mute Exchange model was trained using recorded Chess.com game-review labels. It first checks for a piece offer, allowing for the captures and recaptures on that square. A small trained model then uses the position and Stockfish’s analysis to decide whether that offer deserves !!.
 
-The model is about 469 KiB and runs entirely on the device. It uses Mobile Maia’s existing Stockfish analysis; it needs no online service or extra chess engine.
+The model is about half a megabyte and runs entirely on the device. It uses Mobile Maia’s existing Stockfish analysis; it needs no online service or extra chess engine.
 
 Both detectors received the same Stockfish analysis for each game. We counted their final Brilliant awards after the app’s normal checks.
 
@@ -50,9 +50,9 @@ The loss is Evergreen’s 20.Rxe7+, which the existing detector finds and the ne
 
 ## Next, online games: 33 more brilliancies found
 
-Next we tested 42 online games from Open Brilly Finder’s public collection: six each from seven titled-player accounts. The games were selected by a fixed hash before either detector ran. We analyzed every move, then counted how many of Chess.com’s recorded Brilliant moves each detector recognized on the selected players’ moves.
+Next we tested 42 online games from Open Brilly Finder’s public collection: six each from seven titled-player accounts. The games were selected by a fixed selection rule before either detector ran. We analyzed every move, then counted how many of Chess.com’s recorded Brilliant moves each detector recognized on the selected players’ moves.
 
-This gives us 1,692 scored moves, including 51 marked Brilliant in those reviews. These games were collected for their Brilliant moves; they are not a random sample of online chess. Thirty-six selected games were used in the model’s development; six Witty_Alien games were held out upstream. This checks the integration on that collection, rather than establishing accuracy for all players.
+This gives us 1,692 scored moves, including 51 marked Brilliant in those reviews. These games were collected for their Brilliant moves; they are not a random sample of online chess. Thirty-six selected games were used in the model’s development; six Witty_Alien games were kept out of the model’s training games. This checks the integration on that collection, rather than establishing accuracy for all players.
 
 The En Croissant-derived detector found 11 of those 51 moves. Open Brilly Finder found 44: 33 more. It retains all 11 moves the old rules recognized.
 
@@ -67,7 +67,7 @@ The En Croissant-derived detector found 11 of those 51 moves. Open Brilly Finder
 | Witty_Alien | 6 | 3 | 6 |
 | Total | 51 | 11 | 44 |
 
-In the six games held out upstream, Open Brilly Finder found all six recorded Brilliants, versus three previously.
+In the six games kept out of the model’s training games, Open Brilly Finder found all six recorded Brilliants, versus three previously.
 
 On the scored moves, every Brilliant award from either detector matched a recorded Brilliant label.
 
@@ -112,7 +112,7 @@ We have chosen to adopt Open Brilly Finder for Mobile Maia 2.7. It finds 33 more
 
 Classical games: 492 mainline moves, nine games, all three modes. Online games: 3,364 mainline moves, 42 games, Fast. The paired classifiers share baseline Stockfish 18 evidence and keep their normal evidence and confirmation checks. No model, cutoff or classification-rule changes were made for this study.
 
-The online sample contains titled players and games collected for their Brilliant moves. Six accounts were used in the model’s development; six selected Witty_Alien games were held out upstream, although other games from that account were used in training. This is a comparison in Mobile Maia, not an independent estimate of accuracy for all players.
+The online sample contains titled players and games collected for their Brilliant moves. Six accounts were used in the model’s development; six selected Witty_Alien games were kept out of the model’s training games, although other games from that account were used in training. This is a comparison in Mobile Maia, not an independent estimate of accuracy for all players.
 
 Chess.com’s recorded labels and human annotations are references, not a universal definition of brilliance. Review labels can change. The new detector was trained to recognize piece offers, so quiet brilliancies remain difficult.
 

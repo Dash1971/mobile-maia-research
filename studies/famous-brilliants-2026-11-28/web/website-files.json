@@ -3,8 +3,8 @@
     {
       "source": "web/article-body.html",
       "target": "research-source/brilliant-study/article-body.html",
-      "bytes": 34466,
-      "sha256": "a5a7dfabbbe48ef02bb51f9c2abdd416e35bc6fbebee2f51b6c08dce4e6d35e2"
+      "bytes": 34553,
+      "sha256": "f36c9ebf04c54818a5b4bc5aeb663881c1f6524b55513c8a23e595cf77d4a441"
     },
     {
       "source": "web/index-card.json",
