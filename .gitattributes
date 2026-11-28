@@ -2,3 +2,6 @@ studies/**/*.json -diff linguist-generated=true
 studies/**/*.jsonl -diff linguist-generated=true
 # Canonical PGN export ends each game, including the last, with a blank separator.
 studies/opening-variety-2026-10-18/games.pgn whitespace=-blank-at-eof
+
+# Canonical PGN collection ends the final game with its blank separator.
+studies/famous-brilliants-2026-11-28/data/games.pgn whitespace=-blank-at-eof
