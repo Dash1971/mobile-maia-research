@@ -1,0 +1,133 @@
+[
+  {
+    "id": "immortal-1851",
+    "scoreUrl": "https://en.chessbase.com/portals/all/2026/06/unsterbliche/anderssen_kieseritzky_1851.pgn",
+    "articleUrl": "https://en.chessbase.com/post/175-years-anderssen-immortal",
+    "originalBytesSha256": "b123ec97408e818959261c6e923c98ee3319438dc26c3b765a00c9996f21c9ef",
+    "factualPgnSha256": "7c362b9ea977a527b713f80a7b0c1f18f5a8d28b44454063ab6b4fad33e61569",
+    "headers": {
+      "Event": "London 'Immortal game'",
+      "Site": "London",
+      "Date": "1851.06.21",
+      "Round": "?",
+      "White": "Anderssen, Adolf",
+      "Black": "Kieseritzky, Lionel Adalbert BF",
+      "Result": "1-0",
+      "StudyId": "immortal-1851",
+      "Source": "https://en.chessbase.com/portals/all/2026/06/unsterbliche/anderssen_kieseritzky_1851.pgn"
+    }
+  },
+  {
+    "id": "evergreen-1852",
+    "scoreUrl": "https://en.chessbase.com/portals/all/2026/08/evans-gambit/gk-Anderssen-Dufresne.pgn",
+    "articleUrl": "https://en.chessbase.com/post/evans-gambit-evergreen-opening",
+    "originalBytesSha256": "e5ca4d9409a2165ae88d4b32291eebb68494bc80906bff2384637130b33ea025",
+    "factualPgnSha256": "5e5eb2c7d8ab3115dee92c6c399d478e1a85889b7e3070bd8b9786c52b157885",
+    "headers": {
+      "Event": "Berlin 'Evergreen'",
+      "Site": "Berlin",
+      "Date": "1852.??.??",
+      "Round": "",
+      "White": "Anderssen,Adolf",
+      "Black": "Dufresne,Jean",
+      "Result": "1-0",
+      "StudyId": "evergreen-1852",
+      "Source": "https://en.chessbase.com/portals/all/2026/08/evans-gambit/gk-Anderssen-Dufresne.pgn"
+    }
+  },
+  {
+    "id": "rotlewi-rubinstein-1907",
+    "scoreUrl": "https://en.chessbase.com/portals/all/2017/50/rubinstein/rotlewi-rubinstein-e.pgn",
+    "articleUrl": "https://en.chessbase.com/post/50-games-you-should-know-rotlewi-rubinstein",
+    "originalBytesSha256": "0d0e2f4d02368ec0f6a2d1274998d097c45cf764cd1ca399199ce04b1d380b76",
+    "factualPgnSha256": "88494d3a15aecac61f67c12dfb2f95ef77624f504d776f62e9fb054405f1d7a8",
+    "headers": {
+      "Event": "Lodz1",
+      "Site": "?",
+      "Date": "1907.??.??",
+      "Round": "?",
+      "White": "Rotlewi, Georg A",
+      "Black": "Rubinstein, Akiba",
+      "Result": "0-1",
+      "ECO": "D40",
+      "StudyId": "rotlewi-rubinstein-1907",
+      "Source": "https://en.chessbase.com/portals/all/2017/50/rubinstein/rotlewi-rubinstein-e.pgn"
+    }
+  },
+  {
+    "id": "levitsky-marshall-1912",
+    "scoreUrl": "https://en.chessbase.com/portals/all/2019/06/orte/levitzky-marshall-12.pgn",
+    "articleUrl": "https://en.chessbase.com/post/where-in-new-york-did-they-live",
+    "originalBytesSha256": "b6ee1afe0c91d3cee24e7baa16a019f115012ac837b89f53c8dd88a42e24daf3",
+    "factualPgnSha256": "e379e4976e73a26b9c854ef70a5aa36a79b6b83e7fb47f17e2b626b0827ffba3",
+    "headers": {
+      "Event": "DSB Kongress-18 Meisterturnier-17",
+      "Site": "Breslau",
+      "Date": "1912.07.20",
+      "Round": "6",
+      "White": "Levitsky, Stepan Mikhailovich",
+      "Black": "Marshall, Frank James",
+      "Result": "0-1",
+      "ECO": "C10",
+      "StudyId": "levitsky-marshall-1912",
+      "Source": "https://en.chessbase.com/portals/all/2019/06/orte/levitzky-marshall-12.pgn"
+    }
+  },
+  {
+    "id": "kasparov-topalov-1999",
+    "scoreUrl": "https://en.chessbase.com/portals/all/2021/03/throwback-kasparov/kasparov-topalov.pgn",
+    "articleUrl": "https://en.chessbase.com/post/throwback-thursday-kasparov-wijjk-1999",
+    "originalBytesSha256": "fd58dd257f25de8c54e705b6a0ed6ce0f1e4783043d52ad6b80ba9c8d93e2cbb",
+    "factualPgnSha256": "c5242f6a284bf0b4e01120b703d4a8fc015d4e64f5de978b21a72ec416e5b306",
+    "headers": {
+      "Event": "Hoogovens",
+      "Site": "Wijk aan Zee",
+      "Date": "1999.01.20",
+      "Round": "4",
+      "White": "Kasparov, Garry",
+      "Black": "Topalov, Veselin",
+      "Result": "1-0",
+      "ECO": "B07",
+      "StudyId": "kasparov-topalov-1999",
+      "Source": "https://en.chessbase.com/portals/all/2021/03/throwback-kasparov/kasparov-topalov.pgn"
+    }
+  },
+  {
+    "id": "lasker-thomas-1912",
+    "scoreUrl": "https://uscf1-nyc1.aodhosting.com/CLK-ALL/2020/4-August%202020%20CLK.pdf",
+    "articleUrl": null,
+    "originalBytesSha256": null,
+    "factualPgnSha256": "fda976077d0cba4b52f4f7d2ccc9704d9717ad7ce670a045ce408487fd5dc8cd",
+    "headers": {
+      "Event": "London offhand game",
+      "Site": "London",
+      "Date": "1912.??.??",
+      "Round": "?",
+      "White": "Lasker, Edward",
+      "Black": "Thomas, George Alan",
+      "Result": "1-0",
+      "ECO": "A83",
+      "StudyId": "lasker-thomas-1912",
+      "Source": "https://uscf1-nyc1.aodhosting.com/CLK-ALL/2020/4-August%202020%20CLK.pdf"
+    }
+  },
+  {
+    "id": "short-timman-1991",
+    "scoreUrl": "https://rafaelleitao.com/short-x-timman-2/",
+    "articleUrl": null,
+    "originalBytesSha256": null,
+    "factualPgnSha256": "8a17aeb49d0e788ce516639b0f312c6b3e5a99cecb232e294fe00a06e0fa10be",
+    "headers": {
+      "Event": "Tilburg",
+      "Site": "Tilburg",
+      "Date": "1991.10.??",
+      "Round": "4",
+      "White": "Short, Nigel D",
+      "Black": "Timman, Jan H",
+      "Result": "1-0",
+      "ECO": "B04",
+      "StudyId": "short-timman-1991",
+      "Source": "https://rafaelleitao.com/short-x-timman-2/"
+    }
+  }
+]

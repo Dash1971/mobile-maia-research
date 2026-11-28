@@ -286,7 +286,95 @@
       "notes": [
         "ChessBase’s2021 account notes24...Kb6 declines the sacrifice more safely. Do not describe24.Rxd4 as forcing a win against every defense."
       ]
+    },
+    {
+      "id": "short-timman-1991",
+      "title": "Short–Timman: The King Walk",
+      "cohort": "prespecified scope stress test",
+      "primaryAnnotation": {
+        "url": "https://rafaelleitao.com/short-x-timman-2/",
+        "title": "Chess game: Short x Timman",
+        "author": "GM Rafael Leitão",
+        "scope": "Full annotated game PGN is visible in web rendering. All played-mainline NAG$3 recorded; branch variations excluded."
+      },
+      "strictBrilliants": [
+        {
+          "move": "31.Kh2",
+          "ply": 61,
+          "san": "Kh2",
+          "published": "!!",
+          "reason": "The king leaves safety to join the mating attack while many pieces remain. This is a quiet non-sacrificial plan, testing the model’s conceptual scope.",
+          "nag": 3
+        }
+      ],
+      "otherAnnotations": [
+        {
+          "move": "13...e6",
+          "ply": 26,
+          "san": "e6",
+          "published": "?!"
+        },
+        {
+          "move": "17.Bc4",
+          "ply": 33,
+          "san": "Bc4",
+          "published": "!"
+        },
+        {
+          "move": "18.b3",
+          "ply": 35,
+          "san": "b3",
+          "published": "!"
+        },
+        {
+          "move": "24.Rd8",
+          "ply": 47,
+          "san": "Rd8",
+          "published": "!"
+        },
+        {
+          "move": "25...Bg7",
+          "ply": 50,
+          "san": "Bg7",
+          "published": "!?"
+        },
+        {
+          "move": "26.R8d7",
+          "ply": 51,
+          "san": "R8d7",
+          "published": "!"
+        },
+        {
+          "move": "30.h4",
+          "ply": 59,
+          "san": "h4",
+          "published": "!"
+        },
+        {
+          "move": "32.Kg3",
+          "ply": 63,
+          "san": "Kg3",
+          "published": "!"
+        },
+        {
+          "move": "33.Kf4",
+          "ply": 65,
+          "san": "Kf4",
+          "published": "!"
+        },
+        {
+          "move": "34.Kg5",
+          "ply": 67,
+          "san": "Kg5",
+          "published": "!"
+        }
+      ],
+      "notes": [
+        "Added before any engine/classifier results as an explicit non-sacrifice scope-stressgame.",
+        "Game ends34.Kg5. Kh6 is a threatened continuation, not a played move.",
+        "Chess.com BestGames section7 contains conflicting move/number typos; it is not the chosen annotation source."
+      ]
     }
   ],
-  "strictAnchorCount": 13
+  "strictAnchorCount": 14
 }
