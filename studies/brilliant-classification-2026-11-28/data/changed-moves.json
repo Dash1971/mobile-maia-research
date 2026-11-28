@@ -1,0 +1,4176 @@
+{
+  "source": "04e903b1e4abe635d2168d01b027ecc24f240651",
+  "upstream": "59cab58a8b63387d9775252f03a6875fe451f697",
+  "cutoff": 0.8193002847777424,
+  "counts": {
+    "nativeSnapshots": 821,
+    "nativeRuns": 17,
+    "nativeAdded": 10,
+    "nativeRemoved": 6,
+    "nativeUnique": 4,
+    "labeledCases": 360,
+    "labeledAdded": 26,
+    "labeledRemoved": 3,
+    "recoveredLabels": 24,
+    "lostLabels": 1,
+    "addedOutsideLabels": 2,
+    "removedOutsideLabels": 2
+  },
+  "sourceSha256": {
+    "test/fixtures/brilly-exchange-parity.json": "4c049a91c96043de607e221149cbf2e4c7a7db293f6a6558e37a1a5719f3cbd6",
+    "assets/classifiers/mute-exchange-model.json": "992a792a646b11e612486c4fe26796fc38ee47f395f2220b00d26db65ba1e27d",
+    "test/fixtures/classification/stockfish18-fast.json": "dcdfd90adb014354521b2ad440846d8fcbe1e16e7cef69582cbb1d1f030f6c9e",
+    "test/fixtures/classification/stockfish18-balanced-thorough.json": "d2996bde88815953e6f80f1efc6e6540bd2079ccc3c13cec7cf2298330a73107",
+    "test/fixtures/classification/stockfish-light-fast.json": "7f25fe95370fa4ffc816b8fa2472295a8ebc27cc2cd5411d00a4eb52f8ce2c9a",
+    "test/fixtures/classification/stockfish-light-balanced-thorough.json": "ccf26199eab17beb2aed41760ce6bdd145e91e95071b7feae18deb71a00a1bad"
+  },
+  "cases": [
+    {
+      "id": "byrne-fischer-1956:22",
+      "san": "Na4",
+      "uci": "b6a4",
+      "fenBefore": "r2q1rk1/pp2ppbp/1np2np1/2Q3B1/3PP1b1/2N2N2/PP3PPP/3RKB1R b K - 6 11",
+      "fenAfter": "r2q1rk1/pp2ppbp/2p2np1/2Q3B1/n2PP1b1/2N2N2/PP3PPP/3RKB1R w K - 7 12",
+      "dataset": "native",
+      "game": "Byrne–Fischer, 1956",
+      "variants": [
+        {
+          "id": "byrne-fischer-1956:22",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish18-fast",
+          "quality": "fast",
+          "ply": 22,
+          "uci": "b6a4",
+          "san": "Na4",
+          "fenBefore": "r2q1rk1/pp2ppbp/1np2np1/2Q3B1/3PP1b1/2N2N2/PP3PPP/3RKB1R b K - 6 11",
+          "fenAfter": "r2q1rk1/pp2ppbp/2p2np1/2Q3B1/n2PP1b1/2N2N2/PP3PPP/3RKB1R w K - 7 12",
+          "old": "brilliant",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.9864714657939269,
+          "beforeLines": [
+            {
+              "cpWhite": -118,
+              "mateWhite": null,
+              "pv": [
+                "b6a4",
+                "c3a4",
+                "f6e4",
+                "c5e7",
+                "e4g5",
+                "e7g5",
+                "d8g5",
+                "f3g5",
+                "g4d1",
+                "e1d1"
+              ]
+            },
+            {
+              "cpWhite": 1,
+              "mateWhite": null,
+              "pv": [
+                "f8e8",
+                "f1e2",
+                "g4f3",
+                "e2f3",
+                "h7h6",
+                "g5c1",
+                "e7e5",
+                "d4e5",
+                "f6d7",
+                "c5e3",
+                "d8h4",
+                "g2g3"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -174,
+            "mateWhite": null,
+            "pv": [
+              "c5e5",
+              "a4b2",
+              "d1d2",
+              "d8b6",
+              "e5f4",
+              "b2a4",
+              "c3a4",
+              "b6b1",
+              "e1e2",
+              "b1b5",
+              "e2e1",
+              "b5a4"
+            ]
+          },
+          "engineMode": "SF18 · Fast",
+          "beforeSan": [
+            "11...Na4 12.Nxa4 Nxe4 13.Qxe7 Nxg5 14.Qxg5 Qxg5 15.Nxg5 Bxd1 16.Kxd1",
+            "11...Re8 12.Be2 Bxf3 13.Bxf3 h6 14.Bc1 e5 15.dxe5 Nfd7 16.Qe3 Qh4 17.g3"
+          ],
+          "afterSan": "12.Qe5 Nxb2 13.Rd2 Qb6 14.Qf4 Na4 15.Nxa4 Qb1+ 16.Ke2 Qb5+ 17.Ke1 Qxa4"
+        },
+        {
+          "id": "byrne-fischer-1956:22",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish18-balanced-thorough",
+          "quality": "balanced",
+          "ply": 22,
+          "uci": "b6a4",
+          "san": "Na4",
+          "fenBefore": "r2q1rk1/pp2ppbp/1np2np1/2Q3B1/3PP1b1/2N2N2/PP3PPP/3RKB1R b K - 6 11",
+          "fenAfter": "r2q1rk1/pp2ppbp/2p2np1/2Q3B1/n2PP1b1/2N2N2/PP3PPP/3RKB1R w K - 7 12",
+          "old": "interesting",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.9379544924918658,
+          "beforeLines": [
+            {
+              "cpWhite": -20,
+              "mateWhite": null,
+              "pv": [
+                "b6d7",
+                "c5b4",
+                "b7b5",
+                "e4e5",
+                "a7a5",
+                "b4b3",
+                "g4e6",
+                "b3c2",
+                "f6d5",
+                "f1e2"
+              ]
+            },
+            {
+              "cpWhite": -5,
+              "mateWhite": null,
+              "pv": [
+                "h7h6",
+                "g5c1",
+                "f6d7",
+                "c5a3",
+                "e7e5",
+                "d4e5",
+                "f8e8",
+                "f1e2",
+                "a7a5",
+                "e1g1",
+                "g4f3",
+                "g2f3",
+                "g7e5"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -203,
+            "mateWhite": null,
+            "pv": [
+              "c5b4",
+              "a4c3",
+              "b2c3",
+              "f6e4",
+              "g5e7",
+              "a7a5",
+              "b4b7",
+              "a8b8",
+              "b7a7",
+              "d8d5",
+              "c3c4",
+              "d5f5",
+              "e7f8",
+              "b8f8",
+              "f1e2"
+            ]
+          },
+          "engineMode": "SF18 · Balanced",
+          "beforeSan": [
+            "11...Nbd7 12.Qb4 b5 13.e5 a5 14.Qb3 Be6 15.Qc2 Nd5 16.Be2",
+            "11...h6 12.Bc1 Nfd7 13.Qa3 e5 14.dxe5 Re8 15.Be2 a5 16.O-O Bxf3 17.gxf3 Bxe5"
+          ],
+          "afterSan": "12.Qb4 Nxc3 13.bxc3 Nxe4 14.Bxe7 a5 15.Qxb7 Rb8 16.Qa7 Qd5 17.c4 Qf5 18.Bxf8 Rxf8 19.Be2"
+        },
+        {
+          "id": "byrne-fischer-1956:22",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish18-balanced-thorough",
+          "quality": "thorough",
+          "ply": 22,
+          "uci": "b6a4",
+          "san": "Na4",
+          "fenBefore": "r2q1rk1/pp2ppbp/1np2np1/2Q3B1/3PP1b1/2N2N2/PP3PPP/3RKB1R b K - 6 11",
+          "fenAfter": "r2q1rk1/pp2ppbp/2p2np1/2Q3B1/n2PP1b1/2N2N2/PP3PPP/3RKB1R w K - 7 12",
+          "old": "brilliant",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.9859849983709615,
+          "beforeLines": [
+            {
+              "cpWhite": -200,
+              "mateWhite": null,
+              "pv": [
+                "b6a4",
+                "c5a3",
+                "a4c3",
+                "b2c3",
+                "f6e4",
+                "g5e7",
+                "d8d5",
+                "f1e2",
+                "f8e8",
+                "e1g1",
+                "e4c3",
+                "a3c3",
+                "e8e7",
+                "d1e1",
+                "d5d6",
+                "e2c4",
+                "a8e8",
+                "f3e5",
+                "g7e5",
+                "e1e5",
+                "e7e5"
+              ]
+            },
+            {
+              "cpWhite": -41,
+              "mateWhite": null,
+              "pv": [
+                "b6d7",
+                "c5c4",
+                "d8a5",
+                "b2b4",
+                "a5a3",
+                "c4b3",
+                "a3b3",
+                "a2b3",
+                "a7a5",
+                "b4a5",
+                "a8a5",
+                "e4e5",
+                "f6d5",
+                "c3d5",
+                "c6d5",
+                "f1e2"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -204,
+            "mateWhite": null,
+            "pv": [
+              "c5a3",
+              "a4c3",
+              "b2c3",
+              "f6e4",
+              "g5e3",
+              "g4f3",
+              "g2f3",
+              "e4f6",
+              "c3c4",
+              "e7e6",
+              "f1e2",
+              "f6h5",
+              "a3c1",
+              "f8e8",
+              "h1g1"
+            ]
+          },
+          "engineMode": "SF18 · Thorough",
+          "beforeSan": [
+            "11...Na4 12.Qa3 Nxc3 13.bxc3 Nxe4 14.Bxe7 Qd5 15.Be2 Rfe8 16.O-O Nxc3 17.Qxc3 Rxe7 18.Rde1 Qd6 19.Bc4 Rae8 20.Ne5 Bxe5 21.Rxe5 Rxe5",
+            "11...Nbd7 12.Qc4 Qa5 13.b4 Qa3 14.Qb3 Qxb3 15.axb3 a5 16.bxa5 Rxa5 17.e5 Nd5 18.Nxd5 cxd5 19.Be2"
+          ],
+          "afterSan": "12.Qa3 Nxc3 13.bxc3 Nxe4 14.Be3 Bxf3 15.gxf3 Nf6 16.c4 e6 17.Be2 Nh5 18.Qc1 Re8 19.Rg1"
+        },
+        {
+          "id": "byrne-fischer-1956:22",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish-light-fast",
+          "quality": "fast",
+          "ply": 22,
+          "uci": "b6a4",
+          "san": "Na4",
+          "fenBefore": "r2q1rk1/pp2ppbp/1np2np1/2Q3B1/3PP1b1/2N2N2/PP3PPP/3RKB1R b K - 6 11",
+          "fenAfter": "r2q1rk1/pp2ppbp/2p2np1/2Q3B1/n2PP1b1/2N2N2/PP3PPP/3RKB1R w K - 7 12",
+          "old": "brilliant",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.9860116695605915,
+          "beforeLines": [
+            {
+              "cpWhite": -210,
+              "mateWhite": null,
+              "pv": [
+                "b6a4",
+                "c3a4",
+                "f6e4",
+                "c5e7",
+                "g4f3",
+                "e7d8",
+                "a8d8",
+                "g5d8"
+              ]
+            },
+            {
+              "cpWhite": -11,
+              "mateWhite": null,
+              "pv": [
+                "b6d7",
+                "c5a3",
+                "b7b5",
+                "h2h3",
+                "g4f3",
+                "g2f3",
+                "a7a5",
+                "c3e2",
+                "d8b6",
+                "g5e3",
+                "b5b4",
+                "a3a4",
+                "f8d8",
+                "f1g2"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -195,
+            "mateWhite": null,
+            "pv": [
+              "c5a3",
+              "a4c3",
+              "b2c3",
+              "f6e4",
+              "g5e7",
+              "d8e8",
+              "d1c1",
+              "g4f3",
+              "g2f3",
+              "e4g5",
+              "f1e2",
+              "g5h3"
+            ]
+          },
+          "engineMode": "SF Light · Fast",
+          "beforeSan": [
+            "11...Na4 12.Nxa4 Nxe4 13.Qxe7 Bxf3 14.Qxd8 Raxd8 15.Bxd8",
+            "11...Nbd7 12.Qa3 b5 13.h3 Bxf3 14.gxf3 a5 15.Ne2 Qb6 16.Be3 b4 17.Qa4 Rfd8 18.Bg2"
+          ],
+          "afterSan": "12.Qa3 Nxc3 13.bxc3 Nxe4 14.Bxe7 Qe8 15.Rc1 Bxf3 16.gxf3 Ng5 17.Be2 Nh3"
+        },
+        {
+          "id": "byrne-fischer-1956:22",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish-light-balanced-thorough",
+          "quality": "balanced",
+          "ply": 22,
+          "uci": "b6a4",
+          "san": "Na4",
+          "fenBefore": "r2q1rk1/pp2ppbp/1np2np1/2Q3B1/3PP1b1/2N2N2/PP3PPP/3RKB1R b K - 6 11",
+          "fenAfter": "r2q1rk1/pp2ppbp/2p2np1/2Q3B1/n2PP1b1/2N2N2/PP3PPP/3RKB1R w K - 7 12",
+          "old": "brilliant",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.98628801033014,
+          "beforeLines": [
+            {
+              "cpWhite": -194,
+              "mateWhite": null,
+              "pv": [
+                "b6a4",
+                "c5a3",
+                "a4c3",
+                "b2c3",
+                "f6e4",
+                "g5e7",
+                "d8d5",
+                "e7f8",
+                "g7f8",
+                "a3b2",
+                "a8e8",
+                "f1e2",
+                "e4g5",
+                "f3e5"
+              ]
+            },
+            {
+              "cpWhite": -13,
+              "mateWhite": null,
+              "pv": [
+                "b6d7",
+                "c5a3",
+                "b7b5",
+                "h2h3",
+                "g4f3",
+                "g2f3",
+                "a7a5",
+                "c3e2",
+                "b5b4",
+                "a3a4",
+                "c6c5"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -255,
+            "mateWhite": null,
+            "pv": [
+              "c5a3",
+              "a4c3",
+              "b2c3",
+              "f6e4",
+              "g5e3",
+              "g4f3",
+              "g2f3",
+              "e4d6",
+              "f1d3",
+              "f8e8",
+              "e1g1",
+              "e7e6",
+              "g1h1",
+              "d6f5",
+              "d3f5",
+              "e6f5"
+            ]
+          },
+          "engineMode": "SF Light · Balanced",
+          "beforeSan": [
+            "11...Na4 12.Qa3 Nxc3 13.bxc3 Nxe4 14.Bxe7 Qd5 15.Bxf8 Bxf8 16.Qb2 Re8 17.Be2 Ng5 18.Ne5",
+            "11...Nbd7 12.Qa3 b5 13.h3 Bxf3 14.gxf3 a5 15.Ne2 b4 16.Qa4 c5"
+          ],
+          "afterSan": "12.Qa3 Nxc3 13.bxc3 Nxe4 14.Be3 Bxf3 15.gxf3 Nd6 16.Bd3 Re8 17.O-O e6 18.Kh1 Nf5 19.Bxf5 exf5"
+        },
+        {
+          "id": "byrne-fischer-1956:22",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish-light-balanced-thorough",
+          "quality": "thorough",
+          "ply": 22,
+          "uci": "b6a4",
+          "san": "Na4",
+          "fenBefore": "r2q1rk1/pp2ppbp/1np2np1/2Q3B1/3PP1b1/2N2N2/PP3PPP/3RKB1R b K - 6 11",
+          "fenAfter": "r2q1rk1/pp2ppbp/2p2np1/2Q3B1/n2PP1b1/2N2N2/PP3PPP/3RKB1R w K - 7 12",
+          "old": "brilliant",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.9852853720930768,
+          "beforeLines": [
+            {
+              "cpWhite": -226,
+              "mateWhite": null,
+              "pv": [
+                "b6a4",
+                "c5e5",
+                "g4f3",
+                "g2f3",
+                "a4b2",
+                "d1d2",
+                "f6d7",
+                "e5g3",
+                "d8a5",
+                "f3f4",
+                "c6c5",
+                "c3d5",
+                "e7e6",
+                "g3c3",
+                "a5c3",
+                "d5c3",
+                "f7f6",
+                "g5h4",
+                "c5d4",
+                "c3b5",
+                "b2a4",
+                "f1c4",
+                "d7c5",
+                "b5d4",
+                "c5e4",
+                "d4e6",
+                "e4d2",
+                "e1d2"
+              ]
+            },
+            {
+              "cpWhite": -28,
+              "mateWhite": null,
+              "pv": [
+                "f8e8",
+                "h2h4",
+                "d8d6",
+                "f1e2",
+                "f6h5",
+                "e1g1",
+                "d6c5",
+                "d4c5",
+                "b6d7",
+                "g5e3",
+                "g7c3",
+                "b2c3"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -288,
+            "mateWhite": null,
+            "pv": [
+              "c5a3",
+              "a4c3",
+              "b2c3",
+              "f6e4",
+              "g5e3",
+              "d8d6",
+              "a3b3",
+              "g4f3",
+              "g2f3",
+              "e4f6",
+              "c3c4",
+              "f6h5",
+              "f1g2",
+              "h5f4",
+              "e1g1",
+              "a8b8",
+              "d4d5",
+              "c6d5"
+            ]
+          },
+          "engineMode": "SF Light · Thorough",
+          "beforeSan": [
+            "11...Na4 12.Qe5 Bxf3 13.gxf3 Nxb2 14.Rd2 Nd7 15.Qg3 Qa5 16.f4 c5 17.Nd5 e6 18.Qc3 Qxc3 19.Nxc3 f6 20.Bh4 cxd4 21.Nb5 Na4 22.Bc4 Ndc5 23.Nxd4 Nxe4 24.Nxe6 Nxd2 25.Kxd2",
+            "11...Re8 12.h4 Qd6 13.Be2 Nh5 14.O-O Qxc5 15.dxc5 Nd7 16.Be3 Bxc3 17.bxc3"
+          ],
+          "afterSan": "12.Qa3 Nxc3 13.bxc3 Nxe4 14.Be3 Qd6 15.Qb3 Bxf3 16.gxf3 Nf6 17.c4 Nh5 18.Bg2 Nf4 19.O-O Rab8 20.d5 cxd5"
+        }
+      ],
+      "move": "11...Na4",
+      "gained": true,
+      "file": "01-gained",
+      "defaultVariant": 1
+    },
+    {
+      "id": "byrne-fischer-1956:30",
+      "san": "Nxc3",
+      "uci": "e4c3",
+      "fenBefore": "r4rk1/pp2Bpbp/1qp3p1/8/2BPn1b1/Q1P2N2/P4PPP/3RK2R b K - 2 15",
+      "fenAfter": "r4rk1/pp2Bpbp/1qp3p1/8/2BP2b1/Q1n2N2/P4PPP/3RK2R w K - 0 16",
+      "dataset": "native",
+      "game": "Byrne–Fischer, 1956",
+      "variants": [
+        {
+          "id": "byrne-fischer-1956:30",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish18-fast",
+          "quality": "fast",
+          "ply": 30,
+          "uci": "e4c3",
+          "san": "Nxc3",
+          "fenBefore": "r4rk1/pp2Bpbp/1qp3p1/8/2BPn1b1/Q1P2N2/P4PPP/3RK2R b K - 2 15",
+          "fenAfter": "r4rk1/pp2Bpbp/1qp3p1/8/2BP2b1/Q1n2N2/P4PPP/3RK2R w K - 0 16",
+          "old": "interesting",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.8933139004022267,
+          "beforeLines": [
+            {
+              "cpWhite": -139,
+              "mateWhite": null,
+              "pv": [
+                "e4c3",
+                "e7c5",
+                "c3b5",
+                "a3e3",
+                "b6a5",
+                "e1f1",
+                "f8e8",
+                "c4f7",
+                "g8f7",
+                "f3g5",
+                "f7g8",
+                "e3b3",
+                "e8e6",
+                "h2h3",
+                "g4e2",
+                "f1g1",
+                "a8e8",
+                "g5e6"
+              ]
+            },
+            {
+              "cpWhite": -130,
+              "mateWhite": null,
+              "pv": [
+                "g4f3",
+                "g2f3",
+                "e4c3",
+                "e7c5",
+                "c3b5",
+                "c4b5",
+                "b6b5",
+                "c5f8",
+                "g7f8",
+                "a3d3",
+                "b5a5",
+                "e1f1",
+                "a5a2",
+                "d4d5",
+                "a8d8",
+                "d3b1",
+                "a2a6",
+                "f1g2"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -123,
+            "mateWhite": null,
+            "pv": [
+              "e7c5",
+              "c3b1",
+              "a3e3",
+              "b6a5",
+              "e1f1",
+              "f8e8",
+              "e3b3",
+              "g4f3",
+              "c4f7",
+              "g8h8",
+              "g2f3"
+            ]
+          },
+          "engineMode": "SF18 · Fast",
+          "beforeSan": [
+            "15...Nxc3 16.Bc5 Nb5 17.Qe3 Qa5+ 18.Kf1 Rfe8 19.Bxf7+ Kxf7 20.Ng5+ Kg8 21.Qb3+ Re6 22.h3 Be2+ 23.Kg1 Re8 24.Nxe6",
+            "15...Bxf3 16.gxf3 Nxc3 17.Bc5 Nb5 18.Bxb5 Qxb5 19.Bxf8 Bxf8 20.Qd3 Qa5+ 21.Kf1 Qxa2 22.d5 Rd8 23.Qb1 Qa6+ 24.Kg2"
+          ],
+          "afterSan": "16.Bc5 Nb1 17.Qe3 Qa5+ 18.Kf1 Rfe8 19.Qb3 Bxf3 20.Bxf7+ Kh8 21.gxf3"
+        },
+        {
+          "id": "byrne-fischer-1956:30",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish18-balanced-thorough",
+          "quality": "balanced",
+          "ply": 30,
+          "uci": "e4c3",
+          "san": "Nxc3",
+          "fenBefore": "r4rk1/pp2Bpbp/1qp3p1/8/2BPn1b1/Q1P2N2/P4PPP/3RK2R b K - 2 15",
+          "fenAfter": "r4rk1/pp2Bpbp/1qp3p1/8/2BP2b1/Q1n2N2/P4PPP/3RK2R w K - 0 16",
+          "old": "interesting",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.9499317106607266,
+          "beforeLines": [
+            {
+              "cpWhite": -190,
+              "mateWhite": null,
+              "pv": [
+                "e4c3",
+                "e7c5",
+                "f8e8",
+                "e1f1",
+                "g4e6",
+                "a3c3",
+                "b6c5",
+                "d4c5",
+                "g7c3",
+                "c4e6",
+                "e8e6",
+                "g2g3",
+                "b7b5",
+                "d1d7",
+                "b5b4",
+                "f1g2",
+                "e6e2",
+                "h1d1",
+                "a7a5",
+                "d1d6",
+                "e2a2",
+                "d6c6",
+                "a5a4"
+              ]
+            },
+            {
+              "cpWhite": -115,
+              "mateWhite": null,
+              "pv": [
+                "f8e8",
+                "e1g1",
+                "b6c7",
+                "e7h4",
+                "g4f3",
+                "g2f3",
+                "c7f4",
+                "f3e4",
+                "f4h4",
+                "f2f3",
+                "g7h6",
+                "a3b2",
+                "h6f4",
+                "g1h1",
+                "b7b5",
+                "c4d3",
+                "a8d8",
+                "b2f2",
+                "h4h6",
+                "e4e5",
+                "g8g7"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -181,
+            "mateWhite": null,
+            "pv": [
+              "e1g1",
+              "c3d1",
+              "f1d1",
+              "f8e8",
+              "d1e1",
+              "g7f8",
+              "c4f7",
+              "g8f7",
+              "f3e5",
+              "f7g8",
+              "e5g4",
+              "b6d4"
+            ]
+          },
+          "engineMode": "SF18 · Balanced",
+          "beforeSan": [
+            "15...Nxc3 16.Bc5 Rfe8+ 17.Kf1 Be6 18.Qxc3 Qxc5 19.dxc5 Bxc3 20.Bxe6 Rxe6 21.g3 b5 22.Rd7 b4 23.Kg2 Re2 24.Rhd1 a5 25.R1d6 Rxa2 26.Rxc6 a4",
+            "15...Rfe8 16.O-O Qc7 17.Bh4 Bxf3 18.gxf3 Qf4 19.fxe4 Qxh4 20.f3 Bh6 21.Qb2 Bf4 22.Kh1 b5 23.Bd3 Rad8 24.Qf2 Qh6 25.e5 Kg7"
+          ],
+          "afterSan": "16.O-O Nxd1 17.Rxd1 Rfe8 18.Re1 Bf8 19.Bxf7+ Kxf7 20.Ne5+ Kg8 21.Nxg4 Qxd4"
+        },
+        {
+          "id": "byrne-fischer-1956:30",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish18-balanced-thorough",
+          "quality": "thorough",
+          "ply": 30,
+          "uci": "e4c3",
+          "san": "Nxc3",
+          "fenBefore": "r4rk1/pp2Bpbp/1qp3p1/8/2BPn1b1/Q1P2N2/P4PPP/3RK2R b K - 2 15",
+          "fenAfter": "r4rk1/pp2Bpbp/1qp3p1/8/2BP2b1/Q1n2N2/P4PPP/3RK2R w K - 0 16",
+          "old": "interesting",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.9568714218890148,
+          "beforeLines": [
+            {
+              "cpWhite": -198,
+              "mateWhite": null,
+              "pv": [
+                "e4c3",
+                "e7c5",
+                "f8e8",
+                "e1f1",
+                "g4e6",
+                "a3c3",
+                "b6c5",
+                "d4c5",
+                "g7c3",
+                "c4e6",
+                "e8e6",
+                "g2g3",
+                "e6e7",
+                "a2a3",
+                "c3a5",
+                "f1g2",
+                "g8f8",
+                "d1d6"
+              ]
+            },
+            {
+              "cpWhite": -128,
+              "mateWhite": null,
+              "pv": [
+                "g4f3",
+                "g2f3",
+                "e4c3",
+                "e7c5",
+                "c3b5",
+                "c4b5",
+                "b6b5",
+                "c5f8",
+                "g7f8",
+                "a3d3",
+                "b5a5",
+                "e1f1",
+                "a5a2",
+                "d1b1",
+                "b7b5",
+                "b1c1",
+                "a2e6"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -196,
+            "mateWhite": null,
+            "pv": [
+              "e7c5",
+              "f8e8",
+              "e1f1",
+              "g4e6",
+              "a3c3",
+              "b6c5",
+              "d4c5",
+              "g7c3",
+              "c4e6",
+              "e8e6",
+              "g2g3",
+              "b7b5",
+              "d1d7",
+              "a7a5",
+              "f1g2",
+              "e6e2",
+              "h1d1",
+              "b5b4",
+              "d1d6",
+              "e2a2",
+              "f3g5",
+              "b4b3",
+              "g5f7",
+              "a8f8",
+              "f7h6",
+              "g8h8"
+            ]
+          },
+          "engineMode": "SF18 · Thorough",
+          "beforeSan": [
+            "15...Nxc3 16.Bc5 Rfe8+ 17.Kf1 Be6 18.Qxc3 Qxc5 19.dxc5 Bxc3 20.Bxe6 Rxe6 21.g3 Re7 22.a3 Ba5 23.Kg2 Kf8 24.Rd6",
+            "15...Bxf3 16.gxf3 Nxc3 17.Bc5 Nb5 18.Bxb5 Qxb5 19.Bxf8 Bxf8 20.Qd3 Qa5+ 21.Kf1 Qxa2 22.Rb1 b5 23.Rc1 Qe6"
+          ],
+          "afterSan": "16.Bc5 Rfe8+ 17.Kf1 Be6 18.Qxc3 Qxc5 19.dxc5 Bxc3 20.Bxe6 Rxe6 21.g3 b5 22.Rd7 a5 23.Kg2 Re2 24.Rhd1 b4 25.R1d6 Rxa2 26.Ng5 b3 27.Nxf7 Rf8 28.Nh6+ Kh8"
+        },
+        {
+          "id": "byrne-fischer-1956:30",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish-light-fast",
+          "quality": "fast",
+          "ply": 30,
+          "uci": "e4c3",
+          "san": "Nxc3",
+          "fenBefore": "r4rk1/pp2Bpbp/1qp3p1/8/2BPn1b1/Q1P2N2/P4PPP/3RK2R b K - 2 15",
+          "fenAfter": "r4rk1/pp2Bpbp/1qp3p1/8/2BP2b1/Q1n2N2/P4PPP/3RK2R w K - 0 16",
+          "old": "interesting",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.9634516486818755,
+          "beforeLines": [
+            {
+              "cpWhite": -196,
+              "mateWhite": null,
+              "pv": [
+                "e4c3",
+                "e7c5",
+                "c3b5",
+                "a3b3",
+                "f8e8",
+                "e1f1",
+                "b6c7",
+                "f3g5",
+                "g4d1",
+                "c4f7",
+                "g8h8",
+                "b3d1"
+              ]
+            },
+            {
+              "cpWhite": -130,
+              "mateWhite": null,
+              "pv": [
+                "f8e8",
+                "e1g1",
+                "b6c7",
+                "e7h4",
+                "b7b5",
+                "c4d3",
+                "g4f3",
+                "g2f3",
+                "e4d2",
+                "d1d2",
+                "c7f4",
+                "d3e4"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -224,
+            "mateWhite": null,
+            "pv": [
+              "e7c5",
+              "c3b5",
+              "a3b3",
+              "f8e8",
+              "e1f1",
+              "b6c7",
+              "f3g5",
+              "g4d1",
+              "c4f7",
+              "g8h8",
+              "b3d1",
+              "e8f8",
+              "f7g6",
+              "h7g6",
+              "d1g4",
+              "g7h6",
+              "c5f8",
+              "h6g5",
+              "g4g5",
+              "a8f8"
+            ]
+          },
+          "engineMode": "SF Light · Fast",
+          "beforeSan": [
+            "15...Nxc3 16.Bc5 Nb5 17.Qb3 Rfe8+ 18.Kf1 Qc7 19.Ng5 Bxd1 20.Bxf7+ Kh8 21.Qxd1",
+            "15...Rfe8 16.O-O Qc7 17.Bh4 b5 18.Bd3 Bxf3 19.gxf3 Nd2 20.Rxd2 Qf4 21.Be4"
+          ],
+          "afterSan": "16.Bc5 Nb5 17.Qb3 Rfe8+ 18.Kf1 Qc7 19.Ng5 Bxd1 20.Bxf7+ Kh8 21.Qxd1 Rf8 22.Bxg6 hxg6 23.Qg4 Bh6 24.Bxf8 Bxg5 25.Qxg5 Rxf8"
+        },
+        {
+          "id": "byrne-fischer-1956:30",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish-light-balanced-thorough",
+          "quality": "balanced",
+          "ply": 30,
+          "uci": "e4c3",
+          "san": "Nxc3",
+          "fenBefore": "r4rk1/pp2Bpbp/1qp3p1/8/2BPn1b1/Q1P2N2/P4PPP/3RK2R b K - 2 15",
+          "fenAfter": "r4rk1/pp2Bpbp/1qp3p1/8/2BP2b1/Q1n2N2/P4PPP/3RK2R w K - 0 16",
+          "old": "interesting",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.9601914083034383,
+          "beforeLines": [
+            {
+              "cpWhite": -224,
+              "mateWhite": null,
+              "pv": [
+                "e4c3",
+                "e7c5",
+                "f8e8",
+                "e1f1",
+                "g4e6",
+                "a3c3",
+                "b6c5",
+                "d4c5",
+                "g7c3",
+                "c4e6",
+                "e8e6",
+                "g2g3",
+                "c3b4",
+                "d1d7",
+                "b4c5",
+                "d7b7",
+                "a8d8",
+                "f1g2",
+                "e6e2",
+                "h1f1",
+                "c5b6"
+              ]
+            },
+            {
+              "cpWhite": -144,
+              "mateWhite": null,
+              "pv": [
+                "g4f3",
+                "g2f3",
+                "e4c3",
+                "e7c5",
+                "c3b5",
+                "a3e3",
+                "b6c7",
+                "c5f8",
+                "g8f8",
+                "e1g1",
+                "a8e8",
+                "e3d3",
+                "b5d4",
+                "f1e1",
+                "e8d8",
+                "d3a3",
+                "c6c5",
+                "g1g2",
+                "b7b6",
+                "e1e4",
+                "g7f6"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -224,
+            "mateWhite": null,
+            "pv": [
+              "e7c5",
+              "f8e8",
+              "e1f1",
+              "g4e6",
+              "a3c3",
+              "b6c5",
+              "d4c5",
+              "g7c3",
+              "c4e6",
+              "e8e6",
+              "g2g3",
+              "c3b4",
+              "d1d7",
+              "b4c5",
+              "d7b7",
+              "a8e8",
+              "f1g2",
+              "e6e2",
+              "h1f1",
+              "e2a2",
+              "f3g5"
+            ]
+          },
+          "engineMode": "SF Light · Balanced",
+          "beforeSan": [
+            "15...Nxc3 16.Bc5 Rfe8+ 17.Kf1 Be6 18.Qxc3 Qxc5 19.dxc5 Bxc3 20.Bxe6 Rxe6 21.g3 Bb4 22.Rd7 Bxc5 23.Rxb7 Rd8 24.Kg2 Re2 25.Rf1 Bb6",
+            "15...Bxf3 16.gxf3 Nxc3 17.Bc5 Nb5 18.Qe3 Qc7 19.Bxf8 Kxf8 20.O-O Re8 21.Qd3 Nxd4 22.Rfe1 Rd8 23.Qa3+ c5 24.Kg2 b6 25.Re4 Bf6"
+          ],
+          "afterSan": "16.Bc5 Rfe8+ 17.Kf1 Be6 18.Qxc3 Qxc5 19.dxc5 Bxc3 20.Bxe6 Rxe6 21.g3 Bb4 22.Rd7 Bxc5 23.Rxb7 Rae8 24.Kg2 Re2 25.Rf1 Rxa2 26.Ng5"
+        },
+        {
+          "id": "byrne-fischer-1956:30",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish-light-balanced-thorough",
+          "quality": "thorough",
+          "ply": 30,
+          "uci": "e4c3",
+          "san": "Nxc3",
+          "fenBefore": "r4rk1/pp2Bpbp/1qp3p1/8/2BPn1b1/Q1P2N2/P4PPP/3RK2R b K - 2 15",
+          "fenAfter": "r4rk1/pp2Bpbp/1qp3p1/8/2BP2b1/Q1n2N2/P4PPP/3RK2R w K - 0 16",
+          "old": "interesting",
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.970180197176462,
+          "beforeLines": [
+            {
+              "cpWhite": -228,
+              "mateWhite": null,
+              "pv": [
+                "e4c3",
+                "e7c5",
+                "f8e8",
+                "e1f1",
+                "g4e6",
+                "a3c3",
+                "b6c5",
+                "d4c5",
+                "g7c3",
+                "c4e6",
+                "e8e6",
+                "g2g3",
+                "b7b5",
+                "d1d7",
+                "b5b4",
+                "f3g5"
+              ]
+            },
+            {
+              "cpWhite": -123,
+              "mateWhite": null,
+              "pv": [
+                "f8e8",
+                "e1g1",
+                "b6c7",
+                "e7h4",
+                "c7f4",
+                "d1d3",
+                "b7b5",
+                "c4b3",
+                "a7a5",
+                "h2h3",
+                "g4f5",
+                "d3e3",
+                "a5a4",
+                "b3c2",
+                "a8b8"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -245,
+            "mateWhite": null,
+            "pv": [
+              "e7c5",
+              "f8e8",
+              "e1f1",
+              "g4e6",
+              "a3c3",
+              "b6c5",
+              "d4c5",
+              "g7c3",
+              "c4e6",
+              "e8e6",
+              "g2g3",
+              "b7b5",
+              "d1d7",
+              "a7a5",
+              "f1g2",
+              "e6e2",
+              "f3g5"
+            ]
+          },
+          "engineMode": "SF Light · Thorough",
+          "beforeSan": [
+            "15...Nxc3 16.Bc5 Rfe8+ 17.Kf1 Be6 18.Qxc3 Qxc5 19.dxc5 Bxc3 20.Bxe6 Rxe6 21.g3 b5 22.Rd7 b4 23.Ng5",
+            "15...Rfe8 16.O-O Qc7 17.Bh4 Qf4 18.Rd3 b5 19.Bb3 a5 20.h3 Bf5 21.Re3 a4 22.Bc2 Rab8"
+          ],
+          "afterSan": "16.Bc5 Rfe8+ 17.Kf1 Be6 18.Qxc3 Qxc5 19.dxc5 Bxc3 20.Bxe6 Rxe6 21.g3 b5 22.Rd7 a5 23.Kg2 Re2 24.Ng5"
+        }
+      ],
+      "move": "15...Nxc3",
+      "gained": true,
+      "file": "02-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "byrne-fischer-1956:38",
+      "san": "Ne2+",
+      "uci": "c3e2",
+      "fenBefore": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R2KR b - - 1 19",
+      "fenAfter": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R2KR w - - 2 20",
+      "dataset": "native",
+      "game": "Byrne–Fischer, 1956",
+      "variants": [
+        {
+          "id": "byrne-fischer-1956:38",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish18-fast",
+          "quality": "fast",
+          "ply": 38,
+          "uci": "c3e2",
+          "san": "Ne2+",
+          "fenBefore": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R2KR b - - 1 19",
+          "fenAfter": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R2KR w - - 2 20",
+          "old": "brilliant",
+          "new": "interesting",
+          "candidate": false,
+          "score": 0.0,
+          "beforeLines": [
+            {
+              "cpWhite": -429,
+              "mateWhite": null,
+              "pv": [
+                "c3e2",
+                "g1f1",
+                "e2d4",
+                "f1g1",
+                "a7b6",
+                "a3b4",
+                "d4e2",
+                "g1f1",
+                "b6b5",
+                "g2g3"
+              ]
+            },
+            {
+              "cpWhite": -57,
+              "mateWhite": null,
+              "pv": [
+                "c3d1",
+                "a3c1",
+                "a7b6",
+                "c1c4",
+                "a8a3",
+                "c4c1",
+                "a3d3",
+                "c1c2",
+                "d3d4",
+                "h2h4",
+                "d4d7"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -435,
+            "mateWhite": null,
+            "pv": [
+              "g1f1",
+              "e2d4",
+              "f1g1",
+              "d4e2",
+              "g1f1",
+              "e2g3",
+              "f1g1",
+              "a7b6",
+              "a3b4",
+              "g3e2",
+              "g1f1",
+              "b6b5",
+              "g2g3",
+              "e2g3",
+              "f1g2",
+              "g3h1",
+              "d1h1",
+              "a8a2"
+            ]
+          },
+          "engineMode": "SF18 · Fast",
+          "beforeSan": [
+            "19...Ne2+ 20.Kf1 Nxd4+ 21.Kg1 axb6 22.Qb4 Ne2+ 23.Kf1 b5 24.g3",
+            "19...Nxd1 20.Qc1 axb6 21.Qxc4 Ra3 22.Qc1 Rd3 23.Qc2 Rxd4 24.h4 Rd7"
+          ],
+          "afterSan": "20.Kf1 Nxd4+ 21.Kg1 Ne2+ 22.Kf1 Ng3+ 23.Kg1 axb6 24.Qb4 Ne2+ 25.Kf1 b5 26.g3 Nxg3+ 27.Kg2 Nxh1 28.Rxh1 Rxa2"
+        },
+        {
+          "id": "byrne-fischer-1956:38",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish18-balanced-thorough",
+          "quality": "balanced",
+          "ply": 38,
+          "uci": "c3e2",
+          "san": "Ne2+",
+          "fenBefore": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R2KR b - - 1 19",
+          "fenAfter": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R2KR w - - 2 20",
+          "old": "brilliant",
+          "new": "interesting",
+          "candidate": false,
+          "score": 0.0,
+          "beforeLines": [
+            {
+              "cpWhite": -506,
+              "mateWhite": null,
+              "pv": [
+                "c3e2",
+                "g1f1",
+                "e2d4",
+                "f1g1",
+                "a7b6",
+                "a3b4",
+                "d4e2",
+                "g1f1",
+                "b6b5",
+                "h2h4",
+                "e2c3",
+                "f1g1",
+                "c3d1",
+                "h4h5",
+                "a8d8"
+              ]
+            },
+            {
+              "cpWhite": -48,
+              "mateWhite": null,
+              "pv": [
+                "c3d1",
+                "a3c1",
+                "c4a2",
+                "b6a5",
+                "a2b3",
+                "h2h4",
+                "e8e2"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -505,
+            "mateWhite": null,
+            "pv": [
+              "g1f1",
+              "e2d4",
+              "f1g1",
+              "d4e2",
+              "g1f1",
+              "e2g3",
+              "f1g1",
+              "a7b6",
+              "a3b4",
+              "g3e2",
+              "g1f1",
+              "b6b5",
+              "h2h4",
+              "e2c3",
+              "f1g1",
+              "c3d1",
+              "b4d6"
+            ]
+          },
+          "engineMode": "SF18 · Balanced",
+          "beforeSan": [
+            "19...Ne2+ 20.Kf1 Nxd4+ 21.Kg1 axb6 22.Qb4 Ne2+ 23.Kf1 b5 24.h4 Nc3+ 25.Kg1 Nxd1 26.h5 Rad8",
+            "19...Nxd1 20.Qc1 Bxa2 21.Ba5 Bb3 22.h4 Re2"
+          ],
+          "afterSan": "20.Kf1 Nxd4+ 21.Kg1 Ne2+ 22.Kf1 Ng3+ 23.Kg1 axb6 24.Qb4 Ne2+ 25.Kf1 b5 26.h4 Nc3+ 27.Kg1 Nxd1 28.Qd6"
+        },
+        {
+          "id": "byrne-fischer-1956:38",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish18-balanced-thorough",
+          "quality": "thorough",
+          "ply": 38,
+          "uci": "c3e2",
+          "san": "Ne2+",
+          "fenBefore": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R2KR b - - 1 19",
+          "fenAfter": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R2KR w - - 2 20",
+          "old": "brilliant",
+          "new": "interesting",
+          "candidate": false,
+          "score": 0.0,
+          "beforeLines": [
+            {
+              "cpWhite": -557,
+              "mateWhite": null,
+              "pv": [
+                "c3e2",
+                "g1f1",
+                "e2d4",
+                "f1g1",
+                "d4e2",
+                "g1f1",
+                "a7b6",
+                "a3b4",
+                "b6b5",
+                "h2h4",
+                "e2c3",
+                "f1g1",
+                "c3d1",
+                "b4d6",
+                "d1c3",
+                "d6d7",
+                "h7h5",
+                "g1h2",
+                "c3e4"
+              ]
+            },
+            {
+              "cpWhite": -80,
+              "mateWhite": null,
+              "pv": [
+                "c3d1",
+                "a3c1",
+                "a7b6",
+                "c1c4",
+                "a8a3",
+                "h2h4",
+                "d1c3",
+                "f3g5",
+                "c3d5",
+                "h4h5",
+                "b6b5",
+                "c4c2",
+                "d5f6",
+                "h5g6",
+                "h7g6"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -567,
+            "mateWhite": null,
+            "pv": [
+              "g1f1",
+              "e2d4",
+              "f1g1",
+              "d4e2",
+              "g1f1",
+              "a7b6",
+              "a3b4",
+              "b6b5",
+              "d1d2",
+              "e2c3",
+              "f1g1",
+              "c6c5",
+              "b4c5",
+              "c3e4",
+              "c5b6",
+              "e4d2",
+              "f3g5"
+            ]
+          },
+          "engineMode": "SF18 · Thorough",
+          "beforeSan": [
+            "19...Ne2+ 20.Kf1 Nxd4+ 21.Kg1 Ne2+ 22.Kf1 axb6 23.Qb4 b5 24.h4 Nc3+ 25.Kg1 Nxd1 26.Qd6 Nc3 27.Qd7 h5 28.Kh2 Ne4",
+            "19...Nxd1 20.Qc1 axb6 21.Qxc4 Ra3 22.h4 Nc3 23.Ng5 Nd5 24.h5 b5 25.Qc2 Nf6 26.hxg6 hxg6"
+          ],
+          "afterSan": "20.Kf1 Nxd4+ 21.Kg1 Ne2+ 22.Kf1 axb6 23.Qb4 b5 24.Rd2 Nc3+ 25.Kg1 c5 26.Qxc5 Ne4 27.Qb6 Nxd2 28.Ng5"
+        },
+        {
+          "id": "byrne-fischer-1956:38",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish-light-fast",
+          "quality": "fast",
+          "ply": 38,
+          "uci": "c3e2",
+          "san": "Ne2+",
+          "fenBefore": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R2KR b - - 1 19",
+          "fenAfter": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R2KR w - - 2 20",
+          "old": "brilliant",
+          "new": "interesting",
+          "candidate": false,
+          "score": 0.0,
+          "beforeLines": [
+            {
+              "cpWhite": -587,
+              "mateWhite": null,
+              "pv": [
+                "c3e2",
+                "g1f1",
+                "e2d4",
+                "f1g1",
+                "d4e2",
+                "g1f1",
+                "e2c3",
+                "f1g1",
+                "a7b6",
+                "a3b4",
+                "b6b5",
+                "h2h4",
+                "c3d1"
+              ]
+            },
+            {
+              "cpWhite": -113,
+              "mateWhite": null,
+              "pv": [
+                "c3d1",
+                "a3c1",
+                "c4e2",
+                "b6c5",
+                "b7b6",
+                "c5b4",
+                "a7a5"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -579,
+            "mateWhite": null,
+            "pv": [
+              "g1f1",
+              "e2d4",
+              "f1g1",
+              "a7b6",
+              "a3b4",
+              "d4e2",
+              "g1f1",
+              "b6b5",
+              "g2g3",
+              "e2g3",
+              "f1g2",
+              "g3h1",
+              "g2h1",
+              "a8a2",
+              "h1g2"
+            ]
+          },
+          "engineMode": "SF Light · Fast",
+          "beforeSan": [
+            "19...Ne2+ 20.Kf1 Nxd4+ 21.Kg1 Ne2+ 22.Kf1 Nc3+ 23.Kg1 axb6 24.Qb4 b5 25.h4 Nxd1",
+            "19...Nxd1 20.Qc1 Be2 21.Bc5 b6 22.Bb4 a5"
+          ],
+          "afterSan": "20.Kf1 Nxd4+ 21.Kg1 axb6 22.Qb4 Ne2+ 23.Kf1 b5 24.g3 Nxg3+ 25.Kg2 Nxh1 26.Kxh1 Rxa2 27.Kg2"
+        },
+        {
+          "id": "byrne-fischer-1956:38",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish-light-balanced-thorough",
+          "quality": "balanced",
+          "ply": 38,
+          "uci": "c3e2",
+          "san": "Ne2+",
+          "fenBefore": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R2KR b - - 1 19",
+          "fenAfter": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R2KR w - - 2 20",
+          "old": "brilliant",
+          "new": "interesting",
+          "candidate": false,
+          "score": 0.0,
+          "beforeLines": [
+            {
+              "cpWhite": -616,
+              "mateWhite": null,
+              "pv": [
+                "c3e2",
+                "g1f1",
+                "e2d4",
+                "f1g1",
+                "d4e2",
+                "g1f1",
+                "e2c3",
+                "f1g1",
+                "a7b6",
+                "a3b4",
+                "a8a4",
+                "b4b6",
+                "c3d1",
+                "h2h3",
+                "d1c3",
+                "g1h2",
+                "c4e6"
+              ]
+            },
+            {
+              "cpWhite": -122,
+              "mateWhite": null,
+              "pv": [
+                "c3d1",
+                "a3c1",
+                "a7b6",
+                "c1c4",
+                "a8a3",
+                "h2h4",
+                "d1c3",
+                "h4h5",
+                "b6b5",
+                "c4c5",
+                "g7f8"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -616,
+            "mateWhite": null,
+            "pv": [
+              "g1f1",
+              "e2d4",
+              "f1g1",
+              "d4e2",
+              "g1f1",
+              "e2c3",
+              "f1g1",
+              "a7b6",
+              "a3b4",
+              "a8a4",
+              "b4b6",
+              "c3d1",
+              "h2h3",
+              "d1c3",
+              "g1h2"
+            ]
+          },
+          "engineMode": "SF Light · Balanced",
+          "beforeSan": [
+            "19...Ne2+ 20.Kf1 Nxd4+ 21.Kg1 Ne2+ 22.Kf1 Nc3+ 23.Kg1 axb6 24.Qb4 Ra4 25.Qxb6 Nxd1 26.h3 Nc3 27.Kh2 Be6",
+            "19...Nxd1 20.Qc1 axb6 21.Qxc4 Ra3 22.h4 Nc3 23.h5 b5 24.Qc5 Bf8"
+          ],
+          "afterSan": "20.Kf1 Nxd4+ 21.Kg1 Ne2+ 22.Kf1 Nc3+ 23.Kg1 axb6 24.Qb4 Ra4 25.Qxb6 Nxd1 26.h3 Nc3 27.Kh2"
+        },
+        {
+          "id": "byrne-fischer-1956:38",
+          "game": "byrne-fischer-1956",
+          "corpus": "stockfish-light-balanced-thorough",
+          "quality": "thorough",
+          "ply": 38,
+          "uci": "c3e2",
+          "san": "Ne2+",
+          "fenBefore": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R2KR b - - 1 19",
+          "fenAfter": "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R2KR w - - 2 20",
+          "old": "brilliant",
+          "new": "interesting",
+          "candidate": false,
+          "score": 0.0,
+          "beforeLines": [
+            {
+              "cpWhite": -642,
+              "mateWhite": null,
+              "pv": [
+                "c3e2",
+                "g1f1",
+                "e2d4",
+                "f1g1",
+                "d4e2",
+                "g1f1",
+                "a7b6",
+                "a3b4",
+                "b6b5",
+                "d1d2",
+                "g7c3",
+                "b4c4",
+                "b5c4",
+                "d2e2",
+                "e8e4"
+              ]
+            },
+            {
+              "cpWhite": -55,
+              "mateWhite": null,
+              "pv": [
+                "c3d1",
+                "a3c1",
+                "c4e2",
+                "b6a5",
+                "c6c5",
+                "d4c5",
+                "b7b6",
+                "a5d2",
+                "b6c5",
+                "h2h4",
+                "h7h5",
+                "c1c5"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -653,
+            "mateWhite": null,
+            "pv": [
+              "g1f1",
+              "e2d4",
+              "f1g1",
+              "d4e2",
+              "g1f1",
+              "e2g3",
+              "f1g1",
+              "a7b6",
+              "a3b4",
+              "g3e2",
+              "g1f1",
+              "b6b5",
+              "d1d2",
+              "c6c5",
+              "b4c4",
+              "b5c4"
+            ]
+          },
+          "engineMode": "SF Light · Thorough",
+          "beforeSan": [
+            "19...Ne2+ 20.Kf1 Nxd4+ 21.Kg1 Ne2+ 22.Kf1 axb6 23.Qb4 b5 24.Rd2 Bc3 25.Qxc4 bxc4 26.Rxe2 Re4",
+            "19...Nxd1 20.Qc1 Be2 21.Ba5 c5 22.dxc5 b6 23.Bd2 bxc5 24.h4 h5 25.Qxc5"
+          ],
+          "afterSan": "20.Kf1 Nxd4+ 21.Kg1 Ne2+ 22.Kf1 Ng3+ 23.Kg1 axb6 24.Qb4 Ne2+ 25.Kf1 b5 26.Rd2 c5 27.Qxc4 bxc4"
+        }
+      ],
+      "move": "19...Ne2+",
+      "gained": false,
+      "file": "03-lost",
+      "defaultVariant": 0
+    },
+    {
+      "id": "opera-1858:25",
+      "san": "Rxd7",
+      "uci": "d1d7",
+      "fenBefore": "3rkb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R w k - 3 13",
+      "fenAfter": "3rkb1r/p2Rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R b k - 0 13",
+      "dataset": "native",
+      "game": "Opera game, 1858",
+      "variants": [
+        {
+          "id": "opera-1858:25",
+          "game": "opera-1858",
+          "corpus": "stockfish18-fast",
+          "quality": "fast",
+          "ply": 25,
+          "uci": "d1d7",
+          "san": "Rxd7",
+          "fenBefore": "3rkb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R w k - 3 13",
+          "fenAfter": "3rkb1r/p2Rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R b k - 0 13",
+          "old": null,
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.844007664046332,
+          "beforeLines": [
+            {
+              "cpWhite": 528,
+              "mateWhite": null,
+              "pv": [
+                "d1d7",
+                "f6d7",
+                "g5e7",
+                "f8e7",
+                "b5d7",
+                "e8d7",
+                "a2a3",
+                "h8f8",
+                "c1b1",
+                "d8b8",
+                "b3h3",
+                "d7d8"
+              ]
+            },
+            {
+              "cpWhite": 383,
+              "mateWhite": null,
+              "pv": [
+                "d1d5",
+                "f6d5",
+                "g5e7",
+                "d5e7",
+                "h1d1",
+                "e7c8",
+                "b5d7",
+                "d8d7",
+                "d1d7",
+                "e8d7",
+                "b3f7",
+                "f8e7",
+                "f7d5",
+                "c8d6",
+                "d5e5",
+                "e7f6"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 504,
+            "mateWhite": null,
+            "pv": [
+              "f6d7",
+              "g5e7",
+              "f8e7",
+              "b5d7",
+              "d8d7",
+              "b3b8",
+              "d7d8",
+              "b8b5",
+              "e8f8",
+              "c2c3",
+              "d8d6",
+              "c1b1",
+              "d6d2",
+              "b5e5",
+              "e7d6",
+              "e5b5"
+            ]
+          },
+          "engineMode": "SF18 · Fast",
+          "beforeSan": [
+            "13.Rxd7 Nxd7 14.Bxe7 Bxe7 15.Bxd7+ Kxd7 16.a3 Rhf8 17.Kb1 Rb8 18.Qh3+ Kd8",
+            "13.Rd5 Nxd5 14.Bxe7 Nxe7 15.Rd1 Nc8 16.Bxd7+ Rxd7 17.Rxd7 Kxd7 18.Qxf7+ Be7 19.Qd5+ Nd6 20.Qxe5 Bf6"
+          ],
+          "afterSan": "13...Nxd7 14.Bxe7 Bxe7 15.Bxd7+ Rxd7 16.Qb8+ Rd8 17.Qb5+ Kf8 18.c3 Rd6 19.Kb1 Rd2 20.Qxe5 Bd6 21.Qb5"
+        },
+        {
+          "id": "opera-1858:25",
+          "game": "opera-1858",
+          "corpus": "stockfish18-balanced-thorough",
+          "quality": "balanced",
+          "ply": 25,
+          "uci": "d1d7",
+          "san": "Rxd7",
+          "fenBefore": "3rkb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R w k - 3 13",
+          "fenAfter": "3rkb1r/p2Rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R b k - 0 13",
+          "old": null,
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.8536650063640704,
+          "beforeLines": [
+            {
+              "cpWhite": 520,
+              "mateWhite": null,
+              "pv": [
+                "d1d7",
+                "f6d7",
+                "g5e7",
+                "f8e7",
+                "b5d7",
+                "d8d7",
+                "b3b8",
+                "d7d8",
+                "b8e5",
+                "f7f6",
+                "e5e6",
+                "g7g6",
+                "h1d1",
+                "d8d1",
+                "c1d1",
+                "h8f8",
+                "d1e2",
+                "f8f7",
+                "a2a3",
+                "f7g7",
+                "e6c6",
+                "e8f7"
+              ]
+            },
+            {
+              "cpWhite": 374,
+              "mateWhite": null,
+              "pv": [
+                "d1d3",
+                "e7e6",
+                "b3e6",
+                "f7e6",
+                "g5f6",
+                "g7f6",
+                "h1d1",
+                "d8b8",
+                "b5d7",
+                "e8e7",
+                "d7a4",
+                "f8h6",
+                "c1b1",
+                "f6f5",
+                "e4f5"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 524,
+            "mateWhite": null,
+            "pv": [
+              "f6d7",
+              "g5e7",
+              "f8e7",
+              "b5d7",
+              "d8d7",
+              "b3b8",
+              "d7d8",
+              "b8e5",
+              "e8g8",
+              "e5e7",
+              "f8e8",
+              "e7a7",
+              "d8a8"
+            ]
+          },
+          "engineMode": "SF18 · Balanced",
+          "beforeSan": [
+            "13.Rxd7 Nxd7 14.Bxe7 Bxe7 15.Bxd7+ Rxd7 16.Qb8+ Rd8 17.Qxe5 f6 18.Qe6 g6 19.Rd1 Rxd1+ 20.Kxd1 Rf8 21.Ke2 Rf7 22.a3 Rg7 23.Qc6+ Kf7",
+            "13.Rd3 Qe6 14.Qxe6+ fxe6 15.Bxf6 gxf6 16.Rhd1 Rb8 17.Bxd7+ Ke7 18.Ba4 Bh6+ 19.Kb1 f5 20.exf5"
+          ],
+          "afterSan": "13...Nxd7 14.Bxe7 Bxe7 15.Bxd7+ Rxd7 16.Qb8+ Rd8 17.Qxe5 O-O 18.Qxe7 Rfe8 19.Qxa7 Ra8"
+        },
+        {
+          "id": "opera-1858:25",
+          "game": "opera-1858",
+          "corpus": "stockfish18-balanced-thorough",
+          "quality": "thorough",
+          "ply": 25,
+          "uci": "d1d7",
+          "san": "Rxd7",
+          "fenBefore": "3rkb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R w k - 3 13",
+          "fenAfter": "3rkb1r/p2Rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R b k - 0 13",
+          "old": null,
+          "new": "brilliant",
+          "candidate": true,
+          "score": 0.8569131606014634,
+          "beforeLines": [
+            {
+              "cpWhite": 517,
+              "mateWhite": null,
+              "pv": [
+                "d1d7",
+                "f6d7",
+                "g5e7",
+                "f8e7",
+                "b5d7",
+                "d8d7",
+                "b3b8",
+                "d7d8",
+                "b8e5",
+                "e8f8",
+                "h1d1",
+                "d8e8",
+                "e5h5",
+                "h8g8",
+                "d1d3"
+              ]
+            },
+            {
+              "cpWhite": 335,
+              "mateWhite": null,
+              "pv": [
+                "d1d3",
+                "h7h6",
+                "g5f6",
+                "e7f6",
+                "h1d1",
+                "f8c5",
+                "b5d7",
+                "e8f8",
+                "d7h3",
+                "d8d3",
+                "b3b8",
+                "f8e7"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 536,
+            "mateWhite": null,
+            "pv": [
+              "f6d7",
+              "g5e7",
+              "f8e7",
+              "h1d1",
+              "e8g8",
+              "b5d7",
+              "a7a5",
+              "c2c3",
+              "g7g6",
+              "b3a4",
+              "e7c5",
+              "c1b1",
+              "c5f2",
+              "a4c6",
+              "a5a4",
+              "c6a4",
+              "f2e3"
+            ]
+          },
+          "engineMode": "SF18 · Thorough",
+          "beforeSan": [
+            "13.Rxd7 Nxd7 14.Bxe7 Bxe7 15.Bxd7+ Rxd7 16.Qb8+ Rd8 17.Qxe5 Kf8 18.Rd1 Re8 19.Qh5 Rg8 20.Rd3",
+            "13.Rd3 h6 14.Bxf6 Qxf6 15.Rhd1 Bc5 16.Bxd7+ Kf8 17.Bh3 Rxd3 18.Qb8+ Ke7"
+          ],
+          "afterSan": "13...Nxd7 14.Bxe7 Bxe7 15.Rd1 O-O 16.Bxd7 a5 17.c3 g6 18.Qa4 Bc5 19.Kb1 Bxf2 20.Qc6 a4 21.Qxa4 Be3"
+        }
+      ],
+      "move": "13.Rxd7",
+      "gained": true,
+      "file": "04-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "164532229312:23",
+      "san": "Nxf7",
+      "uci": "g5f7",
+      "fenBefore": "rn2k2r/pp2bpp1/1qp1pnp1/6N1/2BP4/8/PPPBQPPP/R3K2R w KQkq - 6 12",
+      "fenAfter": "rn2k2r/pp2bNp1/1qp1pnp1/8/2BP4/8/PPPBQPPP/R3K2R b KQkq - 0 12",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 3,
+        "hang_type": 2,
+        "rank": 1,
+        "cp_loss": 1,
+        "wc_loss": 0.0764752298880893,
+        "net": -2,
+        "qs_net6": -1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 164532229312:23",
+      "variants": [
+        {
+          "id": "164532229312:23",
+          "san": "Nxf7",
+          "uci": "g5f7",
+          "fenBefore": "rn2k2r/pp2bpp1/1qp1pnp1/6N1/2BP4/8/PPPBQPPP/R3K2R w KQkq - 6 12",
+          "fenAfter": "rn2k2r/pp2bNp1/1qp1pnp1/8/2BP4/8/PPPBQPPP/R3K2R b KQkq - 0 12",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.978284081614452,
+          "referenceScore": 0.978284081614452,
+          "features": {
+            "hang_see": 3,
+            "hang_type": 2,
+            "rank": 1,
+            "cp_loss": 1,
+            "wc_loss": 0.0764752298880893,
+            "net": -2,
+            "qs_net6": -1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 238,
+              "mateWhite": null,
+              "pv": [
+                "g5f7"
+              ]
+            },
+            {
+              "cpWhite": 223,
+              "mateWhite": null,
+              "pv": [
+                "e1c1"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 237,
+            "mateWhite": null,
+            "pv": [
+              "e8f7"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "12.Nxf7",
+            "12.O-O-O"
+          ],
+          "afterSan": "12...Kxf7"
+        }
+      ],
+      "move": "12.Nxf7",
+      "gained": true,
+      "file": "05-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "159959851695:58",
+      "san": "Rexd5",
+      "uci": "e5d5",
+      "fenBefore": "5k2/p1q2pp1/3p1b1p/2pBrP2/3rPP2/1P6/P1Q3RP/6RK b - - 0 29",
+      "fenAfter": "5k2/p1q2pp1/3p1b1p/2pr1P2/3rPP2/1P6/P1Q3RP/6RK w - - 0 30",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 4,
+        "hang_type": 4,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -1,
+        "qs_net6": -1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 159959851695:58",
+      "variants": [
+        {
+          "id": "159959851695:58",
+          "san": "Rexd5",
+          "uci": "e5d5",
+          "fenBefore": "5k2/p1q2pp1/3p1b1p/2pBrP2/3rPP2/1P6/P1Q3RP/6RK b - - 0 29",
+          "fenAfter": "5k2/p1q2pp1/3p1b1p/2pr1P2/3rPP2/1P6/P1Q3RP/6RK w - - 0 30",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9836182604802943,
+          "referenceScore": 0.9836182604802943,
+          "features": {
+            "hang_see": 4,
+            "hang_type": 4,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -1,
+            "qs_net6": -1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -57,
+              "mateWhite": null,
+              "pv": [
+                "e5d5"
+              ]
+            },
+            {
+              "cpWhite": 4,
+              "mateWhite": null,
+              "pv": [
+                "e5e8"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -68,
+            "mateWhite": null,
+            "pv": [
+              "e4d5"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "29...Rexd5",
+            "29...Re8"
+          ],
+          "afterSan": "30.exd5"
+        }
+      ],
+      "move": "29...Rexd5",
+      "gained": true,
+      "file": "06-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "164721239428:30",
+      "san": "Bxf3",
+      "uci": "g4f3",
+      "fenBefore": "2k4r/1ppq1ppp/p4n2/2b5/3n1Bb1/2NP1P2/PPPQ2PP/R3KB1R b KQ - 0 15",
+      "fenAfter": "2k4r/1ppq1ppp/p4n2/2b5/3n1B2/2NP1b2/PPPQ2PP/R3KB1R w KQ - 0 16",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 2,
+        "hang_type": 3,
+        "rank": 1,
+        "cp_loss": 44,
+        "wc_loss": 2.532302343846638,
+        "net": -1,
+        "qs_net6": 1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 164721239428:30",
+      "variants": [
+        {
+          "id": "164721239428:30",
+          "san": "Bxf3",
+          "uci": "g4f3",
+          "fenBefore": "2k4r/1ppq1ppp/p4n2/2b5/3n1Bb1/2NP1P2/PPPQ2PP/R3KB1R b KQ - 0 15",
+          "fenAfter": "2k4r/1ppq1ppp/p4n2/2b5/3n1B2/2NP1b2/PPPQ2PP/R3KB1R w KQ - 0 16",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9669736415516252,
+          "referenceScore": 0.9669736415516252,
+          "features": {
+            "hang_see": 2,
+            "hang_type": 3,
+            "rank": 1,
+            "cp_loss": 44,
+            "wc_loss": 2.532302343846638,
+            "net": -1,
+            "qs_net6": 1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -409,
+              "mateWhite": null,
+              "pv": [
+                "g4f3"
+              ]
+            },
+            {
+              "cpWhite": -289,
+              "mateWhite": null,
+              "pv": [
+                "h8e8"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -365,
+            "mateWhite": null,
+            "pv": [
+              "d2f2"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "15...Bxf3",
+            "15...Re8+"
+          ],
+          "afterSan": "16.Qf2"
+        }
+      ],
+      "move": "15...Bxf3",
+      "gained": true,
+      "file": "07-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "174283146070:23",
+      "san": "Rxe7",
+      "uci": "e1e7",
+      "fenBefore": "r2qrbk1/ppp1nppp/3p1n2/5b2/3P4/2NB1N1P/PPP2PPB/R2QR1K1 w - - 11 12",
+      "fenAfter": "r2qrbk1/ppp1Rppp/3p1n2/5b2/3P4/2NB1N1P/PPP2PPB/R2Q2K1 b - - 0 12",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 5,
+        "hang_type": 4,
+        "rank": 1,
+        "cp_loss": 17,
+        "wc_loss": 1.0148094908934269,
+        "net": -2,
+        "qs_net6": 1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 174283146070:23",
+      "variants": [
+        {
+          "id": "174283146070:23",
+          "san": "Rxe7",
+          "uci": "e1e7",
+          "fenBefore": "r2qrbk1/ppp1nppp/3p1n2/5b2/3P4/2NB1N1P/PPP2PPB/R2QR1K1 w - - 11 12",
+          "fenAfter": "r2qrbk1/ppp1Rppp/3p1n2/5b2/3P4/2NB1N1P/PPP2PPB/R2Q2K1 b - - 0 12",
+          "old": "good",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9161774302111351,
+          "referenceScore": 0.9161774302111351,
+          "features": {
+            "hang_see": 5,
+            "hang_type": 4,
+            "rank": 1,
+            "cp_loss": 17,
+            "wc_loss": 1.0148094908934269,
+            "net": -2,
+            "qs_net6": 1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 379,
+              "mateWhite": null,
+              "pv": [
+                "e1e7"
+              ]
+            },
+            {
+              "cpWhite": 53,
+              "mateWhite": null,
+              "pv": [
+                "d3f1"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 362,
+            "mateWhite": null,
+            "pv": [
+              "f8e7"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "12.Rxe7",
+            "12.Bf1"
+          ],
+          "afterSan": "12...Bxe7"
+        }
+      ],
+      "move": "12.Rxe7",
+      "gained": true,
+      "file": "08-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "184105420416:15",
+      "san": "Bxe6",
+      "uci": "c4e6",
+      "fenBefore": "r1bqkb1r/p2nnp1p/1p1pp1p1/2p3N1/2BPPP2/8/PPPN2PP/R1BQK2R w KQkq - 0 8",
+      "fenAfter": "r1bqkb1r/p2nnp1p/1p1pB1p1/2p3N1/3PPP2/8/PPPN2PP/R1BQK2R b KQkq - 0 8",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 2,
+        "hang_type": 3,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -1,
+        "qs_net6": -1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 184105420416:15",
+      "variants": [
+        {
+          "id": "184105420416:15",
+          "san": "Bxe6",
+          "uci": "c4e6",
+          "fenBefore": "r1bqkb1r/p2nnp1p/1p1pp1p1/2p3N1/2BPPP2/8/PPPN2PP/R1BQK2R w KQkq - 0 8",
+          "fenAfter": "r1bqkb1r/p2nnp1p/1p1pB1p1/2p3N1/3PPP2/8/PPPN2PP/R1BQK2R b KQkq - 0 8",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9881105730521096,
+          "referenceScore": 0.9881105730521096,
+          "features": {
+            "hang_see": 2,
+            "hang_type": 3,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -1,
+            "qs_net6": -1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 335,
+              "mateWhite": null,
+              "pv": [
+                "c4e6"
+              ]
+            },
+            {
+              "cpWhite": 212,
+              "mateWhite": null,
+              "pv": [
+                "e1g1"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 361,
+            "mateWhite": null,
+            "pv": [
+              "f7e6"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "8.Bxe6",
+            "8.O-O"
+          ],
+          "afterSan": "8...fxe6"
+        }
+      ],
+      "move": "8.Bxe6",
+      "gained": true,
+      "file": "09-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "167644814241:37",
+      "san": "Rxe7",
+      "uci": "e1e7",
+      "fenBefore": "r1q2k1r/1p2bpp1/1Qp2n1p/p5B1/8/P1N5/1PP2PPP/3RR1K1 w - - 2 19",
+      "fenAfter": "r1q2k1r/1p2Rpp1/1Qp2n1p/p5B1/8/P1N5/1PP2PPP/3R2K1 b - - 0 19",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 5,
+        "hang_type": 4,
+        "rank": 2,
+        "cp_loss": 32,
+        "wc_loss": 2.392337847142258,
+        "net": -2,
+        "qs_net6": -2,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 167644814241:37",
+      "variants": [
+        {
+          "id": "167644814241:37",
+          "san": "Rxe7",
+          "uci": "e1e7",
+          "fenBefore": "r1q2k1r/1p2bpp1/1Qp2n1p/p5B1/8/P1N5/1PP2PPP/3RR1K1 w - - 2 19",
+          "fenAfter": "r1q2k1r/1p2Rpp1/1Qp2n1p/p5B1/8/P1N5/1PP2PPP/3R2K1 b - - 0 19",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9433995751153587,
+          "referenceScore": 0.9433995751153587,
+          "features": {
+            "hang_see": 5,
+            "hang_type": 4,
+            "rank": 2,
+            "cp_loss": 32,
+            "wc_loss": 2.392337847142258,
+            "net": -2,
+            "qs_net6": -2,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 268,
+              "mateWhite": null,
+              "pv": [
+                "g5f6"
+              ]
+            },
+            {
+              "cpWhite": 265,
+              "mateWhite": null,
+              "pv": [
+                "e1e7"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 236,
+            "mateWhite": null,
+            "pv": [
+              "h6g5"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "19.Bxf6",
+            "19.Rxe7"
+          ],
+          "afterSan": "19...hxg5"
+        }
+      ],
+      "move": "19.Rxe7",
+      "gained": true,
+      "file": "10-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "166088573276:19",
+      "san": "Bxf7+",
+      "uci": "b3f7",
+      "fenBefore": "r3kb1r/pp2pppp/1nnq4/8/3p2b1/1BP2N2/PP3PPP/RNBQ1RK1 w kq - 2 10",
+      "fenAfter": "r3kb1r/pp2pBpp/1nnq4/8/3p2b1/2P2N2/PP3PPP/RNBQ1RK1 b kq - 0 10",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 3,
+        "hang_type": 3,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -2,
+        "qs_net6": -1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 166088573276:19",
+      "variants": [
+        {
+          "id": "166088573276:19",
+          "san": "Bxf7+",
+          "uci": "b3f7",
+          "fenBefore": "r3kb1r/pp2pppp/1nnq4/8/3p2b1/1BP2N2/PP3PPP/RNBQ1RK1 w kq - 2 10",
+          "fenAfter": "r3kb1r/pp2pBpp/1nnq4/8/3p2b1/2P2N2/PP3PPP/RNBQ1RK1 b kq - 0 10",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.980741166702916,
+          "referenceScore": 0.980741166702916,
+          "features": {
+            "hang_see": 3,
+            "hang_type": 3,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -2,
+            "qs_net6": -1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 76,
+              "mateWhite": null,
+              "pv": [
+                "b3f7"
+              ]
+            },
+            {
+              "cpWhite": 18,
+              "mateWhite": null,
+              "pv": [
+                "c3d4"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 78,
+            "mateWhite": null,
+            "pv": [
+              "e8f7"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "10.Bxf7+",
+            "10.cxd4"
+          ],
+          "afterSan": "10...Kxf7"
+        }
+      ],
+      "move": "10.Bxf7+",
+      "gained": true,
+      "file": "11-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "167684805790:82",
+      "san": "Qxf3",
+      "uci": "c6f3",
+      "fenBefore": "1k1r4/2p5/p1q5/1p6/1PnP1p2/PK1Q1P2/8/6R1 b - - 1 41",
+      "fenAfter": "1k1r4/2p5/p7/1p6/1PnP1p2/PK1Q1q2/8/6R1 w - - 0 42",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 9,
+        "hang_type": 5,
+        "rank": 3,
+        "cp_loss": 92,
+        "wc_loss": 3.5846146469500297,
+        "net": -8,
+        "qs_net6": -7,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 167684805790:82",
+      "variants": [
+        {
+          "id": "167684805790:82",
+          "san": "Qxf3",
+          "uci": "c6f3",
+          "fenBefore": "1k1r4/2p5/p1q5/1p6/1PnP1p2/PK1Q1P2/8/6R1 b - - 1 41",
+          "fenAfter": "1k1r4/2p5/p7/1p6/1PnP1p2/PK1Q1q2/8/6R1 w - - 0 42",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9650092930539549,
+          "referenceScore": 0.9650092930539549,
+          "features": {
+            "hang_see": 9,
+            "hang_type": 5,
+            "rank": 3,
+            "cp_loss": 92,
+            "wc_loss": 3.5846146469500297,
+            "net": -8,
+            "qs_net6": -7,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -587,
+              "mateWhite": null,
+              "pv": [
+                "d8e8"
+              ]
+            },
+            {
+              "cpWhite": -585,
+              "mateWhite": null,
+              "pv": [
+                "c6d5"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -495,
+            "mateWhite": null,
+            "pv": [
+              "d3f3"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "41...Re8",
+            "41...Qd5"
+          ],
+          "afterSan": "42.Qxf3"
+        }
+      ],
+      "move": "41...Qxf3",
+      "gained": true,
+      "file": "12-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "168788226486:52",
+      "san": "Qf7",
+      "uci": "e7f7",
+      "fenBefore": "3rr1k1/1p1Nq1pb/pNpn1p1p/3p4/3P1P2/Q3P1PB/PP1n1K1P/2R1R3 b - - 5 26",
+      "fenAfter": "3rr1k1/1p1N1qpb/pNpn1p1p/3p4/3P1P2/Q3P1PB/PP1n1K1P/2R1R3 w - - 6 27",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 3,
+        "hang_type": 2,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -3,
+        "qs_net6": -3,
+        "hang_is_moved": 0
+      },
+      "dataset": "labeled",
+      "game": "Reference case 168788226486:52",
+      "variants": [
+        {
+          "id": "168788226486:52",
+          "san": "Qf7",
+          "uci": "e7f7",
+          "fenBefore": "3rr1k1/1p1Nq1pb/pNpn1p1p/3p4/3P1P2/Q3P1PB/PP1n1K1P/2R1R3 b - - 5 26",
+          "fenAfter": "3rr1k1/1p1N1qpb/pNpn1p1p/3p4/3P1P2/Q3P1PB/PP1n1K1P/2R1R3 w - - 6 27",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9786126358296843,
+          "referenceScore": 0.9786126358296843,
+          "features": {
+            "hang_see": 3,
+            "hang_type": 2,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -3,
+            "qs_net6": -3,
+            "hang_is_moved": 0
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -258,
+              "mateWhite": null,
+              "pv": [
+                "e7f7"
+              ]
+            },
+            {
+              "cpWhite": -248,
+              "mateWhite": null,
+              "pv": [
+                "d2e4"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -318,
+            "mateWhite": null,
+            "pv": [
+              "h3g4"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "26...Qf7",
+            "26...N2e4+"
+          ],
+          "afterSan": "27.Bg4"
+        }
+      ],
+      "move": "26...Qf7",
+      "gained": true,
+      "file": "13-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "169548062348:37",
+      "san": "Rxg7+",
+      "uci": "f7g7",
+      "fenBefore": "r1qb2kr/1p1b1Rpp/p2P1n2/6B1/2B5/8/PP1Q1PPP/3R2K1 w - - 1 19",
+      "fenAfter": "r1qb2kr/1p1b2Rp/p2P1n2/6B1/2B5/8/PP1Q1PPP/3R2K1 b - - 0 19",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 5,
+        "hang_type": 4,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -4,
+        "qs_net6": -4,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 169548062348:37",
+      "variants": [
+        {
+          "id": "169548062348:37",
+          "san": "Rxg7+",
+          "uci": "f7g7",
+          "fenBefore": "r1qb2kr/1p1b1Rpp/p2P1n2/6B1/2B5/8/PP1Q1PPP/3R2K1 w - - 1 19",
+          "fenAfter": "r1qb2kr/1p1b2Rp/p2P1n2/6B1/2B5/8/PP1Q1PPP/3R2K1 b - - 0 19",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9866564487448134,
+          "referenceScore": 0.9866564487448134,
+          "features": {
+            "hang_see": 5,
+            "hang_type": 4,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -4,
+            "qs_net6": -4,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 840,
+              "mateWhite": null,
+              "pv": [
+                "f7g7"
+              ]
+            },
+            {
+              "cpWhite": 647,
+              "mateWhite": null,
+              "pv": [
+                "d2e2"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 0,
+            "mateWhite": 12,
+            "pv": [
+              "g8f8"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "19.Rxg7+",
+            "19.Qe2"
+          ],
+          "afterSan": "19...Kf8"
+        }
+      ],
+      "move": "19.Rxg7+",
+      "gained": true,
+      "file": "14-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "184153711551:35",
+      "san": "Nxf6+",
+      "uci": "e4f6",
+      "fenBefore": "r2rbnk1/pp2q1pp/2p1pp2/b5B1/2PPN3/5QP1/PP3PBP/3RR1K1 w - - 0 18",
+      "fenAfter": "r2rbnk1/pp2q1pp/2p1pN2/b5B1/2PP4/5QP1/PP3PBP/3RR1K1 b - - 0 18",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 2,
+        "hang_type": 2,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -1,
+        "qs_net6": -1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 184153711551:35",
+      "variants": [
+        {
+          "id": "184153711551:35",
+          "san": "Nxf6+",
+          "uci": "e4f6",
+          "fenBefore": "r2rbnk1/pp2q1pp/2p1pp2/b5B1/2PPN3/5QP1/PP3PBP/3RR1K1 w - - 0 18",
+          "fenAfter": "r2rbnk1/pp2q1pp/2p1pN2/b5B1/2PP4/5QP1/PP3PBP/3RR1K1 b - - 0 18",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9225588384713287,
+          "referenceScore": 0.9225588384713287,
+          "features": {
+            "hang_see": 2,
+            "hang_type": 2,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -1,
+            "qs_net6": -1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 100,
+              "mateWhite": null,
+              "pv": [
+                "e4f6"
+              ]
+            },
+            {
+              "cpWhite": 99,
+              "mateWhite": null,
+              "pv": [
+                "g5d2"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 126,
+            "mateWhite": null,
+            "pv": [
+              "g7f6"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "18.Nxf6+",
+            "18.Bd2"
+          ],
+          "afterSan": "18...gxf6"
+        }
+      ],
+      "move": "18.Nxf6+",
+      "gained": true,
+      "file": "15-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "146198437668:48",
+      "san": "Nxf3+",
+      "uci": "e5f3",
+      "fenBefore": "1qr1r1k1/2b2pp1/pp6/3bn2p/1P1N4/P3BPPP/5Q2/2R1RBK1 b - - 1 24",
+      "fenAfter": "1qr1r1k1/2b2pp1/pp6/3b3p/1P1N4/P3BnPP/5Q2/2R1RBK1 w - - 0 25",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 3,
+        "hang_type": 2,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -2,
+        "qs_net6": -1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 146198437668:48",
+      "variants": [
+        {
+          "id": "146198437668:48",
+          "san": "Nxf3+",
+          "uci": "e5f3",
+          "fenBefore": "1qr1r1k1/2b2pp1/pp6/3bn2p/1P1N4/P3BPPP/5Q2/2R1RBK1 b - - 1 24",
+          "fenAfter": "1qr1r1k1/2b2pp1/pp6/3b3p/1P1N4/P3BnPP/5Q2/2R1RBK1 w - - 0 25",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9853919545874863,
+          "referenceScore": 0.9853919545874863,
+          "features": {
+            "hang_see": 3,
+            "hang_type": 2,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -2,
+            "qs_net6": -1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -224,
+              "mateWhite": null,
+              "pv": [
+                "e5f3"
+              ]
+            },
+            {
+              "cpWhite": -194,
+              "mateWhite": null,
+              "pv": [
+                "e5c4"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -270,
+            "mateWhite": null,
+            "pv": [
+              "d4f3"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "24...Nxf3+",
+            "24...Nc4"
+          ],
+          "afterSan": "25.Nxf3"
+        }
+      ],
+      "move": "24...Nxf3+",
+      "gained": true,
+      "file": "16-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "171198260282:53",
+      "san": "Rxe4",
+      "uci": "e1e4",
+      "fenBefore": "r2kb2r/pp1nb1p1/2p1B1Pp/2Pp1P2/3Pn2P/P7/1P5Q/2KRR3 w - - 3 27",
+      "fenAfter": "r2kb2r/pp1nb1p1/2p1B1Pp/2Pp1P2/3PR2P/P7/1P5Q/2KR4 b - - 0 27",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 5,
+        "hang_type": 4,
+        "rank": 1,
+        "cp_loss": 14,
+        "wc_loss": 1.0890257603486049,
+        "net": -2,
+        "qs_net6": -2,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 171198260282:53",
+      "variants": [
+        {
+          "id": "171198260282:53",
+          "san": "Rxe4",
+          "uci": "e1e4",
+          "fenBefore": "r2kb2r/pp1nb1p1/2p1B1Pp/2Pp1P2/3Pn2P/P7/1P5Q/2KRR3 w - - 3 27",
+          "fenAfter": "r2kb2r/pp1nb1p1/2p1B1Pp/2Pp1P2/3PR2P/P7/1P5Q/2KR4 b - - 0 27",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9784632149945391,
+          "referenceScore": 0.9784632149945391,
+          "features": {
+            "hang_see": 5,
+            "hang_type": 4,
+            "rank": 1,
+            "cp_loss": 14,
+            "wc_loss": 1.0890257603486049,
+            "net": -2,
+            "qs_net6": -2,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 233,
+              "mateWhite": null,
+              "pv": [
+                "e1e4"
+              ]
+            },
+            {
+              "cpWhite": 148,
+              "mateWhite": null,
+              "pv": [
+                "c1c2"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 219,
+            "mateWhite": null,
+            "pv": [
+              "d5e4"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "27.Rxe4",
+            "27.Kc2"
+          ],
+          "afterSan": "27...dxe4"
+        }
+      ],
+      "move": "27.Rxe4",
+      "gained": true,
+      "file": "17-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "147571431566:23",
+      "san": "Bxf5",
+      "uci": "d3f5",
+      "fenBefore": "r1bqkb2/pp1p2p1/3Pp1n1/2p1Ppp1/5PQr/2NB4/PPP3PP/R1B1K2R w KQq - 1 12",
+      "fenAfter": "r1bqkb2/pp1p2p1/3Pp1n1/2p1PBp1/5PQr/2N5/PPP3PP/R1B1K2R b KQq - 0 12",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 4,
+        "hang_type": 5,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -3,
+        "qs_net6": -1,
+        "hang_is_moved": 0
+      },
+      "dataset": "labeled",
+      "game": "Reference case 147571431566:23",
+      "variants": [
+        {
+          "id": "147571431566:23",
+          "san": "Bxf5",
+          "uci": "d3f5",
+          "fenBefore": "r1bqkb2/pp1p2p1/3Pp1n1/2p1Ppp1/5PQr/2NB4/PPP3PP/R1B1K2R w KQq - 1 12",
+          "fenAfter": "r1bqkb2/pp1p2p1/3Pp1n1/2p1PBp1/5PQr/2N5/PPP3PP/R1B1K2R b KQq - 0 12",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9062316265084026,
+          "referenceScore": 0.9062316265084026,
+          "features": {
+            "hang_see": 4,
+            "hang_type": 5,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -3,
+            "qs_net6": -1,
+            "hang_is_moved": 0
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 233,
+              "mateWhite": null,
+              "pv": [
+                "d3f5"
+              ]
+            },
+            {
+              "cpWhite": 152,
+              "mateWhite": null,
+              "pv": [
+                "g4g3"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 241,
+            "mateWhite": null,
+            "pv": [
+              "g6h8"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "12.Bxf5",
+            "12.Qg3"
+          ],
+          "afterSan": "12...Nh8"
+        }
+      ],
+      "move": "12.Bxf5",
+      "gained": true,
+      "file": "18-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "172749937408:19",
+      "san": "Ne6",
+      "uci": "g5e6",
+      "fenBefore": "r1bq1rk1/pp1n1ppp/2pb1n2/4p1N1/3P4/3B1N2/PPPBQPPP/R3K2R w KQ - 0 10",
+      "fenAfter": "r1bq1rk1/pp1n1ppp/2pbNn2/4p3/3P4/3B1N2/PPPBQPPP/R3K2R b KQ - 1 10",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 3,
+        "hang_type": 2,
+        "rank": 1,
+        "cp_loss": 25,
+        "wc_loss": 2.2382164690642767,
+        "net": -3,
+        "qs_net6": -2,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 172749937408:19",
+      "variants": [
+        {
+          "id": "172749937408:19",
+          "san": "Ne6",
+          "uci": "g5e6",
+          "fenBefore": "r1bq1rk1/pp1n1ppp/2pb1n2/4p1N1/3P4/3B1N2/PPPBQPPP/R3K2R w KQ - 0 10",
+          "fenAfter": "r1bq1rk1/pp1n1ppp/2pbNn2/4p3/3P4/3B1N2/PPPBQPPP/R3K2R b KQ - 1 10",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9388333381183996,
+          "referenceScore": 0.9388333381183996,
+          "features": {
+            "hang_see": 3,
+            "hang_type": 2,
+            "rank": 1,
+            "cp_loss": 25,
+            "wc_loss": 2.2382164690642767,
+            "net": -3,
+            "qs_net6": -2,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 103,
+              "mateWhite": null,
+              "pv": [
+                "g5e6"
+              ]
+            },
+            {
+              "cpWhite": 86,
+              "mateWhite": null,
+              "pv": [
+                "e1c1"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 78,
+            "mateWhite": null,
+            "pv": [
+              "f7e6"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "10.Ne6",
+            "10.O-O-O"
+          ],
+          "afterSan": "10...fxe6"
+        }
+      ],
+      "move": "10.Ne6",
+      "gained": true,
+      "file": "19-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "146250076136:57",
+      "san": "Qxf3",
+      "uci": "d1f3",
+      "fenBefore": "4r1k1/ppq2pp1/2p4p/8/2PPpbr1/1P3n1P/PB3P2/R2QRB1K w - - 0 29",
+      "fenAfter": "4r1k1/ppq2pp1/2p4p/8/2PPpbr1/1P3Q1P/PB3P2/R3RB1K b - - 0 29",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 9,
+        "hang_type": 5,
+        "rank": 1,
+        "cp_loss": 46,
+        "wc_loss": 4.1772982976925235,
+        "net": -6,
+        "qs_net6": 3,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 146250076136:57",
+      "variants": [
+        {
+          "id": "146250076136:57",
+          "san": "Qxf3",
+          "uci": "d1f3",
+          "fenBefore": "4r1k1/ppq2pp1/2p4p/8/2PPpbr1/1P3n1P/PB3P2/R2QRB1K w - - 0 29",
+          "fenAfter": "4r1k1/ppq2pp1/2p4p/8/2PPpbr1/1P3Q1P/PB3P2/R3RB1K b - - 0 29",
+          "old": "brilliant",
+          "new": "interesting",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.7117884117267412,
+          "referenceScore": 0.7117884117267412,
+          "features": {
+            "hang_see": 9,
+            "hang_type": 5,
+            "rank": 1,
+            "cp_loss": 46,
+            "wc_loss": 4.1772982976925235,
+            "net": -6,
+            "qs_net6": 3,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -39,
+              "mateWhite": null,
+              "pv": [
+                "d1f3"
+              ]
+            },
+            {
+              "cpWhite": -351,
+              "mateWhite": null,
+              "pv": [
+                "h3g4"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -85,
+            "mateWhite": null,
+            "pv": [
+              "e4f3"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "29.Qxf3",
+            "29.hxg4"
+          ],
+          "afterSan": "29...exf3"
+        }
+      ],
+      "move": "29.Qxf3",
+      "gained": false,
+      "file": "20-lost",
+      "defaultVariant": 0
+    },
+    {
+      "id": "166587005254:26",
+      "san": "Bxh3",
+      "uci": "g4h3",
+      "fenBefore": "r3r1k1/ppp2ppp/3b1n2/7q/6b1/2P1BN1P/PP2BPP1/R2Q1RK1 b - - 0 13",
+      "fenAfter": "r3r1k1/ppp2ppp/3b1n2/7q/8/2P1BN1b/PP2BPP1/R2Q1RK1 w - - 0 14",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 2,
+        "hang_type": 3,
+        "rank": 1,
+        "cp_loss": 65,
+        "wc_loss": 4.235130790058889,
+        "net": -1,
+        "qs_net6": -1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 166587005254:26",
+      "variants": [
+        {
+          "id": "166587005254:26",
+          "san": "Bxh3",
+          "uci": "g4h3",
+          "fenBefore": "r3r1k1/ppp2ppp/3b1n2/7q/6b1/2P1BN1P/PP2BPP1/R2Q1RK1 b - - 0 13",
+          "fenAfter": "r3r1k1/ppp2ppp/3b1n2/7q/8/2P1BN1b/PP2BPP1/R2Q1RK1 w - - 0 14",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9692765160756147,
+          "referenceScore": 0.9692765160756147,
+          "features": {
+            "hang_see": 2,
+            "hang_type": 3,
+            "rank": 1,
+            "cp_loss": 65,
+            "wc_loss": 4.235130790058889,
+            "net": -1,
+            "qs_net6": -1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -361,
+              "mateWhite": null,
+              "pv": [
+                "g4h3"
+              ]
+            },
+            {
+              "cpWhite": -232,
+              "mateWhite": null,
+              "pv": [
+                "a8d8"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -296,
+            "mateWhite": null,
+            "pv": [
+              "f1e1"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "13...Bxh3",
+            "13...Rad8"
+          ],
+          "afterSan": "14.Re1"
+        }
+      ],
+      "move": "13...Bxh3",
+      "gained": true,
+      "file": "21-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "165665978762:32",
+      "san": "Nd4",
+      "uci": "c6d4",
+      "fenBefore": "2kr2nr/pp2pp2/1qn2b2/1B1p1P2/2p5/BPP3P1/P2P1QP1/RN3RK1 b - - 1 16",
+      "fenAfter": "2kr2nr/pp2pp2/1q3b2/1B1p1P2/2pn4/BPP3P1/P2P1QP1/RN3RK1 w - - 2 17",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 2,
+        "hang_type": 2,
+        "rank": 2,
+        "cp_loss": 70,
+        "wc_loss": 3.5385647518591696,
+        "net": -2,
+        "qs_net6": 0,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 165665978762:32",
+      "variants": [
+        {
+          "id": "165665978762:32",
+          "san": "Nd4",
+          "uci": "c6d4",
+          "fenBefore": "2kr2nr/pp2pp2/1qn2b2/1B1p1P2/2p5/BPP3P1/P2P1QP1/RN3RK1 b - - 1 16",
+          "fenAfter": "2kr2nr/pp2pp2/1q3b2/1B1p1P2/2pn4/BPP3P1/P2P1QP1/RN3RK1 w - - 2 17",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.8587770690595827,
+          "referenceScore": 0.8587770690595827,
+          "features": {
+            "hang_see": 2,
+            "hang_type": 2,
+            "rank": 2,
+            "cp_loss": 70,
+            "wc_loss": 3.5385647518591696,
+            "net": -2,
+            "qs_net6": 0,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -477,
+              "mateWhite": null,
+              "pv": [
+                "b6b5"
+              ]
+            },
+            {
+              "cpWhite": -454,
+              "mateWhite": null,
+              "pv": [
+                "c6d4"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -407,
+            "mateWhite": null,
+            "pv": [
+              "f1e1"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "16...Qxb5",
+            "16...Nd4"
+          ],
+          "afterSan": "17.Re1"
+        }
+      ],
+      "move": "16...Nd4",
+      "gained": true,
+      "file": "22-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "183549510985:67",
+      "san": "Nxg5",
+      "uci": "f3g5",
+      "fenBefore": "r2r1q2/1pnb2k1/2pN1p2/2P2Pp1/pPB5/P3QN2/8/3R2K1 w - - 0 34",
+      "fenAfter": "r2r1q2/1pnb2k1/2pN1p2/2P2PN1/pPB5/P3Q3/8/3R2K1 b - - 0 34",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 2,
+        "hang_type": 2,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -1,
+        "qs_net6": 0,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 183549510985:67",
+      "variants": [
+        {
+          "id": "183549510985:67",
+          "san": "Nxg5",
+          "uci": "f3g5",
+          "fenBefore": "r2r1q2/1pnb2k1/2pN1p2/2P2Pp1/pPB5/P3QN2/8/3R2K1 w - - 0 34",
+          "fenAfter": "r2r1q2/1pnb2k1/2pN1p2/2P2PN1/pPB5/P3Q3/8/3R2K1 b - - 0 34",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9735969653412808,
+          "referenceScore": 0.9735969653412808,
+          "features": {
+            "hang_see": 2,
+            "hang_type": 2,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -1,
+            "qs_net6": 0,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 432,
+              "mateWhite": null,
+              "pv": [
+                "f3g5"
+              ]
+            },
+            {
+              "cpWhite": 297,
+              "mateWhite": null,
+              "pv": [
+                "g1f2"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 481,
+            "mateWhite": null,
+            "pv": [
+              "c7d5"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "34.Nxg5",
+            "34.Kf2"
+          ],
+          "afterSan": "34...Nd5"
+        }
+      ],
+      "move": "34.Nxg5",
+      "gained": true,
+      "file": "23-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "165044515796:52",
+      "san": "Rxg2",
+      "uci": "g7g2",
+      "fenBefore": "4r1k1/p1p2pr1/2p5/8/5q2/2Q1pB2/PPP2PP1/3RK3 b - - 1 26",
+      "fenAfter": "4r1k1/p1p2p2/2p5/8/5q2/2Q1pB2/PPP2Pr1/3RK3 w - - 0 27",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 5,
+        "hang_type": 4,
+        "rank": 1,
+        "cp_loss": 278,
+        "wc_loss": 1.8224349548109444,
+        "net": -4,
+        "qs_net6": 1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 165044515796:52",
+      "variants": [
+        {
+          "id": "165044515796:52",
+          "san": "Rxg2",
+          "uci": "g7g2",
+          "fenBefore": "4r1k1/p1p2pr1/2p5/8/5q2/2Q1pB2/PPP2PP1/3RK3 b - - 1 26",
+          "fenAfter": "4r1k1/p1p2p2/2p5/8/5q2/2Q1pB2/PPP2Pr1/3RK3 w - - 0 27",
+          "old": null,
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9576632935105708,
+          "referenceScore": 0.9576632935105708,
+          "features": {
+            "hang_see": 5,
+            "hang_type": 4,
+            "rank": 1,
+            "cp_loss": 278,
+            "wc_loss": 1.8224349548109444,
+            "net": -4,
+            "qs_net6": 1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -1234,
+              "mateWhite": null,
+              "pv": [
+                "g7g2"
+              ]
+            },
+            {
+              "cpWhite": -572,
+              "mateWhite": null,
+              "pv": [
+                "f4h4"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -956,
+            "mateWhite": null,
+            "pv": [
+              "c3e5"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "26...Rxg2",
+            "26...Qh4"
+          ],
+          "afterSan": "27.Qe5"
+        }
+      ],
+      "move": "26...Rxg2",
+      "gained": true,
+      "file": "24-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "170273353146:27",
+      "san": "Bxh6",
+      "uci": "c1h6",
+      "fenBefore": "r1bqr1k1/pp1n2p1/2p1p2p/3nP2Q/8/3B4/PPP2PPP/R1B1R1K1 w - - 3 14",
+      "fenAfter": "r1bqr1k1/pp1n2p1/2p1p2B/3nP2Q/8/3B4/PPP2PPP/R3R1K1 b - - 0 14",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 2,
+        "hang_type": 3,
+        "rank": 2,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -1,
+        "qs_net6": -1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 170273353146:27",
+      "variants": [
+        {
+          "id": "170273353146:27",
+          "san": "Bxh6",
+          "uci": "c1h6",
+          "fenBefore": "r1bqr1k1/pp1n2p1/2p1p2p/3nP2Q/8/3B4/PPP2PPP/R1B1R1K1 w - - 3 14",
+          "fenAfter": "r1bqr1k1/pp1n2p1/2p1p2B/3nP2Q/8/3B4/PPP2PPP/R3R1K1 b - - 0 14",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9639010889546544,
+          "referenceScore": 0.9639010889546544,
+          "features": {
+            "hang_see": 2,
+            "hang_type": 3,
+            "rank": 2,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -1,
+            "qs_net6": -1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 231,
+              "mateWhite": null,
+              "pv": [
+                "c2c4"
+              ]
+            },
+            {
+              "cpWhite": 220,
+              "mateWhite": null,
+              "pv": [
+                "c1h6"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 242,
+            "mateWhite": null,
+            "pv": [
+              "e8e7"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "14.c4",
+            "14.Bxh6"
+          ],
+          "afterSan": "14...Re7"
+        }
+      ],
+      "move": "14.Bxh6",
+      "gained": true,
+      "file": "25-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "185540484714:24",
+      "san": "Bxa3",
+      "uci": "b4a3",
+      "fenBefore": "2krr3/ppp2ppp/2n1bn2/q7/1b6/P1NP1NP1/1PPBQP1P/2KR1B1R b - - 2 12",
+      "fenAfter": "2krr3/ppp2ppp/2n1bn2/q7/8/b1NP1NP1/1PPBQP1P/2KR1B1R w - - 0 13",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 2,
+        "hang_type": 3,
+        "rank": 2,
+        "cp_loss": 30,
+        "wc_loss": 1.804537311982628,
+        "net": -1,
+        "qs_net6": -1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 185540484714:24",
+      "variants": [
+        {
+          "id": "185540484714:24",
+          "san": "Bxa3",
+          "uci": "b4a3",
+          "fenBefore": "2krr3/ppp2ppp/2n1bn2/q7/1b6/P1NP1NP1/1PPBQP1P/2KR1B1R b - - 2 12",
+          "fenAfter": "2krr3/ppp2ppp/2n1bn2/q7/8/b1NP1NP1/1PPBQP1P/2KR1B1R w - - 0 13",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9136643627145631,
+          "referenceScore": 0.9136643627145631,
+          "features": {
+            "hang_see": 2,
+            "hang_type": 3,
+            "rank": 2,
+            "cp_loss": 30,
+            "wc_loss": 1.804537311982628,
+            "net": -1,
+            "qs_net6": -1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -382,
+              "mateWhite": null,
+              "pv": [
+                "e6g4"
+              ]
+            },
+            {
+              "cpWhite": -290,
+              "mateWhite": null,
+              "pv": [
+                "b4a3"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -352,
+            "mateWhite": null,
+            "pv": [
+              "d1e1"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "12...Bg4",
+            "12...Bxa3"
+          ],
+          "afterSan": "13.Re1"
+        }
+      ],
+      "move": "12...Bxa3",
+      "gained": true,
+      "file": "26-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "184554948912:26",
+      "san": "Bxh2+",
+      "uci": "d6h2",
+      "fenBefore": "2kr3r/ppp2pp1/1q1b1n2/5b1p/NP1n4/3N4/PBPPBPPP/R2QR1K1 b - - 2 13",
+      "fenAfter": "2kr3r/ppp2pp1/1q3n2/5b1p/NP1n4/3N4/PBPPBPPb/R2QR1K1 w - - 0 14",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 3,
+        "hang_type": 3,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -2,
+        "qs_net6": -2,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 184554948912:26",
+      "variants": [
+        {
+          "id": "184554948912:26",
+          "san": "Bxh2+",
+          "uci": "d6h2",
+          "fenBefore": "2kr3r/ppp2pp1/1q1b1n2/5b1p/NP1n4/3N4/PBPPBPPP/R2QR1K1 b - - 2 13",
+          "fenAfter": "2kr3r/ppp2pp1/1q3n2/5b1p/NP1n4/3N4/PBPPBPPb/R2QR1K1 w - - 0 14",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9359253931724378,
+          "referenceScore": 0.9359253931724378,
+          "features": {
+            "hang_see": 3,
+            "hang_type": 3,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -2,
+            "qs_net6": -2,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -143,
+              "mateWhite": null,
+              "pv": [
+                "d6h2"
+              ]
+            },
+            {
+              "cpWhite": -98,
+              "mateWhite": null,
+              "pv": [
+                "d4e2"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -162,
+            "mateWhite": null,
+            "pv": [
+              "g1h1"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "13...Bxh2+",
+            "13...Nxe2+"
+          ],
+          "afterSan": "14.Kh1"
+        }
+      ],
+      "move": "13...Bxh2+",
+      "gained": true,
+      "file": "27-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "145419824932:41",
+      "san": "Rxg7",
+      "uci": "g1g7",
+      "fenBefore": "2rr3k/pp3pb1/2bpp2p/q6n/3BPP2/1BN5/PPPQ4/1K1R2R1 w - - 2 21",
+      "fenAfter": "2rr3k/pp3pR1/2bpp2p/q6n/3BPP2/1BN5/PPPQ4/1K1R4 b - - 0 21",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 5,
+        "hang_type": 4,
+        "rank": 3,
+        "cp_loss": 44,
+        "wc_loss": 1.5543147453888508,
+        "net": -2,
+        "qs_net6": -2,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 145419824932:41",
+      "variants": [
+        {
+          "id": "145419824932:41",
+          "san": "Rxg7",
+          "uci": "g1g7",
+          "fenBefore": "2rr3k/pp3pb1/2bpp2p/q6n/3BPP2/1BN5/PPPQ4/1K1R2R1 w - - 2 21",
+          "fenAfter": "2rr3k/pp3pR1/2bpp2p/q6n/3BPP2/1BN5/PPPQ4/1K1R4 b - - 0 21",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9550834631999778,
+          "referenceScore": 0.9550834631999778,
+          "features": {
+            "hang_see": 5,
+            "hang_type": 4,
+            "rank": 3,
+            "cp_loss": 44,
+            "wc_loss": 1.5543147453888508,
+            "net": -2,
+            "qs_net6": -2,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 597,
+              "mateWhite": null,
+              "pv": [
+                "d4g7"
+              ]
+            },
+            {
+              "cpWhite": 491,
+              "mateWhite": null,
+              "pv": [
+                "f4f5"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 553,
+            "mateWhite": null,
+            "pv": [
+              "h5g7"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "21.Bxg7+",
+            "21.f5"
+          ],
+          "afterSan": "21...Nxg7"
+        }
+      ],
+      "move": "21.Rxg7",
+      "gained": true,
+      "file": "28-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "167940763426:28",
+      "san": "Rxe3",
+      "uci": "e8e3",
+      "fenBefore": "3rr1k1/ppp2ppp/2nb1n2/8/2PP4/4BN1q/PP1NBP2/R2QR1K1 b - - 1 14",
+      "fenAfter": "3r2k1/ppp2ppp/2nb1n2/8/2PP4/4rN1q/PP1NBP2/R2QR1K1 w - - 0 15",
+      "recordedBrilliant": true,
+      "features": {
+        "hang_see": 5,
+        "hang_type": 4,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -2,
+        "qs_net6": -2,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case 167940763426:28",
+      "variants": [
+        {
+          "id": "167940763426:28",
+          "san": "Rxe3",
+          "uci": "e8e3",
+          "fenBefore": "3rr1k1/ppp2ppp/2nb1n2/8/2PP4/4BN1q/PP1NBP2/R2QR1K1 b - - 1 14",
+          "fenAfter": "3r2k1/ppp2ppp/2nb1n2/8/2PP4/4rN1q/PP1NBP2/R2QR1K1 w - - 0 15",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": true,
+          "candidate": true,
+          "score": 0.9828958927809792,
+          "referenceScore": 0.9828958927809792,
+          "features": {
+            "hang_see": 5,
+            "hang_type": 4,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -2,
+            "qs_net6": -2,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -372,
+              "mateWhite": null,
+              "pv": [
+                "e8e3"
+              ]
+            },
+            {
+              "cpWhite": -355,
+              "mateWhite": null,
+              "pv": [
+                "h3g4"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -383,
+            "mateWhite": null,
+            "pv": [
+              "c4c5"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "14...Rxe3",
+            "14...Qg4+"
+          ],
+          "afterSan": "15.c5"
+        }
+      ],
+      "move": "14...Rxe3",
+      "gained": true,
+      "file": "29-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "180013382960:64",
+      "san": "Kxg6",
+      "uci": "g7g6",
+      "fenBefore": "7r/1bq3k1/pN2p1P1/1pP2p2/4p1n1/1PQ4P/P4PB1/3R3K b - - 2 32",
+      "fenAfter": "7r/1bq5/pN2p1k1/1pP2p2/4p1n1/1PQ4P/P4PB1/3R3K w - - 0 33",
+      "recordedBrilliant": false,
+      "features": {
+        "hang_see": 5,
+        "hang_type": 4,
+        "rank": 1,
+        "cp_loss": 25,
+        "wc_loss": 2.2954287506018005,
+        "net": -4,
+        "qs_net6": 1,
+        "hang_is_moved": 0
+      },
+      "dataset": "labeled",
+      "game": "Reference case 180013382960:64",
+      "variants": [
+        {
+          "id": "180013382960:64",
+          "san": "Kxg6",
+          "uci": "g7g6",
+          "fenBefore": "7r/1bq3k1/pN2p1P1/1pP2p2/4p1n1/1PQ4P/P4PB1/3R3K b - - 2 32",
+          "fenAfter": "7r/1bq5/pN2p1k1/1pP2p2/4p1n1/1PQ4P/P4PB1/3R3K w - - 0 33",
+          "old": "brilliant",
+          "new": "interesting",
+          "recordedBrilliant": false,
+          "candidate": true,
+          "score": 0.0857685243080032,
+          "referenceScore": 0.0857685243080032,
+          "features": {
+            "hang_see": 5,
+            "hang_type": 4,
+            "rank": 1,
+            "cp_loss": 25,
+            "wc_loss": 2.2954287506018005,
+            "net": -4,
+            "qs_net6": 1,
+            "hang_is_moved": 0
+          },
+          "beforeLines": [
+            {
+              "cpWhite": -39,
+              "mateWhite": null,
+              "pv": [
+                "g7g6"
+              ]
+            },
+            {
+              "cpWhite": 116,
+              "mateWhite": null,
+              "pv": [
+                "g7g8"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": -14,
+            "mateWhite": null,
+            "pv": [
+              "d1d6"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "32...Kxg6",
+            "32...Kg8"
+          ],
+          "afterSan": "33.Rd6"
+        }
+      ],
+      "move": "32...Kxg6",
+      "gained": false,
+      "file": "30-lost",
+      "defaultVariant": 0
+    },
+    {
+      "id": "opp/172333987890:62",
+      "san": "Rxe7",
+      "uci": "g7e7",
+      "fenBefore": "r4k2/pp2P1r1/3P2p1/2p2p1p/B1P4P/5P2/PP6/5RK1 b - - 0 31",
+      "fenAfter": "r4k2/pp2r3/3P2p1/2p2p1p/B1P4P/5P2/PP6/5RK1 w - - 0 32",
+      "recordedBrilliant": false,
+      "features": {
+        "hang_see": 4,
+        "hang_type": 4,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -3,
+        "qs_net6": -3,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case opp/172333987890:62",
+      "variants": [
+        {
+          "id": "opp/172333987890:62",
+          "san": "Rxe7",
+          "uci": "g7e7",
+          "fenBefore": "r4k2/pp2P1r1/3P2p1/2p2p1p/B1P4P/5P2/PP6/5RK1 b - - 0 31",
+          "fenAfter": "r4k2/pp2r3/3P2p1/2p2p1p/B1P4P/5P2/PP6/5RK1 w - - 0 32",
+          "old": "brilliant",
+          "new": null,
+          "recordedBrilliant": false,
+          "candidate": true,
+          "score": 0.0006631917205897753,
+          "referenceScore": 0.0006631917205897753,
+          "features": {
+            "hang_see": 4,
+            "hang_type": 4,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -3,
+            "qs_net6": -3,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 370,
+              "mateWhite": null,
+              "pv": [
+                "g7e7"
+              ]
+            },
+            {
+              "cpWhite": 644,
+              "mateWhite": null,
+              "pv": [
+                "f8g8"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 357,
+            "mateWhite": null,
+            "pv": [
+              "d6e7"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "31...Rxe7",
+            "31...Kg8"
+          ],
+          "afterSan": "32.dxe7+"
+        }
+      ],
+      "move": "31...Rxe7",
+      "gained": false,
+      "file": "31-lost",
+      "defaultVariant": 0
+    },
+    {
+      "id": "dash/tjxdTRho:11",
+      "san": "Ne5",
+      "uci": "f3e5",
+      "fenBefore": "rn1qkb1r/pp2pppp/2p2n2/8/2B1N1b1/5N2/PPPP1PPP/R1BQK2R w KQkq - 3 6",
+      "fenAfter": "rn1qkb1r/pp2pppp/2p2n2/4N3/2B1N1b1/8/PPPP1PPP/R1BQK2R b KQkq - 4 6",
+      "recordedBrilliant": false,
+      "features": {
+        "hang_see": 6,
+        "hang_type": 5,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -6,
+        "qs_net6": 0,
+        "hang_is_moved": 0
+      },
+      "dataset": "labeled",
+      "game": "Reference case dash/tjxdTRho:11",
+      "variants": [
+        {
+          "id": "dash/tjxdTRho:11",
+          "san": "Ne5",
+          "uci": "f3e5",
+          "fenBefore": "rn1qkb1r/pp2pppp/2p2n2/8/2B1N1b1/5N2/PPPP1PPP/R1BQK2R w KQkq - 3 6",
+          "fenAfter": "rn1qkb1r/pp2pppp/2p2n2/4N3/2B1N1b1/8/PPPP1PPP/R1BQK2R b KQkq - 4 6",
+          "old": null,
+          "new": "brilliant",
+          "recordedBrilliant": false,
+          "candidate": true,
+          "score": 0.916006072483956,
+          "referenceScore": 0.916006072483956,
+          "features": {
+            "hang_see": 6,
+            "hang_type": 5,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -6,
+            "qs_net6": 0,
+            "hang_is_moved": 0
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 246,
+              "mateWhite": null,
+              "pv": [
+                "f3e5"
+              ]
+            },
+            {
+              "cpWhite": 164,
+              "mateWhite": null,
+              "pv": [
+                "c4f7"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 288,
+            "mateWhite": null,
+            "pv": [
+              "d8d4"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "6.Ne5",
+            "6.Bxf7+"
+          ],
+          "afterSan": "6...Qd4"
+        }
+      ],
+      "move": "6.Ne5",
+      "gained": true,
+      "file": "32-gained",
+      "defaultVariant": 0
+    },
+    {
+      "id": "dash/DEFZuyyq:27",
+      "san": "Bxh6",
+      "uci": "g5h6",
+      "fenBefore": "r1b1qrk1/ppp1bpp1/5n1p/6B1/7Q/2N5/PPP1BPPP/3RR1K1 w - - 2 14",
+      "fenAfter": "r1b1qrk1/ppp1bpp1/5n1B/8/7Q/2N5/PPP1BPPP/3RR1K1 b - - 0 14",
+      "recordedBrilliant": false,
+      "features": {
+        "hang_see": 2,
+        "hang_type": 3,
+        "rank": 1,
+        "cp_loss": 0,
+        "wc_loss": 0.0,
+        "net": -1,
+        "qs_net6": -1,
+        "hang_is_moved": 1
+      },
+      "dataset": "labeled",
+      "game": "Reference case dash/DEFZuyyq:27",
+      "variants": [
+        {
+          "id": "dash/DEFZuyyq:27",
+          "san": "Bxh6",
+          "uci": "g5h6",
+          "fenBefore": "r1b1qrk1/ppp1bpp1/5n1p/6B1/7Q/2N5/PPP1BPPP/3RR1K1 w - - 2 14",
+          "fenAfter": "r1b1qrk1/ppp1bpp1/5n1B/8/7Q/2N5/PPP1BPPP/3RR1K1 b - - 0 14",
+          "old": "interesting",
+          "new": "brilliant",
+          "recordedBrilliant": false,
+          "candidate": true,
+          "score": 0.9482999838615015,
+          "referenceScore": 0.9482999838615015,
+          "features": {
+            "hang_see": 2,
+            "hang_type": 3,
+            "rank": 1,
+            "cp_loss": 0,
+            "wc_loss": 0.0,
+            "net": -1,
+            "qs_net6": -1,
+            "hang_is_moved": 1
+          },
+          "beforeLines": [
+            {
+              "cpWhite": 243,
+              "mateWhite": null,
+              "pv": [
+                "g5h6"
+              ]
+            },
+            {
+              "cpWhite": 165,
+              "mateWhite": null,
+              "pv": [
+                "g5c1"
+              ]
+            }
+          ],
+          "afterLine": {
+            "cpWhite": 268,
+            "mateWhite": null,
+            "pv": [
+              "g7h6"
+            ]
+          },
+          "engineMode": "Reference window",
+          "beforeSan": [
+            "14.Bxh6",
+            "14.Bc1"
+          ],
+          "afterSan": "14...gxh6"
+        }
+      ],
+      "move": "14.Bxh6",
+      "gained": true,
+      "file": "33-gained",
+      "defaultVariant": 0
+    }
+  ]
+}
