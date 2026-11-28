@@ -1,5 +1,8 @@
 # Maia bot-pool starting ratings — evidence and reproduction
 
+> **Moved to Mute Chess research.** Read the [data and reproduction guide](https://github.com/Dash1971/mute-chess-research/blob/main/studies/elo-seeding/bot-strength-seeding-2026-10-31/README.md) there.
+> The original publication below is retained for existing citations and evidence links.
+
 [Read the report](REPORT.md). The completed study contains **2,623 public native
 Blitz/Rapid games and 221,867 legal acknowledged plies**, including 623 held-out
 matches. The primary and preregistered secondary predictors missed the practical

@@ -1,5 +1,8 @@
 # How we rate the bots in Mute Chess
 
+> **Moved to Mute Chess research.** Read the [illustrated report](https://github.com/Dash1971/mute-chess-research/blob/main/studies/elo-seeding/REPORT.md) there.
+> The original publication below is retained for existing citations and evidence links.
+
 ![Lichess as the starting reference, games as the test, and Glicko as the rating system.](figures/reader-cover.png)
 
 [Mute Chess](https://mutechess.org) brings Maia opponents into the Lichess playing

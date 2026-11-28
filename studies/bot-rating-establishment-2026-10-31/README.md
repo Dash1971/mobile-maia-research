@@ -1,5 +1,8 @@
 # Bot rating estimates: data and reproduction
 
+> **Moved to Mute Chess research.** Read the [data and reproduction guide](https://github.com/Dash1971/mute-chess-research/blob/main/studies/elo-seeding/bot-rating-establishment-2026-10-31/README.md) there.
+> The original publication below is retained for existing citations and evidence links.
+
 The [public report](REPORT.md) explains how Mute Chess uses a varied Maia
 reference pool to estimate starting ratings for new bots. This guide contains
 the exact settings, recorded results and reproduction steps behind that article.

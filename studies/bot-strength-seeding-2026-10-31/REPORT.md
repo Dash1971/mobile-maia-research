@@ -1,5 +1,8 @@
 # Predicting starting ratings for a varied Maia bot pool
 
+> **Moved to Mute Chess research.** Read the [report](https://github.com/Dash1971/mute-chess-research/blob/main/studies/elo-seeding/bot-strength-seeding-2026-10-31/REPORT.md) there.
+> The original publication below is retained for existing citations and evidence links.
+
 **October 31, 2026: 2,623 public games, 623 held-out games and two fixed prediction procedures.**
 
 **The target of at most 100 rating points of held-out error was not met.**
